@@ -28,7 +28,23 @@ const playlist = [
     { title: "What Goes On", artist: "The Beatles", cover: "rubber soul.jpg", audio: "what goes on.mp3" },//26
 ];
 
+// Select the elements
+const homeButton = document.querySelector(".home");
+const songResults = document.querySelector(".song-results");
+const defaultContent = document.querySelector(".default-content");
 
+// Toggle visibility when the home button is clicked
+homeButton.addEventListener("click", () => {
+    if (songResults.style.display === "none") {
+        // Show song results and hide default content
+        songResults.style.display = "block";  // or 'block' depending on the layout
+        defaultContent.style.display = "none";
+    } else {
+        // Show default content and hide song results
+        songResults.style.display = "none";
+        defaultContent.style.display = "block";
+    }
+});
 document.getElementById("search-btn").addEventListener("click", function() {
     const query = document.getElementById("search-bar").value.toLowerCase();
     if(query) {
@@ -47,12 +63,12 @@ document.getElementById("search-bar").addEventListener("keypress", function(even
 });
 
 function displayResults(results) {
-    const resultsContainer = document.getElementById("song-results");
+    const resultsContainer = document.querySelector(".song-results");
     resultsContainer.innerHTML = ''; // Clear previous results
     if (results.length > 0) {
         results.forEach(song => {
             const songDiv = document.createElement("div");
-            songDiv.classList.add("song-result");
+            songDiv.classList.add("song-results");
 
             const songImage = document.createElement("img");
             songImage.src = song.cover;
@@ -109,6 +125,31 @@ function loadTrack(trackIndex) {
     sidebar.style.backgroundPosition = "center";      // Center the image
     sidebar.style.borderRadius = "8px";               // Maintain border-radius if needed
     sidebar.style.width = "100%";
+    audio.onloadedmetadata = () => {
+        durationElement.textContent = formatTime(audio.duration);
+        progressSlider.max = Math.floor(audio.duration);
+    };
+}
+
+// Play selected song and update footer
+function playSong(audioFile) {
+    audio.src = audioFile;
+    audio.load();
+    audio.play();
+    isPlaying = true;
+    playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';
+    
+    // Update the footer with song details
+    const track = playlist.find(song => song.audio === audioFile);
+    nowPlayingTitle.textContent = track.title;
+    nowPlayingArtist.textContent = track.artist;
+    nowPlayingCover.src = track.cover;
+    sidebar.src = track.cover;
+    sidebar.style.backgroundSize = "cover";
+    sidebar.style.backgroundPosition = "center";
+    sidebar.style.borderRadius = "8px";
+    sidebar.style.width = "100%";
+
     audio.onloadedmetadata = () => {
         durationElement.textContent = formatTime(audio.duration);
         progressSlider.max = Math.floor(audio.duration);
