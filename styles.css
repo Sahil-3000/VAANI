@@ -30,15 +30,15 @@ body {
     border: none;
     position: absolute;
     right: 30%;
-    top: 3.5%;
+    top: 2%;
     border-radius:5px;
     
     transform: translateY(-50%);
     cursor: pointer;
 }
 .search-btn {
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
     object-fit: contain;
 }
 .search-img{
