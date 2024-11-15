@@ -1,31 +1,33 @@
 // Playlist data
 const playlist = [
-    { title: "Jo Tum Mere Ho", artist: "Anuv Jain", cover: "track1.jpg", audio: "jo tum mere ho.mp3" },//song1
-    { title: "Fly Karke", artist: "SABBA, Jasmeen", cover: "track2.jpg", audio: "fly krke.mp3" },//song2
-    { title: "Ik Mutiyar Hundi Si", artist: "Hustinder, Black", cover: "track3.jpg", audio: "ik mutiyar hundi si.mp3" },//song3
-    { title: "Youth Flow", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "youth flow.mp3" },//song4
-    { title: "Glorious", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "glorious.mp3" },//song5
-    { title: "Maavan", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "maavan.mp3" },//song6
-    { title: "Back To Sikhi", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "back to sikhi.mp3" },//song7
-    { title: "Biography", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "biography.mp3" },//song8
-    { title: "Tyar", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "tyar.mp3" },//song9
-    { title: "Up To You", artist: "Dhanda Nyoliwala", cover: "up to you.jpg", audio: "up to you.mp3" },//song10
-    { title: "Russian Bandana", artist: "Dhanda Nyoliwala", cover: "russian bandana.jpg", audio: "russian bandana.mp3" },//song11
-    { title: "Ishq", artist: "Faheem Abdullah,Rauhan Malik", cover: "ishq.jpg", audio: "ishq.mp3" },//song12
-    { title: "If I Needed Someone", artist: "The Beatles", cover: "rubber soul.jpg", audio: "if i needed someone.mp3" },//13
-    { title: "Norwegian Wood", artist: "The Beatles", cover: "rubber soul.jpg", audio: "norwegian wood.mp3" },//14
-    { title: "You Won't See Me", artist: "The Beatles", cover: "rubber soul.jpg", audio: "you won't see me.mp3" },//15
-    { title: "Think For Yourself", artist: "The Beatles", cover: "rubber soul.jpg", audio: "think for yourself.mp3" },//16
-    { title: "The Word", artist: "The Beatles", cover: "rubber soul.jpg", audio: "the word.mp3" },//17
-    { title: "Michelle", artist: "The Beatles", cover: "rubber soul.jpg", audio: "michelle.mp3" },//18
-    { title: "Drive My Car", artist: "The Beatles", cover: "rubber soul.jpg", audio: "drive my car.mp3" },//19
-    { title: "Girl", artist: "The Beatles", cover: "rubber soul.jpg", audio: "girl.mp3" },//20
-    { title: "I'm Looking Through You", artist: "The Beatles", cover: "rubber soul.jpg", audio: "i'm looking through you.mp3" },//21
-    { title: "In My Life", artist: "The Beatles", cover: "rubber soul.jpg", audio: "In My Life.mp3" },//22
-    { title: "Wait", artist: "The Beatles", cover: "rubber soul.jpg", audio: "wait.mp3" },//23
-    { title: "Run For Your Life", artist: "The Beatles", cover: "rubber soul.jpg", audio: "run for your life.mp3" },//24
-    { title: "Nowhere Man", artist: "The Beatles", cover: "rubber soul.jpg", audio: "nowhere man.mp3" },//25
-    { title: "What Goes On", artist: "The Beatles", cover: "rubber soul.jpg", audio: "what goes on.mp3" },//26
+    { title: "Jo Tum Mere Ho", artist: "Anuv Jain", cover: "covers/track1.jpg", audio: "songs/jo tum mere ho.mp3" },//song1
+    { title: "Fly Karke", artist: "SABBA, Jasmeen", cover: "covers/track2.jpg", audio: "songs/fly krke.mp3" },//song2
+    { title: "Ik Mutiyar Hundi Si", artist: "Hustinder, Black", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
+    { title: "Youth Flow", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/youth flow.mp3" },//song4
+    { title: "Glorious", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/glorious.mp3" },//song5
+    { title: "Maavan", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/maavan.mp3" },//song6
+    { title: "Back To Sikhi", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/back to sikhi.mp3" },//song7
+    { title: "Biography", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/biography.mp3" },//song8
+    { title: "Tyar", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/tyar.mp3" },//song9
+    { title: "Up To You", artist: "Dhanda Nyoliwala", cover: "covers/up to you.jpg", audio: "songs/up to you.mp3" },//song10
+    { title: "Russian Bandana", artist: "Dhanda Nyoliwala", cover: "covers/russian bandana.jpg", audio: "songs/russian bandana.mp3" },//song11
+    { title: "Ishq", artist: "Faheem Abdullah,Rauhan Malik", cover: "covers/ishq.jpg", audio: "songs/ishq.mp3" },//song12
+    { title: "If I Needed Someone", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/if i needed someone.mp3" },//13
+    { title: "Norwegian Wood", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/norwegian wood.mp3" },//14
+    { title: "You Won't See Me", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/you won't see me.mp3" },//15
+    { title: "Think For Yourself", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/think for yourself.mp3" },//16
+    { title: "The Word", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/the word.mp3" },//17
+    { title: "Michelle", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/michelle.mp3" },//18
+    { title: "Drive My Car", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/drive my car.mp3" },//19
+    { title: "Girl", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/girl.mp3" },//20
+    { title: "I'm Looking Through You", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/i'm looking through you.mp3" },//21
+    { title: "In My Life", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/In My Life.mp3" },//22
+    { title: "Wait", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/wait.mp3" },//23
+    { title: "Run For Your Life", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/run for your life.mp3" },//24
+    { title: "Nowhere Man", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/nowhere man.mp3" },//25
+    { title: "What Goes On", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/what goes on.mp3" },//26
+    { title: "Victory Anthem", artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/victory anthem.mp3" },//27
+
 ];
 
 // Select the elements
