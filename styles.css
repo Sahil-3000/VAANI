@@ -147,7 +147,7 @@ body {
 .sidebars-main {
     display: flex;
     /* justify-content: space-between; */
-    width:auto;
+    width:100vw;
     height:100vh;
     margin-bottom: 50px;
     background-color: black;
