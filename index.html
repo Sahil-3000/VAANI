@@ -26,10 +26,18 @@
                         <img src="home.png" alt="Home">
                     </div>
                     <!-- Search Bar with Icon -->
-                    <div class="search-container">
+                    <!-- <div class="search-container">
 
                         <input type="text" placeholder="What do you want to play?" class="search-bar">
-                    </div>
+                    </div> -->
+                    <!-- Search Bar with Icon -->
+                <div class="search-container">
+                    <input type="text" placeholder="What do you want to play?" class="search-bar" id="search-bar">
+                    <button class="search-btn" id="search-btn">
+                        <img src="search logo.png" alt="search icon" class="search-img">
+                    </button>
+                </div>
+                    <div id="song-results"></div>
                 </div>
                 <div class="user-profile">
                     <img src="profile.png" alt="User Profile">
@@ -52,10 +60,104 @@
                             <div class="album-artist">The Beatles</div>
                         </div>
                     </div>
-                    <div class="library-item">Liked Songs</div>
-                    <div class="library-item">Workout</div>
-                    <div class="library-item">Nice</div>
-                    <div class="library-item">The Beatles</div>
+                    <div class="library-item">
+                        <img src="rubber soul.jpg" alt="Album1 Image">
+                        <div class="album-meta">
+                            <div class="album-title">Liked Songs</div>
+                            <div class="album-artist">Eminem,Billie Eilish,Jassi Gill...</div>
+                        </div>
+                    </div>
+                    <div class="library-item">
+                        <img src="rubber soul.jpg" alt="Album1 Image">
+                        <div class="album-meta">
+                            <div class="album-title">Workout</div>
+                            <div class="album-artist">Eminem</div>
+                        </div>
+                    </div>
+                    <div class="library-item">
+                        <img src="rubber soul.jpg" alt="Album1 Image">
+                        <div class="album-meta">
+                            <div class="album-title">Sleep</div>
+                            <div class="album-artist">Anuv Jain,Billie Eilish,The Beatles...</div>
+                        </div>
+                    </div>
+                    <div class="library-item">
+                        <img src="rubber soul.jpg" alt="Album1 Image">
+                        <div class="album-meta">
+                            <div class="album-title">The Beatles</div>
+                            <div class="album-artist">The Beatles,Elvis Presly,Doris Day...</div>
+                        </div>
+                    </div>
+                    <div class="library-item">
+                        <img src="rubber soul.jpg" alt="Album1 Image">
+                        <div class="album-meta">
+                            <div class="album-title">Rubber Soul</div>
+                            <div class="album-artist">The Beatles</div>
+                        </div>
+                    </div>
+                    <div class="library-item">
+                        <img src="rubber soul.jpg" alt="Album1 Image">
+                        <div class="album-meta">
+                            <div class="album-title">Liked Songs</div>
+                            <div class="album-artist">Eminem,Billie Eilish,Jassi Gill...</div>
+                        </div>
+                    </div>
+                    <div class="library-item">
+                        <img src="rubber soul.jpg" alt="Album1 Image">
+                        <div class="album-meta">
+                            <div class="album-title">Workout</div>
+                            <div class="album-artist">Eminem</div>
+                        </div>
+                    </div>
+                    <div class="library-item">
+                        <img src="rubber soul.jpg" alt="Album1 Image">
+                        <div class="album-meta">
+                            <div class="album-title">Sleep</div>
+                            <div class="album-artist">Anuv Jain,Billie Eilish,The Beatles...</div>
+                        </div>
+                    </div>
+                    <div class="library-item">
+                        <img src="rubber soul.jpg" alt="Album1 Image">
+                        <div class="album-meta">
+                            <div class="album-title">The Beatles</div>
+                            <div class="album-artist">The Beatles,Elvis Presly,Doris Day...</div>
+                        </div>
+                    </div>
+                    <div class="library-item">
+                        <img src="rubber soul.jpg" alt="Album1 Image">
+                        <div class="album-meta">
+                            <div class="album-title">Rubber Soul</div>
+                            <div class="album-artist">The Beatles</div>
+                        </div>
+                    </div>
+                    <div class="library-item">
+                        <img src="rubber soul.jpg" alt="Album1 Image">
+                        <div class="album-meta">
+                            <div class="album-title">Liked Songs</div>
+                            <div class="album-artist">Eminem,Billie Eilish,Jassi Gill...</div>
+                        </div>
+                    </div>
+                    <div class="library-item">
+                        <img src="rubber soul.jpg" alt="Album1 Image">
+                        <div class="album-meta">
+                            <div class="album-title">Workout</div>
+                            <div class="album-artist">Eminem</div>
+                        </div>
+                    </div>
+                    <div class="library-item">
+                        <img src="rubber soul.jpg" alt="Album1 Image">
+                        <div class="album-meta">
+                            <div class="album-title">Sleep</div>
+                            <div class="album-artist">Anuv Jain,Billie Eilish,The Beatles...</div>
+                        </div>
+                    </div>
+                    <div class="library-item">
+                        <img src="rubber soul.jpg" alt="Album1 Image">
+                        <div class="album-meta">
+                            <div class="album-title">The Beatles</div>
+                            <div class="album-artist">The Beatles,Elvis Presly,Doris Day...</div>
+                        </div>
+                    </div>
                 </div>
             </aside>
 
@@ -63,6 +165,49 @@
             <main>
                 <!-- Featured Playlist -->
                 <section class="content-section">
+                    </div>
+                        <div id="song-results" style="display: none;"></div>
+                    </div>
+                    <div class="featured-playlist">
+                        <h2>Loved Songs</h2>
+                        <div class="playlist-grid">
+                            <div class="playlist-item"><img src="The Beatles Hits.jpg" alt="The Beatles Hits"></div>
+                            <div class="playlist-item"><img src="BTS.jpg" alt="Punjabi Diwali Hits"></div>
+                            <div class="playlist-item"><img src="eminem.jpg" alt="Punjabi Diwali Hits"></div>
+                            <div class="playlist-item"><img src="The Beatles.jpg" alt="The Beatles Hits"></div>
+                            <div class="playlist-item"><img src="death of slim shady.jpg" alt="The Beatles Hits"></div>
+                            <div class="playlist-item"><img src="Punjabi Diwali Hits.jpg" alt="Punjabi Diwali Hits">
+                            </div>
+                            <div class="playlist-item"><img src="eminem.jpg" alt="Punjabi Diwali Hits"></div>
+                            <div class="playlist-item"><img src="punjabi vibes.jpg" alt="The Beatles Hits"></div>
+                        </div>
+                    </div>
+
+                    <!-- Recommended Playlists -->
+                    <div class="recommended">
+                        <h2>Made For Sahil</h2>
+                        <div class="recommended-grid">
+                            <div class="recommended-item"><img src="death of slim shady.jpg" alt="The Beatles Hits">
+                            </div>
+                            <div class="recommended-item"><img src="imagine dragons.jpg" alt="Punjabi Diwali Hits">
+                            </div>
+                            <div class="recommended-item"><img src="justin bieber.jpg" alt="The Beatles Hits"></div>
+                            <div class="recommended-item"><img src="salina gomez.jpg" alt="Punjabi Diwali Hits">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Trending -->
+                    <div class="trending">
+                        <h2>2024 Trending</h2>
+                        <div class="trending-grid">
+                            <div class="trending-item"><img src="ed sheeran.jpg" alt="The Beatles Hits"></div>
+                            <div class="trending-item"><img src="punjabi vibes.jpg" alt="Punjabi Diwali Hits">
+                            </div>
+                            <div class="trending-item"><img src="The Beatles Hits.jpg" alt="The Beatles Hits"></div>
+                            <div class="trending-item"><img src="arijit singh.jpg" alt="Punjabi Diwali Hits">
+                            </div>
+                        </div>
+                    </div>
                     <div class="featured-playlist">
                         <h2>Loved Songs</h2>
                         <div class="playlist-grid">
@@ -108,8 +253,13 @@
             <!-- Second Sidebar -->
             <aside class="sidebar2" border-radius="8">
                 <div class="current-song-cover">
-                    <img src="track1.jpg" alt="Current Song Cover" width="100%">
+                    <img src="track1.jpg" alt="Current Song Cover" width="100%"> 
                 </div>
+                <div class="song-info">Jo Tum Mere Ho</div>
+                <div class="artist-info">Anuv Jain</div>
+                <div class="credits">Credits</div>
+                <div class="next-in-queue">Next In Queue</div>
+                
             </aside>
 
         </div>

@@ -1,19 +1,85 @@
 // Playlist data
 const playlist = [
-    { title: "Jo Tum Mere Ho", artist: "Anuv Jain", cover: "track1.jpg", audio: "audio1.mp3" },
-    { title: "Fly Karke", artist: "SABBA, Jasmeen", cover: "track2.jpg", audio: "audio2.mp3" },
-    { title: "Ik Mutiyar Hundi Si", artist: "Hustinder, Black", cover: "track3.jpg", audio: "audio3.mp3" },
-    { title: "Youth Flow", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "audio4.mp3" },
-    { title: "Glorious", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "audio5.mp3" },
-    { title: "Maavan", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "audio6.mp3" },
-    { title: "Back To Sikhi", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "audio7.mp3" },
-    { title: "Biography", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "audio8.mp3" },
-    { title: "Tyar", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "audio9.mp3" },
-    { title: "Up To You", artist: "Dhanda Nyoliwala", cover: "up to you.jpg", audio: "audio10.mp3" },
-    { title: "Russian Bandana", artist: "Dhanda Nyoliwala", cover: "russian bandana.jpg", audio: "audio11.mp3" },
-    { title: "Ishq", artist: "Faheem Abdullah,Rauhan Malik", cover: "ishq.jpg", audio: "audio12.mp3" },
-
+    { title: "Jo Tum Mere Ho", artist: "Anuv Jain", cover: "track1.jpg", audio: "jo tum mere ho.mp3" },//song1
+    { title: "Fly Karke", artist: "SABBA, Jasmeen", cover: "track2.jpg", audio: "fly krke.mp3" },//song2
+    { title: "Ik Mutiyar Hundi Si", artist: "Hustinder, Black", cover: "track3.jpg", audio: "ik mutiyar hundi si.mp3" },//song3
+    { title: "Youth Flow", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "youth flow.mp3" },//song4
+    { title: "Glorious", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "glorious.mp3" },//song5
+    { title: "Maavan", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "maavan.mp3" },//song6
+    { title: "Back To Sikhi", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "back to sikhi.mp3" },//song7
+    { title: "Biography", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "biography.mp3" },//song8
+    { title: "Tyar", artist: "Arjan Dhillon", cover: "Chobbar.jpg", audio: "tyar.mp3" },//song9
+    { title: "Up To You", artist: "Dhanda Nyoliwala", cover: "up to you.jpg", audio: "up to you.mp3" },//song10
+    { title: "Russian Bandana", artist: "Dhanda Nyoliwala", cover: "russian bandana.jpg", audio: "russian bandana.mp3" },//song11
+    { title: "Ishq", artist: "Faheem Abdullah,Rauhan Malik", cover: "ishq.jpg", audio: "ishq.mp3" },//song12
+    { title: "If I Needed Someone", artist: "The Beatles", cover: "rubber soul.jpg", audio: "if i needed someone.mp3" },//13
+    { title: "Norwegian Wood", artist: "The Beatles", cover: "rubber soul.jpg", audio: "norwegian wood.mp3" },//14
+    { title: "You Won't See Me", artist: "The Beatles", cover: "rubber soul.jpg", audio: "you won't see me.mp3" },//15
+    { title: "Think For Yourself", artist: "The Beatles", cover: "rubber soul.jpg", audio: "think for yourself.mp3" },//16
+    { title: "The Word", artist: "The Beatles", cover: "rubber soul.jpg", audio: "the word.mp3" },//17
+    { title: "Michelle", artist: "The Beatles", cover: "rubber soul.jpg", audio: "michelle.mp3" },//18
+    { title: "Drive My Car", artist: "The Beatles", cover: "rubber soul.jpg", audio: "drive my car.mp3" },//19
+    { title: "Girl", artist: "The Beatles", cover: "rubber soul.jpg", audio: "girl.mp3" },//20
+    { title: "I'm Looking Through You", artist: "The Beatles", cover: "rubber soul.jpg", audio: "i'm looking through you.mp3" },//21
+    { title: "In My Life", artist: "The Beatles", cover: "rubber soul.jpg", audio: "In My Life.mp3" },//22
+    { title: "Wait", artist: "The Beatles", cover: "rubber soul.jpg", audio: "wait.mp3" },//23
+    { title: "Run For Your Life", artist: "The Beatles", cover: "rubber soul.jpg", audio: "run for your life.mp3" },//24
+    { title: "Nowhere Man", artist: "The Beatles", cover: "rubber soul.jpg", audio: "nowhere man.mp3" },//25
+    { title: "What Goes On", artist: "The Beatles", cover: "rubber soul.jpg", audio: "what goes on.mp3" },//26
 ];
+
+
+document.getElementById("search-btn").addEventListener("click", function() {
+    const query = document.getElementById("search-bar").value.toLowerCase();
+    if(query) {
+        const results = playlist.filter(song => 
+            song.title.toLowerCase().includes(query) || song.artist.toLowerCase().includes(query)
+        );
+        displayResults(results);
+    }
+});
+
+// Optional: Allow Enter key to trigger search
+document.getElementById("search-bar").addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        document.getElementById("search-btn").click();
+    }
+});
+
+function displayResults(results) {
+    const resultsContainer = document.getElementById("song-results");
+    resultsContainer.innerHTML = ''; // Clear previous results
+    if (results.length > 0) {
+        results.forEach(song => {
+            const songDiv = document.createElement("div");
+            songDiv.classList.add("song-result");
+
+            const songImage = document.createElement("img");
+            songImage.src = song.cover;
+            songImage.alt = song.title;
+            songDiv.appendChild(songImage);
+
+            const songTitle = document.createElement("p");
+            songTitle.textContent = `${song.title} - ${song.artist}`;
+            songDiv.appendChild(songTitle);
+
+            const playButton = document.createElement("button");
+            playButton.textContent = "Play";
+            playButton.onclick = () => playSong(song.audio);
+            songDiv.appendChild(playButton);
+
+            resultsContainer.appendChild(songDiv);
+        });
+    } else {
+        resultsContainer.innerHTML = '<p>No songs found.</p>';
+    }
+}
+
+function playSong(audioFile) {
+    const audio = new Audio(audioFile);
+    audio.play();
+}
+
 
 let currentTrackIndex = 0;
 let isPlaying = false;

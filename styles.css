@@ -21,7 +21,80 @@ body {
 .home-search {
     display:flex;
     gap:15px;
+    cursor: pointer;
 }
+
+/* Search Button Styling */
+.search-btn {
+    background-color:rgb(42, 45, 45);
+    border: none;
+    position: absolute;
+    right: 27.5%;
+    top: 3.5%;
+    border-radius:5px;
+    
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.search-btn {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+.search-img{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+#song-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.song-results {
+    width: 150px;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    flex: 0 0 53%; /* Fixed width of 50% */
+    border-radius: 10px;
+    /* background-color: #201d1d; */
+    background-color: #201f1f;
+    padding:1%;
+    overflow-x: hidden; /* Hides horizontal scrollbar */
+    
+}
+.song-results img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.song-results p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.song-results button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.song-results button:hover {
+    background-color: #45a049;
+}
+
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -54,10 +127,14 @@ body {
 .album-meta{
     gap:10px;
 }
+.album-artist{
+    margin-left:10%;
+}
 .album-title{
     display:flex;
     align-items: center;
-    margin-top:10%;
+    margin-top:5%;
+    margin-left:10%;
     font-weight:bold;
 }
 .library-item img {
@@ -73,42 +150,95 @@ body {
     width:100%;
     height:100%;
 }
-.current-song-cover img{
-    object-fit:cover;
-}
+
 .sidebars-main {
     display: flex;
     /* justify-content: space-between; */
     width:auto;
-    height:vh;
-    padding:10px;
-    /* margin-top: 64px; */
+    height:80vh;
     margin-bottom: 50px;
-    gap:1%;
+    background-color: black;
+    gap:0.3%;
+}
+/* WebKit Browsers (Chrome, Safari) */
+.sidebar1::-webkit-scrollbar-button,
+main::-webkit-scrollbar-button,
+.sidebar2::-webkit-scrollbar-button {
+    display: none; /* Hides any up/down or left/right arrows */
 }
 
+.sidebar1::-webkit-scrollbar,
+main::-webkit-scrollbar,
+.sidebar2::-webkit-scrollbar {
+  
+    width: 10px; /* Width of the scrollbar */
+    border-radius:10px;
+    border: 2px solid transparent; /* Optional: adds space around the thumb */
+}
 
+.sidebar1::-webkit-scrollbar-track,
+main::-webkit-scrollbar-track,
+.sidebar2::-webkit-scrollbar-track {
+    background-color: #181818; /* Track background color */
+    border-radius:10px;
+}
+
+.sidebar1::-webkit-scrollbar-thumb,
+main::-webkit-scrollbar-thumb,
+.sidebar2::-webkit-scrollbar-thumb {
+    background-color: #181818; /* Scrollbar thumb color */
+    border-radius: 10px; /* Rounded corners for the scrollbar */
+}
+
+/* Firefox */
+.sidebar1,
+main,
+.sidebar2 {
+    overflow-y: auto; /* Makes each section independently scrollable */
+    scrollbar-width:auto;
+    scrollbar-color: rgb(63, 62, 62) #181818; /* Scrollbar thumb color and track color */
+}
 
 .sidebar1 {
-    flex: 0 0 15%; /* Fixed width of 23% */
-    border-radius: 8px;
-    background-color: #1f1f20;
+    flex: 0 0 20%; /* Fixed width of 23% */
+    border-radius: 10px;
+    background-color: #181818;
+    /* background-color: #057c13; */
     color: #b3b3b3;
     padding:0.5%;
+    overflow-x: hidden; /* Hides horizontal scrollbar */
 }
 
 main {
-    flex: 0 0 50%; /* Fixed width of 50% */
-    border-radius: 8px;
+    flex: 0 0 53%; /* Fixed width of 50% */
+    border-radius: 10px;
     /* background-color: #201d1d; */
-    background-color: #242423;
+    background-color: #201f1f;
     padding:1%;
+    overflow-x: hidden; /* Hides horizontal scrollbar */
+}
+.current-song-cover img{
+    object-fit:cover;
+    height:auto;
+    width:100%;
 }
 
 .sidebar2 {
-    flex: 0 0 30%; /* Fixed width of 23% */
-    background-color: #242423;
+    flex: 0 0 25%; /* Fixed width of 23% */
+    background-color: #060606;
+    border-radius:10px;
+    height:100%;
+    width:25%;
+    overflow-x: hidden; /* Hides horizontal scrollbar */
+
+}
+.song-info {
+    display:flex;
+    height:20%;
+    width:100%;
+    margin:2% 2% 2% 2%;
     border-radius:8px;
+    background-color:#0d7f1e;
 }
 
 
@@ -171,9 +301,6 @@ footer.now-playing {
     background: url('search logo.png') no-repeat 10px center;
     background-size: 20px 20px;
     background-color: rgb(44, 42, 42);
-    /* filter:invert(1);
-    filter: brightness(0.9); /* Reduces brightness to make it a lighter black */
-    /* opacity: 0.9; Reduces opacity for a softer look */
     color: #f9f5f5;
 }
 
@@ -182,6 +309,7 @@ footer.now-playing {
     width: 32px;
     height: 32px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .content-section {
@@ -246,10 +374,6 @@ footer.now-playing {
     justify-content: center;
     align-items: center;
     margin-bottom:40px;
-    /* gap: 1px; */
-    /* Space between the buttons */
-    /* overflow: hidden; */
-    /* Prevent overflow if necessary */
     position: fixed;
     top: 94.5%;
     left: 32%;
@@ -261,8 +385,6 @@ footer.now-playing {
     justify-content: center;
     /* align-items: center; */
     gap: 10px;
-    /* width:10px;
-    height:10px; */
     margin-top: 78px;
     left:20%;
     background: none;
@@ -270,11 +392,6 @@ footer.now-playing {
     color: white;
     cursor: pointer;
 }
-
-/* #play-icon{
-    width:10px;
-    height:10px;
-} */
 
 .volume-control input {
     width: 200px;
@@ -285,7 +402,6 @@ footer.now-playing {
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
-    /* Ensures the image covers the div without stretching */
 }
 
 .recommended {
@@ -319,13 +435,7 @@ footer.now-playing {
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
-    /* Ensure the image covers the div */
-    /* }
-.playback-controls svg {
-    cursor: pointer;
-    /* width: 24px;
-    height: 24px;
-    margin: 0 10px; */
+
 }
 
 
@@ -361,13 +471,6 @@ footer.now-playing {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* Ensure the image covers the div */
-    /* }
-.playback-controls svg {
-    cursor: pointer;
-    /* width: 24px;
-    height: 24px;
-    margin: 0 10px; */
 }
 
 */ 
@@ -392,16 +495,7 @@ footer.now-playing {
     margin-top: 50px;
 }
 /* 
-.progress-bar {
-    position: fixed;
-    height: 17px;
-    width: 50%;
-    top: 96%;
-    left: 25%;
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-} */
+
 
 .time {
     font-size: 12px;
