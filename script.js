@@ -38,6 +38,9 @@ const playlist = [
     { title: "Dil Tu Jaan Tu", artist: "Guranzar", cover: "covers/dil tu jaan tu.jpg", audio: "songs/dil tu jaan tu.mp3" },//35
     { title: "Victory Anthem", artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/victory anthem.mp3" },//36
 
+{ title: "Tareyan Do Loh", artist: "Harsh Bilga", cover: "covers/tareyan di loh.jpg", audio: "songs/tareyan di loh.mp3" },//37
+    { title: "Khidki", artist: "Rachit Shrivatav", cover: "covers/khidki.webp", audio: "songs/khidki.mp3" },//38
+    { title: "Long Time No See", artist: "A-U-R", cover: "covers/long time no see.jpg", audio: "songs/long time no see.mp3" },//39
 ];
 
 // Select the elements
