@@ -28,6 +28,16 @@ const playlist = [
     { title: "What Goes On", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/what goes on.mp3" },//26
     { title: "Victory Anthem", artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/victory anthem.mp3" },//27
 
+    { title: "Tu Hai Kaha", artist: "A-U-R", cover: "covers/tu hai kaha.jpg", audio: "songs/tu hai kaha.mp3" },//28
+    { title: "Sweater", artist: "Preet Hundal", cover: "covers/sweater.jpg", audio: "songs/sweater.mp3" },//29
+    { title: "Zindagi", artist: "Sabba", cover: "covers/zindagi sabba.jpg", audio: "songs/zindagi sabba.mp3" },//30
+    { title: "Medal", artist: "Chandra Brar", cover: "covers/medal.jpg", audio: "songs/medal.mp3" },//31
+    { title: "Ishq hoya", artist: "Jyoti Nooran, Arjit Srivastav", cover: "covers/ishq hoya.jpg", audio: "songs/ishq hoya.mp3" },//32
+    { title: "Illegal", artist: "Dhanda Nyoliwala", cover: "covers/illegal dhanda.jpg", audio: "songs/illegal dhanda.mp3" },//33
+    { title: "Maada Time", artist: "Sabba", cover: "covers/maada time.jpg", audio: "songs/maada time.mp3" },//34
+    { title: "Dil Tu Jaan Tu", artist: "Guranzar", cover: "covers/dil tu jaan tu.jpg", audio: "songs/dil tu jaan tu.mp3" },//35
+    { title: "Victory Anthem", artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/victory anthem.mp3" },//36
+
 ];
 
 // Select the elements

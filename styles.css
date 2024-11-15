@@ -47,7 +47,7 @@ body {
     object-fit: contain;
 }
 .song-results {
-    display:none;
+    display:block;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
