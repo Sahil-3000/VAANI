@@ -148,7 +148,7 @@ body {
     display: flex;
     /* justify-content: space-between; */
     width:auto;
-    height:80vh;
+    height:100vh;
     margin-bottom: 50px;
     background-color: black;
     gap:0.3%;
@@ -218,7 +218,7 @@ main {
 }
 
 .sidebar2 {
-    flex: 0 0 25%; /* Fixed width of 23% */
+    flex: 0 0 26.5%; /* Fixed width of 23% */
     background-color: #060606;
     border-radius:10px;
     height:100%;
