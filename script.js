@@ -4,7 +4,7 @@ const playlist = [
     { title: "Fly Karke", artist: "SABBA, Jasmeen", cover: "covers/track2.jpg", audio: "songs/fly krke.mp3" },//song2
     { title: "Ik Mutiyar Hundi Si", artist: "Hustinder, Black", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
     
-    //Arjan Dhillon-Glorious
+    //Arjan Dhillon-Glorious and more...
     { title: "Youth Flow", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/youth flow.mp3" },//song4
     { title: "Glorious", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/glorious.mp3" },//song5
     { title: "Maavan", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/maavan.mp3" },//song6
@@ -12,6 +12,8 @@ const playlist = [
     { title: "Biography", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/biography.mp3" },//song8
     { title: "Tyar", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/tyar.mp3" },//song9
     
+    { title: "Heer", artist: "Arjan Dhillon", cover: "covers/heer_arjan dhillon.png", audio: "songs/heer_arjan dhillon.mp3" },//song9
+    { title: "Punjab Intro", artist: "Arjan Dhillon", cover: "covers/punjab intro_arjan dhillon.png", audio: "songs/punjab intro_arjan dhillon.mp3" },//song9
     //Dhanda
     { title: "Up To You", artist: "Dhanda Nyoliwala", cover: "covers/up to you.jpg", audio: "songs/up to you.mp3" },//song10
     { title: "Russian Bandana", artist: "Dhanda Nyoliwala", cover: "covers/russian bandana.jpg", audio: "songs/russian bandana.mp3" },//song11
@@ -92,6 +94,10 @@ const playlist = [
     { title: "Tareyan Do Loh", artist: "Harsh Bilga", cover: "covers/tareyan di loh.jpg", audio: "songs/tareyan di loh.mp3" },//37
     { title: "Khidki", artist: "Rachit Shrivatav", cover: "covers/khidki.webp", audio: "songs/khidki.mp3" },//38
     { title: "Long Time No See", artist: "A-U-R", cover: "covers/long time no see.jpg", audio: "songs/long time no see.mp3" },//39
+    { title: "That Girl", artist: "Amrinder Gill", cover: "covers/that girl_amrinder gill.png", audio: "songs/that girl_amrinder gill.mp3" },//39
+
+
+
 ];
 
 
