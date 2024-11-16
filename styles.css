@@ -208,7 +208,7 @@ main,
 }
 
 .sidebar1 {
-    flex: 0 0 20%; /* Fixed width of 23% */
+    flex: 0 0 19%; /* Fixed width of 23% */
     border-radius: 10px;
     background-color: #181818;
     /* background-color: #057c13; */
@@ -219,7 +219,7 @@ main,
 
 main {
     display:block;
-    flex: 0 0 55%; /* Fixed width of 50% */
+    flex: 0 0 54.5%; /* Fixed width of 50% */
     border-radius: 10px;
     /* background-color: #201d1d; */
     background-color: #201f1f;
@@ -233,7 +233,7 @@ main {
 }
 
 .sidebar2 {
-    flex: 0 0 26.5%; /* Fixed width of 23% */
+    flex: 0 0 25%; /* Fixed width of 23% */
     background-color: #060606;
     border-radius:10px;
     height:100%;
