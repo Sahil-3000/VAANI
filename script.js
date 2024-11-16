@@ -84,6 +84,7 @@ const playlist = [
 ];
 
 
+
 // Select the elements
 const homeButton = document.querySelector(".home");
 const songResults = document.querySelector(".song-results");
@@ -156,6 +157,48 @@ function playSong(audioFile) {
 let currentTrackIndex = 0;
 let isPlaying = false;
 let audio = new Audio(playlist[currentTrackIndex].audio);
+// Function to update the current song
+function setCurrentSong(track) {
+    currentSong = track;
+}
+
+// Add event listener to the download button
+document.getElementById("download-button").addEventListener("click", () => {
+    if (currentSong && currentSong.audio) {
+        const link = document.createElement("a");
+        link.href = currentSong.audio;
+        link.download = `${currentSong.title}.mp3`; // Suggest file name
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    } else {
+        alert("No song is currently playing.");
+    }
+});
+
+// Update loadTrack function to also set the current song
+function loadTrack(trackIndex) {
+    const track = playlist[trackIndex];
+    nowPlayingTitle.textContent = track.title;
+    nowPlayingArtist.textContent = track.artist;
+    nowPlayingCover.src = track.cover;
+
+    audio.src = track.audio;
+    audio.load();
+    sidebar.src = track.cover;
+    sidebar.style.backgroundSize = "cover";           // Ensure image covers sidebar
+    sidebar.style.backgroundPosition = "center";      // Center image
+    sidebar.style.borderRadius = "8px";               // Maintain border-radius if needed
+    sidebar.style.width = "100%";
+
+    audio.onloadedmetadata = () => {
+        durationElement.textContent = formatTime(audio.duration);
+        progressSlider.max = Math.floor(audio.duration);
+    };
+
+    // Update the current song for the download button
+    setCurrentSong(track);
+}
 
 // Element references
 const nowPlayingTitle = document.querySelector('.track-title');
@@ -167,25 +210,6 @@ const currentTimeElement = document.getElementById('current-time');
 const durationElement = document.getElementById('duration');
 const sidebar = document.querySelector('.current-song-cover img');
 // Load track based on index
-function loadTrack(trackIndex) {
-    const track = playlist[trackIndex];
-    nowPlayingTitle.textContent = track.title;
-    nowPlayingArtist.textContent = track.artist;
-    nowPlayingCover.src = track.cover;
-    
-
-    audio.src = track.audio;
-    audio.load();
-    sidebar.src = track.cover;
-    sidebar.style.backgroundSize = "cover";           // Make sure the image covers the sidebar
-    sidebar.style.backgroundPosition = "center";      // Center the image
-    sidebar.style.borderRadius = "8px";               // Maintain border-radius if needed
-    sidebar.style.width = "100%";
-    audio.onloadedmetadata = () => {
-        durationElement.textContent = formatTime(audio.duration);
-        progressSlider.max = Math.floor(audio.duration);
-    };
-}
 
 // Play selected song and update footer
 function playSong(audioFile) {

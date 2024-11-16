@@ -489,6 +489,40 @@ footer.now-playing {
     align-items: center;
     margin-top: 50px;
 }
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #282828;
+    color: white;
+  }
+  
+  .progress-bar-container {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  #progress-bar {
+    width: 100%;
+    background-color: #535353;
+    border-radius: 5px;
+  }
+  
+  #download-button {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #download-button:hover {
+    background-color: #1aa34a;
+  }
+  
 /* 
 
 
