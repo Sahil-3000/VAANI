@@ -25,12 +25,11 @@ body {
 }
 /* Search Button Styling */
 .search-btn {
-    display:none;
     background-color:rgb(42, 45, 45);
     border: none;
     position: absolute;
-    /* right: 30%; */
-    top: 15px;
+    right: 30%;
+    top: 3.5%;
     border-radius:5px;
     
     transform: translateY(-50%);
@@ -51,8 +50,8 @@ body {
 }
 
 .search-btn {
-    width: 30px;
-    height: 30px;
+    width: 10px;
+    height: 10px;
     object-fit: contain;
 }
 .search-img{
@@ -162,7 +161,7 @@ body {
 .sidebars-main {
     display: flex;
     /* justify-content: space-between; */
-    width:auto;
+    width:100vw;
     height:100vh;
     margin-bottom: 50px;
     background-color: black;
@@ -219,7 +218,7 @@ main,
 
 main {
     display:block;
-    flex: 0 0 53%; /* Fixed width of 50% */
+    flex: 0 0 70%; /* Fixed width of 50% */
     border-radius: 10px;
     /* background-color: #201d1d; */
     background-color: #201f1f;
@@ -238,7 +237,6 @@ main {
     border-radius:10px;
     height:100%;
     width:25%;
-    margin-right:5px;
     overflow-x: hidden; /* Hides horizontal scrollbar */
 
 }
