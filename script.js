@@ -74,7 +74,7 @@ const playlist = [
     { title: "WYTB", artist: "Karan Aujla", cover: "covers/wtyb_karan.png", audio: "songs/wytb_karan.mp3" },//67
     { title: "52 Bars", artist: "Karan Aujla", cover: "covers/52 bars_karan.png", audio: "songs/52 bars_karan.mp3" },//68
     { title: "Jee Ni Lagda", artist: "Karan            Aujla", cover: "covers/jee ni lagda_karan.png", audio: "songs/jee ni lagda_karan.mp3" },//69
-    { title: "Player", artist: "Karan Aujla, Badshah", cover: "covers/player_karan.png", audio: "songs/player_karan.mp3" Dilj70
+    { title: "Player", artist: "Karan Aujla, Badshah", cover: "covers/player_karan.png", audio: "songs/player_karan.mp3"},//70
     { title: "Chauffeur", artist: " Diljit Dosanjh", cover: "covers/chauffeur_diljit.png", audio: "songs/chauffeur_diljjt.mp3" },//71
     { title: "White Brown Black", artist: "Karan Aujla, Avvy Sra", cover: "covers/white brown black_karan_avvy.png", audio: "songs/white brown black_karan_avvy.mp3" },//72
     { title: "Tauba Tauba", artist: "Karan Aujla", cover: "covers/tauba tauba_diljit.png", audio: "songs/tauba tauba_karan.mp3" },//73
