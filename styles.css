@@ -25,6 +25,7 @@ body {
 }
 /* Search Button Styling */
 .search-btn {
+    
     background-color:rgb(42, 45, 45);
     border: none;
     position: absolute;
