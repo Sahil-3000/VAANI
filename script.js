@@ -3,15 +3,22 @@ const playlist = [
     { title: "Jo Tum Mere Ho", artist: "Anuv Jain", cover: "covers/track1.jpg", audio: "songs/jo tum mere ho.mp3" },//song1
     { title: "Fly Karke", artist: "SABBA, Jasmeen", cover: "covers/track2.jpg", audio: "songs/fly krke.mp3" },//song2
     { title: "Ik Mutiyar Hundi Si", artist: "Hustinder, Black", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
+    
+    //Arjan Dhillon-Glorious
     { title: "Youth Flow", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/youth flow.mp3" },//song4
     { title: "Glorious", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/glorious.mp3" },//song5
     { title: "Maavan", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/maavan.mp3" },//song6
     { title: "Back To Sikhi", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/back to sikhi.mp3" },//song7
     { title: "Biography", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/biography.mp3" },//song8
     { title: "Tyar", artist: "Arjan Dhillon", cover: "covers/Chobbar.jpg", audio: "songs/tyar.mp3" },//song9
+    
+    //Dhanda
     { title: "Up To You", artist: "Dhanda Nyoliwala", cover: "covers/up to you.jpg", audio: "songs/up to you.mp3" },//song10
     { title: "Russian Bandana", artist: "Dhanda Nyoliwala", cover: "covers/russian bandana.jpg", audio: "songs/russian bandana.mp3" },//song11
+    
     { title: "Ishq", artist: "Faheem Abdullah,Rauhan Malik", cover: "covers/ishq.jpg", audio: "songs/ishq.mp3" },//song12
+    
+    //The Beatles-Rubber Soul
     { title: "If I Needed Someone", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/if i needed someone.mp3" },//13
     { title: "Norwegian Wood", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/norwegian wood.mp3" },//14
     { title: "You Won't See Me", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/you won't see me.mp3" },//15
@@ -26,29 +33,15 @@ const playlist = [
     { title: "Run For Your Life", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/run for your life.mp3" },//24
     { title: "Nowhere Man", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/nowhere man.mp3" },//25
     { title: "What Goes On", artist: "The Beatles", cover: "covers/rubber soul.jpg", audio: "songs/what goes on.mp3" },//26
-    { title: "Victory Anthem", artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/victory anthem.mp3" },//27
+    
 
-    { title: "Tu Hai Kaha", artist: "A-U-R", cover: "covers/tu hai kaha.jpg", audio: "songs/tu hai kaha.mp3" },//28
-    { title: "Sweater", artist: "Preet Hundal", cover: "covers/sweater.jpg", audio: "songs/sweater.mp3" },//29
-    { title: "Zindagi", artist: "Sabba", cover: "covers/zindagi sabba.jpg", audio: "songs/zindagi sabba.mp3" },//30
-    { title: "Medal", artist: "Chandra Brar", cover: "covers/medal.jpg", audio: "songs/medal.mp3" },//31
-    { title: "Ishq hoya", artist: "Jyoti Nooran, Arjit Srivastav", cover: "covers/ishq hoya.jpg", audio: "songs/ishq hoya.mp3" },//32
-    { title: "Illegal", artist: "Dhanda Nyoliwala", cover: "covers/illegal dhanda.jpg", audio: "songs/illegal dhanda.mp3" },//33
-    { title: "Maada Time", artist: "Sabba", cover: "covers/maada time.jpg", audio: "songs/maada time.mp3" },//34
-    { title: "Dil Tu Jaan Tu", artist: "Guranzar", cover: "covers/dil tu jaan tu.jpg", audio: "songs/dil tu jaan tu.mp3" },//35
-    { title: "Victory Anthem", artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/victory anthem.mp3" },//36
-
-    { title: "Tareyan Do Loh", artist: "Harsh Bilga", cover: "covers/tareyan di loh.jpg", audio: "songs/tareyan di loh.mp3" },//37
-    { title: "Khidki", artist: "Rachit Shrivatav", cover: "covers/khidki.webp", audio: "songs/khidki.mp3" },//38
-    { title: "Long Time No See", artist: "A-U-R", cover: "covers/long time no see.jpg", audio: "songs/long time no see.mp3" },//39
-
-
+    //Diljit Dosanjh
     { title: "Lover", artist: "Diljit Dosanjh", cover: "covers/lover_diljit.png", audio: "songs/lover_diljit.mp3" },//40
     { title: "Case", artist: "Diljit Dosanjh", cover: "covers/case_diljit.png", audio: "songs/case_diljit.mp3" },//41
     { title: "Ishq Di Baajiyaan", artist: "Diljit Dosanjh", cover: "covers/ishq di baajiyaan_diljit.png", audio: "songs/ishq di baajiyaan_diljit.mp3" },//42
     { title: "Love Ya", artist: "Diljit Dosanjh", cover: "covers/lova ya_diljit.png", audio: "songs/love ya_diljit.mp3" },//43
     { title: "Lalkara", artist: "Diljit Dosanjh", cover: "covers/lalkara_diljit.png", audio: "songs/lalkara_diljit.mp3" },//44
-    { title: "Tu Kya Jaane", artist: "Yashika Sikka, Diljit", cover: "covers/tu kya jaane_diljjt.png", audio: "songs/tu kya jaane_diljit.mp3" },//45
+    { title: "Tu Kya Jaane", artist: "Yashika Sikka, Diljit", cover: "covers/tu kya jaane_diljit.png", audio: "songs/tu kya jaane_diljit.mp3" },//45
     { title: "Bol Mohabbat", artist: "AR Rehman, Kailash Kher,Diljit", cover: "covers/bol mohabbat_diljit.png", audio: "songs/bol mohabbat_diljit.mp3" },//46
     { title: "Vida Karo", artist: "Arijit Singh,Diljjt", cover: "covers/vida karo_diljit.png", audio: "songs/vida karo_diljit.mp3" },//47
     { title: "Panga", artist: "Diljit Dosanjh, Yo Yo Honey Singh", cover: "covers/panga_diljit_yoyo.png", audio: "songs/panga_diljjt_yoyo.mp3" },//48
@@ -58,17 +51,19 @@ const playlist = [
     { title: "G.O.A.T", artist: "Diljit Dosanjh", cover: "covers/goat_diljit.png", audio: "songs/goat_diljit.mp3" },//52
     { title: "Clash", artist: "Diljit Dosanjh", cover: "covers/clash_diljit.png", audio: "songs/clash_diljit.mp3" },//53
     { title: "Muchh", artist: "Diljit Dosanjh", cover: "covers/muchh_diljit.png", audio: "songs/muchh_diljit.mp3" },//54
-    { title: "High End", artist: "Diljit Dosanjh", cover: "covers/high end_diljit.png", audio: "songs/high end_diljitmp3" },//55
+    { title: "High End", artist: "Diljit Dosanjh", cover: "covers/high end_diljit.png", audio: "songs/high end_diljit.mp3" },//55
     { title: "Naram Kalja", artist: "Diljjt Dosanjh", cover: "covers/naram kalja_diljit.png", audio: "songs/naram kalja_diljit.mp3" },//56
     { title: "Baaja", artist: "Diljit Dosanjh", cover: "covers/bajja_diljit.png", audio: "songs/bajja_diljit.mp3" },//57
-
     { title: "Muhammad Ali", artist: "Diljit Dosanjh", cover: "covers/muhammad ali_diljit.png", audio: "songs/Muhammad ali_diljjt.mp3" },//58
     { title: "El Sueno", artist: "Diljit Dosanjh", cover: "covers/el sueno_diljit.png", audio: "songs/el sueno_diljjt.mp3" },//59
-    { title: "Born To Shine", artist: "Diljit Dosanjb", cover: "covers/born to shine_diljit_png", audio: "songs/born to shine_diljit.mp3" },//60
+    { title: "Born To Shine", artist: "Diljit Dosanjb", cover: "covers/born to shine_diljit.png", audio: "songs/born to shine_diljit.mp3" },//60
     { title: "Peaches", artist: "Diljit Dosanjh", cover: "covers/peaches_diljit.png", audio: "songs/peaches_diljjt.mp3" },//61
-    { title: "What Ve", artist: "Diljjt Dosanjh,Nimrat Khaira", cover: "covers/what ve_diljjt.png", audio: "songs/what ve_diljit.mp3" },//62
-    { title: "Hass Hass", artist: "Sia,Diljit Dosanjh", cover: "covers/hass hass_diljjt.png", audio: "songs/hass hass_diljit.mp3" },//63
+    { title: "What Ve", artist: "Diljjt Dosanjh,Nimrat Khaira", cover: "covers/what ve_diljit.png", audio: "songs/what ve_diljit.mp3" },//62
+    { title: "Hass Hass", artist: "Sia,Diljit Dosanjh", cover: "covers/hass hass_diljit.png", audio: "songs/hass hass_diljit.mp3" },//63
     { title: "Patiala Peg", artist: "Diljit Dosanjh", cover: "covers/patiala peg_diljit.png", audio: "songs/patiala peg_diljit.mp3" },//64
+    { title: "Mombattiye", artist: "Diljit Dosanjh", cover: "covers/mombattiye_img_diljit.png", audio: "songs/mombattiye_diljit.mp3" },//64
+
+    //Karan Aujla
     { title: "Softly", artist: "Karan Aujla", cover: "covers/softly_karan.png", audio: "songs/softly_karan.mp3" },//65
     { title: "On Top", artist: "Karan Aujla", cover: "covers/on top_karan.png", audio: "songs/on top_karan.mp3" },//66
     { title: "WYTB", artist: "Karan Aujla", cover: "covers/wytb_karan.png", audio: "songs/wytb_karan.mp3" },//67
@@ -81,6 +76,22 @@ const playlist = [
     { title: "Chitta Kurta", artist: "Karan Aujla", cover: "covers/chitta kurta_karan.png", audio: "songs/chitta kurta_karan.mp3" },//74
     { title: "Mexico", artist: "Karan Aujla", cover: "covers/mexico_karan.png", audio: "songs/mexico_karan.mp3" },//75
     { title: "God Damn", artist: "Karan Aujla", cover: "covers/god damn_karan.png", audio: "songs/god damn_karan.mp3" },//76
+
+
+    //mislenous songs
+    { title: "Victory Anthem", artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/victory anthem.mp3" },//27
+    { title: "Tu Hai Kaha", artist: "A-U-R", cover: "covers/tu hai kaha.jpg", audio: "songs/tu hai kaha.mp3" },//28
+    { title: "Sweater", artist: "Preet Hundal", cover: "covers/sweater.jpg", audio: "songs/sweater.mp3" },//29
+    { title: "Zindagi", artist: "Sabba", cover: "covers/zindagi sabba.jpg", audio: "songs/zindagi sabba.mp3" },//30
+    { title: "Medal", artist: "Chandra Brar", cover: "covers/medal.jpg", audio: "songs/medal.mp3" },//31
+    { title: "Ishq hoya", artist: "Jyoti Nooran, Arjit Srivastav", cover: "covers/ishq hoya.jpg", audio: "songs/ishq hoya.mp3" },//32
+    { title: "Illegal", artist: "Dhanda Nyoliwala", cover: "covers/illegal dhanda.jpg", audio: "songs/illegal dhanda.mp3" },//33
+    { title: "Maada Time", artist: "Sabba", cover: "covers/maada time.jpg", audio: "songs/maada time.mp3" },//34
+    { title: "Dil Tu Jaan Tu", artist: "Guranzar", cover: "covers/dil tu jaan tu.jpg", audio: "songs/dil tu jaan tu.mp3" },//35
+    { title: "Victory Anthem", artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/victory anthem.mp3" },//36
+    { title: "Tareyan Do Loh", artist: "Harsh Bilga", cover: "covers/tareyan di loh.jpg", audio: "songs/tareyan di loh.mp3" },//37
+    { title: "Khidki", artist: "Rachit Shrivatav", cover: "covers/khidki.webp", audio: "songs/khidki.mp3" },//38
+    { title: "Long Time No See", artist: "A-U-R", cover: "covers/long time no see.jpg", audio: "songs/long time no see.mp3" },//39
 ];
 
 
@@ -319,113 +330,3 @@ document.querySelector('.playback-controls svg:nth-child(3)').onclick = nextTrac
 audio.onended = () => {
     nextTrack();
 };
-
-// JavaScript code with audio functionality and progress bar
-
-        // const playlist = [
-        //     {
-        //         title: "Jo Tum Mere Ho",
-        //         artist: "Anuv Jain",
-        //         cover: "track1.jpg",
-        //         audio: "audio1.mp3"
-        //     },
-        //     {
-        //         title: "Fly Karke",
-        //         artist: "SABBA, Jasmeen",
-        //         cover: "track2.jpg",
-        //         audio: "audio2.mp3"
-        //     },
-        //     {
-        //         title: "Ik Mutiyar Hundi Si",
-        //         artist: "Arjan Dhillon",
-        //         cover: "Chobbar.jpg",
-        //         audio: "audio3.mp3"
-        //     }
-        // ];
-
-        // let currentTrackIndex = 0;
-        // let isPlaying = false;
-        // let audio = new Audio(playlist[currentTrackIndex].audio);
-
-        // const currentTrackTitle = document.getElementById('current-track-title');
-        // const currentTrackArtist = document.getElementById('current-track-artist');
-        // const currentTrackCover = document.getElementById('current-track-cover');
-        // const nowPlayingTitle = document.getElementById('now-playing-title');
-        // const nowPlayingArtist = document.getElementById('now-playing-artist');
-        // const nowPlayingCover = document.getElementById('now-playing-cover');
-        // const playPauseIcon = document.getElementById('play-pause-icon');
-        // const progressSlider = document.getElementById('progress-slider');
-        // const currentTimeElement = document.getElementById('current-time');
-        // const durationElement = document.getElementById('duration');
-
-        // function loadTrack(trackIndex) {
-        //     const track = playlist[trackIndex];
-        //     currentTrackTitle.textContent = track.title;
-        //     currentTrackArtist.textContent = track.artist;
-        //     currentTrackCover.src = track.cover;
-        //     nowPlayingTitle.textContent = track.title;
-        //     nowPlayingArtist.textContent = track.artist;
-        //     nowPlayingCover.src = track.cover;
-
-        //     audio.src = track.audio;
-        //     audio.load();
-
-        //     audio.onloadedmetadata = () => {
-        //         durationElement.textContent = formatTime(audio.duration);
-        //         progressSlider.max = Math.floor(audio.duration);
-        //     };
-        // }
-
-        // loadTrack(currentTrackIndex);
-
-        // function togglePlayPause() {
-        //     if (isPlaying) {
-        //         audio.pause();
-        //         playPauseIcon.innerHTML = '<use href="#play-icon"></use>';
-        //         isPlaying = false;
-        //     } else {
-        //         audio.play();
-        //         playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';
-        //         isPlaying = true;
-        //     }
-        // }
-
-        // function nextTrack() {
-        //     currentTrackIndex = (currentTrackIndex + 1) % playlist.length;
-        //     loadTrack(currentTrackIndex);
-        //     audio.play();
-        //     playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';
-        //     isPlaying = true;
-        // }
-
-        // function prevTrack() {
-        //     currentTrackIndex = (currentTrackIndex - 1 + playlist.length) % playlist.length;
-        //     loadTrack(currentTrackIndex);
-        //     audio.play();
-        //     playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';
-        //     isPlaying = true;
-        // }
-
-        // function setVolume() {
-        //     audio.volume = document.querySelector('.volume-control input').value / 100;
-        // }
-
-        // function formatTime(seconds) {
-        //     const mins = Math.floor(seconds / 60);
-        //     const secs = Math.floor(seconds % 60);
-        //     return `${mins}:${secs < 10 ?
-        //         '0' : ''}${secs}`;
-        // }
-
-        // audio.ontimeupdate = () => {
-        //     progressSlider.value = Math.floor(audio.currentTime);
-        //     currentTimeElement.textContent = formatTime(audio.currentTime);
-        // };
-
-        // progressSlider.oninput = () => {
-        //     audio.currentTime = progressSlider.value;
-        // };
-
-        // audio.onended = () => {
-        //     nextTrack(); // Automatically move to the next track when the current one ends
-        // };
