@@ -136,6 +136,23 @@ function displayResults(results) {
             songTitle.textContent = `${song.title} - ${song.artist}`;
             songDiv.appendChild(songTitle);
 
+            const downLoad = document.createElement("button");
+            downLoad.textContent = "Download";
+            downLoad.onclick = () => {
+                // Check if there is a current song and it has an audio source
+                if (song && song.audio) {
+                    const link = document.createElement("a");
+                    link.href = song.audio;  // The URL of the song's audio
+                    link.download = `${song.title}.mp3`;  // Set the suggested file name for download
+                    document.body.appendChild(link);  // Append the link to the body
+                    link.click();  // Trigger the download
+                    document.body.removeChild(link);  // Remove the link after the download
+                } else {
+                    alert("No song is currently playing.");
+                }
+            };
+            songDiv.appendChild(downLoad);
+
             const playButton = document.createElement("button");
             playButton.textContent = "Play";
             playButton.onclick = () => playSong(song.audio);
