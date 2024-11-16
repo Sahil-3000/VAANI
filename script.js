@@ -38,12 +38,12 @@ const playlist = [
     { title: "Dil Tu Jaan Tu", artist: "Guranzar", cover: "covers/dil tu jaan tu.jpg", audio: "songs/dil tu jaan tu.mp3" },//35
     { title: "Victory Anthem", artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/victory anthem.mp3" },//36
 
-{ title: "Tareyan Do Loh", artist: "Harsh Bilga", cover: "covers/tareyan di loh.jpg", audio: "songs/tareyan di loh.mp3" },//37
+    { title: "Tareyan Do Loh", artist: "Harsh Bilga", cover: "covers/tareyan di loh.jpg", audio: "songs/tareyan di loh.mp3" },//37
     { title: "Khidki", artist: "Rachit Shrivatav", cover: "covers/khidki.webp", audio: "songs/khidki.mp3" },//38
     { title: "Long Time No See", artist: "A-U-R", cover: "covers/long time no see.jpg", audio: "songs/long time no see.mp3" },//39
 
 
-{ title: "Lover", artist: "Diljit Dosanjh", cover: "covers/lover_diljit.png", audio: "songs/lover_diljit.mp3" },//40
+    { title: "Lover", artist: "Diljit Dosanjh", cover: "covers/lover_diljit.png", audio: "songs/lover_diljit.mp3" },//40
     { title: "Case", artist: "Diljit Dosanjh", cover: "covers/case_diljit.png", audio: "songs/case_diljit.mp3" },//41
     { title: "Ishq Di Baajiyaan", artist: "Diljit Dosanjh", cover: "covers/ishq di baajiyaan_diljit.png", audio: "songs/ishq di baajiyaan_diljit.mp3" },//42
     { title: "Love Ya", artist: "Diljit Dosanjh", cover: "covers/lova ya_diljit.png", audio: "songs/love ya_diljit.mp3" },//43
