@@ -14,6 +14,9 @@ const playlist = [
     
     { title: "Heer", artist: "Arjan Dhillon", cover: "covers/heer_arjan dhillon.png", audio: "songs/heer_arjan dhillon.mp3" },//song9
     { title: "Punjab Intro", artist: "Arjan Dhillon", cover: "covers/punjab intro_arjan dhillon.png", audio: "songs/punjab intro_arjan dhillon.mp3" },//song9
+    
+    
+    
     //Dhanda
     { title: "Up To You", artist: "Dhanda Nyoliwala", cover: "covers/up to you.jpg", audio: "songs/up to you.mp3" },//song10
     { title: "Russian Bandana", artist: "Dhanda Nyoliwala", cover: "covers/russian bandana.jpg", audio: "songs/russian bandana.mp3" },//song11
@@ -95,6 +98,10 @@ const playlist = [
     { title: "Khidki", artist: "Rachit Shrivatav", cover: "covers/khidki.webp", audio: "songs/khidki.mp3" },//38
     { title: "Long Time No See", artist: "A-U-R", cover: "covers/long time no see.jpg", audio: "songs/long time no see.mp3" },//39
     { title: "That Girl", artist: "Amrinder Gill", cover: "covers/that girl_amrinder gill.png", audio: "songs/that girl_amrinder gill.mp3" },//39
+    { title: "Khabbi Seat", artist: "Ammy Virk", cover: "covers/khabbi seat_ammy virk.png", audio: "songs/khabbi seat_ammy virk.mp3" },//39
+    { title: "Ikk Number", artist: "Gurnam Bhullar", cover: "covers/ik number_gurnam bhullar.png", audio: "songs/ik number_gurnam bhullar.mp3" },//39
+    { title: "Filter", artist: "Gulab Sidhu", cover: "covers/filter_gulab sidhu.png", audio: "songs/filter_gulab sidhu.mp3" },//39
+    { title: "Patti Ton Patiala", artist: "Harkirat Sangha", cover: "covers/patti to patiala_harkirat sangha.png", audio: "songs/patti to patiala_harkirat sangha.mp3" },//39
 
 
 
