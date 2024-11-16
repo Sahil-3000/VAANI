@@ -362,31 +362,6 @@ footer.now-playing {
     margin-right: 10px;
 }
 
-.playback-controls {
-    width:50%;
-    height: 65px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom:40px;
-    position: fixed;
-    top: 94.5%;
-    left: 32%;
-}
-
-.playback-controls button { 
-    display:flex;
-    position:relative;
-    justify-content: center;
-    /* align-items: center; */
-    gap: 10px;
-    margin-top: 78px;
-    left:20%;
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-}
 
 .volume-control input {
     width: 200px;
@@ -504,11 +479,41 @@ footer.now-playing {
   }
   
   #progress-bar {
-    width: 100%;
+    width: 50%;
     background-color: #535353;
     border-radius: 5px;
+   
   }
   
+.playback-controls {
+    width:30%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 90%;
+    left: 30%;
+    cursor:pointer;
+}
+
+/* .playback-controls button { 
+    display:flex;
+    position:relative;
+    justify-content: space-between  ;
+    align-items: center;
+
+    margin-top: 78px;
+    left:50%;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+} */
+  .next-icon,.prev-icon,.play-icon,.pause-icon{
+    width:40px;
+    height:40px;
+  }
   #download-button {
     background-color: #1db954;
     color: white;

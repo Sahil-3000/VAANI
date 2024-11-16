@@ -1112,7 +1112,7 @@
         <!-- Now Playing Footer -->
         <footer class="now-playing">
             <div class="track-info">
-                <img src=covers/track1.jpg" alt="Track Image">
+                <img src="covers/track1.jpg" alt="Track Image">
                 <div class="track-meta">
                     <div class="track-title">Jo Tum Mere Ho</div>
                     <div class="track-artist">Anuv Jain</div>
@@ -1120,13 +1120,13 @@
             </div>
            
             <div class="playback-controls">
-                <svg onclick="prevTrack()">
+                <svg onclick="prevTrack()" class="prev-icon">
                     <use href="#prev-icon"></use>
                 </svg>
-                <svg onclick="togglePlayPause()" id="play-pause-icon">
+                <svg onclick="togglePlayPause()" class="play-icon" id="play-pause-icon">
                     <use href="#play-icon"></use>
                 </svg>
-                <svg onclick="nextTrack()">
+                <svg onclick="nextTrack()" class="next-icon">
                     <use href="#next-icon"></use>
                 </svg>
             </div>
@@ -1135,7 +1135,7 @@
                 <input type="range" id="progress-slider" value="0" min="0" max="100" step="1">
                 <span id="duration" class="time">0:00</span>
             </div>
-            
+
             <button id="download-button">Download</button>
 
             <div class="volume-control">
