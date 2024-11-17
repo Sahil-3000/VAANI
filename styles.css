@@ -667,7 +667,10 @@ footer.now-playing {
         bottom:8%;
         left:25%;
     }
-
+    .playback-controls:focus {
+        outline: 2px solid rgba(255, 255, 255, 0.5); /* Subtle white border */
+        border-radius: 4px; /* To match button shape */
+    }
     #download-button{
         position:fixed;
         left:2%;
