@@ -62,7 +62,7 @@ body {
     object-fit: contain;
 }
 .song-results {
-    display:block;
+    display:none;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;

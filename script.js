@@ -113,9 +113,21 @@ const playlist = [
 const homeButton = document.querySelector(".home");
 const songResults = document.querySelector(".song-results");
 const defaultContent = document.querySelector(".default-content");
-
+const searchBtn = document.querySelector(".search-btn");
 // Toggle visibility when the home button is clicked
 homeButton.addEventListener("click", () => {
+    if (songResults.style.display === "block") {
+        // Show song results and hide default content
+        songResults.style.display = "none";  // or 'block' depending on the layout
+        defaultContent.style.display = "block";
+    } else {
+        // Show default content and hide song results
+        songResults.style.display = "none";
+        defaultContent.style.display = "block";
+    }
+});
+
+searchBtn.addEventListener("click", () => {
     if (songResults.style.display === "none") {
         // Show song results and hide default content
         songResults.style.display = "block";  // or 'block' depending on the layout
@@ -126,6 +138,7 @@ homeButton.addEventListener("click", () => {
         defaultContent.style.display = "block";
     }
 });
+
 document.getElementById("search-btn").addEventListener("click", function() {
     const query = document.getElementById("search-bar").value.toLowerCase();
     if(query) {
