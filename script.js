@@ -167,8 +167,18 @@ const playlist = [
     {title: "Shiva ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/shiva_rp singh.png", audio: "songs/shiva_rp singh.mp3" },//song3\
     {title: "Sneeze ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/sneeze_rp singh.png", audio: "songs/sneeze_rp singh.mp3" },//song3\
     {title: "Sarpanchi ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/sarpanchi_rp singh.png", audio: "songs/sarpanchi_rp singh.mp3" },//song3\
-    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
+    {title: "If You Know You Know ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/if you know you know_rp singh.png", audio: "songs/if you know you know_rp singh.mp3" },//song3\
 
+    {title: "7 Birth ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/7 birth_rp singh.png", audio: "songs/7 birth_rp singh.mp3" },//song3\
+    {title: "1857 ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/1857_rp singh.png", audio: "songs/1857_rp singh.mp3" },//song3\
+    {title: "Approach ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/approach_rp singh.png", audio: "songs/approach_rp singh.mp3" },//song3\
+    {title: "BFF ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/bff_rp singh.png", audio: "songs/bff_rp singh.mp3" },//song3\
+    {title: "Do Cheez ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/do cheez_rp singh.png", audio: "songs/do cheez_rp singh.mp3" },//song3\
+    {title: "Famous ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/famous_rp singh.png", audio: "songs/famous_rp singh.mp3" },//song3\
+    {title: "Govinda ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/govinda_rp singh.png", audio: "songs/govinda_rp singh.mp3" },//song3\
+    {title: "Jahaaj ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/jahaaj_rp singh.png", audio: "songs/jahaaj_rp singh.mp3" },//song3\
+    {title: "MI AMOR ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/mi amor_rp singh.png", audio: "songs/mi amor_rp singh.mp3" },//song3\
+    {title: "Victor ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/victor_rp singh.png", audio: "songs/victor_rp singh.mp3" },//song3\
 
 
 
@@ -312,6 +322,10 @@ function loadTrack(trackIndex) {
     sidebar.style.borderRadius = "8px";               // Maintain border-radius if needed
     sidebar.style.width = "100%";
 
+    artistImg.src = track.artistPhoto;
+    songName.textContent = track.title;
+    artistName.textContent = track.artist;
+
     audio.onloadedmetadata = () => {
         durationElement.textContent = formatTime(audio.duration);
         progressSlider.max = Math.floor(audio.duration);
@@ -330,7 +344,9 @@ const progressSlider = document.getElementById('progress-slider');
 const currentTimeElement = document.getElementById('current-time');
 const durationElement = document.getElementById('duration');
 const sidebar = document.querySelector('.current-song-cover img');
-const artistImg = document.querySelector('.artist-img')
+const artistImg = document.querySelector('.artist-img');
+const songName = document.querySelector('.song-name');
+const artistName = document.querySelector('.artist-name');
 // Load track based on index
 
 // Play selected song and update footer
@@ -351,11 +367,16 @@ function playSong(audioFile) {
     sidebar.style.backgroundPosition = "center";
     sidebar.style.borderRadius = "8px";
     sidebar.style.width = "100%";
-    artistImg.src = track.artistPhoto
+    artistImg.src = track.artistPhoto;
+    songName.textContent = track.title;
+    artistName.textContent = track.artist;
+
 
     audio.onloadedmetadata = () => {
         durationElement.textContent = formatTime(audio.duration);
         progressSlider.max = Math.floor(audio.duration);
+
+       
     };
 }
 
@@ -378,7 +399,7 @@ function nextTrack() {
     loadTrack(currentTrackIndex);
     audio.play();
     playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';
-    artistImg.src = track.artistPhoto
+    
     isPlaying = true;
 }
 
@@ -388,7 +409,7 @@ function prevTrack() {
     loadTrack(currentTrackIndex);
     audio.play();
     playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';
-    artistImg.src = track.artistPhoto
+    artistImg.src = track.artistPhoto;
     isPlaying = true;
 }
 
