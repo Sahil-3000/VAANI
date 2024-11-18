@@ -135,7 +135,30 @@ const playlist = [
     { title: "Ucheyan Gharan Di Jaaiye ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "ucheyan gharan diye jaaiye.mp3" },//song3
     { title: "Velly Yaar ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/velly yaar_hustinder.mp3" },//song3
     { title: "Watching You ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/watching you_hustinder.mp3" },//song3
-    { title: "Yari Tod Layi ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "songs/yari tod layi_hustinder.mp3" },//song3
+    { title: "Yari Tod Layi ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "songs/yari tod layi_hustinder.mp3" },//song3\
+
+
+
+    //RP Singh
+    {title: "Sexy ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/sexy_rp singh.png", audio: "songs/sexy_rp singh.mp3" },//song3\
+    {title: "Pencil ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/pencil_rp singh.png", audio: "songs/pencil_rp singh.mp3" },//song3\
+    {title: "Sheesha ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/sheesha_rp singh.png", audio: "songs/sheesha_rp singh.mp3" },//song3\
+    {title: "Rap God ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/rapgod_rp singh.png", audio: "songs/rapgod_rp singh.mp3" },//song3\
+    {title: "Mcoca ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/mcoca_rp singh.png", audio: "songs/mcoca_rp singh.mp3" },//song3\
+    {title: "Banger ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/banger_rp singh.png", audio: "songs/banger_rp singh.mp3" },//song3\
+    {title: "Azad Flow ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/azad flow_rp singh.png", audio: "songs/azad flow_rp singh.mp3" },//song3\
+    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
+    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
+    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
+    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
+    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
+    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
+    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
+    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
+    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
+
+
+
 ];
 
 
