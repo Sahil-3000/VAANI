@@ -147,15 +147,28 @@ const playlist = [
     {title: "Mcoca ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/mcoca_rp singh.png", audio: "songs/mcoca_rp singh.mp3" },//song3\
     {title: "Banger ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/banger_rp singh.png", audio: "songs/banger_rp singh.mp3" },//song3\
     {title: "Azad Flow ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/azad flow_rp singh.png", audio: "songs/azad flow_rp singh.mp3" },//song3\
+
+    {title: "Bliss ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/bliss_rp singh.png", audio: "songs/bliss_rp singh.mp3" },//song3\
+    {title: "Power ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/power_rp singh.png", audio: "songs/power_rp singh.mp3" },//song3\
+    {title: "Meeh ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/meeh_rp singh.png", audio: "songs/meeh_rp singh.mp3" },//song3\
+    {title: "Chehre ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/chehre_rp singh.png", audio: "songs/chehre_rp singh.mp3" },//song3\
+    {title: "3 AM ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/3 am_rp singh.png", audio: "songs/3 am_rp singh.mp3" },//song3\
+    {title: "Aadhi Si Raat ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/aadhi si raat_rp singh.png", audio: "songs/aadhi si raat_rp singh.mp3" },//song3\
+    {title: "Jigre ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/jigre_rp singh.png", audio: "songs/jigre_rp singh.mp3" },//song3\
+    {title: "Look Book ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/look book_rp singh.png", audio: "songs/look book_rp singh.mp3" },//song3\
+    {title: "Maal ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/maal_rp singh.png", audio: "songs/maal_rp singh.mp3" },//song3\
+    {title: "No Lve ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/no love_rp singh.png", audio: "songs/no love_rp singh.mp3" },//song3\
+    {title: "Pataka ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/pataka_rp singh.png", audio: "songs/pataka_rp singh.mp3" },//song3\
+    {title: "Sapne ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/sapne_rp singh.png", audio: "songs/sapne_rp singh.mp3" },//song3\
+    {title: "Tehalka ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/tehalka_rp singh.png", audio: "songs/tehalka_rp singh.mp3" },//song3\
+    {title: "Stop RP ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/stop rp_rp singh.png", audio: "songs/stop rp_rp singh.mp3" },//song3
+
+    {title: "Toxic ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/toxic_rp singh.png", audio: "songs/toxic_rp singh.mp3" },//song3\
+    {title: "Shiva ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/shiva_rp singh.png", audio: "songs/shiva_rp singh.mp3" },//song3\
+    {title: "Sneeze ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/sneeze_rp singh.png", audio: "songs/sneeze_rp singh.mp3" },//song3\
+    {title: "Sarpanchi ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/sarpanchi_rp singh.png", audio: "songs/sarpanchi_rp singh.mp3" },//song3\
     {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
-    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
-    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
-    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
-    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
-    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
-    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
-    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
-    {title: " ", artist: "Rp Singh",artistPhoto: "covers/RP Singh.png", cover: "covers/.png", audio: "songs/.mp3" },//song3\
+
 
 
 
