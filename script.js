@@ -2,7 +2,6 @@
 const playlist = [
     { title: "Jo Tum Mere Ho", artist: "Anuv Jain",artistPhoto: "covers/Anuv Jain.png", cover: "covers/track1.jpg", audio: "songs/jo tum mere ho.mp3" },//song1
     { title: "Fly Karke", artist: "SABBA, Jasmeen", cover: "covers/track2.jpg", audio: "songs/fly krke.mp3" },//song2
-    { title: "Ik Mutiyar Hundi Si", artist: "Hustinder, Black",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
     
     //Arjan Dhillon-Glorious and more...
     { title: "Youth Flow", artist: "Arjan Dhillon",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/youth flow.mp3" },//song4
@@ -41,18 +40,18 @@ const playlist = [
     
 
     //Diljit Dosanjh
-    { title: "Lover", artist: "Diljit Dosanjh", artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lover_diljit.png", audio: "songs/lover_diljit.mp3" },//40
-    { title: "Case", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/case_diljit.png", audio: "songs/case_diljit.mp3" },//41
-    { title: "Ishq Di Baajiyaan", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq di baajiyaan_diljit.png", audio: "songs/ishq di baajiyaan_diljit.mp3" },//42
-    { title: "Love Ya", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lova ya_diljit.png", audio: "songs/love ya_diljit.mp3" },//43
-    { title: "Lalkara", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lalkara_diljit.png", audio: "songs/lalkara_diljit.mp3" },//44
-    { title: "Tu Kya Jaane", artist: "Yashika Sikka, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/tu kya jaane_diljit.png", audio: "songs/tu kya jaane_diljit.mp3" },//45
-    { title: "Bol Mohabbat", artist: "AR Rehman, Kailash Kher,Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/bol mohabbat_diljit.png", audio: "songs/bol mohabbat_diljit.mp3" },//46
-    { title: "Vida Karo", artist: "Arijit Singh,Diljjt",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/vida karo_diljit.png", audio: "songs/vida karo_diljit.mp3" },//47
-    { title: "Panga", artist: "Diljit Dosanjh, Yo Yo Honey Singh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/panga_diljit_yoyo.png", audio: "songs/panga_diljjt_yoyo.mp3" },//48
-    { title: "Ishq Mitaye", artist: "AR Rehman, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq mitaye_diljit.png", audio: "songs/ishq mitaye_diljit.mp3" },//49
-    { title: "5 Tara", artist: " Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/5 tara_diljit.png", audio: "songs/5 tara_diljit.mp3" },//50
-    { title: "Do You Know", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/do you know_diljit.png", audio: "songs/do you know_diljit.mp3" },//51
+    { title: "Lover  ", artist: "Diljit Dosanjh", artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lover_diljit.png", audio: "songs/lover_diljit.mp3" },//40
+    { title: "Case  ", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/case_diljit.png", audio: "songs/case_diljit.mp3" },//41
+    { title: "Ishq Di Baajiyaan  ", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq di baajiyaan_diljit.png", audio: "songs/ishq di baajiyaan_diljit.mp3" },//42
+    { title: "Love Ya  ", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lova ya_diljit.png", audio: "songs/love ya_diljit.mp3" },//43
+    { title: "Lalkara   ", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lalkara_diljit.png", audio: "songs/lalkara_diljit.mp3" },//44
+    { title: "Tu Kya Jaane  ", artist: "Yashika Sikka, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/tu kya jaane_diljit.png", audio: "songs/tu kya jaane_diljit.mp3" },//45
+    { title: "Bol Mohabbat  ", artist: "AR Rehman, Kailash Kher,Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/bol mohabbat_diljit.png", audio: "songs/bol mohabbat_diljit.mp3" },//46
+    { title: "Vida Karo  ", artist: "Arijit Singh,Diljjt",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/vida karo_diljit.png", audio: "songs/vida karo_diljit.mp3" },//47
+    { title: "Panga  ", artist: "Diljit Dosanjh, Yo Yo Honey Singh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/panga_diljit_yoyo.png", audio: "songs/panga_diljjt_yoyo.mp3" },//48
+    { title: "Ishq Mitaye  ", artist: "AR Rehman, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq mitaye_diljit.png", audio: "songs/ishq mitaye_diljit.mp3" },//49
+    { title: "5 Tara  ", artist: " Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/5 tara_diljit.png", audio: "songs/5 tara_diljit.mp3" },//50
+    { title: "Do You Know ", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/do you know_diljit.png", audio: "songs/do you know_diljit.mp3" },//51
     { title: "G.O.A.T", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/goat_diljit.png", audio: "songs/goat_diljit.mp3" },//52
     { title: "Clash", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/clash_diljit.png", audio: "songs/clash_diljit.mp3" },//53
     { title: "Muchh", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/muchh_diljit.png", audio: "songs/muchh_diljit.mp3" },//54
@@ -103,8 +102,40 @@ const playlist = [
     { title: "Filter", artist: "Gulab Sidhu", cover: "covers/filter_gulab sidhu.png", audio: "songs/filter_gulab sidhu.mp3" },//39
     { title: "Patti Ton Patiala", artist: "Harkirat Sangha", cover: "covers/patti to patiala_harkirat sangha.png", audio: "songs/patti to patiala_harkirat sangha.mp3" },//39
 
-
-
+    //Hustinder
+    { title: "Ik Mutiyaar Hundi Si ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Hundi Si Gareebi", artist: "Hustinder, Black",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
+    { title: "Bhuleya Ki Ae", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Dollar Wargiye ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Dullda Glass", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Gal Kaun Karda ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Gaza Patti ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Gumnaam Pyaar ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Hasde Hi Rehndeya ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Hathan Utte Duniya ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Hopes ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Jethi Dhee ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Kharcha Kardange ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Laag Daat ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Maa Kehndi Hundi Si ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Man Ton Lehgi ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Mittran De Circle ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Nachdi Ton ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Paasport Size Tasveer ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Praandi ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Pyaar Hoya ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Rabb Di Aulad ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Raonak ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Rullde Firde Aan ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Saade Warge ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Surga Nu Rah ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Tera Mera Nata ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
+    { title: "Teri Deed ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
+    { title: "Tu Takkri ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
+    { title: "Ucheyan Gharan Di Jaaiye ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
+    { title: "Velly Yaar ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
+    { title: "Watching You ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
+    { title: "Yari Tod Layi ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
 ];
 
 
