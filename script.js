@@ -103,39 +103,39 @@ const playlist = [
     { title: "Patti Ton Patiala", artist: "Harkirat Sangha", cover: "covers/patti to patiala_harkirat sangha.png", audio: "songs/patti to patiala_harkirat sangha.mp3" },//39
 
     //Hustinder
-    { title: "Ik Mutiyaar Hundi Si ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Hundi Si Gareebi", artist: "Hustinder, Black",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
-    { title: "Bhuleya Ki Ae", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Dollar Wargiye ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Dullda Glass", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Gal Kaun Karda ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Gaza Patti ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Gumnaam Pyaar ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Hasde Hi Rehndeya ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Hathan Utte Duniya ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Hopes ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Jethi Dhee ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Kharcha Kardange ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Laag Daat ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Maa Kehndi Hundi Si ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Man Ton Lehgi ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Mittran De Circle ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Nachdi Ton ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Paasport Size Tasveer ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Praandi ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Pyaar Hoya ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Rabb Di Aulad ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Raonak ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Rullde Firde Aan ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Saade Warge ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Surga Nu Rah ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Tera Mera Nata ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/.mp3" },//song3
-    { title: "Teri Deed ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
-    { title: "Tu Takkri ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
-    { title: "Ucheyan Gharan Di Jaaiye ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
-    { title: "Velly Yaar ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
-    { title: "Watching You ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
-    { title: "Yari Tod Layi ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/ik mutiyar hundi si.mp3" },//song3
+    { title: "Ik Mutiyaar Hundi Si ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/ik mutiyar hundi si_hustinder.mp3" },//song3
+    { title: "Hundi Si Gareebi", artist: "Hustinder, Black",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/hundi si gareebi_hustinder.mp3" },//song3
+    { title: "Bhuleya Ki Ae", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/bhuleya ki ae_hustinder.mp3" },//song3
+    { title: "Dollar Wargiye ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/dollar wargiye_hustinder.mp3" },//song3
+    { title: "Dullda Glass", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/dullda glass_hustinder.mp3" },//song3
+    { title: "Gal Koun Karda ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan 2_hustinder.png", audio: "songs/gal koun karda_hustinder.mp3" },//song3
+    { title: "Gaza Patti ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/gaza patti_hustinder.mp3" },//song3
+    { title: "Gumnaam Pyaar ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/gumnaam pyaar_hustinder.mp3" },//song3
+    { title: "Hasde Hi Rehndeya ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/hasde hi rehndeya_hustinder.mp3" },//song3
+    { title: "Hathan Utte Duniya ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/hathan utte duniya_hustinder.mp3" },//song3
+    { title: "Hopes ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/hopes_hustinder.mp3" },//song3
+    { title: "Jethi Dhee ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/jethi dhee_hustinder.mp3" },//song3
+    { title: "Kharcha Kardange ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/kharcha kardange_hustinder.mp3" },//song3
+    { title: "Laag Daat ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/laag daat_hustinder.mp3" },//song3
+    { title: "Maa Kehndi Hundi Si ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/maa kehndi hundi si_hustinder.mp3" },//song3
+    { title: "Man Ton Lehgi ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "songs/man ton lehgi_hustinder.mp3" },//song3
+    { title: "Mittran De Circle ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/mittran de circle_hustinder.mp3" },//song3
+    { title: "Nachdi Ton ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/nachdi ton.mp3" },//song3
+    { title: "Paasport Size Tasveer ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/passport size tasveer_hustinder.mp3" },//song3
+    { title: "Praandi ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/praandi_hustinder.mp3" },//song3
+    { title: "Pyaar Hoya ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/pyaar hoya_hustinder.mp3" },//song3
+    { title: "Rabb Di Aulad ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/rabb di aulad_hustinder.mp3" },//song3
+    { title: "Raonak ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/raonak_hustinder.mp3" },//song3
+    { title: "Rullde Firde Aan ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/rullde firde aan_hustinder.mp3" },//song3
+    { title: "Saade Warge ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/saade warge_hustinder.mp3" },//song3
+    { title: "Surga Nu Rah ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/surga nu rah_hustinder.mp3" },//song3
+    { title: "Tera Mera Nata ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/tera mera nata_hustinder.mp3" },//song3
+    { title: "Teri Deed ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/teri deed_hustinder.mp3" },//song3
+    { title: "Tu Takkri ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/tu takkri_hustinder.mp3" },//song3
+    { title: "Ucheyan Gharan Di Jaaiye ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "ucheyan gharan diye jaaiye.mp3" },//song3
+    { title: "Velly Yaar ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/velly yaar_hustinder.mp3" },//song3
+    { title: "Watching You ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/watching you_hustinder.mp3" },//song3
+    { title: "Yari Tod Layi ", artist: "Hustinder",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "songs/yari tod layi_hustinder.mp3" },//song3
 ];
 
 
