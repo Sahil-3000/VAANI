@@ -1,7 +1,7 @@
 // Playlist data
 const playlist = [
     { title: "Jo Tum Mere Ho", artist: "Anuv Jain",artistPhoto: "covers/Anuv Jain.png", cover: "covers/track1.jpg", audio: "songs/jo tum mere ho.mp3" },//song1
-    { title: "Fly Karke", artist: "SABBA, Jasmeen", cover: "covers/track2.jpg", audio: "songs/fly krke.mp3" },//song2
+    { title: "Fly Karke", artist: "SABBA, Jasmeen",artistPhoto: "covers/Sabba.png", cover: "covers/track2.jpg", audio: "songs/fly krke.mp3" },//song2
     
     //Arjan Dhillon-Glorious and more...
     { title: "Youth Flow", artist: "Arjan Dhillon",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/youth flow.mp3" },//song4
@@ -65,7 +65,7 @@ const playlist = [
     { title: "What Ve", artist: "Diljjt Dosanjh,Nimrat Khaira",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/what ve_diljit.png", audio: "songs/what ve_diljit.mp3" },//62
     { title: "Hass Hass", artist: "Sia,Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/hass hass_diljit.png", audio: "songs/hass hass_diljit.mp3" },//63
     { title: "Patiala Peg", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/patiala peg_diljit.png", audio: "songs/patiala peg_diljit.mp3" },//64
-    { title: "Mombattiye", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/mombattiye_img_diljit.png", audio: "songs/mombattiye_diljit.mp3" },//64
+    { title: "Mombattiye", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/mombattiye_diljit.png", audio: "songs/mombattiye_diljit.mp3" },//64
 
     //Karan Aujla
     { title: "Softly", artist: "Karan Aujla",artistPhoto: "covers/Karan Aujla.png", cover: "covers/softly_karan.png", audio: "songs/softly_karan.mp3" },//65
@@ -86,11 +86,11 @@ const playlist = [
     { title: "Victory Anthem", artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/victory anthem.mp3" },//27
     { title: "Tu Hai Kaha", artist: "A-U-R", cover: "covers/tu hai kaha.jpg", audio: "songs/tu hai kaha.mp3" },//28
     { title: "Sweater", artist: "Preet Hundal", cover: "covers/sweater.jpg", audio: "songs/sweater.mp3" },//29
-    { title: "Zindagi", artist: "Sabba", cover: "covers/zindagi sabba.jpg", audio: "songs/zindagi sabba.mp3" },//30
+    { title: "Zindagi", artist: "Sabba",artistPhoto: "covers/Sabba.png", cover: "covers/zindagi sabba.jpg", audio: "songs/zindagi sabba.mp3" },//30
     { title: "Medal", artist: "Chandra Brar", cover: "covers/medal.jpg", audio: "songs/medal.mp3" },//31
     { title: "Ishq hoya", artist: "Jyoti Nooran, Arjit Srivastav", cover: "covers/ishq hoya.jpg", audio: "songs/ishq hoya.mp3" },//32
     { title: "Illegal", artist: "Dhanda Nyoliwala",artistPhoto: "covers/Dhanda Nyoliwala.png", cover: "covers/illegal dhanda.jpg", audio: "songs/illegal dhanda.mp3" },//33
-    { title: "Maada Time", artist: "Sabba", cover: "covers/maada time.jpg", audio: "songs/maada time.mp3" },//34
+    { title: "Maada Time", artist: "Sabba",artistPhoto: "covers/Sabba.png", cover: "covers/maada time.jpg", audio: "songs/maada time.mp3" },//34
     { title: "Dil Tu Jaan Tu", artist: "Guranzar", cover: "covers/dil tu jaan tu.jpg", audio: "songs/dil tu jaan tu.mp3" },//35
     { title: "Victory Anthem", artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/victory anthem.mp3" },//36
     { title: "Tareyan Do Loh", artist: "Harsh Bilga", cover: "covers/tareyan di loh.jpg", audio: "songs/tareyan di loh.mp3" },//37
