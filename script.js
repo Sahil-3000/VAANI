@@ -1,5 +1,33 @@
 // Playlist data
 const playlist = [
+    //Diljit Dosanjh
+    { title: "Lover  ", artist: "Diljit Dosanjh", artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lover_diljit.png", audio: "songs/lover_diljit.mp3" },//40
+    { title: "Case  ", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/case_diljit.png", audio: "songs/case_diljit.mp3" },//41
+    { title: "Ishq Di Baajiyaan  ", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq di baajiyaan_diljit.png", audio: "songs/ishq di baajiyaan_diljit.mp3" },//42
+    { title: "Love Ya  ", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lova ya_diljit.png", audio: "songs/love ya_diljit.mp3" },//43
+    { title: "Lalkara   ", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lalkara_diljit.png", audio: "songs/lalkara_diljit.mp3" },//44
+    { title: "Tu Kya Jaane  ", artist: "Yashika Sikka, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/tu kya jaane_diljit.png", audio: "songs/tu kya jaane_diljit.mp3" },//45
+    { title: "Bol Mohabbat  ", artist: "AR Rehman, Kailash Kher,Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/bol mohabbat_diljit.png", audio: "songs/bol mohabbat_diljit.mp3" },//46
+    { title: "Vida Karo  ", artist: "Arijit Singh,Diljjt",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/vida karo_diljit.png", audio: "songs/vida karo_diljit.mp3" },//47
+    { title: "Panga  ", artist: "Diljit Dosanjh, Yo Yo Honey Singh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/panga_diljit_yoyo.png", audio: "songs/panga_diljjt_yoyo.mp3" },//48
+    { title: "Ishq Mitaye  ", artist: "AR Rehman, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq mitaye_diljit.png", audio: "songs/ishq mitaye_diljit.mp3" },//49
+    { title: "5 Tara  ", artist: " Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/5 tara_diljit.png", audio: "songs/5 tara_diljit.mp3" },//50
+    { title: "Do You Know ", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/do you know_diljit.png", audio: "songs/do you know_diljit.mp3" },//51
+    { title: "G.O.A.T", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/goat_diljit.png", audio: "songs/goat_diljit.mp3" },//52
+    { title: "Clash", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/clash_diljit.png", audio: "songs/clash_diljit.mp3" },//53
+    { title: "Muchh", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/muchh_diljit.png", audio: "songs/muchh_diljit.mp3" },//54
+    { title: "High End", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/high end_diljit.png", audio: "songs/high end_diljit.mp3" },//55
+    { title: "Naram Kalja", artist: "Diljjt Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/naram kalja_diljit.png", audio: "songs/naram kalja_diljit.mp3" },//56
+    { title: "Baaja", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/bajja_diljit.png", audio: "songs/bajja_diljit.mp3" },//57
+    { title: "Muhammad Ali", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/muhammad ali_diljit.png", audio: "songs/muhammad ali_diljit.mp3" },//58
+    { title: "El Sueno", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/el sueno_diljit.png", audio: "songs/el sueno_diljit.mp3" },//59
+    { title: "Born To Shine", artist: "Diljit Dosanjb",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/born to shine_diljit.png", audio: "songs/born to shine_diljit.mp3" },//60
+    { title: "Peaches", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/peaches_diljit.png", audio: "songs/peaches_diljit.mp3" },//61
+    { title: "What Ve", artist: "Diljjt Dosanjh,Nimrat Khaira",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/what ve_diljit.png", audio: "songs/what ve_diljit.mp3" },//62
+    { title: "Hass Hass", artist: "Sia,Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/hass hass_diljit.png", audio: "songs/hass hass_diljit.mp3" },//63
+    { title: "Patiala Peg", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/patiala peg_diljit.png", audio: "songs/patiala peg_diljit.mp3" },//64
+    { title: "Mombattiye", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/mombattiye_diljit.png", audio: "songs/mombattiye_diljit.mp3" },//64
+
     { title: "Jo Tum Mere Ho", artist: "Anuv Jain",artistPhoto: "covers/Anuv Jain.png", cover: "covers/track1.jpg", audio: "songs/jo tum mere ho.mp3" },//song1
     { title: "Fly Karke", artist: "SABBA, Jasmeen",artistPhoto: "covers/Sabba.png", cover: "covers/track2.jpg", audio: "songs/fly krke.mp3" },//song2
     
@@ -39,34 +67,7 @@ const playlist = [
     { title: "What Goes On", artist: "The Beatles",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/what goes on.mp3" },//26
     
 
-    //Diljit Dosanjh
-    { title: "Lover  ", artist: "Diljit Dosanjh", artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lover_diljit.png", audio: "songs/lover_diljit.mp3" },//40
-    { title: "Case  ", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/case_diljit.png", audio: "songs/case_diljit.mp3" },//41
-    { title: "Ishq Di Baajiyaan  ", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq di baajiyaan_diljit.png", audio: "songs/ishq di baajiyaan_diljit.mp3" },//42
-    { title: "Love Ya  ", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lova ya_diljit.png", audio: "songs/love ya_diljit.mp3" },//43
-    { title: "Lalkara   ", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lalkara_diljit.png", audio: "songs/lalkara_diljit.mp3" },//44
-    { title: "Tu Kya Jaane  ", artist: "Yashika Sikka, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/tu kya jaane_diljit.png", audio: "songs/tu kya jaane_diljit.mp3" },//45
-    { title: "Bol Mohabbat  ", artist: "AR Rehman, Kailash Kher,Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/bol mohabbat_diljit.png", audio: "songs/bol mohabbat_diljit.mp3" },//46
-    { title: "Vida Karo  ", artist: "Arijit Singh,Diljjt",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/vida karo_diljit.png", audio: "songs/vida karo_diljit.mp3" },//47
-    { title: "Panga  ", artist: "Diljit Dosanjh, Yo Yo Honey Singh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/panga_diljit_yoyo.png", audio: "songs/panga_diljjt_yoyo.mp3" },//48
-    { title: "Ishq Mitaye  ", artist: "AR Rehman, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq mitaye_diljit.png", audio: "songs/ishq mitaye_diljit.mp3" },//49
-    { title: "5 Tara  ", artist: " Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/5 tara_diljit.png", audio: "songs/5 tara_diljit.mp3" },//50
-    { title: "Do You Know ", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/do you know_diljit.png", audio: "songs/do you know_diljit.mp3" },//51
-    { title: "G.O.A.T", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/goat_diljit.png", audio: "songs/goat_diljit.mp3" },//52
-    { title: "Clash", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/clash_diljit.png", audio: "songs/clash_diljit.mp3" },//53
-    { title: "Muchh", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/muchh_diljit.png", audio: "songs/muchh_diljit.mp3" },//54
-    { title: "High End", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/high end_diljit.png", audio: "songs/high end_diljit.mp3" },//55
-    { title: "Naram Kalja", artist: "Diljjt Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/naram kalja_diljit.png", audio: "songs/naram kalja_diljit.mp3" },//56
-    { title: "Baaja", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/bajja_diljit.png", audio: "songs/bajja_diljit.mp3" },//57
-    { title: "Muhammad Ali", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/muhammad ali_diljit.png", audio: "songs/muhammad ali_diljit.mp3" },//58
-    { title: "El Sueno", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/el sueno_diljit.png", audio: "songs/el sueno_diljjt.mp3" },//59
-    { title: "Born To Shine", artist: "Diljit Dosanjb",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/born to shine_diljit.png", audio: "songs/born to shine_diljit.mp3" },//60
-    { title: "Peaches", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/peaches_diljit.png", audio: "songs/peaches_diljit.mp3" },//61
-    { title: "What Ve", artist: "Diljjt Dosanjh,Nimrat Khaira",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/what ve_diljit.png", audio: "songs/what ve_diljit.mp3" },//62
-    { title: "Hass Hass", artist: "Sia,Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/hass hass_diljit.png", audio: "songs/hass hass_diljit.mp3" },//63
-    { title: "Patiala Peg", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/patiala peg_diljit.png", audio: "songs/patiala peg_diljit.mp3" },//64
-    { title: "Mombattiye", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/mombattiye_diljit.png", audio: "songs/mombattiye_diljit.mp3" },//64
-
+    
     //Karan Aujla
     { title: "Softly", artist: "Karan Aujla",artistPhoto: "covers/Karan Aujla.png", cover: "covers/softly_karan.png", audio: "songs/softly_karan.mp3" },//65
     { title: "On Top", artist: "Karan Aujla",artistPhoto: "covers/Karan Aujla.png", cover: "covers/on top_karan.png", audio: "songs/on top_karan.mp3" },//66
@@ -191,6 +192,8 @@ const homeButton = document.querySelector(".home");
 const songResults = document.querySelector(".song-results");
 const defaultContent = document.querySelector(".default-content");
 const searchBtn = document.querySelector(".search-btn");
+
+
 // Toggle visibility when the home button is clicked
 homeButton.addEventListener("click", () => {
     if (songResults.style.display === "block") {
@@ -293,19 +296,7 @@ function setCurrentSong(track) {
     currentSong = track;
 }
 
-// Add event listener to the download button
-document.getElementById("download-button").addEventListener("click", () => {
-    if (currentSong && currentSong.audio) {
-        const link = document.createElement("a");
-        link.href = currentSong.audio;
-        link.download = `${currentSong.title}.mp3`; // Suggest file name
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    } else {
-        alert("No song is currently playing.");
-    }
-});
+
 
 // Update loadTrack function to also set the current song
 function loadTrack(trackIndex) {
@@ -334,6 +325,22 @@ function loadTrack(trackIndex) {
     // Update the current song for the download button
     setCurrentSong(track);
 }
+
+
+
+// Add event listener to the download button
+document.getElementById("download-button").addEventListener("click", () => {
+    if (currentSong && currentSong.audio) {
+        const link = document.createElement("a");
+        link.href = currentSong.audio;
+        link.download = `${currentSong.title}.mp3`; // Suggest file name
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    } else {
+        alert("No song is currently playing.");
+    }
+});
 
 // Element references
 const nowPlayingTitle = document.querySelector('.track-title');
@@ -448,3 +455,25 @@ document.querySelector('.playback-controls svg:nth-child(3)').onclick = nextTrac
 audio.onended = () => {
     nextTrack();
 };
+
+
+const selectedPlaylist = document.querySelectorAll('.library-item');
+
+const library = document.querySelector('.library-section');
+const openPlaylist = document.querySelector('.selected-playlist');
+
+// Loop through each playlist and add a click event listener
+selectedPlaylist.forEach(playlist => {
+    playlist.addEventListener("click", () => {
+      if (openPlaylist.style.display === "none" || !openPlaylist.style.display) {
+        // Show playlist and hide library
+        openPlaylist.style.display = "block";
+        openPlaylist.style.textContent = "Empty Playlist!";
+        library.style.display = "none";
+      } else {
+        // Show default content and hide song results
+        openPlaylist.style.display = "none";
+        library.style.display = "block";
+      }
+    });
+  });

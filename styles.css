@@ -218,6 +218,12 @@ main,
     overflow-x: hidden; /* Hides horizontal scrollbar */
     margin-bottom:50px;
 }
+.selected-playlist{
+    display:none;
+    background-color:transparent;
+    width:100%;
+    height:100%;
+}
 .library-item img{
     display:flex;
     width:90px;
