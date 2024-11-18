@@ -217,6 +217,52 @@ main,
     overflow-x: hidden; /* Hides horizontal scrollbar */
 }
 
+.main-header{
+    padding:0;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    gap:15px;
+    width:100%;
+    height:40px;
+    margin-top:0;
+    margin-bottom:3%;
+    margin-right:0;
+    margin-left:0;
+    background-color:transparent;
+    /* position:fixed; */
+    
+}
+
+.all{
+    width:40px;
+    height:30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    border-radius:10px;
+    background-color: rgb(53, 51, 51);
+}
+.music{
+    width:55px;
+    height:30px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius:10px;
+    background-color: rgb(53, 51, 51);
+}
+.podcast{
+    width:65px;
+    height:30px;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius:10px;
+    background-color: rgb(53, 51, 51);
+}
+
 main {
     display:block;
     flex: 0 0 54.5%; /* Fixed width of 50% */
@@ -346,7 +392,15 @@ footer.now-playing {
     padding: 0;
 }
 
-.playlist-grid,
+.playlist-grid{
+    display:flex;
+    flex-direction: row; 
+}
+.grid1, .grid2{
+    display:flex;
+    flex-direction: column;
+}
+
 .recommended-grid {
     display: flex;
     gap: 10px;
@@ -545,6 +599,8 @@ footer.now-playing {
   
 
 
+
+
 /* Responsive Design for Mobile Screens */
 @media (max-width: 768px) {
     .spotify-clone {
@@ -635,14 +691,15 @@ footer.now-playing {
         padding: 5%;
     }
 
-
-
     .sidebars-main {
         flex-direction: column;
         gap: 10px;
         height: auto;
     }
 
+    .featured-playlist{
+        display: flex;
+    }
     .sidebar1,
     .sidebar2 {
         /* flex: 0 0 100%;

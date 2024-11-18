@@ -59,10 +59,10 @@ const playlist = [
     { title: "High End", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/high end_diljit.png", audio: "songs/high end_diljit.mp3" },//55
     { title: "Naram Kalja", artist: "Diljjt Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/naram kalja_diljit.png", audio: "songs/naram kalja_diljit.mp3" },//56
     { title: "Baaja", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/bajja_diljit.png", audio: "songs/bajja_diljit.mp3" },//57
-    { title: "Muhammad Ali", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/muhammad ali_diljit.png", audio: "songs/Muhammad ali_diljjt.mp3" },//58
+    { title: "Muhammad Ali", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/muhammad ali_diljit.png", audio: "songs/muhammad ali_diljit.mp3" },//58
     { title: "El Sueno", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/el sueno_diljit.png", audio: "songs/el sueno_diljjt.mp3" },//59
     { title: "Born To Shine", artist: "Diljit Dosanjb",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/born to shine_diljit.png", audio: "songs/born to shine_diljit.mp3" },//60
-    { title: "Peaches", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/peaches_diljit.png", audio: "songs/peaches_diljjt.mp3" },//61
+    { title: "Peaches", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/peaches_diljit.png", audio: "songs/peaches_diljit.mp3" },//61
     { title: "What Ve", artist: "Diljjt Dosanjh,Nimrat Khaira",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/what ve_diljit.png", audio: "songs/what ve_diljit.mp3" },//62
     { title: "Hass Hass", artist: "Sia,Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/hass hass_diljit.png", audio: "songs/hass hass_diljit.mp3" },//63
     { title: "Patiala Peg", artist: "Diljit Dosanjh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/patiala peg_diljit.png", audio: "songs/patiala peg_diljit.mp3" },//64
