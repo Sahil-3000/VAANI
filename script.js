@@ -31,7 +31,7 @@ const playlist = [
     { title: "Jo Tum Mere Ho", artist: "Anuv Jain",artistPhoto: "covers/Anuv Jain.png", cover: "covers/track1.jpg", audio: "songs/jo tum mere ho.mp3", searchString: "anuv jain songs anuv jain k gane anuv jain anuv jo tum mere ho"},//song1
     { title: "Fly Karke", artist: "SABBA, Jasmeen",artistPhoto: "covers/Sabba.png", cover: "covers/fly karke_sabba.png", audio: "songs/fly krke.mp3", searchString: "fly krke fly fli krke karke flai krke song sabba song sabba k gane"},//song2
     
-    //Arjan Dhillon-Glorious and more...
+    //Arjan Dhillon-Glorious and more
     { title: "Youth Flow", artist: "Arjan Dhillon",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/youth flow.mp3", searchString: "arjan songs arjan jawani song arjan"},//song4
     { title: "Glorious", artist: "Arjan Dhillon",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/glorious.mp3", searchString: "arjan songs glorious glowrious glorius gloris"},//song5
     { title: "Maavan", artist: "Arjan Dhillon",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/maavan.mp3", searchString: "arjan songs mava maanvan mava maava maa maa song arjan"},//song6
@@ -514,26 +514,38 @@ const playlists = [
         artist: "Various Artists",
         cover: "covers/sleep playlist.png",
         songs: [
-            { title: "Everything I Wanted", artist: "Billie Eilish", audio: "songs/everything-i-wanted.mp3" },
-            { title: "Coldplay", artist: "Coldplay", audio: "songs/coldplay.mp3" },
-            { title: "Fix You", artist: "Coldplay", audio: "songs/fix-you.mp3" }
+            { title: "Everything I Wanted ", artist: "Billie Eilish", audio: "songs/everything i wanted_billie.mp3" },
+            { title: "Ocean", artist: "Anuv Jain", audio: "songs/ocean_anuv jain.mp3" },
+            { title: "Male Fantasy.", artist: "Billie Eilish", audio: "songs/male fantasy_billie.mp3" },
+            { title: "Lovely", artist: "Billie Eilish", audio: "songs/lovely_billie.mp3" },
+            { title: "What Was I Made For?", artist: "Billie Eilish", audio: "songs/what was i made for_billie.mp3" },
+        ]
+    },
+
+    {
+        id: 5,
+        title: "The Beatles",
+        artist: "The Beatles",
+        cover: "covers/The Beatles.png",
+        songs: [
+            { title: "If I Needed Someone", artist: "The Beatles",audio: "songs/if i needed someone.mp3"},//13
+            { title: "Norwegian Wood", artist: "The Beatles",audio: "songs/norwegian wood.mp3"},//14
+            { title: "You Won't See Me", artist: "The Beatles",audio: "songs/you won't see me.mp3"},//15
+            { title: "Think For Yourself", artist: "The Beatles",audio: "songs/think for yourself.mp3"},//16
+            { title: "The Word", artist: "The Beatles",audio: "songs/the word.mp3"},//17
+            { title: "Michelle", artist: "The Beatles",audio: "songs/michelle.mp3"},//18
+            { title: "Drive My Car", artist: "The Beatles",audio: "songs/drive my car.mp3"},//19
+            { title: "Girl", artist: "The Beatles", audio: "songs/girl.mp3"},//20
+            { title: "I'm Looking Through You", audio: "songs/i'm looking through you.mp3"},//21
+            { title: "In My Life", artist: "The Beatles",audio: "songs/In My Life.mp3"},//22
+            { title: "Wait", artist: "The Beatles",audio: "songs/wait.mp3"},//23
+            { title: "Run For Your Life", artist: "The Beatles",audio: "songs/run for your life.mp3"},//24
+            { title: "Nowhere Man", artist: "The Beatles",audio: "songs/nowhere man.mp3"},//25
+            { title: "What Goes On", artist: "The Beatles",audio: "songs/what goes on.mp3"},//26
         ]
     }
 ];
 
-// Add click event listener to each library item
-// libraryItems.forEach((libraryItem, index) => {
-//     libraryItem.addEventListener("click", () => {
-//         const selectedPlaylist = playlists[index]; // Get the playlist from the 'playlists' array based on the index
-
-//         // Show the selected playlist and hide the library
-//         openPlaylistContainer.style.display = "block";
-//         librarySection.style.display = "none"; // Hide the library
-
-//         // Display the playlist details
-//         displayPlaylist(selectedPlaylist);
-//     });
-// });
 
 libraryItems.forEach((libraryItem, index) => {
     libraryItem.addEventListener("click", () => {
@@ -599,11 +611,12 @@ function displayPlaylist(playList) {
 
         // Song title and artist
         const songTitle = document.createElement("p");
-        songTitle.textContent = `${song.title} - ${song.artist}`;
+        songTitle.innerHTML = `${song.title}-<br> ${song.artist}`;
         songDiv.appendChild(songTitle);
 
         // Download button for each song
         const downLoad = document.createElement("button");
+        downLoad.setAttribute("data-type", "download");
         downLoad.textContent = "Download";
         downLoad.onclick = () => {
             // Check if there is a current song and it has an audio source
@@ -622,6 +635,7 @@ function displayPlaylist(playList) {
 
         // Play button for each song
         const playButton = document.createElement("button");
+        playButton.setAttribute("data-type", "play-button");
         playButton.textContent = "Play";
         playButton.onclick = () => playSong(song.audio);
         songDiv.appendChild(playButton);

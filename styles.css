@@ -18,6 +18,7 @@ body {
     height: 100vh;
 }
 
+
 .home-search {
     display:flex;
     gap:15px;
@@ -219,10 +220,11 @@ main,
     margin-bottom:50px;
 }
 /* .playlist-header{
-    display:none;
+    display:flex;
     background-color:transparent;
     width:100%;
     height:100%;
+    margin-bottom:100px;
 } */
 .library-item img{
     display:flex;
@@ -431,10 +433,7 @@ footer.now-playing {
     padding: 0;
 }
 
-.playlist-grid{
-    display:flex;
-    flex-direction: row; 
-}
+
 .grid1, .grid2{
     display:flex;
     flex-direction: column;
@@ -445,8 +444,31 @@ footer.now-playing {
     gap: 10px;
     border-radius: 8px;
 }
+.playlist-grid{
+    display:flex;
+    /* flex-direction: row;  */
+    justify-content: space-between;
+    width:100%;
+    height: 100%;
+}
+.playlist-item{
+    display:flex;
+    width:10%;
+    height:50px;
+    object-fit: contain;
+    background-size: cover;
+    gap:5px;
+}
+.playlist-item img{
+    display:flex;
+    width:100%;
+    height:100%;
+    gap:5px;
+    object-fit: contain;
+    background-size: cover;
+}
 
-.playlist-item,
+
 .recommended-item {
     width: 120px;
     height: 120px;
@@ -648,6 +670,7 @@ footer.now-playing {
     height: 120px;
     border-radius: 10px;
     margin-right: 20px;
+    margin-bottom:5px;
 }
 
 .playlist-header h3 {
@@ -659,6 +682,8 @@ footer.now-playing {
     margin: 5px 0 0;
     font-size: 16px;
     color: #b3b3b3;
+    margin-bottom:15px;
+    font-weight:lighter;
 }
 
 /* Song items */
@@ -667,28 +692,60 @@ footer.now-playing {
     justify-content: space-between;
     align-items: center;
     background: #222;
-    padding: 10px;
+    padding: 5px;
+    padding-bottom:0;
     border-radius: 6px;
-    margin-bottom: 10px;
+    width:100%;
+    margin-bottom: 40px;
+    margin-top:0;
 }
 
 .song-item p {
     margin: 0;
     font-size: 16px;
     color: #fff;
+    width:80%;
 }
 
-/* Buttons */
-.song-item button {
-    background: #1db954;
+/* Style for the Download button */
+/* .download-button {
+    background-color: #1db954;
     border: none;
-    color: #fff;
-    padding: 5px 10px;
+    color: #0b0a0a;
+    padding:3px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 14px;
     transition: background-color 0.3s ease;
+    margin:5px;
+} */
+button[data-type="download"] {
+    width:70px;
+    background: #1db954;
+    border: none;
+    color: #fff;
+    padding:3px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-right:7px;
+    /* margin-left:50px; */
 }
+button[data-type="play-button"]{
+    width:40px;
+    background: #1db954;
+    border: none;
+    color: #fff;
+    padding:3px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin-right:0;
+}
+
+
 
 .song-item button:hover {
     background: #17a74a;
