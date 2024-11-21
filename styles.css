@@ -1159,37 +1159,61 @@ button[data-type="play-button"]{
     footer.now-playing {
         /* flex-direction: column; */
         display:flex;
-        height: 20%;
+        height: 15%;
     }
 
     .playback-controls{
         width:50%;
         position:fixed;
-        top:84%;
-        bottom:8%;
-        left:25%;
+        /* top:86%; */
+        bottom:40px;
+        left:23%;
     }
+    
     .playback-controls:focus {
         outline: 2px solid rgba(255, 255, 255, 0.5); /* Subtle white border */
         border-radius: 4px; /* To match button shape */
     }
-    #download-button{
+    /* #download-button{
         position:fixed;
+        font-size:10px;
+        text-wrap:wrap ;
+        text-align: left;
+        padding-bottom:4px;
+        width:60px;
+        height:15px;
         left:2%;
         bottom:1%;
     }
+    #download-buttom p{
+        font-size:16px;
+    } */
+    #download-button {
+        position: fixed;
+        font-size: 10px;
+        overflow-wrap: break-word; /* Allow text to wrap within the element */
+        /* text-align: left; */
+        /* padding-bottom: 4px; */
+        width: 60px;
+        height: 20px;
+        padding:0;
+        left: 2%;
+        bottom: 35px;
+    }
+    
+
     .volume-control {
-        width: 40%;
-        height:20px;
+        width: 20%;
+        height:15px;
         position:fixed;
-        bottom:1%;
+        bottom:35px;
         right:2%;
     }
 
     .progress-bar {
         width: 94%;
         position:fixed;
-        bottom:7%;
+        bottom:2%;
         left:1%;
         right:5%;
     }
