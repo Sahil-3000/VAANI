@@ -868,14 +868,14 @@ button[data-type="play-button"]{
         width:100%;
     }
     .logo-VAANI{
-        margin-left:0;
+        margin-left:1%;
         width:35px;
         height:35px;
     }
     .logo{
         position:fixed;
         top:1%;
-        left:1%;
+        left:1.5%;
         gap:4px;
         /* bottom:1%; */
     }
@@ -883,7 +883,7 @@ button[data-type="play-button"]{
         width:50%;
         position:fixed;
         top:1%;
-        left:30%;
+        left:33%;
         gap:0px;
 
     }
@@ -893,7 +893,7 @@ button[data-type="play-button"]{
         padding:0;
         position:fixed;
         top:1%;
-        left:40%;
+        left:43%;
     }
     .search-bar {
         width: 80%;
