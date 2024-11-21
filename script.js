@@ -898,9 +898,9 @@ const playlistsMain = [
 
     {
         id: 8,
-        title: "BTS",
-        artist: "BTS",
-        cover: "covers/BTS.jpg",
+        title: "Haryanvi Hits",
+        artist: "Varius Artist",
+        cover: "covers/Haryanvi Hits.png",
         songs: [
             { title: "If I Needed Someone", artist: "The Beatles",audio: "songs/if i needed someone.mp3"},//13
             { title: "Norwegian Wood", artist: "The Beatles",audio: "songs/norwegian wood.mp3"},//14
@@ -1056,3 +1056,45 @@ homeButton.addEventListener("click", () => {
         defaultContent.style.display = "block";
     }
 });
+
+
+// // Move to the next track
+// function nextTrack() {
+//     currentTrackIndex = (currentTrackIndex + 1) % playlistsMain.length;
+//     loadTrack(currentTrackIndex);
+//     audio.play();
+//     playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';
+    
+//     isPlaying = true;
+// }
+
+// // Move to the previous track
+// function prevTrack() {
+//     currentTrackIndex = (currentTrackIndex - 1 + playlistsMain.length) % playlistsMain.length;
+//     loadTrack(currentTrackIndex);
+//     audio.play();
+//     playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';
+//     artistImg.src = track.artistPhoto;
+//     isPlaying = true;
+// }
+
+
+// // Move to the next track
+// function nextTrack() {
+//     currentTrackIndex = (currentTrackIndex + 1) % playlists.length;
+//     loadTrack(currentTrackIndex);
+//     audio.play();
+//     playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';
+    
+//     isPlaying = true;
+// }
+
+// // Move to the previous track
+// function prevTrack() {
+//     currentTrackIndex = (currentTrackIndex - 1 + playlists.length) % playlists.length;
+//     loadTrack(currentTrackIndex);
+//     audio.play();
+//     playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';
+//     artistImg.src = track.artistPhoto;
+//     isPlaying = true;
+// }

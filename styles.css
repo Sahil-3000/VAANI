@@ -193,17 +193,46 @@ body {
     height:100%;
 }
 
-.library-item {
+/* .library-item {
     border-radius:15px;
     display:flex;
     width: 100%;
     height:100px;
     gap:15px;
     
+} */
+
+
+.library-item {
+    /* padding: 10px; */
+    cursor: pointer;
+    display:flex;
+    margin-bottom:15px;
+    padding:10px;
+    gap:35px;
+    
+}
+
+.library-item img{
+    height:100%;
 }
 .album-meta{
-    gap:10px;
+    width:50%;
+    /* margin-right:10px; */
 }
+
+.library-section{
+    margin-bottom:60px;
+}
+
+.library-section h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+/* .album-meta{
+    gap:10px;
+} */
 .album-artist{
     margin-left:10%;
 }
@@ -211,13 +240,13 @@ body {
     display:flex;
     align-items: center;
     margin-top:5%;
-    margin-left:10%;
+    /* margin-left:10%; */
     font-weight:bold;
 }
 .library-item img {
     border-radius:15px;
-    width:40%;
-    height:80%;
+    /* width:40%; */
+    /* height:80%; */
     object-fit:cover;
 
 }
@@ -440,21 +469,6 @@ main {
     margin-right: 10px;
 }
 
-.nav-item,
-.library-item {
-    padding: 10px;
-    cursor: pointer;
-}
-
-.library-section{
-    margin-bottom:60px;
-}
-
-.library-section h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 18px;
-}
 
 /* Header */
 header {
@@ -1026,8 +1040,8 @@ button[data-type="play-button"]{
     .featured-playlist{
         /* display: flex; */
         margin-top:30px;
-        padding-right:10px;
-        padding-left:10px;
+        padding-right:5px;
+        padding-left:5px;
     }
 
 
@@ -1044,29 +1058,35 @@ button[data-type="play-button"]{
 
     .playlist-item1{
         display:flex;
-        width:23%;
+        width:24%;
         height:35px;
         /* object-fit: contain; */
         background-color:rgb(72, 71, 71);
         /* background-size: cover; */
         border-radius:5px;
-        gap:8px;
+        gap:1px;
     }
     
     .playlist-item1 img {
-        width: 45px;
+        width: 31px;
         height: 35px;
         object-fit: cover;
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
     }
     .play-name{
+        width:38px;
+        height:35px;
         display: flex;
-        text-align: top;
-        font-weight: normal;
-        font-size:12px;
-        width:100%;
-        padding:3px;
+        text-align: center;
+        font-weight: 200;
+        font-size:10px;
+        padding:0;
+        padding-top:5px;
+        /* width:100%; */
+    
+        /* margin-right:7px;
+        margin-left:0; */
     }
     
     .reco-info{
