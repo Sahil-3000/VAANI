@@ -390,9 +390,9 @@ main,
 main {
     display:block;
     flex: 0 0 54.5%; /* Fixed width of 50% */
-    border-radius: 10px;
+    border-radius: 15px;
     /* background-color: #201d1d; */
-    background-color: #201f1f;
+    background-color: #14141b;
     padding:1%;
     overflow-x: hidden; /* Hides horizontal scrollbar */
 }
@@ -507,11 +507,19 @@ footer.now-playing {
     height: 10%;
 }
 
-
+/* .user-profile{
+    display:block;
+    width:37px;
+    height:37px;
+    position: fixed;
+    top:1%;
+    right:6%;
+    border-radius:50%;
+} */
 .user-profile img {
     margin-left: 100px;
-    width: 32px;
-    height: 32px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -694,7 +702,7 @@ footer.now-playing {
     object-fit: cover;
 }
 
-*/ 
+*/
 .volume-control {
     display:flex;
     width: 50%;
@@ -944,20 +952,20 @@ button[data-type="play-button"]{
     }
     .user-profile{
         display:block;
-        width:30px;
-        height:30px;
+        width:37px;
+        height:37px;
         position: fixed;
         top:1%;
-        right:6%;
+        right:2%;
         border-radius:50%;
     }
     .user-profile img{
         display:block;
-        width:30px;
-        height:30px;
+        width:37px;
+        height:37px;
         position: fixed;
         top:1%;
-        right:6%;
+        right:2%;
         border-radius:50%;
     }
     .song-results {
