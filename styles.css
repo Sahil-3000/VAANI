@@ -18,7 +18,7 @@ body {
     height: 100vh;
 }
 
-.hi-dude{
+.VAANI{
     font-size:x-large;
 }
 .home-search {
@@ -121,7 +121,7 @@ body {
     height:100%;
     border-radius: 10px;
     /* background-color: #201d1d; */
-    background-color: #9988ee;
+    background-color: transparent;
     padding:0;
     overflow-x: hidden; /* Hides horizontal scrollbar */
     cursor:pointer;
@@ -193,14 +193,6 @@ body {
     height:100%;
 }
 
-/* .library-item {
-    border-radius:15px;
-    display:flex;
-    width: 100%;
-    height:100px;
-    gap:15px;
-    
-} */
 
 
 .library-item {
@@ -458,10 +450,19 @@ main {
     padding:5px;
     border-radius:10px;
 }
-.logo {
+.logo{
     display: flex;
     align-items: center;
+    gap:15px;
     margin-bottom: 20px;
+}
+.logo-VAANI {
+    display: flex;
+    align-items: center;
+    width:50px;
+    height:50px;
+    /* margin-bottom: 20px; */
+    border-radius:50%;
 }
 
 .logo svg {
@@ -787,7 +788,7 @@ footer.now-playing {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgb(42, 71, 85);
+    background-color:rgb(33, 34, 34);
     padding:0;
     padding-bottom:0;
     border-radius: 6px;
@@ -844,11 +845,14 @@ button[data-type="play-button"]{
 
 /* Responsive Design for Mobile Screens */
 @media (max-width: 768px) {
+    *{
+        cursor:none;
+    }
     .spotify-clone {
         flex-direction: column;
     }
 
-    .hi-dude{
+    .VAANI{
         font-size:medium;
     }
     .header-content{
@@ -863,11 +867,16 @@ button[data-type="play-button"]{
     .header{
         width:100%;
     }
-    .logo {
+    .logo-VAANI{
+        margin-left:0;
+        width:35px;
+        height:35px;
+    }
+    .logo{
         position:fixed;
         top:1%;
-        left:3%;
-        gap:1px;
+        left:1%;
+        gap:4px;
         /* bottom:1%; */
     }
     .home-search {
@@ -875,10 +884,11 @@ button[data-type="play-button"]{
         position:fixed;
         top:1%;
         left:30%;
+        gap:0px;
 
     }
     .search-container{
-        width:65%;
+        width:50%;
         height:30px;
         padding:0;
         position:fixed;
@@ -886,24 +896,26 @@ button[data-type="play-button"]{
         left:40%;
     }
     .search-bar {
-        width: 65%;
+        width: 80%;
         height:30px;
         font-size: 14px;
         text-align: left;
-        cursor:pointer;
+        cursor:none;
         /* margin-top:5px; */
     }
     .home{
-        width:30px;
-        height:30px;
+        width:25px;
+        height:25px;
         border-radius:50%;
     }
     .home img{
-        width:30px;
-        height:30px;
+        width:25px;
+        height:25px;
+        align-items: left;
         border-radius:50%;
         position:fixed;
-        top:0.5%;
+        top:0.8%;
+        /* left:100px; */
     }
     .search-btn {
         display:none;
