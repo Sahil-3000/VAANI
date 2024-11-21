@@ -820,6 +820,12 @@ footer.now-playing {
     width:80%;
 }
 
+img[data-type="song-cover"]{
+    width:40px;
+    height:40px;
+    
+}
+
 
 button[data-type="download"] {
     width:70px;
@@ -1103,7 +1109,7 @@ button[data-type="play-button"]{
         height:35px;
         display: flex;
         text-align: center;
-        font-weight: 200;
+        font-weight:initial;
         font-size:10px;
         padding:0;
         padding-top:5px;
@@ -1113,6 +1119,9 @@ button[data-type="play-button"]{
         margin-left:0; */
     }
     
+    .song-item{
+        margin-right:22px;
+    }
     .reco-info{
         font-weight:smaller;
         font-size:12px;
