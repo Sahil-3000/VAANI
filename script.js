@@ -1131,25 +1131,20 @@ const playlistsMain = [
         artist: "The Beatles",
         cover: "covers/The Beatles.png",
         songs: [
-            { title: "If I Needed Someone", artist: "The Beatles",audio: "songs/if i needed someone.mp3"},//13
-            { title: "Norwegian Wood", artist: "The Beatles",audio: "songs/norwegian wood.mp3"},//14
-            { title: "You Won't See Me", artist: "The Beatles",audio: "songs/you won't see me.mp3"},//15
-            { title: "Think For Yourself", artist: "The Beatles",audio: "songs/think for yourself.mp3"},//16
-            { title: "The Word", artist: "The Beatles",audio: "songs/the word.mp3"},//17
-            { title: "Michelle", artist: "The Beatles",audio: "songs/michelle.mp3"},//18
-            { title: "Drive My Car", artist: "The Beatles",audio: "songs/drive my car.mp3"},//19
-            { title: "Girl", artist: "The Beatles", audio: "songs/girl.mp3"},//20
-            { title: "I'm Looking Through You", audio: "songs/i'm looking through you.mp3"},//21
-            { title: "In My Life", artist: "The Beatles",audio: "songs/In My Life.mp3"},//22
-            { title: "Wait", artist: "The Beatles",audio: "songs/wait.mp3"},//23
-            { title: "Run For Your Life", artist: "The Beatles",audio: "songs/run for your life.mp3"},//24
-            { title: "Nowhere Man", artist: "The Beatles",audio: "songs/nowhere man.mp3"},//25
-            { title: "What Goes On", artist: "The Beatles",audio: "songs/what goes on.mp3"},//26
-            { title: "Everything I Wanted ", artist: "Billie Eilish", audio: "songs/everything i wanted_billie.mp3" },
-            { title: "Ocean", artist: "Anuv Jain", audio: "songs/ocean_anuv jain.mp3" },
-            { title: "Male Fantasy.", artist: "Billie Eilish", audio: "songs/male fantasy_billie.mp3" },
-            { title: "Lovely", artist: "Billie Eilish", audio: "songs/lovely_billie.mp3" },
-            { title: "What Was I Made For?", artist: "Billie Eilish", audio: "songs/what was i made for_billie.mp3" },
+            { title: "If I Needed Someone", artist: "The Beatles",audio: "songs/if i needed someone.mp3", cover: "covers/rubber soul.jpg"},//13
+            { title: "Norwegian Wood", artist: "The Beatles",audio: "songs/norwegian wood.mp3", cover: "covers/rubber soul.jpg"},//14
+            { title: "You Won't See Me", artist: "The Beatles",audio: "songs/you won't see me.mp3", cover: "covers/rubber soul.jpg"},//15
+            { title: "Think For Yourself", artist: "The Beatles",audio: "songs/think for yourself.mp3", cover: "covers/rubber soul.jpg"},//16
+            { title: "The Word", artist: "The Beatles",audio: "songs/the word.mp3", cover: "covers/rubber soul.jpg"},//17
+            { title: "Michelle", artist: "The Beatles",audio: "songs/michelle.mp3", cover: "covers/rubber soul.jpg"},//18
+            { title: "Drive My Car", artist: "The Beatles",audio: "songs/drive my car.mp3", cover: "covers/rubber soul.jpg"},//19
+            { title: "Girl", artist: "The Beatles", audio: "songs/girl.mp3", cover: "covers/rubber soul.jpg"},//20
+            { title: "I'm Looking Through You", audio: "songs/i'm looking through you.mp3", cover: "covers/rubber soul.jpg"},//21
+            { title: "In My Life", artist: "The Beatles",audio: "songs/In My Life.mp3", cover: "covers/rubber soul.jpg"},//22
+            { title: "Wait", artist: "The Beatles",audio: "songs/wait.mp3", cover: "covers/rubber soul.jpg"},//23
+            { title: "Run For Your Life", artist: "The Beatles",audio: "songs/run for your life.mp3", cover: "covers/rubber soul.jpg"},//24
+            { title: "Nowhere Man", artist: "The Beatles",audio: "songs/nowhere man.mp3", cover: "covers/rubber soul.jpg"},//25
+            { title: "What Goes On", artist: "The Beatles",audio: "songs/what goes on.mp3", cover: "covers/rubber soul.jpg"},//26
         ]
     },
 
@@ -1219,25 +1214,21 @@ const playlistsMain = [
         artist: "The Bealtes",
         cover: "covers/rubber soul.jpg",
         songs: [
-            { title: "If I Needed Someone", artist: "The Beatles",audio: "songs/if i needed someone.mp3"},//13
-            { title: "Norwegian Wood", artist: "The Beatles",audio: "songs/norwegian wood.mp3"},//14
-            { title: "You Won't See Me", artist: "The Beatles",audio: "songs/you won't see me.mp3"},//15
-            { title: "Think For Yourself", artist: "The Beatles",audio: "songs/think for yourself.mp3"},//16
-            { title: "The Word", artist: "The Beatles",audio: "songs/the word.mp3"},//17
-            { title: "Michelle", artist: "The Beatles",audio: "songs/michelle.mp3"},//18
-            { title: "Drive My Car", artist: "The Beatles",audio: "songs/drive my car.mp3"},//19
-            { title: "Girl", artist: "The Beatles", audio: "songs/girl.mp3"},//20
-            { title: "I'm Looking Through You", audio: "songs/i'm looking through you.mp3"},//21
-            { title: "In My Life", artist: "The Beatles",audio: "songs/In My Life.mp3"},//22
-            { title: "Wait", artist: "The Beatles",audio: "songs/wait.mp3"},//23
-            { title: "Run For Your Life", artist: "The Beatles",audio: "songs/run for your life.mp3"},//24
-            { title: "Nowhere Man", artist: "The Beatles",audio: "songs/nowhere man.mp3"},//25
-            { title: "What Goes On", artist: "The Beatles",audio: "songs/what goes on.mp3"},//26
-            { title: "Everything I Wanted ", artist: "Billie Eilish", audio: "songs/everything i wanted_billie.mp3" },
-            { title: "Ocean", artist: "Anuv Jain", audio: "songs/ocean_anuv jain.mp3" },
-            { title: "Male Fantasy.", artist: "Billie Eilish", audio: "songs/male fantasy_billie.mp3" },
-            { title: "Lovely", artist: "Billie Eilish", audio: "songs/lovely_billie.mp3" },
-            { title: "What Was I Made For?", artist: "Billie Eilish", audio: "songs/what was i made for_billie.mp3" },
+            { title: "If I Needed Someone", artist: "The Beatles",audio: "songs/if i needed someone.mp3", cover: "covers/rubber soul.jpg"},//13
+            { title: "Norwegian Wood", artist: "The Beatles",audio: "songs/norwegian wood.mp3", cover: "covers/rubber soul.jpg"},//14
+            { title: "You Won't See Me", artist: "The Beatles",audio: "songs/you won't see me.mp3", cover: "covers/rubber soul.jpg"},//15
+            { title: "Think For Yourself", artist: "The Beatles",audio: "songs/think for yourself.mp3", cover: "covers/rubber soul.jpg"},//16
+            { title: "The Word", artist: "The Beatles",audio: "songs/the word.mp3", cover: "covers/rubber soul.jpg"},//17
+            { title: "Michelle", artist: "The Beatles",audio: "songs/michelle.mp3", cover: "covers/rubber soul.jpg"},//18
+            { title: "Drive My Car", artist: "The Beatles",audio: "songs/drive my car.mp3", cover: "covers/rubber soul.jpg"},//19
+            { title: "Girl", artist: "The Beatles", audio: "songs/girl.mp3", cover: "covers/rubber soul.jpg"},//20
+            { title: "I'm Looking Through You", audio: "songs/i'm looking through you.mp3", cover: "covers/rubber soul.jpg"},//21
+            { title: "In My Life", artist: "The Beatles",audio: "songs/In My Life.mp3", cover: "covers/rubber soul.jpg"},//22
+            { title: "Wait", artist: "The Beatles",audio: "songs/wait.mp3", cover: "covers/rubber soul.jpg"},//23
+            { title: "Run For Your Life", artist: "The Beatles",audio: "songs/run for your life.mp3", cover: "covers/rubber soul.jpg"},//24
+            { title: "Nowhere Man", artist: "The Beatles",audio: "songs/nowhere man.mp3", cover: "covers/rubber soul.jpg"},//25
+            { title: "What Goes On", artist: "The Beatles",audio: "songs/what goes on.mp3", cover: "covers/rubber soul.jpg"},//26
+            
         ]
     },
 
@@ -1247,20 +1238,11 @@ const playlistsMain = [
         artist: "Varius Artist",
         cover: "covers/Haryanvi Hits.png",
         songs: [
-            { title: "If I Needed Someone", artist: "The Beatles",audio: "songs/if i needed someone.mp3"},//13
-            { title: "Norwegian Wood", artist: "The Beatles",audio: "songs/norwegian wood.mp3"},//14
-            { title: "You Won't See Me", artist: "The Beatles",audio: "songs/you won't see me.mp3"},//15
-            { title: "Think For Yourself", artist: "The Beatles",audio: "songs/think for yourself.mp3"},//16
-            { title: "The Word", artist: "The Beatles",audio: "songs/the word.mp3"},//17
-            { title: "Michelle", artist: "The Beatles",audio: "songs/michelle.mp3"},//18
-            { title: "Drive My Car", artist: "The Beatles",audio: "songs/drive my car.mp3"},//19
-            { title: "Girl", artist: "The Beatles", audio: "songs/girl.mp3"},//20
-            { title: "I'm Looking Through You", audio: "songs/i'm looking through you.mp3"},//21
-            { title: "In My Life", artist: "The Beatles",audio: "songs/In My Life.mp3"},//22
-            { title: "Wait", artist: "The Beatles",audio: "songs/wait.mp3"},//23
-            { title: "Run For Your Life", artist: "The Beatles",audio: "songs/run for your life.mp3"},//24
-            { title: "Nowhere Man", artist: "The Beatles",audio: "songs/nowhere man.mp3"},//25
-            { title: "What Goes On", artist: "The Beatles",audio: "songs/what goes on.mp3"},//26
+            { title: "Russian Bandana", artist: "Dhanda Nyoliwala",audio: "songs/russian bandana.mp3", cover: "covers/russian bandana.jpg"},//13
+            { title: "Illegal", artist: "Dhanda Nyoliwala",audio: "songs/illegal dhanda.mp3", cover: "covers/illegal dhanda.jpg"},//14
+            { title: "Up To You", artist: "Dhanda Nyoliwala",audio: "songs/up to you.mp3", cover: "covers/up to you.jpg"},//15
+            
+            
         ]
     }
 ];
