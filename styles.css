@@ -4,6 +4,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+.styled-logo {
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    border-radius: 50%; /* Make it circular */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.styled-logo:hover {
+    transform: scale(1.2); /* Enlarge on hover */
+}
+
 
 body {
     font-family: Arial, sans-serif;
