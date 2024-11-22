@@ -778,6 +778,7 @@ footer.now-playing {
   }
   #download-button {
     background-color: #1db954;
+    background-image: url("cover/download logo.png");
     color: white;
     border: none;
     border-radius: 20px;
@@ -1203,17 +1204,20 @@ button[data-type="play-button"]{
     } */
     #download-button {
         position: fixed;
-        font-size: 10px;
-        overflow-wrap: break-word; /* Allow text to wrap within the element */
+        /* font-size: 10px; */
+        /* overflow-wrap: break-word; Allow text to wrap within the element */
         /* text-align: left; */
         /* padding-bottom: 4px; */
-        width: 60px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
         padding:0;
         left: 2%;
         bottom: 35px;
+        border-radius: 50%;
     }
-    
+    #download-button img{
+        border-radius:50%;
+    }
 
     .volume-control {
         width: 20%;
