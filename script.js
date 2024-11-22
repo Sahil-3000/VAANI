@@ -875,7 +875,7 @@ function displayPlaylist(playList) {
         // Download button for each song
         const downLoad = document.createElement("button");
         downLoad.setAttribute("data-type", "download");
-        downLoad.textContent = "Download";
+        // downLoad.textContent = "Download";
         downLoad.onclick = () => {
             // Check if there is a current song and it has an audio source
             if (song && song.audio) {
@@ -1731,7 +1731,7 @@ function displayAllSongs(playList) {
         // Download button for each song
         const downLoad = document.createElement("button");
         downLoad.setAttribute("data-type", "download");
-        downLoad.textContent = "Download";
+        // downLoad.textContent = "Download";
         downLoad.onclick = () => {
             // Check if there is a current song and it has an audio source
             if (song && song.audio) {
@@ -1851,7 +1851,7 @@ function displayMainPlaylist(playList) {
         // Download button for each song
         const downLoad = document.createElement("button");
         downLoad.setAttribute("data-type", "download");
-        downLoad.textContent = "Download";
+        // downLoad.backgroundImage = url("covers/download logo.png");
         downLoad.onclick = () => {
             // Check if there is a current song and it has an audio source
             if (song && song.audio) {

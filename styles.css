@@ -789,7 +789,7 @@ footer.now-playing {
     /* border-radius: 20px; */
     /* padding: 8px 16px; */
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    /* transition: background-color 0.3s ease; */
   }
   /* #download-button img{
     width:34px;
@@ -797,8 +797,12 @@ footer.now-playing {
     object-fit: cover;
   } */
   
-  #download-button:hover {
+  /* #download-button:hover {
     background-color: #1aa34a;
+  } */
+  button[data-type="download"] {
+    width:25px;
+    height:25px;
   }
   
 
@@ -858,21 +862,27 @@ img[data-type="song-cover"]{
 
 
 button[data-type="download"] {
-    width:70px;
-    background: #1db954;
+    width:30px;
+    height:30px;
+    /* background: #1db954; */
+    background-image: url("covers/download logo.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+
     border: none;
     color: #fff;
-    padding:3px;
-    border-radius: 4px;
+    /* padding:3px; */
+    border-radius: 50%;
     cursor: pointer;
-    font-size: 14px;
-    transition: background-color 0.3s ease;
+    /* font-size: 14px; */
+    /* transition: background-color 0.3s ease; */
     margin-right:7px;
     /* margin-left:50px; */
 }
 button[data-type="play-button"]{
     width:40px;
-    background: #1db954;
+    background: #0a8c95;
     border: none;
     color: #fff;
     padding:3px;
@@ -880,14 +890,14 @@ button[data-type="play-button"]{
     cursor: pointer;
     font-size: 14px;
     transition: background-color 0.3s ease;
-    margin-right:0;
+    margin-right:5px;
 }
 
 
-
+/* 
 .song-item button:hover {
     background: #17a74a;
-}
+} */
 
 
 
@@ -948,7 +958,7 @@ button[data-type="play-button"]{
         height:30px;
         font-size: 14px;
         text-align: left;
-        cursor:none;
+       
         /* margin-top:5px; */
     }
     .home{
@@ -972,6 +982,7 @@ button[data-type="play-button"]{
         margin-left:0;
     }
     .user-profile{
+        cursor:none;
         display:block;
         width:37px;
         height:37px;
@@ -981,6 +992,7 @@ button[data-type="play-button"]{
         border-radius:50%;
     }
     .user-profile img{
+        cursor:none;
         display:block;
         width:37px;
         height:37px;
@@ -1055,6 +1067,7 @@ button[data-type="play-button"]{
     background-color: rgb(53, 51, 51);
     margin-top:15px;
     padding-top:30px;
+    cursor:none;
 }
 
 .playlist-img-container{
@@ -1229,6 +1242,13 @@ button[data-type="play-button"]{
     /* #download-button img{
         border-radius:50%;
     } */
+     
+    button[data-type="download"] {
+        width:28px;
+        height:25px;
+        border-radius:50%;
+        margin-right:7px;
+    } 
 
     .volume-control {
         width: 20%;
