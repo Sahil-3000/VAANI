@@ -332,40 +332,40 @@
            
             <div class="playback-controls">
                 <svg onclick="prevTrack()" class="prev-icon">
-                    <use href="#prev-icon"></use>
+                    <use href="#prev-icon" ></use>
                 </svg>
                 <svg onclick="togglePlayPause()" class="play-icon" id="play-pause-icon">
-                    <use href="#play-icon"></use>
+                    <use href="#play-icon" ></use>
                 </svg>
                 <svg onclick="nextTrack()" class="next-icon">
-                    <use href="#next-icon"></use>
+                    <use href="#next-icon" ></use>
                 </svg>
             </div>
             <div class="progress-bar">
                 <span id="current-time" class="time">0:00</span>
-                <input type="range" id="progress-slider" value="0" min="0" max="100" step="1">
+                <input type="range" id="progress-slider" value="0" min="0" max="100" step="1" class="progress">
                 <span id="duration" class="time">0:00</span>
             </div>
 
             <button id="download-button" class="download-button">Download</button>
 
             <div class="volume-control">
-                <input type="range" min="0" max="100" onchange="setVolume()">
+                <input type="range" min="0" max="100" onchange="setVolume()" class="vol">
             </div>
         </footer>
 
         <!-- SVG Icons -->
         <svg style="display: none;">
-            <symbol id="play-icon" width="40" height="40" viewBox="-5 -5 24 24">
+            <symbol id="play-icon" width="30" height="30" viewBox="-5 -5 24 24">
                 <path fill="white" d="M8 5v14l11-7z"></path>
             </symbol>
-            <symbol id="pause-icon" width="40" height="40" viewBox="-5 -5 24 24">
+            <symbol id="pause-icon" width="30" height="30" viewBox="-5 -5 24 24">
                 <path fill="white" d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path>
             </symbol>
-            <symbol id="prev-icon" width="40" height="40" viewBox="-5 -5 24 24">
+            <symbol id="prev-icon" width="30" height="30" viewBox="-5 -5 24 24">
                 <path fill="white" d="M11 19V5l-7 7zM12 5v14l7-7z"></path>
             </symbol>
-            <symbol id="next-icon" width="40" height="40" viewBox="-5 -5 24 24">
+            <symbol id="next-icon" width="30" height="30" viewBox="-5 -5 24 24">
                 <path fill="white" d="M7 5v14l7-7zM16 5v14l-7-7z"></path>
             </symbol>
         </svg>

@@ -746,7 +746,16 @@ footer.now-playing {
     width: 50%;
     background-color: #535353;
     border-radius: 5px;
-   
+  }
+  .time{
+    /* width:4px; */
+    font-size:15px;
+  }
+  .progress{
+    height:4px;
+  }
+  .vol{
+    height:4px;
   }
   
 .playback-controls {
@@ -756,7 +765,7 @@ footer.now-playing {
     justify-content: space-evenly;
     align-items: center;
     position: fixed;
-    top: 90%;
+    top: 91%;
     left: 30%;
     cursor:pointer;
 }
@@ -765,6 +774,7 @@ footer.now-playing {
 .next-icon,.prev-icon,.play-icon,.pause-icon{
     width:40px;
     height:40px;
+    align-items: center;
   }
   #download-button {
     background-color: #1db954;
@@ -1164,6 +1174,9 @@ button[data-type="play-button"]{
 
     .playback-controls{
         width:50%;
+        height:30px;
+        align-items: center;
+        /* padding:1%; */
         position:fixed;
         /* top:86%; */
         bottom:40px;
@@ -1214,10 +1227,27 @@ button[data-type="play-button"]{
         width: 94%;
         position:fixed;
         bottom:2%;
-        left:1%;
-        right:5%;
+        left:2%;
+        right:4%;
     }
 
+    .next-icon,.prev-icon,.play-icon,.pause-icon{
+        width:30px;
+        height:30px;
+        align-items: center;
+      }
+
+    #play-icon{
+        width:20px;
+        height:20px;
+    }
+    .progress{
+        height:4px;
+      }
+      .vol{
+        height:4px;
+      }
+      
     .library-item {
         flex-direction: column;
         align-items: center;
@@ -1246,10 +1276,12 @@ button[data-type="play-button"]{
     .track-info{
         position:fixed;
         left:1%;
+        font-size:12px;
     }
     .track-info img {
-        width: 32px;
-        height: 32px;
+        width: 35px;
+        height: 35px;
+        border-radius:50%;
     }
 
     .volume-control input[type="range"] {
@@ -1268,5 +1300,8 @@ button[data-type="play-button"]{
         margin: 0;
     }
 
+    .time{
+        font-size:10px;
+    }
 
 }
