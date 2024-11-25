@@ -29,7 +29,8 @@ const playlist = [
     { title: "Mombattiye      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/mombattiye_diljit.png", audio: "songs/mombattiye_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//64
 
     { title: "Jo Tum Mere Ho      ", artist: "Anuv Jain",artistPhoto: "covers/Anuv Jain.png", cover: "covers/track1.jpg", audio: "songs/jo tum mere ho.mp3", searchString: "anuv jain songs anuv jain k gane anuv jain anuv jo tum mere ho"},//song1
-    { title: "Fly Karke      ", artist: "SABBA, Jasmeen",artistPhoto: "covers/Sabba.png", cover: "covers/fly karke_sabba.png", audio: "songs/fly krke.mp3", searchString: "fly krke fly fli krke karke flai krke song sabba song sabba k gane"},//song2
+    // { title: "Fly Karke      ", artist: "SABBA, Jasmeen",artistPhoto: "covers/Sabba.png", cover: "covers/fly karke_sabba.png", audio: "songs/fly krke.mp3", searchString: "fly krke fly fli krke karke flai krke song sabba song sabba k gane"},//song2
+    { title: "Fly Karke      ", artist: "SABBA, Jasmeen",artistPhoto: "covers/Sabba.png", cover: "covers/fly karke_sabba.png", audio: "https://tinyurl.com/fly-karke", searchString: "fly krke fly fli krke karke flai krke song sabba song sabba k gane"},//song2
     
     //Arjan Dhillon-Glorious and more
     { title: "Youth Flow      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/youth flow.mp3", searchString: "arjan songs arjan jawani song arjan"},//song4
