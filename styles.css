@@ -892,7 +892,9 @@ button[data-type="play-button"]{
     transition: background-color 0.3s ease;
     margin-right:5px;
 }
-
+.show-library{
+    display: none;
+}
 
 /* 
 .song-item button:hover {
@@ -910,6 +912,19 @@ button[data-type="play-button"]{
         flex-direction: column;
     }
 
+    .show-library{
+        display:none;
+        width:60px;
+        height:18px;
+        border-radius: 7px;
+        color: #060606;
+        text-align: center;
+        background-color: #0cf827;
+        display: block;
+        position: fixed;
+        right:7px;
+        /* top:4px; */
+    }
     .VAANI{
         font-size:medium;
     }
