@@ -148,9 +148,9 @@ const playlist = [
     {title: "Rap God       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/rapgod_rp singh.png", audio: "songs/rapgod_rp singh.mp3", searchString: "Victer"},//song3\
     {title: "Mcoca       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/mcoca_rp singh.png", audio: "songs/mcoca_rp singh.mp3", searchString: "Victer"},//song3\
     {title: "Banger       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/banger_rp singh.png", audio: "songs/banger_rp singh.mp3", searchString: "Victer"},//song3\
-    {title: "Azad Flow       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/azad flow_rp singh.png", audio: "songs/azad flow_rp singh.mp3", searchString: "Victer"},//song3\
-
     {title: "Bliss       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/bliss_rp singh.png", audio: "songs/bliss_rp singh.mp3", searchString: "Victer"},//song3\
+    {title: "Azad Flow       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/azad flow_rp singh.png", audio: "songs/azadFlow_rp singh.mp3", searchString: "Victer"},//song3\
+    
     {title: "Power       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/power_rp singh.png", audio: "songs/power_rp singh.mp3", searchString: "Victer"},//song3\
     {title: "Meeh       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/meeh_rp singh.png", audio: "songs/meeh_rp singh.mp3", searchString: "Victer"},//song3\
     {title: "Chehre       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/chehre_rp singh.png", audio: "songs/chehre_rp singh.mp3", searchString: "Victer"},//song3\
