@@ -895,7 +895,9 @@ button[data-type="play-button"]{
 .show-library{
     display: none;
 }
-
+.show-lyrics{
+    display:block;
+}
 /* 
 .song-item button:hover {
     background: #17a74a;
@@ -914,15 +916,36 @@ button[data-type="play-button"]{
 
     .show-library{
         display:none;
-        width:60px;
-        height:18px;
+        width:55px;
+        height:15px;
         border-radius: 7px;
         color: #060606;
+        font-size: small;
         text-align: center;
         background-color: #0cf827;
         display: block;
         position: fixed;
         right:7px;
+        bottom:75px;
+        cursor:none;
+        /* top:4px; */
+    }
+    .show-lyrics{
+        display:block;
+        width:50px;
+        height:15px;
+        border-radius: 7px;
+        color: #fbf4f4;
+        font-size: medium;
+        text-align: center;
+        /* background-image:url("covers/lyrics.png"); */
+        border-color: white;
+        border-radius:8px;
+        /* display: block; */
+        position: fixed;
+        right:60px;
+        bottom:75px;
+        cursor:none;
         /* top:4px; */
     }
     .VAANI{

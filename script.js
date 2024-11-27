@@ -187,10 +187,61 @@ const playlist = [
 ];
 
 
+const displayLibrary = document.querySelector('.show-library');
+
+
+// Access the elements
+const sidebar1 = document.querySelector('.sidebar1');
+const sidebar2 = document.querySelector('.sidebar2');
+const main = document.querySelector('main');
+
+
+displayLibrary.addEventListener("click",()=>{
+    main.style.display= "none";
+    sidebar1.style.display="block";
+    sidebar1.style.flex="0 0 100%";
+})
+
+const btnLyrics = document.querySelector('.show-lyrics');
+const showLyrics = document.querySelector('.lyrics-container');
+btnLyrics.addEventListener("click",()=>{
+    main.style.display= "none";
+    showLyrics.style.display="block";
+    showLyrics.style.flex="0 0 100%";
+    const songName = 'Lover';  // Replace 'song1' with the song you want to load
+    loadLyrics(songName);
+})
+
+
+// Function to load the lyrics
+function loadLyrics(songName) {
+    // Construct the URL of the text file (make sure the text files are available in your project directory)
+    const fileUrl = "lyrics/lover_diljit.txt";
+
+    // Fetch the text file content
+    fetch(fileUrl)
+        .then(response => response.text())  // Read the text content
+        .then(lyrics => {
+            // Insert the lyrics into the div
+            const lyricsContainer = document.querySelector('.lyrics-container');
+            lyricsContainer.innerHTML = lyrics;
+
+            // Show the div by changing its display to block
+            // lyricsContainer.style.display = 'block';
+        })
+        .catch(error => {
+            console.error('Error loading lyrics:', error);
+        });
+}
+
+// Event listener to trigger the lyrics load when button is clicked
+// document.getElementById('loadLyricsButton').addEventListener('click', function() {
+//     const songName = 'song1';  // Replace 'song1' with the song you want to load
+//     loadLyrics(songName);
+// });
 
 
 let currentPlaylist = playlist; // Default playlist
-
 function switchPlaylist(newPlaylist,index) {
     
     currentPlaylist = newPlaylist; // Update the active playlist
@@ -1887,15 +1938,22 @@ const showLibrary = document.querySelector(".show-library");
 
 // Toggle visibility when the home button is clicked
 homeButton.addEventListener("click", () => {
-    if ((songResults.style.display === "block") || (mainOpenPlayContainer.style.display === "block")) {
+    if ((songResults.style.display === "block") || (mainOpenPlayContainer.style.display === "block") || (sidebar1.style.display="block") || (showLyrics.style.display="block")) {
         // Show song results and hide default content
         songResults.style.display = "none";  // or 'block' depending on the layout
-    
+
+        main.style.display="block";
+        showLyrics.style.display="none";
+        sidebar1.style.display="none";
+        sidebar1.style.flex="0 0 0";
+        
+
         mainOpenPlayContainer.style.display === "none"
         mainOpenPlayContainer.innerHTML = '';
         mainOpenPlayContainer.style.height = "0px";
         mainOpenPlayContainer.style.pdadding = "0px";
         mainOpenPlayContainer.style.margin = "0px";
+        main.style.flex="0 0 100%";
         defaultContent.style.display = "block";
     } else {
         // Show default content and hide song results
