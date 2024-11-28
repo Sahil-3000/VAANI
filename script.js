@@ -1,10 +1,10 @@
 // Default Playlist data
 const playlist = [
     //Diljit Dosanjh
-    { title: "Lover        ", artist: "Diljit Dosanjh     ", artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lover_diljit.png", audio: "songs/lover_diljit.mp3", searchString: "diljit k gane lover  love diljit lovr lvr diljit diljeet diljjt dil jit lvr"},//40
-    { title: "Case        ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/case_diljit.png", audio: "songs/case_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jitdosanjh doshanjh dosnjh "},//41
-    { title: "Ishq Di Baajiyaan        ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq di baajiyaan_diljit.png", audio: "songs/ishq di baajiyaan_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//42
-    { title: "Love Ya        ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lova ya_diljit.png", audio: "songs/love ya_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//43
+    { title: "Lover      ", artist: "Diljit Dosanjh     ", lyrics:"lover_diljit", artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lover_diljit.png", audio: "songs/lover_diljit.mp3", searchString: "diljit k gane lover  love diljit lovr lvr diljit diljeet diljjt dil jit lvr"},//40
+    { title: "Case        ", artist: "Diljit Dosanjh     ", lyrics:"case_diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/case_diljit.png", audio: "songs/case_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jitdosanjh doshanjh dosnjh "},//41
+    { title: "Ishq Di Baajiyaan        ", artist: "Diljit Dosanjh     ", lyrics:"lover_diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq di baajiyaan_diljit.png", audio: "songs/ishq di baajiyaan_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//42
+    { title: "Love Ya        ", artist: "Diljit Dosanjh     ", lyrics:"lover_diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lova ya_diljit.png", audio: "songs/love ya_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//43
     { title: "Lalkara         ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lalkara_diljit.png", audio: "songs/lalkara_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//44
     { title: "Tu Kya Jaane        ", artist: "Yashika Sikka, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/tu kya jaane_diljit.png", audio: "songs/tu kya jaane_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//45
     { title: "Bol Mohabbat        ", artist: "AR Rehman, Kailash Kher,Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/bol mohabbat_diljit.png", audio: "songs/bol mohabbat_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//46
@@ -204,35 +204,71 @@ displayLibrary.addEventListener("click",()=>{
 
 const btnLyrics = document.querySelector('.show-lyrics');
 const showLyrics = document.querySelector('.lyrics-container');
-btnLyrics.addEventListener("click",()=>{
-    main.style.display= "none";
-    showLyrics.style.display="block";
-    showLyrics.style.flex="0 0 100%";
-    const songName = 'Lover';  // Replace 'song1' with the song you want to load
-    loadLyrics(songName);
-})
+
+btnLyrics.addEventListener("click", () => {
+    mainPlaySection.style.display = "none"; // Hide the main play section
+    showLyrics.style.display = "block"; // Show the lyrics section
+
+    // const songName = "Lover"; // Name of the song
+    // const artistName = "Diljit Dosanjh"; // Artist's name
+
+    // loadLyrics(songName, artistName); // Call the function with song details
+});
+
+
+function loadLyrics(songName, artistName) {
+    const fileUrl = `lyrics/${songName}.txt`; // Path to the lyrics file
+
+    fetch(fileUrl)
+        .then((response) => {
+            if (!response.ok) {
+                throw new Error(`Could not fetch the lyrics for ${songName}`);
+            }
+            return response.text();
+        })
+        .then((lyrics) => {
+            // Insert song and artist details
+            const songDetails = document.getElementById("songDetails");
+            songDetails.innerHTML = `
+                <div>${songName}</div>
+                <div>by ${artistName}</div>
+            `;
+
+            // Insert lyrics into the container
+            const lyricsContainer = document.querySelector(".lyrics-container");
+            lyricsContainer.textContent = lyrics;
+
+            // Ensure the lyrics container is visible
+            const lyricsWrapper = document.querySelector(".lyrics-container");
+            lyricsWrapper.style.display = "block";
+        })
+        .catch((error) => {
+            console.error("Error loading lyrics:", error);
+        });
+}
+
 
 
 // Function to load the lyrics
-function loadLyrics(songName) {
-    // Construct the URL of the text file (make sure the text files are available in your project directory)
-    const fileUrl = "lyrics/lover_diljit.txt";
+// function loadLyrics(songName) {
+//     // Construct the URL of the text file (make sure the text files are available in your project directory)
+//     const fileUrl = "lyrics/lover_diljit.txt";
 
-    // Fetch the text file content
-    fetch(fileUrl)
-        .then(response => response.text())  // Read the text content
-        .then(lyrics => {
-            // Insert the lyrics into the div
-            const lyricsContainer = document.querySelector('.lyrics-container');
-            lyricsContainer.innerHTML = lyrics;
+//     // Fetch the text file content
+//     fetch(fileUrl)
+//         .then(response => response.text())  // Read the text content
+//         .then(lyrics => {
+//             // Insert the lyrics into the div
+//             const lyricsContainer = document.querySelector('.lyrics-container');
+//             lyricsContainer.innerHTML = lyrics;
 
-            // Show the div by changing its display to block
-            // lyricsContainer.style.display = 'block';
-        })
-        .catch(error => {
-            console.error('Error loading lyrics:', error);
-        });
-}
+//             // Show the div by changing its display to block
+//             // lyricsContainer.style.display = 'block';
+//         })
+//         .catch(error => {
+//             console.error('Error loading lyrics:', error);
+//         });
+// }
 
 // Event listener to trigger the lyrics load when button is clicked
 // document.getElementById('loadLyricsButton').addEventListener('click', function() {
@@ -280,8 +316,11 @@ function loadTrack(trackIndex) {
         progressSlider.max = Math.floor(audio.duration);
     };
 
+    loadLyrics(track.lyrics,track.artist);
+
     // Update the current song for the download button
     setCurrentSong(track);
+    
 }
 
 
@@ -1938,14 +1977,17 @@ const showLibrary = document.querySelector(".show-library");
 
 // Toggle visibility when the home button is clicked
 homeButton.addEventListener("click", () => {
-    if ((songResults.style.display === "block") || (mainOpenPlayContainer.style.display === "block") || (sidebar1.style.display="block") || (showLyrics.style.display="block")) {
+    const screenWidth = window.innerWidth;
+    //for mobiles
+    if ((screenWidth<768) && ((songResults.style.display === "block") || (mainOpenPlayContainer.style.display === "block") || (sidebar1.style.display="block") || (showLyrics.style.display="block"))) {
         // Show song results and hide default content
         songResults.style.display = "none";  // or 'block' depending on the layout
-
+        main.style.flex="0 0 100%";
         main.style.display="block";
         showLyrics.style.display="none";
-        sidebar1.style.display="none";
         sidebar1.style.flex="0 0 0";
+        sidebar1.style.display="none";
+        
         
 
         mainOpenPlayContainer.style.display === "none"
@@ -1953,7 +1995,7 @@ homeButton.addEventListener("click", () => {
         mainOpenPlayContainer.style.height = "0px";
         mainOpenPlayContainer.style.pdadding = "0px";
         mainOpenPlayContainer.style.margin = "0px";
-        main.style.flex="0 0 100%";
+        
         defaultContent.style.display = "block";
     } else {
         // Show default content and hide song results
@@ -1967,8 +2009,100 @@ homeButton.addEventListener("click", () => {
         
         defaultContent.style.display = "block";
     }
+
+    //for tablets
+    // if ((screenWidth<1024) && ((songResults.style.display === "block") || (mainOpenPlayContainer.style.display === "block") || (sidebar1.style.display="block") || (showLyrics.style.display="block"))) {
+    //     // Show song results and hide default content
+    //     songResults.style.display = "none";  // or 'block' depending on the layout
+
+    //     main.style.display="block";
+    //     showLyrics.style.display="none";
+    //     // sidebar1.style.display="none";
+    //     // sidebar1.style.flex="0 0 0";
+        
+
+    //     mainOpenPlayContainer.style.display === "none"
+    //     mainOpenPlayContainer.innerHTML = '';
+    //     mainOpenPlayContainer.style.height = "0px";
+    //     mainOpenPlayContainer.style.pdadding = "0px";
+    //     mainOpenPlayContainer.style.margin = "0px";
+    //     // main.style.flex="0 0 100%";
+    //     defaultContent.style.display = "block";
+    // } else {
+    //     // Show default content and hide song results
+    //     songResults.style.display = "none";
+        
+    //     mainOpenPlayContainer.style.display === "none"
+    //     mainOpenPlayContainer.innerHTML = '';
+    //     mainOpenPlayContainer.style.height = "0px";
+    //     mainOpenPlayContainer.style.pdadding = "0px";
+    //     mainOpenPlayContainer.style.margin = "0px";
+        
+    //     defaultContent.style.display = "block";
+    // }
+
+    //for desktop
+    if ((screenWidth>1024) && ((songResults.style.display === "block") || (mainOpenPlayContainer.style.display === "block") || (sidebar1.style.display="block") || (showLyrics.style.display="block"))) {
+        // Show song results and hide default content
+        songResults.style.display = "none";  // or 'block' depending on the layout
+
+        main.style.display="block";
+        showLyrics.style.display="none";
+        // sidebar1.style.display="none";
+        // sidebar1.style.flex="0 0 0";
+        
+
+        mainOpenPlayContainer.style.display === "none"
+        mainOpenPlayContainer.innerHTML = '';
+        mainOpenPlayContainer.style.height = "0px";
+        mainOpenPlayContainer.style.pdadding = "0px";
+        mainOpenPlayContainer.style.margin = "0px";
+        // main.style.flex="0 0 100%";
+        defaultContent.style.display = "block";
+    } else {
+        // Show default content and hide song results
+        songResults.style.display = "none";
+        
+        mainOpenPlayContainer.style.display === "none"
+        mainOpenPlayContainer.innerHTML = '';
+        mainOpenPlayContainer.style.height = "0px";
+        mainOpenPlayContainer.style.pdadding = "0px";
+        mainOpenPlayContainer.style.margin = "0px";
+        
+        defaultContent.style.display = "block";
+    }
+
 });
 
+
+// // Elements
+// const container = document.querySelector('.container');
+// // const sidebar1 = document.querySelector('.sidebar1');
+// // const main = document.querySelector('#main');
+// const homeButton = document.querySelector('#homeButton');
+// const toggleSidebar = document.querySelector('#toggleSidebar');
+// // Function to check screen size and adjust layout
+// function adjustLayout() {
+//     const screenWidth = window.innerWidth;
+
+//     if (screenWidth < 768) {
+//         // Mobile layout: stack vertically, hide sidebar
+//         container.style.flexDirection = 'column';
+//         sidebar1.style.display = 'none';
+//         main.style.flex = '1 0 auto';
+//     } else if (screenWidth < 1024) {
+//         // Tablet layout: row layout, optional sidebar
+//         container.style.flexDirection = 'row';
+//         sidebar1.style.display = 'none';
+//         main.style.flex = '3 0 auto';
+//     } else {
+//         // Desktop layout: row layout with visible sidebar
+//         container.style.flexDirection = 'row';
+//         sidebar1.style.display = 'block';
+//         sidebar1.style.flex = '1 0 auto';
+//         main.style.flex = '3 0 auto';
+//     }
+// }
 
 
 

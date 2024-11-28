@@ -898,6 +898,69 @@ button[data-type="play-button"]{
 .show-lyrics{
     display:block;
 }
+.show-lyrics{
+    display:block;
+    width:50px;
+    height:15px;
+    border-radius: 7px;
+    color: #fbf4f4;
+    font-size: larger;
+    text-align: center;
+    /* background-image:url("covers/lyrics.png"); */
+    border-color: white;
+    border-radius:8px;
+    /* display: block; */
+    position: fixed;
+    right:200px;
+    bottom:45px;
+    cursor:none;
+    /* top:4px; */
+}
+
+    /* Style the lyrics container */
+    .lyrics-container {
+        display: none; /* Hidden initially */
+        background-color: #f9f9f9; /* Light background for better readability */
+        color: #333; /* Text color */
+        font-family: 'Arial', sans-serif; /* Font style */
+        font-size: 40px; /* Adjust text size */
+        line-height: 1.6; /* Better spacing between lines */
+        padding: 20px; /* Padding for inner spacing */
+        margin: 20px auto; /*Centered with some margin */
+        border: 1px solid #ddd; /* Subtle border around the container */
+        border-radius: 8px; /* Rounded corners */
+        max-width: 800px; /* Limit container width */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+        overflow-y: auto; /* Scrollable if lyrics are long */
+        height: 60vh; /* Set height to avoid overflow issues */
+    }
+    
+    /* Add styles for emphasis in the lyrics text */
+    .lyrics-container em {
+        font-style: italic; /* Italic text for emphasis */
+        color: #555;
+    }
+    
+    /* Highlight choruses or repeated lines with a different color */
+    .lyrics-container .chorus {
+        font-weight:bolder; /* Bold text */
+        color: #007BFF; /* Blue text for choruses */
+    }
+    
+    /* Add visual spacing for sections */
+    .lyrics-container .section {
+        margin-top: 20px; /* Space between sections */
+    }
+    .lyrics-container{
+        white-space: pre-wrap; /* Preserve whitespace and line breaks */
+        padding:30px;
+        background-color: #2a2e32;
+        color:white;
+        height:70%;
+        margin-bottom:80px;
+        text-align: center;
+        text-wrap: wrap;
+    }
 /* 
 .song-item button:hover {
     background: #17a74a;
@@ -930,6 +993,24 @@ button[data-type="play-button"]{
         cursor:none;
         /* top:4px; */
     }
+    .song-details {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #333;
+    }
+    .lyrics-container{
+        padding:15px;
+        background-color: #2a2e32;
+        color:white;
+        height:50%;
+        margin-bottom:100px;
+        font-weight: bold;
+        font-size: 20px;
+
+    }
+
     .show-lyrics{
         display:block;
         width:50px;
@@ -1222,8 +1303,8 @@ button[data-type="play-button"]{
     
     .sidebar1,
     .sidebar2 {
-        /* flex: 0 0 100%;
-        height: auto; */
+        /* flex: 0 0 0; */
+        /* height: auto; */
         display:none;
     }
 
