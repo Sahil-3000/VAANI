@@ -248,35 +248,6 @@ function loadLyrics(songName, artistName) {
 }
 
 
-
-// Function to load the lyrics
-// function loadLyrics(songName) {
-//     // Construct the URL of the text file (make sure the text files are available in your project directory)
-//     const fileUrl = "lyrics/lover_diljit.txt";
-
-//     // Fetch the text file content
-//     fetch(fileUrl)
-//         .then(response => response.text())  // Read the text content
-//         .then(lyrics => {
-//             // Insert the lyrics into the div
-//             const lyricsContainer = document.querySelector('.lyrics-container');
-//             lyricsContainer.innerHTML = lyrics;
-
-//             // Show the div by changing its display to block
-//             // lyricsContainer.style.display = 'block';
-//         })
-//         .catch(error => {
-//             console.error('Error loading lyrics:', error);
-//         });
-// }
-
-// Event listener to trigger the lyrics load when button is clicked
-// document.getElementById('loadLyricsButton').addEventListener('click', function() {
-//     const songName = 'song1';  // Replace 'song1' with the song you want to load
-//     loadLyrics(songName);
-// });
-
-
 let currentPlaylist = playlist; // Default playlist
 function switchPlaylist(newPlaylist,index) {
     
@@ -1783,24 +1754,7 @@ function displayAllSongs(playList) {
     const mainPlayHeader = document.createElement("div");
     mainPlayHeader.classList.add("playlist-results");
 
-    // const mainPlayImgContainer = document.createElement("div");
-    // mainPlayImgContainer.classList.add("playlist-img-container");
-    // mainPlayHeader.appendChild(mainPlayImgContainer);
-
-
-    // const mainPlayImage = document.createElement("img");
-    // mainPlayImage.src = playList.cover;
-    // mainPlayImage.alt = playList.title;
-    // mainPlayImgContainer.appendChild(mainPlayImage);
-
-    // const mainPlayTitle = document.createElement("h1");
-    // mainPlayTitle.textContent = playList.title;
-    // mainPlayImgContainer.appendChild(mainPlayTitle);
-
-    // const mainPlayArtist = document.createElement("p");
-    // mainPlayArtist.textContent = `Artist: ${playList.artist}`;
-    // mainPlayImgContainer.appendChild(mainPlayArtist);
-
+   
     
 
     // Create a list of songs for the selected playlist
@@ -2010,36 +1964,6 @@ homeButton.addEventListener("click", () => {
         defaultContent.style.display = "block";
     }
 
-    //for tablets
-    // if ((screenWidth<1024) && ((songResults.style.display === "block") || (mainOpenPlayContainer.style.display === "block") || (sidebar1.style.display="block") || (showLyrics.style.display="block"))) {
-    //     // Show song results and hide default content
-    //     songResults.style.display = "none";  // or 'block' depending on the layout
-
-    //     main.style.display="block";
-    //     showLyrics.style.display="none";
-    //     // sidebar1.style.display="none";
-    //     // sidebar1.style.flex="0 0 0";
-        
-
-    //     mainOpenPlayContainer.style.display === "none"
-    //     mainOpenPlayContainer.innerHTML = '';
-    //     mainOpenPlayContainer.style.height = "0px";
-    //     mainOpenPlayContainer.style.pdadding = "0px";
-    //     mainOpenPlayContainer.style.margin = "0px";
-    //     // main.style.flex="0 0 100%";
-    //     defaultContent.style.display = "block";
-    // } else {
-    //     // Show default content and hide song results
-    //     songResults.style.display = "none";
-        
-    //     mainOpenPlayContainer.style.display === "none"
-    //     mainOpenPlayContainer.innerHTML = '';
-    //     mainOpenPlayContainer.style.height = "0px";
-    //     mainOpenPlayContainer.style.pdadding = "0px";
-    //     mainOpenPlayContainer.style.margin = "0px";
-        
-    //     defaultContent.style.display = "block";
-    // }
 
     //for desktop
     if ((screenWidth>1024) && ((songResults.style.display === "block") || (mainOpenPlayContainer.style.display === "block") || (sidebar1.style.display="block") || (showLyrics.style.display="block"))) {
@@ -2073,36 +1997,6 @@ homeButton.addEventListener("click", () => {
     }
 
 });
-
-
-// // Elements
-// const container = document.querySelector('.container');
-// // const sidebar1 = document.querySelector('.sidebar1');
-// // const main = document.querySelector('#main');
-// const homeButton = document.querySelector('#homeButton');
-// const toggleSidebar = document.querySelector('#toggleSidebar');
-// // Function to check screen size and adjust layout
-// function adjustLayout() {
-//     const screenWidth = window.innerWidth;
-
-//     if (screenWidth < 768) {
-//         // Mobile layout: stack vertically, hide sidebar
-//         container.style.flexDirection = 'column';
-//         sidebar1.style.display = 'none';
-//         main.style.flex = '1 0 auto';
-//     } else if (screenWidth < 1024) {
-//         // Tablet layout: row layout, optional sidebar
-//         container.style.flexDirection = 'row';
-//         sidebar1.style.display = 'none';
-//         main.style.flex = '3 0 auto';
-//     } else {
-//         // Desktop layout: row layout with visible sidebar
-//         container.style.flexDirection = 'row';
-//         sidebar1.style.display = 'block';
-//         sidebar1.style.flex = '1 0 auto';
-//         main.style.flex = '3 0 auto';
-//     }
-// }
 
 
 
