@@ -30,7 +30,7 @@ let playlist = [
     { 
         title: "Love Ya        ", 
         artist: "Diljit Dosanjh     ",  
-        lyrics:"Lova Ya",        
+        lyrics:"Love Ya",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/lova ya_diljit.png", 
         audio: "songs/love ya_diljit.mp3", 
