@@ -36,6 +36,20 @@ function setCurrentSong(track) {
     currentSong = track;
 }
 
+// function updateMediaMetadata(song) {
+//     if ('mediaSession' in navigator) {
+//         navigator.mediaSession.metadata = new MediaMetadata({
+//             title: song.title, // Replace with song.title from your data
+//             artist: song.artist,
+//             // album: song.album,
+//             artwork: [
+//                 { src: song.cover, sizes: '512x512', type: 'image/png' }, // Replace with song.image from your data
+//             ]
+//         });
+//     }
+// }
+
+
 function updateMediaMetadata(song) {
     if ('mediaSession' in navigator) {
         navigator.mediaSession.metadata = new MediaMetadata({
@@ -43,30 +57,56 @@ function updateMediaMetadata(song) {
             artist: song.artist,
             // album: song.album,
             artwork: [
-                { src: song.cover, sizes: '512x512', type: 'image/png' }, // Replace with song.image from your data
+                { src: song.cover, sizes: '96x96', type: detectImageType(song.cover) },
+                { src: song.cover, sizes: '128x128', type: detectImageType(song.cover) },
+                { src: song.cover, sizes: '256x256', type: detectImageType(song.cover) },
+                { src: song.cover, sizes: '512x512', type: detectImageType(song.cover) },
             ]
         });
     }
 }
 
+// Utility function to detect the image type from the file extension
+function detectImageType(url) {
+    const extension = url.split('.').pop().toLowerCase();
+    switch (extension) {
+        case 'jpg':
+        case 'jpeg':
+            return 'image/jpeg';
+        case 'png':
+            return 'image/png';
+        case 'gif':
+            return 'image/gif';
+        case 'webp':
+            return 'image/webp';
+        case 'bmp':
+            return 'image/bmp';
+        case 'svg':
+            return 'image/svg+xml';
+        default:
+            return 'image/*'; // Fallback for unknown types
+    }
+}
+
+
 navigator.mediaSession.setActionHandler('play', () => {
     // Play the song
-    audioElement.play();
+    audio.play();
 });
 
 navigator.mediaSession.setActionHandler('pause', () => {
     // Pause the song
-    audioElement.pause();
+    audio.pause();
 });
 
 navigator.mediaSession.setActionHandler('nexttrack', () => {
     // Play the next song
-    playNextSong();
+    nextTrack();
 });
 
 navigator.mediaSession.setActionHandler('previoustrack', () => {
     // Play the previous song
-    playPreviousSong();
+    prevTrack();
 });
 
 
