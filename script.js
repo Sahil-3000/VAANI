@@ -30,10 +30,46 @@ const artistImg = document.querySelector('.artist-img');
 const songName = document.querySelector('.song-name');
 const artistName = document.querySelector('.artist-name')
 
+
 // Function to set the current song (for download button)
 function setCurrentSong(track) {
     currentSong = track;
 }
+
+function updateMediaMetadata(song) {
+    if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new MediaMetadata({
+            title: song.title, // Replace with song.title from your data
+            artist: song.artist,
+            // album: song.album,
+            artwork: [
+                { src: song.cover, sizes: '512x512', type: 'image/png' }, // Replace with song.image from your data
+            ]
+        });
+    }
+}
+
+navigator.mediaSession.setActionHandler('play', () => {
+    // Play the song
+    audioElement.play();
+});
+
+navigator.mediaSession.setActionHandler('pause', () => {
+    // Pause the song
+    audioElement.pause();
+});
+
+navigator.mediaSession.setActionHandler('nexttrack', () => {
+    // Play the next song
+    playNextSong();
+});
+
+navigator.mediaSession.setActionHandler('previoustrack', () => {
+    // Play the previous song
+    playPreviousSong();
+});
+
+
 
 // Function to load and display track information
 function loadTrack(trackIndex) {
@@ -66,11 +102,16 @@ function loadTrack(trackIndex) {
         progressSlider.max = Math.floor(audio.duration);  // Set the maximum value of the progress slider
     };
 
+    
     // Load lyrics if available for the track
     loadLyrics(track.lyrics, track.artist);
 
     // Set the current song for the download button
     setCurrentSong(track);
+    // Example: Call this function when a new song is played
+
+    updateMediaMetadata(track);
+    
 }
 
 // Add event listener for the download button
