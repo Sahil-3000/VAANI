@@ -4,6 +4,7 @@
 let playlistsMain = [
     {
         id: 1,
+        index:0,
         title: "Liked Songs",
         artist: "Various Artists",
         cover: "covers/liked playlist.png",
@@ -192,6 +193,7 @@ let playlistsMain = [
     },
     {
         id: 2,
+        index:1,
         title: "Arijit Singh",
         artist: "Arijit Singh",
         cover: "covers/arijit singh.jpg",
@@ -380,6 +382,7 @@ let playlistsMain = [
     },
     {
         id: 3,
+        index:2,
         title: "Eminem Hits",
         artist: "Eminem",
         cover: "covers/eminem.jpg",
@@ -568,6 +571,7 @@ let playlistsMain = [
     },
     {
         id: 4,
+        index:3,
         title: "The Beatles    ",
         artist: "The Beatles    ",
         cover: "covers/The Beatles.png",
@@ -591,6 +595,7 @@ let playlistsMain = [
 
     {
         id: 5,
+        index:4,
         title: "Workout Music",
         artist: "Eminem,Dhanda,RP..",
         cover: "covers/workout playlist.png",
@@ -627,6 +632,7 @@ let playlistsMain = [
     },
     {
         id: 6,
+        index:5,
         title: "Sleep",
         artist: "Billie Eilish, Anuv Jain...",
         cover: "covers/sleep playlist.png",
@@ -651,6 +657,7 @@ let playlistsMain = [
     },
     {
         id: 7,
+        index:6,
         title: "Rubber Soul",
         artist: "The Bealtes",
         cover: "covers/rubber soul.jpg",
@@ -675,6 +682,7 @@ let playlistsMain = [
 
     {
         id: 8,
+        index:7,
         title: "Haryanvi Hits",
         artist: "Varius Artist",
         cover: "covers/Haryanvi Hits.png",
@@ -687,3 +695,6 @@ let playlistsMain = [
         ]
     }
 ];
+
+
+// let currentPlaylist = playlists[0];

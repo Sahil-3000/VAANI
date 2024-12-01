@@ -1,4 +1,6 @@
+// let currentPlaylistId = 1;
 
+// let currentPlaylist = playlistsMain.find(playlist => playlist.id === currentPlaylistId);
 
 // Default playlist is set to the playlist variable
 let currentPlaylist = playlist; // Default playlist
@@ -13,6 +15,20 @@ let currentTrackIndex = 0;  // Default track index
 let isPlaying = false;      // Flag to track if music is playing
 let audio = new Audio();    // Create a new Audio object for playback
 let currentSong;            // To store the current song being played
+
+
+// Element references for displaying track information and controls
+const nowPlayingTitle = document.querySelector('.track-title');
+const nowPlayingArtist = document.querySelector('.track-artist');
+const nowPlayingCover = document.querySelector('.track-info img');
+const playPauseIcon = document.getElementById('play-pause-icon');
+const progressSlider = document.getElementById('progress-slider');
+const currentTimeElement = document.getElementById('current-time');
+const durationElement = document.getElementById('duration');
+const sidebar = document.querySelector('.current-song-cover img');
+const artistImg = document.querySelector('.artist-img');
+const songName = document.querySelector('.song-name');
+const artistName = document.querySelector('.artist-name')
 
 // Function to set the current song (for download button)
 function setCurrentSong(track) {
@@ -64,26 +80,14 @@ document.getElementById("download-button").addEventListener("click", () => {
         const link = document.createElement("a");
         link.href = currentSong.audio;
         link.download = `${currentSong.title}.mp3`; // Suggest the file name based on the song title
-        document.body.appendChild(link);
+        document.body.appendChild(link); //add the link element
         link.click(); // Trigger the download
         document.body.removeChild(link); // Clean up the link element
     } else {
         alert("No song is currently playing.");  // Alert the user if no song is playing
     }
 });
-
-// Element references for displaying track information and controls
-const nowPlayingTitle = document.querySelector('.track-title');
-const nowPlayingArtist = document.querySelector('.track-artist');
-const nowPlayingCover = document.querySelector('.track-info img');
-const playPauseIcon = document.getElementById('play-pause-icon');
-const progressSlider = document.getElementById('progress-slider');
-const currentTimeElement = document.getElementById('current-time');
-const durationElement = document.getElementById('duration');
-const sidebar = document.querySelector('.current-song-cover img');
-const artistImg = document.querySelector('.artist-img');
-const songName = document.querySelector('.song-name');
-const artistName = document.querySelector('.artist-name');
+;
 
 // Function to play the selected song and update the display
 function playSong(audioFile) {
@@ -105,7 +109,7 @@ function playSong(audioFile) {
     artistImg.src = track.artistPhoto;
     songName.textContent = track.title;
     artistName.textContent = track.artist;
-
+    // currentTrackIndex = trackIndex;
     // Update the track's metadata when loaded
     audio.onloadedmetadata = () => {
         durationElement.textContent = formatTime(audio.duration);
