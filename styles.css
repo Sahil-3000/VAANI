@@ -184,6 +184,17 @@ body {
     background-color: #45a049;
 }
 
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+}
+
+
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -237,9 +248,9 @@ body {
 /* .album-meta{
     gap:10px;
 } */
-.album-artist{
+/* .album-artist{
     margin-left:10%;
-}
+} */
 .album-title{
     display:flex;
     align-items: center;
@@ -312,7 +323,7 @@ main,
 .sidebar1 {
     flex: 0 0 19%; /* Fixed width of 23% */
     border-radius: 10px;
-    background-color: #181818;
+    background-color: #0d051a;
     /* background-color: #057c13; */
     color: #b3b3b3;
     padding:0.5%;
@@ -392,7 +403,7 @@ main {
     flex: 0 0 54.5%; /* Fixed width of 50% */
     border-radius: 15px;
     /* background-color: #201d1d; */
-    background-color: #14141b;
+    background-color: #0d0730;
     padding:1%;
     overflow-x: hidden; /* Hides horizontal scrollbar */
 }
@@ -594,11 +605,22 @@ footer.now-playing {
 .recommended-item {
     width: 120px;
     height: 120px;
-    background-color: #333;
+
+    background-color: #2c2c30;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+}
+
+.recommended-item img{
+    background-size: cover;
+    width:120px;
+    height:100px;
+}
+.reco-info{
+    font-weight:bold;
+    font-size:15px;
 }
 
 .now-playing {
@@ -1032,6 +1054,16 @@ button[data-type="play-button"]{
     .VAANI{
         font-size:medium;
     }
+
+    /* Header */
+    header {
+        width:100%;
+        position:sticky;
+        top:0;
+        z-index:1000;
+    }
+
+
     .header-content{
         position:static;
         background-color: #060606;
@@ -1041,8 +1073,11 @@ button[data-type="play-button"]{
         justify-content: space-between;
         align-items: center;
     }
-    .header{
+    header{
         width:100%;
+        position:sticky;
+        top:0;
+        z-index:1000;
     }
     .logo-VAANI{
         margin-left:1%;
@@ -1283,20 +1318,26 @@ button[data-type="play-button"]{
         /* margin-right:7px;
         margin-left:0; */
     }
+
+    .playlist-header{
+        padding-bottom:30px;
+    }
     
     .song-item{
-        margin-right:22px;
-        margin-bottom:10px;
+        /* margin-right:20px; */
+        margin-bottom:20px;
+        padding-left: 10px;
+        padding-right:10px;
     }
     .song-item p {
         margin: 0;
         padding:7px;
-        font-size: 12px;
+        font-size: 15px;
         color: #fff;
         width:80%;
     }
     .reco-info{
-        font-weight:smaller;
+        font-weight:normal;
         font-size:12px;
     }
     
@@ -1393,19 +1434,49 @@ button[data-type="play-button"]{
         height:4px;
       }
       
+      .library-section h2{
+        text-align: center;
+        font-size: x-large;
+      }
+
+
     .library-item {
-        flex-direction: column;
+        display:flex;
         align-items: center;
-        gap: 10px;
-        height: auto;
+        justify-content: center;
+        height:70px;
+        gap: 15px;
+        margin-bottom:15px;
+        /* height: auto; */
     }
 
     .library-item img {
-        width: 80%;
-        height: auto;
+        width: 70px;
+        height: 70px;
+        margin-right: 30px;
+        border-radius:50%;
+        /* align-self: left; */
     }
 
-    
+    .album-meta{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .album-meta {
+        gap: 5px;
+        text-align: left;
+    }
+
+    .album-title,
+    .album-artist {
+        margin: 0;
+    }
+
+    /* .album-title, .album-artist{
+        margin: 0;
+    }
+     */
     
     .recommended-grid,
     .trending-grid {
@@ -1435,16 +1506,7 @@ button[data-type="play-button"]{
 
     
 
-    .album-meta {
-        gap: 5px;
-        text-align: center;
-    }
-
-    .album-title,
-    .album-artist {
-        margin: 0;
-    }
-
+ 
     .time{
         font-size:10px;
     }
