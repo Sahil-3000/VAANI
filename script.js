@@ -6,10 +6,10 @@
 let currentPlaylist = playlist; // Default playlist
 
 // Function to switch between different playlists
-function switchPlaylist(newPlaylist, index) {
-    currentPlaylist = newPlaylist; // Update the active playlist
-    currentTrackIndex = index;     // Set the current track index
-}
+// function switchPlaylist(newPlaylist) {
+//     currentPlaylist = newPlaylist; // Update the active playlist
+//     // currentTrackIndex = index;     // Set the current track index
+// }
 
 let currentTrackIndex = 0;  // Default track index
 let isPlaying = false;      // Flag to track if music is playing
@@ -211,42 +211,6 @@ function togglePlayPause() {
     }
 }
 
-// Function to play the next track in the playlist
-function nextTrack() {
-    if (!currentPlaylist.length) return; // Handle empty playlist
-
-    // Increment index and loop back to the start
-    currentTrackIndex = (currentTrackIndex + 1) % currentPlaylist.length;
-    loadTrack(currentTrackIndex); // Load the next track
-    if(showLyrics.style.display=="block"){
-        songDetails.style.display="block";
-    }
-    else{
-        songDetails.style.display="none";
-    }
-    audio.play();  // Play the next track
-    playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';  // Update icon
-   
-    isPlaying = true;
-}
-
-// Function to play the previous track in the playlist
-function prevTrack() {
-    if (!currentPlaylist.length) return; // Handle empty playlist
-
-    // Decrement index and loop back to the end
-    currentTrackIndex = (currentTrackIndex - 1 + currentPlaylist.length) % currentPlaylist.length;
-    loadTrack(currentTrackIndex); // Load the previous track
-    if(showLyrics.style.display=="block"){
-        songDetails.style.display="block";
-    }
-    else{
-        songDetails.style.display="none";
-    }
-    audio.play();  // Play the previous track
-    playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';  // Update icon
-    isPlaying = true;
-}
 
 // Function to set the volume
 function setVolume() {
@@ -294,12 +258,14 @@ btnLyrics.addEventListener("click", () => {
         defaultContent.style.display = "none";
         showLyrics.style.display = "block";
         songDetails.style.display = "block";
+        songResults.style.display = "none";
     }
     else{
         mainPlaySection.style.display = "block"; // Hide the main play section
         defaultContent.style.display = "block";
         showLyrics.style.display = "none";  // Show the lyrics section
         songDetails.style.display = "none";
+        songResults.style.display = "block";
     }
    
 });
@@ -519,6 +485,7 @@ libraryItems.forEach((libraryItem, index) => {
 
         // Display the playlist details
         displayPlaylist(selectedPlaylist);
+        switchPlaylist(selectedPlaylist);
         
         
     });
@@ -598,18 +565,24 @@ function displayPlaylist(playList) {
         songDiv.appendChild(downLoad);
 
         // Play button for each song
-        const playButton = document.createElement("button");
-        playButton.setAttribute("data-type", "play-button");
-        playButton.textContent = "Play";
-        playButton.onclick = () => {
-            // currentTrackIndex = 6;
-            
-            playSong(song.audio);
+        let playButton1 = document.createElement("button");
+        playButton1.setAttribute("data-type", "play-button");
+        playButton1.textContent = "Play";
+        playButton1.addEventListener("click",()=>{
             // switchPlaylist(playList,index);
+            playSong(song.audio);
+            
+        });
+        // playButton.onclick = () => {
+        //     // currentTrackIndex = 6;
+            
+        //     playSong(song.audio);
+        //     switchPlaylist(playList,index);
             
             
-        };
-        songDiv.appendChild(playButton);
+            
+        // };
+        songDiv.appendChild(playButton1);
 
         playlistHeader.appendChild(songDiv);
     });
@@ -958,3 +931,40 @@ homeButton.addEventListener("click", () => {
 });
 
 
+// Function to play the next track in the playlist
+function nextTrack() {
+    if (!currentPlaylist.length) return; // Handle empty playlist
+
+    // Increment index and loop back to the start
+    currentTrackIndex = (currentTrackIndex + 1) % currentPlaylist.length;
+    loadTrack(currentTrackIndex); // Load the next track
+    if(showLyrics.style.display=="block"){
+        songDetails.style.display="block";
+    }
+    else{
+        songDetails.style.display="none";
+    }
+    // audio.play();  
+    playSong(currentSong.audio);
+    playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';  // Update icon
+   
+    isPlaying = true;
+}
+
+// Function to play the previous track in the playlist
+function prevTrack() {
+    if (!currentPlaylist.length) return; // Handle empty playlist
+
+    // Decrement index and loop back to the end
+    currentTrackIndex = (currentTrackIndex - 1 + currentPlaylist.length) % currentPlaylist.length;
+    loadTrack(currentTrackIndex); // Load the previous track
+    if(showLyrics.style.display=="block"){
+        songDetails.style.display="block";
+    }
+    else{
+        songDetails.style.display="none";
+    }
+    audio.play();  // Play the previous track
+    playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';  // Update icon
+    isPlaying = true;
+}
