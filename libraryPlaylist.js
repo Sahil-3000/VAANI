@@ -1742,7 +1742,7 @@ let libraryPlaylists = [
         lyrics:"Queen's Gambit",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/albums/bhadauria_album.png", 
-        audio: "songs/albums/bhadauria/queen gambit.mp3", 
+        audio: "songs/albums/bhadauria/queen s gambit.mp3", 
         searchString: "queen's gambit"
     },//14
     { 
@@ -1751,7 +1751,7 @@ let libraryPlaylists = [
         lyrics:"Don't You Dare",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/albums/bhadauria_album.png", 
-        audio: "songs/albums/bhadauria/don't you dare.mp3", 
+        audio: "songs/albums/bhadauria/don t you dare.mp3", 
         searchString: "don't you dare"
     },//15
     { 
