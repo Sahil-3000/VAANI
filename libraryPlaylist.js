@@ -1,6 +1,6 @@
-//array to conatains the library playlists
 
-let playlists = [
+
+let libraryPlaylists = [
     {
         id: 1,
         title: "Rubber Soul",
@@ -1717,6 +1717,106 @@ let playlists = [
         searchString: "Victer"
     }//26
     
+        ]
+    },
+
+    {
+        id: 6,
+        title: "Bhadauria    ",
+        artist: "Hustinder    ",
+        cover: "covers/albums/bhadauria_album.png",
+        songs: [
+            //The Beatles-Rubber Soul
+    { 
+        title: "Fella's Forever      ", 
+        artist: "Hustinder    ",
+        lyrics:"Fella's Forever",        
+        artistPhoto: "covers/Hustinder.png", 
+        cover: "covers/albums/bhadauria_album.png", 
+        audio: "songs/albums/bhadauria/fellas forever.mp3", 
+        searchString: "fellas forever"
+    },//13
+    { 
+        title: "Queen's Gambit      ", 
+        artist: "Husinder    ",
+        lyrics:"Queen's Gambit",        
+        artistPhoto: "covers/Hustinder.png", 
+        cover: "covers/albums/bhadauria_album.png", 
+        audio: "songs/albums/bhadauria/queen gambit.mp3", 
+        searchString: "queen's gambit"
+    },//14
+    { 
+        title: "Don't You Dare      ", 
+        artist: "Husinder    ",
+        lyrics:"Don't You Dare",        
+        artistPhoto: "covers/Hustinder.png", 
+        cover: "covers/albums/bhadauria_album.png", 
+        audio: "songs/albums/bhadauria/don't you dare.mp3", 
+        searchString: "don't you dare"
+    },//15
+    { 
+        title: "Mittra'n De Dere     ", 
+        artist: "Husinder    ",
+        lyrics:"Mittra'n De Dere",        
+        artistPhoto: "covers/Hustinder.png", 
+        cover: "covers/albums/bhadauria_album.png", 
+        audio: "songs/albums/bhadauria/mittran de dere.mp3", 
+        searchString: "mitran de dere"
+    },//16
+    { 
+        title: "Step Bhull Gyi      ", 
+        artist: "Husinder    ",
+        lyrics:"Step Bhull Gyi",        
+        artistPhoto: "covers/Hustinder.png", 
+        cover: "covers/albums/bhadauria_album.png", 
+        audio: "songs/albums/bhadauria/step bhull gyi.mp3", 
+        searchString: "step bhull gyi"
+    },//17
+    { 
+        title: "White Money     ", 
+        artist: "Husinder    ",
+        lyrics:"White Money ",        
+        artistPhoto: "covers/Hustinder.png", 
+        cover: "covers/albums/bhadauria_album.png", 
+        audio: "songs/albums/bhadauria/white money.mp3", 
+        searchString: "white money"
+    },//18
+    { 
+        title: "We Living It      ", 
+        artist: "Husinder    ",
+        lyrics:"We Living It ",        
+        artistPhoto: "covers/Hustinder.png", 
+        cover: "covers/albums/bhadauria_album.png", 
+        audio: "songs/albums/bhadauria/we living it.mp3", 
+        searchString: "we living it"
+    },//19
+    { 
+        title: "Kdo'n Nachana      ", 
+        artist: "Husinder    ",
+        lyrics:"Kdo'n Nachana",        
+        artistPhoto: "covers/Hustinder.png", 
+        cover: "covers/albums/bhadauria_album.png", 
+        audio: "songs/albums/bhadauria/kdon nachana.mp3", 
+        searchString: "kdo nachna"
+    },//20
+    { 
+        title: "Move Your Car ",
+        artist: "Husinder    ",
+        lyrics:"Move Your Car ",        
+        artistPhoto: "covers/Hustinder.png", 
+        cover: "covers/albums/bhadauria_album.png", 
+        audio: "songs/albums/bhadauria/move your car.mp3", 
+        searchString: "move your car"
+    },//21
+    { 
+        title: "Bhadauria      ", 
+        artist: "Husinder    ",
+        lyrics:"Bhadauria  ",        
+        artistPhoto: "covers/Hustinder.png", 
+        cover: "covers/albums/bhadauria_album.png", 
+        audio: "songs/albums/bhadauria/bhadauria.mp3", 
+        searchString: "bhadauria"
+    }
         ]
     }
 ];

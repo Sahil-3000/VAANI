@@ -5,6 +5,7 @@
 // Default playlist is set to the playlist variable
 let currentPlaylist = playlist; // Default playlist
 
+
 // Function to switch between different playlists
 // function switchPlaylist(newPlaylist) {
 //     currentPlaylist = newPlaylist; // Update the active playlist
@@ -35,19 +36,6 @@ const artistName = document.querySelector('.artist-name')
 function setCurrentSong(track) {
     currentSong = track;
 }
-
-// function updateMediaMetadata(song) {
-//     if ('mediaSession' in navigator) {
-//         navigator.mediaSession.metadata = new MediaMetadata({
-//             title: song.title, // Replace with song.title from your data
-//             artist: song.artist,
-//             // album: song.album,
-//             artwork: [
-//                 { src: song.cover, sizes: '512x512', type: 'image/png' }, // Replace with song.image from your data
-//             ]
-//         });
-//     }
-// }
 
 
 function updateMediaMetadata(song) {
@@ -111,48 +99,6 @@ navigator.mediaSession.setActionHandler('previoustrack', () => {
 
 
 
-// Function to load and display track information
-function loadTrack(trackIndex) {
-    const track = currentPlaylist[trackIndex]; // Get the track at the given index
-
-    // Update the display elements with track details
-    nowPlayingTitle.textContent = track.title;
-    nowPlayingArtist.textContent = track.artist;
-    nowPlayingCover.src = track.cover;
-
-    // Set the audio source and prepare it for playback
-    audio.src = track.audio;
-    audio.load(); // Load the audio metadata
-
-    // Update the sidebar with the track's cover image
-    sidebar.src = track.cover;
-    sidebar.style.backgroundSize = "cover";  // Make sure the image covers the sidebar
-    sidebar.style.backgroundPosition = "center";  // Center the image
-    sidebar.style.borderRadius = "8px";  // Maintain border-radius if needed
-    sidebar.style.width = "100%"; // Ensure full width
-
-    // Set artist image and song details in footer
-    artistImg.src = track.artistPhoto;
-    songName.textContent = track.title;
-    artistName.textContent = track.artist;
-
-    // Update the track duration and progress slider when metadata is loaded
-    audio.onloadedmetadata = () => {
-        durationElement.textContent = formatTime(audio.duration);  // Display the duration
-        progressSlider.max = Math.floor(audio.duration);  // Set the maximum value of the progress slider
-    };
-
-    
-    // Load lyrics if available for the track
-    loadLyrics(track.lyrics, track.artist);
-
-    // Set the current song for the download button
-    setCurrentSong(track);
-    // Example: Call this function when a new song is played
-
-    updateMediaMetadata(track);
-    
-}
 
 // Add event listener for the download button
 document.getElementById("download-button").addEventListener("click", () => {
@@ -272,46 +218,6 @@ btnLyrics.addEventListener("click", () => {
 
 
 
-// Function to load lyrics for a song
-function loadLyrics(songName, artistName) {
-    const fileUrl = `lyrics/${songName}.txt`;  // Path to the lyrics file
-
-    // Insert song and artist details into the page
-    let songDetails = document.getElementById("songDetails");
-    songDetails.innerHTML = `
-        <div>${songName}</div>
-        <div>by ${artistName}</div>
-    `;
-    
-    // Display the song details
-    songDetails.style.display = "none";
-
-    // Fetch the lyrics
-    fetch(fileUrl)
-        .then((response) => {
-            if (!response.ok) {
-                throw new Error("No Lyrics Available");  // Throw a custom error if the file is not found
-            }
-            return response.text();  // Get the lyrics text
-        })
-        .then((lyrics) => {
-            // Insert the lyrics into the lyrics container
-            const lyricsContainer = document.querySelector(".lyrics-container");
-            lyricsContainer.textContent = lyrics;  // Display the lyrics
-
-            // Ensure the lyrics container is visible
-            const lyricsWrapper = document.querySelector(".lyrics-container");
-            // lyricsWrapper.style.display = "none";  // Ensure lyrics are visible
-        })
-        .catch((error) => {
-            console.error("Error loading lyrics:", error);  // Log the error to the console
-
-            // If lyrics are not found, show the "No Lyrics Available" message
-            let lyricsContainer = document.querySelector(".lyrics-container");
-            lyricsContainer.textContent = error.message;  // Display the error message (No Lyrics Available)
-            // lyricsContainer.style.display = "none";  // Make sure the container is visible
-        });
-}
 
 
 
@@ -474,7 +380,7 @@ const openPlaylistContainer = document.querySelector(".playlist-header");
 
 libraryItems.forEach((libraryItem, index) => {
     libraryItem.addEventListener("click", () => {
-        const selectedPlaylist = playlists[index];
+        const selectedPlaylist = libraryPlaylists[index];
 
         // Show the selected playlist and hide the library
         openPlaylistContainer.style.display = "block";
@@ -508,10 +414,27 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+function nextTrack() {
+    if (currentPlaylist.length > 0) {
+        currentTrackIndex = (currentTrackIndex + 1) % currentPlaylist.length;
+        playSong(currentPlaylist[currentTrackIndex].audio);
+    }
+}
+
+function prevTrack() {
+    if (currentPlaylist.length > 0) {
+        currentTrackIndex = (currentTrackIndex - 1 + currentPlaylist.length) % currentPlaylist.length;
+        playSong(currentPlaylist[currentTrackIndex].audio);
+    }
+}
+
+
 
 // Function to display the selected playlist's details
 function displayPlaylist(playList) {
     // switchPlaylist(playlists.songs);
+    currentPlaylist = playList.songs;
+    currentTrackIndex = 0;
     const playlistContainer = openPlaylistContainer;
     playlistContainer.innerHTML = '';  // Clear any previous playlist content
 
@@ -570,18 +493,12 @@ function displayPlaylist(playList) {
         playButton1.textContent = "Play";
         playButton1.addEventListener("click",()=>{
             // switchPlaylist(playList,index);
+            loadTrack(index);
+            currentTrackIndex = index;
             playSong(song.audio);
             
         });
-        // playButton.onclick = () => {
-        //     // currentTrackIndex = 6;
-            
-        //     playSong(song.audio);
-        //     switchPlaylist(playList,index);
-            
-            
-            
-        // };
+      
         songDiv.appendChild(playButton1);
 
         playlistHeader.appendChild(songDiv);
@@ -672,6 +589,8 @@ music.addEventListener("click",()=>{
 
 // Function to display the selected playlist's details
 function displayAllSongs(playList) {
+    currentPlaylist = playList.songs;
+    currentTrackIndex = 0;
     mainOpenPlayContainer.style.display === "block"
     // mainOpenPlayContainer.innerHTML = '';
     mainOpenPlayContainer.style.height = "auto";
@@ -689,7 +608,7 @@ function displayAllSongs(playList) {
     
 
     // Create a list of songs for the selected playlist
-    playList.songs.forEach(song => {
+    playList.songs.forEach((song,index) => {
         const songDiv = document.createElement("div");
         songDiv.classList.add("song-item");
 
@@ -727,7 +646,10 @@ function displayAllSongs(playList) {
         const playButton = document.createElement("button");
         playButton.setAttribute("data-type", "play-button");
         playButton.textContent = "Play";
-        playButton.onclick = () => playSong(song.audio);
+        playButton.onclick = () => {
+            currentTrackIndex = index;
+            playSong(song.audio);
+        };
         songDiv.appendChild(playButton);
 
         mainPlayHeader.appendChild(songDiv);
@@ -774,6 +696,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Function to display the selected playlist's details
 function displayMainPlaylist(playList) {
+    currentPlaylist = playList.songs;
+    currentTrackIndex = 0;
     mainOpenPlayContainer.style.display === "block"
     // mainOpenPlayContainer.innerHTML = '';
     mainOpenPlayContainer.style.height = "auto";
@@ -809,7 +733,7 @@ function displayMainPlaylist(playList) {
     
 
     // Create a list of songs for the selected playlist
-    playList.songs.forEach(song => {
+    playList.songs.forEach((song,index) => {
         const songDiv = document.createElement("div");
         songDiv.classList.add("song-item");
 
@@ -847,7 +771,11 @@ function displayMainPlaylist(playList) {
         const playButton = document.createElement("button");
         playButton.setAttribute("data-type", "play-button");
         playButton.textContent = "Play";
-        playButton.onclick = () => playSong(song.audio);
+        playButton.onclick = () => {
+            loadTrack(index);
+            currentTrackIndex = index;
+            playSong(song.audio);
+        };
         songDiv.appendChild(playButton);
 
         mainPlayHeader.appendChild(songDiv);
@@ -967,4 +895,91 @@ function prevTrack() {
     audio.play();  // Play the previous track
     playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';  // Update icon
     isPlaying = true;
+}
+
+
+// Function to load lyrics for a song
+function loadLyrics(songName, artistName) {
+    const fileUrl = `lyrics/${songName}.txt`;  // Path to the lyrics file
+
+    // Insert song and artist details into the page
+    let songDetails = document.getElementById("songDetails");
+    songDetails.innerHTML = `
+        <div>${songName}</div>
+        <div>by ${artistName}</div>
+    `;
+    
+    // Display the song details
+    songDetails.style.display = "none";
+
+    // Fetch the lyrics
+    fetch(fileUrl)
+        .then((response) => {
+            if (!response.ok) {
+                throw new Error("No Lyrics Available");  // Throw a custom error if the file is not found
+            }
+            return response.text();  // Get the lyrics text
+        })
+        .then((lyrics) => {
+            // Insert the lyrics into the lyrics container
+            const lyricsContainer = document.querySelector(".lyrics-container");
+            lyricsContainer.textContent = lyrics;  // Display the lyrics
+
+            // Ensure the lyrics container is visible
+            const lyricsWrapper = document.querySelector(".lyrics-container");
+            // lyricsWrapper.style.display = "none";  // Ensure lyrics are visible
+        })
+        .catch((error) => {
+            console.error("Error loading lyrics:", error);  // Log the error to the console
+
+            // If lyrics are not found, show the "No Lyrics Available" message
+            let lyricsContainer = document.querySelector(".lyrics-container");
+            lyricsContainer.textContent = error.message;  // Display the error message (No Lyrics Available)
+            // lyricsContainer.style.display = "none";  // Make sure the container is visible
+        });
+}
+
+
+
+// Function to load and display track information
+function loadTrack(trackIndex) {
+    const track = currentPlaylist[trackIndex]; // Get the track at the given index
+
+    // Update the display elements with track details
+    nowPlayingTitle.textContent = track.title;
+    nowPlayingArtist.textContent = track.artist;
+    nowPlayingCover.src = track.cover;
+
+    // Set the audio source and prepare it for playback
+    audio.src = track.audio;
+    audio.load(); // Load the audio metadata
+
+    // Update the sidebar with the track's cover image
+    sidebar.src = track.cover;
+    sidebar.style.backgroundSize = "cover";  // Make sure the image covers the sidebar
+    sidebar.style.backgroundPosition = "center";  // Center the image
+    sidebar.style.borderRadius = "8px";  // Maintain border-radius if needed
+    sidebar.style.width = "100%"; // Ensure full width
+
+    // Set artist image and song details in footer
+    artistImg.src = track.artistPhoto;
+    songName.textContent = track.title;
+    artistName.textContent = track.artist;
+
+    // Update the track duration and progress slider when metadata is loaded
+    audio.onloadedmetadata = () => {
+        durationElement.textContent = formatTime(audio.duration);  // Display the duration
+        progressSlider.max = Math.floor(audio.duration);  // Set the maximum value of the progress slider
+    };
+
+    
+    // Load lyrics if available for the track
+    loadLyrics(track.lyrics, track.artist);
+
+    // Set the current song for the download button
+    setCurrentSong(track);
+    // Example: Call this function when a new song is played
+
+    updateMediaMetadata(track);
+    
 }
