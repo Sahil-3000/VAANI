@@ -1808,65 +1808,166 @@ let playlistsMain = [
     },
 
     {
-        id: 5,
-        index:4,
-        title: "Workout Music",
-        artist: "Eminem,Dhanda,RP..",
-        cover: "covers/workout playlist.png",
+        id: 7,
+        title: "Patandar    ",
+        artist: "Arjan Dhillon    ",
+        cover: "covers/albums/patandar_album.png",
         songs: [
-            { title: "If I Needed Someone      ", artist: "The Beatles    ",audio: "songs/if i needed someone.mp3"},//13
-            { title: "Norwegian Wood      ", artist: "The Beatles    ",audio: "songs/norwegian wood.mp3"},//14
-            { title: "You Won't See Me      ", artist: "The Beatles    ",audio: "songs/you won't see me.mp3"},//15
-            { title: "Think For Yourself      ", artist: "The Beatles    ",audio: "songs/think for yourself.mp3"},//16
-            { title: "The Word      ", artist: "The Beatles    ",audio: "songs/the word.mp3"},//17
-            { title: "Michelle      ", artist: "The Beatles    ",audio: "songs/michelle.mp3"},//18
-            { title: "Drive My Car      ", artist: "The Beatles    ",audio: "songs/drive my car.mp3"},//19
-            { title: "Girl      ", artist: "The Beatles    ", audio: "songs/girl.mp3"},//20
-            { title: "I'm Looking Through You", audio: "songs/i'm looking through you.mp3"},//21
-            { title: "In My Life      ", artist: "The Beatles    ",audio: "songs/In My Life.mp3"},//22
-            { title: "Wait      ", artist: "The Beatles    ",audio: "songs/wait.mp3"},//23
-            { title: "Run For Your Life      ", artist: "The Beatles    ",audio: "songs/run for your life.mp3"},//24
-            { title: "Nowhere Man      ", artist: "The Beatles    ",audio: "songs/nowhere man.mp3"},//25
-            { title: "What Goes On      ", artist: "The Beatles    ",audio: "songs/what goes on.mp3"},//26
-            { title: "If I Needed Someone      ", artist: "The Beatles    ",audio: "songs/if i needed someone.mp3"},//13
-            { title: "Norwegian Wood      ", artist: "The Beatles    ",audio: "songs/norwegian wood.mp3"},//14
-            { title: "You Won't See Me      ", artist: "The Beatles    ",audio: "songs/you won't see me.mp3"},//15
-            { title: "Think For Yourself      ", artist: "The Beatles    ",audio: "songs/think for yourself.mp3"},//16
-            { title: "The Word      ", artist: "The Beatles    ",audio: "songs/the word.mp3"},//17
-            { title: "Michelle      ", artist: "The Beatles    ",audio: "songs/michelle.mp3"},//18
-            { title: "Drive My Car      ", artist: "The Beatles    ",audio: "songs/drive my car.mp3"},//19
-            { title: "Girl      ", artist: "The Beatles    ", audio: "songs/girl.mp3"},//20
-            { title: "I'm Looking Through You", audio: "songs/i'm looking through you.mp3"},//21
-            { title: "In My Life      ", artist: "The Beatles    ",audio: "songs/In My Life.mp3"},//22
-            { title: "Wait      ", artist: "The Beatles    ",audio: "songs/wait.mp3"},//23
-            { title: "Run For Your Life      ", artist: "The Beatles    ",audio: "songs/run for your life.mp3"},//24
-            { title: "Nowhere Man      ", artist: "The Beatles    ",audio: "songs/nowhere man.mp3"},//25
-            { title: "What Goes On      ", artist: "The Beatles    ",audio: "songs/what goes on.mp3"},//26
-        ]
-    },
-    {
-        id: 6,
-        index:5,
-        title: "Sleep",
-        artist: "Billie Eilish, Anuv Jain...",
-        cover: "covers/sleep playlist.png",
-        songs: [
-            { title: "If I Needed Someone      ", artist: "The Beatles    ",audio: "songs/if i needed someone.mp3"},//13
-            { title: "Norwegian Wood      ", artist: "The Beatles    ",audio: "songs/norwegian wood.mp3"},//14
-            { title: "You Won't See Me      ", artist: "The Beatles    ",audio: "songs/you won't see me.mp3"},//15
-            { title: "Think For Yourself      ", artist: "The Beatles    ",audio: "songs/think for yourself.mp3"},//16
-            { title: "The Word      ", artist: "The Beatles    ",audio: "songs/the word.mp3"},//17
-            { title: "Michelle      ", artist: "The Beatles    ",audio: "songs/michelle.mp3"},//18
-            { title: "Drive My Car      ", artist: "The Beatles    ",audio: "songs/drive my car.mp3"},//19
-            { title: "Girl      ", artist: "The Beatles    ", audio: "songs/girl.mp3"},//20
-            { title: "I'm Looking Through You", audio: "songs/i'm looking through you.mp3"},//21
-            { title: "In My Life      ", artist: "The Beatles    ",audio: "songs/In My Life.mp3"},//22
-            { title: "Wait      ", artist: "The Beatles    ",audio: "songs/wait.mp3"},//23
-            { title: "Run For Your Life      ", artist: "The Beatles    ",audio: "songs/run for your life.mp3"},//24
-            { title: "Nowhere Man      ", artist: "The Beatles    ",audio: "songs/nowhere man.mp3"},//25
-            { title: "What Goes On      ", artist: "The Beatles    ",audio: "songs/what goes on.mp3"},//26
-            { title: "Till I Collapse      ", artist: "Eminem", audio: "songs/till-i-collapse.mp3" },
-            { title: "Lose Yourself      ", artist: "Eminem", audio: "songs/lose-yourself.mp3" }
+            //Arjan Dhillon: Patandar
+            { 
+                title: "2-2 Asle     ", 
+                artist: "Arjan Dhillon   ",
+                lyrics:"2-2 Asle",        
+                artistPhoto: "covers/Arjan Dhillon.png", 
+                cover: "covers/albums/patandar_album.png", 
+                audio: "songs/albums/patandar/2 2 Asle.mp3", 
+                searchString: "2 2 asle"
+            },
+            { 
+                title: "Big Flex    ", 
+                artist: "Arjan Dhillon   ",
+                lyrics:"Big Flex",        
+                artistPhoto: "covers/Arjan Dhillon.png", 
+                cover: "covers/albums/patandar_album.png", 
+                audio: "songs/albums/patandar/Big Flex.mp3", 
+                searchString: " big flex "
+            },
+            { 
+                title: "Brats   ", 
+                artist: "Arjan Dhillon   ",
+                lyrics:"Brats",        
+                artistPhoto: "covers/Arjan Dhillon.png", 
+                cover: "covers/albums/patandar_album.png", 
+                audio: "songs/albums/patandar/Brats.mp3", 
+                searchString: " brats"
+            },
+            { 
+                title: "Greatest   ", 
+                artist: "Arjan Dhillon   ",
+                lyrics:"Greatest ",        
+                artistPhoto: "covers/Arjan Dhillon.png", 
+                cover: "covers/albums/patandar_album.png", 
+                audio: "songs/albums/patandar/Greatest.mp3", 
+                searchString: "greatest "
+            },
+            { 
+                title: "Hikka   ", 
+                artist: "Arjan Dhillon   ",
+                lyrics:"Hikka ",        
+                artistPhoto: "covers/Arjan Dhillon.png", 
+                cover: "covers/albums/patandar_album.png", 
+                audio: "songs/albums/patandar/Hikka.mp3", 
+                searchString: "Hikka "
+            },
+            { 
+                title: "Invoice    ", 
+                artist: "Arjan Dhillon   ",
+                lyrics:"Invoice ",        
+                artistPhoto: "covers/Arjan Dhillon.png", 
+                cover: "covers/albums/patandar_album.png", 
+                audio: "songs/albums/patandar/Invoice.mp3", 
+                searchString: " invoice"
+            },
+            { 
+                title: "Kini Der Baad    ", 
+                artist: "Arjan Dhillon   ",
+                lyrics:"Kini Der Baad ",        
+                artistPhoto: "covers/Arjan Dhillon.png", 
+                cover: "covers/albums/patandar_album.png", 
+                audio: "songs/albums/patandar/Kini Der Baad.mp3", 
+                searchString: "kini der baad "
+            
+            },
+            { 
+                title: "Nain    ", 
+                artist: "Arjan Dhillon   ",
+                lyrics:"Nain ",        
+                artistPhoto: "covers/Arjan Dhillon.png", 
+                cover: "covers/albums/patandar_album.png", 
+                audio: "songs/albums/patandar/Nain.mp3", 
+                searchString: " nain"
+            
+            },
+            { 
+                title: "Never Ever    ", 
+                artist: "Arjan Dhillon   ",
+                lyrics:"Never Ever ",        
+                artistPhoto: "covers/Arjan Dhillon.png", 
+                cover: "covers/albums/patandar_album.png", 
+                audio: "songs/albums/patandar/Never Ever.mp3", 
+                searchString: "Never Ever "
+            
+            },
+            { 
+                title: "Paparazzi    ", 
+                artist: "Arjan Dhillon   ",
+                lyrics:"Paparazzi ",        
+                artistPhoto: "covers/Arjan Dhillon.png", 
+                cover: "covers/albums/patandar_album.png", 
+                audio: "songs/albums/patandar/Paparazzi.mp3", 
+                searchString: "Paparazzi "
+            
+            },
+            { 
+                title: "Sher-E-Panjab    ", 
+                artist: "Arjan Dhillon   ",
+                lyrics:"Sher E Panjab ",        
+                artistPhoto: "covers/Arjan Dhillon.png", 
+                cover: "covers/albums/patandar_album.png", 
+                audio: "songs/albums/patandar/Sher E Panjab.mp3", 
+                searchString: "Sher E Panjab "
+            
+            },
+            { 
+                title: "Style    ", 
+                artist: "Arjan Dhillon   ",
+                lyrics:"Style ",        
+                artistPhoto: "covers/Arjan Dhillon.png", 
+                cover: "covers/albums/patandar_album.png", 
+                audio: "songs/albums/patandar/Style.mp3", 
+                searchString: "Style "
+            
+            },
+            { 
+                title: "Too Late    ", 
+                artist: "Arjan Dhillon   ",
+                lyrics:"Too Late ",        
+                artistPhoto: "covers/Arjan Dhillon.png", 
+                cover: "covers/albums/patandar_album.png", 
+                audio: "songs/albums/patandar/Too Late.mp3", 
+                searchString: "Too Late "
+            
+            },
+            { 
+                title: "Tu Jdo Auna    ", 
+                artist: "Arjan Dhillon   ",
+                lyrics:"Tu Jdo Auna ",        
+                artistPhoto: "covers/Arjan Dhillon.png", 
+                cover: "covers/albums/patandar_album.png", 
+                audio: "songs/albums/patandar/Tu Jdo Auna.mp3", 
+                searchString: "Tu Jdo Auna "
+            
+            },
+            { 
+                title: "Youngsters    ", 
+                artist: "Arjan Dhillon   ",
+                lyrics:"Youngsters ",        
+                artistPhoto: "covers/Arjan Dhillon.png", 
+                cover: "covers/albums/patandar_album.png", 
+                audio: "songs/albums/patandar/Youngsters.mp3", 
+                searchString: "Youngsters "
+            
+            },
+            { 
+                title: "Zigana    ", 
+                artist: "Arjan Dhillon   ",
+                lyrics:"Zigana ",        
+                artistPhoto: "covers/Arjan Dhillon.png", 
+                cover: "covers/albums/patandar_album.png", 
+                audio: "songs/albums/patandar/Zigana.mp3", 
+                searchString: "Zigana "
+            
+            }
         ]
     },
     {
