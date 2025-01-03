@@ -4,7 +4,7 @@
 let playlistsMain = [
     {
         id: 1,
-        index:0,
+        
         title: "Liked Songs",
         artist: "Various Artists",
         cover: "covers/liked playlist.png",
@@ -1399,126 +1399,210 @@ let playlistsMain = [
     },
     {
         id: 2,
-        index:1,
+        
         title: "Arijit Singh",
         artist: "Arijit Singh",
         cover: "covers/arijit singh.jpg",
         songs: [
 
-            //Karan Aujla
+     //Arijit Singh
+    
+    {
+        title: "Enna Sona      ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Enna Sona ",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/enna sona_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/mpnd1y8rfmbxudrp54sx4/Enna_Sona_Video_OK_Jaanu_Arijit_Singh_Shraddha_Kapoor_Aditya_Roy-0.mp3?rlkey=inylmp2ylo4pcfl4ql05ow8r9&st=n044qy9q&dl=1", 
+        searchString: "enna sona "
+    },
+    {
+        title: "Tenu Sang Rakhna      ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Tenu Sang Rakhna ",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/tenu sang rakhna_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/9p4bov9ek5bnlwyvhetyr/Tenu_Sang_Rakhna_-_Jigra___Alia_Bhatt___Vedang_Raina___Arijit_Singh___Achint-_Anumita___Varun-0.mp3?rlkey=ozqr0zhwddjhxy3i3oxtkehab&st=pmeg2orh&dl=1", 
+        searchString: " "
+    },
+    {
+        title: "O Bedardeya      ", 
+        artist: "Arijit Singh    ",
+        lyrics:"O Bedardeya",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/o bedardeya_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/s0bat77w3p6z1wknigz87/O_Bedardeya__Full_Video__Tu_Jhoothi_Main_Makkaar___Ranbir-_Shraddha___Pritam-Arijit_Singh-_Amitabh_B-0.mp3?rlkey=5ksankq5qjl6j04ab5732lpfu&st=p65bndiw&dl=1", 
+        searchString: "O Bedardeya"
+    },
+    {
+        title: "Kalank      ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Kalank",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/kalank_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/kqy7bi5qzq4snn7b4cx9o/Kalank__Duet_-0.mp3?rlkey=0wo653gbxtoow03921szqlg9w&st=tsnsxi1b&dl=1", 
+        searchString: "kalank "
+    },
+    {
+        title: "Kabhi Jo Badal      ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Kabhi Jo Badal ",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/kabhi jo badal_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/xibuxatxs1pziv8v7g1sk/Kabhi_Jo_Baadal_Barse__From__Jackpot_-0.mp3?rlkey=38aqpgwumsu3s7qdhalg0shkk&st=daw57id4&dl=1", 
+        searchString: " kbhi jo badal"
+    },
+    {
+        title: "Khairiyat     ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Khairiyat",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/khairiyat_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/n4y7gz2kvpqt6rknd0may/Khairiyat-0.mp3?rlkey=xew77jka5bfznonme3qfcqq64&st=ig9z07jb&dl=1", 
+        searchString: "khairiyat "
+    },
+    {
+        title: "O Maahi     ", 
+        artist: "Arijit Singh    ",
+        lyrics:"O Maahi",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/o maahi_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/knzi2qafyiorjeltoz90q/O_Maahi-0.mp3?rlkey=4q47xmwoa9erj31b9fnr2h177&st=37wptfma&dl=1", 
+        searchString: " o maahi"
+    },
+    {
+        title: "Phir Bhi Tumko Chahunga     ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Phir Bhi Tumko Chahunga",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/phir bhi tumko chahunga_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/bn5bwirdfpftkn8xpflej/Phir_Bhi_Tumko_Chaahunga-0.mp3?rlkey=ld14cxqj5jtf9o0y571coolcl&st=0unfistb&dl=1", 
+        searchString: "Phir Bhi Tumko Chahunga "
+    },
+    {
+        title: "Sajni     ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Sajni",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/sajni_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/n94beex40mkgrwtbg0gky/Sajni-0.mp3?rlkey=x7bi5k3mdsae343183jmat0ak&st=q4p2s8d4&dl=1", 
+        searchString: " sajni"
+    },
+    {
+        title: "Soch Na Sake     ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Soch Na Sake",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/soch na sake_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/isvlefxjmeqd0jk0zf6vr/Soch_Na_Sake-0.mp3?rlkey=h5khnzcnlct0yom68mb70nhpm&st=ji1fyazj&dl=1", 
+        searchString: "soch na sake "
+    },
+    {
+        title: "Tum Ho     ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Tum Ho",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/tum ho_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/nvlg2jz00def3kig5190p/Tum_Ho-0.mp3?rlkey=p2apj44pkhg3wqg5l7d2sm79q&st=pjxnmcbf&dl=1", 
+        searchString: "tum ho "
+    },
+    {
+        title: "Ve Kamleya     ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Ve Kamleya",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/ve kamleya_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/nabhbquo4cafyiyz20c7w/Ve_Kamleya_-_Lofi_Mix-0.mp3?rlkey=anjady9sonuxtfmx7xo7rout9&st=b8rlfvne&dl=1Ve Kamleya", 
+        searchString: "Ve Kamleya "
+    },
+    {
+        title: "Zaalima     ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Zaalima",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/zaalima_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/w57kjgfoyrics6vqa8rs1/Zaalima-0.mp3?rlkey=0pk3l8jltqhvx7knmlaupxknb&st=vmvl6kr3&dl=1", 
+        searchString: "Zaalima "
+    },
+    {
+        title: "Bolna     ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Bolna",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/bolna_arijit singh.png",
+        audio: "https://www.dropbox.com/scl/fi/7k7x4odjcgoss5wof18ub/Bolna-0.mp3?rlkey=00lt7r3jvb8176dwoizmi1cza&st=wdl3c9la&dl=1", 
+        searchString: "Bolna "
+    },
+    {
+        title: "Citylights     ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Citylights",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/citylights_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/gu0egqiqilejj19y9ykof/Citylights___Arijit_Singh___Rajkummar_Rao-_Patralekha___Jeet_...-0.mp3?rlkey=szx5eylwn3h6u2l3flmf4fxeh&st=kqdylhsi&dl=1", 
+        searchString: "Citylights "
+    },
+    {
+        title: "Hamari Adhuri Kahani    ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Hamari Adhuri Kahani",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/hamari adhuri kahani_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/v71jf1xikn9843nl5r0y4/Hamari_Adhuri_Kahani__Title_Track__-From__Hamari_Adhuri_Kahani_-0.mp3?rlkey=lkoxqp8tl7a3lyw2hxqzjkamn&st=1h4kuq11&dl=1", 
+        searchString: "Hamari Adhuri Kahani "
+    },
+    {
+        title: "Hawayein     ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Hawayein     ",       
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/hawayein_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/xxdblpynje7bsxxhvf16w/Hawayein-0.mp3?rlkey=0xvk8i8wiljijheqr91pqx555&st=hgb4vyeo&dl=1", 
+        searchString: "Hawayein     ", 
+    },
+    {
+        title: "Humdard     ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Humdard",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/humdard_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/86lghm1v7xvpe7ebh01f2/Humdard-0.mp3?rlkey=v7ssg5dhai69ysbfk4liswrrb&st=6lczsh1v&dl=1", 
+        searchString: "Humdard "
+    },
+    {
+        title: "Ik Vaari Aa    ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Ik Vaari Aa",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/ik vaari aa_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/yp131x8cnp5012pdbc5nw/Ik_Vaari_Aa__From__Raabta__-0.mp3?rlkey=bet55lz8g3621kw4kwqtk67or&st=iszc78p5&dl=1", 
+        searchString: "Ik Vaari Aa"
+    },
+    {
+        title: "Jalebi     ", 
+        artist: "Arijit Singh    ",
+        lyrics:"Jalebi",        
+        artistPhoto: "covers/Arijit Singh.jpg", 
+        cover: "covers/jalebi_arijit singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/ha0h17596cicx1ldylmkw/Jalebi_Arijit_Singh_Shreya_Ghoshal_Rhea___Varun_Javed_-_Mohsin-0.mp3?rlkey=rpjoqie8s2pa15ug925fmsbxf&st=kyvcvzhl&dl=1", 
+        searchString: "Jalebi "
+    },//46
     { 
-        title: "Softly      ", 
-        artist: "Karan Aujla   ",
-        lyrics:"Softly",        
-        artistPhoto: "covers/Karan Aujla.png", 
-        cover: "covers/softly_karan.png", 
-        audio: "songs/singles/softly_karan.mp3", 
-        searchString: "Victer"
-    },//65
-    { 
-        title: "On Top      ", 
-        artist: "Karan Aujla   ",
-        lyrics:"On Top",        
-        artistPhoto: "covers/Karan Aujla.png", 
-        cover: "covers/on top_karan.png", 
-        audio: "songs/singles/on top_karan.mp3", 
-        searchString: "Victer"
-    },//66
-    { 
-        title: "WYTB      ", 
-        artist: "Karan Aujla   ",
-        lyrics:"WYTB",        
-        artistPhoto: "covers/Karan Aujla.png", 
-        cover: "covers/wytb_karan.png", 
-        audio: "songs/singles/wytb_karan.mp3", 
-        searchString: "Victer"
-    },//67
-    { 
-        title: "52 Bars      ", 
-        artist: "Karan Aujla   ",
-        lyrics:"52 Bars",        
-        artistPhoto: "covers/Karan Aujla.png", 
-        cover: "covers/52 bars_karan.png", 
-        audio: "songs/singles/52 bars_karan.mp3", 
-        searchString: "Victer"
-    },//68
-    { 
-        title: "Jee Ni Lagda      ", 
-        artist: "Karan Aujla   ",
-        lyrics:"Jee Ni Lagda",        
-        artistPhoto: "covers/Karan Aujla.png", 
-        cover: "covers/jee ni lagda_karan.png", 
-        audio: "songs/singles/jee ni lagda_karan.mp3", 
-        searchString: "Victer"
-    },//69
-    { 
-        title: "Player      ", 
-        artist: "Karan Aujla, Badshah",
-        lyrics:"Player",        
-        artistPhoto: "covers/Karan Aujla.png", 
-        cover: "covers/player_karan.png", 
-        audio: "songs/singles/player_karan.mp3"
-    },//70
-    { 
-        title: "Chauffeur      ", 
-        artist: " Diljit Dosanjh     ",
-        lyrics:"Chauffeur",        
-        artistPhoto: "covers/Karan Aujla.png", 
-        cover: "covers/chauffeur_diljit.png", 
-        audio: "songs/singles/chauffeur_diljjt.mp3", 
-        searchString: "Victer"
-    },//71
-    { 
-        title: "White Brown Black      ", 
-        artist: "Karan Aujla, Avvy Sra",
-        lyrics:"White Brown Black",        
-        artistPhoto: "covers/Karan Aujla.png", 
-        cover: "covers/white brown black_karan_avvy.png", 
-        audio: "songs/singles/white brown black_karan_avvy.mp3", 
-        searchString: "Victer"
-    },//72
-    { 
-        title: "Tauba Tauba      ", 
-        artist: "Karan Aujla   ",
-        lyrics:"Tauba Tauba",        
-        artistPhoto: "covers/Karan Aujla.png", 
-        cover: "covers/tauba tauba_karan.png", 
-        audio: "songs/singles/tauba tauba_karan.mp3", 
-        searchString: "Victer"
-    },//73
-    { 
-        title: "Chitta Kurta      ", 
-        artist: "Karan Aujla   ",
-        lyrics:"Chitta Kurta",        
-        artistPhoto: "covers/Karan Aujla.png", 
-        cover: "covers/chitta kurta_karan.png", 
-        audio: "songs/singles/chitta kurta_karan.mp3", 
-        searchString: "Victer"
-    },//74
-    { 
-        title: "Mexico      ", 
-        artist: "Karan Aujla   ",
-        lyrics:"Mexico",        
-        artistPhoto: "covers/Karan Aujla.png", 
-        cover: "covers/mexico_karan.png", 
-        audio: "songs/singles/mexico_karan.mp3", 
-        searchString: "Victer"
-    },//75
-    { 
-        title: "God Damn      ", 
-        artist: "Karan Aujla   ",
-        lyrics:"God Damn",        
-        artistPhoto: "covers/Karan Aujla.png", 
-        cover: "covers/god damn_karan.png", 
-        audio: "songs/singles/god damn_karan.mp3", 
-        searchString: "Victer"
-    },//76
+        title: "Vida Karo        ", 
+        artist: "Arijit Singh,Diljjt", 
+        lyrics:"Vida Karo",        
+        artistPhoto: "covers/Diljit Dosanjh.png", 
+        cover: "covers/vida karo_diljit.png", 
+        audio: "songs/singles/vida karo_diljit.mp3", 
+        searchString: "diljit k gane diljit diljeet diljjt dil jit " 
+    }
+
     
         ]
     },
     {
         id: 3,
-        index:2,
+        
         title: "Eminem Hits",
         artist: "Eminem",  
         cover: "covers/eminem.jpg",
@@ -1708,7 +1792,7 @@ let playlistsMain = [
     
 
     {
-        id: 6,
+        id: 4,
         title: "Bhadauria    ",
         artist: "Hustinder    ",
         cover: "covers/albums/bhadauria_album.png",
@@ -1808,7 +1892,7 @@ let playlistsMain = [
     },
 
     {
-        id: 7,
+        id: 5,
         title: "Patandar    ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/patandar_album.png",
@@ -1971,8 +2055,17 @@ let playlistsMain = [
         ]
     },
     {
+        id:6,
+        title: "Sleep",
+        artist: "Varius Artists",
+        cover: "covers/sleep playlist.png",
+        songs:[
+
+        ]
+    },
+    {
         id: 7,
-        index:6,
+        
         title: "Rubber Soul",
         artist: "The Bealtes",
         cover: "covers/rubber soul.jpg",
@@ -1997,14 +2090,149 @@ let playlistsMain = [
 
     {
         id: 8,
-        index:7,
+        
         title: "Haryanvi Hits",
         artist: "Varius Artist",
         cover: "covers/Haryanvi Hits.png",
         songs: [
-            { title: "Russian Bandana      ", artist: "Dhanda Nyoliwala",audio: "songs/singles/russian bandana.mp3", cover: "covers/russian bandana.jpg"},//13
-            { title: "Illegal      ", artist: "Dhanda Nyoliwala",audio: "songs/singles/illegal dhanda.mp3", cover: "covers/illegal dhanda.jpg"},//14
-            { title: "Up To You      ", artist: "Dhanda Nyoliwala",audio: "songs/singles/up to you.mp3", cover: "covers/up to you.jpg"},//15
+            { title: "Russian Bandana      ", 
+            artist: "Dhanda Nyoliwala",
+            audio: "https://www.dropbox.com/scl/fi/evyww51ti5xn6vbi3d0ac/Dhanda_Nyoliwala_-_Russian_Bandana__Music_Video____Deepesh_Goyal___VYRL_Haryanvi-0.m4a?rlkey=60qquzcrl6jzuehe5vpoveyx9&st=c4jcxpob&dl=1",
+            cover: "covers/russian bandana.jpg"
+        },//13
+            //song3\
+    {
+        title: "Aadhi Si Raat       ", 
+        artist: "RP Singh    ",
+        lyrics:"Aadhi Si Raat",        
+        artistPhoto: "covers/RP Singh.png", 
+        cover: "covers/aadhi si raat_rp singh.png", 
+        audio: "songs/singles/aadhi si raat_rp singh.mp3", 
+        searchString: "Victer"
+    },
+            { 
+            title: "Illegal      ",
+            artist: "Dhanda Nyoliwala",
+            audio: "https://www.dropbox.com/scl/fi/xvj15vz0ixifc4fvplsf0/Illegal-128k.mp3?rlkey=ea2gbf36j036c2eroa6n12btx&st=xqwg7kbz&dl=1",
+            cover: "covers/illegal dhanda.jpg"
+        },//14
+            { 
+            title: "Up To You      ", 
+            artist: "Dhanda Nyoliwala",
+            audio: "https://www.dropbox.com/scl/fi/g93cv331z6om5kg4elizc/Up_To_U-128k.mp3?rlkey=bpkv9ohnkp64vqcwlpc0qgp6f&st=8fnv3123&dl=1", 
+            cover: "covers/up to you.jpg"
+        },//15
+            
+            {
+                title: "2 Numbari       ", 
+                artist: "Masoom Sharma    ",
+                lyrics:"2 Numbari",        
+                artistPhoto: "covers/Masoom Sharma.png", 
+                cover: "covers/2 numbari_masoom sharma.png", 
+                audio: "https://tinyurl.com/2-numbari", 
+                searchString: "2 Numbari"
+            }//song3\
+            ,//song3\
+            {
+                title: "Jaat Jatni       ", 
+                artist: "Masoom Sharma    ",
+                lyrics:"Jaat Jatni",        
+                artistPhoto: "covers/Masoom Sharma.png", 
+                cover: "covers/2 numbari_masoom sharma.png", 
+                audio: "https://tinyurl.com/jaan-jatni", 
+                searchString: "Jaat Jatni"
+            }
+            ,//song3\
+            {
+                title: "English Medium       ", 
+                artist: "Masoom Sharma    ",
+                lyrics:"English Medium",        
+                artistPhoto: "covers/Masoom Sharma.png", 
+                cover: "covers/2 numbari_masoom sharma.png", 
+                audio: "https://tinyurl.com/english-medium-masoom", 
+                searchString: "English Medium"
+            }
+            ,//song3\
+    {
+        title: "Jahaaj       ", 
+        artist: "RP Singh    ",
+        lyrics:"Jahaaj",        
+        artistPhoto: "covers/RP Singh.png", 
+        cover: "covers/jahaaj_rp singh.png", 
+        audio: "songs/singles/jahaaj_rp singh.mp3", 
+        searchString: "Victer" 
+    }
+            ,//song3\
+            {
+                title: "2 Dada       ", 
+                artist: "Masoom Sharma    ",
+                lyrics:"2 Dada",        
+                artistPhoto: "covers/Masoom Sharma.png", 
+                cover: "covers/2 numbari_masoom sharma.png", 
+                audio: "https://tinyurl.com/2-dada-masoom", 
+                searchString: "2 Dada"
+            }
+            ,//song3\
+            {
+                title: "Chambal K Daku       ", 
+                artist: "Masoom Sharma    ",
+                lyrics:"Chambal K Daku",        
+                artistPhoto: "covers/Masoom Sharma.png", 
+                cover: "covers/2 numbari_masoom sharma.png", 
+                audio: "https://tinyurl.com/chambal-k-daku", 
+                searchString: "Chambal K Daku"
+            }
+            ,//song3\
+    {
+        title: "Azad Flow       ", 
+        artist: "RP Singh    ",
+        lyrics:"Azad Flow ",        
+        artistPhoto: "covers/RP Singh.png", 
+        cover: "covers/azad flow_rp singh.png", 
+        audio: "https://www.dropbox.com/scl/fi/ashjb4pisucetsvdt4c28/Azad_Flow__Patla_Sa_Chora___Lo-Fi_-0.m4a?rlkey=hyk6ftnkj3l3obluw5igc10js&st=wnlpcoxl&dl=1", 
+        searchString: "Victer"
+    },
+    
+            ,//song3\
+            {
+                title: "Baba Ji Ki Booti       ", 
+                artist: "Masoom Sharma    ",
+                lyrics:"Baba Ji Ki Booti",        
+                artistPhoto: "covers/Masoom Sharma.png", 
+                cover: "covers/2 numbari_masoom sharma.png", 
+                audio: "https://tinyurl.com/baba-ji-ki-booti", 
+                searchString: "Baba Ji Ki Booti"
+            }
+            ,//song3\
+            {
+                title: "4-5 Pistol       ", 
+                artist: "Masoom Sharma    ",
+                lyrics:"4-5 Pistol",        
+                artistPhoto: "covers/Masoom Sharma.png", 
+                cover: "covers/2 numbari_masoom sharma.png", 
+                audio: "https://tinyurl.com/4-5-pistol", 
+                searchString: "4-5 Pistol"
+            }
+            ,//song3\
+            {
+                title: "Tempo       ", 
+                artist: "Masoom Sharma    ",
+                lyrics:"2 Numbari",        
+                artistPhoto: "covers/Masoom Sharma.png", 
+                cover: "covers/2 numbari_masoom sharma.png", 
+                audio: "https://tinyurl.com/tempo-masoom", 
+                searchString: "Tempo"
+            }
+            ,//song3\
+            {
+                title: "Bewafa Mehndi       ", 
+                artist: "Narender Bhagana   ",
+                lyrics:"Bewafa Mehndi",        
+                artistPhoto: "covers/Narender Bhagana.png", 
+                cover: "covers/2 numbari_masoom sharma.png", 
+                audio: "https://www.dropbox.com/scl/fi/enyo002xvkjkdqd0t3qhv/Bewafa-Mehndi-KoshalWorld.Com.mp3?rlkey=z24xh4zadnoywf9itxm2rc2c5&st=0q65sixk&dl=1", 
+                searchString: "Bewafa Mehndi"
+            }
             
             
         ]
