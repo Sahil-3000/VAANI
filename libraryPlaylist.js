@@ -14,7 +14,7 @@ let libraryPlaylists = [
         lyrics:"If I Needed Someone",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/if i needed someone.mp3", 
+        audio: "songs/singles/if i needed someone.mp3", 
         searchString: "Victer"
     },//13
     { 
@@ -23,7 +23,7 @@ let libraryPlaylists = [
         lyrics:"Norwegian Wood",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/norwegian wood.mp3", 
+        audio: "songs/singles/norwegian wood.mp3", 
         searchString: "Victer"
     },//14
     { 
@@ -32,7 +32,7 @@ let libraryPlaylists = [
         lyrics:"You Won't See Me",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/you won't see me.mp3", 
+        audio: "songs/singles/you won't see me.mp3", 
         searchString: "Victer"
     },//15
     { 
@@ -41,7 +41,7 @@ let libraryPlaylists = [
         lyrics:"Think For Yourself",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/think for yourself.mp3", 
+        audio: "songs/singles/think for yourself.mp3", 
         searchString: "Victer"
     },//16
     { 
@@ -50,7 +50,7 @@ let libraryPlaylists = [
         lyrics:"The Word",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/the word.mp3", 
+        audio: "songs/singles/the word.mp3", 
         searchString: "Victer"
     },//17
     { 
@@ -59,7 +59,7 @@ let libraryPlaylists = [
         lyrics:"Michelle",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/michelle.mp3", 
+        audio: "songs/singles/michelle.mp3", 
         searchString: "Victer"
     },//18
     { 
@@ -68,7 +68,7 @@ let libraryPlaylists = [
         lyrics:"Drive My Car",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/drive my car.mp3", 
+        audio: "songs/singles/drive my car.mp3", 
         searchString: "Victer"
     },//19
     { 
@@ -77,7 +77,7 @@ let libraryPlaylists = [
         lyrics:"Girl",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/girl.mp3", 
+        audio: "songs/singles/girl.mp3", 
         searchString: "Victer"
     },//20
     { 
@@ -86,7 +86,7 @@ let libraryPlaylists = [
         artistPhoto: "covers/The Beatles.png      ", 
         artist: "The Beatles    ", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/i'm looking through you.mp3", 
+        audio: "songs/singles/i'm looking through you.mp3", 
         searchString: "Victer"
     },//21
     { 
@@ -95,7 +95,7 @@ let libraryPlaylists = [
         lyrics:"In My Life",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/In My Life.mp3", 
+        audio: "songs/singles/In My Life.mp3", 
         searchString: "Victer"
     },//22
     { 
@@ -104,7 +104,7 @@ let libraryPlaylists = [
         lyrics:"Wait",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/wait.mp3", 
+        audio: "songs/singles/wait.mp3", 
         searchString: "Victer"
     },//23
     { 
@@ -113,7 +113,7 @@ let libraryPlaylists = [
         lyrics:"Run For Your Life",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/run for your life.mp3", 
+        audio: "songs/singles/run for your life.mp3", 
         searchString: "Victer"
     },//24
     { 
@@ -122,7 +122,7 @@ let libraryPlaylists = [
         lyrics:"Nowhere Man",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/nowhere man.mp3", 
+        audio: "songs/singles/nowhere man.mp3", 
         searchString: "Victer"
     },//25
     { 
@@ -131,7 +131,7 @@ let libraryPlaylists = [
         lyrics:"What Goes On",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/what goes on.mp3", 
+        audio: "songs/singles/what goes on.mp3", 
         searchString: "Victer"
     },//26
     
@@ -150,7 +150,7 @@ let libraryPlaylists = [
         lyrics: "Lover",             
         artistPhoto: "covers/Diljit Dosanjh.png",       
         cover: "covers/lover_diljit.png",      
-        audio: "songs/lover_diljit.mp3",     
+        audio: "songs/singles/lover_diljit.mp3",     
         searchString: "diljit k gane lover  love diljit lovr lvr diljit diljeet diljjt dil jit lvr"
     
     },//40
@@ -161,7 +161,7 @@ let libraryPlaylists = [
         lyrics: "Case",       
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/case_diljit.png", 
-        audio: "songs/case_diljit.mp3", 
+        audio: "songs/singles/case_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jitdosanjh doshanjh dosnjh " 
     },//41
     { 
@@ -170,7 +170,7 @@ let libraryPlaylists = [
         lyrics: "Ishq Di Baajiyaan",         
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/ishq di baajiyaan_diljit.png", 
-        audio: "songs/ishq di baajiyaan_diljit.mp3", 
+        audio: "songs/singles/ishq di baajiyaan_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit " 
     },//42
     { 
@@ -179,7 +179,7 @@ let libraryPlaylists = [
         lyrics:"Love Ya",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/lova ya_diljit.png", 
-        audio: "songs/love ya_diljit.mp3", 
+        audio: "songs/singles/love ya_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit " 
     },//43
     { 
@@ -188,7 +188,7 @@ let libraryPlaylists = [
         lyrics:"Lalkara",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/lalkara_diljit.png", 
-        audio: "songs/lalkara_diljit.mp3", 
+        audio: "songs/singles/lalkara_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit " 
     },//44
     { 
@@ -197,7 +197,7 @@ let libraryPlaylists = [
         lyrics:"Tu Kya Jaane",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/tu kya jaane_diljit.png", 
-        audio: "songs/tu kya jaane_diljit.mp3", 
+        audio: "songs/singles/tu kya jaane_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit " 
     },//45
     { 
@@ -206,7 +206,7 @@ let libraryPlaylists = [
         lyrics:"Bol Mohabbat",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/bol mohabbat_diljit.png", 
-        audio: "songs/bol mohabbat_diljit.mp3", 
+        audio: "songs/singles/bol mohabbat_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit " 
     },//46
     { 
@@ -215,7 +215,7 @@ let libraryPlaylists = [
         lyrics:"Vida Karo",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/vida karo_diljit.png", 
-        audio: "songs/vida karo_diljit.mp3", 
+        audio: "songs/singles/vida karo_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit " 
     },//47
     { 
@@ -224,7 +224,7 @@ let libraryPlaylists = [
         lyrics:"Panga",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/panga_diljit_yoyo.png", 
-        audio: "songs/panga_diljjt_yoyo.mp3", 
+        audio: "songs/singles/panga_diljjt_yoyo.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit " 
     },//48
     { 
@@ -233,7 +233,7 @@ let libraryPlaylists = [
         lyrics:"Ishq Mitaye",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/ishq mitaye_diljit.png", 
-        audio: "songs/ishq mitaye_diljit.mp3", 
+        audio: "songs/singles/ishq mitaye_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit " 
     },//49
     { 
@@ -243,7 +243,7 @@ let libraryPlaylists = [
         lyrics:"5 Tara",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/5 tara_diljit.png", 
-        audio: "songs/5 tara_diljit.mp3", 
+        audio: "songs/singles/5 tara_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit "
     },//50
     { 
@@ -252,7 +252,7 @@ let libraryPlaylists = [
         lyrics:"Do You Know",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/do you know_diljit.png", 
-        audio: "songs/do you know_diljit.mp3", 
+        audio: "songs/singles/do you know_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit "
     },//51
     { 
@@ -261,7 +261,7 @@ let libraryPlaylists = [
         lyrics:"G.O.A.T.",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/goat_diljit.png", 
-        audio: "songs/goat_diljit.mp3", 
+        audio: "songs/singles/goat_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit "
     },//52
     { 
@@ -270,7 +270,7 @@ let libraryPlaylists = [
         lyrics:"Clash",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/clash_diljit.png", 
-        audio: "songs/clash_diljit.mp3", 
+        audio: "songs/singles/clash_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit "
     },//53
     { 
@@ -279,7 +279,7 @@ let libraryPlaylists = [
         lyrics:"Muchh",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/muchh_diljit.png", 
-        audio: "songs/muchh_diljit.mp3", 
+        audio: "songs/singles/muchh_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit "
     },//54
     { 
@@ -288,7 +288,7 @@ let libraryPlaylists = [
         lyrics:"High End",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/high end_diljit.png", 
-        audio: "songs/high end_diljit.mp3", 
+        audio: "songs/singles/high end_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit "
     },//55
     { 
@@ -297,7 +297,7 @@ let libraryPlaylists = [
         lyrics:"Naram Kalja",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/naram kalja_diljit.png", 
-        audio: "songs/naram kalja_diljit.mp3", 
+        audio: "songs/singles/naram kalja_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit "
     },//56
     { 
@@ -306,7 +306,7 @@ let libraryPlaylists = [
         lyrics:"Baaja",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/bajja_diljit.png", 
-        audio: "songs/bajja_diljit.mp3", 
+        audio: "songs/singles/bajja_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit "
     },//57
     { 
@@ -315,7 +315,7 @@ let libraryPlaylists = [
         lyrics:"Muhammad Ali",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/muhammad ali_diljit.png", 
-        audio: "songs/muhammad ali_diljit.mp3", 
+        audio: "songs/singles/muhammad ali_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit "
     },//58
     { 
@@ -324,7 +324,7 @@ let libraryPlaylists = [
         lyrics:"El Sueno",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/el sueno_diljit.png", 
-        audio: "songs/el sueno_diljit.mp3", 
+        audio: "songs/singles/el sueno_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit "
     },//59
     { 
@@ -333,7 +333,7 @@ let libraryPlaylists = [
         lyrics:"Born To Shine",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/born to shine_diljit.png", 
-        audio: "songs/born to shine_diljit.mp3", 
+        audio: "songs/singles/born to shine_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit "
     },//60
     { 
@@ -342,7 +342,7 @@ let libraryPlaylists = [
         lyrics:"Peaches",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/peaches_diljit.png", 
-        audio: "songs/peaches_diljit.mp3", 
+        audio: "songs/singles/peaches_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit "
     },//61
     { 
@@ -351,7 +351,7 @@ let libraryPlaylists = [
         lyrics:"What Ve",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/what ve_diljit.png", 
-        audio: "songs/what ve_diljit.mp3", 
+        audio: "songs/singles/what ve_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit "
     },//62
     { 
@@ -360,7 +360,7 @@ let libraryPlaylists = [
         lyrics:"Hass Hass",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/hass hass_diljit.png", 
-        audio: "songs/hass hass_diljit.mp3", 
+        audio: "songs/singles/hass hass_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit "
     },//63
     { 
@@ -369,7 +369,7 @@ let libraryPlaylists = [
         lyrics:"Patiala Peg",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/patiala peg_diljit.png", 
-        audio: "songs/patiala peg_diljit.mp3", 
+        audio: "songs/singles/patiala peg_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit "
     },//64
     { 
@@ -378,7 +378,7 @@ let libraryPlaylists = [
         lyrics:"Mombattiye",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
         cover: "covers/mombattiye_diljit.png", 
-        audio: "songs/mombattiye_diljit.mp3", 
+        audio: "songs/singles/mombattiye_diljit.mp3", 
         searchString: "diljit k gane diljit diljeet diljjt dil jit "
     },//64
 
@@ -388,7 +388,7 @@ let libraryPlaylists = [
         lyrics:"Jo Tum Mere Ho",        
         artistPhoto: "covers/Anuv Jain.png", 
         cover: "covers/track1.jpg", 
-        audio: "songs/jo tum mere ho.mp3", 
+        audio: "songs/singles/jo tum mere ho.mp3", 
         searchString: "anuv jain songs anuv jain k gane anuv jain anuv jo tum mere ho"
     
     },//song1
@@ -411,7 +411,7 @@ let libraryPlaylists = [
         lyrics:"Youth Flow",        
         artistPhoto: "covers/Arjan Dhillon.png", 
         cover: "covers/Chobbar.jpg", 
-        audio: "songs/youth flow.mp3", 
+        audio: "songs/singles/youth flow.mp3", 
         searchString: "arjan songs arjan jawani song arjan"
     },//song4
     { 
@@ -420,7 +420,7 @@ let libraryPlaylists = [
         lyrics:"Glorious",        
         artistPhoto: "covers/Arjan Dhillon.png", 
         cover: "covers/Chobbar.jpg", 
-        audio: "songs/glorious.mp3", 
+        audio: "songs/singles/glorious.mp3", 
         searchString: "arjan songs glorious glowrious glorius gloris"
     },//song5
     { 
@@ -429,7 +429,7 @@ let libraryPlaylists = [
         lyrics:"Maavan",        
         artistPhoto: "covers/Arjan Dhillon.png", 
         cover: "covers/Chobbar.jpg", 
-        audio: "songs/maavan.mp3", 
+        audio: "songs/singles/maavan.mp3", 
         searchString: "arjan songs mava maanvan mava maava maa maa song arjan"
     },//song6
     { 
@@ -438,7 +438,7 @@ let libraryPlaylists = [
         lyrics:"Back To Sikhi",        
         artistPhoto: "covers/Arjan Dhillon.png", 
         cover: "covers/Chobbar.jpg", 
-        audio: "songs/back to sikhi.mp3", 
+        audio: "songs/singles/back to sikhi.mp3", 
         searchString: "arjan songs pagg back to siki sikhi sikki"
     },//song7
     { 
@@ -447,7 +447,7 @@ let libraryPlaylists = [
         lyrics:"Biography",        
         artistPhoto: "covers/Arjan Dhillon.png", 
         cover: "covers/Chobbar.jpg", 
-        audio: "songs/biography.mp3", 
+        audio: "songs/singles/biography.mp3", 
         searchString: "arjan songs bigraphy bigrafi biographi "
     },//song8
     { 
@@ -456,7 +456,7 @@ let libraryPlaylists = [
         lyrics:"Tyar",        
         artistPhoto: "covers/Arjan Dhillon.png", 
         cover: "covers/Chobbar.jpg", 
-        audio: "songs/tyar.mp3", 
+        audio: "songs/singles/tyar.mp3", 
         searchString: "arjan songs tyaar tyar ready tyar hi ni hoye"
     },//song9
     
@@ -466,7 +466,7 @@ let libraryPlaylists = [
         lyrics:"Heer",        
         artistPhoto: "covers/Arjan Dhillon.png", 
         cover: "covers/heer_arjan dhillon.png", 
-        audio: "songs/heer_arjan dhillon.mp3", 
+        audio: "songs/singles/heer_arjan dhillon.mp3", 
         searchString: "arjan songs"
     },//song9
     { 
@@ -475,7 +475,7 @@ let libraryPlaylists = [
         lyrics:"Punjab Intro",        
         artistPhoto: "covers/Arjan Dhillon.png", 
         cover: "covers/punjab intro_arjan dhillon.png", 
-        audio: "songs/punjab intro_arjan dhillon.mp3", 
+        audio: "songs/singles/punjab intro_arjan dhillon.mp3", 
         searchString: "arjan songs"
     },//song9
     
@@ -488,7 +488,7 @@ let libraryPlaylists = [
         lyrics:"Up To You",        
         artistPhoto: "covers/Dhanda Nyoliwala.png", 
         cover: "covers/up to you.jpg", 
-        audio: "songs/up to you.mp3", 
+        audio: "songs/singles/up to you.mp3", 
         searchString: "Victer"
     },//song10
     { 
@@ -497,7 +497,7 @@ let libraryPlaylists = [
         lyrics:"Russian Bandana",        
         artistPhoto: "covers/Dhanda Nyoliwala.png", 
         cover: "covers/russian bandana.jpg", 
-        audio: "songs/russian bandana.mp3", 
+        audio: "songs/singles/russian bandana.mp3", 
         searchString: "Victer"
     },//song11
     
@@ -506,7 +506,7 @@ let libraryPlaylists = [
         artist: "Faheem Abdullah,Rauhan Malik  ", 
         lyrics: "Ishq",
         cover: "covers/ishq.jpg", 
-        audio: "songs/ishq.mp3", 
+        audio: "songs/singles/ishq.mp3", 
         searchString: "Victer"
     },//song12
     
@@ -517,7 +517,7 @@ let libraryPlaylists = [
         lyrics:"If I Needed Someone",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/if i needed someone.mp3", 
+        audio: "songs/singles/if i needed someone.mp3", 
         searchString: "Victer"
     },//13
     { 
@@ -526,7 +526,7 @@ let libraryPlaylists = [
         lyrics:"Norwegian Wood",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/norwegian wood.mp3", 
+        audio: "songs/singles/norwegian wood.mp3", 
         searchString: "Victer"
     },//14
     { 
@@ -535,7 +535,7 @@ let libraryPlaylists = [
         lyrics:"You Won't See Me",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/you won't see me.mp3", 
+        audio: "songs/singles/you won't see me.mp3", 
         searchString: "Victer"
     },//15
     { 
@@ -544,7 +544,7 @@ let libraryPlaylists = [
         lyrics:"Think For Yourself",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/think for yourself.mp3", 
+        audio: "songs/singles/think for yourself.mp3", 
         searchString: "Victer"
     },//16
     { 
@@ -553,7 +553,7 @@ let libraryPlaylists = [
         lyrics:"The Word",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/the word.mp3", 
+        audio: "songs/singles/the word.mp3", 
         searchString: "Victer"
     },//17
     { 
@@ -562,7 +562,7 @@ let libraryPlaylists = [
         lyrics:"Michelle",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/michelle.mp3", 
+        audio: "songs/singles/michelle.mp3", 
         searchString: "Victer"
     },//18
     { 
@@ -571,7 +571,7 @@ let libraryPlaylists = [
         lyrics:"Drive My Car",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/drive my car.mp3", 
+        audio: "songs/singles/drive my car.mp3", 
         searchString: "Victer"
     },//19
     { 
@@ -580,7 +580,7 @@ let libraryPlaylists = [
         lyrics:"Girl",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/girl.mp3", 
+        audio: "songs/singles/girl.mp3", 
         searchString: "Victer"
     },//20
     { 
@@ -589,7 +589,7 @@ let libraryPlaylists = [
         artistPhoto: "covers/The Beatles.png      ", 
         artist: "The Beatles    ", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/i'm looking through you.mp3", 
+        audio: "songs/singles/i'm looking through you.mp3", 
         searchString: "Victer"
     },//21
     { 
@@ -598,7 +598,7 @@ let libraryPlaylists = [
         lyrics:"In My Life",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/In My Life.mp3", 
+        audio: "songs/singles/In My Life.mp3", 
         searchString: "Victer"
     },//22
     { 
@@ -607,7 +607,7 @@ let libraryPlaylists = [
         lyrics:"Wait",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/wait.mp3", 
+        audio: "songs/singles/wait.mp3", 
         searchString: "Victer"
     },//23
     { 
@@ -616,7 +616,7 @@ let libraryPlaylists = [
         lyrics:"Run For Your Life",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/run for your life.mp3", 
+        audio: "songs/singles/run for your life.mp3", 
         searchString: "Victer"
     },//24
     { 
@@ -625,7 +625,7 @@ let libraryPlaylists = [
         lyrics:"Nowhere Man",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/nowhere man.mp3", 
+        audio: "songs/singles/nowhere man.mp3", 
         searchString: "Victer"
     },//25
     { 
@@ -634,7 +634,7 @@ let libraryPlaylists = [
         lyrics:"What Goes On",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/what goes on.mp3", 
+        audio: "songs/singles/what goes on.mp3", 
         searchString: "Victer"
     },//26
     
@@ -647,7 +647,7 @@ let libraryPlaylists = [
         lyrics:"Softly",        
         artistPhoto: "covers/Karan Aujla.png", 
         cover: "covers/softly_karan.png", 
-        audio: "songs/softly_karan.mp3", 
+        audio: "songs/singles/softly_karan.mp3", 
         searchString: "Victer"
     },//65
     { 
@@ -656,7 +656,7 @@ let libraryPlaylists = [
         lyrics:"On Top",        
         artistPhoto: "covers/Karan Aujla.png", 
         cover: "covers/on top_karan.png", 
-        audio: "songs/on top_karan.mp3", 
+        audio: "songs/singles/on top_karan.mp3", 
         searchString: "Victer"
     },//66
     { 
@@ -665,7 +665,7 @@ let libraryPlaylists = [
         lyrics:"WYTB",        
         artistPhoto: "covers/Karan Aujla.png", 
         cover: "covers/wytb_karan.png", 
-        audio: "songs/wytb_karan.mp3", 
+        audio: "songs/singles/wytb_karan.mp3", 
         searchString: "Victer"
     },//67
     { 
@@ -674,7 +674,7 @@ let libraryPlaylists = [
         lyrics:"52 Bars",        
         artistPhoto: "covers/Karan Aujla.png", 
         cover: "covers/52 bars_karan.png", 
-        audio: "songs/52 bars_karan.mp3", 
+        audio: "songs/singles/52 bars_karan.mp3", 
         searchString: "Victer"
     },//68
     { 
@@ -683,7 +683,7 @@ let libraryPlaylists = [
         lyrics:"Jee Ni Lagda",        
         artistPhoto: "covers/Karan Aujla.png", 
         cover: "covers/jee ni lagda_karan.png", 
-        audio: "songs/jee ni lagda_karan.mp3", 
+        audio: "songs/singles/jee ni lagda_karan.mp3", 
         searchString: "Victer"
     },//69
     { 
@@ -692,7 +692,7 @@ let libraryPlaylists = [
         lyrics:"Player",        
         artistPhoto: "covers/Karan Aujla.png", 
         cover: "covers/player_karan.png", 
-        audio: "songs/player_karan.mp3"
+        audio: "songs/singles/player_karan.mp3"
     },//70
     { 
         title: "Chauffeur      ", 
@@ -700,7 +700,7 @@ let libraryPlaylists = [
         lyrics:"Chauffeur",        
         artistPhoto: "covers/Karan Aujla.png", 
         cover: "covers/chauffeur_diljit.png", 
-        audio: "songs/chauffeur_diljjt.mp3", 
+        audio: "songs/singles/chauffeur_diljjt.mp3", 
         searchString: "Victer"
     },//71
     { 
@@ -709,7 +709,7 @@ let libraryPlaylists = [
         lyrics:"White Brown Black",        
         artistPhoto: "covers/Karan Aujla.png", 
         cover: "covers/white brown black_karan_avvy.png", 
-        audio: "songs/white brown black_karan_avvy.mp3", 
+        audio: "songs/singles/white brown black_karan_avvy.mp3", 
         searchString: "Victer"
     },//72
     { 
@@ -718,7 +718,7 @@ let libraryPlaylists = [
         lyrics:"Tauba Tauba",        
         artistPhoto: "covers/Karan Aujla.png", 
         cover: "covers/tauba tauba_karan.png", 
-        audio: "songs/tauba tauba_karan.mp3", 
+        audio: "songs/singles/tauba tauba_karan.mp3", 
         searchString: "Victer"
     },//73
     { 
@@ -727,7 +727,7 @@ let libraryPlaylists = [
         lyrics:"Chitta Kurta",        
         artistPhoto: "covers/Karan Aujla.png", 
         cover: "covers/chitta kurta_karan.png", 
-        audio: "songs/chitta kurta_karan.mp3", 
+        audio: "songs/singles/chitta kurta_karan.mp3", 
         searchString: "Victer"
     },//74
     { 
@@ -736,7 +736,7 @@ let libraryPlaylists = [
         lyrics:"Mexico",        
         artistPhoto: "covers/Karan Aujla.png", 
         cover: "covers/mexico_karan.png", 
-        audio: "songs/mexico_karan.mp3", 
+        audio: "songs/singles/mexico_karan.mp3", 
         searchString: "Victer"
     },//75
     { 
@@ -745,7 +745,7 @@ let libraryPlaylists = [
         lyrics:"God Damn",        
         artistPhoto: "covers/Karan Aujla.png", 
         cover: "covers/god damn_karan.png", 
-        audio: "songs/god damn_karan.mp3", 
+        audio: "songs/singles/god damn_karan.mp3", 
         searchString: "Victer"
     },//76
 
@@ -756,7 +756,7 @@ let libraryPlaylists = [
         artist: "Khushi-Saini  ", 
         lyrics:"Victory Anthem", 
         cover: "covers/victory anthem.jpg", 
-        audio: "songs/victory anthem.mp3", 
+        audio: "songs/singles/victory anthem.mp3", 
         searchString: "Victer"
     },//27
     { 
@@ -764,7 +764,7 @@ let libraryPlaylists = [
         artist: "A-U-R"  , 
         lyrics:"Tu Hai Kaha", 
         cover: "covers/tu hai kaha.jpg", 
-        audio: "songs/tu hai kaha.mp3", 
+        audio: "songs/singles/tu hai kaha.mp3", 
         searchString: "Victer"
     },//28
     { 
@@ -772,7 +772,7 @@ let libraryPlaylists = [
         artist: "Preet Hundal ", 
         lyrics:"Sweater", 
         cover: "covers/sweater.jpg", 
-        audio: "songs/sweater.mp3", 
+        audio: "songs/singles/sweater.mp3", 
         searchString: "Victer"
     },//29
     { 
@@ -781,7 +781,7 @@ let libraryPlaylists = [
         lyrics:"Zindagi",        
         artistPhoto: "covers/Sabba.png", 
         cover: "covers/zindagi sabba.jpg", 
-        audio: "songs/zindagi sabba.mp3", 
+        audio: "songs/singles/zindagi sabba.mp3", 
         searchString: "sabba k gane"
     },//30
     { 
@@ -789,7 +789,7 @@ let libraryPlaylists = [
         artist: "Chandra Brar  ", 
         lyrics:"Medal", 
         cover: "covers/medal.jpg", 
-        audio: "songs/medal.mp3", 
+        audio: "songs/singles/medal.mp3", 
         searchString: "Victer"
     },//31
     { 
@@ -797,7 +797,7 @@ let libraryPlaylists = [
         artist: "Jyoti Nooran , Arjit Srivastav  ", 
         lyrics:"Ishq hoya", 
         cover: "covers/ishq hoya.jpg", 
-        audio: "songs/ishq hoya.mp3", 
+        audio: "songs/singles/ishq hoya.mp3", 
         searchString: "Victer"
     },//32
     { 
@@ -806,7 +806,7 @@ let libraryPlaylists = [
         lyrics:"Illegal",        
         artistPhoto: "covers/Dhanda Nyoliwala.png", 
         cover: "covers/illegal dhanda.jpg", 
-        audio: "songs/illegal dhanda.mp3", 
+        audio: "songs/singles/illegal dhanda.mp3", 
         searchString: "Victer"
     },//33
     { 
@@ -815,7 +815,7 @@ let libraryPlaylists = [
         lyrics:"Maada Time",        
         artistPhoto: "covers/Sabba.png", 
         cover: "covers/maada time_sabba.png", 
-        audio: "songs/maada time.mp3", 
+        audio: "songs/singles/maada time.mp3", 
         searchString: "sabba k gane"
     },//34
     { 
@@ -823,7 +823,7 @@ let libraryPlaylists = [
         artist: "Guranzar  ", 
         lyrics:"Dil Tu Jaan Tu", 
         cover: "covers/dil tu jaan tu.jpg", 
-        audio: "songs/dil tu jaan tu.mp3", 
+        audio: "songs/singles/dil tu jaan tu.mp3", 
         searchString: "Victer"
     },//35
     { 
@@ -831,7 +831,7 @@ let libraryPlaylists = [
         artist: "Khushi-Saini  ", 
         lyrics:"Victory Anthem", 
         cover: "covers/victory anthem.jpg", 
-        audio: "songs/victory anthem.mp3", 
+        audio: "songs/singles/victory anthem.mp3", 
         searchString: "Victer"
     },//36
     { 
@@ -839,7 +839,7 @@ let libraryPlaylists = [
         artist: "Harsh Bilga  ", 
         lyrics:"Tareyan Di Loh", 
         cover: "covers/tareyan di loh.jpg", 
-        audio: "songs/tareyan di loh.mp3", 
+        audio: "songs/singles/tareyan di loh.mp3", 
         searchString: "Victer"
     },//37
     { 
@@ -847,7 +847,7 @@ let libraryPlaylists = [
         artist: "Rachit Shrivatav  ", 
         lyrics:"Khidki", 
         cover: "covers/khidki.webp", 
-        audio: "songs/khidki.mp3", 
+        audio: "songs/singles/khidki.mp3", 
         searchString: "Victer"
     },//38
     { 
@@ -855,7 +855,7 @@ let libraryPlaylists = [
         artist: "A-U-R  ", 
         lyrics:"Long Time No See", 
         cover: "covers/long time no see.jpg", 
-        audio: "songs/long time no see.mp3", 
+        audio: "songs/singles/long time no see.mp3", 
         searchString: "Victer"
     },//39
     { 
@@ -864,7 +864,7 @@ let libraryPlaylists = [
         lyrics:"That Girl",        
         artistPhoto: "covers/Amrinder Gill.png", 
         cover: "covers/that girl_amrinder gill.png", 
-        audio: "songs/that girl_amrinder gill.mp3", 
+        audio: "songs/singles/that girl_amrinder gill.mp3", 
         searchString: "Victer"
     },//39
     { 
@@ -872,7 +872,7 @@ let libraryPlaylists = [
         artist: "Ammy Virk  ", 
         lyrics:"Khabbi Seat", 
         cover: "covers/khabbi seat_ammy virk.png", 
-        audio: "songs/khabbi seat_ammy virk.mp3", 
+        audio: "songs/singles/khabbi seat_ammy virk.mp3", 
         searchString: "Victer"
     },//39
     { 
@@ -880,7 +880,7 @@ let libraryPlaylists = [
         artist: "Gurnam Bhullar  ", 
         lyrics:"Ikk Number", 
         cover: "covers/ik number_gurnam bhullar.png", 
-        audio: "songs/ik number_gurnam bhullar.mp3", 
+        audio: "songs/singles/ik number_gurnam bhullar.mp3", 
         searchString: "Victer"
     },//39
     { 
@@ -888,7 +888,7 @@ let libraryPlaylists = [
         artist: "Gulab Sidhu  ", 
         lyrics:"Filter", 
         cover: "covers/filter_gulab sidhu.png", 
-        audio: "songs/filter_gulab sidhu.mp3", 
+        audio: "songs/singles/filter_gulab sidhu.mp3", 
         searchString: "Victer"
     },//39
     { 
@@ -896,7 +896,7 @@ let libraryPlaylists = [
         artist: "Harkirat Sangha   ", 
         lyrics:"Patti Ton Patiala", 
         cover: "covers/patti to patiala_harkirat sangha.png", 
-        audio: "songs/patti to patiala_harkirat sangha.mp3", 
+        audio: "songs/singles/patti to patiala_harkirat sangha.mp3", 
         searchString: "Victer"
     },//39
 
@@ -907,7 +907,7 @@ let libraryPlaylists = [
         lyrics:"Ik Mutiyaar Hundi Si",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/saadiyan gallan 3_hustinder.png", 
-        audio: "songs/ik mutiyar hundi si_hustinder.mp3", 
+        audio: "songs/singles/ik mutiyar hundi si_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -916,7 +916,7 @@ let libraryPlaylists = [
         lyrics:"Hundi Si Gareebi",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/mahol_hustinder.png", 
-        audio: "songs/hundi si gareebi_hustinder.mp3", 
+        audio: "songs/singles/hundi si gareebi_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -925,7 +925,7 @@ let libraryPlaylists = [
         lyrics:"Bhuleya Ki Ae",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/saadiyan gallan 3_hustinder.png", 
-        audio: "songs/bhuleya ki ae_hustinder.mp3", 
+        audio: "songs/singles/bhuleya ki ae_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -934,7 +934,7 @@ let libraryPlaylists = [
         lyrics:"Dollar Wargiye",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/track3.jpg", 
-        audio: "songs/dollar wargiye_hustinder.mp3", 
+        audio: "songs/singles/dollar wargiye_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -943,7 +943,7 @@ let libraryPlaylists = [
         lyrics:"Dullda Glass",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/track3.jpg", 
-        audio: "songs/dullda glass_hustinder.mp3", 
+        audio: "songs/singles/dullda glass_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -952,7 +952,7 @@ let libraryPlaylists = [
         lyrics:"Gal Koun Karda",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/sadiyan gallan 2_hustinder.png", 
-        audio: "songs/gal koun karda_hustinder.mp3", 
+        audio: "songs/singles/gal koun karda_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -961,7 +961,7 @@ let libraryPlaylists = [
         lyrics:"Gaza Patti",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/track3.jpg", 
-        audio: "songs/gaza patti_hustinder.mp3", 
+        audio: "songs/singles/gaza patti_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -970,7 +970,7 @@ let libraryPlaylists = [
         lyrics:"Gumnaam Pyaar",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers//sadiyan gallan 2_hustinder.png", 
-        audio: "songs/gumnaam pyaar_hustinder.mp3", 
+        audio: "songs/singles/gumnaam pyaar_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -979,7 +979,7 @@ let libraryPlaylists = [
         lyrics:"Hasde Hi Rehndeya",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers//sadiyan gallan 2_hustinder.png", 
-        audio: "songs/hasde hi rehndeya_hustinder.mp3", 
+        audio: "songs/singles/hasde hi rehndeya_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -988,7 +988,7 @@ let libraryPlaylists = [
         lyrics:"Hathan Utte Duniya",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/saadiyan gallan 3_hustinder.png", 
-        audio: "songs/hathan utte duniya_hustinder.mp3", 
+        audio: "songs/singles/hathan utte duniya_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -997,7 +997,7 @@ let libraryPlaylists = [
         lyrics:"Hopes",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/track3.jpg", 
-        audio: "songs/hopes_hustinder.mp3", 
+        audio: "songs/singles/hopes_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1006,7 +1006,7 @@ let libraryPlaylists = [
         lyrics:"Jethi Dhee",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/track3.jpg", 
-        audio: "songs/jethi dhee_hustinder.mp3", 
+        audio: "songs/singles/jethi dhee_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1015,7 +1015,7 @@ let libraryPlaylists = [
         lyrics:"Kharcha Kardange",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/mahol_hustinder.png", 
-        audio: "songs/kharcha kardange_hustinder.mp3", 
+        audio: "songs/singles/kharcha kardange_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1024,7 +1024,7 @@ let libraryPlaylists = [
         lyrics:"Laag Daat",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/mahol_hustinder.png", 
-        audio: "songs/laag daat_hustinder.mp3", 
+        audio: "songs/singles/laag daat_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1033,7 +1033,7 @@ let libraryPlaylists = [
         lyrics:"Maa Kehndi Hundi Si",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers//sadiyan gallan 2_hustinder.png", 
-        audio: "songs/maa kehndi hundi si_hustinder.mp3", 
+        audio: "songs/singles/maa kehndi hundi si_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1042,7 +1042,7 @@ let libraryPlaylists = [
         lyrics:"Man Ton Lehgi",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/sadiyan gallan_hustinder.png", 
-        audio: "songs/man ton lehgi_hustinder.mp3", 
+        audio: "songs/singles/man ton lehgi_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1051,7 +1051,7 @@ let libraryPlaylists = [
         lyrics:"Mittran De Circle",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/track3.jpg", 
-        audio: "songs/mittran de circle_hustinder.mp3", 
+        audio: "songs/singles/mittran de circle_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1060,7 +1060,7 @@ let libraryPlaylists = [
         lyrics:"Nachdi Ton",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/track3.jpg", 
-        audio: "songs/nachdi ton.mp3", 
+        audio: "songs/singles/nachdi ton.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1069,7 +1069,7 @@ let libraryPlaylists = [
         lyrics:"Paasport Size Tasveer",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/saadiyan gallan 3_hustinder.png", 
-        audio: "songs/passport size tasveer_hustinder.mp3", 
+        audio: "songs/singles/passport size tasveer_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1078,7 +1078,7 @@ let libraryPlaylists = [
         lyrics:"Praandi",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/mahol_hustinder.png", 
-        audio: "songs/praandi_hustinder.mp3", 
+        audio: "songs/singles/praandi_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1087,7 +1087,7 @@ let libraryPlaylists = [
         lyrics:"Pyaar Hoya",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers//sadiyan gallan 2_hustinder.png", 
-        audio: "songs/pyaar hoya_hustinder.mp3", 
+        audio: "songs/singles/pyaar hoya_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1096,7 +1096,7 @@ let libraryPlaylists = [
         lyrics:"Rabb Di Aulad",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/saadiyan gallan 3_hustinder.png", 
-        audio: "songs/rabb di aulad_hustinder.mp3", 
+        audio: "songs/singles/rabb di aulad_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1105,7 +1105,7 @@ let libraryPlaylists = [
         lyrics:"Raonak",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/mahol_hustinder.png", 
-        audio: "songs/raonak_hustinder.mp3", 
+        audio: "songs/singles/raonak_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1114,7 +1114,7 @@ let libraryPlaylists = [
         lyrics:"Rullde Firde Aan",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/saadiyan gallan 3_hustinder.png", 
-        audio: "songs/rullde firde aan_hustinder.mp3", 
+        audio: "songs/singles/rullde firde aan_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1123,7 +1123,7 @@ let libraryPlaylists = [
         lyrics:"Saade Warge",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/saadiyan gallan 3_hustinder.png", 
-        audio: "songs/saade warge_hustinder.mp3", 
+        audio: "songs/singles/saade warge_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1132,7 +1132,7 @@ let libraryPlaylists = [
         lyrics:"Surga Nu Rah",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/track3.jpg", 
-        audio: "songs/surga nu rah_hustinder.mp3", 
+        audio: "songs/singles/surga nu rah_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1141,7 +1141,7 @@ let libraryPlaylists = [
         lyrics:"Tera Mera Nata",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/track3.jpg", 
-        audio: "songs/tera mera nata_hustinder.mp3", 
+        audio: "songs/singles/tera mera nata_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1150,7 +1150,7 @@ let libraryPlaylists = [
         lyrics:"Teri Deed",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/track3.jpg", 
-        audio: "songs/teri deed_hustinder.mp3", 
+        audio: "songs/singles/teri deed_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1159,7 +1159,7 @@ let libraryPlaylists = [
         lyrics:"Tu Takkri",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/mahol_hustinder.png", 
-        audio: "songs/tu takkri_hustinder.mp3", 
+        audio: "songs/singles/tu takkri_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1177,7 +1177,7 @@ let libraryPlaylists = [
         lyrics:"Velly Yaar",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/mahol_hustinder.png", 
-        audio: "songs/velly yaar_hustinder.mp3", 
+        audio: "songs/singles/velly yaar_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1186,7 +1186,7 @@ let libraryPlaylists = [
         lyrics:"Watching You",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/track3.jpg", 
-        audio: "songs/watching you_hustinder.mp3", 
+        audio: "songs/singles/watching you_hustinder.mp3", 
         searchString: "Victer"
     },//song3
     { 
@@ -1195,7 +1195,7 @@ let libraryPlaylists = [
         lyrics:"Yari Tod Layi",        
         artistPhoto: "covers/Hustinder.png", 
         cover: "covers/sadiyan gallan_hustinder.png", 
-        audio: "songs/yari tod layi_hustinder.mp3", 
+        audio: "songs/singles/yari tod layi_hustinder.mp3", 
         searchString: "Victer"
     },//song3\
 
@@ -1208,7 +1208,7 @@ let libraryPlaylists = [
         lyrics:"Sexy",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/sexy_rp singh.png", 
-        audio: "songs/sexy_rp singh.mp3", 
+        audio: "songs/singles/sexy_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1217,7 +1217,7 @@ let libraryPlaylists = [
         lyrics:"Pencil",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/pencil_rp singh.png", 
-        audio: "songs/pencil_rp singh.mp3", 
+        audio: "songs/singles/pencil_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1226,7 +1226,7 @@ let libraryPlaylists = [
         lyrics:"Sheesha",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/sheesha_rp singh.png", 
-        audio: "songs/sheesha_rp singh.mp3", 
+        audio: "songs/singles/sheesha_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1235,7 +1235,7 @@ let libraryPlaylists = [
         lyrics:"Rap God",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/rapgod_rp singh.png", 
-        audio: "songs/rapgod_rp singh.mp3", 
+        audio: "songs/singles/rapgod_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1244,7 +1244,7 @@ let libraryPlaylists = [
         lyrics:"Mcoca",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/mcoca_rp singh.png", 
-        audio: "songs/mcoca_rp singh.mp3", 
+        audio: "songs/singles/mcoca_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1253,7 +1253,7 @@ let libraryPlaylists = [
         lyrics:"Banger",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/banger_rp singh.png", 
-        audio: "songs/banger_rp singh.mp3", 
+        audio: "songs/singles/banger_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1262,7 +1262,7 @@ let libraryPlaylists = [
         lyrics:"Bliss",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/bliss_rp singh.png", 
-        audio: "songs/bliss_rp singh.mp3", 
+        audio: "songs/singles/bliss_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1271,7 +1271,7 @@ let libraryPlaylists = [
         lyrics:"Azad Flow ",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/azad flow_rp singh.png", 
-        audio: "songs/azadFlow_rp singh.mp3", 
+        audio: "songs/singles/azadFlow_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     
@@ -1281,7 +1281,7 @@ let libraryPlaylists = [
         lyrics:"Power",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/power_rp singh.png", 
-        audio: "songs/power_rp singh.mp3", 
+        audio: "songs/singles/power_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1290,7 +1290,7 @@ let libraryPlaylists = [
         lyrics:"Meeh",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/meeh_rp singh.png", 
-        audio: "songs/meeh_rp singh.mp3", 
+        audio: "songs/singles/meeh_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1299,7 +1299,7 @@ let libraryPlaylists = [
         lyrics:"Chehre",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/chehre_rp singh.png", 
-        audio: "songs/chehre_rp singh.mp3", 
+        audio: "songs/singles/chehre_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1308,7 +1308,7 @@ let libraryPlaylists = [
         lyrics:"3 AM",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/3 am_rp singh.png", 
-        audio: "songs/3 am_rp singh.mp3", 
+        audio: "songs/singles/3 am_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1317,7 +1317,7 @@ let libraryPlaylists = [
         lyrics:"Aadhi Si Raat",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/aadhi si raat_rp singh.png", 
-        audio: "songs/aadhi si raat_rp singh.mp3", 
+        audio: "songs/singles/aadhi si raat_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1326,7 +1326,7 @@ let libraryPlaylists = [
         lyrics:"Jigre",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/jigre_rp singh.png", 
-        audio: "songs/jigre_rp singh.mp3", 
+        audio: "songs/singles/jigre_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1335,7 +1335,7 @@ let libraryPlaylists = [
         lyrics:"Look Book",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/look book_rp singh.png", 
-        audio: "songs/look book_rp singh.mp3", 
+        audio: "songs/singles/look book_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1344,7 +1344,7 @@ let libraryPlaylists = [
         lyrics:"Maal",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/maal_rp singh.png", 
-        audio: "songs/maal_rp singh.mp3", 
+        audio: "songs/singles/maal_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1353,7 +1353,7 @@ let libraryPlaylists = [
         lyrics:"  ",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/no love_rp singh.png", 
-        audio: "songs/no love_rp singh.mp3", 
+        audio: "songs/singles/no love_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1362,7 +1362,7 @@ let libraryPlaylists = [
         lyrics:"Pataka",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/pataka_rp singh.png", 
-        audio: "songs/pataka_rp singh.mp3", 
+        audio: "songs/singles/pataka_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1371,7 +1371,7 @@ let libraryPlaylists = [
         lyrics:"  ",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/sapne_rp singh.png", 
-        audio: "songs/sapne_rp singh.mp3", 
+        audio: "songs/singles/sapne_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1380,7 +1380,7 @@ let libraryPlaylists = [
         lyrics:"Tehalka",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/tehalka_rp singh.png", 
-        audio: "songs/tehalka_rp singh.mp3", 
+        audio: "songs/singles/tehalka_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1389,7 +1389,7 @@ let libraryPlaylists = [
         lyrics:"Stop RP",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/stop rp_rp singh.png", 
-        audio: "songs/stop rp_rp singh.mp3", 
+        audio: "songs/singles/stop rp_rp singh.mp3", 
         searchString: "Victer"
     },//song3
 
@@ -1399,7 +1399,7 @@ let libraryPlaylists = [
         lyrics:"Toxic",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/toxic_rp singh.png", 
-        audio: "songs/toxic_rp singh.mp3", 
+        audio: "songs/singles/toxic_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1408,7 +1408,7 @@ let libraryPlaylists = [
         lyrics:"Shiva",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/shiva_rp singh.png", 
-        audio: "songs/shiva_rp singh.mp3", 
+        audio: "songs/singles/shiva_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1417,7 +1417,7 @@ let libraryPlaylists = [
         lyrics:"Sneeze",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/sneeze_rp singh.png", 
-        audio: "songs/sneeze_rp singh.mp3", 
+        audio: "songs/singles/sneeze_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1426,7 +1426,7 @@ let libraryPlaylists = [
         lyrics:"Sarpanchi",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/sarpanchi_rp singh.png", 
-        audio: "songs/sarpanchi_rp singh.mp3", 
+        audio: "songs/singles/sarpanchi_rp singh.mp3", 
         searchString: "Victer"
     },//song3\
     {
@@ -1435,7 +1435,7 @@ let libraryPlaylists = [
         lyrics:"If You Know You Know",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/if you know you know_rp singh.png", 
-        audio: "songs/if you know you know_rp singh.mp3", 
+        audio: "songs/singles/if you know you know_rp singh.mp3", 
         searchString: "Victer" 
     },//song3\
 
@@ -1445,7 +1445,7 @@ let libraryPlaylists = [
         lyrics:"7 Birth",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/7 birth_rp singh.png", 
-        audio: "songs/7 birth_rp singh.mp3", 
+        audio: "songs/singles/7 birth_rp singh.mp3", 
         searchString: "Victer" 
     },//song3\
     {
@@ -1454,7 +1454,7 @@ let libraryPlaylists = [
         lyrics:"1857",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/1857_rp singh.png", 
-        audio: "songs/1857_rp singh.mp3", 
+        audio: "songs/singles/1857_rp singh.mp3", 
         searchString: "Victer" 
     },//song3\
     {
@@ -1463,7 +1463,7 @@ let libraryPlaylists = [
         lyrics:"Approach",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/approach_rp singh.png", 
-        audio: "songs/approach_rp singh.mp3", 
+        audio: "songs/singles/approach_rp singh.mp3", 
         searchString: "Victer" 
     },//song3\
     {
@@ -1472,7 +1472,7 @@ let libraryPlaylists = [
         lyrics:"BFF",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/bff_rp singh.png", 
-        audio: "songs/bff_rp singh.mp3", 
+        audio: "songs/singles/bff_rp singh.mp3", 
         searchString: "Victer" 
     },//song3\
     {
@@ -1481,7 +1481,7 @@ let libraryPlaylists = [
         lyrics:"Do Cheez",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/do cheez_rp singh.png", 
-        audio: "songs/do cheez_rp singh.mp3", 
+        audio: "songs/singles/do cheez_rp singh.mp3", 
         searchString: "Victer" 
     },//song3\
     {
@@ -1490,7 +1490,7 @@ let libraryPlaylists = [
         lyrics:"Famous",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/famous_rp singh.png", 
-        audio: "songs/famous_rp singh.mp3", 
+        audio: "songs/singles/famous_rp singh.mp3", 
         searchString: "Victer" 
     },//song3\
     {
@@ -1499,7 +1499,7 @@ let libraryPlaylists = [
         lyrics:"Govinda",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/govinda_rp singh.png", 
-        audio: "songs/govinda_rp singh.mp3", 
+        audio: "songs/singles/govinda_rp singh.mp3", 
         searchString: "Victer" 
     },//song3\
     {
@@ -1508,7 +1508,7 @@ let libraryPlaylists = [
         lyrics:"Jahaaj",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/jahaaj_rp singh.png", 
-        audio: "songs/jahaaj_rp singh.mp3", 
+        audio: "songs/singles/jahaaj_rp singh.mp3", 
         searchString: "Victer" 
     },//song3\
     {
@@ -1517,7 +1517,7 @@ let libraryPlaylists = [
         lyrics:"MI AMOR",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/mi amor_rp singh.png", 
-        audio: "songs/mi amor_rp singh.mp3", 
+        audio: "songs/singles/mi amor_rp singh.mp3", 
         searchString: "Victer" 
     },//song3\
     {
@@ -1526,7 +1526,7 @@ let libraryPlaylists = [
         lyrics:"Victor",        
         artistPhoto: "covers/RP Singh.png", 
         cover: "covers/victor_rp singh.png", 
-        audio: "songs/victor_rp singh.mp3", 
+        audio: "songs/singles/victor_rp singh.mp3", 
         searchString: "Victer"
     }//song3\
         ]
@@ -1537,22 +1537,22 @@ let libraryPlaylists = [
         artist: "Eminem",
         cover: "covers/workout playlist.png",
         songs: [
-            { title: "If I Needed Someone      ", artist: "The Beatles    ",audio: "songs/if i needed someone.mp3"},//13
-            { title: "Norwegian Wood      ", artist: "The Beatles    ",audio: "songs/norwegian wood.mp3"},//14
-            { title: "You Won't See Me      ", artist: "The Beatles    ",audio: "songs/you won't see me.mp3"},//15
-            { title: "Think For Yourself      ", artist: "The Beatles    ",audio: "songs/think for yourself.mp3"},//16
-            { title: "The Word      ", artist: "The Beatles    ",audio: "songs/the word.mp3"},//17
-            { title: "Michelle      ", artist: "The Beatles    ",audio: "songs/michelle.mp3"},//18
-            { title: "Drive My Car      ", artist: "The Beatles    ",audio: "songs/drive my car.mp3"},//19
-            { title: "Girl      ", artist: "The Beatles    ", audio: "songs/girl.mp3"},//20
-            { title: "I'm Looking Through You", audio: "songs/i'm looking through you.mp3"},//21
-            { title: "In My Life      ", artist: "The Beatles    ",audio: "songs/In My Life.mp3"},//22
-            { title: "Wait      ", artist: "The Beatles    ",audio: "songs/wait.mp3"},//23
-            { title: "Run For Your Life      ", artist: "The Beatles    ",audio: "songs/run for your life.mp3"},//24
-            { title: "Nowhere Man      ", artist: "The Beatles    ",audio: "songs/nowhere man.mp3"},//25
-            { title: "What Goes On      ", artist: "The Beatles    ",audio: "songs/what goes on.mp3"},//26
-            { title: "Till I Collapse      ", artist: "Eminem", audio: "songs/till-i-collapse.mp3" },
-            { title: "Lose Yourself      ", artist: "Eminem", audio: "songs/lose-yourself.mp3" }
+            { title: "If I Needed Someone      ", artist: "The Beatles    ",audio: "songs/singles/if i needed someone.mp3"},//13
+            { title: "Norwegian Wood      ", artist: "The Beatles    ",audio: "songs/singles/norwegian wood.mp3"},//14
+            { title: "You Won't See Me      ", artist: "The Beatles    ",audio: "songs/singles/you won't see me.mp3"},//15
+            { title: "Think For Yourself      ", artist: "The Beatles    ",audio: "songs/singles/think for yourself.mp3"},//16
+            { title: "The Word      ", artist: "The Beatles    ",audio: "songs/singles/the word.mp3"},//17
+            { title: "Michelle      ", artist: "The Beatles    ",audio: "songs/singles/michelle.mp3"},//18
+            { title: "Drive My Car      ", artist: "The Beatles    ",audio: "songs/singles/drive my car.mp3"},//19
+            { title: "Girl      ", artist: "The Beatles    ", audio: "songs/singles/girl.mp3"},//20
+            { title: "I'm Looking Through You", audio: "songs/singles/i'm looking through you.mp3"},//21
+            { title: "In My Life      ", artist: "The Beatles    ",audio: "songs/singles/In My Life.mp3"},//22
+            { title: "Wait      ", artist: "The Beatles    ",audio: "songs/singles/wait.mp3"},//23
+            { title: "Run For Your Life      ", artist: "The Beatles    ",audio: "songs/singles/run for your life.mp3"},//24
+            { title: "Nowhere Man      ", artist: "The Beatles    ",audio: "songs/singles/nowhere man.mp3"},//25
+            { title: "What Goes On      ", artist: "The Beatles    ",audio: "songs/singles/what goes on.mp3"},//26
+            { title: "Till I Collapse      ", artist: "Eminem", audio: "songs/singles/till-i-collapse.mp3" },
+            { title: "Lose Yourself      ", artist: "Eminem", audio: "songs/singles/lose-yourself.mp3" }
         ]
     },
     {
@@ -1561,25 +1561,25 @@ let libraryPlaylists = [
         artist: "Various Artists",
         cover: "covers/sleep playlist.png",
         songs: [
-            { title: "If I Needed Someone      ", artist: "The Beatles    ",audio: "songs/if i needed someone.mp3"},//13
-            { title: "Norwegian Wood      ", artist: "The Beatles    ",audio: "songs/norwegian wood.mp3"},//14
-            { title: "You Won't See Me      ", artist: "The Beatles    ",audio: "songs/you won't see me.mp3"},//15
-            { title: "Think For Yourself      ", artist: "The Beatles    ",audio: "songs/think for yourself.mp3"},//16
-            { title: "The Word      ", artist: "The Beatles    ",audio: "songs/the word.mp3"},//17
-            { title: "Michelle      ", artist: "The Beatles    ",audio: "songs/michelle.mp3"},//18
-            { title: "Drive My Car      ", artist: "The Beatles    ",audio: "songs/drive my car.mp3"},//19
-            { title: "Girl      ", artist: "The Beatles    ", audio: "songs/girl.mp3"},//20
-            { title: "I'm Looking Through You", audio: "songs/i'm looking through you.mp3"},//21
-            { title: "In My Life      ", artist: "The Beatles    ",audio: "songs/In My Life.mp3"},//22
-            { title: "Wait      ", artist: "The Beatles    ",audio: "songs/wait.mp3"},//23
-            { title: "Run For Your Life      ", artist: "The Beatles    ",audio: "songs/run for your life.mp3"},//24
-            { title: "Nowhere Man      ", artist: "The Beatles    ",audio: "songs/nowhere man.mp3"},//25
-            { title: "What Goes On      ", artist: "The Beatles    ",audio: "songs/what goes on.mp3"},//26
-            { title: "Everything I Wanted       ", artist: "Billie Eilish", audio: "songs/everything i wanted_billie.mp3" },
-            { title: "Ocean      ", artist: "Anuv Jain", audio: "songs/ocean_anuv jain.mp3" },
-            { title: "Male Fantasy.      ", artist: "Billie Eilish", audio: "songs/male fantasy_billie.mp3" },
-            { title: "Lovely      ", artist: "Billie Eilish", audio: "songs/lovely_billie.mp3" },
-            { title: "What Was I Made For?      ", artist: "Billie Eilish", audio: "songs/what was i made for_billie.mp3" }
+            { title: "If I Needed Someone      ", artist: "The Beatles    ",audio: "songs/singles/if i needed someone.mp3"},//13
+            { title: "Norwegian Wood      ", artist: "The Beatles    ",audio: "songs/singles/norwegian wood.mp3"},//14
+            { title: "You Won't See Me      ", artist: "The Beatles    ",audio: "songs/singles/you won't see me.mp3"},//15
+            { title: "Think For Yourself      ", artist: "The Beatles    ",audio: "songs/singles/think for yourself.mp3"},//16
+            { title: "The Word      ", artist: "The Beatles    ",audio: "songs/singles/the word.mp3"},//17
+            { title: "Michelle      ", artist: "The Beatles    ",audio: "songs/singles/michelle.mp3"},//18
+            { title: "Drive My Car      ", artist: "The Beatles    ",audio: "songs/singles/drive my car.mp3"},//19
+            { title: "Girl      ", artist: "The Beatles    ", audio: "songs/singles/girl.mp3"},//20
+            { title: "I'm Looking Through You", audio: "songs/singles/i'm looking through you.mp3"},//21
+            { title: "In My Life      ", artist: "The Beatles    ",audio: "songs/singles/In My Life.mp3"},//22
+            { title: "Wait      ", artist: "The Beatles    ",audio: "songs/singles/wait.mp3"},//23
+            { title: "Run For Your Life      ", artist: "The Beatles    ",audio: "songs/singles/run for your life.mp3"},//24
+            { title: "Nowhere Man      ", artist: "The Beatles    ",audio: "songs/singles/nowhere man.mp3"},//25
+            { title: "What Goes On      ", artist: "The Beatles    ",audio: "songs/singles/what goes on.mp3"},//26
+            { title: "Everything I Wanted       ", artist: "Billie Eilish", audio: "songs/singles/everything i wanted_billie.mp3" },
+            { title: "Ocean      ", artist: "Anuv Jain", audio: "songs/singles/ocean_anuv jain.mp3" },
+            { title: "Male Fantasy.      ", artist: "Billie Eilish", audio: "songs/singles/male fantasy_billie.mp3" },
+            { title: "Lovely      ", artist: "Billie Eilish", audio: "songs/singles/lovely_billie.mp3" },
+            { title: "What Was I Made For?      ", artist: "Billie Eilish", audio: "songs/singles/what was i made for_billie.mp3" }
         ]
     },
 
@@ -1596,7 +1596,7 @@ let libraryPlaylists = [
         lyrics:"If I Needed Someone",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/if i needed someone.mp3", 
+        audio: "songs/singles/if i needed someone.mp3", 
         searchString: "Victer"
     },//13
     { 
@@ -1605,7 +1605,7 @@ let libraryPlaylists = [
         lyrics:"Norwegian Wood",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/norwegian wood.mp3", 
+        audio: "songs/singles/norwegian wood.mp3", 
         searchString: "Victer"
     },//14
     { 
@@ -1614,7 +1614,7 @@ let libraryPlaylists = [
         lyrics:"You Won't See Me",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/you won't see me.mp3", 
+        audio: "songs/singles/you won't see me.mp3", 
         searchString: "Victer"
     },//15
     { 
@@ -1623,7 +1623,7 @@ let libraryPlaylists = [
         lyrics:"Think For Yourself",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/think for yourself.mp3", 
+        audio: "songs/singles/think for yourself.mp3", 
         searchString: "Victer"
     },//16
     { 
@@ -1632,7 +1632,7 @@ let libraryPlaylists = [
         lyrics:"The Word",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/the word.mp3", 
+        audio: "songs/singles/the word.mp3", 
         searchString: "Victer"
     },//17
     { 
@@ -1641,7 +1641,7 @@ let libraryPlaylists = [
         lyrics:"Michelle",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/michelle.mp3", 
+        audio: "songs/singles/michelle.mp3", 
         searchString: "Victer"
     },//18
     { 
@@ -1650,7 +1650,7 @@ let libraryPlaylists = [
         lyrics:"Drive My Car",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/drive my car.mp3", 
+        audio: "songs/singles/drive my car.mp3", 
         searchString: "Victer"
     },//19
     { 
@@ -1659,7 +1659,7 @@ let libraryPlaylists = [
         lyrics:"Girl",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/girl.mp3", 
+        audio: "songs/singles/girl.mp3", 
         searchString: "Victer"
     },//20
     { 
@@ -1668,7 +1668,7 @@ let libraryPlaylists = [
         artistPhoto: "covers/The Beatles.png      ", 
         artist: "The Beatles    ", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/i'm looking through you.mp3", 
+        audio: "songs/singles/i'm looking through you.mp3", 
         searchString: "Victer"
     },//21
     { 
@@ -1677,7 +1677,7 @@ let libraryPlaylists = [
         lyrics:"In My Life",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/In My Life.mp3", 
+        audio: "songs/singles/In My Life.mp3", 
         searchString: "Victer"
     },//22
     { 
@@ -1686,7 +1686,7 @@ let libraryPlaylists = [
         lyrics:"Wait",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/wait.mp3", 
+        audio: "songs/singles/wait.mp3", 
         searchString: "Victer"
     },//23
     { 
@@ -1695,7 +1695,7 @@ let libraryPlaylists = [
         lyrics:"Run For Your Life",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/run for your life.mp3", 
+        audio: "songs/singles/run for your life.mp3", 
         searchString: "Victer"
     },//24
     { 
@@ -1704,7 +1704,7 @@ let libraryPlaylists = [
         lyrics:"Nowhere Man",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/nowhere man.mp3", 
+        audio: "songs/singles/nowhere man.mp3", 
         searchString: "Victer"
     },//25
     { 
@@ -1713,7 +1713,7 @@ let libraryPlaylists = [
         lyrics:"What Goes On",        
         artistPhoto: "covers/The Beatles.png", 
         cover: "covers/rubber soul.jpg", 
-        audio: "songs/what goes on.mp3", 
+        audio: "songs/singles/what goes on.mp3", 
         searchString: "Victer"
     }//26
     
