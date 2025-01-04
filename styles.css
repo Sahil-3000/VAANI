@@ -739,6 +739,21 @@ footer.now-playing {
     object-fit: cover;
 }
 
+.modeButton{
+    display:flex;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    align-items: center;
+    object-fit: fill;
+    
+}
+.modeButton img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    object-fit: cover;
+}
 */
 .volume-control {
     display:flex;
@@ -837,10 +852,10 @@ footer.now-playing {
   /* #download-button:hover {
     background-color: #1aa34a;
   } */
-  button[data-type="download"] {
+  /* button[data-type="download"] {
     width:25px;
     height:25px;
-  }
+  } */
   
 
 
@@ -899,8 +914,8 @@ img[data-type="song-cover"]{
 
 
 button[data-type="download"] {
-    width:30px;
-    height:30px;
+    width:28px;
+    height:27px;
     /* background: #1db954; */
     background-image: url("covers/download logo.png");
     background-repeat:no-repeat;
@@ -917,6 +932,9 @@ button[data-type="download"] {
     margin-right:7px;
     /* margin-left:50px; */
 }
+
+
+
 button[data-type="play-button"]{
     width:40px;
     background: #0a8c95;
@@ -1340,6 +1358,8 @@ button[data-type="play-button"]{
 }
 .playlist-results{
     cursor:none;
+    /* margin-bottom:100px; */
+    padding-bottom:30px;
 }
 
     
@@ -1477,6 +1497,15 @@ button[data-type="play-button"]{
         outline: 2px solid rgba(255, 255, 255, 0.5); /* Subtle white border */
         border-radius: 4px; /* To match button shape */
     }
+
+    .modeButton{
+        position:fixed;
+        width:30px;
+        height:30px;
+        border-radius:50%;
+        align-items: center;
+        margin-right:10px;
+    }
  
     #download-button {
         position: fixed;
@@ -1496,9 +1525,20 @@ button[data-type="play-button"]{
     } */
      
     button[data-type="download"] {
-        width:28px;
-        height:25px;
+        width:33px;
+        height:27px;
         border-radius:50%;
+        margin-right:7px;
+        cursor:none;
+    } 
+    button[data-type="downloadLib"] {
+        width:28px;
+        height:27px;
+        border-radius:50%;
+        background-image: url("covers/download logo.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
         margin-right:7px;
         cursor:none;
     } 

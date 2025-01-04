@@ -14,8 +14,13 @@ let currentPlaylist = playlist; // Default playlist
 
 let currentTrackIndex = 0;  // Default track index
 let isPlaying = false;      // Flag to track if music is playing
+
 let audio = new Audio();    // Create a new Audio object for playback
 let currentSong;            // To store the current song being played
+
+
+
+
 
 
 // Element references for displaying track information and controls
@@ -474,7 +479,7 @@ function displayPlaylist(playList) {
 
         // Download button for each song
         const downLoad = document.createElement("button");
-        downLoad.setAttribute("data-type", "download");
+        downLoad.setAttribute("data-type", "downloadLib");
         // downLoad.textContent = "Download";
         downLoad.onclick = () => {
             // Check if there is a current song and it has an audio source
