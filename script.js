@@ -328,7 +328,6 @@ function displayResults(results) {
             songImage.src = song.cover;
             songImage.alt = song.title;
             songDiv.appendChild(songImage);
-
             const songTitle = document.createElement("p");
             songTitle.textContent = `${song.title} - ${song.artist}`;
             songDiv.appendChild(songTitle);

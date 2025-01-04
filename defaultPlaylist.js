@@ -317,6 +317,164 @@ let playlist = [
         searchString: "arjan songs tyaar tyar ready tyar hi ni hoye"
     },//song9
     
+    //Arjan Dhillon :Patandar
+ 
+    { 
+        title: "2-2 Asle     ", 
+        artist: "Arjan Dhillon   ",
+        lyrics:"2-2 Asle",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/patandar_album.png", 
+        audio: "songs/albums/patandar/2 2 Asle.mp3", 
+        searchString: "2 2 asle"
+    },
+    { 
+        title: "Big Flex    ", 
+        artist: "Arjan Dhillon   ",
+        lyrics:"Big Flex",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/patandar_album.png", 
+        audio: "songs/albums/patandar/Big Flex.mp3", 
+        searchString: " big flex "
+    },
+    { 
+        title: "Brats   ", 
+        artist: "Arjan Dhillon   ",
+        lyrics:"Brats",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/patandar_album.png", 
+        audio: "songs/albums/patandar/Brats.mp3", 
+        searchString: " brats"
+    },
+    { 
+        title: "Greatest   ", 
+        artist: "Arjan Dhillon   ",
+        lyrics:"Greatest ",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/patandar_album.png", 
+        audio: "songs/albums/patandar/Greatest.mp3", 
+        searchString: "greatest "
+    },
+    { 
+        title: "Hikka   ", 
+        artist: "Arjan Dhillon   ",
+        lyrics:"Hikka ",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/patandar_album.png", 
+        audio: "songs/albums/patandar/Hikka.mp3", 
+        searchString: "Hikka "
+    },
+    { 
+        title: "Invoice    ", 
+        artist: "Arjan Dhillon   ",
+        lyrics:"Invoice ",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/patandar_album.png", 
+        audio: "songs/albums/patandar/Invoice.mp3", 
+        searchString: " invoice"
+    },
+    { 
+        title: "Kini Der Baad    ", 
+        artist: "Arjan Dhillon   ",
+        lyrics:"Kini Der Baad ",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/patandar_album.png", 
+        audio: "songs/albums/patandar/Kini Der Baad.mp3", 
+        searchString: "kini der baad "
+    
+    },
+    { 
+        title: "Nain    ", 
+        artist: "Arjan Dhillon   ",
+        lyrics:"Nain ",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/patandar_album.png", 
+        audio: "songs/albums/patandar/Nain.mp3", 
+        searchString: " nain"
+    
+    },
+    { 
+        title: "Never Ever    ", 
+        artist: "Arjan Dhillon   ",
+        lyrics:"Never Ever ",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/patandar_album.png", 
+        audio: "songs/albums/patandar/Never Ever.mp3", 
+        searchString: "Never Ever "
+    
+    },
+    { 
+        title: "Paparazzi    ", 
+        artist: "Arjan Dhillon   ",
+        lyrics:"Paparazzi ",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/patandar_album.png", 
+        audio: "songs/albums/patandar/Paparazzi.mp3", 
+        searchString: "Paparazzi "
+    
+    },
+    { 
+        title: "Sher-E-Panjab    ", 
+        artist: "Arjan Dhillon   ",
+        lyrics:"Sher E Panjab ",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/patandar_album.png", 
+        audio: "songs/albums/patandar/Sher E Panjab.mp3", 
+        searchString: "Sher E Panjab "
+    
+    },
+    { 
+        title: "Style    ", 
+        artist: "Arjan Dhillon   ",
+        lyrics:"Style ",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/patandar_album.png", 
+        audio: "songs/albums/patandar/Style.mp3", 
+        searchString: "Style "
+    
+    },
+    { 
+        title: "Too Late    ", 
+        artist: "Arjan Dhillon   ",
+        lyrics:"Too Late ",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/patandar_album.png", 
+        audio: "songs/albums/patandar/Too Late.mp3", 
+        searchString: "Too Late "
+    
+    },
+    { 
+        title: "Tu Jdo Auna    ", 
+        artist: "Arjan Dhillon   ",
+        lyrics:"Tu Jdo Auna ",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/patandar_album.png", 
+        audio: "songs/albums/patandar/Tu Jdo Auna.mp3", 
+        searchString: "Tu Jdo Auna "
+    
+    },
+    { 
+        title: "Youngsters    ", 
+        artist: "Arjan Dhillon   ",
+        lyrics:"Youngsters ",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/patandar_album.png", 
+        audio: "songs/albums/patandar/Youngsters.mp3", 
+        searchString: "Youngsters "
+    
+    },
+    { 
+        title: "Zigana    ", 
+        artist: "Arjan Dhillon   ",
+        lyrics:"Zigana ",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/patandar_album.png", 
+        audio: "songs/albums/patandar/Zigana.mp3", 
+        searchString: "Zigana "
+    
+    },
+
+    //Arjan Dhillon : Singles
     { 
         title: "Heer      ", 
         artist: "Arjan Dhillon    ",
@@ -335,6 +493,214 @@ let playlist = [
         audio: "songs/singles/punjab intro_arjan dhillon.mp3", 
         searchString: "arjan songs"
     },//song9
+    { 
+        title: "Why Arjan      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Why Arjan",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/why arjan_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/xzyz49dv7no3ygiym02re/Why_Arjan-0.m4a?rlkey=zi743acqjia5jhy4xwufrfi2w&st=c2z92a2s&dl=1", 
+        searchString: "Why Arjan"
+    },
+    { 
+        title: "Thabba Ku Zulfan      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Thabba Ku Zulfan",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/thabba ku zulfan_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/wpss01dyk68vcpn3s2zd0/Thabba_Ku_Zulfan-0.m4a?rlkey=de0l5rge0kqbs3lsil01q2jqa&st=jthw0jzr&dl=1", 
+        searchString: "Thabba Ku Zulfan"
+    },
+    { 
+        title: "Hommie Call      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Hommie Call",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/hommie call_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/q62dl8hv511dtebcm5oyp/Hommie_Call-0.m4a?rlkey=x1gcwwnfkyik7srjvi5zcrfr8&st=5h4m9386&dl=1", 
+        searchString: "Hommie Call"
+    },
+    { 
+        title: "Ki Karde Je      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Ki Karde Je",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/ki karde je_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/o9pcrklevxv1zxr9o0kcv/Ki_Karde_Je-0.m4a?rlkey=cqz58vemdo79a430ws2lnzeej&st=eutweftw&dl=1", 
+        searchString: "Ki Karde Je"
+    },
+    { 
+        title: "Likhari      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Likhari",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/likhari_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/xd3tmxlt1h3y16uw5zuci/Likhari-0.m4a?rlkey=7b7in3pn39umg6wvlec7ezr9r&st=xs3g4l65&dl=1", 
+        searchString: "Likhari"
+    },
+    { 
+        title: "Maharani Jindan      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Maharani Jindan",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/maharani jindan_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/4puiy59lrpqdabvzommmu/Maharani_Jinda_n-0.m4a?rlkey=y8e9vr2o3wekm24qmqe0k1je5&st=o7hez6yr&dl=1", 
+        searchString: "Maharani Jindan"
+    },
+    { 
+        title: "Mandeer      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Mandeer",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/mandeer_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/n72p052zaushvqy9kwm50/Mandeer-0.m4a?rlkey=kb2xlxdv7awiw38yzqakb6uqz&st=xvmow4nq&dl=1", 
+        searchString: "Mandeer"
+    },
+    { 
+        title: "Memory Lane      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Memory Lane",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/memory lane_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/5lz3o9ogt5saygv9pclts/Memory_Lane-0.m4a?rlkey=681g37yrg6k51rkzh3ojzsi2k&st=g13rgzkt&dl=1", 
+        searchString: "Memory Lane"
+    },
+    { 
+        title: "No Debts      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"No Debts",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/no debts_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/e2oyc7cza7g2e8k5jwi0l/No_Debts-0.m4a?rlkey=p7r2pycws1wfng2lgbu16uolh&st=iifzrrrx&dl=1", 
+        searchString: "No Debts"
+    },
+    { 
+        title: "Raah Warga      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Raah Warga",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/raah warga_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/urmb7s2c3aorof0kog8t2/Raah_Warga-0.m4a?rlkey=auq6r6a3g45dh90pkghs4h91h&st=3z3k1d7q&dl=1", 
+        searchString: "Raah Warga"
+    },
+    { 
+        title: "Sher-E-Panjab      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Sher-E-Panjab",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/sher-e-panjab_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/4in6dddgvusjgo32z412z/Sher-E-Panjab-0.m4a?rlkey=k16fr1pq73u1hrnxjjblhkmkr&st=08dq8wys&dl=1", 
+        searchString: "Sher-E-Panjab"
+    },
+    { 
+        title: "Soorme Aoun Tareeka Te      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Soorme Aoun Tareeka Te",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/soorme aoun tareeka te_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/z1dimfkf6gejtpsz7llkz/Soorme_Aoun_Tareeka_Te-0.m4a?rlkey=nqz5dploa1jf356mf2hg0pj2t&st=va9jtduc&dl=1", 
+        searchString: "Soorme Aoun Tareeka Te"
+    },
+    { 
+        title: "25-25      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"25-25",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/25-25_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/ce4fct41b54bwfl32eh8z/25-25-0.m4a?rlkey=saq9cu7zl4yfwphyy27z6qhqk&st=q721stzy&dl=1", 
+        searchString: "25-25"
+    },
+    { 
+        title: "Chah Pindan Di      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Chah Pindan Di",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/chah pindan di_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/rdhke7mztaksspcgqm3l4/Chah_Pindan_Di-128k.m4a?rlkey=10pvii76rzf6r38fa93yurjps&st=jclij3pq&dl=1", 
+        searchString: "Chah Pindan Di"
+    },
+    { 
+        title: "Fantasy      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Fantasy",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/fantasy_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/4ws7rgpv13m4ooxtqabxo/Fantasy-0.m4a?rlkey=tdi5yr4l61czded7y4dptpivz&st=ttrjr6ig&dl=1", 
+        searchString: "Fantasy"
+    },
+    { 
+        title: "Fly      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Fly",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/fly_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/54bpdvbaao6a4yh59cgas/Fly-0.m4a?rlkey=g2zlydgbythxhfomi4p4ayete&st=voh65emu&dl=1", 
+        searchString: "Fly"
+    },
+    { 
+        title: "Ghar Bharte      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Ghar Bharte",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/ghar bharte_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/q6ilgqiwtujihmazl1klr/Ghar_Bharte-0.m4a?rlkey=r8ggrpz55du08e2246rpocv0u&st=zajal0yt&dl=1", 
+        searchString: "Ghar Bharte"
+    },
+    { 
+        title: "Hazur      ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Hazur",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/hazur_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/otovuan5dk7aozt51kis7/Hazur-0.m4a?rlkey=i28tuk2zow5efrkj0tcz9vvd9&st=mwcke34d&dl=1", 
+        searchString: "hazur"
+    },
+    { 
+        title: "Hidden Scars    ", 
+        artist: "Nimrat Khaira, Arjan Dhillon    ",
+        lyrics:"Hidden Scars",        
+        artistPhoto: "covers/Nimrat Khaira.png", 
+        cover: "covers/hidden scars_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/is240574acxg2asvexng0/Hidden_Scars-0.m4a?rlkey=zq0kx983iztkjs8qrtelnn5vj&st=e9lqa3tx&dl=1", 
+        searchString: "Hidden Scars"
+    },
+    { 
+        title: "Score    ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Score",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/score_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/is240574acxg2asvexng0/Hidden_Scars-0.m4a?rlkey=zq0kx983iztkjs8qrtelnn5vj&st=e9lqa3tx&dl=1", 
+        searchString: "Score"
+    },
+    {
+        title:"Bell Bottom(remix)",
+        artist:"Arjan Dhillon",
+        lyrics:"Bell Bottom(remix)",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover:"covers/bell bottom_arjan dhillon.png",
+        audio:"https://www.dropbox.com/scl/fi/m4bjbeijzrbrb2nl8ffg7/Bell-Bottom-DjPunjab.Farm.mp3?rlkey=x8zyt7agwjgup5vv9igtyegzt&st=qpndjtt1&dl=1",
+        searchString:"Bell Bottom(remix)"
+    },
+
+    { 
+        title: "Bell Bottom   ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"Bell Bottom",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/bell bottom_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/13bv253buh6mi7eh3qzzs/Bell-Bottom-KoshalWorld.Com.mp3?rlkey=4au4hgdgt65wxy6omueb1ka21&st=1suh5gjs&dl=1", 
+        searchString: "Bell Bottom"
+    },
+    // { 
+    //     title: "    ", 
+    //     artist: "Arjan Dhillon    ",
+    //     lyrics:"",        
+    //     artistPhoto: "covers/Arjan Dhillon.png", 
+    //     cover: "covers/_arjan dhillon.png", 
+    //     audio: "", 
+    //     searchString: ""
+    // },
     
     
     
@@ -494,162 +860,7 @@ let playlist = [
         audio: "songs/singles/what goes on.mp3", 
         searchString: "Victer"
     },//26
-    //Arjan Dhillon :Patandar
- 
-            { 
-                title: "2-2 Asle     ", 
-                artist: "Arjan Dhillon   ",
-                lyrics:"2-2 Asle",        
-                artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
-                audio: "songs/albums/patandar/2 2 Asle.mp3", 
-                searchString: "2 2 asle"
-            },
-            { 
-                title: "Big Flex    ", 
-                artist: "Arjan Dhillon   ",
-                lyrics:"Big Flex",        
-                artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
-                audio: "songs/albums/patandar/Big Flex.mp3", 
-                searchString: " big flex "
-            },
-            { 
-                title: "Brats   ", 
-                artist: "Arjan Dhillon   ",
-                lyrics:"Brats",        
-                artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
-                audio: "songs/albums/patandar/Brats.mp3", 
-                searchString: " brats"
-            },
-            { 
-                title: "Greatest   ", 
-                artist: "Arjan Dhillon   ",
-                lyrics:"Greatest ",        
-                artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
-                audio: "songs/albums/patandar/Greatest.mp3", 
-                searchString: "greatest "
-            },
-            { 
-                title: "Hikka   ", 
-                artist: "Arjan Dhillon   ",
-                lyrics:"Hikka ",        
-                artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
-                audio: "songs/albums/patandar/Hikka.mp3", 
-                searchString: "Hikka "
-            },
-            { 
-                title: "Invoice    ", 
-                artist: "Arjan Dhillon   ",
-                lyrics:"Invoice ",        
-                artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
-                audio: "songs/albums/patandar/Invoice.mp3", 
-                searchString: " invoice"
-            },
-            { 
-                title: "Kini Der Baad    ", 
-                artist: "Arjan Dhillon   ",
-                lyrics:"Kini Der Baad ",        
-                artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
-                audio: "songs/albums/patandar/Kini Der Baad.mp3", 
-                searchString: "kini der baad "
-            
-            },
-            { 
-                title: "Nain    ", 
-                artist: "Arjan Dhillon   ",
-                lyrics:"Nain ",        
-                artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
-                audio: "songs/albums/patandar/Nain.mp3", 
-                searchString: " nain"
-            
-            },
-            { 
-                title: "Never Ever    ", 
-                artist: "Arjan Dhillon   ",
-                lyrics:"Never Ever ",        
-                artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
-                audio: "songs/albums/patandar/Never Ever.mp3", 
-                searchString: "Never Ever "
-            
-            },
-            { 
-                title: "Paparazzi    ", 
-                artist: "Arjan Dhillon   ",
-                lyrics:"Paparazzi ",        
-                artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
-                audio: "songs/albums/patandar/Paparazzi.mp3", 
-                searchString: "Paparazzi "
-            
-            },
-            { 
-                title: "Sher-E-Panjab    ", 
-                artist: "Arjan Dhillon   ",
-                lyrics:"Sher E Panjab ",        
-                artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
-                audio: "songs/albums/patandar/Sher E Panjab.mp3", 
-                searchString: "Sher E Panjab "
-            
-            },
-            { 
-                title: "Style    ", 
-                artist: "Arjan Dhillon   ",
-                lyrics:"Style ",        
-                artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
-                audio: "songs/albums/patandar/Style.mp3", 
-                searchString: "Style "
-            
-            },
-            { 
-                title: "Too Late    ", 
-                artist: "Arjan Dhillon   ",
-                lyrics:"Too Late ",        
-                artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
-                audio: "songs/albums/patandar/Too Late.mp3", 
-                searchString: "Too Late "
-            
-            },
-            { 
-                title: "Tu Jdo Auna    ", 
-                artist: "Arjan Dhillon   ",
-                lyrics:"Tu Jdo Auna ",        
-                artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
-                audio: "songs/albums/patandar/Tu Jdo Auna.mp3", 
-                searchString: "Tu Jdo Auna "
-            
-            },
-            { 
-                title: "Youngsters    ", 
-                artist: "Arjan Dhillon   ",
-                lyrics:"Youngsters ",        
-                artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
-                audio: "songs/albums/patandar/Youngsters.mp3", 
-                searchString: "Youngsters "
-            
-            },
-            { 
-                title: "Zigana    ", 
-                artist: "Arjan Dhillon   ",
-                lyrics:"Zigana ",        
-                artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
-                audio: "songs/albums/patandar/Zigana.mp3", 
-                searchString: "Zigana "
-            
-            },
+    
  
 
     
