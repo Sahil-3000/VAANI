@@ -328,9 +328,14 @@ function displayResults(results) {
             songImage.src = song.cover;
             songImage.alt = song.title;
             songDiv.appendChild(songImage);
-            const songTitle = document.createElement("p");
-            songTitle.textContent = `${song.title} - ${song.artist}`;
-            songDiv.appendChild(songTitle);
+            const songMeta = document.createElement("div");
+            songDiv.appendChild(songMeta);
+            const songTitle = document.createElement("h3");
+            songTitle.textContent = `${song.title}`;
+            const songArtist = document.createElement("h4");
+            songArtist.textContent = `${song.artist}`;
+            songMeta.appendChild(songTitle);
+            songMeta.appendChild(songArtist);
 
             const downLoad = document.createElement("button");
             downLoad.textContent = "Download";
