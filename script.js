@@ -18,6 +18,8 @@ let isPlaying = false;      // Flag to track if music is playing
 let audio = new Audio();    // Create a new Audio object for playback
 let currentSong;            // To store the current song being played
 
+let isShuffle = false;
+let isRepeat = false;
 
 
 
@@ -868,12 +870,74 @@ homeButton.addEventListener("click", () => {
 });
 
 
+
+
+const modeButton = document.getElementById('modeButton');
+const modeImage = document.getElementById('modeImage');
+
+modeButton.addEventListener('click', () => {
+    if (isShuffle) {
+        isShuffle = false;
+        isRepeat = true;
+        modeImage.src = "cover/buttons/repeatMode.png";
+       
+    } else if (isRepeat) {
+        isRepeat = false;
+        modeImage.src = "cover/buttons/defaultMode.png";
+   
+    } else {
+        isShuffle = true;
+        modeImage.src = "cover/buttons/suffleMode.png";
+     
+    }
+});
+// function playNextTrack() {
+//     if (isRepeat) {
+//         playSong(currentPlaylist[currentTrackIndex].audio);
+//     } else if (isShuffle) {
+//         currentTrackIndex = Math.floor(Math.random() * currentPlaylist.length);
+//         playSong(currentPlaylist[currentTrackIndex].audio);
+//     } else {
+//         currentTrackIndex = (currentTrackIndex + 1) % currentPlaylist.length;
+//         playSong(currentPlaylist[currentTrackIndex].audio);
+//     }
+// }
+
+// function playPreviousTrack() {
+//     if (isRepeat) {
+//         playSong(currentPlaylist[currentTrackIndex].audio);
+//     } else if (isShuffle) {
+//         currentTrackIndex = Math.floor(Math.random() * currentPlaylist.length);
+//         playSong(currentPlaylist[currentTrackIndex].audio);
+//     } else {
+//         currentTrackIndex = (currentTrackIndex - 1 + currentPlaylist.length) % currentPlaylist.length;
+//         playSong(currentPlaylist[currentTrackIndex].audio);
+//     }
+// }
+
+function playSong(audioSrc) {
+    const audioElement = document.getElementById('audioPlayer');
+    audioElement.src = audioSrc;
+    audioElement.play();
+}
+
+
 // Function to play the next track in the playlist
 function nextTrack() {
     if (!currentPlaylist.length) return; // Handle empty playlist
+    if (isRepeat) {
+        currentTrackIndex = currentTrackIndex;
+        
+    } else if (isShuffle) {
+        currentTrackIndex = Math.floor(Math.random() * currentPlaylist.length);
+        
+    } else {
+        currentTrackIndex = (currentTrackIndex + 1) % currentPlaylist.length;
+        
+    }
 
     // Increment index and loop back to the start
-    currentTrackIndex = (currentTrackIndex + 1) % currentPlaylist.length;
+   
     loadTrack(currentTrackIndex); // Load the next track
     if(showLyrics.style.display=="block"){
         songDetails.style.display="block";
@@ -892,8 +956,17 @@ function nextTrack() {
 function prevTrack() {
     if (!currentPlaylist.length) return; // Handle empty playlist
 
+    if (isRepeat) {
+        currrentTrackIndex = currentTrackIndex;
+    } else if (isShuffle) {
+        currentTrackIndex = Math.floor(Math.random() * currentPlaylist.length);
+    
+    } else {
+        currentTrackIndex = (currentTrackIndex - 1 + currentPlaylist.length) % currentPlaylist.length;
+        
+    }
     // Decrement index and loop back to the end
-    currentTrackIndex = (currentTrackIndex - 1 + currentPlaylist.length) % currentPlaylist.length;
+    
     loadTrack(currentTrackIndex); // Load the previous track
     if(showLyrics.style.display=="block"){
         songDetails.style.display="block";
