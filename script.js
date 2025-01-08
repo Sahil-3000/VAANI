@@ -369,6 +369,7 @@ function displayResults(results) {
             playButton.textContent = "Play";
             playButton.onclick = () => {
                 audio.load();
+                // audio.play();
                 playSong(song.audio);
             }
             
@@ -429,19 +430,19 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-function nextTrack() {
-    if (currentPlaylist.length > 0) {
-        currentTrackIndex = (currentTrackIndex + 1) % currentPlaylist.length;
-        playSong(currentPlaylist[currentTrackIndex].audio);
-    }
-}
+// function nextTrack() {
+//     if (currentPlaylist.length > 0) {
+//         currentTrackIndex = (currentTrackIndex + 1) % currentPlaylist.length;
+//         playSong(currentPlaylist[currentTrackIndex].audio);
+//     }
+// }
 
-function prevTrack() {
-    if (currentPlaylist.length > 0) {
-        currentTrackIndex = (currentTrackIndex - 1 + currentPlaylist.length) % currentPlaylist.length;
-        playSong(currentPlaylist[currentTrackIndex].audio);
-    }
-}
+// function prevTrack() {
+//     if (currentPlaylist.length > 0) {
+//         currentTrackIndex = (currentTrackIndex - 1 + currentPlaylist.length) % currentPlaylist.length;
+//         playSong(currentPlaylist[currentTrackIndex].audio);
+//     }
+// }
 
 
 
@@ -919,11 +920,11 @@ modeButton.addEventListener('click', () => {
 //     }
 // }
 
-function playSong(audioSrc) {
-    const audioElement = document.getElementById('audioPlayer');
-    audioElement.src = audioSrc;
-    audioElement.play();
-}
+// function playSong(audioSrc) {
+//     const audioElement = document.getElementById('audioPlayer');
+//     audioElement.src = audioSrc;
+//     audioElement.play();
+// }
 
 
 // Function to play the next track in the playlist
