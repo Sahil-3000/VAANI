@@ -692,15 +692,15 @@ let playlist = [
         audio: "https://www.dropbox.com/scl/fi/13bv253buh6mi7eh3qzzs/Bell-Bottom-KoshalWorld.Com.mp3?rlkey=4au4hgdgt65wxy6omueb1ka21&st=1suh5gjs&dl=1", 
         searchString: "Bell Bottom"
     },
-    // { 
-    //     title: "    ", 
-    //     artist: "Arjan Dhillon    ",
-    //     lyrics:"",        
-    //     artistPhoto: "covers/Arjan Dhillon.png", 
-    //     cover: "covers/_arjan dhillon.png", 
-    //     audio: "", 
-    //     searchString: ""
-    // },
+    { 
+        title: "8950284335    ", 
+        artist: "Arjan Dhillon    ",
+        lyrics:"",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/_arjan dhillon.png", 
+        audio: "https://www.dropbox.com/scl/fi/djtd6jlfys8otdsnm0qoy/Ishq-Jeha-Ho-Gya-Afsar.mp3?rlkey=m8c2vh2w98s23qyab6vg2s7wu&st=zns5rw5r&dl=1", 
+        searchString: ""
+    },
     
     
     

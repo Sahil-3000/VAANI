@@ -343,9 +343,13 @@ function displayResults(results) {
             songArtist.textContent = `${song.artist}`;
             songMeta.appendChild(songTitle);
             songMeta.appendChild(songArtist);
+            
+            
+            
 
             const downLoad = document.createElement("button");
             downLoad.textContent = "Download";
+
             downLoad.onclick = () => {
                 // Check if there is a current song and it has an audio source
                 if (song && song.audio) {
@@ -879,15 +883,15 @@ modeButton.addEventListener('click', () => {
     if (isShuffle) {
         isShuffle = false;
         isRepeat = true;
-        modeImage.src = "cover/buttons/repeatMode.png";
+        modeImage.src = "covers/buttons/repeatMode.png";
        
     } else if (isRepeat) {
         isRepeat = false;
-        modeImage.src = "cover/buttons/defaultMode.png";
+        modeImage.src = "covers/buttons/defaultMode.png";
    
     } else {
         isShuffle = true;
-        modeImage.src = "cover/buttons/suffleMode.png";
+        modeImage.src = "covers/buttons/suffleMode.png";
      
     }
 });
@@ -927,18 +931,21 @@ function nextTrack() {
     if (!currentPlaylist.length) return; // Handle empty playlist
     if (isRepeat) {
         currentTrackIndex = currentTrackIndex;
+        loadTrack(currentTrackIndex); // Load the next track
         
     } else if (isShuffle) {
         currentTrackIndex = Math.floor(Math.random() * currentPlaylist.length);
+        loadTrack(currentTrackIndex); // Load the next track
         
     } else {
         currentTrackIndex = (currentTrackIndex + 1) % currentPlaylist.length;
+        loadTrack(currentTrackIndex); // Load the next track
         
     }
 
     // Increment index and loop back to the start
    
-    loadTrack(currentTrackIndex); // Load the next track
+    
     if(showLyrics.style.display=="block"){
         songDetails.style.display="block";
     }
@@ -946,7 +953,8 @@ function nextTrack() {
         songDetails.style.display="none";
     }
     // audio.play();  
-    playSong(currentSong.audio);
+    // playSong(currentSong.audio);
+    audio.play();
     playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';  // Update icon
    
     isPlaying = true;
