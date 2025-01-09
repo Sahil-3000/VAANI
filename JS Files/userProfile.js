@@ -1,23 +1,25 @@
-// Get the form and button elements
-const songForm = document.getElementById('songForm');
-const submitButton = document.getElementById('submitButton');
+document.addEventListener('DOMContentLoaded', function () {
+    // Edit Profile Button
+    const editProfileButton = document.querySelector('.edit-profile-button');
+    editProfileButton.addEventListener('click', function () {
+        alert("Profile Edit functionality is not implemented yet.");
+    });
 
-// Add an event listener for the submit button
-submitButton.addEventListener('click', function () {
-    // Create an object with the song details
-    const songDetails = {
-        title: document.getElementById('title').value,
-        artist: document.getElementById('artist').value,
-        lyrics: document.getElementById('lyrics').value,
-        artistPhoto: document.getElementById('artistPhoto').files[0]?.name || "No file uploaded",
-        cover: document.getElementById('cover').files[0]?.name || "No file uploaded",
-        audio: document.getElementById('audio').value,
-        searchString: document.getElementById('searchString').value,
-    };
+    // Upload New Song Button
+    const uploadButton = document.querySelector('.upload-button');
+    uploadButton.addEventListener('click', function () {
+        alert("Upload Song functionality is not implemented yet.");
+    });
 
-    // Log the details to the console
-    console.log("Song Details Submitted:", songDetails);
+    // Play the music when clicked
+    const audioElement = document.querySelector('audio');
+    const coverArt = document.querySelector('.cover-art');
 
-    // Simulate a successful form submission (e.g., display a message or send to server)
-    alert("Song details have been submitted successfully!");
+    coverArt.addEventListener('click', function () {
+        if (audioElement.paused) {
+            audioElement.play();
+        } else {
+            audioElement.pause();
+        }
+    });
 });

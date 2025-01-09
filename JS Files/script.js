@@ -487,6 +487,7 @@ function displayPlaylist(playList) {
         // Download button for each song
         const downLoad = document.createElement("button");
         downLoad.setAttribute("data-type", "downloadLib");
+        downLoad.style.backgroundImage = 'url("covers/icons/download logo.png")';
         // downLoad.textContent = "Download";
         downLoad.onclick = () => {
             // Check if there is a current song and it has an audio source
@@ -769,7 +770,7 @@ function displayMainPlaylist(playList) {
         // Download button for each song
         const downLoad = document.createElement("button");
         downLoad.setAttribute("data-type", "download");
-        // downLoad.backgroundImage = url("covers/download logo.png");
+        downLoad.style.backgroundImage = 'url("covers/icons/download logo.png")';
         downLoad.onclick = () => {
             // Check if there is a current song and it has an audio source
             if (song && song.audio) {
@@ -1067,7 +1068,7 @@ function loadTrack(trackIndex) {
 
     
     // Load lyrics if available for the track
-    loadLyrics(track.lyrics, track.artist);
+    loadLyrics(track.lyrics, track.artist);               
 
     // Set the current song for the download button
     setCurrentSong(track);
@@ -1075,12 +1076,12 @@ function loadTrack(trackIndex) {
 
     updateMediaMetadata(track);
     
-}
+} 
 
 
 //user profile section
 
 const userProfile = document.querySelector(".user-profile");
 userProfile.addEventListener("click",()=>{
-    window.location.href = "HTML Files/profile.html";
+    window.location.href = "userProfile.html";
 });

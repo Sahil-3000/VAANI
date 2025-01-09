@@ -160,8 +160,8 @@ body {
 }
 
 .song-results img {
-    width: 30.79%;
-    height: 190px;
+    width: 26.79%;
+    height: 210px;
     object-fit:fill;
     border-radius: 5px;
     margin-left:5%;
@@ -880,7 +880,7 @@ footer.now-playing {
   }
   #download-button {
     /* background-color: #1db954; */
-    background-image: url("covers/download logo.png");
+    background-image: url("covers/icons/download logo.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -893,15 +893,15 @@ footer.now-playing {
     cursor: pointer;
     /* transition: background-color 0.3s ease; */
   }
-  /* #download-button img{
-    width:34px;
-    height:34px;
+  #download-button img{
+    width:35px;
+    height:35px;
     object-fit: cover;
-  } */
+  }
   
-  /* #download-button:hover {
+  #download-button:hover {
     background-color: #1aa34a;
-  } */
+  }
   /* button[data-type="download"] {
     width:25px;
     height:25px;
@@ -965,9 +965,9 @@ img[data-type="song-cover"]{
 
 button[data-type="download"] {
     width:28px;
-    height:27px;
+    height:28px;
     /* background: #1db954; */
-    background-image: url("covers/download logo.png");
+    background-image: url("covers/icons/download logo.png");
     background-repeat:no-repeat;
     background-position:center;
     background-size: cover;
@@ -982,18 +982,33 @@ button[data-type="download"] {
     margin-right:7px;
     /* margin-left:50px; */
 }
+button[data-type="download"] img{
+    border-radius: 50%;
+    width:28px;
+    height:28px;
+    object-fit: cover;
+}
+
+
 
 button[data-type="downloadLib"] {
     width:28px;
     height:28px;
     border-radius:50%;
-    background-image: url("covers/download logo.png");
+    background-image: url("covers/icons/download logo.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
+    color:white;
     margin-right:7px;
     cursor:none;
 }
+button[data-type="downloadLib"] img{
+    width:28px;
+    height:28px;
+    object-fit: cover;
+}
+
 
 
 
@@ -1642,7 +1657,7 @@ button[data-type="play-button"]{
  
     #download-button {
         position: fixed;
-        background-image: url("covers/download logo.png");
+        background-image: url("covers/icons/download logo.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -1653,28 +1668,40 @@ button[data-type="play-button"]{
         bottom: 33px;
         border-radius: 50%;
     }
-    /* #download-button img{
+    #download-button img{
         border-radius:50%;
-    } */
+        width: 18px;
+        height: 18px;
+    } 
      
-    button[data-type="download"] {
+    /* button[data-type="download"] {
         width:33px;
         height:27px;
         border-radius:50%;
+        background-image: url("covers/icons/download logo.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
         margin-right:7px;
         cursor:none;
-    } 
+    }  */
     button[data-type="downloadLib"] {
         width:28px;
         height:27px;
         border-radius:50%;
-        background-image: url("covers/download logo.png");
+        background-image: url("covers/icons/download logo.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
         margin-right:7px;
         cursor:none;
     } 
+    button[data-type="downloadLib"] img{
+        width:28px;
+        height:27px;
+        object-fit: cover;
+    }
+
 
     .volume-control {
         width: 20%;

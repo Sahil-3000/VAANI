@@ -2151,4 +2151,6 @@ let playlist = [
 ];
 
 
+//
+// window.playlist = playlist; // Default to the original playlist if nothing is stored
 module.exports = { playlist };
