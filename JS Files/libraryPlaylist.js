@@ -1724,7 +1724,7 @@ let libraryPlaylists = [
         id: 6,
         title: "Bhadauria    ",
         artist: "Hustinder    ",
-        cover: "covers/albums/bhadauria_album.png",
+        cover: "covers/albums/hustinder/bhadauria_album.png",
         songs: [
             //The Beatles-Rubber Soul
     { 
@@ -1732,7 +1732,7 @@ let libraryPlaylists = [
         artist: "Hustinder    ",
         lyrics:"Fella's Forever",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/fellas forever.mp3", 
         searchString: "fellas forever"
     },//13
@@ -1741,7 +1741,7 @@ let libraryPlaylists = [
         artist: "Husinder    ",
         lyrics:"Queen's Gambit",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/queen s gambit.mp3", 
         searchString: "queen's gambit"
     },//14
@@ -1750,7 +1750,7 @@ let libraryPlaylists = [
         artist: "Husinder    ",
         lyrics:"Don't You Dare",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/don t you dare.mp3", 
         searchString: "don't you dare"
     },//15
@@ -1759,7 +1759,7 @@ let libraryPlaylists = [
         artist: "Husinder    ",
         lyrics:"Mittra'n De Dere",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/mittran de dere.mp3", 
         searchString: "mitran de dere"
     },//16
@@ -1768,7 +1768,7 @@ let libraryPlaylists = [
         artist: "Husinder    ",
         lyrics:"Step Bhull Gyi",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/step bhull gyi.mp3", 
         searchString: "step bhull gyi"
     },//17
@@ -1777,7 +1777,7 @@ let libraryPlaylists = [
         artist: "Husinder    ",
         lyrics:"White Money ",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/white money.mp3", 
         searchString: "white money"
     },//18
@@ -1786,7 +1786,7 @@ let libraryPlaylists = [
         artist: "Husinder    ",
         lyrics:"We Living It ",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/we living it.mp3", 
         searchString: "we living it"
     },//19
@@ -1795,7 +1795,7 @@ let libraryPlaylists = [
         artist: "Husinder    ",
         lyrics:"Kdo'n Nachana",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/kdon nachana.mp3", 
         searchString: "kdo nachna"
     },//20
@@ -1804,7 +1804,7 @@ let libraryPlaylists = [
         artist: "Husinder    ",
         lyrics:"Move Your Car ",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/move your car.mp3", 
         searchString: "move your car"
     },//21
@@ -1813,7 +1813,7 @@ let libraryPlaylists = [
         artist: "Husinder    ",
         lyrics:"Bhadauria  ",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/bhadauria.mp3", 
         searchString: "bhadauria"
     }
@@ -1983,4 +1983,456 @@ let libraryPlaylists = [
             }
         ]
     }
+    ,
+
+    {
+        id: 8,
+        title: "A For Arjan    ",
+        artist: "Arjan Dhillon    ",
+        cover: "covers/albums/arjan/a for arjan_album.png",
+        songs: [
+            
+                //Arjan Dhillon : A For Arjan
+    { 
+        title: "Tere Baad    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Tere Baad",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/a for arjan_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/295tsv9017yovnt1satc6/Tere-Baad-Arjan-Dhillon.mp3?rlkey=d404hkrf0p62rq2tizj7qhzkh&st=bx1qgbzg&dl=1", 
+        searchString: "a for arjan "
+    },
+    { 
+        title: "Sanu Teri Lod    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Sanu Teri Lod",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/a for arjan_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/3ap3e3y0g2xbqmpncygjf/Sanu-Teri-Lod-Arjan-Dhillon.mp3?rlkey=3hzk6hgxb6q19w60n5mfq6qzo&st=641m8rde&dl=1", 
+        searchString: "a for arjan "
+    },
+    { 
+        title: "Please    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Please",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/a for arjan_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/nx39qhpm9rk1vrvasuzzk/Reshmi-Rumal-Arjan-Dhillon.mp3?rlkey=xfg46o2euv7cs0kpdh8pqo6vo&st=a5xtqtin&dl=1", 
+        searchString: "a for arjan "
+    },
+    { 
+        title: "Ohi Lagdi Aa    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Ohi Lagdi Aa",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/a for arjan_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/ypnn8ogboca4n21zv4nwq/Ohi-Lagdi-Aa-Arjan-Dhillon.mp3?rlkey=mif3q6pukh53r7mr8e3fyn2fq&st=xpc2budz&dl=1", 
+        searchString: " a for arjan"
+    },
+    { 
+        title: "More Beautiful    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"More Beautiful",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/a for arjan_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/wp412tzh85rodvc086ke8/More-Beautiful-Arjan-Dhillon.mp3?rlkey=3oukqp91rcmafgvplgjbn8hb8&st=rshebb9m&dl=1", 
+        searchString: "a for arjan "
+    },
+    { 
+        title: "    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/a for arjan_album.png", 
+        audio: "", 
+        searchString: "a for arjan "
+    },
+    { 
+        title: "Mili Mili    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Mili Mili",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/a for arjan_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/fa6biyqz5qgrbwc2bm9qu/Mili-Mili-Arjan-Dhillon.mp3?rlkey=ze8t90iwy7oshbt5ws69qhims&st=ilncp21k&dl=1", 
+        searchString: "a for arjan "
+    },
+    { 
+        title: "Milde    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Milde",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/a for arjan_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/dj4wc3zbhyeloyr6zj37j/Milde-Arjan-Dhillon.mp3?rlkey=jiwx3jibkywltei38gsc3i38a&st=knhd2tjz&dl=1", 
+        searchString: "a for arjan "
+    },
+    { 
+        title: "Hurry Up    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Hurry Up",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/a for arjan_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/gcdyyusopyn52urwp9xau/Hurry-Up-Arjan-Dhillon.mp3?rlkey=i85j7mrushwuhkut9nxzud4e4&st=nzdsceh7&dl=1", 
+        searchString: " a for arjan"
+    },
+    { 
+        title: "High    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"High",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/a for arjan_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/ni3kudtv4gs2jgct5kn2l/High-Arjan-Dhillon.mp3?rlkey=uqsrho0kj0zcmls9jqcgq390h&st=lufo82d3&dl=1", 
+        searchString: " a for arjan"
+    },
+
+    { 
+        title: "Heer    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Heer",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/a for arjan_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/xk3artjz3nxc5zjeg31sm/Heer__feat._Mxrci_-0.m4a?rlkey=obu0ynt98abj6tflhc68geqev&st=do6ifc9p&dl=1", 
+        searchString: " a for arjan"
+    },
+
+    { 
+        title: "Don    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Don",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/a for arjan_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/dl5ciihbqr8ox2vyyzwkx/Don-039-t-Mind-Arjan-Dhillon.mp3?rlkey=jo9y4fawog688zi59w91qf3t3&st=acrxi3uh&dl=1", 
+        searchString: " a for arjan"
+    },
+
+    { 
+        title: "Dil Toot Jayega    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Dil Toot Jayega",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/a for arjan_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/2wuk8ctuvrli1styw7di3/Dil-Toot-Jayega-Arjan-Dhillon.mp3?rlkey=4y8jax1ir8k6q0n1jc11azsx3&st=dh6hfiz1&dl=1", 
+        searchString: " a for arjan"
+    }
+
+            
+                
+        ]
+    }
+    ,
+
+    {
+        id: 9,
+        title: "The Future   ",
+        artist: "Arjan Dhillon    ",
+        cover: "covers/albums/arjan/the future_album.png",
+        songs: [
+             //Arjan Dhillon : The Future
+    
+    { 
+        title: "Tape    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Tape",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/the future_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/ls38rvybvrga7ls5gkiyp/Tape-Arjan-Dhillon.mp3?rlkey=1gh1b89g6vplfjo4gbbn934rw&st=trt2bgpz&dl=1", 
+        searchString: "the future "
+    },
+    { 
+        title: "Kath    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Kath",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/the future_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/29uowbp2p9yq5s0tnlt5f/Kath-Arjan-Dhillon.mp3?rlkey=7exwg828rflur8e6y9trr4yby&st=8ma5evyo&dl=1", 
+        searchString: "the future "
+    },
+    { 
+        title: "Jatt Disde    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Jatt Disde",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/the future_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/gruxnithyipeo43ylchll/Jatt-Disde-Arjan-Dhillon.mp3?rlkey=n0wuukcirknmbfedjqzememla&st=yv3y4x7o&dl=1", 
+        searchString: "the future "
+    },
+    { 
+        title: "Daaru Sasti    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Daaru Sasti",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/the future_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/jufl1im19c6k0co2ub7no/Daaru-Sasti-Arjan-Dhillon.mp3?rlkey=ytz56ujhno8spqot9lxi9mpia&st=idm8ihvq&dl=1", 
+        searchString: " the future"
+    },
+    { 
+        title: "Badmashi    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Badmashi",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/the future_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/w3iou5fljiux5w43s0mrt/Badmashi-Arjan-Dhillon.mp3?rlkey=5dud6una518wc13n6oiz57zn4&st=dzifxmjl&dl=1", 
+        searchString: " "
+    }
+                
+        ]
+    }
+    ,
+
+    {
+        id: 10,
+        title: "Jalwa    ",
+        artist: "Arjan Dhillon    ",
+        cover: "covers/albums/arjan/jalwa_album.png",
+        songs: [
+              //Arjan Dhillon : Jalwa
+
+    { 
+        title: "Tha Karke    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Tha Karke",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/jalwa_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/6sumlczty0dbfvt3lwof5/Tha-Karke-Arjan-Dhillon.mp3?rlkey=59ruy6ej5c6hzz2caqka00o8v&st=m2xw17v3&dl=1", 
+        searchString: "jalwa "
+    },
+    { 
+        title: "Rafal    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Rafal",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/jalwa_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/xz6xo3amepjxgub1mxduj/Rafal-Arjan-Dhillon.mp3?rlkey=azg3mw4h4mp2ezlmwlj62h47l&st=a01fpxms&dl=1", 
+        searchString: " jalwa"
+    },
+    { 
+        title: "Munde Pindan De    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Munde Pindan De",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/jalwa_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/nlfjep8qmf2mhgliaape7/Munde-Pindan-De-Arjan-Dhillon.mp3?rlkey=eb6e0wz371yy4jkk1wis4dik9&st=ulvwwhmr&dl=1", 
+        searchString: "jalwa "
+    },
+    { 
+        title: "Memory Lane    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Memory Lane",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/jalwa_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/5lz3o9ogt5saygv9pclts/Memory_Lane-0.m4a?rlkey=681g37yrg6k51rkzh3ojzsi2k&st=t76y864o&dl=1", 
+        searchString: "jalwa "
+    },
+    { 
+        title: "Maharani Jindan    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Maharani Jindan",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/jalwa_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/4puiy59lrpqdabvzommmu/Maharani_Jinda_n-0.m4a?rlkey=y8e9vr2o3wekm24qmqe0k1je5&st=xkq5r8jy&dl=1", 
+        searchString: "jalwa "
+    },
+    { 
+        title: "Janu Janu    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Janu Janu",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/jalwa_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/w1wterh97h6yz1bqtnj2w/Janu-Janu-Arjan-Dhillon.mp3?rlkey=n1kfolv6mlbr2ptwi15tfxot0&st=aiudtlbt&dl=1", 
+        searchString: "jalwa "
+    },
+    { 
+        title: "It's My Time    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"It's My Time",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/jalwa_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/jf7j3j3hkg9wptojtvbgq/It-039-s-My-Time-Arjan-Dhillon.mp3?rlkey=n5ghmbcuzumgtixwhw32sdi3y&st=fo5bit7f&dl=1", 
+        searchString: "jalwa "
+    },
+    { 
+        title: "Hommie Call    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Hommie Call",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/jalwa_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/q62dl8hv511dtebcm5oyp/Hommie_Call-0.m4a?rlkey=x1gcwwnfkyik7srjvi5zcrfr8&st=s16g4ykl&dl=1", 
+        searchString: " "
+    },
+    { 
+        title: "Hazur    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Hazur",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/jalwa_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/otovuan5dk7aozt51kis7/Hazur-0.m4a?rlkey=i28tuk2zow5efrkj0tcz9vvd9&st=92o5d3au&dl=1", 
+        searchString: "jalwa "
+    },
+    { 
+        title: "Fantasy    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Fantasy",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/jalwa_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/4ws7rgpv13m4ooxtqabxo/Fantasy-0.m4a?rlkey=tdi5yr4l61czded7y4dptpivz&st=u6s5yc5d&dl=1", 
+        searchString: "jalwa "
+    },
+    // { 
+    //     title: "    ",
+    //     artist: "Arjan Dhillon    ",
+    //     lyrics:"",        
+    //     artistPhoto: "covers/Arjan Dhillon.png", 
+    //     cover: "covers/albums/arjan/jalwa_album.png",
+    //     audio: "", 
+    //     searchString: "jalwa "
+    // },
+    { 
+        title: "Drunk Arjan    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Drunk Arjan",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/jalwa_album.png",
+        audio: "https://www.dropbox.com/scl/fi/093bshueuw60f3cv39jkx/Drunk-Arjan-Arjan-Dhillon.mp3?rlkey=enw32dtep775pq4so1kazdm5b&st=xw48fyix&dl=1", 
+        searchString: "jalwa "
+    },
+
+    { 
+        title: "25-25    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"25-25",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/jalwa_album.png",
+        audio: "https://www.dropbox.com/scl/fi/ce4fct41b54bwfl32eh8z/25-25-0.m4a?rlkey=saq9cu7zl4yfwphyy27z6qhqk&st=v0610ct7&dl=1", 
+        searchString: "jalwa "
+    }
+        ]
+    }
+    ,
+
+    {
+        id: 11,
+        title: "Awara    ",
+        artist: "Arjan Dhillon    ",
+        cover: "covers/albums/arjan/awara_album.png",
+        songs: [
+           //Arjan Dhillon : Awara
+    { 
+        title: "Why Arjan    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Why Arjan",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/awara_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/xzyz49dv7no3ygiym02re/Why_Arjan-0.m4a?rlkey=zi743acqjia5jhy4xwufrfi2w&st=y4u5b070&dl=1", 
+        searchString: "awara "
+    },
+    { 
+        title: "Shama Paiya    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Shama Paiya",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/awara_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/wnoz6lcw0568724rhmf2a/Shama-Paiya.mp3?rlkey=naukz6w2i0j9r6iovqlcxwuu0&st=mq8a6w9p&dl=1", 
+        searchString: "awara "
+    },
+    { 
+        title: "Score    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Score",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/awara_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/4e9a8rnwwf8xjhwtx4l45/Score-0.m4a?rlkey=9malsxkj2t487quli6iwh7ply&st=mohsn3yl&dl=1", 
+        searchString: "awara "
+    },
+    { 
+        title: "Sangdi Sangdi    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Sangdi Sangdi",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/awara_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/0pmg4yainepdk4cgcobqb/Sangdi-Sangdi.mp3?rlkey=oplx0v1png34s2m53a0z7cyxj&st=dtlxcem8&dl=1", 
+        searchString: "awara "
+    },
+    { 
+        title: "Sade Aala    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Sade Aala",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/awara_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/0fad57b9sqw1on11krp8e/Sade-Aala.mp3?rlkey=tcrcvkzo79o5g2arpcd2vjfkn&st=9oxk8utq&dl=1", 
+        searchString: " "
+    },
+    { 
+        title: "Mehal    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Mehal",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/awara_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/v70zspqb2a0eyuo9rqyxd/Mehal.mp3?rlkey=afazjeqoqc49q2hgacdcdql1v&st=exj7am2r&dl=1", 
+        searchString: "awara "
+    },
+    { 
+        title: "Mandeer    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Mandeer",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/awara_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/n72p052zaushvqy9kwm50/Mandeer-0.m4a?rlkey=kb2xlxdv7awiw38yzqakb6uqz&st=asuq03xe&dl=1", 
+        searchString: "awara "
+    },
+    { 
+        title: "Mahol    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Mahol",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/awara_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/anq18bveeg39wfm4buipx/Mahol.mp3?rlkey=xmry7fkxylw7wpiwtp68j1ujs&st=oazw130g&dl=1", 
+        searchString: "awara "
+    },
+    { 
+        title: "Hold On    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Hold On",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/awara_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/hfnglhwdj6t7m8qgndebw/Hold-On.mp3?rlkey=pu04hfocdd4hp4xi6hrpfgop4&st=d8tni8vd&dl=1", 
+        searchString: "awara "
+    },
+    { 
+        title: "Fire Fur    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Fire Fur",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/awara_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/j5fqpcy9q8ryggy1820di/Fire-Fur.mp3?rlkey=mcreawovtk80qcvgqcjdnd5j7&st=8ijzfbc9&dl=1", 
+        searchString: "awara "
+    },
+    { 
+        title: "Dope    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Dope",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/awara_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/qkqy0y8m9tqqfb0txqhrh/Dope.mp3?rlkey=13bifrvexnzltli4acapb2s61&st=tz1vahqo&dl=1", 
+        searchString: "awara "
+    },
+    { 
+        title: "Dass Billo    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Dass Billo",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/awara_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/4t7dbzmm3zcq7amedkn6f/Dass-Billo.mp3?rlkey=mpx5tqy4uqi5p5zuvfp96w82g&st=dti3t6q6&dl=1", 
+        searchString: "awara "
+    },
+    { 
+        title: "Dhanabaad    ",
+        artist: "Arjan Dhillon    ",
+        lyrics:"Dhanabaad",        
+        artistPhoto: "covers/Arjan Dhillon.png", 
+        cover: "covers/albums/arjan/awara_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/o0eto2rk0rhcwdly6yhf0/Danabaad.mp3?rlkey=pjmisy75b8nx43gveo87xzumr&st=3qw0ojq7&dl=1", 
+        searchString: "awara "
+    }
+        ]
+    }
+    
 ];
