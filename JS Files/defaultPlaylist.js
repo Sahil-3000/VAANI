@@ -2534,16 +2534,70 @@ let playlist = [
         searchString: "Katal katl ktl young once"
     }
 ,//21
-//     { 
-//         title: "      ", 
-//         artist: "Hustinder    ",
-//         lyrics:"",        
-//         artistPhoto: "covers/Hustinder.png", 
-//         cover: "covers/albums/hustinder/young once_album.png", 
-//         audio: "", 
-//         searchString: " young once"
-//     }
-// ,
+
+
+
+    //Hustinder: Singles
+    { 
+        title: "Ik Pind Sade Da Munda      ", 
+        artist: "Hustinder    ",
+        lyrics:"Ik Pind Sade Da Munda",        
+        artistPhoto: "covers/Hustinder.png", 
+        cover: "covers/singles/hustinder/ik pind sade da munda_hustinder.png", 
+        audio: "https://www.dropbox.com/scl/fi/fe31c5et44mb09wnvjltq/Ik-Pind-Sade-Da-Munda-Raag.Fm.mp3?rlkey=yyihcgai8w3ro6hyskyyrovfr&st=n8nhbj7p&dl=1", 
+        searchString: " Ik Pind Sade Da Munda"
+    }
+,
+{ 
+    title: "      ", 
+    artist: "Hustinder    ",
+    lyrics:"",        
+    artistPhoto: "covers/Hustinder.png", 
+    cover: "covers/singles/hustinder/.png", 
+    audio: "", 
+    searchString: " "
+}
+,
+{ 
+    title: "      ", 
+    artist: "Hustinder    ",
+    lyrics:"",        
+    artistPhoto: "covers/Hustinder.png", 
+    cover: "covers/singles/hustinder/.png", 
+    audio: "", 
+    searchString: " "
+}
+,
+{ 
+    title: "      ", 
+    artist: "Hustinder    ",
+    lyrics:"",        
+    artistPhoto: "covers/Hustinder.png", 
+    cover: "covers/singles/hustinder/.png", 
+    audio: "", 
+    searchString: " "
+}
+,
+{ 
+    title: "      ", 
+    artist: "Hustinder    ",
+    lyrics:"",        
+    artistPhoto: "covers/Hustinder.png", 
+    cover: "covers/singles/hustinder/.png", 
+    audio: "", 
+    searchString: " "
+}
+,
+{ 
+    title: "      ", 
+    artist: "Hustinder    ",
+    lyrics:"",        
+    artistPhoto: "covers/Hustinder.png", 
+    cover: "covers/singles/hustinder/.png", 
+    audio: "", 
+    searchString: " "
+}
+,
 
 
     //RP Singh: Singles
