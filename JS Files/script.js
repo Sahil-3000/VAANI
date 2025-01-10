@@ -324,6 +324,7 @@ document.addEventListener('keydown', function(event) {
 });
 
 function displayResults(results) {
+    currentPlaylist = results;
     const resultsContainer = document.querySelector(".song-results");
     resultsContainer.innerHTML = ''; // Clear previous results
     if (results.length > 0) {
@@ -369,6 +370,7 @@ function displayResults(results) {
             playButton.textContent = "Play";
             playButton.onclick = () => {
                 audio.load();
+                
                 // audio.play();
                 playSong(song.audio);
             }

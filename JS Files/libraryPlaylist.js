@@ -1726,7 +1726,7 @@ let libraryPlaylists = [
         artist: "Hustinder    ",
         cover: "covers/albums/hustinder/bhadauria_album.png",
         songs: [
-            //The Beatles-Rubber Soul
+            //Hustinder:Bhadauria
     { 
         title: "Fella's Forever      ", 
         artist: "Hustinder    ",
@@ -1822,6 +1822,651 @@ let libraryPlaylists = [
 
     {
         id: 7,
+        title: "Seasons    ",
+        artist: "Hustinder    ",
+        cover: "covers/albums/hustinder/seasons_album.png",
+        songs: [
+             //Hustinder:Seasons
+    
+    { 
+        title: "Watching You      ", 
+        artist: "Hustinder    ",
+        lyrics:"Watching You  ",        
+        artistPhoto: "covers/Hustinder.png", 
+        cover: "covers/albums/hustinder/seasons_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/3nbvjhymja39fby0b2q4o/Watching-You-Hustinder-DJJOhAL.Com.mp3?rlkey=dsnfshv9wun69bgstdja71x66&st=5ud8pdfl&dl=1", 
+        searchString: "Watching You seasons"
+    }
+    ,
+    { 
+        title: "Still Living      ", 
+        artist: "Hustinder    ",
+        lyrics:"Still Living",        
+        artistPhoto: "covers/Hustinder.png", 
+        cover: "covers/albums/hustinder/seasons_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/azfcd7fpe2ejlft8x8o6q/Still-Living-Hustinder-DJJOhAL.Com.mp3?rlkey=nq0g7wpqycxoz9v6zb2yc9t6j&st=9emm9ljx&dl=1", 
+        searchString: "Still Living seasons"
+    }
+    ,
+    { 
+        title: "Hopes      ", 
+        artist: "Hustinder    ",
+        lyrics:"Hopes",        
+        artistPhoto: "covers/Hustinder.png", 
+        cover: "covers/albums/hustinder/seasons_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/euhwh0j9kxwt0dsi12wds/Hopes-Hustinder-DJJOhAL.Com.mp3?rlkey=59o67b0dgbllse8vxnt5778v7&st=37pxmeqa&dl=1", 
+        searchString: "Hopes seasons"
+    }
+    ,
+    {  
+        title: "Incidents      ", 
+        artist: "Hustinder    ",
+        lyrics:"Incidents",        
+        artistPhoto: "covers/Hustinder.png", 
+        cover: "covers/albums/hustinder/seasons_album.png", 
+        audio: "https://www.dropbox.com/scl/fi/t8augv45x812uf5wqkq27/Incidents-Hustinder-DJJOhAL.Com.mp3?rlkey=aay34pv0rkvvnjofcn6d16bd7&st=awcx584r&dl=1", 
+        searchString: "Incidents seasons"
+    }
+        ]
+    },
+
+    {
+        id: 8,
+        title: "Three Plays    ",
+        artist: "Hustinder    ",
+        cover: "covers/albums/hustinder/three plays_album.png",
+        songs: [
+            { 
+                title: "Zamana      ", 
+                artist: "Hustinder    ",
+                lyrics:"Zamana",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/three plays_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/q9v1zob349ic9iowmddpr/Zamana-Hustinder-DJJOhAL.Com.mp3?rlkey=7rq06mu3kfgpqseu1hglxr59z&st=0cobj4l1&dl=1", 
+                searchString: "Zamana three plays"
+            }
+        
+        ,
+            { 
+                title: "Gal Banje      ", 
+                artist: "Hustinder    ",
+                lyrics:"Gal Banje",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/three plays_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/kb5vkelomm9jv44iorwfn/Gal-Banje-Hustinder-DJJOhAL.Com.mp3?rlkey=hhhmg6gb7od9ozpawb81c7qlw&st=s4pzqf4v&dl=1", 
+                searchString: "Gal Banje three plays"
+            }
+        
+        ,
+            { 
+                title: "Cat Walk      ", 
+                artist: "Hustinder    ",
+                lyrics:"Cat Walk",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/three plays_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/enl0nqdn3x20bnclabvls/Cat-Walk-Hustinder-DJJOhAL.Com.mp3?rlkey=xhnqzcrfme01xm8fzvrx1lzj9&st=a8thorvr&dl=1", 
+                searchString: "cat walk three plays"
+            }
+        ]
+    },
+
+    {
+        id: 9,
+        title: "Saadiyan Gallan    ",
+        artist: "Hustinder    ",
+        cover: "covers/albums/hustinder/saadiyan gallan_album.png",
+        songs: [
+            { 
+                title: "Yaari Torh Layi      ", 
+                artist: "Hustinder    ",
+                lyrics:"Yaari Torh Layi",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/saadiyan gallan_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/pdr5sfkyhllmo1xf1ihnf/Yaari-Torh-Layi-Hustinder-DJJOhAL.Com.mp3?rlkey=61vcjyb99jo9vuykc02f5b2e4&st=hgd7qtnc&dl=1", 
+                searchString: "Yaari Torh Layi saadiyan gallan"
+            }
+            ,
+            { 
+                title: "Ucheyan Gharan Diye Jaiye      ", 
+                artist: "Hustinder    ",
+                lyrics:"Ucheyan Gharan Diye Jaiye",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/saadiyan gallan_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/j03y1gh2289w6ok7fmpzn/Ucheyan-Gharan-Diye-Jaayie-Hustinder-DJJOhAL.Com.mp3?rlkey=nk6itpjs5wvo2gjg3maua2n6f&st=cqbeddu8&dl=1", 
+                searchString: "Ucheyan Gharan Diye Jaiye saadiyan gallan"
+            }
+            ,
+            { 
+                title: "Teri Deed      ", 
+                artist: "Hustinder    ",
+                lyrics:"Teri Deed",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/saadiyan gallan_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/y1zerx9w6iyuzl3atdz61/Teri-Deed-Hustinder-DJJOhAL.Com.mp3?rlkey=6p9elbsu1zp7ir40xcinpo1sg&st=xavaauuq&dl=1", 
+                searchString: "Teri Deed saadiyan gallan"
+            }
+            ,
+            { 
+                title: "Tera Mera Nata      ", 
+                artist: "Hustinder    ",
+                lyrics:"Tera Mera Nata",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/saadiyan gallan_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/cjh0dcsbz455ccw41uvie/Tera-Mera-Naata-Hustinder-DJJOhAL.Com.mp3?rlkey=ewtd7n2c95xwpjkjgh4eh3w7d&st=d2kx23eu&dl=1", 
+                searchString: "Tera Mera Nata saadiyan gallan"
+            }
+            ,
+            { 
+                title: "Ohon Galan Hor si      ", 
+                artist: "Hustinder    ",
+                lyrics:"Ohon Galan Hor si",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/saadiyan gallan_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/m8bz8rmfwwbdyep4yoi3z/Odon-Galan-Hor-Si-Hustinder-DJJOhAL.Com.mp3?rlkey=cyyqm5y61gtzay5fl2omx12kq&st=sxfg966o&dl=1", 
+                searchString: "Ohon Galan Hor si saadiyan gallan"
+            }
+            
+        
+        
+        
+        
+        
+        
+            
+        ]
+    },
+    {
+        id: 10,
+        title: "Saadiyan Gallan 2    ",
+        artist: "Hustinder    ",
+        cover: "covers/albums/hustinder/saadiyan gallan 2_album.png",
+        songs: [
+
+//Hustinder:Saadiyan Gallan 2
+,
+{ 
+    title: "Gal Kaon Karda      ", 
+    artist: "Hustinder    ",
+    lyrics:"Gal Kaon Karda",        
+    artistPhoto: "covers/Hustinder.png", 
+    cover: "covers/albums/hustinder/saadiyan gallan 2_album.png", 
+    audio: "https://www.dropbox.com/scl/fi/vaugio5do4aawdhg5ac8p/Gal-Kaon-Karda-Hustinder-DJJOhAL.Com.mp3?rlkey=h9oqk7eustnj3bkdci7oavznc&st=8v0pfkbr&dl=1", 
+    searchString: "Gal Kaon Karda saadiyan gallan 2"
+}
+
+,
+{ 
+    title: "Gumnaam Pyar      ", 
+    artist: "Hustinder    ",
+    lyrics:"Gumnaam Pyar",        
+    artistPhoto: "covers/Hustinder.png", 
+    cover: "covers/albums/hustinder/saadiyan gallan 2_album.png", 
+    audio: "https://www.dropbox.com/scl/fi/csxmlwmbyhqzprqllwykb/Gumnaam-Pyaar-Hustinder-DJJOhAL.Com.mp3?rlkey=2ujna7ofex8hnde17n3nq7ofg&st=99k4fh68&dl=1", 
+    searchString: "Gumnaam Pyar saadiyan gallan 2"
+}
+
+,
+{ 
+    title: "Hasde Hi Rehne Aa      ", 
+    artist: "Hustinder    ",
+    lyrics:"Hasde Hi Rehne Aa",        
+    artistPhoto: "covers/Hustinder.png", 
+    cover: "covers/albums/hustinder/saadiyan gallan 2_album.png", 
+    audio: "https://www.dropbox.com/scl/fi/z55z48v290n0rzdq3lq57/Hasde-Hi-Rehne-Aan-Hustinder-DJJOhAL.Com.mp3?rlkey=d926vapzzm8gqfh62b4xcqkiw&st=tghmodfu&dl=1", 
+    searchString: "Hasde Hi Rehne Aa saadiyan gallan 2"
+}
+
+,
+{ 
+    title: "Ikko Dil      ", 
+    artist: "Hustinder    ",
+    lyrics:"Ikko Dil",        
+    artistPhoto: "covers/Hustinder.png", 
+    cover: "covers/albums/hustinder/saadiyan gallan 2_album.png", 
+    audio: "https://www.dropbox.com/scl/fi/pa410e6r8gnsnxmbr6bm3/Ikko-Dil-Hustinder-DJJOhAL.Com.mp3?rlkey=cbi5h0wqv3rhgnvti6mx1zwb1&st=9pa3dkot&dl=1", 
+    searchString: "Ikko Dil saadiyan gallan 2"
+}
+,
+{ 
+    title: "Kidan Dian Gallan      ", 
+    artist: "Hustinder    ",
+    lyrics:"Kidan Dian Gallan",        
+    artistPhoto: "covers/Hustinder.png", 
+    cover: "covers/albums/hustinder/saadiyan gallan 2_album.png", 
+    audio: "https://www.dropbox.com/scl/fi/ph870f67mkor8lwv4k7cc/Kidan-Dian-Gallan-Hustinder-DJJOhAL.Com.mp3?rlkey=43sg30nrm5l828fseioypk8pf&st=i17s3wue&dl=1", 
+    searchString: "Kidan Dian Gallan saadiyan gallan 2"
+}
+
+,
+{ 
+    title: "Maa Kehndi Hundi Si      ", 
+    artist: "Hustinder    ",
+    lyrics:"Maa Kehndi Hundi Si",        
+    artistPhoto: "covers/Hustinder.png", 
+    cover: "covers/albums/hustinder/saadiyan gallan 2_album.png", 
+    audio: "https://www.dropbox.com/scl/fi/5b6vbymb3qy9jwdk4j0f8/Maa-Kehndi-Hundi-Si-Hustinder-DJJOhAL.Com.mp3?rlkey=j631nld7x7ob8bvdlvf0uoemr&st=e06zkhma&dl=1", 
+    searchString: "Maa Kehndi Hundi Si saadiyan gallan 2"
+}
+
+,
+{ 
+    title: "Pyaar Hoya      ", 
+    artist: "Hustinder    ",
+    lyrics:"Pyaar Hoya",        
+    artistPhoto: "covers/Hustinder.png", 
+    cover: "covers/albums/hustinder/saadiyan gallan 2_album.png", 
+    audio: "https://www.dropbox.com/scl/fi/nuxxddvpw4qo0twfqd4rw/Pyaar-Hoya-Hustinder-DJJOhAL.Com.mp3?rlkey=l7smfnpdvg5msbj5x9oefkojz&st=q5f3fuhq&dl=1", 
+    searchString: "Pyaar Hoya saadiyan gallan 2"
+}
+
+,
+{ 
+    title: "Mann Ton Legi      ", 
+    artist: "Hustinder    ",
+    lyrics:"Mann Ton Legi",        
+    artistPhoto: "covers/Hustinder.png", 
+    cover: "covers/albums/hustinder/saadiyan gallan 2_album.png", 
+    audio: "https://www.dropbox.com/scl/fi/aed0a36laru1rj3y45e6h/Mann-Ton-Lehgi-Hustinder-DJJOhAL.Com.mp3?rlkey=55d1cnittz2h8oml54hwawms5&st=nip3tixy&dl=1", 
+    searchString: "Mann Ton Lehgi saadiyan gallan 2"
+}
+
+
+
+        ]
+    },
+    {
+        id: 11,
+        title: "Saadiyan Gallan 3   ",
+        artist: "Hustinder    ",
+        cover: "covers/albums/hustinder/saadiyan gallan 3_album.png",
+        songs: [
+
+            { 
+                title: "Passport Size Tasveer      ", 
+                artist: "Hustinder    ",
+                lyrics:"Passport Size Tasveer",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/saadiyan gallan 3_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/t4zp5cvgs7sy8vx976o9v/Passport-Size-Tasveer-DJJOhAL.Com-1.mp3?rlkey=lmsi83ts43wwahjsbwy4pjvpp&st=xpwxm5jn&dl=1", 
+                searchString: "Passport Size Tasveer saadiyan gallan 3"
+            }
+        ,
+            { 
+                title: "Rullde Firde Aan      ", 
+                artist: "Hustinder    ",
+                lyrics:"Rullde Firde Aan",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/saadiyan gallan 3_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/xb7rl5n1fnh3hdbxkj931/Rullde-Firde-Aan-DJJOhAL.Com-1.mp3?rlkey=tmc9e6j4vkw2q1zmt22a45bmr&st=umpwj9nw&dl=1", 
+                searchString: "Rullde Firde Aan saadiyan gallan 3"
+            }
+        
+        ,
+            { 
+                title: "Ik Mutiyar Hundi      ", 
+                artist: "Hustinder    ",
+                lyrics:"Ik Mutiyar Hundi",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/saadiyan gallan 3_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/lb4avwkto3rx8khc4gjhp/Ik-Mutiyar-Hundi-Si-DJJOhAL.Com-1.mp3?rlkey=nf2urs7gx1pq1gmt35spw1vdw&st=o0wav4rn&dl=1", 
+                searchString: "Ik Mutiyar Hundi saadiyan gallan 3"
+            }
+        
+        ,
+            { 
+                title: "Rabb Di Aulad      ", 
+                artist: "Hustinder    ",
+                lyrics:"Rabb Di Aulad",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/saadiyan gallan 3_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/slxhuyij9p4xjttzyibh5/Rabb-Di-Aulaad-DJJOhAL.Com-1.mp3?rlkey=91vte3vx8g0v06zjaaxtpeaz5&st=g2mli4m1&dl=1", 
+                searchString: "Rabb Di Aulad saadiyan gallan 3"
+            }
+        
+        ,
+            { 
+                title: "Surgan Nu Rah      ", 
+                artist: "Hustinder    ",
+                lyrics:"Surgan Nu Rah",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/saadiyan gallan 3_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/44j876rxwh77ubdnj4m95/Surgan-Nu-Rah-DJJOhAL.Com-1.mp3?rlkey=2kxfxeixkvqxmnvlbtlzu8woc&st=68gl5jpi&dl=1", 
+                searchString: "Surgan Nu Rah saadiyan gallan 3"
+            }
+        
+        ,
+            { 
+                title: "Bhuleya Ki Ae      ", 
+                artist: "Hustinder    ",
+                lyrics:"Bhuleya Ki Ae",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/saadiyan gallan 3_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/d9is05k0lk7xroxee5euh/Bhulya-Ki-Ae-DJJOhAL.Com-1.mp3?rlkey=le70arvzb3agk122bf9559iy0&st=raicnqds&dl=1", 
+                searchString: "Bhuleya Ki Ae saadiyan gallan 3"
+            }
+        ,
+            { 
+                title: "Hathan Utte Duniya      ", 
+                artist: "Hustinder    ",
+                lyrics:"Hathan Utte Duniya",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/saadiyan gallan 3_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/9i2ms46mq4yw609vkug51/Hathan-Utte-Dunia-DJJOhAL.Com-1.mp3?rlkey=7alq7wmimb4hkq980aogtadit&st=685bedkw&dl=1", 
+                searchString: "Hathan Utte Duniya sadiyan gallan 3"
+            }
+        
+            ,
+            { 
+                title: "Saade Warge      ", 
+                artist: "Hustinder    ",
+                lyrics:"Saade Warge",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/saadiyan gallan 3_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/kss974nuzoafqtula5atd/Saade-Warge-DJJOhAL.Com-1.mp3?rlkey=2c9db6gpsvvhc923arrf80lra&st=k04t4k6y&dl=1", 
+                searchString: "Sade Warge sadiyan gallan 3"
+            }
+        
+        ]
+    },
+    {
+        id: 12,
+        title: "Mahol    ",
+        artist: "Hustinder    ",
+        cover: "covers/albums/hustinder/Mahol_album.png",
+        songs: [
+            { 
+                title: "Hundi Si Gareebi      ", 
+                artist: "Hustinder    ",
+                lyrics:"Hundi Si Gareebi",         
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/mahol_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/hfqo6zru9ub2avtbrzzcb/Hundi-Si-Greebi-DJJOhAL.Com.mp3?rlkey=9shtqovt5mjgnfw6o0sn9899z&st=7okhqehy&dl=1", 
+                searchString: "Hundi Si Gareebi Hundi Si Garibi mahol"
+            },//21
+            { 
+                title: "Tu Takkri      ", 
+                artist: "Hustinder    ",
+                lyrics:"Tu Takkri",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/mahol_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/b50j5ijhqr55t55ri4guy/Tu-Takkri-DJJOhAL.Com.mp3?rlkey=srv1j38is9wg7pu1qku92v4uk&st=x4x11se7&dl=1", 
+                searchString: "Tu Takkri mahol"
+            }
+        
+        ,//21
+            { 
+                title: "Mittran Di Sohn       ", 
+                artist: "Hustinder    ",
+                lyrics:"Mittran Di Sohn",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/mahol_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/ebvemfxc98jt2ip4dep2g/Mittran-Di-Sohn-DJJOhAL.Com.mp3?rlkey=veddr30f1hlchuk40buw948ct&st=vljyvrpt&dl=1", 
+                searchString: "Mittran Di Sohn mittran di so mittra di soh mahol"
+            }
+        
+        ,//21
+            { 
+                title: "Raonak      ", 
+                artist: "Hustinder    ",
+                lyrics:"Raonak",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/mahol_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/4sf1a2qjhzu3kf00vmsaa/Raonak-DJJOhAL.Com.mp3?rlkey=53crnbcjlam8dapp3c5bg3mvi&st=gw87kmqt&dl=1", 
+                searchString: "Raonak ronak rounak mahol"
+            }
+        
+        ,//21
+            { 
+                title: "Velly Yaar      ", 
+                artist: "Hustinder    ",
+                lyrics:"Velly Yaar",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/mahol_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/m9kgkv1xpvksu8uhig4pe/Velly-Yaar-DJJOhAL.Com.mp3?rlkey=3it0af5qmdzf715k784pu7uby&st=lo7mfa20&dl=1", 
+                searchString: "Velly Yaar velli yar veli yar mahol"
+            }
+        
+        ,//21
+            { 
+                title: "Laag Daat      ", 
+                artist: "Hustinder    ",
+                lyrics:"Laag Daat",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/mahol_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/gposoff9urfwep5vl95t2/Laag-Daat-DJJOhAL.Com.mp3?rlkey=25bsvy0rixgt3ry0e4ofx8fjz&st=fd92asv0&dl=1", 
+                searchString: "Laag Daat mahol"
+            }
+        
+        ,//21
+            { 
+                title: "Kharcha Kardange      ", 
+                artist: "Hustinder    ",
+                lyrics:"Kharcha Kardange",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/mahol_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/j9l2olnon3h4yw3z8bw37/Kharcha-Kardange-DJJOhAL.Com.mp3?rlkey=wiziacijm5oe2z9twswto60sp&st=hdhucit2&dl=1", 
+                searchString: "Kharcha Kardange mahol"
+            }
+        
+        ,//21
+            { 
+                title: "Praandi      ", 
+                artist: "Hustinder    ",
+                lyrics:"Praandi",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/mahol_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/enho5cnx7s42kylyop5vj/Praandi-DJJOhAL.Com.mp3?rlkey=o2rusr2ryy1xunggzcaeuuk83&st=88xjhelj&dl=1", 
+                searchString: "Praandi prandi pradi mahol"
+            }
+        
+        
+        ]
+    },
+    {
+        id: 13,
+        title: "Supermacy   ",
+        artist: "Hustinder    ",
+        cover: "covers/albums/hustinder/supermacy_album.png",
+        songs: [
+            { 
+                title: "Mugshot      ", 
+                artist: "Hustinder    ",
+                lyrics:"Mugshot",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/supermacy_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/nqhk5s4s2trzcn19hgoxa/Mugshot-DJJOhAL.Com.mp3?rlkey=lvms76ijgg4zvn5915m3kvcc8&st=4ek07v8k&dl=1", 
+                searchString: "Mugshot supermacy"
+            }
+            ,//21
+            { 
+                title: "Gaza Patti      ", 
+                artist: "Hustinder    ",
+                lyrics:"Gaza Patti",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/supermacy_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/wscbjgr7pcxy5jl6m5ndd/Gaza-Patti-DJJOhAL.Com.mp3?rlkey=rnjdoj20x3luwf3fnkn92yypd&st=0jcw3cz4&dl=1", 
+                searchString: "Gaza Patti supermacy"
+            }
+        
+        ,//21
+            { 
+                title: "Pasand       ", 
+                artist: "Hustinder    ",
+                lyrics:"Pasand ",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/supermacy_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/3g9cwdj7injfzqd2xd2h0/Pasand-DJJOhAL.Com.mp3?rlkey=ev22sfej9sp2ewt5z4q390cn0&st=un4z5yll&dl=1", 
+                searchString: "Pasand Passand  supermacy"
+            }
+        
+        ,//21
+            { 
+                title: "Dollar Wargiye      ", 
+                artist: "Hustinder    ",
+                lyrics:"Dollar Wargiye",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/supermacy_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/w1096l0uhzbs79ldwzp2m/Dollar-Wargiye-DJJOhAL.Com.mp3?rlkey=us7u7j1k46hk2tuwbrqsm0n71&st=0uuf0s8h&dl=1", 
+                searchString: "Dollar Wargiye supermacy"
+            }
+        ,//21
+        { 
+            title: "Tera Sheher      ", 
+            artist: "Hustinder    ",
+            lyrics:"Tera Sheher",        
+            artistPhoto: "covers/Hustinder.png", 
+            cover: "covers/albums/hustinder/supermacy_album.png", 
+            audio: "https://www.dropbox.com/scl/fi/av288k2fapue1qavlm1mv/Tera-Shehar-DJJOhAL.Com.mp3?rlkey=o7ghtkxxu47isx9mo64mbhta0&st=z026mr6t&dl=1", 
+            searchString: " tera sheher tera shehar supermacy"
+        }
+        
+        
+        ,//21
+            { 
+                title: "Jethi Dhee      ", 
+                artist: "Hustinder    ",
+                lyrics:"Jethi Dhee",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/supermacy_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/0u3lfcvewdrf2rjutf2sp/Jethi-Dhee-DJJOhAL.Com.mp3?rlkey=42adcywk7meqz1ot9on58sjn3&st=ywxjcr3q&dl=1", 
+                searchString: "Jethi Dhee supermacy"
+            }
+        
+        
+        ,//21
+            { 
+                title: "Pehli Vaari      ", 
+                artist: "Hustinder    ",
+                lyrics:"Pehli Vaari",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/supermacy_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/6n46b9iga23gufqcv6zcl/Pehli-Vaari-DJJOhAL.Com.mp3?rlkey=yyd1i6o3zpcc4v0gstgiaa05c&st=w51wdd92&dl=1", 
+                searchString: "Pehli Vaari supermacy"
+            }
+        
+        ]
+    },
+    {
+        id: 13,
+        title: "Young Once    ",
+        artist: "Hustinder    ",
+        cover: "covers/albums/hustinder/young once_album.png",
+        songs: [
+            { 
+                title: "Club Tale      ", 
+                artist: "Hustinder    ",
+                lyrics:"Club Tale",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/young once_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/7ef2c7tpzdj702cvg665g/Club-Tale-DJJOhAL.Com.mp3?rlkey=2lqvohjd5i4c7l8myw149d7op&st=xylsri4r&dl=1", 
+                searchString: "Club Tale young once"
+            },
+        ,//21
+            { 
+                title: "Mittran De Circle      ", 
+                artist: "Hustinder    ",
+                lyrics:"Mittran De Circle",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/young once_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/pbgu39i7mzo36vtwwqz4v/Mittran-De-Circle-DJJOhAL.Com.mp3?rlkey=gk105gr0fxnu2fe9jryrmlvwz&st=xcvtwpoo&dl=1", 
+                searchString: "Mittran De Circle young once"
+            }
+        ,//21
+            { 
+                title: "Hub      ", 
+                artist: "Hustinder    ",
+                lyrics:"Hub",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/young once_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/w9k4zpx2qgbex8rrsazhi/Hub-DJJOhAL.Com.mp3?rlkey=hkang4h1z7g97er130z7v6wi3&st=ekxsk3l3&dl=1", 
+                searchString: "Hub hab young once"
+            }
+        ,//21
+            { 
+                title: "Dullda Glass      ", 
+                artist: "Hustinder    ",
+                lyrics:"Dullda Glass",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/young once_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/00ui07hoj8q8enscxomrf/Dullda-Glass-DJJOhAL.Com.mp3?rlkey=mxemcvyhpgprpphlbi98v79wp&st=ql9c7clc&dl=1", 
+                searchString: "Dullda Glass dulda glas young once"
+            }
+        ,//21
+            { 
+                title: "She's Proud      ", 
+                artist: "Hustinder    ",
+                lyrics:"She's Proud",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/young once_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/hlafif0hypwev7ga0eake/She-s-Proud-DJJOhAL.Com.mp3?rlkey=x3w598q6l1ot0k5frjyez6ae1&st=sxip6rxg&dl=1", 
+                searchString: "She's Proud she proud she is proud young once"
+            }
+        ,//21
+            { 
+                title: "Gutt      ", 
+                artist: "Hustinder    ",
+                lyrics:"Gutt",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/young once_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/usb8edzkyabj15gstfg2z/Gutt-DJJOhAL.Com.mp3?rlkey=vcmlk88h7ynzun7t406ho5qnm&st=ogcgygz5&dl=1", 
+                searchString: "Gutt gut young once"
+            }
+        ,//21
+            { 
+                title: "Nachdi Ton      ", 
+                artist: "Hustinder    ",
+                lyrics:"Nachdi Ton",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/young once_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/hauyi5i9tnbdrjw2xriow/Nachdi-Ton-DJJOhAL.Com.mp3?rlkey=cn22uz280q04d3mcofeogy8wl&st=3hqht1l5&dl=1", 
+                searchString: "Nachdi Ton nachdi to nchdi ton nchdi to young once"
+            }
+        
+        ,//21
+            { 
+                title: "Door Door      ", 
+                artist: "Hustinder    ",
+                lyrics:"Door Door",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/young once_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/g2xwq2zidutb8cmjg1bkd/Door-Door-DJJOhAL.Com.mp3?rlkey=w75ouelufrwp87gdch7hlbsuo&st=wmz3exp6&dl=1", 
+                searchString: "Door Door dur dur young once"
+            }
+        ,//21
+            { 
+                title: "Challey Chamkila      ", 
+                artist: "Hustinder    ",
+                lyrics:"Challey Chamkila",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/young once_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/tjomgaiv0lj2kktzdqpyi/Challey-Chamkila-DJJOhAL.Com.mp3?rlkey=lhxpbw0ay7d26jnmg4fn2w2qq&st=xmbccwlc&dl=1", 
+                searchString: "Challey Chamkila chale chamkila challe chamkila young once"
+            }
+        ,//21
+            { 
+                title: "Katal      ", 
+                artist: "Hustinder    ",
+                lyrics:"Katal",        
+                artistPhoto: "covers/Hustinder.png", 
+                cover: "covers/albums/hustinder/young once_album.png", 
+                audio: "https://www.dropbox.com/scl/fi/albvub8mwjlk7h45j7lp9/Katal-DJJOhAL.Com.mp3?rlkey=5d3qhoxptampjj0fyrf8dlrys&st=yc6wdpw4&dl=1", 
+                searchString: "Katal katl ktl young once"
+            }
+        ]
+    },
+    // {
+    //     id: 13,
+    //     title: "Bhadauria    ",
+    //     artist: "Hustinder    ",
+    //     cover: "covers/albums/hustinder/seasons_album.png",
+    //     songs: []
+    // },
+
+
+
+
+    {
+        id: 10,
         title: "Patandar    ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/patandar_album.png",
