@@ -1795,7 +1795,7 @@ let playlistsMain = [
         id: 4,
         title: "Bhadauria    ",
         artist: "Hustinder    ",
-        cover: "covers/albums/bhadauria_album.png",
+        cover: "covers/albums/hustinder/bhadauria_album.png",
         songs: [
             //The Beatles-Rubber Soul
     { 
@@ -1803,7 +1803,7 @@ let playlistsMain = [
         artist: "Hustinder    ",
         lyrics:"Fella's Forever",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/fellas forever.mp3", 
         searchString: "fellas forever"
     },//13
@@ -1812,7 +1812,7 @@ let playlistsMain = [
         artist: "Husinder    ",
         lyrics:"Queen's Gambit",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/queen s gambit.mp3", 
         searchString: "queen's gambit"
     },//14
@@ -1821,7 +1821,7 @@ let playlistsMain = [
         artist: "Husinder    ",
         lyrics:"Don't You Dare",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/don t you dare.mp3", 
         searchString: "don't you dare"
     },//15
@@ -1830,7 +1830,7 @@ let playlistsMain = [
         artist: "Husinder    ",
         lyrics:"Mittra'n De Dere",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/mittran de dere.mp3", 
         searchString: "mitran de dere"
     },//16
@@ -1839,7 +1839,7 @@ let playlistsMain = [
         artist: "Husinder    ",
         lyrics:"Step Bhull Gyi",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/step bhull gyi.mp3", 
         searchString: "step bhull gyi"
     },//17
@@ -1848,7 +1848,7 @@ let playlistsMain = [
         artist: "Husinder    ",
         lyrics:"White Money ",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/white money.mp3", 
         searchString: "white money"
     },//18
@@ -1857,7 +1857,7 @@ let playlistsMain = [
         artist: "Husinder    ",
         lyrics:"We Living It ",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/we living it.mp3", 
         searchString: "we living it"
     },//19
@@ -1866,7 +1866,7 @@ let playlistsMain = [
         artist: "Husinder    ",
         lyrics:"Kdo'n Nachana",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/kdon nachana.mp3", 
         searchString: "kdo nachna"
     },//20
@@ -1875,7 +1875,7 @@ let playlistsMain = [
         artist: "Husinder    ",
         lyrics:"Move Your Car ",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/move your car.mp3", 
         searchString: "move your car"
     },//21
@@ -1884,7 +1884,7 @@ let playlistsMain = [
         artist: "Husinder    ",
         lyrics:"Bhadauria  ",        
         artistPhoto: "covers/Hustinder.png", 
-        cover: "covers/albums/bhadauria_album.png", 
+        cover: "covers/albums/hustinder/bhadauria_album.png", 
         audio: "songs/albums/bhadauria/bhadauria.mp3", 
         searchString: "bhadauria"
     }
@@ -1895,7 +1895,7 @@ let playlistsMain = [
         id: 5,
         title: "Patandar    ",
         artist: "Arjan Dhillon    ",
-        cover: "covers/albums/patandar_album.png",
+        cover: "covers/albums/arjan/patandar_album.png",
         songs: [
             //Arjan Dhillon: Patandar
             { 
@@ -1903,7 +1903,7 @@ let playlistsMain = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"2-2 Asle",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/2 2 Asle.mp3", 
                 searchString: "2 2 asle"
             },
@@ -1912,7 +1912,7 @@ let playlistsMain = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Big Flex",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Big Flex.mp3", 
                 searchString: " big flex "
             },
@@ -1921,7 +1921,7 @@ let playlistsMain = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Brats",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Brats.mp3", 
                 searchString: " brats"
             },
@@ -1930,7 +1930,7 @@ let playlistsMain = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Greatest ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Greatest.mp3", 
                 searchString: "greatest "
             },
@@ -1939,7 +1939,7 @@ let playlistsMain = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Hikka ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Hikka.mp3", 
                 searchString: "Hikka "
             },
@@ -1948,7 +1948,7 @@ let playlistsMain = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Invoice ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Invoice.mp3", 
                 searchString: " invoice"
             },
@@ -1957,7 +1957,7 @@ let playlistsMain = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Kini Der Baad ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Kini Der Baad.mp3", 
                 searchString: "kini der baad "
             
@@ -1967,7 +1967,7 @@ let playlistsMain = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Nain ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Nain.mp3", 
                 searchString: " nain"
             
@@ -1977,7 +1977,7 @@ let playlistsMain = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Never Ever ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Never Ever.mp3", 
                 searchString: "Never Ever "
             
@@ -1987,7 +1987,7 @@ let playlistsMain = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Paparazzi ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Paparazzi.mp3", 
                 searchString: "Paparazzi "
             
@@ -1997,7 +1997,7 @@ let playlistsMain = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Sher E Panjab ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Sher E Panjab.mp3", 
                 searchString: "Sher E Panjab "
             
@@ -2007,7 +2007,7 @@ let playlistsMain = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Style ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Style.mp3", 
                 searchString: "Style "
             
@@ -2017,7 +2017,7 @@ let playlistsMain = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Too Late ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Too Late.mp3", 
                 searchString: "Too Late "
             
@@ -2027,7 +2027,7 @@ let playlistsMain = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Tu Jdo Auna ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Tu Jdo Auna.mp3", 
                 searchString: "Tu Jdo Auna "
             
@@ -2037,7 +2037,7 @@ let playlistsMain = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Youngsters ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Youngsters.mp3", 
                 searchString: "Youngsters "
             
@@ -2047,7 +2047,7 @@ let playlistsMain = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Zigana ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Zigana.mp3", 
                 searchString: "Zigana "
             

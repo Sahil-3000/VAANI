@@ -2469,7 +2469,7 @@ let libraryPlaylists = [
         id: 10,
         title: "Patandar    ",
         artist: "Arjan Dhillon    ",
-        cover: "covers/albums/patandar_album.png",
+        cover: "covers/albums/arjan/patandar_album.png",
         songs: [
             //Arjan Dhillon: Patandar
             { 
@@ -2477,7 +2477,7 @@ let libraryPlaylists = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"2-2 Asle",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/2 2 Asle.mp3", 
                 searchString: "2 2 asle"
             },
@@ -2486,7 +2486,7 @@ let libraryPlaylists = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Big Flex",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Big Flex.mp3", 
                 searchString: " big flex "
             },
@@ -2495,7 +2495,7 @@ let libraryPlaylists = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Brats",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Brats.mp3", 
                 searchString: " brats"
             },
@@ -2504,7 +2504,7 @@ let libraryPlaylists = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Greatest ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Greatest.mp3", 
                 searchString: "greatest "
             },
@@ -2513,7 +2513,7 @@ let libraryPlaylists = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Hikka ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Hikka.mp3", 
                 searchString: "Hikka "
             },
@@ -2522,7 +2522,7 @@ let libraryPlaylists = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Invoice ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Invoice.mp3", 
                 searchString: " invoice"
             },
@@ -2531,7 +2531,7 @@ let libraryPlaylists = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Kini Der Baad ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Kini Der Baad.mp3", 
                 searchString: "kini der baad "
             
@@ -2541,7 +2541,7 @@ let libraryPlaylists = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Nain ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Nain.mp3", 
                 searchString: " nain"
             
@@ -2551,7 +2551,7 @@ let libraryPlaylists = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Never Ever ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Never Ever.mp3", 
                 searchString: "Never Ever "
             
@@ -2561,7 +2561,7 @@ let libraryPlaylists = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Paparazzi ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Paparazzi.mp3", 
                 searchString: "Paparazzi "
             
@@ -2571,7 +2571,7 @@ let libraryPlaylists = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Sher E Panjab ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Sher E Panjab.mp3", 
                 searchString: "Sher E Panjab "
             
@@ -2581,7 +2581,7 @@ let libraryPlaylists = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Style ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Style.mp3", 
                 searchString: "Style "
             
@@ -2591,7 +2591,7 @@ let libraryPlaylists = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Too Late ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Too Late.mp3", 
                 searchString: "Too Late "
             
@@ -2601,7 +2601,7 @@ let libraryPlaylists = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Tu Jdo Auna ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Tu Jdo Auna.mp3", 
                 searchString: "Tu Jdo Auna "
             
@@ -2611,7 +2611,7 @@ let libraryPlaylists = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Youngsters ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Youngsters.mp3", 
                 searchString: "Youngsters "
             
@@ -2621,7 +2621,7 @@ let libraryPlaylists = [
                 artist: "Arjan Dhillon   ",
                 lyrics:"Zigana ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
-                cover: "covers/albums/patandar_album.png", 
+                cover: "covers/albums/arjan/patandar_album.png", 
                 audio: "songs/albums/patandar/Zigana.mp3", 
                 searchString: "Zigana "
             

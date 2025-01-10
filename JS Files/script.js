@@ -564,7 +564,7 @@ allSongs.addEventListener("click",()=>{
 
 recoPlay.forEach(play =>{
     play.addEventListener("click",()=>{
-        const selectedPlaylist = playlistsMain[1];
+        const selectedPlaylist = playlistsMain[0];
 
         // Show the selected playlist and hide the library
         mainOpenPlayContainer.style.display = "block";
