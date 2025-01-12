@@ -6,12 +6,14 @@ let trendPlaylist = [
         id: 1,
         
         title: "Liked Songs",
+        album:"",
         artist: "Various Artists",
         cover: "covers/liked playlist.png",
         songs: [
               //Diljit Dosanjh
     { 
         title: "Lover      ",
+        album:"",
         artist: "Diljit Dosanjh     ",       
         lyrics: "Lover",             
         artistPhoto: "covers/Diljit Dosanjh.png",       
@@ -23,6 +25,7 @@ let trendPlaylist = [
 
     { 
         title: "Case        ", 
+        album:"",
         artist: "Diljit Dosanjh     ", 
         lyrics: "Case",       
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -32,6 +35,7 @@ let trendPlaylist = [
     },//41
     { 
         title: "Ishq Di Baajiyaan        ", 
+        album:"",
         artist: "Diljit Dosanjh     ", 
         lyrics: "Ishq Di Baajiyaan",         
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -41,6 +45,7 @@ let trendPlaylist = [
     },//42
     { 
         title: "Love Ya        ", 
+        album:"",
         artist: "Diljit Dosanjh     ",  
         lyrics:"Love Ya",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -50,6 +55,7 @@ let trendPlaylist = [
     },//43
     { 
         title: "Lalkara         ", 
+        album:"",
         artist: "Diljit Dosanjh     ", 
         lyrics:"Lalkara",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -59,6 +65,7 @@ let trendPlaylist = [
     },//44
     { 
         title: "Tu Kya Jaane        ", 
+        album:"",
         artist: "Yashika Sikka, Diljit", 
         lyrics:"Tu Kya Jaane",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -68,6 +75,7 @@ let trendPlaylist = [
     },//45
     { 
         title: "Bol Mohabbat        ", 
+        album:"",
         artist: "AR Rehman, Kailash Kher,Diljit", 
         lyrics:"Bol Mohabbat",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -77,6 +85,7 @@ let trendPlaylist = [
     },//46
     { 
         title: "Vida Karo        ", 
+        album:"",
         artist: "Arijit Singh,Diljjt", 
         lyrics:"Vida Karo",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -86,6 +95,7 @@ let trendPlaylist = [
     },//47
     { 
         title: "Panga        ", 
+        album:"",
         artist: "Diljit Dosanjh, Yo Yo Honey Singh", 
         lyrics:"Panga",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -95,6 +105,7 @@ let trendPlaylist = [
     },//48
     { 
         title: "Ishq Mitaye        ", 
+        album:"",
         artist: "AR Rehman, Diljit", 
         lyrics:"Ishq Mitaye",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -104,6 +115,7 @@ let trendPlaylist = [
     },//49
     { 
         title: "5 Tara        ", 
+        album:"",
         artist: " Diljit Dosanjh     ",
         lyrics: "Love Ya",
         lyrics:"5 Tara",        
@@ -114,6 +126,7 @@ let trendPlaylist = [
     },//50
     { 
         title: "Do You Know       ", 
+        album:"",
         artist: "Diljit Dosanjh     ",
         lyrics:"Do You Know",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -123,6 +136,7 @@ let trendPlaylist = [
     },//51
     { 
         title: "G.O.A.T.      ", 
+        album:"",
         artist: "Diljit Dosanjh     ",
         lyrics:"G.O.A.T.",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -132,6 +146,7 @@ let trendPlaylist = [
     },//52
     { 
         title: "Clash      ", 
+        album:"",
         artist: "Diljit Dosanjh     ",
         lyrics:"Clash",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -141,6 +156,7 @@ let trendPlaylist = [
     },//53
     { 
         title: "Muchh      ", 
+        album:"",
         artist: "Diljit Dosanjh     ",
         lyrics:"Muchh",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -150,6 +166,7 @@ let trendPlaylist = [
     },//54
     { 
         title: "High End      ", 
+        album:"",
         artist: "Diljit Dosanjh     ",
         lyrics:"High End",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -159,6 +176,7 @@ let trendPlaylist = [
     },//55
     { 
         title: "Naram Kalja      ", 
+        album:"",
         artist: "Diljjt Dosanjh     ",
         lyrics:"Naram Kalja",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -168,6 +186,7 @@ let trendPlaylist = [
     },//56
     { 
         title: "Baaja      ", 
+        album:"",
         artist: "Diljit Dosanjh     ",
         lyrics:"Baaja",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -177,6 +196,7 @@ let trendPlaylist = [
     },//57
     { 
         title: "Muhammad Ali      ", 
+        album:"",
         artist: "Diljit Dosanjh     ",
         lyrics:"Muhammad Ali",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -186,6 +206,7 @@ let trendPlaylist = [
     },//58
     { 
         title: "El Sueno      ", 
+        album:"",
         artist: "Diljit Dosanjh     ",
         lyrics:"El Sueno",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -195,6 +216,7 @@ let trendPlaylist = [
     },//59
     { 
         title: "Born To Shine      ", 
+        album:"",
         artist: "Diljit Dosanjb",
         lyrics:"Born To Shine",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -204,6 +226,7 @@ let trendPlaylist = [
     },//60
     { 
         title: "Peaches      ", 
+        album:"",
         artist: "Diljit Dosanjh     ",
         lyrics:"Peaches",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -213,6 +236,7 @@ let trendPlaylist = [
     },//61
     { 
         title: "What Ve      ", 
+        album:"",
         artist: "Diljjt Dosanjh,Nimrat Khaira",
         lyrics:"What Ve",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -222,6 +246,7 @@ let trendPlaylist = [
     },//62
     { 
         title: "Hass Hass      ", 
+        album:"",
         artist: "Sia,Diljit Dosanjh     ",
         lyrics:"Hass Hass",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -231,6 +256,7 @@ let trendPlaylist = [
     },//63
     { 
         title: "Patiala Peg      ", 
+        album:"",
         artist: "Diljit Dosanjh     ",
         lyrics:"Patiala Peg",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -240,6 +266,7 @@ let trendPlaylist = [
     },//64
     { 
         title: "Mombattiye      ", 
+        album:"",
         artist: "Diljit Dosanjh     ",
         lyrics:"Mombattiye",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -250,6 +277,7 @@ let trendPlaylist = [
 
     { 
         title: "Jo Tum Mere Ho      ", 
+        album:"",
         artist: "Anuv Jain",
         lyrics:"Jo Tum Mere Ho",        
         artistPhoto: "covers/Anuv Jain.png", 
@@ -261,6 +289,7 @@ let trendPlaylist = [
     
     { 
         title: "Fly Karke      ", 
+        album:"",
         artist: "SABBA, Jasmeen",
         lyrics:"Fly Karke",        
         artistPhoto: "covers/Sabba.png", 
@@ -273,6 +302,7 @@ let trendPlaylist = [
     //Arjan Dhillon-Glorious and more
     { 
         title: "Youth Flow      ", 
+        album:"",
         artist: "Arjan Dhillon    ",
         lyrics:"Youth Flow",        
         artistPhoto: "covers/Arjan Dhillon.png", 
@@ -282,6 +312,7 @@ let trendPlaylist = [
     },//song4
     { 
         title: "Glorious      ", 
+        album:"",
         artist: "Arjan Dhillon    ",
         lyrics:"Glorious",        
         artistPhoto: "covers/Arjan Dhillon.png", 
@@ -291,6 +322,7 @@ let trendPlaylist = [
     },//song5
     { 
         title: "Maavan      ", 
+        album:"",
         artist: "Arjan Dhillon    ",
         lyrics:"Maavan",        
         artistPhoto: "covers/Arjan Dhillon.png", 
@@ -300,6 +332,7 @@ let trendPlaylist = [
     },//song6
     { 
         title: "Back To Sikhi      ", 
+        album:"",
         artist: "Arjan Dhillon    ",
         lyrics:"Back To Sikhi",        
         artistPhoto: "covers/Arjan Dhillon.png", 
@@ -309,6 +342,7 @@ let trendPlaylist = [
     },//song7
     { 
         title: "Biography      ", 
+        album:"",
         artist: "Arjan Dhillon    ",
         lyrics:"Biography",        
         artistPhoto: "covers/Arjan Dhillon.png", 
@@ -318,6 +352,7 @@ let trendPlaylist = [
     },//song8
     { 
         title: "Tyar      ", 
+        album:"",
         artist: "Arjan Dhillon    ",
         lyrics:"Tyar",        
         artistPhoto: "covers/Arjan Dhillon.png", 
@@ -328,6 +363,7 @@ let trendPlaylist = [
     
     { 
         title: "Heer      ", 
+        album:"",
         artist: "Arjan Dhillon    ",
         lyrics:"Heer",        
         artistPhoto: "covers/Arjan Dhillon.png", 
@@ -337,6 +373,7 @@ let trendPlaylist = [
     },//song9
     { 
         title: "Punjab Intro      ", 
+        album:"",
         artist: "Arjan Dhillon    ",
         lyrics:"Punjab Intro",        
         artistPhoto: "covers/Arjan Dhillon.png", 
@@ -350,6 +387,7 @@ let trendPlaylist = [
     //Dhanda
     { 
         title: "Up To You      ", 
+        album:"",
         artist: "Dhanda Nyoliwala  ",
         lyrics:"Up To You",        
         artistPhoto: "covers/Dhanda Nyoliwala.png", 
@@ -359,6 +397,7 @@ let trendPlaylist = [
     },//song10
     { 
         title: "Russian Bandana      ", 
+        album:"",
         artist: "Dhanda Nyoliwala   ",
         lyrics:"Russian Bandana",        
         artistPhoto: "covers/Dhanda Nyoliwala.png", 
@@ -369,6 +408,7 @@ let trendPlaylist = [
     
     { 
         title: "Ishq      ", 
+        album:"",
         artist: "Faheem Abdullah,Rauhan Malik  ", 
         lyrics: "Ishq",
         cover: "covers/ishq.jpg", 
@@ -379,6 +419,7 @@ let trendPlaylist = [
     //The Beatles-Rubber Soul
     { 
         title: "If I Needed Someone      ", 
+        album:"",
         artist: "The Beatles    ",
         lyrics:"If I Needed Someone",        
         artistPhoto: "covers/The Beatles.png", 
@@ -388,6 +429,7 @@ let trendPlaylist = [
     },//13
     { 
         title: "Norwegian Wood      ", 
+        album:"",
         artist: "The Beatles    ",
         lyrics:"Norwegian Wood",        
         artistPhoto: "covers/The Beatles.png", 
@@ -397,6 +439,7 @@ let trendPlaylist = [
     },//14
     { 
         title: "You Won't See Me      ", 
+        album:"",
         artist: "The Beatles    ",
         lyrics:"You Won't See Me",        
         artistPhoto: "covers/The Beatles.png", 
@@ -406,6 +449,7 @@ let trendPlaylist = [
     },//15
     { 
         title: "Think For Yourself      ", 
+        album:"",
         artist: "The Beatles    ",
         lyrics:"Think For Yourself",        
         artistPhoto: "covers/The Beatles.png", 
@@ -415,6 +459,7 @@ let trendPlaylist = [
     },//16
     { 
         title: "The Word      ", 
+        album:"",
         artist: "The Beatles    ",
         lyrics:"The Word",        
         artistPhoto: "covers/The Beatles.png", 
@@ -424,6 +469,7 @@ let trendPlaylist = [
     },//17
     { 
         title: "Michelle      ", 
+        album:"",
         artist: "The Beatles    ",
         lyrics:"Michelle",        
         artistPhoto: "covers/The Beatles.png", 
@@ -433,6 +479,7 @@ let trendPlaylist = [
     },//18
     { 
         title: "Drive My Car      ", 
+        album:"",
         artist: "The Beatles    ",
         lyrics:"Drive My Car",        
         artistPhoto: "covers/The Beatles.png", 
@@ -442,6 +489,7 @@ let trendPlaylist = [
     },//19
     { 
         title: "Girl      ", 
+        album:"",
         artist: "The Beatles    ",
         lyrics:"Girl",        
         artistPhoto: "covers/The Beatles.png", 
@@ -453,6 +501,7 @@ let trendPlaylist = [
         title: "I'm Looking Through You",
         lyrics:"I'm Looking Through You",        
         artistPhoto: "covers/The Beatles.png      ", 
+        album:"",
         artist: "The Beatles    ", 
         cover: "covers/rubber soul.jpg", 
         audio: "songs/singles/i'm looking through you.mp3", 
@@ -460,6 +509,7 @@ let trendPlaylist = [
     },//21
     { 
         title: "In My Life      ", 
+        album:"",
         artist: "The Beatles    ",
         lyrics:"In My Life",        
         artistPhoto: "covers/The Beatles.png", 
@@ -469,6 +519,7 @@ let trendPlaylist = [
     },//22
     { 
         title: "Wait      ", 
+        album:"",
         artist: "The Beatles    ",
         lyrics:"Wait",        
         artistPhoto: "covers/The Beatles.png", 
@@ -478,6 +529,7 @@ let trendPlaylist = [
     },//23
     { 
         title: "Run For Your Life      ", 
+        album:"",
         artist: "The Beatles    ",
         lyrics:"Run For Your Life",        
         artistPhoto: "covers/The Beatles.png", 
@@ -487,6 +539,7 @@ let trendPlaylist = [
     },//24
     { 
         title: "Nowhere Man      ", 
+        album:"",
         artist: "The Beatles    ",
         lyrics:"Nowhere Man",        
         artistPhoto: "covers/The Beatles.png", 
@@ -496,6 +549,7 @@ let trendPlaylist = [
     },//25
     { 
         title: "What Goes On      ", 
+        album:"",
         artist: "The Beatles    ",
         lyrics:"What Goes On",        
         artistPhoto: "covers/The Beatles.png", 
@@ -509,6 +563,7 @@ let trendPlaylist = [
     //Karan Aujla
     { 
         title: "Softly      ", 
+        album:"",
         artist: "Karan Aujla   ",
         lyrics:"Softly",        
         artistPhoto: "covers/Karan Aujla.png", 
@@ -518,6 +573,7 @@ let trendPlaylist = [
     },//65
     { 
         title: "On Top      ", 
+        album:"",
         artist: "Karan Aujla   ",
         lyrics:"On Top",        
         artistPhoto: "covers/Karan Aujla.png", 
@@ -527,6 +583,7 @@ let trendPlaylist = [
     },//66
     { 
         title: "WYTB      ", 
+        album:"",
         artist: "Karan Aujla   ",
         lyrics:"WYTB",        
         artistPhoto: "covers/Karan Aujla.png", 
@@ -536,6 +593,7 @@ let trendPlaylist = [
     },//67
     { 
         title: "52 Bars      ", 
+        album:"",
         artist: "Karan Aujla   ",
         lyrics:"52 Bars",        
         artistPhoto: "covers/Karan Aujla.png", 
@@ -545,6 +603,7 @@ let trendPlaylist = [
     },//68
     { 
         title: "Jee Ni Lagda      ", 
+        album:"",
         artist: "Karan Aujla   ",
         lyrics:"Jee Ni Lagda",        
         artistPhoto: "covers/Karan Aujla.png", 
@@ -554,6 +613,7 @@ let trendPlaylist = [
     },//69
     { 
         title: "Player      ", 
+        album:"",
         artist: "Karan Aujla, Badshah",
         lyrics:"Player",        
         artistPhoto: "covers/Karan Aujla.png", 
@@ -562,6 +622,7 @@ let trendPlaylist = [
     },//70
     { 
         title: "Chauffeur      ", 
+        album:"",
         artist: " Diljit Dosanjh     ",
         lyrics:"Chauffeur",        
         artistPhoto: "covers/Karan Aujla.png", 
@@ -571,6 +632,7 @@ let trendPlaylist = [
     },//71
     { 
         title: "White Brown Black      ", 
+        album:"",
         artist: "Karan Aujla, Avvy Sra",
         lyrics:"White Brown Black",        
         artistPhoto: "covers/Karan Aujla.png", 
@@ -580,6 +642,7 @@ let trendPlaylist = [
     },//72
     { 
         title: "Tauba Tauba      ", 
+        album:"",
         artist: "Karan Aujla   ",
         lyrics:"Tauba Tauba",        
         artistPhoto: "covers/Karan Aujla.png", 
@@ -589,6 +652,7 @@ let trendPlaylist = [
     },//73
     { 
         title: "Chitta Kurta      ", 
+        album:"",
         artist: "Karan Aujla   ",
         lyrics:"Chitta Kurta",        
         artistPhoto: "covers/Karan Aujla.png", 
@@ -598,6 +662,7 @@ let trendPlaylist = [
     },//74
     { 
         title: "Mexico      ", 
+        album:"",
         artist: "Karan Aujla   ",
         lyrics:"Mexico",        
         artistPhoto: "covers/Karan Aujla.png", 
@@ -607,6 +672,7 @@ let trendPlaylist = [
     },//75
     { 
         title: "God Damn      ", 
+        album:"",
         artist: "Karan Aujla   ",
         lyrics:"God Damn",        
         artistPhoto: "covers/Karan Aujla.png", 
@@ -619,6 +685,7 @@ let trendPlaylist = [
     //mislenous songs
     { 
         title: "Victory Anthem      ", 
+        album:"",
         artist: "Khushi-Saini  ", 
         lyrics:"Victory Anthem", 
         cover: "covers/victory anthem.jpg", 
@@ -627,6 +694,7 @@ let trendPlaylist = [
     },//27
     { 
         title: "Tu Hai Kaha      ", 
+        album:"",
         artist: "A-U-R"  , 
         lyrics:"Tu Hai Kaha", 
         cover: "covers/tu hai kaha.jpg", 
@@ -635,6 +703,7 @@ let trendPlaylist = [
     },//28
     { 
         title: "Sweater      ", 
+        album:"",
         artist: "Preet Hundal ", 
         lyrics:"Sweater", 
         cover: "covers/sweater.jpg", 
@@ -643,6 +712,7 @@ let trendPlaylist = [
     },//29
     { 
         title: "Zindagi      ", 
+        album:"",
         artist: "Sabba  ",
         lyrics:"Zindagi",        
         artistPhoto: "covers/Sabba.png", 
@@ -652,6 +722,7 @@ let trendPlaylist = [
     },//30
     { 
         title: "Medal      ", 
+        album:"",
         artist: "Chandra Brar  ", 
         lyrics:"Medal", 
         cover: "covers/medal.jpg", 
@@ -660,6 +731,7 @@ let trendPlaylist = [
     },//31
     { 
         title: "Ishq hoya      ", 
+        album:"",
         artist: "Jyoti Nooran , Arjit Srivastav  ", 
         lyrics:"Ishq hoya", 
         cover: "covers/ishq hoya.jpg", 
@@ -668,6 +740,7 @@ let trendPlaylist = [
     },//32
     { 
         title: "Illegal      ", 
+        album:"",
         artist: "Dhanda Nyoliwala   ",
         lyrics:"Illegal",        
         artistPhoto: "covers/Dhanda Nyoliwala.png", 
@@ -677,6 +750,7 @@ let trendPlaylist = [
     },//33
     { 
         title: "Maada Time      ", 
+        album:"",
         artist: "Sabba  ",
         lyrics:"Maada Time",        
         artistPhoto: "covers/Sabba.png", 
@@ -686,6 +760,7 @@ let trendPlaylist = [
     },//34
     { 
         title: "Dil Tu Jaan Tu      ", 
+        album:"",
         artist: "Guranzar  ", 
         lyrics:"Dil Tu Jaan Tu", 
         cover: "covers/dil tu jaan tu.jpg", 
@@ -694,6 +769,7 @@ let trendPlaylist = [
     },//35
     { 
         title: "Victory Anthem      ", 
+        album:"",
         artist: "Khushi-Saini  ", 
         lyrics:"Victory Anthem", 
         cover: "covers/victory anthem.jpg", 
@@ -702,6 +778,7 @@ let trendPlaylist = [
     },//36
     { 
         title: "Tareyan Di Loh      ", 
+        album:"",
         artist: "Harsh Bilga  ", 
         lyrics:"Tareyan Di Loh", 
         cover: "covers/tareyan di loh.jpg", 
@@ -710,6 +787,7 @@ let trendPlaylist = [
     },//37
     { 
         title: "Khidki      ", 
+        album:"",
         artist: "Rachit Shrivatav  ", 
         lyrics:"Khidki", 
         cover: "covers/khidki.webp", 
@@ -718,6 +796,7 @@ let trendPlaylist = [
     },//38
     { 
         title: "Long Time No See      ", 
+        album:"",
         artist: "A-U-R  ", 
         lyrics:"Long Time No See", 
         cover: "covers/long time no see.jpg", 
@@ -726,6 +805,7 @@ let trendPlaylist = [
     },//39
     { 
         title: "That Girl      ", 
+        album:"",
         artist: "Amrinder Gill  ",
         lyrics:"That Girl",        
         artistPhoto: "covers/Amrinder Gill.png", 
@@ -735,6 +815,7 @@ let trendPlaylist = [
     },//39
     { 
         title: "Khabbi Seat      ", 
+        album:"",
         artist: "Ammy Virk  ", 
         lyrics:"Khabbi Seat", 
         cover: "covers/khabbi seat_ammy virk.png", 
@@ -743,6 +824,7 @@ let trendPlaylist = [
     },//39
     { 
         title: "Ikk Number      ", 
+        album:"",
         artist: "Gurnam Bhullar  ", 
         lyrics:"Ikk Number", 
         cover: "covers/ik number_gurnam bhullar.png", 
@@ -751,6 +833,7 @@ let trendPlaylist = [
     },//39
     { 
         title: "Filter      ", 
+        album:"",
         artist: "Gulab Sidhu  ", 
         lyrics:"Filter", 
         cover: "covers/filter_gulab sidhu.png", 
@@ -759,6 +842,7 @@ let trendPlaylist = [
     },//39
     { 
         title: "Patti Ton Patiala      ", 
+        album:"",
         artist: "Harkirat Sangha   ", 
         lyrics:"Patti Ton Patiala", 
         cover: "covers/patti to patiala_harkirat sangha.png", 
@@ -769,6 +853,7 @@ let trendPlaylist = [
     //Hustinder
     { 
         title: "Ik Mutiyaar Hundi Si       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Ik Mutiyaar Hundi Si",        
         artistPhoto: "covers/Hustinder.png", 
@@ -778,6 +863,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Hundi Si Gareebi      ", 
+        album:"",
         artist: "Hustinder, Black   ",
         lyrics:"Hundi Si Gareebi",        
         artistPhoto: "covers/Hustinder.png", 
@@ -787,6 +873,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Bhuleya Ki Ae      ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Bhuleya Ki Ae",        
         artistPhoto: "covers/Hustinder.png", 
@@ -796,6 +883,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Dollar Wargiye       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Dollar Wargiye",        
         artistPhoto: "covers/Hustinder.png", 
@@ -805,6 +893,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Dullda Glass      ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Dullda Glass",        
         artistPhoto: "covers/Hustinder.png", 
@@ -814,6 +903,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Gal Koun Karda       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Gal Koun Karda",        
         artistPhoto: "covers/Hustinder.png", 
@@ -823,6 +913,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Gaza Patti       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Gaza Patti",        
         artistPhoto: "covers/Hustinder.png", 
@@ -832,6 +923,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Gumnaam Pyaar       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Gumnaam Pyaar",        
         artistPhoto: "covers/Hustinder.png", 
@@ -841,6 +933,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Hasde Hi Rehndeya       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Hasde Hi Rehndeya",        
         artistPhoto: "covers/Hustinder.png", 
@@ -850,6 +943,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Hathan Utte Duniya       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Hathan Utte Duniya",        
         artistPhoto: "covers/Hustinder.png", 
@@ -859,6 +953,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Hopes       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Hopes",        
         artistPhoto: "covers/Hustinder.png", 
@@ -868,6 +963,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Jethi Dhee       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Jethi Dhee",        
         artistPhoto: "covers/Hustinder.png", 
@@ -877,6 +973,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Kharcha Kardange       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Kharcha Kardange",        
         artistPhoto: "covers/Hustinder.png", 
@@ -886,6 +983,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Laag Daat       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Laag Daat",        
         artistPhoto: "covers/Hustinder.png", 
@@ -895,6 +993,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Maa Kehndi Hundi Si       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Maa Kehndi Hundi Si",        
         artistPhoto: "covers/Hustinder.png", 
@@ -904,6 +1003,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Man Ton Lehgi       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Man Ton Lehgi",        
         artistPhoto: "covers/Hustinder.png", 
@@ -913,6 +1013,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Mittran De Circle       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Mittran De Circle",        
         artistPhoto: "covers/Hustinder.png", 
@@ -922,6 +1023,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Nachdi Ton       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Nachdi Ton",        
         artistPhoto: "covers/Hustinder.png", 
@@ -931,6 +1033,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Paasport Size Tasveer       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Paasport Size Tasveer",        
         artistPhoto: "covers/Hustinder.png", 
@@ -940,6 +1043,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Praandi       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Praandi",        
         artistPhoto: "covers/Hustinder.png", 
@@ -949,6 +1053,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Pyaar Hoya       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Pyaar Hoya",        
         artistPhoto: "covers/Hustinder.png", 
@@ -958,6 +1063,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Rabb Di Aulad       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Rabb Di Aulad",        
         artistPhoto: "covers/Hustinder.png", 
@@ -967,6 +1073,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Raonak       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Raonak",        
         artistPhoto: "covers/Hustinder.png", 
@@ -976,6 +1083,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Rullde Firde Aan       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Rullde Firde Aan",        
         artistPhoto: "covers/Hustinder.png", 
@@ -985,6 +1093,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Saade Warge       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Saade Warge",        
         artistPhoto: "covers/Hustinder.png", 
@@ -994,6 +1103,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Surga Nu Rah       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Surga Nu Rah",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1003,6 +1113,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Tera Mera Nata       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Tera Mera Nata",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1012,6 +1123,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Teri Deed       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Teri Deed",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1021,6 +1133,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Tu Takkri       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Tu Takkri",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1030,6 +1143,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Ucheyan Gharan Di Jaaiye       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Ucheyan Gharan Di Jaaiye",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1039,6 +1153,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Velly Yaar       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Velly Yaar",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1048,6 +1163,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Watching You       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Watching You",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1057,6 +1173,7 @@ let trendPlaylist = [
     },//song3
     { 
         title: "Yari Tod Layi       ", 
+        album:"",
         artist: "Hustinder     ",
         lyrics:"Yari Tod Layi",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1070,6 +1187,7 @@ let trendPlaylist = [
     //RP Singh
     {
         title: "Sexy       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Sexy",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1079,6 +1197,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Pencil       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Pencil",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1088,6 +1207,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Sheesha       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Sheesha",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1097,6 +1217,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Rap God       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Rap God",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1106,6 +1227,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Mcoca       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Mcoca",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1115,6 +1237,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Banger       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Banger",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1124,6 +1247,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Bliss       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Bliss",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1133,6 +1257,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Azad Flow       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Azad Flow ",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1143,6 +1268,7 @@ let trendPlaylist = [
     
     {
         title: "Power       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Power",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1152,6 +1278,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Meeh       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Meeh",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1161,6 +1288,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Chehre       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Chehre",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1170,6 +1298,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "3 AM       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"3 AM",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1179,6 +1308,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Aadhi Si Raat       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Aadhi Si Raat",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1188,6 +1318,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Jigre       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Jigre",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1197,6 +1328,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Look Book       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Look Book",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1206,6 +1338,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Maal       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Maal",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1215,6 +1348,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "No Lve       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"  ",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1224,6 +1358,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Pataka       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Pataka",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1233,6 +1368,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Sapne       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"  ",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1242,6 +1378,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Tehalka       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Tehalka",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1251,6 +1388,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Stop RP       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Stop RP",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1261,6 +1399,7 @@ let trendPlaylist = [
 
     {
         title: "Toxic       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Toxic",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1270,6 +1409,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Shiva       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Shiva",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1279,6 +1419,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Sneeze       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Sneeze",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1288,6 +1429,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Sarpanchi       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Sarpanchi",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1297,6 +1439,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "If You Know You Know       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"If You Know You Know",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1307,6 +1450,7 @@ let trendPlaylist = [
 
     {
         title: "7 Birth       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"7 Birth",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1316,6 +1460,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "1857       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"1857",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1325,6 +1470,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Approach       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Approach",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1334,6 +1480,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "BFF       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"BFF",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1343,6 +1490,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Do Cheez       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Do Cheez",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1352,6 +1500,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Famous       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Famous",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1361,6 +1510,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Govinda       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Govinda",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1370,6 +1520,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Jahaaj       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Jahaaj",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1379,6 +1530,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "MI AMOR       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"MI AMOR",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1388,6 +1540,7 @@ let trendPlaylist = [
     },//song3\
     {
         title: "Victor       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Victor",        
         artistPhoto: "covers/RP Singh.png", 
@@ -1401,6 +1554,7 @@ let trendPlaylist = [
         id: 2,
         
         title: "Arijit Singh",
+        album:"",
         artist: "Arijit Singh",
         cover: "covers/arijit singh.jpg",
         songs: [
@@ -1409,6 +1563,7 @@ let trendPlaylist = [
     
     {
         title: "Enna Sona      ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Enna Sona ",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1418,6 +1573,7 @@ let trendPlaylist = [
     },
     {
         title: "Tenu Sang Rakhna      ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Tenu Sang Rakhna ",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1427,6 +1583,7 @@ let trendPlaylist = [
     },
     {
         title: "O Bedardeya      ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"O Bedardeya",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1436,6 +1593,7 @@ let trendPlaylist = [
     },
     {
         title: "Kalank      ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Kalank",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1445,6 +1603,7 @@ let trendPlaylist = [
     },
     {
         title: "Kabhi Jo Badal      ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Kabhi Jo Badal ",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1454,6 +1613,7 @@ let trendPlaylist = [
     },
     {
         title: "Khairiyat     ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Khairiyat",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1463,6 +1623,7 @@ let trendPlaylist = [
     },
     {
         title: "O Maahi     ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"O Maahi",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1472,6 +1633,7 @@ let trendPlaylist = [
     },
     {
         title: "Phir Bhi Tumko Chahunga     ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Phir Bhi Tumko Chahunga",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1481,6 +1643,7 @@ let trendPlaylist = [
     },
     {
         title: "Sajni     ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Sajni",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1490,6 +1653,7 @@ let trendPlaylist = [
     },
     {
         title: "Soch Na Sake     ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Soch Na Sake",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1499,6 +1663,7 @@ let trendPlaylist = [
     },
     {
         title: "Tum Ho     ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Tum Ho",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1508,6 +1673,7 @@ let trendPlaylist = [
     },
     {
         title: "Ve Kamleya     ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Ve Kamleya",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1517,6 +1683,7 @@ let trendPlaylist = [
     },
     {
         title: "Zaalima     ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Zaalima",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1526,6 +1693,7 @@ let trendPlaylist = [
     },
     {
         title: "Bolna     ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Bolna",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1535,6 +1703,7 @@ let trendPlaylist = [
     },
     {
         title: "Citylights     ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Citylights",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1544,6 +1713,7 @@ let trendPlaylist = [
     },
     {
         title: "Hamari Adhuri Kahani    ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Hamari Adhuri Kahani",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1553,6 +1723,7 @@ let trendPlaylist = [
     },
     {
         title: "Hawayein     ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Hawayein     ",       
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1562,6 +1733,7 @@ let trendPlaylist = [
     },
     {
         title: "Humdard     ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Humdard",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1571,6 +1743,7 @@ let trendPlaylist = [
     },
     {
         title: "Ik Vaari Aa    ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Ik Vaari Aa",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1580,6 +1753,7 @@ let trendPlaylist = [
     },
     {
         title: "Jalebi     ", 
+        album:"",
         artist: "Arijit Singh    ",
         lyrics:"Jalebi",        
         artistPhoto: "covers/Arijit Singh.jpg", 
@@ -1589,6 +1763,7 @@ let trendPlaylist = [
     },//46
     { 
         title: "Vida Karo        ", 
+        album:"",
         artist: "Arijit Singh,Diljjt", 
         lyrics:"Vida Karo",        
         artistPhoto: "covers/Diljit Dosanjh.png", 
@@ -1604,189 +1779,343 @@ let trendPlaylist = [
         id: 3,
         
         title: "Eminem Hits",
+        album:"",
         artist: "Eminem",  
         cover: "covers/eminem.jpg",
         songs: [
             
             //mislenous songs
-            { title: "Victory Anthem      ", artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/singles/victory anthem.mp3", searchString: "Victer"},//27
-            { title: "Tu Hai Kaha      ", artist: "A-U-R", cover: "covers/tu hai kaha.jpg", audio: "songs/singles/tu hai kaha.mp3", searchString: "Victer"},//28
-            { title: "Sweater      ", artist: "Preet Hundal", cover: "covers/sweater.jpg", audio: "songs/singles/sweater.mp3", searchString: "Victer"},//29
-            { title: "Zindagi      ", artist: "Sabba",artistPhoto: "covers/Sabba.png", cover: "covers/zindagi sabba.jpg", audio: "songs/singles/zindagi sabba.mp3", searchString: "sabba k gane"},//30
-            { title: "Medal      ", artist: "Chandra Brar", cover: "covers/medal.jpg", audio: "songs/singles/medal.mp3", searchString: "Victer"},//31
-            { title: "Ishq hoya      ", artist: "Jyoti Nooran, Arjit Srivastav", cover: "covers/ishq hoya.jpg", audio: "songs/singles/ishq hoya.mp3", searchString: "Victer"},//32
-            { title: "Illegal      ", artist: "Dhanda Nyoliwala",artistPhoto: "covers/Dhanda Nyoliwala.png", cover: "covers/illegal dhanda.jpg", audio: "songs/singles/illegal dhanda.mp3", searchString: "Victer"},//33
-            { title: "Maada Time      ", artist: "Sabba",artistPhoto: "covers/Sabba.png", cover: "covers/maada time_sabba.png", audio: "songs/singles/maada time.mp3", searchString: "sabba k gane"},//34
-            { title: "Dil Tu Jaan Tu      ", artist: "Guranzar", cover: "covers/dil tu jaan tu.jpg", audio: "songs/singles/dil tu jaan tu.mp3", searchString: "Victer"},//35
-            { title: "Victory Anthem      ", artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/singles/victory anthem.mp3", searchString: "Victer"},//36
-            { title: "Tareyan Do Loh      ", artist: "Harsh Bilga", cover: "covers/tareyan di loh.jpg", audio: "songs/singles/tareyan di loh.mp3", searchString: "Victer"},//37
-            { title: "Khidki      ", artist: "Rachit Shrivatav", cover: "covers/khidki.webp", audio: "songs/singles/khidki.mp3", searchString: "Victer"},//38
-            { title: "Long Time No See      ", artist: "A-U-R", cover: "covers/long time no see.jpg", audio: "songs/singles/long time no see.mp3", searchString: "Victer"},//39
-            { title: "That Girl      ", artist: "Amrinder Gill",artistPhoto: "covers/Amrinder Gill.png", cover: "covers/that girl_amrinder gill.png", audio: "songs/singles/that girl_amrinder gill.mp3", searchString: "Victer"},//39
-            { title: "Khabbi Seat      ", artist: "Ammy Virk", cover: "covers/khabbi seat_ammy virk.png", audio: "songs/singles/khabbi seat_ammy virk.mp3", searchString: "Victer"},//39
-            { title: "Ikk Number      ", artist: "Gurnam Bhullar", cover: "covers/ik number_gurnam bhullar.png", audio: "songs/singles/ik number_gurnam bhullar.mp3", searchString: "Victer"},//39
-            { title: "Filter      ", artist: "Gulab Sidhu", cover: "covers/filter_gulab sidhu.png", audio: "songs/singles/filter_gulab sidhu.mp3", searchString: "Victer"},//39
-            { title: "Patti Ton Patiala      ", artist: "Harkirat Sangha", cover: "covers/patti to patiala_harkirat sangha.png", audio: "songs/singles/patti to patiala_harkirat sangha.mp3", searchString: "Victer"},//39
+            { title: "Victory Anthem",
+                album:"",       artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/singles/victory anthem.mp3", searchString: "Victer"},//27
+            { title: "Tu Hai Kaha",
+                album:"",       artist: "A-U-R", cover: "covers/tu hai kaha.jpg", audio: "songs/singles/tu hai kaha.mp3", searchString: "Victer"},//28
+            { title: "Sweater",
+                album:"",       artist: "Preet Hundal", cover: "covers/sweater.jpg", audio: "songs/singles/sweater.mp3", searchString: "Victer"},//29
+            { title: "Zindagi",
+                album:"",       artist: "Sabba",artistPhoto: "covers/Sabba.png", cover: "covers/zindagi sabba.jpg", audio: "songs/singles/zindagi sabba.mp3", searchString: "sabba k gane"},//30
+            { title: "Medal",
+                album:"",       artist: "Chandra Brar", cover: "covers/medal.jpg", audio: "songs/singles/medal.mp3", searchString: "Victer"},//31
+            { title: "Ishq hoya",
+                album:"",       artist: "Jyoti Nooran, Arjit Srivastav", cover: "covers/ishq hoya.jpg", audio: "songs/singles/ishq hoya.mp3", searchString: "Victer"},//32
+            { title: "Illegal",
+                album:"",       artist: "Dhanda Nyoliwala",artistPhoto: "covers/Dhanda Nyoliwala.png", cover: "covers/illegal dhanda.jpg", audio: "songs/singles/illegal dhanda.mp3", searchString: "Victer"},//33
+            { title: "Maada Time",
+                album:"",       artist: "Sabba",artistPhoto: "covers/Sabba.png", cover: "covers/maada time_sabba.png", audio: "songs/singles/maada time.mp3", searchString: "sabba k gane"},//34
+            { title: "Dil Tu Jaan Tu",
+                album:"",       artist: "Guranzar", cover: "covers/dil tu jaan tu.jpg", audio: "songs/singles/dil tu jaan tu.mp3", searchString: "Victer"},//35
+            { title: "Victory Anthem",
+                album:"",      artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/singles/victory anthem.mp3", searchString: "Victer"},//36
+            { title: "Tareyan Do Loh",
+                album:"",       artist: "Harsh Bilga", cover: "covers/tareyan di loh.jpg", audio: "songs/singles/tareyan di loh.mp3", searchString: "Victer"},//37
+            { title: "Khidki",
+                album:"",       artist: "Rachit Shrivatav", cover: "covers/khidki.webp", audio: "songs/singles/khidki.mp3", searchString: "Victer"},//38
+            { title: "Long Time No See",
+                album:"",       artist: "A-U-R", cover: "covers/long time no see.jpg", audio: "songs/singles/long time no see.mp3", searchString: "Victer"},//39
+            { title: "That Girl",
+                album:"",       artist: "Amrinder Gill",artistPhoto: "covers/Amrinder Gill.png", cover: "covers/that girl_amrinder gill.png", audio: "songs/singles/that girl_amrinder gill.mp3", searchString: "Victer"},//39
+            { title: "Khabbi Seat",
+                album:"",      artist: "Ammy Virk", cover: "covers/khabbi seat_ammy virk.png", audio: "songs/singles/khabbi seat_ammy virk.mp3", searchString: "Victer"},//39
+            { title: "Ikk Number",
+                album:"",       artist: "Gurnam Bhullar", cover: "covers/ik number_gurnam bhullar.png", audio: "songs/singles/ik number_gurnam bhullar.mp3", searchString: "Victer"},//39
+            { title: "Filter",
+                album:"",       artist: "Gulab Sidhu", cover: "covers/filter_gulab sidhu.png", audio: "songs/singles/filter_gulab sidhu.mp3", searchString: "Victer"},//39
+            { title: "Patti Ton Patiala",
+                album:"",       artist: "Harkirat Sangha", cover: "covers/patti to patiala_harkirat sangha.png", audio: "songs/singles/patti to patiala_harkirat sangha.mp3", searchString: "Victer"},//39
             //Karan Aujla
-            { title: "Softly      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/softly_karan.png", audio: "songs/singles/softly_karan.mp3", searchString: "Victer"},//65
-            { title: "On Top      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/on top_karan.png", audio: "songs/singles/on top_karan.mp3", searchString: "Victer"},//66
-            { title: "WYTB      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/wytb_karan.png", audio: "songs/singles/wytb_karan.mp3", searchString: "Victer"},//67
-            { title: "52 Bars      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/52 bars_karan.png", audio: "songs/singles/52 bars_karan.mp3", searchString: "Victer"},//68
-            { title: "Jee Ni Lagda      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/jee ni lagda_karan.png", audio: "songs/singles/jee ni lagda_karan.mp3", searchString: "Victer"},//69
-            { title: "Player      ", artist: "Karan Aujla, Badshah",artistPhoto: "covers/Karan Aujla.png", cover: "covers/player_karan.png", audio: "songs/singles/player_karan.mp3"},//70
-            { title: "Chauffeur      ", artist: " Diljit Dosanjh     ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/chauffeur_diljit.png", audio: "songs/singles/chauffeur_diljjt.mp3", searchString: "Victer"},//71
-            { title: "White Brown Black      ", artist: "Karan Aujla, Avvy Sra",artistPhoto: "covers/Karan Aujla.png", cover: "covers/white brown black_karan_avvy.png", audio: "songs/singles/white brown black_karan_avvy.mp3", searchString: "Victer"},//72
-            { title: "Tauba Tauba      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/tauba tauba_karan.png", audio: "songs/singles/tauba tauba_karan.mp3", searchString: "Victer"},//73
-            { title: "Chitta Kurta      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/chitta kurta_karan.png", audio: "songs/singles/chitta kurta_karan.mp3", searchString: "Victer"},//74
-            { title: "Mexico      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/mexico_karan.png", audio: "songs/singles/mexico_karan.mp3", searchString: "Victer"},//75
-            { title: "God Damn      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/god damn_karan.png", audio: "songs/singles/god damn_karan.mp3", searchString: "Victer"},//76
+            { title: "Softly",
+                album:"",       artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/softly_karan.png", audio: "songs/singles/softly_karan.mp3", searchString: "Victer"},//65
+            { title: "On Top",
+                album:"",       artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/on top_karan.png", audio: "songs/singles/on top_karan.mp3", searchString: "Victer"},//66
+            { title: "WYTB",
+                album:"",       artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/wytb_karan.png", audio: "songs/singles/wytb_karan.mp3", searchString: "Victer"},//67
+            { title: "52 Bars",
+                album:"",       artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/52 bars_karan.png", audio: "songs/singles/52 bars_karan.mp3", searchString: "Victer"},//68
+            { title: "Jee Ni Lagda",
+                album:"",       artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/jee ni lagda_karan.png", audio: "songs/singles/jee ni lagda_karan.mp3", searchString: "Victer"},//69
+            { title: "Player",
+                album:"",       artist: "Karan Aujla, Badshah",artistPhoto: "covers/Karan Aujla.png", cover: "covers/player_karan.png", audio: "songs/singles/player_karan.mp3"},//70
+            { title: "Chauffeur",
+                album:"",      artist: " Diljit Dosanjh     ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/chauffeur_diljit.png", audio: "songs/singles/chauffeur_diljjt.mp3", searchString: "Victer"},//71
+            { title: "White Brown Black",
+                album:"",      artist: "Karan Aujla, Avvy Sra",artistPhoto: "covers/Karan Aujla.png", cover: "covers/white brown black_karan_avvy.png", audio: "songs/singles/white brown black_karan_avvy.mp3", searchString: "Victer"},//72
+            { title: "Tauba Tauba",
+                album:"",       artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/tauba tauba_karan.png", audio: "songs/singles/tauba tauba_karan.mp3", searchString: "Victer"},//73
+            { title: "Chitta Kurta",
+                album:"",      artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/chitta kurta_karan.png", audio: "songs/singles/chitta kurta_karan.mp3", searchString: "Victer"},//74
+            { title: "Mexico",
+                album:"",      artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/mexico_karan.png", audio: "songs/singles/mexico_karan.mp3", searchString: "Victer"},//75
+            { title: "God Damn",
+                album:"",      artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/god damn_karan.png", audio: "songs/singles/god damn_karan.mp3", searchString: "Victer"},//76
 
                     //Diljit Dosanjh
-            { title: "Lover        ", artist: "Diljit Dosanjh     ", artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lover_diljit.png", audio: "songs/singles/lover_diljit.mp3", searchString: "diljit k gane lover  love diljit lovr lvr diljit diljeet diljjt dil jit lvr"},//40
-            { title: "Case        ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/case_diljit.png", audio: "songs/singles/case_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jitdosanjh doshanjh dosnjh "},//41
-            { title: "Ishq Di Baajiyaan        ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq di baajiyaan_diljit.png", audio: "songs/singles/ishq di baajiyaan_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//42
-            { title: "Love Ya        ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lova ya_diljit.png", audio: "songs/singles/love ya_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//43
-            { title: "Lalkara         ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lalkara_diljit.png", audio: "songs/singles/lalkara_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//44
-            { title: "Tu Kya Jaane        ", artist: "Yashika Sikka, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/tu kya jaane_diljit.png", audio: "songs/singles/tu kya jaane_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//45
-            { title: "Bol Mohabbat        ", artist: "AR Rehman, Kailash Kher,Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/bol mohabbat_diljit.png", audio: "songs/singles/bol mohabbat_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//46
-            { title: "Vida Karo        ", artist: "Arijit Singh,Diljjt",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/vida karo_diljit.png", audio: "songs/singles/vida karo_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//47
-            { title: "Panga        ", artist: "Diljit Dosanjh, Yo Yo Honey Singh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/panga_diljit_yoyo.png", audio: "songs/singles/panga_diljjt_yoyo.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//48
-            { title: "Ishq Mitaye        ", artist: "AR Rehman, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq mitaye_diljit.png", audio: "songs/singles/ishq mitaye_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//49
-            { title: "5 Tara        ", artist: " Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/5 tara_diljit.png", audio: "songs/singles/5 tara_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//50
-            { title: "Do You Know       ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/do you know_diljit.png", audio: "songs/singles/do you know_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//51
-            { title: "G.O.A.T      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/goat_diljit.png", audio: "songs/singles/goat_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//52
-            { title: "Clash      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/clash_diljit.png", audio: "songs/singles/clash_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//53
-            { title: "Muchh      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/muchh_diljit.png", audio: "songs/singles/muchh_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//54
-            { title: "High End      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/high end_diljit.png", audio: "songs/singles/high end_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//55
-            { title: "Naram Kalja      ", artist: "Diljjt Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/naram kalja_diljit.png", audio: "songs/singles/naram kalja_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//56
-            { title: "Baaja      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/bajja_diljit.png", audio: "songs/singles/bajja_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//57
-            { title: "Muhammad Ali      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/muhammad ali_diljit.png", audio: "songs/singles/muhammad ali_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//58
-            { title: "El Sueno      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/el sueno_diljit.png", audio: "songs/singles/el sueno_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//59
-            { title: "Born To Shine      ", artist: "Diljit Dosanjb",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/born to shine_diljit.png", audio: "songs/singles/born to shine_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//60
-            { title: "Peaches      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/peaches_diljit.png", audio: "songs/singles/peaches_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//61
-            { title: "What Ve      ", artist: "Diljjt Dosanjh,Nimrat Khaira",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/what ve_diljit.png", audio: "songs/singles/what ve_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//62
-            { title: "Hass Hass      ", artist: "Sia,Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/hass hass_diljit.png", audio: "songs/singles/hass hass_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//63
-            { title: "Patiala Peg      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/patiala peg_diljit.png", audio: "songs/singles/patiala peg_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//64
-            { title: "Mombattiye      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/mombattiye_diljit.png", audio: "songs/singles/mombattiye_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//64
+            { title: "Lover",  
+                album:"",       artist: "Diljit Dosanjh     ", artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lover_diljit.png", audio: "songs/singles/lover_diljit.mp3", searchString: "diljit k gane lover  love diljit lovr lvr diljit diljeet diljjt dil jit lvr"},//40
+            { title: "Case",  
+                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/case_diljit.png", audio: "songs/singles/case_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jitdosanjh doshanjh dosnjh "},//41
+            { title: "Ishq Di Baajiyaan",  
+                album:"",      artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq di baajiyaan_diljit.png", audio: "songs/singles/ishq di baajiyaan_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//42
+            { title: "Love Ya ", 
+                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lova ya_diljit.png", audio: "songs/singles/love ya_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//43
+            { title: "Lalkara",   
+                album:"",      artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lalkara_diljit.png", audio: "songs/singles/lalkara_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//44
+            { title: "Tu Kya Jaane",  
+                album:"",       artist: "Yashika Sikka, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/tu kya jaane_diljit.png", audio: "songs/singles/tu kya jaane_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//45
+            { title: "Bol Mohabbat",  
+                album:"",       artist: "AR Rehman, Kailash Kher,Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/bol mohabbat_diljit.png", audio: "songs/singles/bol mohabbat_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//46
+            { title: "Vida Karo",  
+                album:"",     artist: "Arijit Singh,Diljjt",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/vida karo_diljit.png", audio: "songs/singles/vida karo_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//47
+            { title: "Panga",  
+                album:"",      artist: "Diljit Dosanjh, Yo Yo Honey Singh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/panga_diljit_yoyo.png", audio: "songs/singles/panga_diljjt_yoyo.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//48
+            { title: "Ishq Mitaye ", 
+                album:"",      artist: "AR Rehman, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq mitaye_diljit.png", audio: "songs/singles/ishq mitaye_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//49
+            { title: "5 Tara",  
+                album:"",       artist: " Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/5 tara_diljit.png", audio: "songs/singles/5 tara_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//50
+            { title: "Do You Know", 
+                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/do you know_diljit.png", audio: "songs/singles/do you know_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//51
+            { title: "G.O.A.T",
+                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/goat_diljit.png", audio: "songs/singles/goat_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//52
+            { title: "Clash",
+                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/clash_diljit.png", audio: "songs/singles/clash_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//53
+            { title: "Muchh",
+                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/muchh_diljit.png", audio: "songs/singles/muchh_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//54
+            { title: "High End",
+                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/high end_diljit.png", audio: "songs/singles/high end_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//55
+            { title: "Naram Kalja",
+                album:"",       artist: "Diljjt Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/naram kalja_diljit.png", audio: "songs/singles/naram kalja_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//56
+            { title: "Baaja",
+                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/bajja_diljit.png", audio: "songs/singles/bajja_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//57
+            { title: "Muhammad Ali",
+                album:"",      artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/muhammad ali_diljit.png", audio: "songs/singles/muhammad ali_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//58
+            { title: "El Sueno",
+                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/el sueno_diljit.png", audio: "songs/singles/el sueno_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//59
+            { title: "Born To Shine",
+                album:"",       artist: "Diljit Dosanjb",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/born to shine_diljit.png", audio: "songs/singles/born to shine_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//60
+            { title: "Peaches",
+                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/peaches_diljit.png", audio: "songs/singles/peaches_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//61
+            { title: "What Ve",
+                album:"",       artist: "Diljjt Dosanjh,Nimrat Khaira",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/what ve_diljit.png", audio: "songs/singles/what ve_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//62
+            { title: "Hass Hass",
+                album:"",       artist: "Sia,Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/hass hass_diljit.png", audio: "songs/singles/hass hass_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//63
+            { title: "Patiala Peg",
+                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/patiala peg_diljit.png", audio: "songs/singles/patiala peg_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//64
+            { title: "Mombattiye",
+                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/mombattiye_diljit.png", audio: "songs/singles/mombattiye_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//64
 
-            { title: "Jo Tum Mere Ho      ", artist: "Anuv Jain",artistPhoto: "covers/Anuv Jain.png", cover: "covers/track1.jpg", audio: "songs/singles/jo tum mere ho.mp3", searchString: "anuv jain songs anuv jain k gane anuv jain anuv jo tum mere ho"},//song1
-            { title: "Fly Karke      ", artist: "SABBA, Jasmeen",artistPhoto: "covers/Sabba.png", cover: "covers/fly karke_sabba.png", audio: "songs/singles/fly krke.mp3", searchString: "fly krke fly fli krke karke flai krke song sabba song sabba k gane"},//song2
+            { title: "Jo Tum Mere Ho",
+                album:"",       artist: "Anuv Jain",artistPhoto: "covers/Anuv Jain.png", cover: "covers/track1.jpg", audio: "songs/singles/jo tum mere ho.mp3", searchString: "anuv jain songs anuv jain k gane anuv jain anuv jo tum mere ho"},//song1
+            { title: "Fly Karke",
+                album:"",       artist: "SABBA, Jasmeen",artistPhoto: "covers/Sabba.png", cover: "covers/fly karke_sabba.png", audio: "songs/singles/fly krke.mp3", searchString: "fly krke fly fli krke karke flai krke song sabba song sabba k gane"},//song2
             
             //Arjan Dhillon-Glorious and more
-            { title: "Youth Flow      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/youth flow.mp3", searchString: "arjan songs arjan jawani song arjan"},//song4
-            { title: "Glorious      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/glorious.mp3", searchString: "arjan songs glorious glowrious glorius gloris"},//song5
-            { title: "Maavan      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/maavan.mp3", searchString: "arjan songs mava maanvan mava maava maa maa song arjan"},//song6
-            { title: "Back To Sikhi      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/back to sikhi.mp3", searchString: "arjan songs pagg back to siki sikhi sikki"},//song7
-            { title: "Biography      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/biography.mp3", searchString: "arjan songs bigraphy bigrafi biographi "},//song8
-            { title: "Tyar      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/tyar.mp3", searchString: "arjan songs tyaar tyar ready tyar hi ni hoye"},//song9
+            { title: "Youth Flow",
+                album:"",       artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/youth flow.mp3", searchString: "arjan songs arjan jawani song arjan"},//song4
+            { title: "Glorious",
+                album:"",       artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/glorious.mp3", searchString: "arjan songs glorious glowrious glorius gloris"},//song5
+            { title: "Maavan",
+                album:"",       artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/maavan.mp3", searchString: "arjan songs mava maanvan mava maava maa maa song arjan"},//song6
+            { title: "Back To Sikhi",
+                album:"",      artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/back to sikhi.mp3", searchString: "arjan songs pagg back to siki sikhi sikki"},//song7
+            { title: "Biography",
+                album:"",       artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/biography.mp3", searchString: "arjan songs bigraphy bigrafi biographi "},//song8
+            { title: "Tyar",
+                album:"",       artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/tyar.mp3", searchString: "arjan songs tyaar tyar ready tyar hi ni hoye"},//song9
             
-            { title: "Heer      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/heer_arjan dhillon.png", audio: "songs/singles/heer_arjan dhillon.mp3", searchString: "arjan songs"},//song9
-            { title: "Punjab Intro      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/punjab intro_arjan dhillon.png", audio: "songs/singles/punjab intro_arjan dhillon.mp3", searchString: "arjan songs"},//song9
+            { title: "Heer",
+                album:"",       artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/heer_arjan dhillon.png", audio: "songs/singles/heer_arjan dhillon.mp3", searchString: "arjan songs"},//song9
+            { title: "Punjab Intro",
+                album:"",       artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/punjab intro_arjan dhillon.png", audio: "songs/singles/punjab intro_arjan dhillon.mp3", searchString: "arjan songs"},//song9
             
             
             
             //Dhanda
-            { title: "Up To You      ", artist: "Dhanda Nyoliwala",artistPhoto: "covers/Dhanda Nyoliwala.png", cover: "covers/up to you.jpg", audio: "songs/singles/up to you.mp3", searchString: "Victer"},//song10
-            { title: "Russian Bandana      ", artist: "Dhanda Nyoliwala",artistPhoto: "covers/Dhanda Nyoliwala.png", cover: "covers/russian bandana.jpg", audio: "songs/singles/russian bandana.mp3", searchString: "Victer"},//song11
+            { title: "Up To You",
+                album:"",       artist: "Dhanda Nyoliwala",artistPhoto: "covers/Dhanda Nyoliwala.png", cover: "covers/up to you.jpg", audio: "songs/singles/up to you.mp3", searchString: "Victer"},//song10
+            { title: "Russian Bandana",
+                album:"",       artist: "Dhanda Nyoliwala",artistPhoto: "covers/Dhanda Nyoliwala.png", cover: "covers/russian bandana.jpg", audio: "songs/singles/russian bandana.mp3", searchString: "Victer"},//song11
             
-            { title: "Ishq      ", artist: "Faheem Abdullah,Rauhan Malik", cover: "covers/ishq.jpg", audio: "songs/singles/ishq.mp3", searchString: "Victer"},//song12
+            { title: "Ishq",
+                album:"",      artist: "Faheem Abdullah,Rauhan Malik", cover: "covers/ishq.jpg", audio: "songs/singles/ishq.mp3", searchString: "Victer"},//song12
             
             //The Beatles-Rubber Soul
-            { title: "If I Needed Someone      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/if i needed someone.mp3", searchString: "Victer"},//13
-            { title: "Norwegian Wood      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/norwegian wood.mp3", searchString: "Victer"},//14
-            { title: "You Won't See Me      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/you won't see me.mp3", searchString: "Victer"},//15
-            { title: "Think For Yourself      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/think for yourself.mp3", searchString: "Victer"},//16
-            { title: "The Word      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/the word.mp3", searchString: "Victer"},//17
-            { title: "Michelle      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/michelle.mp3", searchString: "Victer"},//18
-            { title: "Drive My Car      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/drive my car.mp3", searchString: "Victer"},//19
-            { title: "Girl      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/girl.mp3", searchString: "Victer"},//20
-            { title: "I'm Looking Through You",artistPhoto: "covers/The Beatles.png      ", artist: "The Beatles    ", cover: "covers/rubber soul.jpg", audio: "songs/singles/i'm looking through you.mp3", searchString: "Victer"},//21
-            { title: "In My Life      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/In My Life.mp3", searchString: "Victer"},//22
-            { title: "Wait      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/wait.mp3", searchString: "Victer"},//23
-            { title: "Run For Your Life      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/run for your life.mp3", searchString: "Victer"},//24
-            { title: "Nowhere Man      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/nowhere man.mp3", searchString: "Victer"},//25
-            { title: "What Goes On      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/what goes on.mp3", searchString: "Victer"},//26
+            { title: "If I Needed Someone",
+                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/if i needed someone.mp3", searchString: "Victer"},//13
+            { title: "Norwegian Wood",
+                album:"",      artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/norwegian wood.mp3", searchString: "Victer"},//14
+            { title: "You Won't See Me",
+                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/you won't see me.mp3", searchString: "Victer"},//15
+            { title: "Think For Yourself",
+                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/think for yourself.mp3", searchString: "Victer"},//16
+            { title: "The Word",
+                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/the word.mp3", searchString: "Victer"},//17
+            { title: "Michelle",
+                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/michelle.mp3", searchString: "Victer"},//18
+            { title: "Drive My Car",
+                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/drive my car.mp3", searchString: "Victer"},//19
+            { title: "Girl",
+                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/girl.mp3", searchString: "Victer"},//20
+            { title: "I'm Looking Through You",artistPhoto: "covers/The Beatles.png",
+                album:"",       artist: "The Beatles    ", cover: "covers/rubber soul.jpg", audio: "songs/singles/i'm looking through you.mp3", searchString: "Victer"},//21
+            { title: "In My Life",
+                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/In My Life.mp3", searchString: "Victer"},//22
+            { title: "Wait",
+                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/wait.mp3", searchString: "Victer"},//23
+            { title: "Run For Your Life",
+                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/run for your life.mp3", searchString: "Victer"},//24
+            { title: "Nowhere Man",
+                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/nowhere man.mp3", searchString: "Victer"},//25
+            { title: "What Goes On",
+                album:"",      artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/what goes on.mp3", searchString: "Victer"},//26
             
 
 
 
             //Hustinder
-            { title: "Ik Mutiyaar Hundi Si       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/ik mutiyar hundi si_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Hundi Si Gareebi      ", artist: "Hustinder, Black",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/hundi si gareebi_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Bhuleya Ki Ae      ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/bhuleya ki ae_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Dollar Wargiye       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/dollar wargiye_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Dullda Glass      ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/dullda glass_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Gal Koun Karda       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan 2_hustinder.png", audio: "songs/singles/gal koun karda_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Gaza Patti       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/gaza patti_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Gumnaam Pyaar       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/singles/gumnaam pyaar_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Hasde Hi Rehndeya       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/singles/hasde hi rehndeya_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Hathan Utte Duniya       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/hathan utte duniya_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Hopes       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/hopes_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Jethi Dhee       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/jethi dhee_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Kharcha Kardange       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/kharcha kardange_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Laag Daat       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/laag daat_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Maa Kehndi Hundi Si       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/singles/maa kehndi hundi si_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Man Ton Lehgi       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "songs/singles/man ton lehgi_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Mittran De Circle       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/mittran de circle_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Nachdi Ton       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/nachdi ton.mp3", searchString: "Victer"},//song3
-            { title: "Paasport Size Tasveer       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/passport size tasveer_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Praandi       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/praandi_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Pyaar Hoya       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/singles/pyaar hoya_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Rabb Di Aulad       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/rabb di aulad_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Raonak       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/raonak_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Rullde Firde Aan       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/rullde firde aan_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Saade Warge       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/saade warge_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Surga Nu Rah       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/surga nu rah_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Tera Mera Nata       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/tera mera nata_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Teri Deed       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/teri deed_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Tu Takkri       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/tu takkri_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Ucheyan Gharan Di Jaaiye       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "ucheyan gharan diye jaaiye.mp3", searchString: "Victer"},//song3
-            { title: "Velly Yaar       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/velly yaar_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Watching You       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/watching you_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Yari Tod Layi       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "songs/singles/yari tod layi_hustinder.mp3", searchString: "Victer"},//song3\
+            { title: "Ik Mutiyaar Hundi Si", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/ik mutiyar hundi si_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Hundi Si Gareebi",
+                album:"",       artist: "Hustinder, Black",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/hundi si gareebi_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Bhuleya Ki Ae",
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/bhuleya ki ae_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Dollar Wargiye", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/dollar wargiye_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Dullda Glass",
+                album:"",      artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/dullda glass_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Gal Koun Karda", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan 2_hustinder.png", audio: "songs/singles/gal koun karda_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Gaza Patti", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/gaza patti_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Gumnaam Pyaar", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/singles/gumnaam pyaar_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Hasde Hi Rehndeya", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/singles/hasde hi rehndeya_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Hathan Utte Duniya", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/hathan utte duniya_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Hopes", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/hopes_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Jethi Dhee", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/jethi dhee_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Kharcha Kardange", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/kharcha kardange_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Laag Daat", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/laag daat_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Maa Kehndi Hundi Si", 
+                album:"",      artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/singles/maa kehndi hundi si_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Man Ton Lehgi", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "songs/singles/man ton lehgi_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Mittran De Circle", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/mittran de circle_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Nachdi Ton", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/nachdi ton.mp3", searchString: "Victer"},//song3
+            { title: "Paasport Size Tasveer", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/passport size tasveer_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Praandi", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/praandi_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Pyaar Hoya", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/singles/pyaar hoya_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Rabb Di Aulad", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/rabb di aulad_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Raonak", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/raonak_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Rullde Firde Aan", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/rullde firde aan_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Saade Warge", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/saade warge_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Surga Nu Rah", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/surga nu rah_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Tera Mera Nata", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/tera mera nata_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Teri Deed", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/teri deed_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Tu Takkri", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/tu takkri_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Ucheyan Gharan Di Jaaiye", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "ucheyan gharan diye jaaiye.mp3", searchString: "Victer"},//song3
+            { title: "Velly Yaar", 
+                album:"",      artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/velly yaar_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Watching You", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/watching you_hustinder.mp3", searchString: "Victer"},//song3
+            { title: "Yari Tod Layi", 
+                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "songs/singles/yari tod layi_hustinder.mp3", searchString: "Victer"},//song3\
 
 
 
             //RP Singh
-            {title: "Sexy       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sexy_rp singh.png", audio: "songs/singles/sexy_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Pencil       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/pencil_rp singh.png", audio: "songs/singles/pencil_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Sheesha       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sheesha_rp singh.png", audio: "songs/singles/sheesha_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Rap God       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/rapgod_rp singh.png", audio: "songs/singles/rapgod_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Mcoca       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/mcoca_rp singh.png", audio: "songs/singles/mcoca_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Banger       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/banger_rp singh.png", audio: "songs/singles/banger_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Azad Flow       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/azad flow_rp singh.png", audio: "songs/singles/azad flow_rp singh.mp3", searchString: "Victer"},//song3\
 
-            {title: "Bliss       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/bliss_rp singh.png", audio: "songs/singles/bliss_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Power       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/power_rp singh.png", audio: "songs/singles/power_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Meeh       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/meeh_rp singh.png", audio: "songs/singles/meeh_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Chehre       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/chehre_rp singh.png", audio: "songs/singles/chehre_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "3 AM       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/3 am_rp singh.png", audio: "songs/singles/3 am_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Aadhi Si Raat       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/aadhi si raat_rp singh.png", audio: "songs/singles/aadhi si raat_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Jigre       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/jigre_rp singh.png", audio: "songs/singles/jigre_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Look Book       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/look book_rp singh.png", audio: "songs/singles/look book_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Maal       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/maal_rp singh.png", audio: "songs/singles/maal_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "No Lve       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/no love_rp singh.png", audio: "songs/singles/no love_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Pataka       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/pataka_rp singh.png", audio: "songs/singles/pataka_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Sapne       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sapne_rp singh.png", audio: "songs/singles/sapne_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Tehalka       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/tehalka_rp singh.png", audio: "songs/singles/tehalka_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Stop RP       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/stop rp_rp singh.png", audio: "songs/singles/stop rp_rp singh.mp3", searchString: "Victer"},//song3
+            {title: "Sexy ",
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sexy_rp singh.png", audio: "songs/singles/sexy_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Pencil", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/pencil_rp singh.png", audio: "songs/singles/pencil_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Sheesha", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sheesha_rp singh.png", audio: "songs/singles/sheesha_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Rap God", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/rapgod_rp singh.png", audio: "songs/singles/rapgod_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Mcoca", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/mcoca_rp singh.png", audio: "songs/singles/mcoca_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Banger", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/banger_rp singh.png", audio: "songs/singles/banger_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Azad Flow", 
+                album:"",      artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/azad flow_rp singh.png", audio: "songs/singles/azad flow_rp singh.mp3", searchString: "Victer"},//song3\
 
-            {title: "Toxic       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/toxic_rp singh.png", audio: "songs/singles/toxic_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Shiva       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/shiva_rp singh.png", audio: "songs/singles/shiva_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Sneeze       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sneeze_rp singh.png", audio: "songs/singles/sneeze_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Sarpanchi       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sarpanchi_rp singh.png", audio: "songs/singles/sarpanchi_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "If You Know You Know       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/if you know you know_rp singh.png", audio: "songs/singles/if you know you know_rp singh.mp3", searchString: "Victer" },//song3\
+            {title: "Bliss", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/bliss_rp singh.png", audio: "songs/singles/bliss_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Power", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/power_rp singh.png", audio: "songs/singles/power_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Meeh", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/meeh_rp singh.png", audio: "songs/singles/meeh_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Chehre", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/chehre_rp singh.png", audio: "songs/singles/chehre_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "3 AM", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/3 am_rp singh.png", audio: "songs/singles/3 am_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Aadhi Si Raat", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/aadhi si raat_rp singh.png", audio: "songs/singles/aadhi si raat_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Jigre", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/jigre_rp singh.png", audio: "songs/singles/jigre_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Look Book", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/look book_rp singh.png", audio: "songs/singles/look book_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Maal", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/maal_rp singh.png", audio: "songs/singles/maal_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "No Lve", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/no love_rp singh.png", audio: "songs/singles/no love_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Pataka", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/pataka_rp singh.png", audio: "songs/singles/pataka_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Sapne", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sapne_rp singh.png", audio: "songs/singles/sapne_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Tehalka", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/tehalka_rp singh.png", audio: "songs/singles/tehalka_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Stop RP", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/stop rp_rp singh.png", audio: "songs/singles/stop rp_rp singh.mp3", searchString: "Victer"},//song3
 
-            {title: "7 Birth       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/7 birth_rp singh.png", audio: "songs/singles/7 birth_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "1857       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/1857_rp singh.png", audio: "songs/singles/1857_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Approach       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/approach_rp singh.png", audio: "songs/singles/approach_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "BFF       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/bff_rp singh.png", audio: "songs/singles/bff_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Do Cheez       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/do cheez_rp singh.png", audio: "songs/singles/do cheez_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Famous       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/famous_rp singh.png", audio: "songs/singles/famous_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Govinda       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/govinda_rp singh.png", audio: "songs/singles/govinda_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Jahaaj       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/jahaaj_rp singh.png", audio: "songs/singles/jahaaj_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "MI AMOR       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/mi amor_rp singh.png", audio: "songs/singles/mi amor_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Victor       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/victor_rp singh.png", audio: "songs/singles/victor_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Toxic", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/toxic_rp singh.png", audio: "songs/singles/toxic_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Shiva", 
+                album:"",      artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/shiva_rp singh.png", audio: "songs/singles/shiva_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Sneeze", 
+                album:"",     artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sneeze_rp singh.png", audio: "songs/singles/sneeze_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "Sarpanchi", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sarpanchi_rp singh.png", audio: "songs/singles/sarpanchi_rp singh.mp3", searchString: "Victer"},//song3\
+            {title: "If You Know You Know", 
+                album:"",      artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/if you know you know_rp singh.png", audio: "songs/singles/if you know you know_rp singh.mp3", searchString: "Victer" },//song3\
+
+            {title: "7 Birth", 
+                album:"",      artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/7 birth_rp singh.png", audio: "songs/singles/7 birth_rp singh.mp3", searchString: "Victer" },//song3\
+            {title: "1857", 
+                album:"",     artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/1857_rp singh.png", audio: "songs/singles/1857_rp singh.mp3", searchString: "Victer" },//song3\
+            {title: "Approach", 
+                album:"",      artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/approach_rp singh.png", audio: "songs/singles/approach_rp singh.mp3", searchString: "Victer" },//song3\
+            {title: "BFF",
+                album:"",     artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/bff_rp singh.png", audio: "songs/singles/bff_rp singh.mp3", searchString: "Victer" },//song3\
+            {title: "Do Cheez", 
+                album:"",     artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/do cheez_rp singh.png", audio: "songs/singles/do cheez_rp singh.mp3", searchString: "Victer" },//song3\
+            {title: "Famous", 
+                album:"",      artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/famous_rp singh.png", audio: "songs/singles/famous_rp singh.mp3", searchString: "Victer" },//song3\
+            {title: "Govinda", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/govinda_rp singh.png", audio: "songs/singles/govinda_rp singh.mp3", searchString: "Victer" },//song3\
+            {title: "Jahaaj", 
+                album:"",      artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/jahaaj_rp singh.png", audio: "songs/singles/jahaaj_rp singh.mp3", searchString: "Victer" },//song3\
+            {title: "MI AMOR", 
+                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/mi amor_rp singh.png", audio: "songs/singles/mi amor_rp singh.mp3", searchString: "Victer" },//song3\
+            { title: "Victor", 
+                album:"",      artist: "RP Singh",  artistPhoto: "covers/RP Singh.png", cover: "covers/victor_rp singh.png", audio: "songs/singles/victor_rp singh.mp3", searchString: "Victer"},//song3\
         ]
     },
     
@@ -1794,12 +2123,14 @@ let trendPlaylist = [
     {
         id: 4,
         title: "Bhadauria    ",
+        album:"",
         artist: "Hustinder    ",
         cover: "covers/albums/hustinder/bhadauria_album.png",
         songs: [
             //The Beatles-Rubber Soul
     { 
         title: "Fella's Forever      ", 
+        album:"",
         artist: "Hustinder    ",
         lyrics:"Fella's Forever",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1809,6 +2140,7 @@ let trendPlaylist = [
     },//13
     { 
         title: "Queen's Gambit      ", 
+        album:"",
         artist: "Husinder    ",
         lyrics:"Queen's Gambit",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1818,6 +2150,7 @@ let trendPlaylist = [
     },//14
     { 
         title: "Don't You Dare      ", 
+        album:"",
         artist: "Husinder    ",
         lyrics:"Don't You Dare",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1827,6 +2160,7 @@ let trendPlaylist = [
     },//15
     { 
         title: "Mittra'n De Dere     ", 
+        album:"",
         artist: "Husinder    ",
         lyrics:"Mittra'n De Dere",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1836,6 +2170,7 @@ let trendPlaylist = [
     },//16
     { 
         title: "Step Bhull Gyi      ", 
+        album:"",
         artist: "Husinder    ",
         lyrics:"Step Bhull Gyi",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1845,6 +2180,7 @@ let trendPlaylist = [
     },//17
     { 
         title: "White Money     ", 
+        album:"",
         artist: "Husinder    ",
         lyrics:"White Money ",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1854,6 +2190,7 @@ let trendPlaylist = [
     },//18
     { 
         title: "We Living It      ", 
+        album:"",
         artist: "Husinder    ",
         lyrics:"We Living It ",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1863,6 +2200,7 @@ let trendPlaylist = [
     },//19
     { 
         title: "Kdo'n Nachana      ", 
+        album:"",
         artist: "Husinder    ",
         lyrics:"Kdo'n Nachana",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1872,6 +2210,7 @@ let trendPlaylist = [
     },//20
     { 
         title: "Move Your Car ",
+        album:"",
         artist: "Husinder    ",
         lyrics:"Move Your Car ",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1881,6 +2220,7 @@ let trendPlaylist = [
     },//21
     { 
         title: "Bhadauria      ", 
+        album:"",
         artist: "Husinder    ",
         lyrics:"Bhadauria  ",        
         artistPhoto: "covers/Hustinder.png", 
@@ -1894,13 +2234,15 @@ let trendPlaylist = [
     {
         id: 5,
         title: "Patandar    ",
+        album:"",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/patandar_album.png",
         songs: [
             //Arjan Dhillon: Patandar
             { 
                 title: "2-2 Asle     ", 
-                artist: "Arjan Dhillon   ",
+       
+       album:"",         artist: "Arjan Dhillon   ",
                 lyrics:"2-2 Asle",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
                 cover: "covers/albums/arjan/patandar_album.png", 
@@ -1909,7 +2251,8 @@ let trendPlaylist = [
             },
             { 
                 title: "Big Flex    ", 
-                artist: "Arjan Dhillon   ",
+       
+       album:"",         artist: "Arjan Dhillon   ",
                 lyrics:"Big Flex",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
                 cover: "covers/albums/arjan/patandar_album.png", 
@@ -1918,7 +2261,8 @@ let trendPlaylist = [
             },
             { 
                 title: "Brats   ", 
-                artist: "Arjan Dhillon   ",
+       
+       album:"",         artist: "Arjan Dhillon   ",
                 lyrics:"Brats",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
                 cover: "covers/albums/arjan/patandar_album.png", 
@@ -1927,7 +2271,8 @@ let trendPlaylist = [
             },
             { 
                 title: "Greatest   ", 
-                artist: "Arjan Dhillon   ",
+       
+       album:"",         artist: "Arjan Dhillon   ",
                 lyrics:"Greatest ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
                 cover: "covers/albums/arjan/patandar_album.png", 
@@ -1936,7 +2281,8 @@ let trendPlaylist = [
             },
             { 
                 title: "Hikka   ", 
-                artist: "Arjan Dhillon   ",
+       
+       album:"",         artist: "Arjan Dhillon   ",
                 lyrics:"Hikka ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
                 cover: "covers/albums/arjan/patandar_album.png", 
@@ -1945,7 +2291,8 @@ let trendPlaylist = [
             },
             { 
                 title: "Invoice    ", 
-                artist: "Arjan Dhillon   ",
+       
+       album:"",         artist: "Arjan Dhillon   ",
                 lyrics:"Invoice ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
                 cover: "covers/albums/arjan/patandar_album.png", 
@@ -1954,7 +2301,8 @@ let trendPlaylist = [
             },
             { 
                 title: "Kini Der Baad    ", 
-                artist: "Arjan Dhillon   ",
+       
+       album:"",         artist: "Arjan Dhillon   ",
                 lyrics:"Kini Der Baad ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
                 cover: "covers/albums/arjan/patandar_album.png", 
@@ -1964,7 +2312,8 @@ let trendPlaylist = [
             },
             { 
                 title: "Nain    ", 
-                artist: "Arjan Dhillon   ",
+       
+       album:"",         artist: "Arjan Dhillon   ",
                 lyrics:"Nain ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
                 cover: "covers/albums/arjan/patandar_album.png", 
@@ -1974,7 +2323,8 @@ let trendPlaylist = [
             },
             { 
                 title: "Never Ever    ", 
-                artist: "Arjan Dhillon   ",
+       
+       album:"",         artist: "Arjan Dhillon   ",
                 lyrics:"Never Ever ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
                 cover: "covers/albums/arjan/patandar_album.png", 
@@ -1984,7 +2334,8 @@ let trendPlaylist = [
             },
             { 
                 title: "Paparazzi    ", 
-                artist: "Arjan Dhillon   ",
+       
+       album:"",         artist: "Arjan Dhillon   ",
                 lyrics:"Paparazzi ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
                 cover: "covers/albums/arjan/patandar_album.png", 
@@ -1994,7 +2345,8 @@ let trendPlaylist = [
             },
             { 
                 title: "Sher-E-Panjab    ", 
-                artist: "Arjan Dhillon   ",
+       
+       album:"",         artist: "Arjan Dhillon   ",
                 lyrics:"Sher E Panjab ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
                 cover: "covers/albums/arjan/patandar_album.png", 
@@ -2004,7 +2356,8 @@ let trendPlaylist = [
             },
             { 
                 title: "Style    ", 
-                artist: "Arjan Dhillon   ",
+       
+       album:"",         artist: "Arjan Dhillon   ",
                 lyrics:"Style ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
                 cover: "covers/albums/arjan/patandar_album.png", 
@@ -2014,7 +2367,8 @@ let trendPlaylist = [
             },
             { 
                 title: "Too Late    ", 
-                artist: "Arjan Dhillon   ",
+       
+       album:"",         artist: "Arjan Dhillon   ",
                 lyrics:"Too Late ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
                 cover: "covers/albums/arjan/patandar_album.png", 
@@ -2024,7 +2378,8 @@ let trendPlaylist = [
             },
             { 
                 title: "Tu Jdo Auna    ", 
-                artist: "Arjan Dhillon   ",
+       
+       album:"",         artist: "Arjan Dhillon   ",
                 lyrics:"Tu Jdo Auna ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
                 cover: "covers/albums/arjan/patandar_album.png", 
@@ -2034,7 +2389,8 @@ let trendPlaylist = [
             },
             { 
                 title: "Youngsters    ", 
-                artist: "Arjan Dhillon   ",
+       
+       album:"",         artist: "Arjan Dhillon   ",
                 lyrics:"Youngsters ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
                 cover: "covers/albums/arjan/patandar_album.png", 
@@ -2044,7 +2400,8 @@ let trendPlaylist = [
             },
             { 
                 title: "Zigana    ", 
-                artist: "Arjan Dhillon   ",
+       
+       album:"",         artist: "Arjan Dhillon   ",
                 lyrics:"Zigana ",        
                 artistPhoto: "covers/Arjan Dhillon.png", 
                 cover: "covers/albums/arjan/patandar_album.png", 
@@ -2057,6 +2414,7 @@ let trendPlaylist = [
     {
         id:6,
         title: "Sleep",
+        album:"",
         artist: "Varius Artists",
         cover: "covers/sleep playlist.png",
         songs:[
@@ -2067,23 +2425,37 @@ let trendPlaylist = [
         id: 7,
         
         title: "Rubber Soul",
+        album:"",
         artist: "The Bealtes",
         cover: "covers/rubber soul.jpg",
         songs: [
-            { title: "If I Needed Someone      ", artist: "The Beatles    ",audio: "songs/singles/if i needed someone.mp3", cover: "covers/rubber soul.jpg"},//13
-            { title: "Norwegian Wood      ", artist: "The Beatles    ",audio: "songs/singles/norwegian wood.mp3", cover: "covers/rubber soul.jpg"},//14
-            { title: "You Won't See Me      ", artist: "The Beatles    ",audio: "songs/singles/you won't see me.mp3", cover: "covers/rubber soul.jpg"},//15
-            { title: "Think For Yourself      ", artist: "The Beatles    ",audio: "songs/singles/think for yourself.mp3", cover: "covers/rubber soul.jpg"},//16
-            { title: "The Word      ", artist: "The Beatles    ",audio: "songs/singles/the word.mp3", cover: "covers/rubber soul.jpg"},//17
-            { title: "Michelle      ", artist: "The Beatles    ",audio: "songs/singles/michelle.mp3", cover: "covers/rubber soul.jpg"},//18
-            { title: "Drive My Car      ", artist: "The Beatles    ",audio: "songs/singles/drive my car.mp3", cover: "covers/rubber soul.jpg"},//19
-            { title: "Girl      ", artist: "The Beatles    ", audio: "songs/singles/girl.mp3", cover: "covers/rubber soul.jpg"},//20
+            { title: "If I Needed Someone",
+                album:"",       artist: "The Beatles    ",audio: "songs/singles/if i needed someone.mp3", cover: "covers/rubber soul.jpg"},//13
+            { title: "Norwegian Wood",
+                album:"",       artist: "The Beatles    ",audio: "songs/singles/norwegian wood.mp3", cover: "covers/rubber soul.jpg"},//14
+            { title: "You Won't See Me",
+                album:"",       artist: "The Beatles    ",audio: "songs/singles/you won't see me.mp3", cover: "covers/rubber soul.jpg"},//15
+            { title: "Think For Yourself",
+                album:"",       artist: "The Beatles    ",audio: "songs/singles/think for yourself.mp3", cover: "covers/rubber soul.jpg"},//16
+            { title: "The Word",
+                album:"",       artist: "The Beatles    ",audio: "songs/singles/the word.mp3", cover: "covers/rubber soul.jpg"},//17
+            { title: "Michelle",
+                album:"",       artist: "The Beatles    ",audio: "songs/singles/michelle.mp3", cover: "covers/rubber soul.jpg"},//18
+            { title: "Drive My Car",
+                album:"",       artist: "The Beatles    ",audio: "songs/singles/drive my car.mp3", cover: "covers/rubber soul.jpg"},//19
+            { title: "Girl",
+                album:"",       artist: "The Beatles    ", audio: "songs/singles/girl.mp3", cover: "covers/rubber soul.jpg"},//20
             { title: "I'm Looking Through You", audio: "songs/singles/i'm looking through you.mp3", cover: "covers/rubber soul.jpg"},//21
-            { title: "In My Life      ", artist: "The Beatles    ",audio: "songs/singles/In My Life.mp3", cover: "covers/rubber soul.jpg"},//22
-            { title: "Wait      ", artist: "The Beatles    ",audio: "songs/singles/wait.mp3", cover: "covers/rubber soul.jpg"},//23
-            { title: "Run For Your Life      ", artist: "The Beatles    ",audio: "songs/singles/run for your life.mp3", cover: "covers/rubber soul.jpg"},//24
-            { title: "Nowhere Man      ", artist: "The Beatles    ",audio: "songs/singles/nowhere man.mp3", cover: "covers/rubber soul.jpg"},//25
-            { title: "What Goes On      ", artist: "The Beatles    ",audio: "songs/singles/what goes on.mp3", cover: "covers/rubber soul.jpg"},//26
+            { title: "In My Life",
+                album:"",       artist: "The Beatles    ",audio: "songs/singles/In My Life.mp3", cover: "covers/rubber soul.jpg"},//22
+            { title: "Wait",
+                album:"",       artist: "The Beatles    ",audio: "songs/singles/wait.mp3", cover: "covers/rubber soul.jpg"},//23
+            { title: "Run For Your Life",
+                album:"",       artist: "The Beatles    ",audio: "songs/singles/run for your life.mp3", cover: "covers/rubber soul.jpg"},//24
+            { title: "Nowhere Man",
+                album:"",       artist: "The Beatles    ",audio: "songs/singles/nowhere man.mp3", cover: "covers/rubber soul.jpg"},//25
+            { title: "What Goes On",
+                album:"",       artist: "The Beatles    ",audio: "songs/singles/what goes on.mp3", cover: "covers/rubber soul.jpg"},//26
             
         ]
     },
@@ -2092,17 +2464,20 @@ let trendPlaylist = [
         id: 8,
         
         title: "Haryanvi Hits",
+        album:"",
         artist: "Varius Artist",
         cover: "covers/Haryanvi Hits.png",
         songs: [
             { title: "Russian Bandana      ", 
-            artist: "Dhanda Nyoliwala",
+   
+   album:"",             artist: "Dhanda Nyoliwala",
             audio: "https://www.dropbox.com/scl/fi/evyww51ti5xn6vbi3d0ac/Dhanda_Nyoliwala_-_Russian_Bandana__Music_Video____Deepesh_Goyal___VYRL_Haryanvi-0.m4a?rlkey=60qquzcrl6jzuehe5vpoveyx9&st=c4jcxpob&dl=1",
             cover: "covers/russian bandana.jpg"
         },//13
             //song3\
     {
         title: "Aadhi Si Raat       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Aadhi Si Raat",        
         artistPhoto: "covers/RP Singh.png", 
@@ -2112,20 +2487,23 @@ let trendPlaylist = [
     },
             { 
             title: "Illegal      ",
-            artist: "Dhanda Nyoliwala",
+   
+   album:"",         artist: "Dhanda Nyoliwala",
             audio: "https://www.dropbox.com/scl/fi/xvj15vz0ixifc4fvplsf0/Illegal-128k.mp3?rlkey=ea2gbf36j036c2eroa6n12btx&st=xqwg7kbz&dl=1",
             cover: "covers/illegal dhanda.jpg"
         },//14
             { 
             title: "Up To You      ", 
-            artist: "Dhanda Nyoliwala",
+   
+   album:"",         artist: "Dhanda Nyoliwala",
             audio: "https://www.dropbox.com/scl/fi/g93cv331z6om5kg4elizc/Up_To_U-128k.mp3?rlkey=bpkv9ohnkp64vqcwlpc0qgp6f&st=8fnv3123&dl=1", 
             cover: "covers/up to you.jpg"
         },//15
             
             {
                 title: "2 Numbari       ", 
-                artist: "Masoom Sharma    ",
+       
+       album:"",         artist: "Masoom Sharma    ",
                 lyrics:"2 Numbari",        
                 artistPhoto: "covers/Masoom Sharma.png", 
                 cover: "covers/2 numbari_masoom sharma.png", 
@@ -2135,7 +2513,8 @@ let trendPlaylist = [
             ,//song3\
             {
                 title: "Jaat Jatni       ", 
-                artist: "Masoom Sharma    ",
+       
+       album:"",         artist: "Masoom Sharma    ",
                 lyrics:"Jaat Jatni",        
                 artistPhoto: "covers/Masoom Sharma.png", 
                 cover: "covers/2 numbari_masoom sharma.png", 
@@ -2145,7 +2524,8 @@ let trendPlaylist = [
             ,//song3\
             {
                 title: "English Medium       ", 
-                artist: "Masoom Sharma    ",
+       
+       album:"",         artist: "Masoom Sharma    ",
                 lyrics:"English Medium",        
                 artistPhoto: "covers/Masoom Sharma.png", 
                 cover: "covers/2 numbari_masoom sharma.png", 
@@ -2155,6 +2535,7 @@ let trendPlaylist = [
             ,//song3\
     {
         title: "Jahaaj       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Jahaaj",        
         artistPhoto: "covers/RP Singh.png", 
@@ -2165,7 +2546,8 @@ let trendPlaylist = [
             ,//song3\
             {
                 title: "2 Dada       ", 
-                artist: "Masoom Sharma    ",
+       
+       album:"",         artist: "Masoom Sharma    ",
                 lyrics:"2 Dada",        
                 artistPhoto: "covers/Masoom Sharma.png", 
                 cover: "covers/2 numbari_masoom sharma.png", 
@@ -2175,7 +2557,8 @@ let trendPlaylist = [
             ,//song3\
             {
                 title: "Chambal K Daku       ", 
-                artist: "Masoom Sharma    ",
+       
+       album:"",         artist: "Masoom Sharma    ",
                 lyrics:"Chambal K Daku",        
                 artistPhoto: "covers/Masoom Sharma.png", 
                 cover: "covers/2 numbari_masoom sharma.png", 
@@ -2185,6 +2568,7 @@ let trendPlaylist = [
             ,//song3\
     {
         title: "Azad Flow       ", 
+        album:"",
         artist: "RP Singh    ",
         lyrics:"Azad Flow ",        
         artistPhoto: "covers/RP Singh.png", 
@@ -2196,7 +2580,8 @@ let trendPlaylist = [
             ,//song3\
             {
                 title: "Baba Ji Ki Booti       ", 
-                artist: "Masoom Sharma    ",
+       
+       album:"",         artist: "Masoom Sharma    ",
                 lyrics:"Baba Ji Ki Booti",        
                 artistPhoto: "covers/Masoom Sharma.png", 
                 cover: "covers/2 numbari_masoom sharma.png", 
@@ -2206,7 +2591,8 @@ let trendPlaylist = [
             ,//song3\
             {
                 title: "4-5 Pistol       ", 
-                artist: "Masoom Sharma    ",
+       
+       album:"",         artist: "Masoom Sharma    ",
                 lyrics:"4-5 Pistol",        
                 artistPhoto: "covers/Masoom Sharma.png", 
                 cover: "covers/2 numbari_masoom sharma.png", 
@@ -2216,7 +2602,8 @@ let trendPlaylist = [
             ,//song3\
             {
                 title: "Tempo       ", 
-                artist: "Masoom Sharma    ",
+       
+       album:"",         artist: "Masoom Sharma    ",
                 lyrics:"2 Numbari",        
                 artistPhoto: "covers/Masoom Sharma.png", 
                 cover: "covers/2 numbari_masoom sharma.png", 
@@ -2226,7 +2613,8 @@ let trendPlaylist = [
             ,//song3\
             {
                 title: "Bewafa Mehndi       ", 
-                artist: "Narender Bhagana   ",
+       
+       album:"",         artist: "Narender Bhagana   ",
                 lyrics:"Bewafa Mehndi",        
                 artistPhoto: "covers/Narender Bhagana.png", 
                 cover: "covers/2 numbari_masoom sharma.png", 
