@@ -23,10 +23,10 @@ const fs = require('fs');
 const path = require('path');
 
 // Import the playlist from defaultPlaylist.js
-const { playlist } = require('./defaultPlaylist');
+const { playlist } = require('./defaultPlaylist.js');
 
 // Define the path to the lyrics folder
-const lyricsFolder = path.join(__dirname, 'lyrics');
+const lyricsFolder = path.join(__dirname, './lyrics');
 
 // Create the lyrics folder if it doesn't exist
 if (!fs.existsSync(lyricsFolder)) {
