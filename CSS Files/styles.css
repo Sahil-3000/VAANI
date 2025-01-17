@@ -983,7 +983,7 @@ button[data-type="download"] {
     /* margin-left:50px; */
 }
 button[data-type="download"] img{
-    border-radius: 50%;
+    /* border-radius: 50%; */
     width:28px;
     height:28px;
     object-fit: cover;
@@ -1008,6 +1008,8 @@ button[data-type="downloadLib"] img{
     height:28px;
     object-fit: cover;
 }
+
+
 
 
 

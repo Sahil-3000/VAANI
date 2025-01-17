@@ -562,9 +562,9 @@ allSongs.addEventListener("click",()=>{
 
 
 
-recoPlay.forEach(play =>{
+recoPlay.forEach((play,i) =>{
     play.addEventListener("click",()=>{
-        const selectedPlaylist = playlistsMain[0];
+        const selectedPlaylist = recoPlaylist[i];
 
         // Show the selected playlist and hide the library
         mainOpenPlayContainer.style.display = "block";
@@ -573,22 +573,27 @@ recoPlay.forEach(play =>{
         history.pushState({ page: "playlist" }, null, "#playlist");
 
         // Display the playlist details
-        displayAllSongs(selectedPlaylist);
+        // displayAllSongs(selectedPlaylist);
+        displayMainPlaylist(selectedPlaylist);
+
     });
 })
 
-trendPlay.forEach(play =>{
+trendPlay.forEach((play,i) =>{
     play.addEventListener("click",()=>{
-        const selectedPlaylist = playlistsMain[2];
+        // const selectedPlaylist = playlistsMain[i];
+        const selectedPlaylist = trendPlaylist[i];
 
         // Show the selected playlist and hide the library
         mainOpenPlayContainer.style.display = "block";
         mainPlaySection.style.display = "none";
         // Update browser history state
         history.pushState({ page: "playlist" }, null, "#playlist");
+        currentPlaylist = selectedPlaylist;
 
         // Display the playlist details
-        displayAllSongs(selectedPlaylist);
+        // displayAllSongs(selectedPlaylist);
+        displayMainPlaylist(selectedPlaylist);
     });
 })
 music.addEventListener("click",()=>{
@@ -602,6 +607,7 @@ music.addEventListener("click",()=>{
 
     // Display the playlist details
     displayAllSongs(selectedPlaylist);
+    
 })
 // music.addEventListener("click",()=>{
 //     document.querySelector(".all").click();
@@ -646,6 +652,7 @@ function displayAllSongs(playList) {
         // Download button for each song
         const downLoad = document.createElement("button");
         downLoad.setAttribute("data-type", "download");
+        downLoad.style.backgroundImage = 'url("covers/icons/download logo.png")';
         // downLoad.textContent = "Download";
         downLoad.onclick = () => {
             // Check if there is a current song and it has an audio source

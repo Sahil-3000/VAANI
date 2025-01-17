@@ -5,9 +5,9 @@ let recoPlaylist = [
     {
         id: 1,
         
-        title: "Liked Songs",
-        artist: "Various Artists",
-        cover: "covers/liked playlist.png",
+        title: "Death Of Slim Shady",
+        artist: "Eminem",
+        cover: "covers/death of slim shady.jpg",
         songs: [
               //Diljit Dosanjh
     { 
@@ -1400,9 +1400,9 @@ let recoPlaylist = [
     {
         id: 2,
         
-        title: "Arijit Singh",
-        artist: "Arijit Singh",
-        cover: "covers/arijit singh.jpg",
+        title: "Imagine Dragons",
+        artist: "Imagine Dragons",
+        cover: "covers/imagine dragons.jpg",
         songs: [
 
      //Arijit Singh
@@ -1603,9 +1603,9 @@ let recoPlaylist = [
     {
         id: 3,
         
-        title: "Eminem Hits",
-        artist: "Eminem",  
-        cover: "covers/eminem.jpg",
+        title: "Justin Beiber",
+        artist: "Justin Beiber",  
+        cover: "covers/justin bieber.jpg",
         songs: [
             
             //mislenous songs
@@ -1793,9 +1793,9 @@ let recoPlaylist = [
 
     {
         id: 4,
-        title: "Bhadauria    ",
-        artist: "Hustinder    ",
-        cover: "covers/albums/hustinder/bhadauria_album.png",
+        title: "Salena Gomez    ",
+        artist: "Salena Gomez   ",
+        cover: "covers/salena gomez.jpg",
         songs: [
             //The Beatles-Rubber Soul
     { 
