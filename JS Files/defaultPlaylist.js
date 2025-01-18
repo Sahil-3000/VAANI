@@ -3049,12 +3049,22 @@ let playlist = [
     //     audio: "",
     //     searchString: ""
     // },
+    {
+        title: "Shok Albadi       ",
+        album:"",
+        artist: "Masoom Sharma    ",
+        lyrics: "Shok Albadi",
+        artistPhoto: "covers/artists/Masoom Sharma.png",
+        cover: "covers/masoom/shok albadi.png",
+        audio: "https://www.dropbox.com/scl/fi/mvx368cvhq7ptr584ecg1/Shok_Albadi-0.m4a?rlkey=85lgyq26m7so4t6br0frt5766&st=gymyo7lu&dl=1",
+        searchString: "Shok Albadi"
+    },
 
     {
         title: "Mahashya Ji      ",
         album:"",
         artist: "Masoom Sharma    ",
-        lyrics: "2 Numbari",
+        lyrics: "Mahashya Ji",
         artistPhoto: "covers/artists/Masoom Sharma.png",
         cover: "covers/masoom/mahashya ji.png",
         audio: "https://www.dropbox.com/scl/fi/9dh5b2s7psp1u699yi132/Mhashya-Ji-KoshalWorld.Com-1.mp3?rlkey=r7lx3fpoq5xeg3krezphramwu&st=9nq90dc5&dl=1",
@@ -3064,7 +3074,7 @@ let playlist = [
         title: "Khuni Ranjis      ",
         album:"",
         artist: "Masoom Sharma    ",
-        lyrics: "2 Numbari",
+        lyrics: "Khuni Ranjis",
         artistPhoto: "covers/artists/Masoom Sharma.png",
         cover: "covers/masoom/khuni ranjis.png",
         audio: "https://www.dropbox.com/scl/fi/a02qkhjwhx8fspi1i8582/Khuni-Ranjis-KoshalWorld.Com.mp3?rlkey=lfh9wblam8kgtpmjvkr7xnu83&st=cat36srb&dl=1",
@@ -3074,7 +3084,7 @@ let playlist = [
         title: "UP Aale kaam      ",
         album:"",
         artist: "Masoom Sharma    ",
-        lyrics: "2 Numbari",
+        lyrics: "Up Aale Kaam",
         artistPhoto: "covers/artists/Masoom Sharma.png",
         cover: "covers/masoom/up aale kaam.png",
         audio: "https://www.dropbox.com/scl/fi/rkpfcyfrbqswjgc81qx0p/UP-Ale-Kaam-KoshalWorld.Com.mp3?rlkey=mzb4ijplbodnflexs9lc4xn8b&st=o47spmmo&dl=1",
@@ -3175,13 +3185,12 @@ let playlist = [
 
     ,//song3\
     {
-        title: "Bewafa Mehndi       ",
-        album:"",
+        title: "Bewafa Mehndi       ", 
         artist: "Narender Bhagana   ",
-        lyrics: "Bewafa Mehndi",
-        artistPhoto: "covers/Narender Bhagana.png",
-        cover: "covers/masoom/2 numbari.png",
-        audio: "https://www.dropbox.com/scl/fi/enyo002xvkjkdqd0t3qhv/Bewafa-Mehndi-KoshalWorld.Com.mp3?rlkey=z24xh4zadnoywf9itxm2rc2c5&st=0q65sixk&dl=1",
+        lyrics:"Bewafa Mehndi",        
+        artistPhoto: "covers/Narender Bhagana.png", 
+        cover: "covers/bewafa mehndi.png", 
+        audio: "https://www.dropbox.com/scl/fi/enyo002xvkjkdqd0t3qhv/Bewafa-Mehndi-KoshalWorld.Com.mp3?rlkey=z24xh4zadnoywf9itxm2rc2c5&st=0q65sixk&dl=1", 
         searchString: "Bewafa Mehndi"
     },
 

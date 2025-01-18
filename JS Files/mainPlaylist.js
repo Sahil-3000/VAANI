@@ -2123,113 +2123,144 @@ let playlistsMain = [
             cover: "covers/up to you.jpg"
         },//15
             
-            {
-                title: "2 Numbari       ", 
-                artist: "Masoom Sharma    ",
-                lyrics:"2 Numbari",        
-                artistPhoto: "covers/Masoom Sharma.png", 
-                cover: "covers/2 numbari_masoom sharma.png", 
-                audio: "https://tinyurl.com/2-numbari", 
-                searchString: "2 Numbari"
-            }//song3\
-            ,//song3\
-            {
-                title: "Jaat Jatni       ", 
-                artist: "Masoom Sharma    ",
-                lyrics:"Jaat Jatni",        
-                artistPhoto: "covers/Masoom Sharma.png", 
-                cover: "covers/2 numbari_masoom sharma.png", 
-                audio: "https://tinyurl.com/jaan-jatni", 
-                searchString: "Jaat Jatni"
-            }
-            ,//song3\
-            {
-                title: "English Medium       ", 
-                artist: "Masoom Sharma    ",
-                lyrics:"English Medium",        
-                artistPhoto: "covers/Masoom Sharma.png", 
-                cover: "covers/2 numbari_masoom sharma.png", 
-                audio: "https://tinyurl.com/english-medium-masoom", 
-                searchString: "English Medium"
-            }
-            ,//song3\
-    {
-        title: "Jahaaj       ", 
-        artist: "RP Singh    ",
-        lyrics:"Jahaaj",        
-        artistPhoto: "covers/RP Singh.png", 
-        cover: "covers/jahaaj_rp singh.png", 
-        audio: "songs/singles/jahaaj_rp singh.mp3", 
-        searchString: "Victer" 
-    }
-            ,//song3\
-            {
-                title: "2 Dada       ", 
-                artist: "Masoom Sharma    ",
-                lyrics:"2 Dada",        
-                artistPhoto: "covers/Masoom Sharma.png", 
-                cover: "covers/2 numbari_masoom sharma.png", 
-                audio: "https://tinyurl.com/2-dada-masoom", 
-                searchString: "2 Dada"
-            }
-            ,//song3\
-            {
-                title: "Chambal K Daku       ", 
-                artist: "Masoom Sharma    ",
-                lyrics:"Chambal K Daku",        
-                artistPhoto: "covers/Masoom Sharma.png", 
-                cover: "covers/2 numbari_masoom sharma.png", 
-                audio: "https://tinyurl.com/chambal-k-daku", 
-                searchString: "Chambal K Daku"
-            }
-            ,//song3\
-    {
-        title: "Azad Flow       ", 
-        artist: "RP Singh    ",
-        lyrics:"Azad Flow ",        
-        artistPhoto: "covers/RP Singh.png", 
-        cover: "covers/azad flow_rp singh.png", 
-        audio: "https://www.dropbox.com/scl/fi/ashjb4pisucetsvdt4c28/Azad_Flow__Patla_Sa_Chora___Lo-Fi_-0.m4a?rlkey=hyk6ftnkj3l3obluw5igc10js&st=wnlpcoxl&dl=1", 
-        searchString: "Victer"
-    },
+        {
+            title: "Shok Albadi       ",
+            album:"",
+            artist: "Masoom Sharma    ",
+            lyrics: "Shok Albadi",
+            artistPhoto: "covers/artists/Masoom Sharma.png",
+            cover: "covers/masoom/shok albadi.png",
+            audio: "https://www.dropbox.com/scl/fi/mvx368cvhq7ptr584ecg1/Shok_Albadi-0.m4a?rlkey=85lgyq26m7so4t6br0frt5766&st=gymyo7lu&dl=1",
+            searchString: "Shok Albadi"
+        },
     
-            ,//song3\
-            {
-                title: "Baba Ji Ki Booti       ", 
-                artist: "Masoom Sharma    ",
-                lyrics:"Baba Ji Ki Booti",        
-                artistPhoto: "covers/Masoom Sharma.png", 
-                cover: "covers/2 numbari_masoom sharma.png", 
-                audio: "https://tinyurl.com/baba-ji-ki-booti", 
-                searchString: "Baba Ji Ki Booti"
-            }
-            ,//song3\
-            {
-                title: "4-5 Pistol       ", 
-                artist: "Masoom Sharma    ",
-                lyrics:"4-5 Pistol",        
-                artistPhoto: "covers/Masoom Sharma.png", 
-                cover: "covers/2 numbari_masoom sharma.png", 
-                audio: "https://tinyurl.com/4-5-pistol", 
-                searchString: "4-5 Pistol"
-            }
-            ,//song3\
-            {
-                title: "Tempo       ", 
-                artist: "Masoom Sharma    ",
-                lyrics:"2 Numbari",        
-                artistPhoto: "covers/Masoom Sharma.png", 
-                cover: "covers/2 numbari_masoom sharma.png", 
-                audio: "https://tinyurl.com/tempo-masoom", 
-                searchString: "Tempo"
-            }
+        {
+            title: "Mahashya Ji      ",
+            album:"",
+            artist: "Masoom Sharma    ",
+            lyrics: "Mahashya Ji",
+            artistPhoto: "covers/artists/Masoom Sharma.png",
+            cover: "covers/masoom/mahashya ji.png",
+            audio: "https://www.dropbox.com/scl/fi/9dh5b2s7psp1u699yi132/Mhashya-Ji-KoshalWorld.Com-1.mp3?rlkey=r7lx3fpoq5xeg3krezphramwu&st=9nq90dc5&dl=1",
+            searchString: "Mahashya Ji"
+        },
+        {
+            title: "Khuni Ranjis      ",
+            album:"",
+            artist: "Masoom Sharma    ",
+            lyrics: "Khuni Ranjis",
+            artistPhoto: "covers/artists/Masoom Sharma.png",
+            cover: "covers/masoom/khuni ranjis.png",
+            audio: "https://www.dropbox.com/scl/fi/a02qkhjwhx8fspi1i8582/Khuni-Ranjis-KoshalWorld.Com.mp3?rlkey=lfh9wblam8kgtpmjvkr7xnu83&st=cat36srb&dl=1",
+            searchString: "Khuni Ranjis"
+        },
+        {
+            title: "UP Aale kaam      ",
+            album:"",
+            artist: "Masoom Sharma    ",
+            lyrics: "Up Aale Kaam",
+            artistPhoto: "covers/artists/Masoom Sharma.png",
+            cover: "covers/masoom/up aale kaam.png",
+            audio: "https://www.dropbox.com/scl/fi/rkpfcyfrbqswjgc81qx0p/UP-Ale-Kaam-KoshalWorld.Com.mp3?rlkey=mzb4ijplbodnflexs9lc4xn8b&st=o47spmmo&dl=1",
+            searchString: "up aale kaam up aale kam up ale kam"
+        },
+        
+    
+    
+        {
+            title: "2 Numbari       ",
+            album:"",
+            artist: "Masoom Sharma    ",
+            lyrics: "2 Numbari",
+            artistPhoto: "covers/artists/Masoom Sharma.png",
+            cover: "covers/masoom/2 numbari.png",
+            audio: "https://tinyurl.com/2-numbari",
+            searchString: "2 Numbari"
+        }//song3\
+        ,//song3\
+        {
+            title: "Jaan Jatni       ",
+            album:"",
+            artist: "Masoom Sharma    ",
+            lyrics: "Jaan Jatni",
+            artistPhoto: "covers/artists/Masoom Sharma.png",
+            cover: "covers/masoom/jaan jatni.png",
+            audio: "https://tinyurl.com/jaan-jatni",
+            searchString: "Jaan Jatni"
+        }
+        ,//song3\
+        {
+            title: "English Medium       ",
+            album:"",
+            artist: "Masoom Sharma    ",
+            lyrics: "English Medium",
+            artistPhoto: "covers/artists/Masoom Sharma.png",
+            cover: "covers/masoom/english mediam.png",
+            audio: "https://tinyurl.com/english-medium-masoom",
+            searchString: "English Medium"
+        }
+        ,//song3\
+        {
+            title: "2 Dada       ",
+            album:"",
+            artist: "Masoom Sharma    ",
+            lyrics: "2 Dada",
+            artistPhoto: "covers/artists/Masoom Sharma.png",
+            cover: "covers/masoom/2 dada.png",
+            audio: "https://tinyurl.com/2-dada-masoom",
+            searchString: "2 Dada"
+        }
+        ,//song3\
+        {
+            title: "Chambal K Daku       ",
+            album:"",
+            artist: "Masoom Sharma    ",
+            lyrics: "Chambal K Daku",
+            artistPhoto: "covers/artists/Masoom Sharma.png",
+            cover: "covers/masoom/chambal k dakku.png",
+            audio: "https://tinyurl.com/chambal-k-daku",
+            searchString: "Chambal K Daku"
+        }
+        ,//song3\
+        {
+            title: "Baba Ji Ki Booti       ",
+            album:"",
+            artist: "Masoom Sharma    ",
+            lyrics: "Baba Ji Ki Booti",
+            artistPhoto: "covers/artists/Masoom Sharma.png",
+            cover: "covers/masoom/baba ji ki booti.png",
+            audio: "https://tinyurl.com/baba-ji-ki-booti",
+            searchString: "Baba Ji Ki Booti"
+        }
+        ,//song3\
+        {
+            title: "4-5 Pistol       ",
+            album:"",
+            artist: "Masoom Sharma    ",
+            lyrics: "4-5 Pistol",
+            artistPhoto: "covers/artists/Masoom Sharma.png",
+            cover: "covers/masoom/4-5 pistol.png",
+            audio: "https://tinyurl.com/4-5-pistol",
+            searchString: "4-5 Pistol"
+        }
+        ,//song3\
+        {
+            title: "Tempo       ",
+            album:"",
+            artist: "Masoom Sharma    ",
+            lyrics: "2 Numbari",
+            artistPhoto: "covers/artists/Masoom Sharma.png",
+            cover: "covers/masoom/tempo.png",
+            audio: "https://tinyurl.com/tempo-masoom",
+            searchString: "Tempo"
+        }
             ,//song3\
             {
                 title: "Bewafa Mehndi       ", 
                 artist: "Narender Bhagana   ",
                 lyrics:"Bewafa Mehndi",        
                 artistPhoto: "covers/Narender Bhagana.png", 
-                cover: "covers/2 numbari_masoom sharma.png", 
+                cover: "covers/bewafa mehndi.png", 
                 audio: "https://www.dropbox.com/scl/fi/enyo002xvkjkdqd0t3qhv/Bewafa-Mehndi-KoshalWorld.Com.mp3?rlkey=z24xh4zadnoywf9itxm2rc2c5&st=0q65sixk&dl=1", 
                 searchString: "Bewafa Mehndi"
             }
