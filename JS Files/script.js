@@ -406,10 +406,11 @@ libraryItems.forEach((libraryItem, index) => {
 
         // Update browser history state
         history.pushState({ page: "playlist" }, null, "#playlist");
+        // switchPlaylist(selectedPlaylist);
 
         // Display the playlist details
         displayPlaylist(selectedPlaylist);
-        switchPlaylist(selectedPlaylist);
+        
         
         
     });
@@ -451,7 +452,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // Function to display the selected playlist's details
 function displayPlaylist(playList) {
     // switchPlaylist(playlists.songs);
-    currentPlaylist = playList.songs;
+    
     currentTrackIndex = 0;
     const playlistContainer = openPlaylistContainer;
     playlistContainer.innerHTML = '';  // Clear any previous playlist content
@@ -477,6 +478,7 @@ function displayPlaylist(playList) {
     
     // Create a list of songs for the selected playlist
     playList.songs.forEach((song, index) => {
+        
         
         const songDiv = document.createElement("div");
         songDiv.classList.add("song-item");
@@ -512,6 +514,7 @@ function displayPlaylist(playList) {
         playButton1.textContent = "Play";
         playButton1.addEventListener("click",()=>{
             // switchPlaylist(playList,index);
+            currentPlaylist = playList.songs;
             loadTrack(index);
             // currentTrackIndex = index;
             audio.load();
