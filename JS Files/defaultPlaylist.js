@@ -3034,27 +3034,75 @@ let playlist = [
         audio: "songs/singles/victor_rp singh.mp3",
         searchString: "Victer"
     }//song3\
-    ,//song3\
+
+
+
+    ,//Masoom Sharma: Singles
+
+    // {
+    //     title: "       ",
+    //     album:"",
+    //     artist: "Masoom Sharma    ",
+    //     lyrics: "2 Numbari",
+    //     artistPhoto: "covers/artists/Masoom Sharma.png",
+    //     cover: "covers/masoom/.png",
+    //     audio: "",
+    //     searchString: ""
+    // },
+
+    {
+        title: "Mahashya Ji      ",
+        album:"",
+        artist: "Masoom Sharma    ",
+        lyrics: "2 Numbari",
+        artistPhoto: "covers/artists/Masoom Sharma.png",
+        cover: "covers/masoom/mahashya ji.png",
+        audio: "https://www.dropbox.com/scl/fi/9dh5b2s7psp1u699yi132/Mhashya-Ji-KoshalWorld.Com-1.mp3?rlkey=r7lx3fpoq5xeg3krezphramwu&st=9nq90dc5&dl=1",
+        searchString: "Mahashya Ji"
+    },
+    {
+        title: "Khuni Ranjis      ",
+        album:"",
+        artist: "Masoom Sharma    ",
+        lyrics: "2 Numbari",
+        artistPhoto: "covers/artists/Masoom Sharma.png",
+        cover: "covers/masoom/khuni ranjis.png",
+        audio: "https://www.dropbox.com/scl/fi/a02qkhjwhx8fspi1i8582/Khuni-Ranjis-KoshalWorld.Com.mp3?rlkey=lfh9wblam8kgtpmjvkr7xnu83&st=cat36srb&dl=1",
+        searchString: "Khuni Ranjis"
+    },
+    {
+        title: "UP Aale kaam      ",
+        album:"",
+        artist: "Masoom Sharma    ",
+        lyrics: "2 Numbari",
+        artistPhoto: "covers/artists/Masoom Sharma.png",
+        cover: "covers/masoom/up aale kaam.png",
+        audio: "https://www.dropbox.com/scl/fi/rkpfcyfrbqswjgc81qx0p/UP-Ale-Kaam-KoshalWorld.Com.mp3?rlkey=mzb4ijplbodnflexs9lc4xn8b&st=o47spmmo&dl=1",
+        searchString: "up aale kaam up aale kam up ale kam"
+    },
+    
+
+
     {
         title: "2 Numbari       ",
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "2 Numbari",
-        artistPhoto: "covers/Masoom Sharma.png",
-        cover: "covers/2 numbari_masoom sharma.png",
+        artistPhoto: "covers/artists/Masoom Sharma.png",
+        cover: "covers/masoom/2 numbari.png",
         audio: "https://tinyurl.com/2-numbari",
         searchString: "2 Numbari"
     }//song3\
     ,//song3\
     {
-        title: "Jaat Jatni       ",
+        title: "Jaan Jatni       ",
         album:"",
         artist: "Masoom Sharma    ",
-        lyrics: "Jaat Jatni",
-        artistPhoto: "covers/Masoom Sharma.png",
-        cover: "covers/2 numbari_masoom sharma.png",
+        lyrics: "Jaan Jatni",
+        artistPhoto: "covers/artists/Masoom Sharma.png",
+        cover: "covers/masoom/jaan jatni.png",
         audio: "https://tinyurl.com/jaan-jatni",
-        searchString: "Jaat Jatni"
+        searchString: "Jaan Jatni"
     }
     ,//song3\
     {
@@ -3062,8 +3110,8 @@ let playlist = [
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "English Medium",
-        artistPhoto: "covers/Masoom Sharma.png",
-        cover: "covers/2 numbari_masoom sharma.png",
+        artistPhoto: "covers/artists/Masoom Sharma.png",
+        cover: "covers/masoom/english mediam.png",
         audio: "https://tinyurl.com/english-medium-masoom",
         searchString: "English Medium"
     }
@@ -3073,8 +3121,8 @@ let playlist = [
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "2 Dada",
-        artistPhoto: "covers/Masoom Sharma.png",
-        cover: "covers/2 numbari_masoom sharma.png",
+        artistPhoto: "covers/artists/Masoom Sharma.png",
+        cover: "covers/masoom/2 dada.png",
         audio: "https://tinyurl.com/2-dada-masoom",
         searchString: "2 Dada"
     }
@@ -3084,8 +3132,8 @@ let playlist = [
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "Chambal K Daku",
-        artistPhoto: "covers/Masoom Sharma.png",
-        cover: "covers/2 numbari_masoom sharma.png",
+        artistPhoto: "covers/artists/Masoom Sharma.png",
+        cover: "covers/masoom/chambal k dakku.png",
         audio: "https://tinyurl.com/chambal-k-daku",
         searchString: "Chambal K Daku"
     }
@@ -3095,8 +3143,8 @@ let playlist = [
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "Baba Ji Ki Booti",
-        artistPhoto: "covers/Masoom Sharma.png",
-        cover: "covers/2 numbari_masoom sharma.png",
+        artistPhoto: "covers/artists/Masoom Sharma.png",
+        cover: "covers/masoom/baba ji ki booti.png",
         audio: "https://tinyurl.com/baba-ji-ki-booti",
         searchString: "Baba Ji Ki Booti"
     }
@@ -3106,8 +3154,8 @@ let playlist = [
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "4-5 Pistol",
-        artistPhoto: "covers/Masoom Sharma.png",
-        cover: "covers/2 numbari_masoom sharma.png",
+        artistPhoto: "covers/artists/Masoom Sharma.png",
+        cover: "covers/masoom/4-5 pistol.png",
         audio: "https://tinyurl.com/4-5-pistol",
         searchString: "4-5 Pistol"
     }
@@ -3117,11 +3165,14 @@ let playlist = [
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "2 Numbari",
-        artistPhoto: "covers/Masoom Sharma.png",
-        cover: "covers/2 numbari_masoom sharma.png",
+        artistPhoto: "covers/artists/Masoom Sharma.png",
+        cover: "covers/masoom/tempo.png",
         audio: "https://tinyurl.com/tempo-masoom",
         searchString: "Tempo"
     }
+
+
+
     ,//song3\
     {
         title: "Bewafa Mehndi       ",
@@ -3129,7 +3180,7 @@ let playlist = [
         artist: "Narender Bhagana   ",
         lyrics: "Bewafa Mehndi",
         artistPhoto: "covers/Narender Bhagana.png",
-        cover: "covers/2 numbari_masoom sharma.png",
+        cover: "covers/masoom/2 numbari.png",
         audio: "https://www.dropbox.com/scl/fi/enyo002xvkjkdqd0t3qhv/Bewafa-Mehndi-KoshalWorld.Com.mp3?rlkey=z24xh4zadnoywf9itxm2rc2c5&st=0q65sixk&dl=1",
         searchString: "Bewafa Mehndi"
     },
