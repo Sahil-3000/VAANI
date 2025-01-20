@@ -7,7 +7,57 @@
 .player{
     display:none;
     position:fixed;
-    top:50px;
+    top:80px;
+    background-color:rgb(47, 44, 44);
+    left:17%;
+    right:17%;
+    width:65%;;
+    height:80vh;
+    position:absolute;
+    z-index:3000;
+}
+
+.embed-vid{
+    position:relative;
+    width:64vw;
+    height:80vh;
+}
+.embed-vid iframe{
+    position:relative;
     width:100%;
-    height:90%;
+}
+
+@media(max-width:480px) {
+    .player{
+        display:none;
+        position:fixed;
+        top:48px;
+        left:0;
+        width:100%;
+        height:100vh;
+        z-index:3000;
+        
+
+    }
+
+    .embed-vid{
+        position:relative;
+        width:100vw;
+        height:80vh;
+    }
+    .embed-vid iframe{
+        position:relative;
+        width:100%;
+    }
+    
+    .player img{
+        
+        width:100%;
+        height:100vh;
+    }
+
+    .now-playing{
+        position:fixed;
+        z-index:4000;
+    }
 }

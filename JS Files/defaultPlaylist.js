@@ -3,6 +3,7 @@ let playlist = [
     //Diljit Dosanjh
     {
         title: "Lover      ",
+        videoID:"J8A6-kSq4qo",
         album:"",
         artist: "Diljit Dosanjh     ",
         lyrics: "Lover",
@@ -15,6 +16,7 @@ let playlist = [
 
     {
         title: "Case        ",
+        videoID:"g-Ij0idc_dk",
         album:"",
         artist: "Diljit Dosanjh     ",
         lyrics: "Case",
@@ -25,6 +27,7 @@ let playlist = [
     },//41
     {
         title: "Ishq Di Baajiyaan        ",
+        videoID:"rnyrDk4G68g",
         album:"",
         artist: "Diljit Dosanjh     ",
         lyrics: "Ishq Di Baajiyaan",
@@ -35,6 +38,7 @@ let playlist = [
     },//42
     {
         title: "Love Ya        ",
+        videoID:"CADnM90Vidw",
         album:"",
         artist: "Diljit Dosanjh     ",
         lyrics: "Love Ya",
@@ -45,6 +49,7 @@ let playlist = [
     },//43
     {
         title: "Lalkara         ",
+        videoID:"",
         album:"",
         artist: "Diljit Dosanjh     ",
         lyrics: "Lalkara",
@@ -55,6 +60,7 @@ let playlist = [
     },//44
     {
         title: "Tu Kya Jaane        ",
+        videoID:"",
         album:"",
         artist: "Yashika Sikka, Diljit",
         lyrics: "Tu Kya Jaane",
@@ -65,6 +71,7 @@ let playlist = [
     },//45
     {
         title: "Bol Mohabbat        ",
+        videoID:"",
         album:"",
         artist: "AR Rehman, Kailash Kher,Diljit",
         lyrics: "Bol Mohabbat",
@@ -75,6 +82,7 @@ let playlist = [
     },//46
     {
         title: "Vida Karo        ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh,Diljjt",
         lyrics: "Vida Karo",
@@ -85,6 +93,7 @@ let playlist = [
     },//47
     {
         title: "Panga        ",
+        videoID:"",
         album:"",
         artist: "Diljit Dosanjh, Yo Yo Honey Singh",
         lyrics: "Panga",
@@ -95,6 +104,7 @@ let playlist = [
     },//48
     {
         title: "Ishq Mitaye        ",
+        videoID:"",
         album:"",
         artist: "AR Rehman, Diljit",
         lyrics: "Ishq Mitaye",
@@ -105,6 +115,7 @@ let playlist = [
     },//49
     {
         title: "5 Tara        ",
+        videoID:"",
         album:"",
         artist: " Diljit Dosanjh     ",
         lyrics: "Love Ya",
@@ -116,6 +127,7 @@ let playlist = [
     },//50
     {
         title: "Do You Know       ",
+        videoID:"",
         album:"",
         artist: "Diljit Dosanjh     ",
         lyrics: "Do You Know",
@@ -126,6 +138,7 @@ let playlist = [
     },//51
     {
         title: "G.O.A.T.      ",
+        videoID:"",
         album:"",
         artist: "Diljit Dosanjh     ",
         lyrics: "G.O.A.T.",
@@ -136,6 +149,7 @@ let playlist = [
     },//52
     {
         title: "Clash      ",
+        videoID:"",
         album:"",
         artist: "Diljit Dosanjh     ",
         lyrics: "Clash",
@@ -146,6 +160,7 @@ let playlist = [
     },//53
     {
         title: "Muchh      ",
+        videoID:"",
         album:"",
         artist: "Diljit Dosanjh     ",
         lyrics: "Muchh",
@@ -156,6 +171,7 @@ let playlist = [
     },//54
     {
         title: "High End      ",
+        videoID:"",
         album:"",
         artist: "Diljit Dosanjh     ",
         lyrics: "High End",
@@ -166,6 +182,7 @@ let playlist = [
     },//55
     {
         title: "Naram Kalja      ",
+        videoID:"",
         album:"",
         artist: "Diljjt Dosanjh     ",
         lyrics: "Naram Kalja",
@@ -176,6 +193,7 @@ let playlist = [
     },//56
     {
         title: "Baaja      ",
+        videoID:"",
         album:"",
         artist: "Diljit Dosanjh     ",
         lyrics: "Baaja",
@@ -186,6 +204,7 @@ let playlist = [
     },//57
     {
         title: "Muhammad Ali      ",
+        videoID:"",
         album:"",
         artist: "Diljit Dosanjh     ",
         lyrics: "Muhammad Ali",
@@ -196,6 +215,7 @@ let playlist = [
     },//58
     {
         title: "El Sueno      ",
+        videoID:"",
         album:"",
         artist: "Diljit Dosanjh     ",
         lyrics: "El Sueno",
@@ -206,6 +226,7 @@ let playlist = [
     },//59
     {
         title: "Born To Shine      ",
+        videoID:"",
         album:"",
         artist: "Diljit Dosanjb",
         lyrics: "Born To Shine",
@@ -216,6 +237,7 @@ let playlist = [
     },//60
     {
         title: "Peaches      ",
+        videoID:"",
         album:"",
         artist: "Diljit Dosanjh     ",
         lyrics: "Peaches",
@@ -226,6 +248,7 @@ let playlist = [
     },//61
     {
         title: "What Ve      ",
+        videoID:"",
         album:"",
         artist: "Diljjt Dosanjh,Nimrat Khaira",
         lyrics: "What Ve",
@@ -236,6 +259,7 @@ let playlist = [
     },//62
     {
         title: "Hass Hass      ",
+        videoID:"",
         album:"",
         artist: "Sia,Diljit Dosanjh     ",
         lyrics: "Hass Hass",
@@ -246,6 +270,7 @@ let playlist = [
     },//63
     {
         title: "Patiala Peg      ",
+        videoID:"",
         album:"",
         artist: "Diljit Dosanjh     ",
         lyrics: "Patiala Peg",
@@ -256,6 +281,7 @@ let playlist = [
     },//64
     {
         title: "Mombattiye      ",
+        videoID:"",
         album:"",
         artist: "Diljit Dosanjh     ",
         lyrics: "Mombattiye",
@@ -267,6 +293,7 @@ let playlist = [
 
     {
         title: "Jo Tum Mere Ho      ",
+        videoID:"",
         album:"",
         artist: "Anuv Jain",
         lyrics: "Jo Tum Mere Ho",
@@ -279,6 +306,7 @@ let playlist = [
 
     {
         title: "Fly Karke      ",
+        videoID:"",
         album:"",
         artist: "SABBA, Jasmeen",
         lyrics: "Fly Karke",
@@ -292,6 +320,7 @@ let playlist = [
     //Arjan Dhillon-Glorious and more
     {
         title: "Youth Flow      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Youth Flow",
@@ -302,6 +331,7 @@ let playlist = [
     },//song4
     {
         title: "Glorious      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Glorious",
@@ -312,6 +342,7 @@ let playlist = [
     },//song5
     {
         title: "Maavan      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Maavan",
@@ -322,6 +353,7 @@ let playlist = [
     },//song6
     {
         title: "Back To Sikhi      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Back To Sikhi",
@@ -332,6 +364,7 @@ let playlist = [
     },//song7
     {
         title: "Biography      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Biography",
@@ -342,6 +375,7 @@ let playlist = [
     },//song8
     {
         title: "Tyar      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Tyar",
@@ -355,6 +389,7 @@ let playlist = [
 
     {
         title: "2-2 Asle     ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon   ",
         lyrics: "2-2 Asle",
@@ -365,6 +400,7 @@ let playlist = [
     },
     {
         title: "Big Flex    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon   ",
         lyrics: "Big Flex",
@@ -375,6 +411,7 @@ let playlist = [
     },
     {
         title: "Brats   ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon   ",
         lyrics: "Brats",
@@ -385,6 +422,7 @@ let playlist = [
     },
     {
         title: "Greatest   ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon   ",
         lyrics: "Greatest ",
@@ -395,6 +433,7 @@ let playlist = [
     },
     {
         title: "Hikka   ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon   ",
         lyrics: "Hikka ",
@@ -405,6 +444,7 @@ let playlist = [
     },
     {
         title: "Invoice    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon   ",
         lyrics: "Invoice ",
@@ -415,6 +455,7 @@ let playlist = [
     },
     {
         title: "Kini Der Baad    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon   ",
         lyrics: "Kini Der Baad ",
@@ -426,6 +467,7 @@ let playlist = [
     },
     {
         title: "Nain    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon   ",
         lyrics: "Nain ",
@@ -437,6 +479,7 @@ let playlist = [
     },
     {
         title: "Never Ever    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon   ",
         lyrics: "Never Ever ",
@@ -448,6 +491,7 @@ let playlist = [
     },
     {
         title: "Paparazzi    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon   ",
         lyrics: "Paparazzi ",
@@ -459,6 +503,7 @@ let playlist = [
     },
     {
         title: "Sher-E-Panjab    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon   ",
         lyrics: "Sher E Panjab ",
@@ -470,6 +515,7 @@ let playlist = [
     },
     {
         title: "Style    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon   ",
         lyrics: "Style ",
@@ -481,6 +527,7 @@ let playlist = [
     },
     {
         title: "Too Late    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon   ",
         lyrics: "Too Late ",
@@ -492,6 +539,7 @@ let playlist = [
     },
     {
         title: "Tu Jdo Auna    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon   ",
         lyrics: "Tu Jdo Auna ",
@@ -503,6 +551,7 @@ let playlist = [
     },
     {
         title: "Youngsters    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon   ",
         lyrics: "Youngsters ",
@@ -514,6 +563,7 @@ let playlist = [
     },
     {
         title: "Zigana    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon   ",
         lyrics: "Zigana ",
@@ -527,6 +577,7 @@ let playlist = [
     //Arjan Dhillon : Singles
     {
         title: "Heer      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Heer",
@@ -537,6 +588,7 @@ let playlist = [
     },//song9
     {
         title: "Punjab Intro      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Punjab Intro",
@@ -547,6 +599,7 @@ let playlist = [
     },//song9
     {
         title: "Why Arjan      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Why Arjan",
@@ -557,6 +610,7 @@ let playlist = [
     },
     {
         title: "Thabba Ku Zulfan      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Thabba Ku Zulfan",
@@ -567,6 +621,7 @@ let playlist = [
     },
     {
         title: "Hommie Call      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Hommie Call",
@@ -577,6 +632,7 @@ let playlist = [
     },
     {
         title: "Ki Karde Je      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Ki Karde Je",
@@ -587,6 +643,7 @@ let playlist = [
     },
     {
         title: "Likhari      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Likhari",
@@ -597,6 +654,7 @@ let playlist = [
     },
     {
         title: "Maharani Jindan      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Maharani Jindan",
@@ -607,6 +665,7 @@ let playlist = [
     },
     {
         title: "Mandeer      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Mandeer",
@@ -617,6 +676,7 @@ let playlist = [
     },
     {
         title: "Memory Lane      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Memory Lane",
@@ -627,6 +687,7 @@ let playlist = [
     },
     {
         title: "No Debts      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "No Debts",
@@ -637,6 +698,7 @@ let playlist = [
     },
     {
         title: "Raah Warga      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Raah Warga",
@@ -647,6 +709,7 @@ let playlist = [
     },
     {
         title: "Sher-E-Panjab      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Sher-E-Panjab",
@@ -657,6 +720,7 @@ let playlist = [
     },
     {
         title: "Soorme Aoun Tareeka Te      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Soorme Aoun Tareeka Te",
@@ -667,6 +731,7 @@ let playlist = [
     },
     {
         title: "25-25      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "25-25",
@@ -677,6 +742,7 @@ let playlist = [
     },
     {
         title: "Chah Pindan Di      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Chah Pindan Di",
@@ -687,6 +753,7 @@ let playlist = [
     },
     {
         title: "Fantasy      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Fantasy",
@@ -697,6 +764,7 @@ let playlist = [
     },
     {
         title: "Fly      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Fly",
@@ -707,6 +775,7 @@ let playlist = [
     },
     {
         title: "Ghar Bharte      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Ghar Bharte",
@@ -717,6 +786,7 @@ let playlist = [
     },
     {
         title: "Hazur      ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Hazur",
@@ -727,6 +797,7 @@ let playlist = [
     },
     {
         title: "Hidden Scars    ",
+        videoID:"",
         album:"",
         artist: "Nimrat Khaira, Arjan Dhillon    ",
         lyrics: "Hidden Scars",
@@ -737,6 +808,7 @@ let playlist = [
     },
     {
         title: "Score    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Score",
@@ -747,6 +819,7 @@ let playlist = [
     },
     {
         title: "Bell Bottom(remix)",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon",
         lyrics: "Bell Bottom(remix)",
@@ -758,6 +831,7 @@ let playlist = [
 
     {
         title: "Bell Bottom   ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Bell Bottom",
@@ -768,6 +842,7 @@ let playlist = [
     },
     {
         title: "Ishq Jeha Ho Gya    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Ishq Jeha Ho Gya",
@@ -781,6 +856,7 @@ let playlist = [
     //Arjan Dhillon : Awara
     {
         title: "Why Arjan    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Why Arjan",
@@ -791,6 +867,7 @@ let playlist = [
     },
     {
         title: "Shama Paiya    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Shama Paiya",
@@ -801,6 +878,7 @@ let playlist = [
     },
     {
         title: "Score    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Score",
@@ -811,6 +889,7 @@ let playlist = [
     },
     {
         title: "Sangdi Sangdi    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Sangdi Sangdi",
@@ -821,6 +900,7 @@ let playlist = [
     },
     {
         title: "Sade Aala    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Sade Aala",
@@ -831,6 +911,7 @@ let playlist = [
     },
     {
         title: "Mehal    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Mehal",
@@ -841,6 +922,7 @@ let playlist = [
     },
     {
         title: "Mandeer    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Mandeer",
@@ -851,6 +933,7 @@ let playlist = [
     },
     {
         title: "Mahol    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Mahol",
@@ -861,6 +944,7 @@ let playlist = [
     },
     {
         title: "Hold On    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Hold On",
@@ -871,6 +955,7 @@ let playlist = [
     },
     {
         title: "Fire Fur    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Fire Fur",
@@ -881,6 +966,7 @@ let playlist = [
     },
     {
         title: "Dope    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Dope",
@@ -891,6 +977,7 @@ let playlist = [
     },
     {
         title: "Dass Billo    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Dass Billo",
@@ -901,6 +988,7 @@ let playlist = [
     },
     {
         title: "Dhanabaad    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Dhanabaad",
@@ -911,7 +999,8 @@ let playlist = [
     },
     // { 
     //     title: "    ",
-    //     album:"",
+    // videoID:"",    
+    // album:"",
   
     //     artist: "Arjan Dhillon    ",
     //     lyrics:"",        
@@ -926,6 +1015,7 @@ let playlist = [
 
     {
         title: "Tha Karke    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Tha Karke",
@@ -936,6 +1026,7 @@ let playlist = [
     },
     {
         title: "Rafal    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Rafal",
@@ -946,6 +1037,7 @@ let playlist = [
     },
     {
         title: "Munde Pindan De    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Munde Pindan De",
@@ -956,6 +1048,7 @@ let playlist = [
     },
     {
         title: "Memory Lane    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Memory Lane",
@@ -966,6 +1059,7 @@ let playlist = [
     },
     {
         title: "Maharani Jindan    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Maharani Jindan",
@@ -976,6 +1070,7 @@ let playlist = [
     },
     {
         title: "Janu Janu    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Janu Janu",
@@ -986,6 +1081,7 @@ let playlist = [
     },
     {
         title: "It's My Time    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "It's My Time",
@@ -996,6 +1092,7 @@ let playlist = [
     },
     {
         title: "Hommie Call    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Hommie Call",
@@ -1006,6 +1103,7 @@ let playlist = [
     },
     {
         title: "Hazur    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Hazur",
@@ -1016,6 +1114,7 @@ let playlist = [
     },
     {
         title: "Fantasy    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Fantasy",
@@ -1026,7 +1125,8 @@ let playlist = [
     },
     // { 
     //     title: "    ",
-    //     album:"",
+    // videoID:"",    
+    // album:"",
   
     //     artist: "Arjan Dhillon    ",
     //     lyrics:"",        
@@ -1037,6 +1137,7 @@ let playlist = [
     // },
     {
         title: "Drunk Arjan    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Drunk Arjan",
@@ -1048,6 +1149,7 @@ let playlist = [
 
     {
         title: "25-25    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "25-25",
@@ -1061,6 +1163,7 @@ let playlist = [
     //Arjan Dhillon : A For Arjan
     {
         title: "Tere Baad    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Tere Baad",
@@ -1071,6 +1174,7 @@ let playlist = [
     },
     {
         title: "Sanu Teri Lod    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Sanu Teri Lod",
@@ -1081,6 +1185,7 @@ let playlist = [
     },
     {
         title: "Please    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Please",
@@ -1091,6 +1196,7 @@ let playlist = [
     },
     {
         title: "Ohi Lagdi Aa    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Ohi Lagdi Aa",
@@ -1101,6 +1207,7 @@ let playlist = [
     },
     {
         title: "More Beautiful    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "More Beautiful",
@@ -1111,6 +1218,7 @@ let playlist = [
     },
     {
         title: "    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "",
@@ -1121,6 +1229,7 @@ let playlist = [
     },
     {
         title: "Mili Mili    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Mili Mili",
@@ -1131,6 +1240,7 @@ let playlist = [
     },
     {
         title: "Milde    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Milde",
@@ -1141,6 +1251,7 @@ let playlist = [
     },
     {
         title: "Hurry Up    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Hurry Up",
@@ -1151,6 +1262,7 @@ let playlist = [
     },
     {
         title: "High    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "High",
@@ -1162,6 +1274,7 @@ let playlist = [
 
     {
         title: "Heer    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Heer",
@@ -1173,6 +1286,7 @@ let playlist = [
 
     {
         title: "Don    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Don",
@@ -1184,6 +1298,7 @@ let playlist = [
 
     {
         title: "Dil Toot Jayega    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Dil Toot Jayega",
@@ -1200,6 +1315,7 @@ let playlist = [
 
     {
         title: "Tape    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Tape",
@@ -1210,6 +1326,7 @@ let playlist = [
     },
     {
         title: "Kath    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Kath",
@@ -1220,6 +1337,7 @@ let playlist = [
     },
     {
         title: "Jatt Disde    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Jatt Disde",
@@ -1230,6 +1348,7 @@ let playlist = [
     },
     {
         title: "Daaru Sasti    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Daaru Sasti",
@@ -1240,6 +1359,7 @@ let playlist = [
     },
     {
         title: "Badmashi    ",
+        videoID:"",
         album:"",
         artist: "Arjan Dhillon    ",
         lyrics: "Badmashi",
@@ -1250,7 +1370,8 @@ let playlist = [
     },
     // { 
     //     title: "    ",
-    //     album:"",
+    // videoID:"",    
+    // album:"",
   
     //     artist: "Arjan Dhillon    ",
     //     lyrics:"",        
@@ -1261,7 +1382,8 @@ let playlist = [
     // },
     // { 
     //     title: "    ",
-    //     album:"",
+    // videoID:"",    
+    // album:"",
   
     //     artist: "Arjan Dhillon    ",
     //     lyrics:"",        
@@ -1275,6 +1397,7 @@ let playlist = [
     //Dhanda
     {
         title: "Up To You      ",
+        videoID:"",
         album:"",
         artist: "Dhanda Nyoliwala  ",
         lyrics: "Up To You",
@@ -1285,6 +1408,7 @@ let playlist = [
     },//song10
     {
         title: "Russian Bandana      ",
+        videoID:"",
         album:"",
         artist: "Dhanda Nyoliwala   ",
         lyrics: "Russian Bandana",
@@ -1296,6 +1420,7 @@ let playlist = [
 
     {
         title: "Ishq      ",
+        videoID:"",
         album:"",
         artist: "Faheem Abdullah,Rauhan Malik  ",
         lyrics: "Ishq",
@@ -1307,6 +1432,7 @@ let playlist = [
     //The Beatles-Rubber Soul
     {
         title: "If I Needed Someone      ",
+        videoID:"",
         album:"",
         artist: "The Beatles    ",
         lyrics: "If I Needed Someone",
@@ -1317,6 +1443,7 @@ let playlist = [
     },//13
     {
         title: "Norwegian Wood      ",
+        videoID:"",
         album:"",
         artist: "The Beatles    ",
         lyrics: "Norwegian Wood",
@@ -1327,6 +1454,7 @@ let playlist = [
     },//14
     {
         title: "You Won't See Me      ",
+        videoID:"",
         album:"",
         artist: "The Beatles    ",
         lyrics: "You Won't See Me",
@@ -1337,6 +1465,7 @@ let playlist = [
     },//15
     {
         title: "Think For Yourself      ",
+        videoID:"",
         album:"",
         artist: "The Beatles    ",
         lyrics: "Think For Yourself",
@@ -1347,6 +1476,7 @@ let playlist = [
     },//16
     {
         title: "The Word      ",
+        videoID:"",
         album:"",
         artist: "The Beatles    ",
         lyrics: "The Word",
@@ -1357,6 +1487,7 @@ let playlist = [
     },//17
     {
         title: "Michelle      ",
+        videoID:"",
         album:"",
         artist: "The Beatles    ",
         lyrics: "Michelle",
@@ -1367,6 +1498,7 @@ let playlist = [
     },//18
     {
         title: "Drive My Car      ",
+        videoID:"",
         album:"",
         artist: "The Beatles    ",
         lyrics: "Drive My Car",
@@ -1377,6 +1509,7 @@ let playlist = [
     },//19
     {
         title: "Girl      ",
+        videoID:"",
         album:"",
         artist: "The Beatles    ",
         lyrics: "Girl",
@@ -1389,6 +1522,7 @@ let playlist = [
         title: "I'm Looking Through You",
         lyrics: "I'm Looking Through You",
         artistPhoto: "covers/The Beatles.png      ",
+        videoID:"",
         album:"",
         artist: "The Beatles    ",
         cover: "covers/rubber soul.jpg",
@@ -1397,6 +1531,7 @@ let playlist = [
     },//21
     {
         title: "In My Life      ",
+        videoID:"",
         album:"",
         artist: "The Beatles    ",
         lyrics: "In My Life",
@@ -1407,6 +1542,7 @@ let playlist = [
     },//22
     {
         title: "Wait      ",
+        videoID:"",
         album:"",
         artist: "The Beatles    ",
         lyrics: "Wait",
@@ -1417,6 +1553,7 @@ let playlist = [
     },//23
     {
         title: "Run For Your Life      ",
+        videoID:"",
         album:"",
         artist: "The Beatles    ",
         lyrics: "Run For Your Life",
@@ -1427,6 +1564,7 @@ let playlist = [
     },//24
     {
         title: "Nowhere Man      ",
+        videoID:"",
         album:"",
         artist: "The Beatles    ",
         lyrics: "Nowhere Man",
@@ -1437,6 +1575,7 @@ let playlist = [
     },//25
     {
         title: "What Goes On      ",
+        videoID:"",
         album:"",
         artist: "The Beatles    ",
         lyrics: "What Goes On",
@@ -1452,6 +1591,7 @@ let playlist = [
     //Karan Aujla
     {
         title: "Softly      ",
+        videoID:"",
         album:"",
         artist: "Karan Aujla   ",
         lyrics: "Softly",
@@ -1462,6 +1602,7 @@ let playlist = [
     },//65
     {
         title: "On Top      ",
+        videoID:"",
         album:"",
         artist: "Karan Aujla   ",
         lyrics: "On Top",
@@ -1472,6 +1613,7 @@ let playlist = [
     },//66
     {
         title: "WYTB      ",
+        videoID:"",
         album:"",
         artist: "Karan Aujla   ",
         lyrics: "WYTB",
@@ -1482,6 +1624,7 @@ let playlist = [
     },//67
     {
         title: "52 Bars      ",
+        videoID:"",
         album:"",
         artist: "Karan Aujla   ",
         lyrics: "52 Bars",
@@ -1492,6 +1635,7 @@ let playlist = [
     },//68
     {
         title: "Jee Ni Lagda      ",
+        videoID:"",
         album:"",
         artist: "Karan Aujla   ",
         lyrics: "Jee Ni Lagda",
@@ -1502,6 +1646,7 @@ let playlist = [
     },//69
     {
         title: "Player      ",
+        videoID:"",
         album:"",
         artist: "Karan Aujla, Badshah",
         lyrics: "Player",
@@ -1511,6 +1656,7 @@ let playlist = [
     },//70
     {
         title: "Chauffeur      ",
+        videoID:"",
         album:"",
         artist: " Diljit Dosanjh     ",
         lyrics: "Chauffeur",
@@ -1521,6 +1667,7 @@ let playlist = [
     },//71
     {
         title: "White Brown Black      ",
+        videoID:"",
         album:"",
         artist: "Karan Aujla, Avvy Sra",
         lyrics: "White Brown Black",
@@ -1531,6 +1678,7 @@ let playlist = [
     },//72
     {
         title: "Tauba Tauba      ",
+        videoID:"",
         album:"",
         artist: "Karan Aujla   ",
         lyrics: "Tauba Tauba",
@@ -1541,6 +1689,7 @@ let playlist = [
     },//73
     {
         title: "Chitta Kurta      ",
+        videoID:"",
         album:"",
         artist: "Karan Aujla   ",
         lyrics: "Chitta Kurta",
@@ -1551,6 +1700,7 @@ let playlist = [
     },//74
     {
         title: "Mexico      ",
+        videoID:"",
         album:"",
         artist: "Karan Aujla   ",
         lyrics: "Mexico",
@@ -1561,6 +1711,7 @@ let playlist = [
     },//75
     {
         title: "God Damn      ",
+        videoID:"",
         album:"",
         artist: "Karan Aujla   ",
         lyrics: "God Damn",
@@ -1574,6 +1725,7 @@ let playlist = [
     //mislenous songs
     {
         title: "Victory Anthem      ",
+        videoID:"",
         album:"",
         artist: "Khushi-Saini  ",
         lyrics: "Victory Anthem",
@@ -1583,6 +1735,7 @@ let playlist = [
     },//27
     {
         title: "Tu Hai Kaha      ",
+        videoID:"",
         album:"",
         artist: "A-U-R",
         lyrics: "Tu Hai Kaha",
@@ -1592,6 +1745,7 @@ let playlist = [
     },//28
     {
         title: "Sweater      ",
+        videoID:"",
         album:"",
         artist: "Preet Hundal ",
         lyrics: "Sweater",
@@ -1601,6 +1755,7 @@ let playlist = [
     },//29
     {
         title: "Zindagi      ",
+        videoID:"",
         album:"",
         artist: "Sabba  ",
         lyrics: "Zindagi",
@@ -1611,6 +1766,7 @@ let playlist = [
     },//30
     {
         title: "Medal      ",
+        videoID:"",
         album:"",
         artist: "Chandra Brar  ",
         lyrics: "Medal",
@@ -1620,6 +1776,7 @@ let playlist = [
     },//31
     {
         title: "Ishq hoya      ",
+        videoID:"",
         album:"",
         artist: "Jyoti Nooran , Arjit Srivastav  ",
         lyrics: "Ishq hoya",
@@ -1629,6 +1786,7 @@ let playlist = [
     },//32
     {
         title: "Illegal      ",
+        videoID:"",
         album:"",
         artist: "Dhanda Nyoliwala   ",
         lyrics: "Illegal",
@@ -1639,6 +1797,7 @@ let playlist = [
     },//33
     {
         title: "Maada Time      ",
+        videoID:"",
         album:"",
         artist: "Sabba  ",
         lyrics: "Maada Time",
@@ -1649,6 +1808,7 @@ let playlist = [
     },//34
     {
         title: "Dil Tu Jaan Tu      ",
+        videoID:"",
         album:"",
         artist: "Guranzar  ",
         lyrics: "Dil Tu Jaan Tu",
@@ -1658,6 +1818,7 @@ let playlist = [
     },//35
     {
         title: "Victory Anthem      ",
+        videoID:"",
         album:"",
         artist: "Khushi-Saini  ",
         lyrics: "Victory Anthem",
@@ -1667,6 +1828,7 @@ let playlist = [
     },//36
     {
         title: "Tareyan Di Loh      ",
+        videoID:"",
         album:"",
         artist: "Harsh Bilga  ",
         lyrics: "Tareyan Di Loh",
@@ -1676,6 +1838,7 @@ let playlist = [
     },//37
     {
         title: "Khidki      ",
+        videoID:"",
         album:"",
         artist: "Rachit Shrivatav  ",
         lyrics: "Khidki",
@@ -1685,6 +1848,7 @@ let playlist = [
     },//38
     {
         title: "Long Time No See      ",
+        videoID:"",
         album:"",
         artist: "A-U-R  ",
         lyrics: "Long Time No See",
@@ -1694,6 +1858,7 @@ let playlist = [
     },//39
     {
         title: "That Girl      ",
+        videoID:"",
         album:"",
         artist: "Amrinder Gill  ",
         lyrics: "That Girl",
@@ -1704,6 +1869,7 @@ let playlist = [
     },//39
     {
         title: "Khabbi Seat      ",
+        videoID:"",
         album:"",
         artist: "Ammy Virk  ",
         lyrics: "Khabbi Seat",
@@ -1713,6 +1879,7 @@ let playlist = [
     },//39
     {
         title: "Ikk Number      ",
+        videoID:"",
         album:"",
         artist: "Gurnam Bhullar  ",
         lyrics: "Ikk Number",
@@ -1722,6 +1889,7 @@ let playlist = [
     },//39
     {
         title: "Filter      ",
+        videoID:"",
         album:"",
         artist: "Gulab Sidhu  ",
         lyrics: "Filter",
@@ -1731,6 +1899,7 @@ let playlist = [
     },//39
     {
         title: "Patti Ton Patiala      ",
+        videoID:"",
         album:"",
         artist: "Harkirat Sangha   ",
         lyrics: "Patti Ton Patiala",
@@ -1743,6 +1912,7 @@ let playlist = [
 //Hustinder:Bhadauria
     {
         title: "Fella's Forever      ",
+        videoID:"",
         album:"Bhadauria",
         artist: "Hustinder    ",
         lyrics: "Fella's Forever",
@@ -1753,6 +1923,7 @@ let playlist = [
     },//13
     {
         title: "Queen's Gambit      ",
+        videoID:"",
         album:"Bhadauria",
         artist: "Hustinder    ",
         lyrics: "Queen's Gambit",
@@ -1763,6 +1934,7 @@ let playlist = [
     },//14
     {
         title: "Don't You Dare      ",
+        videoID:"",
         album:"Bhadauria",
         artist: "Hustinder    ",
         lyrics: "Don't You Dare",
@@ -1773,6 +1945,7 @@ let playlist = [
     },//15
     {
         title: "Mittra'n De Dere     ",
+        videoID:"",
         album:"Bhadauria",
         artist: "Hustinder    ",
         lyrics: "Mittra'n De Dere",
@@ -1783,6 +1956,7 @@ let playlist = [
     },//16
     {
         title: "Step Bhull Gyi      ",
+        videoID:"",
         album:"Bhadauria",
         artist: "Hustinder    ",
         lyrics: "Step Bhull Gyi",
@@ -1794,6 +1968,7 @@ let playlist = [
 
     // { 
     //     title: "Martha My Dear",
+        // videoID:"",
         // album:"",
   
     //     artist: "Hustinder    ",
@@ -1806,6 +1981,7 @@ let playlist = [
 
     {
         title: "White Money     ",
+        videoID:"",
         album:"Bhadauria",
         artist: "Hustinder    ",
         lyrics: "White Money ",
@@ -1816,6 +1992,7 @@ let playlist = [
     },//18
     {
         title: "We Living It      ",
+        videoID:"",
         album:"Bhadauria",
         artist: "Hustinder    ",
         lyrics: "We Living It ",
@@ -1826,6 +2003,7 @@ let playlist = [
     },//19
     {
         title: "Kdo'n Nachana      ",
+        videoID:"",
         album:"Bhadauria",
         artist: "Hustinder    ",
         lyrics: "Kdo'n Nachana",
@@ -1836,6 +2014,7 @@ let playlist = [
     },//20
     {
         title: "Move Your Car ",
+        videoID:"",
         album:"Bhadauria",
         artist: "Hustinder    ",
         lyrics: "Move Your Car ",
@@ -1846,6 +2025,7 @@ let playlist = [
     },//21
     {
         title: "Bhadauria      ",
+        videoID:"",
         album:"Bhadauria",
         artist: "Hustinder    ",
         lyrics: "Bhadauria  ",
@@ -1861,6 +2041,7 @@ let playlist = [
     ,
     {
         title: "Watching You      ",
+        videoID:"",
         album:"Seasons",
         artist: "Hustinder    ",
         lyrics: "Watching You  ",
@@ -1872,6 +2053,7 @@ let playlist = [
     ,
     {
         title: "Still Living      ",
+        videoID:"",
         album:"Seasons",
         artist: "Hustinder    ",
         lyrics: "Still Living",
@@ -1883,6 +2065,7 @@ let playlist = [
     ,
     {
         title: "Hopes      ",
+        videoID:"",
         album:"Seasons",
         artist: "Hustinder    ",
         lyrics: "Hopes",
@@ -1894,6 +2077,7 @@ let playlist = [
     ,
     {
         title: "Incidents      ",
+        videoID:"",
         album:"Seasons",
         artist: "Hustinder    ",
         lyrics: "Incidents",
@@ -1910,6 +2094,7 @@ let playlist = [
     ,
     {
         title: "Zamana      ",
+        videoID:"",
         album:"Three Plays",
         artist: "Hustinder    ",
         lyrics: "Zamana",
@@ -1922,6 +2107,7 @@ let playlist = [
     ,
     {
         title: "Gal Banje      ",
+        videoID:"",
         album:"Three Plays",
         artist: "Hustinder    ",
         lyrics: "Gal Banje",
@@ -1934,6 +2120,7 @@ let playlist = [
     ,
     {
         title: "Cat Walk      ",
+        videoID:"",
         album:"Three Plays",
         artist: "Hustinder    ",
         lyrics: "Cat Walk",
@@ -1954,6 +2141,7 @@ let playlist = [
     ,
     {
         title: "Yaari Torh Layi      ",
+        videoID:"",
         album:"Saadiyan Gallan",
         artist: "Hustinder    ",
         lyrics: "Yaari Torh Layi",
@@ -1965,6 +2153,7 @@ let playlist = [
     ,
     {
         title: "Ucheyan Gharan Diye Jaiye      ",
+        videoID:"",
         album:"Saadiyan Gallan",
         artist: "Hustinder    ",
         lyrics: "Ucheyan Gharan Diye Jaiye",
@@ -1976,6 +2165,7 @@ let playlist = [
     ,
     {
         title: "Teri Deed      ",
+        videoID:"",
         album:"Saadiyan Gallan",
         artist: "Hustinder    ",
         lyrics: "Teri Deed",
@@ -1987,6 +2177,7 @@ let playlist = [
     ,
     {
         title: "Tera Mera Nata      ",
+        videoID:"",
         album:"Saadiyan Gallan",
         artist: "Hustinder    ",
         lyrics: "Tera Mera Nata",
@@ -1998,6 +2189,7 @@ let playlist = [
     ,
     {
         title: "Ohon Galan Hor si      ",
+        videoID:"",
         album:"Saadiyan Gallan",
         artist: "Hustinder    ",
         lyrics: "Ohon Galan Hor si",
@@ -2017,6 +2209,7 @@ let playlist = [
     ,
     {
         title: "Gal Kaon Karda      ",
+        videoID:"",
         album:"Saadiyan Gallan 2",
         artist: "Hustinder    ",
         lyrics: "Gal Kaon Karda",
@@ -2029,6 +2222,7 @@ let playlist = [
     ,
     {
         title: "Gumnaam Pyar      ",
+        videoID:"",
         album:"Saadiyan Gallan 2",
         artist: "Hustinder    ",
         lyrics: "Gumnaam Pyar",
@@ -2041,6 +2235,7 @@ let playlist = [
     ,
     {
         title: "Hasde Hi Rehne Aa      ",
+        videoID:"",
         album:"Saadiyan Gallan 2",
         artist: "Hustinder    ",
         lyrics: "Hasde Hi Rehne Aa",
@@ -2053,6 +2248,7 @@ let playlist = [
     ,
     {
         title: "Ikko Dil      ",
+        videoID:"",
         album:"Saadiyan Gallan 2",
         artist: "Hustinder    ",
         lyrics: "Ikko Dil",
@@ -2064,6 +2260,7 @@ let playlist = [
     ,
     {
         title: "Kidan Dian Gallan      ",
+        videoID:"",
         album:"Saadiyan Gallan 2",
         artist: "Hustinder    ",
         lyrics: "Kidan Dian Gallan",
@@ -2076,6 +2273,7 @@ let playlist = [
     ,
     {
         title: "Maa Kehndi Hundi Si      ",
+        videoID:"",
         album:"Saadiyan Gallan 2",
         artist: "Hustinder    ",
         lyrics: "Maa Kehndi Hundi Si",
@@ -2088,6 +2286,7 @@ let playlist = [
     ,
     {
         title: "Pyaar Hoya      ",
+        videoID:"",
         album:"Saadiyan Gallan 2",
         artist: "Hustinder    ",
         lyrics: "Pyaar Hoya",
@@ -2100,6 +2299,7 @@ let playlist = [
     ,
     {
         title: "Mann Ton Legi      ",
+        videoID:"",
         album:"Saadiyan Gallan 2",
         artist: "Hustinder    ",
         lyrics: "Mann Ton Legi",
@@ -2116,6 +2316,7 @@ let playlist = [
     ,
     {
         title: "Passport Size Tasveer      ",
+        videoID:"",
         album:"Saadiyan Gallan 3",
         artist: "Hustinder    ",
         lyrics: "Passport Size Tasveer",
@@ -2127,6 +2328,7 @@ let playlist = [
     ,
     {
         title: "Rullde Firde Aan      ",
+        videoID:"",
         album:"Saadiyan Gallan 3",
         artist: "Hustinder    ",
         lyrics: "Rullde Firde Aan",
@@ -2139,6 +2341,7 @@ let playlist = [
     ,
     {
         title: "Ik Mutiyar Hundi      ",
+        videoID:"",
         album:"Saadiyan Gallan 3",
         artist: "Hustinder    ",
         lyrics: "Ik Mutiyar Hundi",
@@ -2151,6 +2354,7 @@ let playlist = [
     ,
     {
         title: "Rabb Di Aulad      ",
+        videoID:"",
         album:"Saadiyan Gallan 3",
         artist: "Hustinder    ",
         lyrics: "Rabb Di Aulad",
@@ -2163,6 +2367,7 @@ let playlist = [
     ,
     {
         title: "Surgan Nu Rah      ",
+        videoID:"",
         album:"Saadiyan Gallan 3",
         artist: "Hustinder    ",
         lyrics: "Surgan Nu Rah",
@@ -2175,6 +2380,7 @@ let playlist = [
     ,
     {
         title: "Bhuleya Ki Ae      ",
+        videoID:"",
         album:"Saadiyan Gallan 3",
         artist: "Hustinder    ",
         lyrics: "Bhuleya Ki Ae",
@@ -2186,6 +2392,7 @@ let playlist = [
     ,
     {
         title: "Hathan Utte Duniya      ",
+        videoID:"",
         album:"Saadiyan Gallan 3",
         artist: "Hustinder    ",
         lyrics: "Hathan Utte Duniya",
@@ -2198,6 +2405,7 @@ let playlist = [
     ,
     {
         title: "Saade Warge      ",
+        videoID:"",
         album:"Saadiyan Gallan 3",
         artist: "Hustinder    ",
         lyrics: "Saade Warge",
@@ -2215,6 +2423,7 @@ let playlist = [
     ,//21
     {
         title: "Mugshot      ",
+        videoID:"",
         album:"Supermacy",
         artist: "Hustinder    ",
         lyrics: "Mugshot",
@@ -2226,6 +2435,7 @@ let playlist = [
     ,//21
     {
         title: "Gaza Patti      ",
+        videoID:"",
         album:"Supermacy",
         artist: "Hustinder    ",
         lyrics: "Gaza Patti",
@@ -2238,6 +2448,7 @@ let playlist = [
     ,//21
     {
         title: "Pasand       ",
+        videoID:"",
         album:"Supermacy",
         artist: "Hustinder    ",
         lyrics: "Pasand ",
@@ -2250,6 +2461,7 @@ let playlist = [
     ,//21
     {
         title: "Dollar Wargiye      ",
+        videoID:"",
         album:"Supermacy",
         artist: "Hustinder    ",
         lyrics: "Dollar Wargiye",
@@ -2261,6 +2473,7 @@ let playlist = [
     ,//21
     {
         title: "Tera Sheher      ",
+        videoID:"",
         album:"Supermacy",
         artist: "Hustinder    ",
         lyrics: "Tera Sheher",
@@ -2274,6 +2487,7 @@ let playlist = [
     ,//21
     {
         title: "Jethi Dhee      ",
+        videoID:"",
         album:"Supermacy",
         artist: "Hustinder    ",
         lyrics: "Jethi Dhee",
@@ -2287,6 +2501,7 @@ let playlist = [
     ,//21
     {
         title: "Pehli Vaari      ",
+        videoID:"",
         album:"Supermacy",
         artist: "Hustinder    ",
         lyrics: "Pehli Vaari",
@@ -2309,6 +2524,7 @@ let playlist = [
     ,//21
     {
         title: "Hundi Si Gareebi      ",
+        videoID:"",
         album:"Mahol",
         artist: "Hustinder    ",
         lyrics: "Hundi Si Gareebi",
@@ -2319,6 +2535,7 @@ let playlist = [
     },//21
     {
         title: "Tu Takkri      ",
+        videoID:"",
         album:"Mahol",
         artist: "Hustinder    ",
         lyrics: "Tu Takkri",
@@ -2331,6 +2548,7 @@ let playlist = [
     ,//21
     {
         title: "Mittran Di Sohn       ",
+        videoID:"",
         album:"Mahol",
         artist: "Hustinder    ",
         lyrics: "Mittran Di Sohn",
@@ -2343,6 +2561,7 @@ let playlist = [
     ,//21
     {
         title: "Raonak      ",
+        videoID:"",
         album:"",
         artist: "Hustinder    ",
         lyrics: "Raonak",
@@ -2355,6 +2574,7 @@ let playlist = [
     ,//21
     {
         title: "Velly Yaar      ",
+        videoID:"",
         album:"Mahol",
         artist: "Hustinder    ",
         lyrics: "Velly Yaar",
@@ -2367,6 +2587,7 @@ let playlist = [
     ,//21
     {
         title: "Laag Daat      ",
+        videoID:"",
         album:"Mahol",
         artist: "Hustinder    ",
         lyrics: "Laag Daat",
@@ -2379,6 +2600,7 @@ let playlist = [
     ,//21
     {
         title: "Kharcha Kardange      ",
+        videoID:"",
         album:"Mahol",
         artist: "Hustinder    ",
         lyrics: "Kharcha Kardange",
@@ -2391,6 +2613,7 @@ let playlist = [
     ,//21
     {
         title: "Praandi      ",
+        videoID:"",
         album:"Mahol",
         artist: "Hustinder    ",
         lyrics: "Praandi",
@@ -2408,6 +2631,7 @@ let playlist = [
     ,//21
     {
         title: "Club Tale      ",
+        videoID:"",
         album:"Young Once",
         artist: "Hustinder    ",
         lyrics: "Club Tale",
@@ -2419,6 +2643,7 @@ let playlist = [
     ,//21
     {
         title: "Mittran De Circle      ",
+        videoID:"",
         album:"Young Once",
         artist: "Hustinder    ",
         lyrics: "Mittran De Circle",
@@ -2430,6 +2655,7 @@ let playlist = [
     ,//21
     {
         title: "Hub      ",
+        videoID:"",
         album:"Young Once",
         artist: "Hustinder    ",
         lyrics: "Hub",
@@ -2441,6 +2667,7 @@ let playlist = [
     ,//21
     {
         title: "Dullda Glass      ",
+        videoID:"",
         album:"Young Once",
         artist: "Hustinder    ",
         lyrics: "Dullda Glass",
@@ -2452,6 +2679,7 @@ let playlist = [
     ,//21
     {
         title: "She's Proud      ",
+        videoID:"",
         album:"Young Once",
         artist: "Hustinder    ",
         lyrics: "She's Proud",
@@ -2463,6 +2691,7 @@ let playlist = [
     ,//21
     {
         title: "Gutt      ",
+        videoID:"",
         album:"Young Once",
         artist: "Hustinder    ",
         lyrics: "Gutt",
@@ -2474,6 +2703,7 @@ let playlist = [
     ,//21
     {
         title: "Nachdi Ton      ",
+        videoID:"",
         album:"Young Once",
         artist: "Hustinder    ",
         lyrics: "Nachdi Ton",
@@ -2486,6 +2716,7 @@ let playlist = [
     ,//21
     {
         title: "Door Door      ",
+        videoID:"",
         album:"Young Once",
         artist: "Hustinder    ",
         lyrics: "Door Door",
@@ -2497,6 +2728,7 @@ let playlist = [
     ,//21
     {
         title: "Challey Chamkila      ",
+        videoID:"",
         album:"Young Once",
         artist: "Hustinder    ",
         lyrics: "Challey Chamkila",
@@ -2508,6 +2740,7 @@ let playlist = [
     ,//21
     {
         title: "Katal      ",
+        videoID:"",
         album:"Young Once",
         artist: "Hustinder    ",
         lyrics: "Katal",
@@ -2524,6 +2757,7 @@ let playlist = [
     //Hustinder: Singles
     {
         title: "Sara Pind Mittran Da       ",
+        videoID:"",
         album:"",
         artist: "Hustinder     ",
         lyrics: "Sara Pind Mittran Da",
@@ -2534,6 +2768,7 @@ let playlist = [
     },
     {
         title: "Ik Pind Sade Da Munda      ",
+        videoID:"",
         album:"",
         artist: "Hustinder    ",
         lyrics: "Ik Pind Sade Da Munda",
@@ -2545,6 +2780,7 @@ let playlist = [
     ,
     {
         title: "Lohe De Kunde      ",
+        videoID:"",
         album:"",
         artist: "Hustinder    ",
         lyrics: "Lohe De Kunde",
@@ -2556,6 +2792,7 @@ let playlist = [
     ,
     {
         title: "Pind Puchhdi      ",
+        videoID:"",
         album:"",
         artist: "Hustinder    ",
         lyrics: "Pind Puchhdi",
@@ -2567,6 +2804,7 @@ let playlist = [
     ,
     {
         title: "Rang      ",
+        videoID:"",
         album:"",
         artist: "Hustinder    ",
         lyrics: "Rang",
@@ -2578,6 +2816,7 @@ let playlist = [
     ,
     {
         title: "Yaar Sambh Lainge      ",
+        videoID:"",
         album:"",
         artist: "Hustinder    ",
         lyrics: "Yaar Sambh Lainge",
@@ -2589,6 +2828,7 @@ let playlist = [
     ,
     {
         title: "Dilli Ch Punjab      ",
+        videoID:"",
         album:"",
         artist: "Hustinder    ",
         lyrics: "Dilli Ch Punjab",
@@ -2600,6 +2840,7 @@ let playlist = [
     ,
     {
         title: "Dujja Cup      ",
+        videoID:"",
         album:"",
         artist: "Hustinder    ",
         lyrics: "Dujja Cup",
@@ -2611,6 +2852,7 @@ let playlist = [
     ,
     {
         title: "Number Purana      ",
+        videoID:"",
         album:"",
         artist: "Hustinder    ",
         lyrics: "Number Purana",
@@ -2622,6 +2864,7 @@ let playlist = [
     ,
     {
         title: "Profit Jhone De      ",
+        videoID:"",
         album:"",
         artist: "Hustinder    ",
         lyrics: "Profit Jhone De",
@@ -2633,6 +2876,7 @@ let playlist = [
     ,
     {
         title: "Gol Chowk      ",
+        videoID:"",
         album:"",
         artist: "Hustinder    ",
         lyrics: "Gol Chowk",
@@ -2644,6 +2888,7 @@ let playlist = [
     ,
     {
         title: "Blunt Cut      ",
+        videoID:"",
         album:"",
         artist: "Hustinder    ",
         lyrics: "Blunt Cut",
@@ -2656,7 +2901,8 @@ let playlist = [
 
     // {
     //     title: "      ",
-    //     album:"",
+    // videoID:"",    
+    // album:"",
   
     //     artist: "Hustinder    ",
     //     lyrics: "",
@@ -2673,6 +2919,7 @@ let playlist = [
     //RP Singh: Singles
     {
         title: "Sexy       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Sexy",
@@ -2683,6 +2930,7 @@ let playlist = [
     },//song3\
     {
         title: "Pencil       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Pencil",
@@ -2693,6 +2941,7 @@ let playlist = [
     },//song3\
     {
         title: "Sheesha       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Sheesha",
@@ -2703,6 +2952,7 @@ let playlist = [
     },//song3\
     {
         title: "Rap God       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Rap God",
@@ -2713,6 +2963,7 @@ let playlist = [
     },//song3\
     {
         title: "Mcoca       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Mcoca",
@@ -2723,6 +2974,7 @@ let playlist = [
     },//song3\
     {
         title: "Banger       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Banger",
@@ -2733,6 +2985,7 @@ let playlist = [
     },//song3\
     {
         title: "Bliss       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Bliss",
@@ -2743,6 +2996,7 @@ let playlist = [
     },//song3\
     {
         title: "Azad Flow       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Azad Flow ",
@@ -2754,6 +3008,7 @@ let playlist = [
 
     {
         title: "Power       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Power",
@@ -2764,6 +3019,7 @@ let playlist = [
     },//song3\
     {
         title: "Meeh       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Meeh",
@@ -2774,6 +3030,7 @@ let playlist = [
     },//song3\
     {
         title: "Chehre       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Chehre",
@@ -2784,6 +3041,7 @@ let playlist = [
     },//song3\
     {
         title: "3 AM       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "3 AM",
@@ -2794,6 +3052,7 @@ let playlist = [
     },//song3\
     {
         title: "Aadhi Si Raat       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Aadhi Si Raat",
@@ -2804,6 +3063,7 @@ let playlist = [
     },//song3\
     {
         title: "Jigre       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Jigre",
@@ -2814,6 +3074,7 @@ let playlist = [
     },//song3\
     {
         title: "Look Book       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Look Book",
@@ -2824,6 +3085,7 @@ let playlist = [
     },//song3\
     {
         title: "Maal       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Maal",
@@ -2834,6 +3096,7 @@ let playlist = [
     },//song3\
     {
         title: "No Lve       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "",
@@ -2844,6 +3107,7 @@ let playlist = [
     },//song3\
     {
         title: "Pataka       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Pataka",
@@ -2854,6 +3118,7 @@ let playlist = [
     },//song3\
     {
         title: "Sapne       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "",
@@ -2864,6 +3129,7 @@ let playlist = [
     },//song3\
     {
         title: "Tehalka       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Tehalka",
@@ -2874,6 +3140,7 @@ let playlist = [
     },//song3\
     {
         title: "Stop RP       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Stop RP",
@@ -2885,6 +3152,7 @@ let playlist = [
 
     {
         title: "Toxic       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Toxic",
@@ -2895,6 +3163,7 @@ let playlist = [
     },//song3\
     {
         title: "Shiva       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Shiva",
@@ -2905,6 +3174,7 @@ let playlist = [
     },//song3\
     {
         title: "Sneeze       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Sneeze",
@@ -2915,6 +3185,7 @@ let playlist = [
     },//song3\
     {
         title: "Sarpanchi       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Sarpanchi",
@@ -2925,6 +3196,7 @@ let playlist = [
     },//song3\
     {
         title: "If You Know You Know       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "If You Know You Know",
@@ -2936,6 +3208,7 @@ let playlist = [
 
     {
         title: "7 Birth       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "7 Birth",
@@ -2946,6 +3219,7 @@ let playlist = [
     },//song3\
     {
         title: "1857       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "1857",
@@ -2956,6 +3230,7 @@ let playlist = [
     },//song3\
     {
         title: "Approach       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Approach",
@@ -2966,6 +3241,7 @@ let playlist = [
     },//song3\
     {
         title: "BFF       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "BFF",
@@ -2976,6 +3252,7 @@ let playlist = [
     },//song3\
     {
         title: "Do Cheez       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Do Cheez",
@@ -2986,6 +3263,7 @@ let playlist = [
     },//song3\
     {
         title: "Famous       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Famous",
@@ -2996,6 +3274,7 @@ let playlist = [
     },//song3\
     {
         title: "Govinda       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Govinda",
@@ -3006,6 +3285,7 @@ let playlist = [
     },//song3\
     {
         title: "Jahaaj       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Jahaaj",
@@ -3016,6 +3296,7 @@ let playlist = [
     },//song3\
     {
         title: "MI AMOR       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "MI AMOR",
@@ -3026,6 +3307,7 @@ let playlist = [
     },//song3\
     {
         title: "Victor       ",
+        videoID:"",
         album:"",
         artist: "RP Singh    ",
         lyrics: "Victor",
@@ -3041,7 +3323,8 @@ let playlist = [
 
     // {
     //     title: "       ",
-    //     album:"",
+    // videoID:"",    
+    // album:"",
     //     artist: "Masoom Sharma    ",
     //     lyrics: "2 Numbari",
     //     artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -3051,6 +3334,7 @@ let playlist = [
     // },
     {
         title: "Shok Albadi       ",
+        videoID:"",
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "Shok Albadi",
@@ -3062,6 +3346,7 @@ let playlist = [
 
     {
         title: "Mahashya Ji      ",
+        videoID:"",
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "Mahashya Ji",
@@ -3072,6 +3357,7 @@ let playlist = [
     },
     {
         title: "Khuni Ranjis      ",
+        videoID:"",
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "Khuni Ranjis",
@@ -3082,6 +3368,7 @@ let playlist = [
     },
     {
         title: "UP Aale kaam      ",
+        videoID:"",
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "Up Aale Kaam",
@@ -3095,6 +3382,7 @@ let playlist = [
 
     {
         title: "2 Numbari       ",
+        videoID:"",
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "2 Numbari",
@@ -3106,6 +3394,7 @@ let playlist = [
     ,//song3\
     {
         title: "Jaan Jatni       ",
+        videoID:"",
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "Jaan Jatni",
@@ -3117,6 +3406,7 @@ let playlist = [
     ,//song3\
     {
         title: "English Medium       ",
+        videoID:"",
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "English Medium",
@@ -3128,6 +3418,7 @@ let playlist = [
     ,//song3\
     {
         title: "2 Dada       ",
+        videoID:"",
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "2 Dada",
@@ -3139,6 +3430,7 @@ let playlist = [
     ,//song3\
     {
         title: "Chambal K Daku       ",
+        videoID:"",
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "Chambal K Daku",
@@ -3150,6 +3442,7 @@ let playlist = [
     ,//song3\
     {
         title: "Baba Ji Ki Booti       ",
+        videoID:"",
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "Baba Ji Ki Booti",
@@ -3161,6 +3454,7 @@ let playlist = [
     ,//song3\
     {
         title: "4-5 Pistol       ",
+        videoID:"",
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "4-5 Pistol",
@@ -3172,6 +3466,7 @@ let playlist = [
     ,//song3\
     {
         title: "Tempo       ",
+        videoID:"",
         album:"",
         artist: "Masoom Sharma    ",
         lyrics: "2 Numbari",
@@ -3198,6 +3493,7 @@ let playlist = [
 
     {
         title: "Enna Sona      ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Enna Sona ",
@@ -3208,6 +3504,7 @@ let playlist = [
     },
     {
         title: "Tenu Sang Rakhna      ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Tenu Sang Rakhna ",
@@ -3218,6 +3515,7 @@ let playlist = [
     },
     {
         title: "O Bedardeya      ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "O Bedardeya",
@@ -3228,6 +3526,7 @@ let playlist = [
     },
     {
         title: "Kalank      ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Kalank",
@@ -3238,6 +3537,7 @@ let playlist = [
     },
     {
         title: "Kabhi Jo Badal      ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Kabhi Jo Badal ",
@@ -3248,6 +3548,7 @@ let playlist = [
     },
     {
         title: "Khairiyat     ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Khairiyat",
@@ -3258,6 +3559,7 @@ let playlist = [
     },
     {
         title: "O Maahi     ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "O Maahi",
@@ -3268,6 +3570,7 @@ let playlist = [
     },
     {
         title: "Phir Bhi Tumko Chahunga     ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Phir Bhi Tumko Chahunga",
@@ -3278,6 +3581,7 @@ let playlist = [
     },
     {
         title: "Sajni     ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Sajni",
@@ -3288,6 +3592,7 @@ let playlist = [
     },
     {
         title: "Soch Na Sake     ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Soch Na Sake",
@@ -3298,6 +3603,7 @@ let playlist = [
     },
     {
         title: "Tum Ho     ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Tum Ho",
@@ -3308,6 +3614,7 @@ let playlist = [
     },
     {
         title: "Ve Kamleya     ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Ve Kamleya",
@@ -3318,6 +3625,7 @@ let playlist = [
     },
     {
         title: "Zaalima     ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Zaalima",
@@ -3328,6 +3636,7 @@ let playlist = [
     },
     {
         title: "Bolna     ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Bolna",
@@ -3338,6 +3647,7 @@ let playlist = [
     },
     {
         title: "Citylights     ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Citylights",
@@ -3348,6 +3658,7 @@ let playlist = [
     },
     {
         title: "Hamari Adhuri Kahani    ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Hamari Adhuri Kahani",
@@ -3358,6 +3669,7 @@ let playlist = [
     },
     {
         title: "Hawayein     ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Hawayein     ",
@@ -3368,6 +3680,7 @@ let playlist = [
     },
     {
         title: "Humdard     ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Humdard",
@@ -3378,6 +3691,7 @@ let playlist = [
     },
     {
         title: "Ik Vaari Aa    ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Ik Vaari Aa",
@@ -3388,6 +3702,7 @@ let playlist = [
     },
     {
         title: "Jalebi     ",
+        videoID:"",
         album:"",
         artist: "Arijit Singh    ",
         lyrics: "Jalebi",
@@ -3399,7 +3714,8 @@ let playlist = [
 
     // ,{
     //     title: "     ", 
-    //     album:"",
+    // videoID:"",    
+    // album:"",
   
     //     artist: "Arijit Singh    ",
     //     lyrics:"",        

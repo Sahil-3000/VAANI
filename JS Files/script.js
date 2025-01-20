@@ -4,7 +4,8 @@
 
 // Default playlist is set to the playlist variable
 let currentPlaylist = playlist; // Default playlist
-
+let videoId;
+const vidIFrame = document.querySelector(".vid-iframe");
 
 // Function to switch between different playlists
 // function switchPlaylist(newPlaylist) {
@@ -42,6 +43,7 @@ const artistName = document.querySelector('.artist-name')
 // Function to set the current song (for download button)
 function setCurrentSong(track) {
     currentSong = track;
+    videoId = currentSong.videoID;
 }
 
 
@@ -143,6 +145,7 @@ function playSong(audioFile) {
     artistImg.src = track.artistPhoto;
     songName.textContent = track.title;
     artistName.textContent = track.artist;
+    videoId = track.videoID;
     // currentTrackIndex = trackIndex;
     // Update the track's metadata when loaded
     audio.onloadedmetadata = () => {
@@ -206,21 +209,22 @@ const btnLyrics = document.querySelector('.show-lyrics');
 const showLyrics = document.querySelector('.lyrics-container');
 
 btnLyrics.addEventListener("click", () => {
-    if(showLyrics.style.display == "none"){
+    if (showLyrics.style.display == "none") {
         mainPlaySection.style.display = "none";
         defaultContent.style.display = "none";
         showLyrics.style.display = "block";
         songDetails.style.display = "block";
         songResults.style.display = "none";
+        showPlayer.style.display = "none";
     }
-    else{
+    else {
         mainPlaySection.style.display = "block"; // Hide the main play section
         defaultContent.style.display = "block";
         showLyrics.style.display = "none";  // Show the lyrics section
         songDetails.style.display = "none";
         songResults.style.display = "block";
     }
-   
+
 });
 
 
@@ -236,10 +240,11 @@ const sidebar2 = document.querySelector('.sidebar2')
 const main = document.querySelector('main');
 
 
-displayLibrary.addEventListener("click",()=>{
-    main.style.display= "none";
-    sidebar1.style.display="block";
-    sidebar1.style.flex="0 0 100%";
+displayLibrary.addEventListener("click", () => {
+    main.style.display = "none";
+    showPlayer.style.display = "none";
+    sidebar1.style.display = "block";
+    sidebar1.style.flex = "0 0 100%";
 })
 
 
@@ -251,11 +256,12 @@ const defaultContent = document.querySelector(".default-content");
 const searchBtn = document.querySelector(".search-btn");
 
 searchBtn.addEventListener("click", () => {
-    
+
     if (songResults.style.display === "none") {
         // Show song results and hide default content
         songResults.style.display = "block";  // or 'block' depending on the layout
         defaultContent.style.display = "none";
+        showPlayer.style.display = "none";
     } else {
         // Show default content and hide song results
         songResults.style.display = "none";
@@ -263,11 +269,11 @@ searchBtn.addEventListener("click", () => {
     }
 });
 
-document.getElementById("search-btn").addEventListener("click", function() {
-    
+document.getElementById("search-btn").addEventListener("click", function () {
+
     const query = document.getElementById("search-bar").value.toLowerCase();
-    if(query) {
-        const results = playlist.filter(song => 
+    if (query) {
+        const results = playlist.filter(song =>
             (song.title?.toLowerCase() || "").includes(query) ||
             (song.artist?.toLowerCase() || "").includes(query) ||
             (song.searchString?.toLowerCase() || "").includes(query)
@@ -277,31 +283,31 @@ document.getElementById("search-btn").addEventListener("click", function() {
 });
 
 
-             
+
 const searchInput = document.getElementById('search-bar');
-searchInput.addEventListener('input',function() {
+searchInput.addEventListener('input', function () {
     // const query = document.getElementById("search-bar").value.toLowerCase();
     document.getElementById("search-btn").click();
-   
+
 });
 
 // Optional: Allow Enter key to trigger search
-document.getElementById("search-bar").addEventListener("keypress", function(event) {
+document.getElementById("search-bar").addEventListener("keypress", function (event) {
 
     if (event.key === "Enter") {
-        
+
         document.getElementById("search-btn").click();
-    } 
-    
+    }
+
 });
 
 // Listen for keyboard events
-document.addEventListener('keydown', function(event) {
+document.addEventListener('keydown', function (event) {
 
     const activeElement = document.activeElement;
     if (activeElement.tagName === 'INPUT' || activeElement.tagName === 'TEXTAREA') {
-                // Do nothing if the focus is in a text input or textarea
-                return;
+        // Do nothing if the focus is in a text input or textarea
+        return;
     }
     if (event.key === ' ') {
         // Spacebar pressed, toggle play/pause
@@ -328,11 +334,18 @@ function displayResults(results) {
     const resultsContainer = document.querySelector(".song-results");
     resultsContainer.innerHTML = ''; // Clear previous results
     if (results.length > 0) {
-        results.forEach(song => {
+        results.forEach((song,index) => {
             const songDiv = document.createElement("div");
             songDiv.classList.add("song-results");
 
             const songImage = document.createElement("img");
+            songImage.addEventListener("click",(event)=>{
+                loadTrack(index);
+                currentTrackIndex = index;
+                playSong(song.audio);
+            });
+
+            
             songImage.src = song.cover;
             songImage.alt = song.title;
             songDiv.appendChild(songImage);
@@ -344,9 +357,15 @@ function displayResults(results) {
             songArtist.textContent = `${song.artist}`;
             songMeta.appendChild(songTitle);
             songMeta.appendChild(songArtist);
-            
-            
-            
+
+            songMeta.addEventListener("click",(event)=>{
+                loadTrack(index);
+                currentTrackIndex = index;
+                playSong(song.audio);
+            });
+
+
+
 
             const downLoad = document.createElement("button");
             downLoad.textContent = "Download";
@@ -370,11 +389,12 @@ function displayResults(results) {
             playButton.textContent = "Play";
             playButton.onclick = () => {
                 audio.load();
-                
+                loadTrack(index);
+                currentTrackIndex = index;
                 // audio.play();
                 playSong(song.audio);
             }
-            
+
             songDiv.appendChild(playButton);
 
             resultsContainer.appendChild(songDiv);
@@ -382,7 +402,7 @@ function displayResults(results) {
     } else {
         resultsContainer.innerHTML = '<p>No songs found.</p>';
     }
-    
+
 }
 
 
@@ -410,9 +430,9 @@ libraryItems.forEach((libraryItem, index) => {
 
         // Display the playlist details
         displayPlaylist(selectedPlaylist);
-        
-        
-        
+
+
+
     });
 });
 
@@ -452,7 +472,7 @@ document.addEventListener("DOMContentLoaded", () => {
 // Function to display the selected playlist's details
 function displayPlaylist(playList) {
     // switchPlaylist(playlists.songs);
-    
+
     currentTrackIndex = 0;
     const playlistContainer = openPlaylistContainer;
     playlistContainer.innerHTML = '';  // Clear any previous playlist content
@@ -474,12 +494,12 @@ function displayPlaylist(playList) {
     playlistArtist.textContent = `Artist: ${playList.artist}`;
     playlistHeader.appendChild(playlistArtist);
 
-    
-    
+
+
     // Create a list of songs for the selected playlist
     playList.songs.forEach((song, index) => {
-        
-        
+
+
         const songDiv = document.createElement("div");
         songDiv.classList.add("song-item");
 
@@ -512,22 +532,43 @@ function displayPlaylist(playList) {
         let playButton1 = document.createElement("button");
         playButton1.setAttribute("data-type", "play-button");
         playButton1.textContent = "Play";
-        playButton1.addEventListener("click",()=>{
+        playButton1.addEventListener("click", () => {
             // switchPlaylist(playList,index);
             currentPlaylist = playList.songs;
             loadTrack(index);
             // currentTrackIndex = index;
             audio.load();
             playSong(song.audio);
-            
+
         });
-      
+
+        songDiv.addEventListener("click",(event)=>{
+            if(event.target = event.currentTarget){
+                currentPlaylist = playList.songs;
+                
+                loadTrack(index);
+                currentTrackIndex = index;
+                // audio.src = playList.songs[currentTrackIndex].audio;
+                // audio.load();
+                playSong(song.audio);
+            }
+        });
+
+        songDiv.addEventListener("click",(event)=>{
+            if (event.target = event.currentTarget) {
+                loadTrack(index);
+                currentTrackIndex = index;
+                playSong(song.audio);
+            }
+        });
+
+
         songDiv.appendChild(playButton1);
 
         playlistHeader.appendChild(songDiv);
     });
     playlistContainer.appendChild(playlistHeader);
-    
+
 }
 
 
@@ -550,7 +591,7 @@ const music = document.querySelector(".music");
 const recoPlay = document.querySelectorAll(".recommended-item");
 const trendPlay = document.querySelectorAll(".trending-item");
 
-allSongs.addEventListener("click",()=>{
+allSongs.addEventListener("click", () => {
     const selectedPlaylist = playlistsMain[0];
 
     // Show the selected playlist and hide the library
@@ -565,8 +606,8 @@ allSongs.addEventListener("click",()=>{
 
 
 
-recoPlay.forEach((play,i) =>{
-    play.addEventListener("click",()=>{
+recoPlay.forEach((play, i) => {
+    play.addEventListener("click", () => {
         const selectedPlaylist = recoPlaylist[i];
 
         // Show the selected playlist and hide the library
@@ -582,8 +623,8 @@ recoPlay.forEach((play,i) =>{
     });
 })
 
-trendPlay.forEach((play,i) =>{
-    play.addEventListener("click",()=>{
+trendPlay.forEach((play, i) => {
+    play.addEventListener("click", () => {
         // const selectedPlaylist = playlistsMain[i];
         const selectedPlaylist = trendPlaylist[i];
 
@@ -599,7 +640,7 @@ trendPlay.forEach((play,i) =>{
         displayMainPlaylist(selectedPlaylist);
     });
 })
-music.addEventListener("click",()=>{
+music.addEventListener("click", () => {
     const selectedPlaylist = playlistsMain[2];
 
     // Show the selected playlist and hide the library
@@ -610,7 +651,7 @@ music.addEventListener("click",()=>{
 
     // Display the playlist details
     displayAllSongs(selectedPlaylist);
-    
+
 })
 // music.addEventListener("click",()=>{
 //     document.querySelector(".all").click();
@@ -634,10 +675,10 @@ function displayAllSongs(playList) {
     const mainPlayHeader = document.createElement("div");
     mainPlayHeader.classList.add("playlist-results");
 
-    
+
 
     // Create a list of songs for the selected playlist
-    playList.songs.forEach((song,index) => {
+    playList.songs.forEach((song, index) => {
         const songDiv = document.createElement("div");
         songDiv.classList.add("song-item");
 
@@ -681,6 +722,15 @@ function displayAllSongs(playList) {
             audio.load();
             playSong(song.audio);
         };
+        songDiv.addEventListener("click",(event)=>{
+            if (event.target = event.currentTarget) {
+                loadTrack(index);
+                currentTrackIndex = index;
+                playSong(song.audio);
+            }
+        });
+
+        
         songDiv.appendChild(playButton);
 
         mainPlayHeader.appendChild(songDiv);
@@ -761,10 +811,10 @@ function displayMainPlaylist(playList) {
     mainPlayArtist.textContent = `Artist: ${playList.artist}`;
     mainPlayImgContainer.appendChild(mainPlayArtist);
 
-    
+
 
     // Create a list of songs for the selected playlist
-    playList.songs.forEach((song,index) => {
+    playList.songs.forEach((song, index) => {
         const songDiv = document.createElement("div");
         songDiv.classList.add("song-item");
 
@@ -807,6 +857,15 @@ function displayMainPlaylist(playList) {
             currentTrackIndex = index;
             playSong(song.audio);
         };
+
+        songDiv.addEventListener("click",(event)=>{
+            if (event.target = event.currentTarget) {
+                loadTrack(index);
+                currentTrackIndex = index;
+                playSong(song.audio);
+            }
+        });
+
         songDiv.appendChild(playButton);
 
         mainPlayHeader.appendChild(songDiv);
@@ -823,49 +882,61 @@ const showLibrary = document.querySelector(".show-library");
 homeButton.addEventListener("click", () => {
     const screenWidth = window.innerWidth;
     //for mobiles
-    if ((screenWidth<768) && ((songResults.style.display === "block") || (mainOpenPlayContainer.style.display === "block") || (sidebar1.style.display="block") || (showLyrics.style.display="block") || (songDetails.style.display="block"))) {
+    if ((screenWidth < 1024) && ((songResults.style.display === "block") ||
+        (mainOpenPlayContainer.style.display === "block") ||
+        (sidebar1.style.display = "block") ||
+        (showLyrics.style.display = "block") ||
+        (songDetails.style.display = "block") ||
+        (showPlayer.style.display = "block"))) {
+
         // Show song results and hide default content
         songResults.style.display = "none";  // or 'block' depending on the layout
-        main.style.flex="0 0 100%";
-        main.style.display="block";
-        showLyrics.style.display="none";
-        sidebar1.style.flex="0 0 0";
-        sidebar1.style.display="none";
-        songDetails.style.display="none";
-        
+        main.style.flex = "0 0 100%";
+        main.style.display = "block";
+        showLyrics.style.display = "none";
+        sidebar1.style.flex = "0 0 0";
+        sidebar1.style.display = "none";
+        songDetails.style.display = "none";
+        showPlayer.style.display = "none";
+
 
         mainOpenPlayContainer.style.display === "none"
         mainOpenPlayContainer.innerHTML = '';
         mainOpenPlayContainer.style.height = "0px";
         mainOpenPlayContainer.style.pdadding = "0px";
         mainOpenPlayContainer.style.margin = "0px";
-        
+
         defaultContent.style.display = "block";
     } else {
         // Show default content and hide song results
         songResults.style.display = "none";
-        
+
         mainOpenPlayContainer.style.display === "none"
         mainOpenPlayContainer.innerHTML = '';
         mainOpenPlayContainer.style.height = "0px";
         mainOpenPlayContainer.style.pdadding = "0px";
         mainOpenPlayContainer.style.margin = "0px";
-        songDetails.style.display="none";
+        songDetails.style.display = "none";
         defaultContent.style.display = "block";
     }
 
 
 
     //for desktop
-    if ((screenWidth>1024) && ((songResults.style.display === "block") || (mainOpenPlayContainer.style.display === "block") || (sidebar1.style.display="block") || (showLyrics.style.display="block"))) {
+    if ((screenWidth > 1024) && ((songResults.style.display === "block") || 
+    (mainOpenPlayContainer.style.display === "block") || 
+    (sidebar1.style.display = "block") || 
+    (showLyrics.style.display = "block")||
+    (showPlayer.style.display = "block")
+)) {
         // Show song results and hide default content
         songResults.style.display = "none";  // or 'block' depending on the layout
 
-        main.style.display="block";
-        showLyrics.style.display="none";
-        // sidebar1.style.display="none";
+        main.style.display = "block";
+        showLyrics.style.display = "none";
+        showPlayer.style.display="none";
         // sidebar1.style.flex="0 0 0";
-        
+
 
         mainOpenPlayContainer.style.display === "none"
         mainOpenPlayContainer.innerHTML = '';
@@ -877,13 +948,13 @@ homeButton.addEventListener("click", () => {
     } else {
         // Show default content and hide song results
         songResults.style.display = "none";
-        
+
         mainOpenPlayContainer.style.display === "none"
         mainOpenPlayContainer.innerHTML = '';
         mainOpenPlayContainer.style.height = "0px";
         mainOpenPlayContainer.style.pdadding = "0px";
         mainOpenPlayContainer.style.margin = "0px";
-        
+
         defaultContent.style.display = "block";
     }
 
@@ -900,15 +971,15 @@ modeButton.addEventListener('click', () => {
         isShuffle = false;
         isRepeat = true;
         modeImage.src = "covers/buttons/repeatMode.png";
-       
+
     } else if (isRepeat) {
         isRepeat = false;
         modeImage.src = "covers/buttons/defaultMode.png";
-   
+
     } else {
         isShuffle = true;
         modeImage.src = "covers/buttons/suffleMode.png";
-     
+
     }
 });
 // function playNextTrack() {
@@ -948,31 +1019,31 @@ function nextTrack() {
     if (isRepeat) {
         currentTrackIndex = currentTrackIndex;
         loadTrack(currentTrackIndex); // Load the next track
-        
+
     } else if (isShuffle) {
         currentTrackIndex = Math.floor(Math.random() * currentPlaylist.length);
         loadTrack(currentTrackIndex); // Load the next track
-        
+
     } else {
         currentTrackIndex = (currentTrackIndex + 1) % currentPlaylist.length;
         loadTrack(currentTrackIndex); // Load the next track
-        
+
     }
 
     // Increment index and loop back to the start
-   
-    
-    if(showLyrics.style.display=="block"){
-        songDetails.style.display="block";
+
+
+    if (showLyrics.style.display == "block") {
+        songDetails.style.display = "block";
     }
-    else{
-        songDetails.style.display="none";
+    else {
+        songDetails.style.display = "none";
     }
     // audio.play();  
     // playSong(currentSong.audio);
     audio.play();
     playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';  // Update icon
-   
+
     isPlaying = true;
 }
 
@@ -984,19 +1055,19 @@ function prevTrack() {
         currrentTrackIndex = currentTrackIndex;
     } else if (isShuffle) {
         currentTrackIndex = Math.floor(Math.random() * currentPlaylist.length);
-    
+
     } else {
         currentTrackIndex = (currentTrackIndex - 1 + currentPlaylist.length) % currentPlaylist.length;
-        
+
     }
     // Decrement index and loop back to the end
-    
+
     loadTrack(currentTrackIndex); // Load the previous track
-    if(showLyrics.style.display=="block"){
-        songDetails.style.display="block";
+    if (showLyrics.style.display == "block") {
+        songDetails.style.display = "block";
     }
-    else{
-        songDetails.style.display="none";
+    else {
+        songDetails.style.display = "none";
     }
     audio.play();  // Play the previous track
     playPauseIcon.innerHTML = '<use href="#pause-icon"></use>';  // Update icon
@@ -1014,7 +1085,7 @@ function loadLyrics(songName, artistName) {
         <div>${songName}</div>
         <div>by ${artistName}</div>
     `;
-    
+
     // Display the song details
     songDetails.style.display = "none";
 
@@ -1055,7 +1126,8 @@ function loadTrack(trackIndex) {
     nowPlayingTitle.textContent = track.title;
     nowPlayingArtist.textContent = track.artist;
     nowPlayingCover.src = track.cover;
-
+    videoId = track.videoID;
+    vidIFrame.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&loop=1&mute=1&modestbranding=1&playlist=${videoId}&controls=0`;
     // Set the audio source and prepare it for playback
     audio.src = track.audio;
     audio.load(); // Load the audio metadata
@@ -1078,22 +1150,71 @@ function loadTrack(trackIndex) {
         progressSlider.max = Math.floor(audio.duration);  // Set the maximum value of the progress slider
     };
 
-    
+
     // Load lyrics if available for the track
-    loadLyrics(track.lyrics, track.artist);               
+    loadLyrics(track.lyrics, track.artist);
 
     // Set the current song for the download button
     setCurrentSong(track);
     // Example: Call this function when a new song is played
 
     updateMediaMetadata(track);
-    
-} 
+
+}
 
 
 //user profile section
 
 const userProfile = document.querySelector(".user-profile");
-userProfile.addEventListener("click",()=>{
+userProfile.addEventListener("click", () => {
     window.location.href = "userProfile.html";
+});
+
+
+const showPlayer = document.querySelector(".player");
+const nowPlaying = document.querySelector(".now-playing");
+// nowPlaying.addEventListener("click", ()=>{
+//     if(showPlayer.style.display == "none"){
+//         showPlayer.style.display = "block";
+//     }
+//     else{
+//         showPlayer.style.display = "none";
+//     }
+// })
+
+
+
+
+
+// Add event listener for double-click
+nowPlaying.addEventListener("click", (event) => {
+    
+    
+    if (event.target === event.currentTarget) {
+        
+        if (showPlayer.style.display == "none") {
+            // Show the player and save the state in history
+            showPlayer.style.display = "block";
+            
+            defaultContent.style.display = "none";
+            history.pushState({ showPlayer: "block" }, "Player Visible");
+        } else {
+            // Hide the player and save the state in history
+            showPlayer.style.display = "none";
+            defaultContent.style.display = "block";
+            history.pushState({ showPlayer: "none" }, "Player Hidden");
+        }
+    }
+
+})
+
+// Handle browser back/forward navigation
+
+window.addEventListener("popstate", (event) => {
+    if (event.state && event.state.showPlayer) {
+        showPlayer.style.display = event.state.showPlayer;
+    } else {
+        // Default state if no state exists
+        showPlayer.style.display = "none";
+    }
 });
