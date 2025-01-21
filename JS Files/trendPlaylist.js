@@ -6,9 +6,9 @@ let trendPlaylist = [
     {
         id: 1,
         
-        title: "ArjanXHustinder",
+        title: "Arjan X Hustinder",
         album:"ArjanXHustinder",
-        artist: "Arjan and Hustinder",
+        artist: "Arjan,Hustinder",
         cover: "covers/trending/arjan_X_hustinder.png",
         songs: [
               //Arjan and Hustinder
@@ -1396,344 +1396,400 @@ let trendPlaylist = [
     {
         id: 3,
         
-        title: "Eminem Hits",
+        title: "Curtain Call 2",
         album:"",
         artist: "Eminem",  
-        cover: "covers/eminem.jpg",
+        cover: "covers/albums/eminem/curtain call 2_album.png",
         songs: [
-            
-            //mislenous songs
-            { title: "Victory Anthem",
-                album:"",       artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/singles/victory anthem.mp3", searchString: "Victer"},//27
-            { title: "Tu Hai Kaha",
-                album:"",       artist: "A-U-R", cover: "covers/tu hai kaha.jpg", audio: "songs/singles/tu hai kaha.mp3", searchString: "Victer"},//28
-            { title: "Sweater",
-                album:"",       artist: "Preet Hundal", cover: "covers/sweater.jpg", audio: "songs/singles/sweater.mp3", searchString: "Victer"},//29
-            { title: "Zindagi",
-                album:"",       artist: "Sabba",artistPhoto: "covers/Sabba.png", cover: "covers/zindagi sabba.jpg", audio: "songs/singles/zindagi sabba.mp3", searchString: "sabba k gane"},//30
-            { title: "Medal",
-                album:"",       artist: "Chandra Brar", cover: "covers/medal.jpg", audio: "songs/singles/medal.mp3", searchString: "Victer"},//31
-            { title: "Ishq hoya",
-                album:"",       artist: "Jyoti Nooran, Arjit Srivastav", cover: "covers/ishq hoya.jpg", audio: "songs/singles/ishq hoya.mp3", searchString: "Victer"},//32
-            { title: "Illegal",
-                album:"",       artist: "Dhanda Nyoliwala",artistPhoto: "covers/Dhanda Nyoliwala.png", cover: "covers/illegal dhanda.jpg", audio: "songs/singles/illegal dhanda.mp3", searchString: "Victer"},//33
-            { title: "Maada Time",
-                album:"",       artist: "Sabba",artistPhoto: "covers/Sabba.png", cover: "covers/maada time_sabba.png", audio: "songs/singles/maada time.mp3", searchString: "sabba k gane"},//34
-            { title: "Dil Tu Jaan Tu",
-                album:"",       artist: "Guranzar", cover: "covers/dil tu jaan tu.jpg", audio: "songs/singles/dil tu jaan tu.mp3", searchString: "Victer"},//35
-            { title: "Victory Anthem",
-                album:"",      artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/singles/victory anthem.mp3", searchString: "Victer"},//36
-            { title: "Tareyan Do Loh",
-                album:"",       artist: "Harsh Bilga", cover: "covers/tareyan di loh.jpg", audio: "songs/singles/tareyan di loh.mp3", searchString: "Victer"},//37
-            { title: "Khidki",
-                album:"",       artist: "Rachit Shrivatav", cover: "covers/khidki.webp", audio: "songs/singles/khidki.mp3", searchString: "Victer"},//38
-            { title: "Long Time No See",
-                album:"",       artist: "A-U-R", cover: "covers/long time no see.jpg", audio: "songs/singles/long time no see.mp3", searchString: "Victer"},//39
-            { title: "That Girl",
-                album:"",       artist: "Amrinder Gill",artistPhoto: "covers/Amrinder Gill.png", cover: "covers/that girl_amrinder gill.png", audio: "songs/singles/that girl_amrinder gill.mp3", searchString: "Victer"},//39
-            { title: "Khabbi Seat",
-                album:"",      artist: "Ammy Virk", cover: "covers/khabbi seat_ammy virk.png", audio: "songs/singles/khabbi seat_ammy virk.mp3", searchString: "Victer"},//39
-            { title: "Ikk Number",
-                album:"",       artist: "Gurnam Bhullar", cover: "covers/ik number_gurnam bhullar.png", audio: "songs/singles/ik number_gurnam bhullar.mp3", searchString: "Victer"},//39
-            { title: "Filter",
-                album:"",       artist: "Gulab Sidhu", cover: "covers/filter_gulab sidhu.png", audio: "songs/singles/filter_gulab sidhu.mp3", searchString: "Victer"},//39
-            { title: "Patti Ton Patiala",
-                album:"",       artist: "Harkirat Sangha", cover: "covers/patti to patiala_harkirat sangha.png", audio: "songs/singles/patti to patiala_harkirat sangha.mp3", searchString: "Victer"},//39
-            //Karan Aujla
-            { title: "Softly",
-                album:"",       artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/softly_karan.png", audio: "songs/singles/softly_karan.mp3", searchString: "Victer"},//65
-            { title: "On Top",
-                album:"",       artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/on top_karan.png", audio: "songs/singles/on top_karan.mp3", searchString: "Victer"},//66
-            { title: "WYTB",
-                album:"",       artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/wytb_karan.png", audio: "songs/singles/wytb_karan.mp3", searchString: "Victer"},//67
-            { title: "52 Bars",
-                album:"",       artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/52 bars_karan.png", audio: "songs/singles/52 bars_karan.mp3", searchString: "Victer"},//68
-            { title: "Jee Ni Lagda",
-                album:"",       artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/jee ni lagda_karan.png", audio: "songs/singles/jee ni lagda_karan.mp3", searchString: "Victer"},//69
-            { title: "Player",
-                album:"",       artist: "Karan Aujla, Badshah",artistPhoto: "covers/Karan Aujla.png", cover: "covers/player_karan.png", audio: "songs/singles/player_karan.mp3"},//70
-            { title: "Chauffeur",
-                album:"",      artist: " Diljit Dosanjh     ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/chauffeur_diljit.png", audio: "songs/singles/chauffeur_diljjt.mp3", searchString: "Victer"},//71
-            { title: "White Brown Black",
-                album:"",      artist: "Karan Aujla, Avvy Sra",artistPhoto: "covers/Karan Aujla.png", cover: "covers/white brown black_karan_avvy.png", audio: "songs/singles/white brown black_karan_avvy.mp3", searchString: "Victer"},//72
-            { title: "Tauba Tauba",
-                album:"",       artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/tauba tauba_karan.png", audio: "songs/singles/tauba tauba_karan.mp3", searchString: "Victer"},//73
-            { title: "Chitta Kurta",
-                album:"",      artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/chitta kurta_karan.png", audio: "songs/singles/chitta kurta_karan.mp3", searchString: "Victer"},//74
-            { title: "Mexico",
-                album:"",      artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/mexico_karan.png", audio: "songs/singles/mexico_karan.mp3", searchString: "Victer"},//75
-            { title: "God Damn",
-                album:"",      artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/god damn_karan.png", audio: "songs/singles/god damn_karan.mp3", searchString: "Victer"},//76
+             //Eminem: Curtain Call 2
+             {
+                title: "Bad Meets Evit - Fast Lane      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Bad Meets Evit - Fast Lane",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/7mulkv181ldsyid0s426z/Bad-Meets-Evil-Fast-Lane.mp3?rlkey=20gbjbvcozr5n4hi4n325vqcx&st=hvtjvzrr&dl=1",
+                searchString: "Bad Meets Evit - Fast Lane curtain call 2"
+            },
+            {
+                title: "Bad Meets Evil - Lighters      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Bad Meets Evil - Lighters",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/bd3o8etwiugpvsgwo3frl/Bad-Meets-Evil-Lighters.mp3?rlkey=al3htjj79gdadzrwk2nlck4zs&st=nb3n2i46&dl=1",
+                searchString: "Bad Meets Evil - Lighters curtain call 2"
+            },
+            {
+                title: "3 a.m      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "3 a.m",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/jojzz7g808a2348qqcex1/Eminem-3-a.m.mp3?rlkey=lh3n3z7yzuw3ledfikwzymiwr&st=qhjuz99h&dl=1",
+                searchString: "3 a.m curtain call 2"
+            },
+            {
+                title: "Beautiful      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Beautiful",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/d0lslukue49joqrh8ut7w/Eminem-Beautiful.mp3?rlkey=larocu4pm5xah5wrtvrjcv3mw&st=e2uhbogw&dl=1",
+                searchString: "Beautiful curtain call 2"
+            },
+            {
+                title: "Berzerk      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Berzerk",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/tfxa8myv506p09atkxa0h/Eminem-Berzerk.mp3?rlkey=scoe213cgvd4dswc4dmxd2eja&st=31qcxq6x&dl=1",
+                searchString: "Berzerk curtain call 2"
+            },
+            {
+                title: "Cinderella Man      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Cinderella Man",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/bur3u2mooika05wjsd18i/Eminem-Cinderella-Man.mp3?rlkey=x28diehbefrz07tx9ynak226n&st=2y41ie9s&dl=1",
+                searchString: "Cinderella Man curtain call 2"
+            },
+            {
+                title: "Crack A Bottle     ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Crack A Bottle",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/0xm1o8fjw5bui61rckaui/Eminem-Crack-A-Bottle.mp3?rlkey=s9sqbcypj6nmvq2obik3hhgqw&st=k4gyk2rm&dl=1",
+                searchString: "Crack A Bottle curtain call 2"
+            },
+            {
+                title: "Darkness      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Darkness",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/fwbeoj8py5leegavqee00/Eminem-Darkness.mp3?rlkey=0on31i34mbno32bdosgu5ya2w&st=xqkpglqg&dl=1",
+                searchString: "Darkness curtain call 2"
+            },
+            {
+                title: "Fall      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Fall",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/5hzpdgbckgi9fzjxp86es/Eminem-Fall.mp3?rlkey=7pqif8022bsz3s1ngqpp4gnwf&st=u5s6uugz&dl=1",
+                searchString: "Fall curtain call 2"
+            },
+            {
+                title: "Farewll      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Farewll",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/uv65ebx9lt0lkcls89vzq/Eminem-Farewell.mp3?rlkey=3ippr3tlk9i5egfrzbdlbzmf1&st=bvcc3nki&dl=1",
+                searchString: "Farewll curtain call 2"
+            },
+            {
+                title: "From The D 2 The LBC      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "From The D 2 The LBC",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/2nky06uvgqd318vb4oxcg/Eminem-From-The-D-2-The-LBC.mp3?rlkey=mjshydeeqgxbap129mbhtwljm&st=jhl4xcqe&dl=1",
+                searchString: "From The D 2 The LBC curtain call 2"
+            },
+            {
+                title: "Gnat      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Gnat",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/ow7htboqtcv4bc1nih1yd/Eminem-Gnat.mp3?rlkey=t24vv7zbqdhj6rkfh8e3u2kkg&st=dkm71z8j&dl=1",
+                searchString: "Gnat curtain call 2"
+            },
+            {
+                title: "Godzilla      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Godzilla",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/lh3ldzo7f8i39dx97tq9p/Eminem-Godzilla.mp3?rlkey=tqhvvm3tf1sp85wvlfpfqbd8n&st=vf3ioour&dl=1",
+                searchString: "Godzilla curtain call 2"
+            },
+            {
+                title: "Headlights      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Headlights",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/xax2tbl5vblyovssjmfsf/Eminem-Headlights.mp3?rlkey=fycnzwqg0kui8o3ahy3tnlfvf&st=7jir1frr&dl=1",
+                searchString: "Headlights curtain call 2"
+            },
+            {
+                title: "Higher      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Higher",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/xrfgg9k3cr0if29e0yncy/Eminem-Higher.mp3?rlkey=g4qzdisy1q2wgwi014ktxge0x&st=tqyw3sz7&dl=1",
+                searchString: "Higher curtain call 2"
+            },
+            {
+                title: "Is This Love      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Is This Love",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/aq8541v7rgwk6r3fzwh7j/Eminem-Is-This-Love-09.mp3?rlkey=uz7si6397si9eubxotpnq9niz&st=yxglbhvw&dl=1",
+                searchString: "Is This Love curtain call 2"
+            },
+            {
+                title: "Kings Never Die    ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Kings Never Die",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/os7ulv0aqjbebit3lpl8p/Eminem-Kings-Never-Die.mp3?rlkey=883dxsuitkw3m7jq1pltby4a2&st=0b60jsa3&dl=1",
+                searchString: "Kings Never Die curtain call 2"
+            },
+            {
+                title: "Love The Way You Lie      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Love The Way You Lie",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/pwjqqgpj8pk5tmikc5pwy/Eminem-Love-The-Way-You-Lie.mp3?rlkey=biou7anghwq9p0idkark3uchk&st=pfmfrx6j&dl=1",
+                searchString: "Love The Way You Lie curtain call 2"
+            },
+            {
+                title: "Lucky You      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Lucky You",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/w88sdgbh8rrcmri2urg5k/Eminem-Lucky-You.mp3?rlkey=vxwh7z30mqs7ddp2zyy6xa6ls&st=mw8zb3u0&dl=1",
+                searchString: "Lucky You curtain call 2"
+            },
+            {
+                title: "No Love      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "No Love",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/md7bfgbukngvbrqwk8umj/Eminem-No-Love.mp3?rlkey=peexbobhdtqg62smx6q8s2kmk&st=78u4tnmc&dl=1",
+                searchString: "No Love curtain call 2"
+            },
+            {
+                title: "Nowhere Fast      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Nowhere Fast",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/jjqf89melp9mlcy8wvx18/Eminem-Nowhere-Fast.mp3?rlkey=kh1yuck5pqz1d2crjg93koi7c&st=94xq794c&dl=1",
+                searchString: "Nowhere Fast curtain call 2"
+            },
+            {
+                title: "Phenomenal     ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Phenomenal",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/ansn3cvsdlmr3omsn8r49/Eminem-Phenomenal.mp3?rlkey=mc0xd718y290bfa724j3vbier&st=2h96pfrc&dl=1",
+                searchString: "Phenomenal curtain call 2"
+            },
+            {
+                title: "Rap God(Mr. Cii Remix)      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Rap God(Mr. Cii Remix)",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/txgvdrbjm498i5u1el5bn/Eminem-Rap-God-Mr.-Cii-Remix.mp3?rlkey=au8xkppbn2fpp12lzs7pysto5&st=5blnudp1&dl=1",
+                searchString: "Rap God(Mr. Cii Remix) curtain call 2"
+            },
+            {
+                title: "Rap God      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Rap God",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/ertxg5cydioykupx6ftnw/Eminem-Rap-God.mp3?rlkey=udtgnhtij7fs5y3icnf2dl5ft&st=gkr0v22p&dl=1",
+                searchString: "Rap God curtain call 2"
+            },
+            {
+                title: "River     ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "River",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/rfc3vc86p6qc09oizngoh/Eminem-River.mp3?rlkey=4gtxn6gjpfpgpbaowkjl77m4m&st=e9jv6hti&dl=1",
+                searchString: "River curtain call 2"
+            },
+            {
+                title: "Space Bound      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Space Bound",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/fxz768i4ujs1hwf4grg9b/Eminem-Space-Bound.mp3?rlkey=toxfjy4s8tyzmwgury0nlhwk6&st=lln1lpk6&dl=1",
+                searchString: "Space Bound curtain call 2"
+            },
+            {
+                title: "Survival      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Survival",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/l3k39wbraitr5zuoi7s17/Eminem-Survival.mp3?rlkey=ftv4gp850ird2cxih0gtp7dbj&st=qbn63l0e&dl=1",
+                searchString: "Survival curtain call 2"
+            },
+            {
+                title: "The Kind And I      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "The Kind And I",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/ep17ri5da3lw84unwp9rc/Eminem-The-King-and-I-From-the-Original-Motion-Picture-So.mp3?rlkey=1af4g7oc2f0t9gofgzbffy2ot&st=1fay0x65&dl=1",
+                searchString: "The Kind And I curtain call 2"
+            },
+            {
+                title: "The Monster      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "The Monster",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/1tekt13ien6pdxnvht8wx/Eminem-The-Monster.mp3?rlkey=btrpo6gx6u24e3e7kxg3f8h8t&st=co5mg6nf&dl=1",
+                searchString: "The Monster curtain call 2"
+            },
+            {
+                title: "Venom      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Venom",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/7atmwkp8b3rj739mqetdq/Eminem-Venom-Music-From-The-Motion-Picture.mp3?rlkey=amxhfks7tp9wvp0ktdy88e86s&st=2sojbxs9&dl=1",
+                searchString: "Venom curtain call 2"
+            },
+            {
+                title: "Won't Back Down      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Won't Back Down",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/k58xhzj4cjv9l671s0mj6/Eminem-Won-t-Back-Down.mp3?rlkey=9dosxcqzlou9c3sheodwfh7ud&st=0lfef2fg&dl=1",
+                searchString: "Won't Back Down curtain call 2"
+            },
+            {
+                title: "You're Never Over     ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "You're Never Over",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/eoaazvhvw9syeyiwrde7v/Eminem-You-re-Never-Over.mp3?rlkey=rs5uk64l8okhl4l2sy3bzoynx&st=rkcxd339&dl=1",
+                searchString: "You're Never Over curtain call 2"
+            },
+            {
+                title: "Yelawolf Best Firend      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Yelawolf Best Firend",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/f49pgw69jta97irey6duy/Yelawolf-Best-Friend.mp3?rlkey=wrcur8xldbaha02uuywd29qyq&st=dly8sasl&dl=1",
+                searchString: "Yelawolf Best Firend curtain call 2"
+            },
+            {
+                title: "Not Afraid      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Not Afraid",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/cb3ziahy2osnp7698s99w/Eminem-Not-Afraid.mp3?rlkey=qbzf1ho09n1y9zy491bf49rcz&st=8pfuv8vu&dl=1",
+                searchString: "Not Afraid curtain call 2"
+            }
+            // {
+            //     title: "      ",
+            //     videoID: "",
+            //     album: "Curtain Call 2",
+            //     artist: "Eminem   ",
+            //     lyrics: "",
+            //     artistPhoto: "covers/artists/Eminem.png",
+            //     cover: "covers/albums/eminem/curtain call 2_album.png",
+            //     audio: "",
+            //     searchString: " curtain call 2"
+            // },
 
-                    //Diljit Dosanjh
-            { title: "Lover",  
-                album:"",       artist: "Diljit Dosanjh     ", artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lover_diljit.png", audio: "songs/singles/lover_diljit.mp3", searchString: "diljit k gane lover  love diljit lovr lvr diljit diljeet diljjt dil jit lvr"},//40
-            { title: "Case",  
-                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/case_diljit.png", audio: "songs/singles/case_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jitdosanjh doshanjh dosnjh "},//41
-            { title: "Ishq Di Baajiyaan",  
-                album:"",      artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq di baajiyaan_diljit.png", audio: "songs/singles/ishq di baajiyaan_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//42
-            { title: "Love Ya ", 
-                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lova ya_diljit.png", audio: "songs/singles/love ya_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//43
-            { title: "Lalkara",   
-                album:"",      artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lalkara_diljit.png", audio: "songs/singles/lalkara_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//44
-            { title: "Tu Kya Jaane",  
-                album:"",       artist: "Yashika Sikka, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/tu kya jaane_diljit.png", audio: "songs/singles/tu kya jaane_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//45
-            { title: "Bol Mohabbat",  
-                album:"",       artist: "AR Rehman, Kailash Kher,Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/bol mohabbat_diljit.png", audio: "songs/singles/bol mohabbat_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//46
-            { title: "Vida Karo",  
-                album:"",     artist: "Arijit Singh,Diljjt",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/vida karo_diljit.png", audio: "songs/singles/vida karo_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//47
-            { title: "Panga",  
-                album:"",      artist: "Diljit Dosanjh, Yo Yo Honey Singh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/panga_diljit_yoyo.png", audio: "songs/singles/panga_diljjt_yoyo.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//48
-            { title: "Ishq Mitaye ", 
-                album:"",      artist: "AR Rehman, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq mitaye_diljit.png", audio: "songs/singles/ishq mitaye_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//49
-            { title: "5 Tara",  
-                album:"",       artist: " Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/5 tara_diljit.png", audio: "songs/singles/5 tara_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//50
-            { title: "Do You Know", 
-                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/do you know_diljit.png", audio: "songs/singles/do you know_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//51
-            { title: "G.O.A.T",
-                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/goat_diljit.png", audio: "songs/singles/goat_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//52
-            { title: "Clash",
-                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/clash_diljit.png", audio: "songs/singles/clash_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//53
-            { title: "Muchh",
-                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/muchh_diljit.png", audio: "songs/singles/muchh_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//54
-            { title: "High End",
-                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/high end_diljit.png", audio: "songs/singles/high end_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//55
-            { title: "Naram Kalja",
-                album:"",       artist: "Diljjt Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/naram kalja_diljit.png", audio: "songs/singles/naram kalja_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//56
-            { title: "Baaja",
-                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/bajja_diljit.png", audio: "songs/singles/bajja_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//57
-            { title: "Muhammad Ali",
-                album:"",      artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/muhammad ali_diljit.png", audio: "songs/singles/muhammad ali_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//58
-            { title: "El Sueno",
-                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/el sueno_diljit.png", audio: "songs/singles/el sueno_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//59
-            { title: "Born To Shine",
-                album:"",       artist: "Diljit Dosanjb",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/born to shine_diljit.png", audio: "songs/singles/born to shine_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//60
-            { title: "Peaches",
-                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/peaches_diljit.png", audio: "songs/singles/peaches_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//61
-            { title: "What Ve",
-                album:"",       artist: "Diljjt Dosanjh,Nimrat Khaira",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/what ve_diljit.png", audio: "songs/singles/what ve_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//62
-            { title: "Hass Hass",
-                album:"",       artist: "Sia,Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/hass hass_diljit.png", audio: "songs/singles/hass hass_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//63
-            { title: "Patiala Peg",
-                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/patiala peg_diljit.png", audio: "songs/singles/patiala peg_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//64
-            { title: "Mombattiye",
-                album:"",       artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/mombattiye_diljit.png", audio: "songs/singles/mombattiye_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//64
-
-            { title: "Jo Tum Mere Ho",
-                album:"",       artist: "Anuv Jain",artistPhoto: "covers/Anuv Jain.png", cover: "covers/track1.jpg", audio: "songs/singles/jo tum mere ho.mp3", searchString: "anuv jain songs anuv jain k gane anuv jain anuv jo tum mere ho"},//song1
-            { title: "Fly Karke",
-                album:"",       artist: "SABBA, Jasmeen",artistPhoto: "covers/Sabba.png", cover: "covers/fly karke_sabba.png", audio: "songs/singles/fly krke.mp3", searchString: "fly krke fly fli krke karke flai krke song sabba song sabba k gane"},//song2
-            
-            //Arjan Dhillon-Glorious and more
-            { title: "Youth Flow",
-                album:"",       artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/youth flow.mp3", searchString: "arjan songs arjan jawani song arjan"},//song4
-            { title: "Glorious",
-                album:"",       artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/glorious.mp3", searchString: "arjan songs glorious glowrious glorius gloris"},//song5
-            { title: "Maavan",
-                album:"",       artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/maavan.mp3", searchString: "arjan songs mava maanvan mava maava maa maa song arjan"},//song6
-            { title: "Back To Sikhi",
-                album:"",      artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/back to sikhi.mp3", searchString: "arjan songs pagg back to siki sikhi sikki"},//song7
-            { title: "Biography",
-                album:"",       artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/biography.mp3", searchString: "arjan songs bigraphy bigrafi biographi "},//song8
-            { title: "Tyar",
-                album:"",       artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/tyar.mp3", searchString: "arjan songs tyaar tyar ready tyar hi ni hoye"},//song9
-            
-            { title: "Heer",
-                album:"",       artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/heer_arjan dhillon.png", audio: "songs/singles/heer_arjan dhillon.mp3", searchString: "arjan songs"},//song9
-            { title: "Punjab Intro",
-                album:"",       artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/punjab intro_arjan dhillon.png", audio: "songs/singles/punjab intro_arjan dhillon.mp3", searchString: "arjan songs"},//song9
-            
-            
-            
-            //Dhanda
-            { title: "Up To You",
-                album:"",       artist: "Dhanda Nyoliwala",artistPhoto: "covers/Dhanda Nyoliwala.png", cover: "covers/up to you.jpg", audio: "songs/singles/up to you.mp3", searchString: "Victer"},//song10
-            { title: "Russian Bandana",
-                album:"",       artist: "Dhanda Nyoliwala",artistPhoto: "covers/Dhanda Nyoliwala.png", cover: "covers/russian bandana.jpg", audio: "songs/singles/russian bandana.mp3", searchString: "Victer"},//song11
-            
-            { title: "Ishq",
-                album:"",      artist: "Faheem Abdullah,Rauhan Malik", cover: "covers/ishq.jpg", audio: "songs/singles/ishq.mp3", searchString: "Victer"},//song12
-            
-            //The Beatles-Rubber Soul
-            { title: "If I Needed Someone",
-                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/if i needed someone.mp3", searchString: "Victer"},//13
-            { title: "Norwegian Wood",
-                album:"",      artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/norwegian wood.mp3", searchString: "Victer"},//14
-            { title: "You Won't See Me",
-                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/you won't see me.mp3", searchString: "Victer"},//15
-            { title: "Think For Yourself",
-                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/think for yourself.mp3", searchString: "Victer"},//16
-            { title: "The Word",
-                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/the word.mp3", searchString: "Victer"},//17
-            { title: "Michelle",
-                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/michelle.mp3", searchString: "Victer"},//18
-            { title: "Drive My Car",
-                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/drive my car.mp3", searchString: "Victer"},//19
-            { title: "Girl",
-                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/girl.mp3", searchString: "Victer"},//20
-            { title: "I'm Looking Through You",artistPhoto: "covers/The Beatles.png",
-                album:"",       artist: "The Beatles    ", cover: "covers/rubber soul.jpg", audio: "songs/singles/i'm looking through you.mp3", searchString: "Victer"},//21
-            { title: "In My Life",
-                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/In My Life.mp3", searchString: "Victer"},//22
-            { title: "Wait",
-                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/wait.mp3", searchString: "Victer"},//23
-            { title: "Run For Your Life",
-                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/run for your life.mp3", searchString: "Victer"},//24
-            { title: "Nowhere Man",
-                album:"",       artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/nowhere man.mp3", searchString: "Victer"},//25
-            { title: "What Goes On",
-                album:"",      artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/what goes on.mp3", searchString: "Victer"},//26
-            
 
 
-
-            //Hustinder
-            { title: "Ik Mutiyaar Hundi Si", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/ik mutiyar hundi si_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Hundi Si Gareebi",
-                album:"",       artist: "Hustinder, Black",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/hundi si gareebi_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Bhuleya Ki Ae",
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/bhuleya ki ae_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Dollar Wargiye", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/dollar wargiye_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Dullda Glass",
-                album:"",      artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/dullda glass_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Gal Koun Karda", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan 2_hustinder.png", audio: "songs/singles/gal koun karda_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Gaza Patti", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/gaza patti_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Gumnaam Pyaar", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/singles/gumnaam pyaar_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Hasde Hi Rehndeya", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/singles/hasde hi rehndeya_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Hathan Utte Duniya", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/hathan utte duniya_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Hopes", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/hopes_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Jethi Dhee", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/jethi dhee_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Kharcha Kardange", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/kharcha kardange_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Laag Daat", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/laag daat_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Maa Kehndi Hundi Si", 
-                album:"",      artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/singles/maa kehndi hundi si_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Man Ton Lehgi", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "songs/singles/man ton lehgi_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Mittran De Circle", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/mittran de circle_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Nachdi Ton", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/nachdi ton.mp3", searchString: "Victer"},//song3
-            { title: "Paasport Size Tasveer", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/passport size tasveer_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Praandi", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/praandi_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Pyaar Hoya", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/singles/pyaar hoya_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Rabb Di Aulad", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/rabb di aulad_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Raonak", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/raonak_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Rullde Firde Aan", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/rullde firde aan_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Saade Warge", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/saade warge_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Surga Nu Rah", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/surga nu rah_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Tera Mera Nata", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/tera mera nata_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Teri Deed", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/teri deed_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Tu Takkri", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/tu takkri_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Ucheyan Gharan Di Jaaiye", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "ucheyan gharan diye jaaiye.mp3", searchString: "Victer"},//song3
-            { title: "Velly Yaar", 
-                album:"",      artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/velly yaar_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Watching You", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/watching you_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Yari Tod Layi", 
-                album:"",       artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "songs/singles/yari tod layi_hustinder.mp3", searchString: "Victer"},//song3\
-
-
-
-            //RP Singh
-
-            {title: "Sexy ",
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sexy_rp singh.png", audio: "songs/singles/sexy_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Pencil", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/pencil_rp singh.png", audio: "songs/singles/pencil_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Sheesha", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sheesha_rp singh.png", audio: "songs/singles/sheesha_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Rap God", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/rapgod_rp singh.png", audio: "songs/singles/rapgod_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Mcoca", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/mcoca_rp singh.png", audio: "songs/singles/mcoca_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Banger", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/banger_rp singh.png", audio: "songs/singles/banger_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Azad Flow", 
-                album:"",      artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/azad flow_rp singh.png", audio: "songs/singles/azad flow_rp singh.mp3", searchString: "Victer"},//song3\
-
-            {title: "Bliss", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/bliss_rp singh.png", audio: "songs/singles/bliss_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Power", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/power_rp singh.png", audio: "songs/singles/power_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Meeh", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/meeh_rp singh.png", audio: "songs/singles/meeh_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Chehre", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/chehre_rp singh.png", audio: "songs/singles/chehre_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "3 AM", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/3 am_rp singh.png", audio: "songs/singles/3 am_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Aadhi Si Raat", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/aadhi si raat_rp singh.png", audio: "songs/singles/aadhi si raat_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Jigre", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/jigre_rp singh.png", audio: "songs/singles/jigre_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Look Book", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/look book_rp singh.png", audio: "songs/singles/look book_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Maal", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/maal_rp singh.png", audio: "songs/singles/maal_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "No Lve", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/no love_rp singh.png", audio: "songs/singles/no love_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Pataka", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/pataka_rp singh.png", audio: "songs/singles/pataka_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Sapne", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sapne_rp singh.png", audio: "songs/singles/sapne_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Tehalka", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/tehalka_rp singh.png", audio: "songs/singles/tehalka_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Stop RP", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/stop rp_rp singh.png", audio: "songs/singles/stop rp_rp singh.mp3", searchString: "Victer"},//song3
-
-            {title: "Toxic", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/toxic_rp singh.png", audio: "songs/singles/toxic_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Shiva", 
-                album:"",      artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/shiva_rp singh.png", audio: "songs/singles/shiva_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Sneeze", 
-                album:"",     artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sneeze_rp singh.png", audio: "songs/singles/sneeze_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Sarpanchi", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sarpanchi_rp singh.png", audio: "songs/singles/sarpanchi_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "If You Know You Know", 
-                album:"",      artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/if you know you know_rp singh.png", audio: "songs/singles/if you know you know_rp singh.mp3", searchString: "Victer" },//song3\
-
-            {title: "7 Birth", 
-                album:"",      artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/7 birth_rp singh.png", audio: "songs/singles/7 birth_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "1857", 
-                album:"",     artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/1857_rp singh.png", audio: "songs/singles/1857_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Approach", 
-                album:"",      artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/approach_rp singh.png", audio: "songs/singles/approach_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "BFF",
-                album:"",     artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/bff_rp singh.png", audio: "songs/singles/bff_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Do Cheez", 
-                album:"",     artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/do cheez_rp singh.png", audio: "songs/singles/do cheez_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Famous", 
-                album:"",      artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/famous_rp singh.png", audio: "songs/singles/famous_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Govinda", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/govinda_rp singh.png", audio: "songs/singles/govinda_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Jahaaj", 
-                album:"",      artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/jahaaj_rp singh.png", audio: "songs/singles/jahaaj_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "MI AMOR", 
-                album:"",       artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/mi amor_rp singh.png", audio: "songs/singles/mi amor_rp singh.mp3", searchString: "Victer" },//song3\
-            { title: "Victor", 
-                album:"",      artist: "RP Singh",  artistPhoto: "covers/RP Singh.png", cover: "covers/victor_rp singh.png", audio: "songs/singles/victor_rp singh.mp3", searchString: "Victer"},//song3\
         ]
     },
     

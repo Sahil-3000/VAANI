@@ -273,12 +273,62 @@ document.getElementById("search-btn").addEventListener("click", function () {
 
     const query = document.getElementById("search-bar").value.toLowerCase();
     if (query) {
-        const results = playlist.filter(song =>
+        const defaultPlaylist = (playlist || []).filter(song =>
             (song.title?.toLowerCase() || "").includes(query) ||
             (song.artist?.toLowerCase() || "").includes(query) ||
             (song.searchString?.toLowerCase() || "").includes(query)
         );
-        displayResults(results);
+        
+
+        // Get results from `mainPlaylist`
+        const mainPlaylistResults = (playlistsMain || []).flatMap(playlist =>
+            (playlist.songs || []).filter(song =>
+                (song.title?.toLowerCase() || "").includes(query) ||
+                (song.artist?.toLowerCase() || "").includes(query) ||
+                (song.searchString?.toLowerCase() || "").includes(query)
+            )
+        );
+
+        // Get results from `trendPlaylist`
+        const trendPlaylistResults = (trendPlaylist || []).flatMap(playlist =>
+            (playlist.songs || []).filter(song =>
+                (song.title?.toLowerCase() || "").includes(query) ||
+                (song.artist?.toLowerCase() || "").includes(query) ||
+                (song.searchString?.toLowerCase() || "").includes(query)
+            )
+        );
+
+        // Get results from `recoPlaylist`
+        const recoPlaylistResults = (recoPlaylist || []).flatMap(playlist =>
+            (playlist.songs || []).filter(song =>
+                (song.title?.toLowerCase() || "").includes(query) ||
+                (song.artist?.toLowerCase() || "").includes(query) ||
+                (song.searchString?.toLowerCase() || "").includes(query)
+            )
+        );
+
+        // Get results from `libraryPlaylist`
+        const libPlaylistResults = (libraryPlaylists || []).flatMap(playlist =>
+            (playlist.songs || []).filter(song =>
+                (song.title?.toLowerCase() || "").includes(query) ||
+                (song.artist?.toLowerCase() || "").includes(query) ||
+                (song.searchString?.toLowerCase() || "").includes(query)
+            )
+        );
+
+
+
+
+
+        // Combine results
+        const results = [...defaultPlaylist, ...mainPlaylistResults, ...trendPlaylistResults, ...recoPlaylistResults, ...libPlaylistResults];
+
+        const uniqueResults = Array.from(
+            new Map(
+                results.map(song => [song.title + song.artist, song]) // Use title + artist as a unique key
+            ).values()
+        );
+        displayResults(uniqueResults);
     }
 });
 
