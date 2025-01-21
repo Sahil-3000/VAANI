@@ -55,6 +55,154 @@ let trendPlaylist = [
             searchString: "Incidents seasons"
         },
 
+        //Hustinder:Singles
+
+        
+
+    //Hustinder: Singles
+    {
+        title: "Sara Pind Mittran Da       ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder     ",
+        lyrics: "Sara Pind Mittran Da",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/sara pind mittran da_hustinder.png",
+        audio: "songs/singles/sara pind mittran da_hustinder.mp3",
+        searchString: "sara pind mittran da hustinder"
+    },
+    {
+        title: "Ik Pind Sade Da Munda      ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder    ",
+        lyrics: "Ik Pind Sade Da Munda",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/singles/hustinder/ik pind sade da munda_hustinder.png",
+        audio: "https://www.dropbox.com/scl/fi/fe31c5et44mb09wnvjltq/Ik-Pind-Sade-Da-Munda-Raag.Fm.mp3?rlkey=yyihcgai8w3ro6hyskyyrovfr&st=n8nhbj7p&dl=1",
+        searchString: " Ik Pind Sade Da Munda"
+    }
+    ,
+    {
+        title: "Lohe De Kunde      ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder    ",
+        lyrics: "Lohe De Kunde",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/singles/hustinder/lohe de kunde_hustinder.png",
+        audio: "https://www.dropbox.com/scl/fi/xubo0a753l2up3emci0z7/Lohe-De-Kunde-Hustinder-DJJOhAL.Com.mp3?rlkey=ibzw6y252qadsk3407uz6omao&st=kild4ye0&dl=1",
+        searchString: "Lohe De Kunde "
+    }
+    ,
+    {
+        title: "Pind Puchhdi      ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder    ",
+        lyrics: "Pind Puchhdi",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/singles/hustinder/pind puchhdi_hustinder.png",
+        audio: "https://www.dropbox.com/scl/fi/zbq7uk305pgvbg4k13mdl/Pind-Puchdi-Hustinder-DJJOhAL.Com.mp3?rlkey=v4tlegavul8kbz1mcvub614og&st=b90l9lt7&dl=1",
+        searchString: "Pind Puchhdi pind puchdi "
+    }
+    ,
+    {
+        title: "Rang      ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder    ",
+        lyrics: "Rang",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/singles/hustinder/rang_hustinder.png",
+        audio: "https://www.dropbox.com/scl/fi/cwsvivu2jc0vonmksdqbs/Rang-Hustinder-DJJOhAL.Com.mp3?rlkey=pxcm4ajagplv7mmgormt3o4px&st=u1wbrdy8&dl=1",
+        searchString: "Rang "
+    }
+    ,
+    {
+        title: "Yaar Sambh Lainge      ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder    ",
+        lyrics: "Yaar Sambh Lainge",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/singles/hustinder/yaar sambh lainge_hustinder.png",
+        audio: "https://www.dropbox.com/scl/fi/yrpjdiy2xi5jzxggcjvr3/Yaar-Sambh-Lainge-Hustinder-DJJOhAL.Com.mp3?rlkey=6b46qsylx4uawgbmujo8ozzow&st=63tzu83i&dl=1",
+        searchString: "Yaar Sambh Lainge "
+    }
+    ,
+    {
+        title: "Dilli Ch Punjab      ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder    ",
+        lyrics: "Dilli Ch Punjab",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/singles/hustinder/dilli ch punjab_hustinder.png",
+        audio: "https://www.dropbox.com/scl/fi/hbbeeix1daquw1628tenn/Dilli-Ch-Punjab-Hustinder-DJJOhAL.Com.mp3?rlkey=g2umev495vw14xg4gkzdry2uo&st=k9pm2xk3&dl=1",
+        searchString: "Dilli Ch Punjab "
+    }
+    ,
+    {
+        title: "Dujja Cup      ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder    ",
+        lyrics: "Dujja Cup",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/singles/hustinder/dujja cup_hustinder.png",
+        audio: "https://www.dropbox.com/scl/fi/d8tpo14omq2rgxx7sb8qq/Dujja-Cup-Hustinder-DJJOhAL.Com.mp3?rlkey=zxbybh86ga6wx37ip662mog7s&st=1kd4kag6&dl=1",
+        searchString: "Dujja Cup "
+    }
+    ,
+    {
+        title: "Number Purana      ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder    ",
+        lyrics: "Number Purana",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/singles/hustinder/number purana_hustinder.png",
+        audio: "https://www.dropbox.com/scl/fi/8yre685rdpwu471qcbdhs/Number-Purana-Hustinder-DJJOhAL.Com.mp3?rlkey=dk8z9l37kg93pmb49z29silq2&st=rivwn3zl&dl=1",
+        searchString: "Number Purana "
+    }
+    ,
+    {
+        title: "Profit Jhone De      ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder    ",
+        lyrics: "Profit Jhone De",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/singles/hustinder/profit jhone de_hustinder.png",
+        audio: "https://www.dropbox.com/scl/fi/6qtlwfarqty2faokjr3c2/Profit-Jhone-De-Hustinder-Sudesh-Kumari-DJJOhAL.Com.mp3?rlkey=57euhhndnfse9wwdf95d30ehw&st=v8tteop7&dl=1",
+        searchString: "Profit Jhone De "
+    }
+    ,
+    {
+        title: "Gol Chowk      ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder    ",
+        lyrics: "Gol Chowk",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/singles/hustinder/gol chowk_hustinder.png",
+        audio: "https://www.dropbox.com/scl/fi/ajozhb60gw59ixwspozid/Gol-Chowk-Hustinder-Gurlez-Akhtar-DJJOhAL.Com.mp3?rlkey=5tsycscmhosg8pwx190uhi7wi&st=c20x80zn&dl=1",
+        searchString: "Gol Chowk "
+    }
+    ,
+    {
+        title: "Blunt Cut      ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder    ",
+        lyrics: "Blunt Cut",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/singles/hustinder/blunt cut_hustinder.png",
+        audio: "https://www.dropbox.com/scl/fi/lsik900b82pq7xw7zs6hi/Blunt-Cut.mp3?rlkey=n3ue9ty93df2te1m7raqapj1x&st=fqfuo7jl&dl=1",
+        searchString: "Blunt Cut "
+    },
+
 
         //Arjan Dhillon: Patandar
         {
@@ -211,6 +359,331 @@ let trendPlaylist = [
             searchString: "Zigana "
 
         },
+
+
+        
+//Hustinder:Bhadauria
+    {
+        title: "Fella's Forever      ",
+        videoID:"",
+        album:"Bhadauria",
+        artist: "Hustinder    ",
+        lyrics: "Fella's Forever",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/bhadauria_album.png",
+        audio: "songs/albums/bhadauria/fellas forever.mp3",
+        searchString: "fellas forever"
+    },//13
+    {
+        title: "Queen's Gambit      ",
+        videoID:"",
+        album:"Bhadauria",
+        artist: "Hustinder    ",
+        lyrics: "Queen's Gambit",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/bhadauria_album.png",
+        audio: "songs/albums/bhadauria/queen s gambit.mp3",
+        searchString: "queen's gambit"
+    },//14
+    {
+        title: "Don't You Dare      ",
+        videoID:"",
+        album:"Bhadauria",
+        artist: "Hustinder    ",
+        lyrics: "Don't You Dare",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/bhadauria_album.png",
+        audio: "songs/albums/bhadauria/don t you dare.mp3",
+        searchString: "don't you dare"
+    },//15
+    {
+        title: "Mittra'n De Dere     ",
+        videoID:"",
+        album:"Bhadauria",
+        artist: "Hustinder    ",
+        lyrics: "Mittra'n De Dere",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/bhadauria_album.png",
+        audio: "songs/albums/bhadauria/mittran de dere.mp3",
+        searchString: "mitran de dere"
+    },//16
+    {
+        title: "Step Bhull Gyi      ",
+        videoID:"",
+        album:"Bhadauria",
+        artist: "Hustinder    ",
+        lyrics: "Step Bhull Gyi",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/bhadauria_album.png",
+        audio: "songs/albums/bhadauria/step bhull gyi.mp3",
+        searchString: "step bhull gyi"
+    },//17
+
+    // { 
+    //     title: "Martha My Dear",
+        // videoID:"",
+        // album:"",
+  
+    //     artist: "Hustinder    ",
+    //     lyrics:"Step Bhull Gyi",        
+    //     artistPhoto: "covers/Hustinder.png", 
+    //     cover: "covers/albums/arjan/bhadauria_album.png", 
+    //     audio: "songs/albums/bhadauria/martha my",
+    //     searchString: "step bhull gyi"
+    // },//17
+
+    {
+        title: "White Money     ",
+        videoID:"",
+        album:"Bhadauria",
+        artist: "Hustinder    ",
+        lyrics: "White Money ",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/bhadauria_album.png",
+        audio: "songs/albums/bhadauria/white money.mp3",
+        searchString: "white money"
+    },//18
+    {
+        title: "We Living It      ",
+        videoID:"",
+        album:"Bhadauria",
+        artist: "Hustinder    ",
+        lyrics: "We Living It ",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/bhadauria_album.png",
+        audio: "songs/albums/bhadauria/we living it.mp3",
+        searchString: "we living it"
+    },//19
+    {
+        title: "Kdo'n Nachana      ",
+        videoID:"",
+        album:"Bhadauria",
+        artist: "Hustinder    ",
+        lyrics: "Kdo'n Nachana",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/bhadauria_album.png",
+        audio: "songs/albums/bhadauria/kdon nachana.mp3",
+        searchString: "kdo nachna"
+    },//20
+    {
+        title: "Move Your Car ",
+        videoID:"",
+        album:"Bhadauria",
+        artist: "Hustinder    ",
+        lyrics: "Move Your Car ",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/bhadauria_album.png",
+        audio: "songs/albums/bhadauria/move your car.mp3",
+        searchString: "move your car"
+    },//21
+    {
+        title: "Bhadauria      ",
+        videoID:"",
+        album:"Bhadauria",
+        artist: "Hustinder    ",
+        lyrics: "Bhadauria  ",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/bhadauria_album.png",
+        audio: "songs/albums/bhadauria/bhadauria.mp3",
+        searchString: "bhadauria"
+    },
+
+    //Arjan Dhillon : Singles
+    
+    {
+        title: "Punjab Intro      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Punjab Intro",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/punjab intro_arjan dhillon.png",
+        audio: "songs/singles/punjab intro_arjan dhillon.mp3",
+        searchString: "arjan songs"
+    },//song9
+    
+    {
+        title: "Thabba Ku Zulfan      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Thabba Ku Zulfan",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/thabba ku zulfan_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/wpss01dyk68vcpn3s2zd0/Thabba_Ku_Zulfan-0.m4a?rlkey=de0l5rge0kqbs3lsil01q2jqa&st=jthw0jzr&dl=1",
+        searchString: "Thabba Ku Zulfan"
+    },
+    {
+        title: "Hommie Call      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Hommie Call",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/hommie call_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/q62dl8hv511dtebcm5oyp/Hommie_Call-0.m4a?rlkey=x1gcwwnfkyik7srjvi5zcrfr8&st=5h4m9386&dl=1",
+        searchString: "Hommie Call"
+    },
+    {
+        title: "Ki Karde Je      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Ki Karde Je",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/ki karde je_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/o9pcrklevxv1zxr9o0kcv/Ki_Karde_Je-0.m4a?rlkey=cqz58vemdo79a430ws2lnzeej&st=eutweftw&dl=1",
+        searchString: "Ki Karde Je"
+    },
+    {
+        title: "Likhari      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Likhari",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/likhari_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/xd3tmxlt1h3y16uw5zuci/Likhari-0.m4a?rlkey=7b7in3pn39umg6wvlec7ezr9r&st=xs3g4l65&dl=1",
+        searchString: "Likhari"
+    },
+    {
+        title: "Mandeer      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Mandeer",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/mandeer_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/n72p052zaushvqy9kwm50/Mandeer-0.m4a?rlkey=kb2xlxdv7awiw38yzqakb6uqz&st=xvmow4nq&dl=1",
+        searchString: "Mandeer"
+    },
+    
+    {
+        title: "No Debts      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "No Debts",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/no debts_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/e2oyc7cza7g2e8k5jwi0l/No_Debts-0.m4a?rlkey=p7r2pycws1wfng2lgbu16uolh&st=iifzrrrx&dl=1",
+        searchString: "No Debts"
+    },
+    {
+        title: "Raah Warga      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Raah Warga",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/raah warga_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/urmb7s2c3aorof0kog8t2/Raah_Warga-0.m4a?rlkey=auq6r6a3g45dh90pkghs4h91h&st=3z3k1d7q&dl=1",
+        searchString: "Raah Warga"
+    },
+   
+    {
+        title: "Soorme Aoun Tareeka Te      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Soorme Aoun Tareeka Te",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/soorme aoun tareeka te_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/z1dimfkf6gejtpsz7llkz/Soorme_Aoun_Tareeka_Te-0.m4a?rlkey=nqz5dploa1jf356mf2hg0pj2t&st=va9jtduc&dl=1",
+        searchString: "Soorme Aoun Tareeka Te"
+    },
+  
+    {
+        title: "Chah Pindan Di      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Chah Pindan Di",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/chah pindan di_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/rdhke7mztaksspcgqm3l4/Chah_Pindan_Di-128k.m4a?rlkey=10pvii76rzf6r38fa93yurjps&st=jclij3pq&dl=1",
+        searchString: "Chah Pindan Di"
+    },
+
+    {
+        title: "Fly      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Fly",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/fly_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/54bpdvbaao6a4yh59cgas/Fly-0.m4a?rlkey=g2zlydgbythxhfomi4p4ayete&st=voh65emu&dl=1",
+        searchString: "Fly"
+    },
+    {
+        title: "Ghar Bharte      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Ghar Bharte",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/ghar bharte_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/q6ilgqiwtujihmazl1klr/Ghar_Bharte-0.m4a?rlkey=r8ggrpz55du08e2246rpocv0u&st=zajal0yt&dl=1",
+        searchString: "Ghar Bharte"
+    },
+    
+    {
+        title: "Hidden Scars    ",
+        videoID:"",
+        album:"",
+        artist: "Nimrat Khaira, Arjan Dhillon    ",
+        lyrics: "Hidden Scars",
+        artistPhoto: "covers/Nimrat Khaira.png",
+        cover: "covers/singles/arjan/hidden scars_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/is240574acxg2asvexng0/Hidden_Scars-0.m4a?rlkey=zq0kx983iztkjs8qrtelnn5vj&st=e9lqa3tx&dl=1",
+        searchString: "Hidden Scars"
+    },
+    {
+        title: "Score    ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Score",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/score_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/is240574acxg2asvexng0/Hidden_Scars-0.m4a?rlkey=zq0kx983iztkjs8qrtelnn5vj&st=e9lqa3tx&dl=1",
+        searchString: "Score"
+    },
+    {
+        title: "Bell Bottom(remix)",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon",
+        lyrics: "Bell Bottom(remix)",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/bell bottom_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/m4bjbeijzrbrb2nl8ffg7/Bell-Bottom-DjPunjab.Farm.mp3?rlkey=x8zyt7agwjgup5vv9igtyegzt&st=qpndjtt1&dl=1",
+        searchString: "Bell Bottom(remix)"
+    },
+
+    {
+        title: "Bell Bottom   ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Bell Bottom",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/bell bottom_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/13bv253buh6mi7eh3qzzs/Bell-Bottom-KoshalWorld.Com.mp3?rlkey=4au4hgdgt65wxy6omueb1ka21&st=1suh5gjs&dl=1",
+        searchString: "Bell Bottom"
+    },
+    {
+        title: "Ishq Jeha Ho Gya    ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Ishq Jeha Ho Gya",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/ishq jeha ho gya_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/pr2bwc1l8i6cj6by9192t/Ishq-Jeha-Ho-Gya-Afsar-1.mp3?rlkey=awjsctxiltbxorlcic8rczo0h&st=7v1cdn10&dl=1",
+        searchString: "Ishq Jeha Ho Gya "
+    },
 
 
         //Hustinder:Saadiyan Gallan

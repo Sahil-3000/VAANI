@@ -3712,18 +3712,18 @@ let playlist = [
         searchString: "Jalebi "
     }
 
-    // ,{
-    //     title: "     ", 
-    // videoID:"",    
-    // album:"",
+    ,{
+        title: "Khaab     ", 
+        videoID:  "Nxy4MqYLkfI",    
+        album:  "",
   
-    //     artist: "Arijit Singh    ",
-    //     lyrics:"",        
-    //     artistPhoto: "covers/Arijit Singh.png", 
-    //     cover: "covers/_arijit singh.png", 
-    //     audio: "", 
-    //     searchString: " "
-    // }
+        artist: "Akhil    ",
+        lyrics:"Khaab",        
+        artistPhoto: "covers/Akhil.png", 
+        cover: "covers/singles/akhil/khaab_akhil.png", 
+        audio: "https://www.dropbox.com/scl/fi/e5c7gcbwtse6xf3koaqa5/Khaab-Akhil-128-Kbps.mp3?rlkey=nkbwlmyb5kztgrecqu2rgbtfq&st=57w98dvi&dl=1", 
+        searchString: "Khaab "
+    }
 
 ];
 

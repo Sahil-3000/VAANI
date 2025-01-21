@@ -9,7 +9,384 @@ let recoPlaylist = [
         artist: "Eminem",
         cover: "covers/albums/eminem/eminem hits.png",
         songs: [
-              
+            
+
+            //Eminem: Curtain Call 2
+
+            {
+                title: "Bad Meets Evit - Fast Lane      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Bad Meets Evit - Fast Lane",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/7mulkv181ldsyid0s426z/Bad-Meets-Evil-Fast-Lane.mp3?rlkey=20gbjbvcozr5n4hi4n325vqcx&st=hvtjvzrr&dl=1",
+                searchString: "Bad Meets Evit - Fast Lane curtain call 2"
+            },
+            {
+                title: "Bad Meets Evil - Lighters      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Bad Meets Evil - Lighters",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/bd3o8etwiugpvsgwo3frl/Bad-Meets-Evil-Lighters.mp3?rlkey=al3htjj79gdadzrwk2nlck4zs&st=nb3n2i46&dl=1",
+                searchString: "Bad Meets Evil - Lighters curtain call 2"
+            },
+            {
+                title: "3 a.m      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "3 a.m",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/jojzz7g808a2348qqcex1/Eminem-3-a.m.mp3?rlkey=lh3n3z7yzuw3ledfikwzymiwr&st=qhjuz99h&dl=1",
+                searchString: "3 a.m curtain call 2"
+            },
+            {
+                title: "Beautiful      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Beautiful",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/d0lslukue49joqrh8ut7w/Eminem-Beautiful.mp3?rlkey=larocu4pm5xah5wrtvrjcv3mw&st=e2uhbogw&dl=1",
+                searchString: "Beautiful curtain call 2"
+            },
+            {
+                title: "Berzerk      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Berzerk",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/tfxa8myv506p09atkxa0h/Eminem-Berzerk.mp3?rlkey=scoe213cgvd4dswc4dmxd2eja&st=31qcxq6x&dl=1",
+                searchString: "Berzerk curtain call 2"
+            },
+            {
+                title: "Cinderella Man      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Cinderella Man",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/bur3u2mooika05wjsd18i/Eminem-Cinderella-Man.mp3?rlkey=x28diehbefrz07tx9ynak226n&st=2y41ie9s&dl=1",
+                searchString: "Cinderella Man curtain call 2"
+            },
+            {
+                title: "Crack A Bottle     ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Crack A Bottle",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/0xm1o8fjw5bui61rckaui/Eminem-Crack-A-Bottle.mp3?rlkey=s9sqbcypj6nmvq2obik3hhgqw&st=k4gyk2rm&dl=1",
+                searchString: "Crack A Bottle curtain call 2"
+            },
+            {
+                title: "Darkness      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Darkness",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/fwbeoj8py5leegavqee00/Eminem-Darkness.mp3?rlkey=0on31i34mbno32bdosgu5ya2w&st=xqkpglqg&dl=1",
+                searchString: "Darkness curtain call 2"
+            },
+            {
+                title: "Fall      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Fall",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/5hzpdgbckgi9fzjxp86es/Eminem-Fall.mp3?rlkey=7pqif8022bsz3s1ngqpp4gnwf&st=u5s6uugz&dl=1",
+                searchString: "Fall curtain call 2"
+            },
+            {
+                title: "Farewll      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Farewll",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/uv65ebx9lt0lkcls89vzq/Eminem-Farewell.mp3?rlkey=3ippr3tlk9i5egfrzbdlbzmf1&st=bvcc3nki&dl=1",
+                searchString: "Farewll curtain call 2"
+            },
+            {
+                title: "From The D 2 The LBC      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "From The D 2 The LBC",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/2nky06uvgqd318vb4oxcg/Eminem-From-The-D-2-The-LBC.mp3?rlkey=mjshydeeqgxbap129mbhtwljm&st=jhl4xcqe&dl=1",
+                searchString: "From The D 2 The LBC curtain call 2"
+            },
+            {
+                title: "Gnat      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Gnat",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/ow7htboqtcv4bc1nih1yd/Eminem-Gnat.mp3?rlkey=t24vv7zbqdhj6rkfh8e3u2kkg&st=dkm71z8j&dl=1",
+                searchString: "Gnat curtain call 2"
+            },
+            {
+                title: "Godzilla      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Godzilla",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/lh3ldzo7f8i39dx97tq9p/Eminem-Godzilla.mp3?rlkey=tqhvvm3tf1sp85wvlfpfqbd8n&st=vf3ioour&dl=1",
+                searchString: "Godzilla curtain call 2"
+            },
+            {
+                title: "Headlights      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Headlights",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/xax2tbl5vblyovssjmfsf/Eminem-Headlights.mp3?rlkey=fycnzwqg0kui8o3ahy3tnlfvf&st=7jir1frr&dl=1",
+                searchString: "Headlights curtain call 2"
+            },
+            {
+                title: "Higher      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Higher",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/xrfgg9k3cr0if29e0yncy/Eminem-Higher.mp3?rlkey=g4qzdisy1q2wgwi014ktxge0x&st=tqyw3sz7&dl=1",
+                searchString: "Higher curtain call 2"
+            },
+            {
+                title: "Is This Love      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Is This Love",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/aq8541v7rgwk6r3fzwh7j/Eminem-Is-This-Love-09.mp3?rlkey=uz7si6397si9eubxotpnq9niz&st=yxglbhvw&dl=1",
+                searchString: "Is This Love curtain call 2"
+            },
+            {
+                title: "Kings Never Die    ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Kings Never Die",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/os7ulv0aqjbebit3lpl8p/Eminem-Kings-Never-Die.mp3?rlkey=883dxsuitkw3m7jq1pltby4a2&st=0b60jsa3&dl=1",
+                searchString: "Kings Never Die curtain call 2"
+            },
+            {
+                title: "Love The Way You Lie      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Love The Way You Lie",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/pwjqqgpj8pk5tmikc5pwy/Eminem-Love-The-Way-You-Lie.mp3?rlkey=biou7anghwq9p0idkark3uchk&st=pfmfrx6j&dl=1",
+                searchString: "Love The Way You Lie curtain call 2"
+            },
+            {
+                title: "Lucky You      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Lucky You",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/w88sdgbh8rrcmri2urg5k/Eminem-Lucky-You.mp3?rlkey=vxwh7z30mqs7ddp2zyy6xa6ls&st=mw8zb3u0&dl=1",
+                searchString: "Lucky You curtain call 2"
+            },
+            {
+                title: "No Love      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "No Love",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/md7bfgbukngvbrqwk8umj/Eminem-No-Love.mp3?rlkey=peexbobhdtqg62smx6q8s2kmk&st=78u4tnmc&dl=1",
+                searchString: "No Love curtain call 2"
+            },
+            {
+                title: "Nowhere Fast      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Nowhere Fast",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/jjqf89melp9mlcy8wvx18/Eminem-Nowhere-Fast.mp3?rlkey=kh1yuck5pqz1d2crjg93koi7c&st=94xq794c&dl=1",
+                searchString: "Nowhere Fast curtain call 2"
+            },
+            {
+                title: "Phenomenal     ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Phenomenal",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/ansn3cvsdlmr3omsn8r49/Eminem-Phenomenal.mp3?rlkey=mc0xd718y290bfa724j3vbier&st=2h96pfrc&dl=1",
+                searchString: "Phenomenal curtain call 2"
+            },
+            {
+                title: "Rap God(Mr. Cii Remix)      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Rap God(Mr. Cii Remix)",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/txgvdrbjm498i5u1el5bn/Eminem-Rap-God-Mr.-Cii-Remix.mp3?rlkey=au8xkppbn2fpp12lzs7pysto5&st=5blnudp1&dl=1",
+                searchString: "Rap God(Mr. Cii Remix) curtain call 2"
+            },
+            {
+                title: "Rap God      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Rap God",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/ertxg5cydioykupx6ftnw/Eminem-Rap-God.mp3?rlkey=udtgnhtij7fs5y3icnf2dl5ft&st=gkr0v22p&dl=1",
+                searchString: "Rap God curtain call 2"
+            },
+            {
+                title: "River     ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "River",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/rfc3vc86p6qc09oizngoh/Eminem-River.mp3?rlkey=4gtxn6gjpfpgpbaowkjl77m4m&st=e9jv6hti&dl=1",
+                searchString: "River curtain call 2"
+            },
+            {
+                title: "Space Bound      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Space Bound",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/fxz768i4ujs1hwf4grg9b/Eminem-Space-Bound.mp3?rlkey=toxfjy4s8tyzmwgury0nlhwk6&st=lln1lpk6&dl=1",
+                searchString: "Space Bound curtain call 2"
+            },
+            {
+                title: "Survival      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Survival",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/l3k39wbraitr5zuoi7s17/Eminem-Survival.mp3?rlkey=ftv4gp850ird2cxih0gtp7dbj&st=qbn63l0e&dl=1",
+                searchString: "Survival curtain call 2"
+            },
+            {
+                title: "The Kind And I      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "The Kind And I",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/ep17ri5da3lw84unwp9rc/Eminem-The-King-and-I-From-the-Original-Motion-Picture-So.mp3?rlkey=1af4g7oc2f0t9gofgzbffy2ot&st=1fay0x65&dl=1",
+                searchString: "The Kind And I curtain call 2"
+            },
+            {
+                title: "The Monster      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "The Monster",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/1tekt13ien6pdxnvht8wx/Eminem-The-Monster.mp3?rlkey=btrpo6gx6u24e3e7kxg3f8h8t&st=co5mg6nf&dl=1",
+                searchString: "The Monster curtain call 2"
+            },
+            {
+                title: "Venom      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Venom",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/7atmwkp8b3rj739mqetdq/Eminem-Venom-Music-From-The-Motion-Picture.mp3?rlkey=amxhfks7tp9wvp0ktdy88e86s&st=2sojbxs9&dl=1",
+                searchString: "Venom curtain call 2"
+            },
+            {
+                title: "Won't Back Down      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Won't Back Down",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/k58xhzj4cjv9l671s0mj6/Eminem-Won-t-Back-Down.mp3?rlkey=9dosxcqzlou9c3sheodwfh7ud&st=0lfef2fg&dl=1",
+                searchString: "Won't Back Down curtain call 2"
+            },
+            {
+                title: "You're Never Over     ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "You're Never Over",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/eoaazvhvw9syeyiwrde7v/Eminem-You-re-Never-Over.mp3?rlkey=rs5uk64l8okhl4l2sy3bzoynx&st=rkcxd339&dl=1",
+                searchString: "You're Never Over curtain call 2"
+            },
+            {
+                title: "Yelawolf Best Firend      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Yelawolf Best Firend",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/f49pgw69jta97irey6duy/Yelawolf-Best-Friend.mp3?rlkey=wrcur8xldbaha02uuywd29qyq&st=dly8sasl&dl=1",
+                searchString: "Yelawolf Best Firend curtain call 2"
+            },
+            {
+                title: "Not Afraid      ",
+                videoID: "",
+                album: "Curtain Call 2",
+                artist: "Eminem   ",
+                lyrics: "Not Afraid",
+                artistPhoto: "covers/artists/Eminem.png",
+                cover: "covers/albums/eminem/curtain call 2_album.png",
+                audio: "https://www.dropbox.com/scl/fi/cb3ziahy2osnp7698s99w/Eminem-Not-Afraid.mp3?rlkey=qbzf1ho09n1y9zy491bf49rcz&st=8pfuv8vu&dl=1",
+                searchString: "Not Afraid curtain call 2"
+            },
 
             //Eminem: Death Of Slim Shady
             {
