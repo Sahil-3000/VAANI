@@ -3719,7 +3719,7 @@ let playlist = [
   
         artist: "Akhil    ",
         lyrics:"Khaab",        
-        artistPhoto: "covers/Akhil.png", 
+        artistPhoto: "covers/artists/Akhil.png", 
         cover: "covers/singles/akhil/khaab_akhil.png", 
         audio: "https://www.dropbox.com/scl/fi/e5c7gcbwtse6xf3koaqa5/Khaab-Akhil-128-Kbps.mp3?rlkey=nkbwlmyb5kztgrecqu2rgbtfq&st=57w98dvi&dl=1", 
         searchString: "Khaab "
