@@ -2269,10 +2269,10 @@ let trendPlaylist = [
 
     {
         id: 4,
-        title: "Bhadauria    ",
+        title: "Salena Gomez    ",
         album:"",
-        artist: "Hustinder    ",
-        cover: "covers/albums/hustinder/bhadauria_album.png",
+        artist: "Salena Gomez    ",
+        cover: "covers/salena gomez.jpg",
         songs: [
             //The Beatles-Rubber Soul
     { 

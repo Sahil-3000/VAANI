@@ -827,190 +827,1135 @@ let recoPlaylist = [
     {
         id: 3,
         
-        title: "Justin Beiber",
-        artist: "Justin Beiber",  
-        cover: "covers/justin bieber.jpg",
+        title: "Lata Ji",
+        artist: "Lata Ji",  
+        cover: "covers/artists/Lata Ji.png",
         songs: [
+
+            { 
+                title: "Ek Duje Ke Vaaste       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"Ek Duje Ke Vaaste",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/Ek Duje Ke Vaaste.png", 
+                audio: "https://www.dropbox.com/scl/fi/06cz76t0nh383s2v2e9zx/Ek-Duje-Ke-Vaaste-Full-Song-Audio-_-Dil-To-P-uori-FN0pXs.m4a?rlkey=zp4xca5u6u3q0mqig3rbp9iga&st=vwfmotuq&dl=1", 
+                searchString: "Ek Duje Ke Vaaste Lata Mangeshkar" 
+            },
+            { 
+                title: "Tu Mere Samne       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"Tu Mere Samne",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/Tu Mere Samne.png", 
+                audio: "https://www.dropbox.com/scl/fi/2gaoroh8bavn79sk8s4vi/Lata-Mangeshkar-Udit-Narayan-Tu-Mere-Samne.mp3?rlkey=uesdlx5mhbz2cuex7bkn29hpl&st=sgz8ctbs&dl=1", 
+                searchString: "Tu Mere Samne Lata Mangeshkar" 
+            },
+            { 
+                title: "Awaara       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"Awaara",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/Awaara.png", 
+                audio: "https://www.dropbox.com/scl/fi/2gaoroh8bavn79sk8s4vi/Lata-Mangeshkar-Udit-Narayan-Tu-Mere-Samne.mp3?rlkey=uesdlx5mhbz2cuex7bkn29hpl&st=sgz8ctbs&dl=1", 
+                searchString: "Awaara Lata Mangeshkar" 
+            },
+            { 
+                title: "Dil To Pagal Hai       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"Dil To Pagal Hai",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/Dil To Pagal Hai.png", 
+                audio: "https://www.dropbox.com/scl/fi/a6xomfpzxerlvltzx81p4/Dil-To-Pagal-Hai-Full-Song-Audio-_-Lata-Mang-ojCnlV1MA-k.m4a?rlkey=af9yfluz3ffnsarlf3adzgajf&st=xrqs8kuz&dl=1", 
+                searchString: "Dil To Pagal Hai Lata Mangeshkar" 
+            },
+            { 
+                title: "Tum Mere Ho       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"Tum Mere Ho",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/Tum Mere Ho.png", 
+                audio: "https://www.dropbox.com/scl/fi/6lu4m5dtwjkvd5ad99yr2/Tum-Mere-Ho-Female-Version-Lata-Mangeshkar.m4a?rlkey=izvdpvzcdtc3ohf2lac6q19f0&st=z00i4i0b&dl=1", 
+                searchString: "Tum Mere Ho Lata Mangeshkar" 
+            },
+            { 
+                title: "Ja Re Jare Ud Jare Pakhi       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"Ja Re Jare Ud Jare Pakhi",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/Ja Re Jare Ud Jare Pakhi.png", 
+                audio: "https://www.dropbox.com/scl/fi/jdkrdr4baumlzk6dq4xnl/Ja_Re_Jare_Ure_Jare_Pakhi_Lata_Mangeshkar.m4a?rlkey=stscbrhakguh0td5bogesqbin&st=c3clvv4e&dl=1", 
+                searchString: "Ja Re Jare Ud Jare Pakhi Lata Mangeshkar" 
+            },
+            { 
+                title: "Suniyo       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"Suniyo",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/Suniyo.png", 
+                audio: "", 
+                searchString: "Suniyo Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+           
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+            { 
+                title: "       ", 
+                album: "",
+                artist: "Lata Ji", 
+                lyrics:"",        
+                artistPhoto: "covers/artists/Lata Ji.png", 
+                cover: "covers/singles/lata ji/.png", 
+                audio: "", 
+                searchString: " Lata Mangeshkar" 
+            },
+           
             
-            //mislenous songs
-            { title: "Victory Anthem      ", artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/singles/victory anthem.mp3", searchString: "Victer"},//27
-            { title: "Tu Hai Kaha      ", artist: "A-U-R", cover: "covers/tu hai kaha.jpg", audio: "songs/singles/tu hai kaha.mp3", searchString: "Victer"},//28
-            { title: "Sweater      ", artist: "Preet Hundal", cover: "covers/sweater.jpg", audio: "songs/singles/sweater.mp3", searchString: "Victer"},//29
-            { title: "Zindagi      ", artist: "Sabba",artistPhoto: "covers/Sabba.png", cover: "covers/zindagi sabba.jpg", audio: "songs/singles/zindagi sabba.mp3", searchString: "sabba k gane"},//30
-            { title: "Medal      ", artist: "Chandra Brar", cover: "covers/medal.jpg", audio: "songs/singles/medal.mp3", searchString: "Victer"},//31
-            { title: "Ishq hoya      ", artist: "Jyoti Nooran, Arjit Srivastav", cover: "covers/ishq hoya.jpg", audio: "songs/singles/ishq hoya.mp3", searchString: "Victer"},//32
-            { title: "Illegal      ", artist: "Dhanda Nyoliwala",artistPhoto: "covers/Dhanda Nyoliwala.png", cover: "covers/illegal dhanda.jpg", audio: "songs/singles/illegal dhanda.mp3", searchString: "Victer"},//33
-            { title: "Maada Time      ", artist: "Sabba",artistPhoto: "covers/Sabba.png", cover: "covers/maada time_sabba.png", audio: "songs/singles/maada time.mp3", searchString: "sabba k gane"},//34
-            { title: "Dil Tu Jaan Tu      ", artist: "Guranzar", cover: "covers/dil tu jaan tu.jpg", audio: "songs/singles/dil tu jaan tu.mp3", searchString: "Victer"},//35
-            { title: "Victory Anthem      ", artist: "Khushi-Saini", cover: "covers/victory anthem.jpg", audio: "songs/singles/victory anthem.mp3", searchString: "Victer"},//36
-            { title: "Tareyan Do Loh      ", artist: "Harsh Bilga", cover: "covers/tareyan di loh.jpg", audio: "songs/singles/tareyan di loh.mp3", searchString: "Victer"},//37
-            { title: "Khidki      ", artist: "Rachit Shrivatav", cover: "covers/khidki.webp", audio: "songs/singles/khidki.mp3", searchString: "Victer"},//38
-            { title: "Long Time No See      ", artist: "A-U-R", cover: "covers/long time no see.jpg", audio: "songs/singles/long time no see.mp3", searchString: "Victer"},//39
-            { title: "That Girl      ", artist: "Amrinder Gill",artistPhoto: "covers/Amrinder Gill.png", cover: "covers/that girl_amrinder gill.png", audio: "songs/singles/that girl_amrinder gill.mp3", searchString: "Victer"},//39
-            { title: "Khabbi Seat      ", artist: "Ammy Virk", cover: "covers/khabbi seat_ammy virk.png", audio: "songs/singles/khabbi seat_ammy virk.mp3", searchString: "Victer"},//39
-            { title: "Ikk Number      ", artist: "Gurnam Bhullar", cover: "covers/ik number_gurnam bhullar.png", audio: "songs/singles/ik number_gurnam bhullar.mp3", searchString: "Victer"},//39
-            { title: "Filter      ", artist: "Gulab Sidhu", cover: "covers/filter_gulab sidhu.png", audio: "songs/singles/filter_gulab sidhu.mp3", searchString: "Victer"},//39
-            { title: "Patti Ton Patiala      ", artist: "Harkirat Sangha", cover: "covers/patti to patiala_harkirat sangha.png", audio: "songs/singles/patti to patiala_harkirat sangha.mp3", searchString: "Victer"},//39
-            //Karan Aujla
-            { title: "Softly      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/softly_karan.png", audio: "songs/singles/softly_karan.mp3", searchString: "Victer"},//65
-            { title: "On Top      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/on top_karan.png", audio: "songs/singles/on top_karan.mp3", searchString: "Victer"},//66
-            { title: "WYTB      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/wytb_karan.png", audio: "songs/singles/wytb_karan.mp3", searchString: "Victer"},//67
-            { title: "52 Bars      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/52 bars_karan.png", audio: "songs/singles/52 bars_karan.mp3", searchString: "Victer"},//68
-            { title: "Jee Ni Lagda      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/jee ni lagda_karan.png", audio: "songs/singles/jee ni lagda_karan.mp3", searchString: "Victer"},//69
-            { title: "Player      ", artist: "Karan Aujla, Badshah",artistPhoto: "covers/Karan Aujla.png", cover: "covers/player_karan.png", audio: "songs/singles/player_karan.mp3"},//70
-            { title: "Chauffeur      ", artist: " Diljit Dosanjh     ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/chauffeur_diljit.png", audio: "songs/singles/chauffeur_diljjt.mp3", searchString: "Victer"},//71
-            { title: "White Brown Black      ", artist: "Karan Aujla, Avvy Sra",artistPhoto: "covers/Karan Aujla.png", cover: "covers/white brown black_karan_avvy.png", audio: "songs/singles/white brown black_karan_avvy.mp3", searchString: "Victer"},//72
-            { title: "Tauba Tauba      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/tauba tauba_karan.png", audio: "songs/singles/tauba tauba_karan.mp3", searchString: "Victer"},//73
-            { title: "Chitta Kurta      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/chitta kurta_karan.png", audio: "songs/singles/chitta kurta_karan.mp3", searchString: "Victer"},//74
-            { title: "Mexico      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/mexico_karan.png", audio: "songs/singles/mexico_karan.mp3", searchString: "Victer"},//75
-            { title: "God Damn      ", artist: "Karan Aujla   ",artistPhoto: "covers/Karan Aujla.png", cover: "covers/god damn_karan.png", audio: "songs/singles/god damn_karan.mp3", searchString: "Victer"},//76
-
-                    //Diljit Dosanjh
-            { title: "Lover        ", artist: "Diljit Dosanjh     ", artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lover_diljit.png", audio: "songs/singles/lover_diljit.mp3", searchString: "diljit k gane lover  love diljit lovr lvr diljit diljeet diljjt dil jit lvr"},//40
-            { title: "Case        ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/case_diljit.png", audio: "songs/singles/case_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jitdosanjh doshanjh dosnjh "},//41
-            { title: "Ishq Di Baajiyaan        ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq di baajiyaan_diljit.png", audio: "songs/singles/ishq di baajiyaan_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//42
-            { title: "Love Ya        ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lova ya_diljit.png", audio: "songs/singles/love ya_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//43
-            { title: "Lalkara         ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/lalkara_diljit.png", audio: "songs/singles/lalkara_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//44
-            { title: "Tu Kya Jaane        ", artist: "Yashika Sikka, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/tu kya jaane_diljit.png", audio: "songs/singles/tu kya jaane_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//45
-            { title: "Bol Mohabbat        ", artist: "AR Rehman, Kailash Kher,Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/bol mohabbat_diljit.png", audio: "songs/singles/bol mohabbat_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//46
-            { title: "Vida Karo        ", artist: "Arijit Singh,Diljjt",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/vida karo_diljit.png", audio: "songs/singles/vida karo_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//47
-            { title: "Panga        ", artist: "Diljit Dosanjh, Yo Yo Honey Singh",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/panga_diljit_yoyo.png", audio: "songs/singles/panga_diljjt_yoyo.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//48
-            { title: "Ishq Mitaye        ", artist: "AR Rehman, Diljit",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/ishq mitaye_diljit.png", audio: "songs/singles/ishq mitaye_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//49
-            { title: "5 Tara        ", artist: " Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/5 tara_diljit.png", audio: "songs/singles/5 tara_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//50
-            { title: "Do You Know       ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/do you know_diljit.png", audio: "songs/singles/do you know_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//51
-            { title: "G.O.A.T      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/goat_diljit.png", audio: "songs/singles/goat_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//52
-            { title: "Clash      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/clash_diljit.png", audio: "songs/singles/clash_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//53
-            { title: "Muchh      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/muchh_diljit.png", audio: "songs/singles/muchh_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//54
-            { title: "High End      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/high end_diljit.png", audio: "songs/singles/high end_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//55
-            { title: "Naram Kalja      ", artist: "Diljjt Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/naram kalja_diljit.png", audio: "songs/singles/naram kalja_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//56
-            { title: "Baaja      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/bajja_diljit.png", audio: "songs/singles/bajja_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//57
-            { title: "Muhammad Ali      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/muhammad ali_diljit.png", audio: "songs/singles/muhammad ali_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//58
-            { title: "El Sueno      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/el sueno_diljit.png", audio: "songs/singles/el sueno_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//59
-            { title: "Born To Shine      ", artist: "Diljit Dosanjb",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/born to shine_diljit.png", audio: "songs/singles/born to shine_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//60
-            { title: "Peaches      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/peaches_diljit.png", audio: "songs/singles/peaches_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//61
-            { title: "What Ve      ", artist: "Diljjt Dosanjh,Nimrat Khaira",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/what ve_diljit.png", audio: "songs/singles/what ve_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//62
-            { title: "Hass Hass      ", artist: "Sia,Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/hass hass_diljit.png", audio: "songs/singles/hass hass_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//63
-            { title: "Patiala Peg      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/patiala peg_diljit.png", audio: "songs/singles/patiala peg_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//64
-            { title: "Mombattiye      ", artist: "Diljit Dosanjh     ",artistPhoto: "covers/Diljit Dosanjh.png", cover: "covers/mombattiye_diljit.png", audio: "songs/singles/mombattiye_diljit.mp3", searchString: "diljit k gane diljit diljeet diljjt dil jit "},//64
-
-            { title: "Jo Tum Mere Ho      ", artist: "Anuv Jain",artistPhoto: "covers/Anuv Jain.png", cover: "covers/track1.jpg", audio: "songs/singles/jo tum mere ho.mp3", searchString: "anuv jain songs anuv jain k gane anuv jain anuv jo tum mere ho"},//song1
-            { title: "Fly Karke      ", artist: "SABBA, Jasmeen",artistPhoto: "covers/Sabba.png", cover: "covers/fly karke_sabba.png", audio: "songs/singles/fly krke.mp3", searchString: "fly krke fly fli krke karke flai krke song sabba song sabba k gane"},//song2
             
-            //Arjan Dhillon-Glorious and more
-            { title: "Youth Flow      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/youth flow.mp3", searchString: "arjan songs arjan jawani song arjan"},//song4
-            { title: "Glorious      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/glorious.mp3", searchString: "arjan songs glorious glowrious glorius gloris"},//song5
-            { title: "Maavan      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/maavan.mp3", searchString: "arjan songs mava maanvan mava maava maa maa song arjan"},//song6
-            { title: "Back To Sikhi      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/back to sikhi.mp3", searchString: "arjan songs pagg back to siki sikhi sikki"},//song7
-            { title: "Biography      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/biography.mp3", searchString: "arjan songs bigraphy bigrafi biographi "},//song8
-            { title: "Tyar      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/Chobbar.jpg", audio: "songs/singles/tyar.mp3", searchString: "arjan songs tyaar tyar ready tyar hi ni hoye"},//song9
-            
-            { title: "Heer      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/heer_arjan dhillon.png", audio: "songs/singles/heer_arjan dhillon.mp3", searchString: "arjan songs"},//song9
-            { title: "Punjab Intro      ", artist: "Arjan Dhillon    ",artistPhoto: "covers/Arjan Dhillon.png", cover: "covers/punjab intro_arjan dhillon.png", audio: "songs/singles/punjab intro_arjan dhillon.mp3", searchString: "arjan songs"},//song9
-            
-            
-            
-            //Dhanda
-            { title: "Up To You      ", artist: "Dhanda Nyoliwala",artistPhoto: "covers/Dhanda Nyoliwala.png", cover: "covers/up to you.jpg", audio: "songs/singles/up to you.mp3", searchString: "Victer"},//song10
-            { title: "Russian Bandana      ", artist: "Dhanda Nyoliwala",artistPhoto: "covers/Dhanda Nyoliwala.png", cover: "covers/russian bandana.jpg", audio: "songs/singles/russian bandana.mp3", searchString: "Victer"},//song11
-            
-            { title: "Ishq      ", artist: "Faheem Abdullah,Rauhan Malik", cover: "covers/ishq.jpg", audio: "songs/singles/ishq.mp3", searchString: "Victer"},//song12
-            
-            //The Beatles-Rubber Soul
-            { title: "If I Needed Someone      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/if i needed someone.mp3", searchString: "Victer"},//13
-            { title: "Norwegian Wood      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/norwegian wood.mp3", searchString: "Victer"},//14
-            { title: "You Won't See Me      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/you won't see me.mp3", searchString: "Victer"},//15
-            { title: "Think For Yourself      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/think for yourself.mp3", searchString: "Victer"},//16
-            { title: "The Word      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/the word.mp3", searchString: "Victer"},//17
-            { title: "Michelle      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/michelle.mp3", searchString: "Victer"},//18
-            { title: "Drive My Car      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/drive my car.mp3", searchString: "Victer"},//19
-            { title: "Girl      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/girl.mp3", searchString: "Victer"},//20
-            { title: "I'm Looking Through You",artistPhoto: "covers/The Beatles.png      ", artist: "The Beatles    ", cover: "covers/rubber soul.jpg", audio: "songs/singles/i'm looking through you.mp3", searchString: "Victer"},//21
-            { title: "In My Life      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/In My Life.mp3", searchString: "Victer"},//22
-            { title: "Wait      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/wait.mp3", searchString: "Victer"},//23
-            { title: "Run For Your Life      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/run for your life.mp3", searchString: "Victer"},//24
-            { title: "Nowhere Man      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/nowhere man.mp3", searchString: "Victer"},//25
-            { title: "What Goes On      ", artist: "The Beatles    ",artistPhoto: "covers/The Beatles.png", cover: "covers/rubber soul.jpg", audio: "songs/singles/what goes on.mp3", searchString: "Victer"},//26
-            
-
-
-
-            //Hustinder
-            { title: "Ik Mutiyaar Hundi Si       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/ik mutiyar hundi si_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Hundi Si Gareebi      ", artist: "Hustinder, Black",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/hundi si gareebi_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Bhuleya Ki Ae      ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/bhuleya ki ae_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Dollar Wargiye       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/dollar wargiye_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Dullda Glass      ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/dullda glass_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Gal Koun Karda       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan 2_hustinder.png", audio: "songs/singles/gal koun karda_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Gaza Patti       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/gaza patti_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Gumnaam Pyaar       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/singles/gumnaam pyaar_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Hasde Hi Rehndeya       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/singles/hasde hi rehndeya_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Hathan Utte Duniya       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/hathan utte duniya_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Hopes       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/hopes_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Jethi Dhee       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/jethi dhee_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Kharcha Kardange       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/kharcha kardange_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Laag Daat       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/laag daat_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Maa Kehndi Hundi Si       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/singles/maa kehndi hundi si_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Man Ton Lehgi       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "songs/singles/man ton lehgi_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Mittran De Circle       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/mittran de circle_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Nachdi Ton       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/nachdi ton.mp3", searchString: "Victer"},//song3
-            { title: "Paasport Size Tasveer       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/passport size tasveer_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Praandi       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/praandi_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Pyaar Hoya       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers//sadiyan gallan 2_hustinder.png", audio: "songs/singles/pyaar hoya_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Rabb Di Aulad       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/rabb di aulad_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Raonak       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/raonak_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Rullde Firde Aan       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/rullde firde aan_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Saade Warge       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/saadiyan gallan 3_hustinder.png", audio: "songs/singles/saade warge_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Surga Nu Rah       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/surga nu rah_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Tera Mera Nata       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/tera mera nata_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Teri Deed       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/teri deed_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Tu Takkri       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/tu takkri_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Ucheyan Gharan Di Jaaiye       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "ucheyan gharan diye jaaiye.mp3", searchString: "Victer"},//song3
-            { title: "Velly Yaar       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/mahol_hustinder.png", audio: "songs/singles/velly yaar_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Watching You       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/track3.jpg", audio: "songs/singles/watching you_hustinder.mp3", searchString: "Victer"},//song3
-            { title: "Yari Tod Layi       ", artist: "Hustinder     ",artistPhoto: "covers/Hustinder.png", cover: "covers/sadiyan gallan_hustinder.png", audio: "songs/singles/yari tod layi_hustinder.mp3", searchString: "Victer"},//song3\
-
-
-
-            //RP Singh
-            {title: "Sexy       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sexy_rp singh.png", audio: "songs/singles/sexy_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Pencil       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/pencil_rp singh.png", audio: "songs/singles/pencil_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Sheesha       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sheesha_rp singh.png", audio: "songs/singles/sheesha_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Rap God       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/rapgod_rp singh.png", audio: "songs/singles/rapgod_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Mcoca       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/mcoca_rp singh.png", audio: "songs/singles/mcoca_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Banger       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/banger_rp singh.png", audio: "songs/singles/banger_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Azad Flow       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/azad flow_rp singh.png", audio: "songs/singles/azad flow_rp singh.mp3", searchString: "Victer"},//song3\
-
-            {title: "Bliss       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/bliss_rp singh.png", audio: "songs/singles/bliss_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Power       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/power_rp singh.png", audio: "songs/singles/power_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Meeh       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/meeh_rp singh.png", audio: "songs/singles/meeh_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Chehre       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/chehre_rp singh.png", audio: "songs/singles/chehre_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "3 AM       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/3 am_rp singh.png", audio: "songs/singles/3 am_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Aadhi Si Raat       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/aadhi si raat_rp singh.png", audio: "songs/singles/aadhi si raat_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Jigre       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/jigre_rp singh.png", audio: "songs/singles/jigre_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Look Book       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/look book_rp singh.png", audio: "songs/singles/look book_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Maal       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/maal_rp singh.png", audio: "songs/singles/maal_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "No Lve       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/no love_rp singh.png", audio: "songs/singles/no love_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Pataka       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/pataka_rp singh.png", audio: "songs/singles/pataka_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Sapne       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sapne_rp singh.png", audio: "songs/singles/sapne_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Tehalka       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/tehalka_rp singh.png", audio: "songs/singles/tehalka_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Stop RP       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/stop rp_rp singh.png", audio: "songs/singles/stop rp_rp singh.mp3", searchString: "Victer"},//song3
-
-            {title: "Toxic       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/toxic_rp singh.png", audio: "songs/singles/toxic_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Shiva       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/shiva_rp singh.png", audio: "songs/singles/shiva_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Sneeze       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sneeze_rp singh.png", audio: "songs/singles/sneeze_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "Sarpanchi       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/sarpanchi_rp singh.png", audio: "songs/singles/sarpanchi_rp singh.mp3", searchString: "Victer"},//song3\
-            {title: "If You Know You Know       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/if you know you know_rp singh.png", audio: "songs/singles/if you know you know_rp singh.mp3", searchString: "Victer" },//song3\
-
-            {title: "7 Birth       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/7 birth_rp singh.png", audio: "songs/singles/7 birth_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "1857       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/1857_rp singh.png", audio: "songs/singles/1857_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Approach       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/approach_rp singh.png", audio: "songs/singles/approach_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "BFF       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/bff_rp singh.png", audio: "songs/singles/bff_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Do Cheez       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/do cheez_rp singh.png", audio: "songs/singles/do cheez_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Famous       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/famous_rp singh.png", audio: "songs/singles/famous_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Govinda       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/govinda_rp singh.png", audio: "songs/singles/govinda_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Jahaaj       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/jahaaj_rp singh.png", audio: "songs/singles/jahaaj_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "MI AMOR       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/mi amor_rp singh.png", audio: "songs/singles/mi amor_rp singh.mp3", searchString: "Victer" },//song3\
-            {title: "Victor       ", artist: "RP Singh    ",artistPhoto: "covers/RP Singh.png", cover: "covers/victor_rp singh.png", audio: "songs/singles/victor_rp singh.mp3", searchString: "Victer"},//song3\
         ]
     },
     
