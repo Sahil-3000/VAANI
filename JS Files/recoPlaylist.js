@@ -710,6 +710,16 @@ let recoPlaylist = [
                 searchString: "Victer"
             },
             {
+                title: "Jatt Life       ", 
+                artist: "Virender Brar",
+                lyrics: "Jatt Life",
+                artistPhoto: "covers/artists/Virender Brar.png",
+                cover: "covers/playlists/workout/Jatt Life.png",
+                audio: "https://www.dropbox.com/scl/fi/qefodex6mlhnz3goiq4ri/Jatt-Life-Varinder-Brar.mp3?rlkey=8t2enzz1bnmpgm2nalefto5ku&st=3f937pbx&dl=1",
+                searchString: "Jatt Life virender brar workout workout songs gym music gym songs gim songs jim songs  "
+            },
+            
+            {
                 title: "Up To You      ",
                 videoID:"",
                 album:"",
@@ -741,6 +751,15 @@ let recoPlaylist = [
                 cover: "covers/52 bars_karan.png",
                 audio: "songs/singles/52 bars_karan.mp3",
                 searchString: "Victer"
+            },
+            {
+                title: "Boo Thang        ", 
+                artist: "Virender Brar",
+                lyrics: "Boo Thang",
+                artistPhoto: "covers/artists/Virender Brar.png",
+                cover: "covers/playlists/workout/Boo Thang.png",
+                audio: "https://www.dropbox.com/scl/fi/ai8xm7b9bo93rsjxji6iz/Boo-Thang-Varinder-Brar.mp3?rlkey=6u29vyw13nphyos0gmaie1lfb&st=14hs22hv&dl=1",
+                searchString: "Boo Thang virender brar workout workout songs gym music gym songs gim songs jim songs  "
             },
             {
                 title: "Brats   ",
@@ -801,6 +820,15 @@ let recoPlaylist = [
                 searchString: "Badnam Mankirt Aulakh workout workout songs gym music gym songs gim songs jim songs  "
             },
             {
+                title: "Thaa     ", 
+                artist: "Virender Brar",
+                lyrics: "Thaa",
+                artistPhoto: "covers/artists/Virender Brar.png",
+                cover: "covers/playlists/workout/Thaa.png",
+                audio: "https://www.dropbox.com/scl/fi/0u5z9z38v939cv7pxtlp2/Thaa-Varinder-Brar.mp3?rlkey=z4680ps2qkv1yvqrmr017wtbi&st=vntguzr9&dl=1",
+                searchString: "Thaa virender brar workout workout songs gym music gym songs gim songs jim songs  "
+            },
+            {
                 title: "Daang        ",
                 artist: "Mankirt Aulakh",
                 lyrics: "Daang",
@@ -827,7 +855,7 @@ let recoPlaylist = [
                 lyrics: "Paapi",
                 artistPhoto: "covers/artists/Mankirt Aulakh.png",
                 cover: "covers/playlists/workout/Paapi.png",
-                audio: "",
+                audio: "https://www.dropbox.com/scl/fi/cgc2qj4m9i8cfwdpfrw0k/Paapi-Munda-Mankirt-Aulakh.mp3?rlkey=t7ltfo040lh7h4pl0uc7onbro&st=z2txd8fl&dl=1",
                 searchString: "Mankirt Aulakh workout workout songs gym music gym songs gim songs jim songs  "
             },
             
@@ -837,43 +865,18 @@ let recoPlaylist = [
                 lyrics: "12 Bande",
                 artistPhoto: "covers/artists/Virender Brar.png",
                 cover: "covers/playlists/workout/12 Bande.png",
-                audio: "",
+                audio: "https://www.dropbox.com/scl/fi/h3x2qwsjc4y9vbqkp7524/12-Bande-Varinder-Brar.mp3?rlkey=iaqu0ap3t4kzc37gi6cj4b1cs&st=kwg12pmm&dl=1",
                 searchString: "12 Bande virender brar workout workout songs gym music gym songs gim songs jim songs  "
             },
-            {
-                title: "Boo Thang        ", 
-                artist: "Virender Brar",
-                lyrics: "Boo Thang",
-                artistPhoto: "covers/artists/Virender Brar.png",
-                cover: "covers/playlists/workout/Boo Thang.png",
-                audio: "",
-                searchString: "Boo Thang virender brar workout workout songs gym music gym songs gim songs jim songs  "
-            },
-            {
-                title: "Jatt Life       ", 
-                artist: "Virender Brar",
-                lyrics: "Jatt Life",
-                artistPhoto: "covers/artists/Virender Brar.png",
-                cover: "covers/playlists/workout/Jatt Life.png",
-                audio: "",
-                searchString: "Jatt Life virender brar workout workout songs gym music gym songs gim songs jim songs  "
-            },
-            {
-                title: "Thaa     ", 
-                artist: "Virender Brar",
-                lyrics: "Thaa",
-                artistPhoto: "covers/artists/Virender Brar.png",
-                cover: "covers/playlists/workout/Thaa.png",
-                audio: "",
-                searchString: "Thaa virender brar workout workout songs gym music gym songs gim songs jim songs  "
-            },
+            
+            
             {
                 title: "Takkar      ", 
                 artist: "Virender Brar",
                 lyrics: "Takkar",
                 artistPhoto: "covers/artists/Virender Brar.png",
                 cover: "covers/playlists/workout/Takkar.png",
-                audio: "",
+                audio: "https://www.dropbox.com/scl/fi/jk6gds19bdodxv93k8d7g/Takkar-Varinder-Brar.mp3?rlkey=z60vro6qq93h33bputoe9qczz&st=qgduvz6g&dl=1",
                 searchString: " Takkar virender brar workout workout songs gym music gym songs gim songs jim songs  "
             },
             // {

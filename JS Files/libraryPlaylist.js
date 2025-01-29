@@ -1537,6 +1537,267 @@ let libraryPlaylists = [
         artist: "Various Artists",
         cover: "covers/workout playlist.png",
         songs: [
+            {
+                title: "Hikka   ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Hikka ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "songs/albums/patandar/Hikka.mp3",
+                searchString: "Hikka "
+            },
+            {
+                title: "Russian Bandana      ",
+                videoID:"",
+                album:"",
+                artist: "Dhanda Nyoliwala   ",
+                lyrics: "Russian Bandana",
+                artistPhoto: "covers/Dhanda Nyoliwala.png",
+                cover: "covers/russian bandana.jpg",
+                audio: "songs/singles/russian bandana.mp3",
+                searchString: "Victer"
+            },
+            {
+                title: "Gangland        ",
+                artist: "Mankirt Aulakh",
+                lyrics: "Gangland",
+                artistPhoto: "covers/artists/Mankirt Aulakh.png",
+                cover: "covers/playlists/workout/Gangland.png",
+                audio: "https://www.dropbox.com/scl/fi/vfinxbgnl2rflszc1cr6d/Gangland.mp3?rlkey=xx0a1eh1uj6xdgo8lh1emxeuv&st=3tilknav&dl=1",
+                searchString: "Gangland Mankirt Aulakh workout workout songs gym music gym songs gim songs jim songs  "
+            },
+            
+            {
+                title: "Lalkara         ",
+                videoID:"",
+                album:"",
+                artist: "Diljit Dosanjh     ",
+                lyrics: "Lalkara",
+                artistPhoto: "covers/Diljit Dosanjh.png",
+                cover: "covers/lalkara_diljit.png",
+                audio: "songs/singles/lalkara_diljit.mp3",
+                searchString: "diljit k gane diljit diljeet diljjt dil jit "
+            },
+            {
+                title: "Purje        ",
+                artist: "Mankirt Aulakh",
+                lyrics: "Purje",
+                artistPhoto: "covers/artists/Mankirt Aulakh.png",
+                cover: "covers/playlists/workout/Purje.png",
+                audio: "https://www.dropbox.com/scl/fi/0czh80en7h3dmmzkqipeg/Purje.mp3?rlkey=d70bpy40bk7bytdoexwd03uzv&st=ampa59di&dl=1",
+                searchString: "Purje Mankirt Aulakh workout workout songs gym music gym songs gim songs jim songs  "
+            },
+            {
+                title: "Illegal      ",
+                videoID:"",
+                album:"",
+                artist: "Dhanda Nyoliwala   ",
+                lyrics: "Illegal",
+                artistPhoto: "covers/Dhanda Nyoliwala.png",
+                cover: "covers/illegal dhanda.jpg",
+                audio: "songs/singles/illegal dhanda.mp3",
+                searchString: "Victer"
+            },
+            {
+                title: "Never Ever    ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Never Ever ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "songs/albums/patandar/Never Ever.mp3",
+                searchString: "Never Ever "
+
+            },
+            {
+                title: "Victory Anthem      ",
+                videoID:"",
+                album:"",
+                artist: "Khushi-Saini  ",
+                lyrics: "Victory Anthem",
+                cover: "covers/victory anthem.jpg",
+                audio: "songs/singles/victory anthem.mp3",
+                searchString: "Victer"
+            },
+            {
+                title: "Jatt Life       ", 
+                artist: "Virender Brar",
+                lyrics: "Jatt Life",
+                artistPhoto: "covers/artists/Virender Brar.png",
+                cover: "covers/playlists/workout/Jatt Life.png",
+                audio: "https://www.dropbox.com/scl/fi/qefodex6mlhnz3goiq4ri/Jatt-Life-Varinder-Brar.mp3?rlkey=8t2enzz1bnmpgm2nalefto5ku&st=3f937pbx&dl=1",
+                searchString: "Jatt Life virender brar workout workout songs gym music gym songs gim songs jim songs  "
+            },
+            
+            {
+                title: "Up To You      ",
+                videoID:"",
+                album:"",
+                artist: "Dhanda Nyoliwala  ",
+                lyrics: "Up To You",
+                artistPhoto: "covers/Dhanda Nyoliwala.png",
+                cover: "covers/up to you.jpg",
+                audio: "songs/singles/up to you.mp3",
+                searchString: "Victer"
+            },
+            {
+                title: "Born To Shine      ",
+                videoID:"",
+                album:"",
+                artist: "Diljit Dosanjb",
+                lyrics: "Born To Shine",
+                artistPhoto: "covers/Diljit Dosanjh.png",
+                cover: "covers/born to shine_diljit.png",
+                audio: "songs/singles/born to shine_diljit.mp3",
+                searchString: "diljit k gane diljit diljeet diljjt dil jit "
+            },
+            {
+                title: "52 Bars      ",
+                videoID:"",
+                album:"",
+                artist: "Karan Aujla   ",
+                lyrics: "52 Bars",
+                artistPhoto: "covers/Karan Aujla.png",
+                cover: "covers/52 bars_karan.png",
+                audio: "songs/singles/52 bars_karan.mp3",
+                searchString: "Victer"
+            },
+            {
+                title: "Boo Thang        ", 
+                artist: "Virender Brar",
+                lyrics: "Boo Thang",
+                artistPhoto: "covers/artists/Virender Brar.png",
+                cover: "covers/playlists/workout/Boo Thang.png",
+                audio: "https://www.dropbox.com/scl/fi/ai8xm7b9bo93rsjxji6iz/Boo-Thang-Varinder-Brar.mp3?rlkey=6u29vyw13nphyos0gmaie1lfb&st=14hs22hv&dl=1",
+                searchString: "Boo Thang virender brar workout workout songs gym music gym songs gim songs jim songs  "
+            },
+            {
+                title: "Brats   ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Brats",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "songs/albums/patandar/Brats.mp3",
+                searchString: " brats"
+            },
+            {
+                title: "Jail        ",
+                artist: "Mankirt Aulakh",
+                lyrics: "Jail",
+                artistPhoto: "covers/artists/Mankirt Aulakh.png",
+                cover: "covers/playlists/workout/Jail.png",
+                audio: "https://www.dropbox.com/scl/fi/reygtdorgr7pfxo5s1f2v/Jail.mp3?rlkey=aedcg3nonaros8ouney5gc1jk&st=5afvhi8h&dl=1",
+                searchString: "Jail Mankirt Aulakh workout workout songs gym music gym songs gim songs jim songs  "
+            },
+            {
+                title: "Sher-E-Panjab    ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Sher E Panjab ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "songs/albums/patandar/Sher E Panjab.mp3",
+                searchString: "Sher E Panjab "
+
+            },
+            {
+                title: "G.O.A.T.      ",
+                videoID:"",
+                album:"",
+                artist: "Diljit Dosanjh     ",
+                lyrics: "G.O.A.T.",
+                artistPhoto: "covers/Diljit Dosanjh.png",
+                cover: "covers/goat_diljit.png",
+                audio: "songs/singles/goat_diljit.mp3",
+                searchString: "diljit k gane diljit diljeet diljjt dil jit "
+            },
+            {
+                title: "Believer        ",
+                artist: "Imagine Dragons",
+                lyrics: "Believer",
+                artistPhoto: "covers/Imagine Dragons.jpg",
+                cover: "covers/playlists/workout/Believer.png",
+                audio: "https://www.dropbox.com/scl/fi/c6ufb0q9se2ltgeyhb8qg/Believer-PagalNew.Com.Se-1.mp3?rlkey=m9xq9sho2crhr8pf9gbsgc9i9&st=cj0cysq3&dl=1",
+                searchString: "Believer workout workout songs gym music gym songs gim songs jim songs  "
+            },
+            
+            {
+                title: "Badnam        ",
+                artist: "Mankirt Aulakh",
+                lyrics: "Badnam",
+                artistPhoto: "covers/artists/Mankirt Aulakh.png",
+                cover: "covers/playlists/workout/Badnam.png",
+                audio: "https://www.dropbox.com/scl/fi/x51vxlnj73m6f21zbj3az/Badnam.mp3?rlkey=e9p6tfjzlzv3kima5nx3rqnh4&st=7vxtnfcs&dl=1",
+                searchString: "Badnam Mankirt Aulakh workout workout songs gym music gym songs gim songs jim songs  "
+            },
+            {
+                title: "Thaa     ", 
+                artist: "Virender Brar",
+                lyrics: "Thaa",
+                artistPhoto: "covers/artists/Virender Brar.png",
+                cover: "covers/playlists/workout/Thaa.png",
+                audio: "https://www.dropbox.com/scl/fi/0u5z9z38v939cv7pxtlp2/Thaa-Varinder-Brar.mp3?rlkey=z4680ps2qkv1yvqrmr017wtbi&st=vntguzr9&dl=1",
+                searchString: "Thaa virender brar workout workout songs gym music gym songs gim songs jim songs  "
+            },
+            {
+                title: "Daang        ",
+                artist: "Mankirt Aulakh",
+                lyrics: "Daang",
+                artistPhoto: "covers/artists/Mankirt Aulakh.png",
+                cover: "covers/playlists/workout/Daang.png",
+                audio: "https://www.dropbox.com/scl/fi/hpdcdl59u11pmpnbhfy5p/Daang.mp3?rlkey=8ss7eur6ox8jqtkv694k83o58&st=tyth22a9&dl=1",
+                searchString: "Daang Mankirt Aulakh workout workout songs gym music gym songs gim songs jim songs  "
+            },
+            {
+                title: "Never Ever    ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Never Ever ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "songs/albums/patandar/Never Ever.mp3",
+                searchString: "Never Ever "
+
+            },
+            
+            
+            {
+                title: "Paapi        ",
+                artist: "Mankirt Aulakh",
+                lyrics: "Paapi",
+                artistPhoto: "covers/artists/Mankirt Aulakh.png",
+                cover: "covers/playlists/workout/Paapi.png",
+                audio: "https://www.dropbox.com/scl/fi/cgc2qj4m9i8cfwdpfrw0k/Paapi-Munda-Mankirt-Aulakh.mp3?rlkey=t7ltfo040lh7h4pl0uc7onbro&st=z2txd8fl&dl=1",
+                searchString: "Mankirt Aulakh workout workout songs gym music gym songs gim songs jim songs  "
+            },
+            
+            {
+                title: "12 Bande        ", 
+                artist: "Virender Brar",
+                lyrics: "12 Bande",
+                artistPhoto: "covers/artists/Virender Brar.png",
+                cover: "covers/playlists/workout/12 Bande.png",
+                audio: "https://www.dropbox.com/scl/fi/h3x2qwsjc4y9vbqkp7524/12-Bande-Varinder-Brar.mp3?rlkey=iaqu0ap3t4kzc37gi6cj4b1cs&st=kwg12pmm&dl=1",
+                searchString: "12 Bande virender brar workout workout songs gym music gym songs gim songs jim songs  "
+            },
+            
+            
+            {
+                title: "Takkar      ", 
+                artist: "Virender Brar",
+                lyrics: "Takkar",
+                artistPhoto: "covers/artists/Virender Brar.png",
+                cover: "covers/playlists/workout/Takkar.png",
+                audio: "https://www.dropbox.com/scl/fi/jk6gds19bdodxv93k8d7g/Takkar-Varinder-Brar.mp3?rlkey=z60vro6qq93h33bputoe9qczz&st=qgduvz6g&dl=1",
+                searchString: " Takkar virender brar workout workout songs gym music gym songs gim songs jim songs  "
+            },
+            // {
+            //     title: "JUail.Png        ", 
+            //     artist: "Virender Brar",
+            //     lyrics: "JUail.Png",
+            //     artistPhoto: "covers/artists/Virender Brar.png",
+            //     cover: "covers/playlists/workout/JUail.Png.png",
+            //     audio: "",
+            //     searchString: "JUail.Png virender brar workout workout songs gym music gym songs gim songs jim songs  "
+            // },
+            
 
         ]
     },
