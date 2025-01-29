@@ -1534,7 +1534,7 @@ let libraryPlaylists = [
     {
         id: 3,
         title: "Workout",
-        artist: "Eminem",
+        artist: "Various Artists",
         cover: "covers/workout playlist.png",
         songs: [
 

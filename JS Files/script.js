@@ -461,6 +461,7 @@ function displayResults(results) {
 const libraryItems = document.querySelectorAll(".library-item");
 const librarySection = document.querySelector(".library-section");
 const openPlaylistContainer = document.querySelector(".playlist-header");
+let openPlaylistContainerMain = document.querySelector(".playlist-header-main");
 
 // Example playlists data with multiple songs
 
@@ -469,10 +470,28 @@ const openPlaylistContainer = document.querySelector(".playlist-header");
 libraryItems.forEach((libraryItem, index) => {
     libraryItem.addEventListener("click", () => {
         const selectedPlaylist = libraryPlaylists[index];
-
+        const screenWidth = window.innerWidth;
         // Show the selected playlist and hide the library
-        openPlaylistContainer.style.display = "block";
-        librarySection.style.display = "none";
+        if(openPlaylistContainer.style.display === "none" || openPlaylistContainerMain.style.display === "none"){
+            
+            if(screenWidth < 1024){
+                openPlaylistContainer.style.display = "block";
+                librarySection.style.display = "none";
+                
+            }
+            else{
+                openPlaylistContainerMain.style.display = "block";
+                // mainPlaySection.style.display = "none";
+                // mainOpenPlayContainer.style.display = "none";
+            }
+            
+        }
+        else{
+            openPlaylistContainer.style.display = "none";
+            openPlaylistContainerMain.style.display = "none";
+        }
+        
+        // librarySection.style.display = "none";
 
         // Update browser history state
         history.pushState({ page: "playlist" }, null, "#playlist");
@@ -524,7 +543,14 @@ function displayPlaylist(playList) {
     // switchPlaylist(playlists.songs);
 
     currentTrackIndex = 0;
-    const playlistContainer = openPlaylistContainer;
+    const screenWidth = window.innerWidth;
+   let playlistContainer;
+    if(screenWidth < 1024){
+        playlistContainer = openPlaylistContainer;
+    }else{
+        playlistContainer = openPlaylistContainerMain;
+    }
+    
     playlistContainer.innerHTML = '';  // Clear any previous playlist content
 
     // Create the playlist header (title, cover, and artist)
@@ -977,7 +1003,8 @@ homeButton.addEventListener("click", () => {
     (mainOpenPlayContainer.style.display === "block") || 
     (sidebar1.style.display = "block") || 
     (showLyrics.style.display = "block")||
-    (showPlayer.style.display = "block")
+    (showPlayer.style.display = "block") ||
+    (openPlaylistContainerMain.style.display = "block")
 )) {
         // Show song results and hide default content
         songResults.style.display = "none";  // or 'block' depending on the layout
@@ -985,9 +1012,10 @@ homeButton.addEventListener("click", () => {
         main.style.display = "block";
         showLyrics.style.display = "none";
         showPlayer.style.display="none";
+        
         // sidebar1.style.flex="0 0 0";
 
-
+        openPlaylistContainerMain.style.display = "none";
         mainOpenPlayContainer.style.display === "none"
         mainOpenPlayContainer.innerHTML = '';
         mainOpenPlayContainer.style.height = "0px";
@@ -1004,7 +1032,7 @@ homeButton.addEventListener("click", () => {
         mainOpenPlayContainer.style.height = "0px";
         mainOpenPlayContainer.style.pdadding = "0px";
         mainOpenPlayContainer.style.margin = "0px";
-
+        openPlaylistContainerMain.style.display = "none";
         defaultContent.style.display = "block";
     }
 
