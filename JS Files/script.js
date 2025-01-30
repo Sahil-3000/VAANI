@@ -245,6 +245,7 @@ displayLibrary.addEventListener("click", () => {
     showPlayer.style.display = "none";
     sidebar1.style.display = "block";
     sidebar1.style.flex = "0 0 100%";
+    history.pushState({ page: "playlist" }, null, "#playlist");
 })
 
 
@@ -469,14 +470,15 @@ let openPlaylistContainerMain = document.querySelector(".playlist-header-main");
 
 libraryItems.forEach((libraryItem, index) => {
     libraryItem.addEventListener("click", () => {
-        const selectedPlaylist = libraryPlaylists[index];
+       let selectedPlaylist = libraryPlaylists[index];
         const screenWidth = window.innerWidth;
         // Show the selected playlist and hide the library
-        if(openPlaylistContainer.style.display === "none" || openPlaylistContainerMain.style.display === "none"){
+        if(openPlaylistContainer.style.display === "none" || openPlaylistContainerMain.style.display === "none" || defaultContent.style.display === "block"){
             
             if(screenWidth < 1024){
                 openPlaylistContainer.style.display = "block";
                 librarySection.style.display = "none";
+                
                 
             }
             else{
@@ -484,11 +486,13 @@ libraryItems.forEach((libraryItem, index) => {
                 // mainPlaySection.style.display = "none";
                 // mainOpenPlayContainer.style.display = "none";
             }
+            defaultContent.style.display = "none";
             
         }
         else{
             openPlaylistContainer.style.display = "none";
             openPlaylistContainerMain.style.display = "none";
+            defaultContent.style.display = "block";
         }
         
         // librarySection.style.display = "none";
@@ -503,15 +507,24 @@ libraryItems.forEach((libraryItem, index) => {
 
 
     });
+     // Update browser history state
+     history.pushState({ page: "playlist" }, null, "#playlist");
 });
 
 window.addEventListener("popstate", (event) => {
     if (event.state && event.state.page === "playlist") {
         // If the user navigates back to the playlist state
-        openPlaylistContainer.style.display = "block";
-        librarySection.style.display = "none";
+        if(screenWidth <1024){
+            openPlaylistContainer.style.display = "block";
+            librarySection.style.display = "none";
+        }else{
+            openPlaylistContainerMain.style.display = "block";
+            librarySection.style.display = "none";
+        }
+        
     } else {
         // Default state: show the library
+        openPlaylistContainerMain.style.display = "none";
         openPlaylistContainer.style.display = "none";
         librarySection.style.display = "block";
     }
@@ -949,7 +962,7 @@ function displayMainPlaylist(playList) {
     mainPlayContainer.appendChild(mainPlayHeader);
 }
 
-const showLibrary = document.querySelector(".show-library");
+// const showLibrary = document.querySelector(".show-library");
 
 
 

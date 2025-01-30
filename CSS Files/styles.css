@@ -121,7 +121,7 @@ body {
 
 
 .playlist-results{
-    display:none;
+    /* display:none; */
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
@@ -134,7 +134,7 @@ body {
     border-radius: 10px;
     /* background-color: #201d1d; */
     background-color: transparent;
-    padding:0;
+    padding-bottom:50px;
     overflow-x: hidden; /* Hides horizontal scrollbar */
     cursor:pointer;
 }
@@ -1538,7 +1538,7 @@ button[data-type="play-button"]{
 .playlist-results{
     cursor:none;
     /* margin-bottom:100px; */
-    padding-bottom:30px;
+    padding-bottom:50px;
 }
 
     
@@ -1595,12 +1595,12 @@ button[data-type="play-button"]{
     }
 
     .playlist-header{
-        padding-bottom:30px;
+        padding-bottom:50px;
         
     }
     
     .playlist-header-main{
-        padding-bottom:30px;
+        padding-bottom:50px;
         
     }
     .song-item{
