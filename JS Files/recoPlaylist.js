@@ -713,8 +713,8 @@ let recoPlaylist = [
                 title: "Jatt Life       ", 
                 artist: "Virender Brar",
                 lyrics: "Jatt Life",
-                artistPhoto: "covers/artists/Virender Brar.png",
-                cover: "covers/playlists/workout/Jatt Life.png",
+                artistPhoto: "covers/artists/Virender Brar.webp",
+                cover: "covers/playlists/workout/Jatt Life.webp",
                 audio: "https://www.dropbox.com/scl/fi/qefodex6mlhnz3goiq4ri/Jatt-Life-Varinder-Brar.mp3?rlkey=8t2enzz1bnmpgm2nalefto5ku&st=3f937pbx&dl=1",
                 searchString: "Jatt Life virender brar workout workout songs gym music gym songs gim songs jim songs  "
             },
@@ -756,7 +756,7 @@ let recoPlaylist = [
                 title: "Boo Thang        ", 
                 artist: "Virender Brar",
                 lyrics: "Boo Thang",
-                artistPhoto: "covers/artists/Virender Brar.png",
+                artistPhoto: "covers/artists/Virender Brar.webp",
                 cover: "covers/playlists/workout/Boo Thang.png",
                 audio: "https://www.dropbox.com/scl/fi/ai8xm7b9bo93rsjxji6iz/Boo-Thang-Varinder-Brar.mp3?rlkey=6u29vyw13nphyos0gmaie1lfb&st=14hs22hv&dl=1",
                 searchString: "Boo Thang virender brar workout workout songs gym music gym songs gim songs jim songs  "
@@ -823,7 +823,7 @@ let recoPlaylist = [
                 title: "Thaa     ", 
                 artist: "Virender Brar",
                 lyrics: "Thaa",
-                artistPhoto: "covers/artists/Virender Brar.png",
+                artistPhoto: "covers/artists/Virender Brar.webp",
                 cover: "covers/playlists/workout/Thaa.png",
                 audio: "https://www.dropbox.com/scl/fi/0u5z9z38v939cv7pxtlp2/Thaa-Varinder-Brar.mp3?rlkey=z4680ps2qkv1yvqrmr017wtbi&st=vntguzr9&dl=1",
                 searchString: "Thaa virender brar workout workout songs gym music gym songs gim songs jim songs  "
@@ -863,7 +863,7 @@ let recoPlaylist = [
                 title: "12 Bande        ", 
                 artist: "Virender Brar",
                 lyrics: "12 Bande",
-                artistPhoto: "covers/artists/Virender Brar.png",
+                artistPhoto: "covers/artists/Virender Brar.webp",
                 cover: "covers/playlists/workout/12 Bande.png",
                 audio: "https://www.dropbox.com/scl/fi/h3x2qwsjc4y9vbqkp7524/12-Bande-Varinder-Brar.mp3?rlkey=iaqu0ap3t4kzc37gi6cj4b1cs&st=kwg12pmm&dl=1",
                 searchString: "12 Bande virender brar workout workout songs gym music gym songs gim songs jim songs  "
@@ -874,7 +874,7 @@ let recoPlaylist = [
                 title: "Takkar      ", 
                 artist: "Virender Brar",
                 lyrics: "Takkar",
-                artistPhoto: "covers/artists/Virender Brar.png",
+                artistPhoto: "covers/artists/Virender Brar.webp",
                 cover: "covers/playlists/workout/Takkar.png",
                 audio: "https://www.dropbox.com/scl/fi/jk6gds19bdodxv93k8d7g/Takkar-Varinder-Brar.mp3?rlkey=z60vro6qq93h33bputoe9qczz&st=qgduvz6g&dl=1",
                 searchString: " Takkar virender brar workout workout songs gym music gym songs gim songs jim songs  "
@@ -883,7 +883,7 @@ let recoPlaylist = [
             //     title: "JUail.Png        ", 
             //     artist: "Virender Brar",
             //     lyrics: "JUail.Png",
-            //     artistPhoto: "covers/artists/Virender Brar.png",
+            //     artistPhoto: "covers/artists/Virender Brar.webp",
             //     cover: "covers/playlists/workout/JUail.Png.png",
             //     audio: "",
             //     searchString: "JUail.Png virender brar workout workout songs gym music gym songs gim songs jim songs  "
@@ -2459,7 +2459,7 @@ let recoPlaylist = [
                 artist: "Masoom Sharma    ",
                 lyrics: "2 Numbari",
                 artistPhoto: "covers/Masoom Sharma.png",
-                cover: "covers/2 numbari_masoom sharma.png",
+                cover: "covers/masoom/tempo.png",
                 audio: "https://tinyurl.com/tempo-masoom",
                 searchString: "Tempo"
             }

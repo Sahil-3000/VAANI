@@ -23,6 +23,17 @@ let isShuffle = false;
 let isRepeat = false;
 
 
+// Set initial state on page load
+document.addEventListener("DOMContentLoaded", () => {
+    history.replaceState({ page: "home" }, null, "#home");
+    const screenWidth = window.innerWidth;
+    if(screenWidth < 1024){
+        defaultContent.style.paddingBottom = "50px";
+    }
+    homeButton.click();
+});
+
+
 
 
 
@@ -245,7 +256,8 @@ displayLibrary.addEventListener("click", () => {
     showPlayer.style.display = "none";
     sidebar1.style.display = "block";
     sidebar1.style.flex = "0 0 100%";
-    history.pushState({ page: "playlist" }, null, "#playlist");
+    librarySection.style.paddingBottom = "50px";
+    history.pushState({ page: "library" }, null, "#library");
 })
 
 
@@ -459,80 +471,158 @@ function displayResults(results) {
 
 //...................................................................................................................................................................................
 // Select all the library items (playlists)
+// const libraryItems = document.querySelectorAll(".library-item");
+// const librarySection = document.querySelector(".library-section");
+// const openPlaylistContainer = document.querySelector(".playlist-header");
+// let openPlaylistContainerMain = document.querySelector(".playlist-header-main");
+
+// // Example playlists data with multiple songs
+
+// //...................................................................................................................................................................................
+
+// libraryItems.forEach((libraryItem, index) => {
+//     libraryItem.addEventListener("click", () => {
+//        let selectedPlaylist = libraryPlaylists[index];
+//         const screenWidth = window.innerWidth;
+//         // Show the selected playlist and hide the library
+//         if(openPlaylistContainer.style.display === "none" || openPlaylistContainerMain.style.display === "none" || defaultContent.style.display === "block"){
+            
+//             if(screenWidth < 1024){
+//                 openPlaylistContainer.style.display = "block";
+//                 librarySection.style.display = "none";
+                
+                
+//             }
+//             else{
+//                 openPlaylistContainerMain.style.display = "block";
+//                 // mainPlaySection.style.display = "none";
+//                 // mainOpenPlayContainer.style.display = "none";
+//             }
+//             defaultContent.style.display = "none";
+            
+//         }
+//         else{
+//             openPlaylistContainer.style.display = "none";
+//             openPlaylistContainerMain.style.display = "none";
+//             defaultContent.style.display = "block";
+//         }
+        
+//         // librarySection.style.display = "none";
+
+//         // Update browser history state
+//         history.pushState({ page: "library" }, null, "#library");
+//         // switchPlaylist(selectedPlaylist);
+
+//         // Display the playlist details
+//         displayPlaylist(selectedPlaylist);
+
+
+
+//     });
+//      // Update browser history state
+//     //  history.pushState({ page: "playlist" }, null, "#playlist");
+// });
+
+// window.addEventListener("popstate", (event) => {
+//     if (event.state && event.state.page === "playlist") {
+//         // If the user navigates back to the playlist state
+//         if(screenWidth <1024){
+//             openPlaylistContainer.style.display = "block";
+//             librarySection.style.display = "none";
+//         }else{
+//             openPlaylistContainerMain.style.display = "block";
+//             librarySection.style.display = "none";
+//         }
+        
+//     } else {
+//         // Default state: show the library
+//         openPlaylistContainerMain.style.display = "none";
+//         openPlaylistContainer.style.display = "none";
+//         librarySection.style.display = "block";
+//     }
+// });
+
+// document.addEventListener("DOMContentLoaded", () => {
+//     history.replaceState({ page: "home" }, null, "#home");
+// });
+
+
+// Select all the library items (playlists)
 const libraryItems = document.querySelectorAll(".library-item");
 const librarySection = document.querySelector(".library-section");
 const openPlaylistContainer = document.querySelector(".playlist-header");
 let openPlaylistContainerMain = document.querySelector(".playlist-header-main");
+// const defaultContent = document.querySelector(".default-content");
 
-// Example playlists data with multiple songs
-
-//...................................................................................................................................................................................
-
+// Event listener for clicking library items (playlists)
 libraryItems.forEach((libraryItem, index) => {
     libraryItem.addEventListener("click", () => {
-       let selectedPlaylist = libraryPlaylists[index];
-        const screenWidth = window.innerWidth;
-        // Show the selected playlist and hide the library
-        if(openPlaylistContainer.style.display === "none" || openPlaylistContainerMain.style.display === "none" || defaultContent.style.display === "block"){
-            
-            if(screenWidth < 1024){
+        let selectedPlaylist = libraryPlaylists[index]; // Get selected playlist
+        let screenWidth = window.innerWidth; // Get current screen width
+
+        if (openPlaylistContainer.style.display === "none" || openPlaylistContainerMain.style.display === "none" || defaultContent.style.display === "block" ||mainOpenPlayContainer.style.display === "block") {
+            if (screenWidth < 1024) {
+                openPlaylistContainer.style.display = "block";
+                
+                librarySection.style.display = "none";
+            } else {
+                openPlaylistContainerMain.style.display = "block";
+            }
+            mainOpenPlayContainer.style.display = "none";
+            defaultContent.style.display = "none";
+        } else {
+            openPlaylistContainer.style.display = "none";
+            openPlaylistContainerMain.style.display = "none";
+            homeButton.click();
+        }
+
+        // Update browser history to show the playlist
+        history.pushState({ page: "playlist", playlistIndex: index }, null, `#playlist-${index}`);
+        
+        // Display the playlist details
+        displayPlaylist(selectedPlaylist);
+    });
+});
+
+// Handle browser back/forward navigation
+window.addEventListener("popstate", (event) => {
+    let screenWidth = window.innerWidth; // Get screen width again inside popstate
+    
+    if (event.state) {
+        if (event.state.page === "playlist") {
+            if (screenWidth < 1024) {
                 openPlaylistContainer.style.display = "block";
                 librarySection.style.display = "none";
                 
-                
-            }
-            else{
+            } else {
                 openPlaylistContainerMain.style.display = "block";
-                // mainPlaySection.style.display = "none";
-                // mainOpenPlayContainer.style.display = "none";
+                librarySection.style.display = "block";
+                libraryItems.style.display = "block";
             }
-            defaultContent.style.display = "none";
-            
-        }
-        else{
+            displayPlaylist(libraryPlaylists[event.state.playlistIndex]); // Restore correct playlist
+        } else if (event.state.page === "library") {
             openPlaylistContainer.style.display = "none";
             openPlaylistContainerMain.style.display = "none";
-            defaultContent.style.display = "block";
+            librarySection.style.display = "block";
+        } else {
+            // Default state: Show the home page
+            openPlaylistContainerMain.style.display = "none";
+            openPlaylistContainer.style.display = "none";
+            librarySection.style.display = "block";
+           homeButton.click();
         }
-        
-        // librarySection.style.display = "none";
-
-        // Update browser history state
-        history.pushState({ page: "playlist" }, null, "#playlist");
-        // switchPlaylist(selectedPlaylist);
-
-        // Display the playlist details
-        displayPlaylist(selectedPlaylist);
-
-
-
-    });
-     // Update browser history state
-     history.pushState({ page: "playlist" }, null, "#playlist");
-});
-
-window.addEventListener("popstate", (event) => {
-    if (event.state && event.state.page === "playlist") {
-        // If the user navigates back to the playlist state
-        if(screenWidth <1024){
-            openPlaylistContainer.style.display = "block";
-            librarySection.style.display = "none";
-        }else{
-            openPlaylistContainerMain.style.display = "block";
-            librarySection.style.display = "none";
-        }
-        
     } else {
-        // Default state: show the library
+        // If no state, assume home
+        history.replaceState({ page: "home" }, null, "#home");
         openPlaylistContainerMain.style.display = "none";
         openPlaylistContainer.style.display = "none";
+        libraryItems.style.display = "block";
         librarySection.style.display = "block";
+        homeButton.click();
     }
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-    history.replaceState({ page: "library" }, null, "#library");
-});
+
 
 
 // function nextTrack() {
@@ -569,6 +659,7 @@ function displayPlaylist(playList) {
     // Create the playlist header (title, cover, and artist)
     const playlistHeader = document.createElement("div");
     playlistHeader.classList.add("playlist-header");
+    
 
     const playlistImage = document.createElement("img");
     playlistImage.src = playList.cover;
@@ -859,9 +950,9 @@ window.addEventListener("popstate", (event) => {
     }
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-    history.replaceState({ page: "library" }, null, "#library");
-});
+// document.addEventListener("DOMContentLoaded", () => {
+//     history.replaceState({ page: "library" }, null, "#library");
+// });
 
 
 // Function to display the selected playlist's details
