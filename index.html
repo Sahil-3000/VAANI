@@ -27,11 +27,11 @@
                 <div class="home">
                     <img src="covers/home.png" alt="Home">
                 </div>
-            <div class="search-container">
-                <input type="text" placeholder="Search" class="search-bar" id="search-bar" autocomplete="off">
-                <button class="search-btn" id="search-btn">
-                </button>
-            </div>
+                <div class="search-container">
+                    <input type="text" placeholder="Search" class="search-bar" id="search-bar" autocomplete="off">
+                    <button class="search-btn" id="search-btn">
+                    </button>
+                </div>
                 <!-- <div id="song-results"></div> -->
             </div>
             <div class="user-profile">
@@ -40,13 +40,13 @@
         </div>
     </header>
     <div class="spotify-clone">
-        
+
 
         <div class="sidebars-main">
             <!-- First Sidebar -->
             <aside class="sidebar1">
-                <div class="playlist-header" style = "display:none"></div>
-                <div class="library-section" >
+                <div class="playlist-header" style="display:none"></div>
+                <div class="library-section">
                     <h2>Your Library</h2>
                     <div class="library-item" id="library-item">
                         <img src="covers/rubber soul.jpg" alt="Playlist1 Image" class="playlist-cover">
@@ -54,7 +54,7 @@
                             <div class="album-title">Rubber Soul</div>
                             <div class="album-artist">The Beatles</div>
                         </div>
-                    </div> 
+                    </div>
                     <div class="library-item" id="library-item">
                         <img src="covers/liked playlist.png" alt="Playlist2 Image" class="playlist-cover">
                         <div class="album-meta">
@@ -83,10 +83,10 @@
                             <div class="album-artist">The Beatles,Elvis Presly,Doris Day...</div>
                         </div>
                     </div>
-                    
 
 
-                    
+
+
                     <div class="library-item">
                         <img src="covers/albums/hustinder/bhadauria_album.png" alt="Album1 Image">
                         <div class="album-meta">
@@ -117,7 +117,7 @@
                             <div class="album-title">Seasons</div>
                             <div class="album-artist">Hustinder</div>
                         </div>
-                    </div> 
+                    </div>
 
                     <div class="library-item">
                         <img src="covers/albums/hustinder/three plays_album.png" alt="Album1 Image">
@@ -214,7 +214,7 @@
                             <div class="album-artist">Arjan Dhillon</div>
                         </div>
                     </div>
-                    
+
                 </div>
             </aside>
 
@@ -223,7 +223,7 @@
                 <!-- Featured Playlist -->
                 <section class="content-section">
                     <div class="song-results" style="display:none">
-                        <div class="song-results" ></div>
+                        <div class="song-results"></div>
                     </div>
                     <div id="songDetails" class="song-details"></div>
                     <div class="lyrics-container" style="display: none;"></div>
@@ -238,7 +238,7 @@
 
                     <div class="default-content">
                         <div class="main-header">
-                            
+
                             <div class="all">All</div>
                             <div class="podcast">Podcast</div>
                             <div class="music">Music</div>
@@ -255,7 +255,8 @@
                                     <div class="play-name">Arijit Singh</div>
                                 </div>
                                 <div class="playlist-item1">
-                                    <img src="covers/albums/eminem/death of slim shady_album.png" alt="Punjabi Diwali Hits">
+                                    <img src="covers/albums/eminem/death of slim shady_album.png"
+                                        alt="Punjabi Diwali Hits">
                                     <div class="play-name">Death Of Slim..</div>
                                 </div>
                                 <div class="playlist-item1">
@@ -284,7 +285,7 @@
 
 
                         </div>
-    
+
                         <!-- Recommended Playlists -->
                         <div class="recommended">
                             <h2>Made For Sahil</h2>
@@ -313,9 +314,9 @@
                                     <div class="reco-info">
                                         Taylor Swift...
                                     </div>
-                                    
+
                                 </div>
-                                
+
                             </div>
                         </div>
                         <!-- Trending -->
@@ -479,7 +480,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </section>
             </main>
@@ -487,7 +488,7 @@
             <aside class="sidebar2" border-radius="8">
                 <div class="sidebar2-content">
                     <div class="current-song-cover">
-                        <img src="covers/track1.jpg" alt="Current Song Cover" width="100%"> 
+                        <img src="covers/track1.jpg" alt="Current Song Cover" width="100%">
                     </div>
                     <div class="song-info">
                         <div class="song-name">Song Name</div>
@@ -501,19 +502,22 @@
                     <div class="credits">Credits</div>
                     <div class="next-in-queue">Next In Queue</div>
                 </div>
-                
+
             </aside>
 
         </div>
-        
 
-      
+
+
         <!-- When clicked on the footer this player would be visible-->
 
         <div class="player">
             <div class="track-image">
                 <div class="embed-vid">
-                   <iframe class="vid-iframe" width="560" height="100%" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe class="vid-iframe" width="560" height="100%" src="" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
                 <!-- <img src="covers/lover_diljit.png" alt=""> -->
             </div>
@@ -532,16 +536,16 @@
             </div>
             <div class="show-lyrics">lyrics</div>
             <div class="show-library">Library</div>
-           
+
             <div class="playback-controls">
                 <svg onclick="prevTrack()" class="prev-icon">
-                    <use href="#prev-icon" ></use>
+                    <use href="#prev-icon"></use>
                 </svg>
                 <svg onclick="togglePlayPause()" class="play-icon" id="play-pause-icon">
-                    <use href="#play-icon" ></use>
+                    <use href="#play-icon"></use>
                 </svg>
                 <svg onclick="nextTrack()" class="next-icon">
-                    <use href="#next-icon" ></use>
+                    <use href="#next-icon"></use>
                 </svg>
             </div>
             <div class="progress-bar">
@@ -562,21 +566,33 @@
             </div>
         </footer>
 
+
+
         <!-- SVG Icons -->
         <svg style="display: none;">
-            <symbol id="play-icon" width="30" height="30" viewBox="-5 -5 24 24">
-                <path fill="white" d="M8 5v14l11-7z"></path>
+            <!-- Play Icon -->
+            <symbol id="play-icon" width="30" height="30" viewBox="0 0 24 24">
+                <polygon fill="white" points="8,5 19,12 8,19"></polygon>
             </symbol>
-            <symbol id="pause-icon" width="30" height="30" viewBox="-5 -5 24 24">
-                <path fill="white" d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path>
+
+            <!-- Pause Icon -->
+            <symbol id="pause-icon" width="30" height="30" viewBox="0 0 24 24">
+                <path fill="white" d="M6 4h4v16H6zm8 0h4v16h-4z"></path>
             </symbol>
-            <symbol id="prev-icon" width="30" height="30" viewBox="-5 -5 24 24">
-                <path fill="white" d="M11 19V5l-7 7zM12 5v14l7-7z"></path>
+
+            <!-- Previous Icon -->
+            <symbol id="prev-icon" width="30" height="30" viewBox="0 0 24 24">
+                <polygon fill="white" points="16,4 8,12 16,20"></polygon>
+                <polygon fill="white" points="8,4 0,12 8,20"></polygon>
             </symbol>
-            <symbol id="next-icon" width="30" height="30" viewBox="-5 -5 24 24">
-                <path fill="white" d="M7 5v14l7-7zM16 5v14l-7-7z"></path>
+
+            <!-- Next Icon -->
+            <symbol id="next-icon" width="30" height="30" viewBox="0 0 24 24">
+                <polygon fill="white" points="8,4 16,12 8,20"></polygon>
+                <polygon fill="white" points="16,4 24,12 16,20"></polygon>
             </symbol>
         </svg>
+
     </div>
     <script src="JS Files/defaultPlaylist.js"></script>
     <script src="JS Files/libraryPlaylist.js"></script>

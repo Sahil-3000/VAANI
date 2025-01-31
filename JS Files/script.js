@@ -29,9 +29,22 @@ document.addEventListener("DOMContentLoaded", () => {
     const screenWidth = window.innerWidth;
     if(screenWidth < 1024){
         defaultContent.style.paddingBottom = "50px";
+        VaaniLogo.style.cursor = "none";
+        VaaniName.style.cursor = "none";
     }
     homeButton.click();
 });
+
+
+const VaaniName = document.querySelector(".VAANI");
+const VaaniLogo = document.querySelector(".logo-VAANI");
+VaaniLogo.addEventListener("click",()=>{
+    homeButton.click();
+})
+VaaniName.addEventListener("click",()=>{
+    homeButton.click();
+})
+
 
 
 
@@ -452,6 +465,7 @@ function displayResults(results) {
             playButton.textContent = "Play";
             playButton.onclick = () => {
                 audio.load();
+                audio.play();
                 loadTrack(index);
                 currentTrackIndex = index;
                 // audio.play();
@@ -718,6 +732,7 @@ function displayPlaylist(playList) {
             loadTrack(index);
             // currentTrackIndex = index;
             audio.load();
+            audio.play();
             playSong(song.audio);
 
         });
@@ -729,7 +744,8 @@ function displayPlaylist(playList) {
                 loadTrack(index);
                 currentTrackIndex = index;
                 // audio.src = playList.songs[currentTrackIndex].audio;
-                // audio.load();
+                audio.load();
+                audio.play();
                 playSong(song.audio);
             }
         });
@@ -900,6 +916,7 @@ function displayAllSongs(playList) {
         playButton.onclick = () => {
             // currentTrackIndex = index;
             audio.load();
+            audio.play();
             playSong(song.audio);
         };
         songDiv.addEventListener("click",(event)=>{
@@ -1081,8 +1098,6 @@ homeButton.addEventListener("click", () => {
         showPlayer.style.display = "none";
         mainOpenPlayContainer.style.display = "none";
 
-
-        mainOpenPlayContainer.style.display = "none"
         mainOpenPlayContainer.innerHTML = '';
         mainOpenPlayContainer.style.height = "0px";
         mainOpenPlayContainer.style.pdadding = "0px";

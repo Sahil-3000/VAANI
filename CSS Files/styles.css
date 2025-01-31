@@ -32,6 +32,7 @@ body {
 
 .VAANI{
     font-size:x-large;
+    cursor:pointer;
 }
 .home-search {
     display:flex;
@@ -522,6 +523,8 @@ main {
     height:50px;
     /* margin-bottom: 20px; */
     border-radius:50%;
+    cursor:pointer;
+    
 }
 
 .logo svg {
