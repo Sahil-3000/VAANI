@@ -243,6 +243,57 @@ header {
 
 
 
+
+.podcast-item {
+    /* padding: 10px; */
+    cursor: pointer;
+    display:flex;
+    margin-bottom:15px;
+    background:linear-gradient(to bottom,rgb(3, 33, 54),rgb(10, 0, 0));
+    padding:10px;
+    gap:35px;
+    
+}
+
+.podcast-item img{
+    height:100%;
+}
+.album-meta{
+    width:50%;
+    /* margin-right:10px; */
+}
+
+.podcast-section{
+    margin-bottom:60px;
+}
+
+.podcast-section h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+/* .album-meta{
+    gap:10px;
+} */
+/* .album-artist{
+    margin-left:10%;
+} */
+.album-title{
+    display:flex;
+    align-items: center;
+    margin-top:5%;
+    /* margin-left:10%; */
+    font-weight:bold;
+}
+.podcast-item img {
+    border-radius:15px;
+    /* width:40%; */
+    /* height:80%; */
+    object-fit:cover;
+
+}
+
+
 .library-item {
     /* padding: 10px; */
     cursor: pointer;
