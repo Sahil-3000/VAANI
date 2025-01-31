@@ -280,17 +280,20 @@ const homeButton = document.querySelector(".home");
 const songResults = document.querySelector(".song-results");
 const defaultContent = document.querySelector(".default-content");
 const searchBtn = document.querySelector(".search-btn");
+const searchResults = document.querySelector(".search-results");
 
 searchBtn.addEventListener("click", () => {
 
-    if (songResults.style.display === "none") {
+    if (searchResults.style.display === "none") {
         // Show song results and hide default content
         songResults.style.display = "block";  // or 'block' depending on the layout
+        searchResults.style.display = "block";
         defaultContent.style.display = "none";
         showPlayer.style.display = "none";
     } else {
         // Show default content and hide song results
         songResults.style.display = "none";
+        searchResults.style.display = "none";
         defaultContent.style.display = "block";
     }
 });

@@ -78,67 +78,6 @@ body {
     object-fit: contain;
 }
 
-.playlist-img-container{
-    display:flex;
-    width:100%;
-    height:220px;
-    gap:15px;
-    margin-bottom:10px;
-    margin-top:0;
-    padding-top:2px;
-    border-radius:8px;
-    background-color: #19271e;
-    object-fit:cover;
-}
-
-.playlist-img-container img{
-    display:flex;
-    width:190px;
-    height:190px;
-    object-fit:cover;
-    border-radius:8px;
-    margin-top:15px;
-    margin-left:10px;
-    margin-right:20px;
-    margin-bottom:10px;
-}
-.playlist-img-container h1{
-    width:90px;
-    height:90px;
-    margin-top:100px;
-    margin-right:130px;
-    font-weight: x-large;
-}
-.playlist-img-container p{
-    display:flex;
-    width:220px;
-    height:60px;
-    font-size:16px;
-    font-weight: bold;
-    text-align: left;
-    margin-top:10px;
-}
-
-
-
-.playlist-results{
-    /* display:none; */
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 0;
-
-    margin-bottom:50px;
-    justify-content: center;
-    flex: 0 0 53%; /* Fixed width of 50% */
-    height:100%;
-    border-radius: 10px;
-    /* background-color: #201d1d; */
-    background-color: transparent;
-    padding-bottom:50px;
-    overflow-x: hidden; /* Hides horizontal scrollbar */
-    cursor:pointer;
-}
 
 
 
@@ -205,6 +144,69 @@ body {
 
 .song-results button:hover {
     background-color: #45a049;
+}
+
+
+.playlist-img-container{
+    display:flex;
+    width:100%;
+    height:220px;
+    gap:15px;
+    margin-bottom:10px;
+    margin-top:0;
+    padding-top:2px;
+    border-radius:8px;
+    background-color: #19271e;
+    object-fit:cover;
+}
+
+.playlist-img-container img{
+    display:flex;
+    width:190px;
+    height:190px;
+    object-fit:cover;
+    border-radius:8px;
+    margin-top:15px;
+    margin-left:10px;
+    margin-right:20px;
+    margin-bottom:10px;
+}
+.playlist-img-container h1{
+    width:90px;
+    height:90px;
+    margin-top:100px;
+    margin-right:130px;
+    font-weight: x-large;
+}
+.playlist-img-container p{
+    display:flex;
+    width:220px;
+    height:60px;
+    font-size:16px;
+    font-weight: bold;
+    text-align: left;
+    margin-top:10px;
+}
+
+
+
+.playlist-results{
+    /* display:none; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 0;
+
+    margin-bottom:50px;
+    justify-content: center;
+    flex: 0 0 53%; /* Fixed width of 50% */
+    height:100%;
+    border-radius: 10px;
+    /* background-color: #201d1d; */
+    background-color: transparent;
+    padding-bottom:50px;
+    overflow-x: hidden; /* Hides horizontal scrollbar */
+    cursor:pointer;
 }
 
 /* Header */

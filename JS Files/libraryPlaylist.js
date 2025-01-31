@@ -1538,6 +1538,321 @@ let libraryPlaylists = [
         cover: "covers/workout playlist.png",
         songs: [
             {
+                title: "The Last Ride  ",
+                artist: "Sidhu Moose Wala ",
+                lyrics: "The Last Ride ",
+                artistPhoto: "covers/artists/Sidhu Moose Wala.jpg",
+                cover: "covers/playlists/workout/The Last Ride.png",
+                audio: "https://www.dropbox.com/scl/fi/xndzdystgsa4jue4mfweo/The-Last-Ride.mp3?rlkey=xkk28f7x9do134ch1b51imz73&st=iteudgva&dl=1",
+                searchString: "The Last Ride Sidhu Moose Wala"
+            },
+            {
+                title: "Still Rollin'  ",
+                artist: "Shubh  ",
+                lyrics: "Still Rolling ",
+                artistPhoto: "covers/artists/Shubh.jpg",
+                cover: "covers/playlists/workout/Still Rolling.png",
+                audio: "https://www.dropbox.com/scl/fi/ewzihfow2w2ezjnze9g6v/Still-Rollin.mp3?rlkey=okly7bp127kpphltvz19nyj1y&st=8lwsqaee&dl=1",
+                searchString: "Still Rolling "
+            },
+           
+           
+            {
+                title: "Never Fold  ",
+                artist: "Sidhu Moose Wala ",
+                lyrics: "Never Fold ",
+                artistPhoto: "covers/artists/Sidhu Moose Wala.jpg",
+                cover: "covers/playlists/workout/Never Fold.png",
+                audio: "https://www.dropbox.com/scl/fi/hn7z7u37j6xggsxe8sfv3/Never-Fold-DjPunjab.Com.Se.mp3?rlkey=obn3vlkftb652pqzdoi3rtmnk&st=r0zbelw5&dl=1",
+                searchString: "Never Fold Sidhu Moose Wala"
+            },
+
+            
+
+
+            {
+                title: "Spellbound  ",
+                artist: "Dhanda Nyoliwala  ",
+                lyrics: "Spellbound ",
+                artistPhoto: "covers/artists/Dhanda Nyoliwala.jpg",
+                cover: "covers/playlists/workout/Spellbound.png",
+                audio: "https://www.dropbox.com/scl/fi/fltr1uz7tc70dic4sjq9e/Spellbound-KoshalWorld.Com.mp3?rlkey=bdb4s6s23melpkzg1kzdyt7s8&st=pxbcyfyk&dl=1",
+                searchString: "Spellbound "
+            },
+            {
+                title: "Knife Brows  ",
+                artist: "Dhanda Nyoliwala  ",
+                lyrics: "Knife Brows ",
+                artistPhoto: "covers/artists/Dhanda Nyoliwala.jpg",
+                cover: "covers/playlists/workout/Knife Brows.png",
+                audio: "https://www.dropbox.com/scl/fi/ndzfy4w7tlr75c72u8hbw/Knife-Brows-Dhanda-Nyoliwala.mp3?rlkey=mwc4rwz4ytw9xrxqkfknwc6gg&st=4rzuclnf&dl=1",
+                searchString: "Knife Brows "
+            },
+            {
+                title: "Dollar  ",
+                artist: "Sidhu Moose Wala ",
+                lyrics: "Dollar ",
+                artistPhoto: "covers/artists/Sidhu Moose Wala.jpg",
+                cover: "covers/playlists/workout/Dollar.png",
+                audio: "https://www.dropbox.com/scl/fi/59qrrj3oclm4dc6merbtk/Dollar.mp3?rlkey=isor037pc611xcmfkf4eyzbuh&st=s7prwpbe&dl=1",
+                searchString: "Dollar Sidhu Moose Wala"
+            },
+
+            {
+                title: "Badam  ",
+                artist: "Sumit Patra ",
+                lyrics: "Badam ",
+                artistPhoto: "covers/artists/Sumit Patra.jpg",
+                cover: "covers/playlists/workout/Badam.png",
+                audio: "https://www.dropbox.com/scl/fi/pfu78uqgeghacbwfn1wql/Badam-128k.m4a?rlkey=2zcwerf7b0wccpw2ptc1tpwvz&st=62oawcjn&dl=1",
+                searchString: "Badam "
+            },
+            {
+                title: "Chawal ",
+                artist: "Sumit Patra ",
+                lyrics: "Chawal ",
+                artistPhoto: "covers/artists/Sumit Patra.jpg",
+                cover: "covers/playlists/workout/Chawal.png",
+                audio: "https://www.dropbox.com/scl/fi/7dka6w6mlaylm9ca5cuii/Chawal-128k.m4a?rlkey=p465t2a4km3c6kmmloly77b3j&st=uemcanec&dl=1",
+                searchString: "Chawal "
+            },
+            {
+                title: "Mote Peg ",
+                artist: "Sumit Patra ",
+                lyrics: "Mote Peg ",
+                artistPhoto: "covers/artists/Sumit Patra.jpg",
+                cover: "covers/playlists/workout/Mote Peg.png",
+                audio: "https://www.dropbox.com/scl/fi/3dun5xzuyk35tei9mywna/Mote_Peg-128k.m4a?rlkey=lyx3vw3y5c5t6xbti6qteupgz&st=mnomo8mk&dl=1",
+                searchString: "Mote Peg "
+            },
+            {
+                title: "Death Row  ",
+                artist: "Dhanda Nyoliwala  ",
+                lyrics: "Death Row ",
+                artistPhoto: "covers/artists/Dhanda Nyoliwala.jpg",
+                cover: "covers/playlists/workout/Death Row.png",
+                audio: "https://www.dropbox.com/scl/fi/ebintgbtir5wjv4enlnbx/Death-Row-KoshalWorld.Com.mp3?rlkey=n6586wzyob2orbjqxs4kvgb08&st=wp2hah3n&dl=1",
+                searchString: "Death Row "
+            },
+            {
+                title: "4 Days  ",
+                artist: "Dhanda Nyoliwala  ",
+                lyrics: "4 Days ",
+                artistPhoto: "covers/artists/Dhanda Nyoliwala.jpg",
+                cover: "covers/playlists/workout/4 Days.png",
+                audio: "https://www.dropbox.com/scl/fi/rqbad5d42l9dcg5wux7h1/4-Days-KoshalWorld.Com.mp3?rlkey=jci909ldmpeawhdhluzt6ahqu&st=hsfyz84g&dl=1",
+                searchString: "4 Days "
+            },
+            {
+                title: "No Mercy  ",
+                artist: "Dhanda Nyoliwala  ",
+                lyrics: "No Mercy ",
+                artistPhoto: "covers/artists/Dhanda Nyoliwala.jpg",
+                cover: "covers/playlists/workout/No Mercy.png",
+                audio: "https://www.dropbox.com/scl/fi/45bmjoftp1208grnof2fc/No-Mercy-KoshalWorld.Com.mp3?rlkey=v49a71llvha6esregwmhw4sc0&st=x6ikn4w4&dl=1",
+                searchString: "No Mercy "
+            },
+
+            {
+
+                title: "Pistol  ",
+                artist: "Sumit Patra ",
+                lyrics: "Pistol ",
+                artistPhoto: "covers/artists/Sumit Patra.jpg",
+                cover: "covers/playlists/workout/Pistol.png",
+                audio: "https://www.dropbox.com/scl/fi/xjweoe240glckgdf6o2sq/Pistol-128k.mp3?rlkey=2b0wc4pdzeuf88t5wpgznbpah&st=mvzi1791&dl=1",
+                searchString: "Pistol "
+            },
+            {
+                title: "Bitch I'm Back  ",
+                artist: "Sidhu Moose Wala ",
+                lyrics: "Bitch I'm Back ",
+                artistPhoto: "covers/artists/Sidhu Moose Wala.jpg",
+                cover: "covers/playlists/workout/Bitch I'm Back.png",
+                audio: "https://www.dropbox.com/scl/fi/oioespe6gzmcalqvrci0t/Bitch-Im-Back.mp3?rlkey=xltbmmybqvkbsy4qvm308a1go&st=m3ptegjc&dl=1",
+                searchString: "Bitch I'm Back Sidhu Moose Wala"
+            },
+           
+
+
+            {
+                title: "Khabi Khan  ",
+                artist: "Ninja  ",
+                lyrics: "Khabi Khan ",
+                artistPhoto: "covers/artists/Ninja.jpg",
+                cover: "covers/playlists/workout/Khabi Khan.png",
+                audio: "https://www.dropbox.com/scl/fi/qmxlz406rs1o40er8erva/Khabi-Khan-Ninja.mp3?rlkey=s6sfaxk3xdbw5iaf4mfd90qwk&st=t2nzcgxa&dl=1",
+                searchString: "Khabi Khan"
+            },
+           
+            {
+                title: "Reckless  ",
+                artist: "Shubh  ",
+                lyrics: "Reckless ",
+                artistPhoto: "covers/artists/Shubh.jpg",
+                cover: "covers/playlists/workout/Reckless.png",
+                audio: "https://www.dropbox.com/scl/fi/gus9ilvyz6cg4hzqg0v67/Reckless.mp3?rlkey=d7gofkh67n1gcshte89oyojui&st=q1q8xssi&dl=1",
+                searchString: "Reckless "
+            },
+            {
+                title: "Ghane Gande  ",
+                artist: "Sumit Patra ",
+                lyrics: "Ghane Gande ",
+                artistPhoto: "covers/artists/Sumit Patra.jpg",
+                cover: "covers/playlists/workout/Ghane Gande.png",
+                audio: "https://www.dropbox.com/scl/fi/vg4x0f50ywltei0cs5tx0/Ghane-Gande-Sumit-Parta-New-Haryanvi-Dj-Songs-2025-DjNeemkhedia.Com.mp3?rlkey=bukq18symvbhi2bycgnludbhk&st=fjmy9d2z&dl=1",
+                searchString: "Ghane Gande "
+            },
+            // {
+            //     title: "  ",
+            //     artist: "  ",
+            //     lyrics: " ",
+            //     artistPhoto: "covers/artists/Shubh.jpg",
+            //     cover: "covers/playlists/workout/.png",
+            //     audio: "",
+            //     searchString: " "
+            // },
+            // {
+            //     title: "  ",
+            //     artist: "  ",
+            //     lyrics: " ",
+            //     artistPhoto: "covers/artists/Shubh.jpg",
+            //     cover: "covers/playlists/workout/.png",
+            //     audio: "",
+            //     searchString: " "
+            // },
+
+            {
+                title: "Off Limits  ",
+                artist: "Permish Verma  ",
+                lyrics: "Off Limits ",
+                artistPhoto: "covers/artists/Permish Verma.jpg",
+                cover: "covers/playlists/workout/Off Limits.png",
+                audio: "https://www.dropbox.com/scl/fi/jaq7aoamrdnfnf7hp1mpg/Off-Limits-Parmish-Verma-128-Kbps.mp3?rlkey=l04shxbm4j9jkysmvibyi5pom&st=2etseddt&dl=1",
+                searchString: "Off Limits "
+            },
+            {
+                title: "Safty Off  ",
+                artist: "Shubh  ",
+                lyrics: "Safty Off ",
+                artistPhoto: "covers/artists/Shubh.jpg",
+                cover: "covers/playlists/workout/Safty Off.png",
+                audio: "https://www.dropbox.com/scl/fi/m6sprvtdb6ryodzgbt05u/Safety-Off-Shubh.mp3?rlkey=l0qnotbyk4jpyby8kb3v7s6uh&st=2nquf3mb&dl=1",
+                searchString: "Safty Off "
+            },
+            {
+                title: "Don  ",
+                artist: "Diljit Dosanjh  ",
+                lyrics: "Don ",
+                artistPhoto: "covers/artists/Diljit Dosanjh.jpg",
+                cover: "covers/playlists/workout/Don.png",
+                audio: "https://www.dropbox.com/scl/fi/bn6sb2w07jkc68qrcuxfk/Don.mp3?rlkey=cun73rkklcmvz8hbjy8zujg2v&st=x9lzm6gp&dl=1",
+                searchString: "Don "
+            },
+            {
+                title: "Droptop  ",
+                artist: "AP Dhillon ",
+                lyrics: "Droptop ",
+                artistPhoto: "covers/artists/AP Dhillon.jpg",
+                cover: "covers/playlists/workout/Droptop.png",
+                audio: "https://www.dropbox.com/scl/fi/n8dwv3nurwkw6fushhebe/Droptop.mp3?rlkey=7pwsio5jdjbtz7nx5101bq3x2&st=efz7vccw&dl=1",
+                searchString: "Droptop "
+            },
+            {
+                title: "Gym De Shokeen  ",
+                artist: "Bhallwaan  ",
+                lyrics: "Gym De Shokeen ",
+                artistPhoto: "covers/artists/Bhallwaan.jpg",
+                cover: "covers/playlists/workout/Gym De Shokeen.png",
+                audio: "https://www.dropbox.com/scl/fi/2z1gj5223ofo8w6vaxb50/Gym-De-Shokeen.mp3?rlkey=bi3t7jp3qmhfgubr5be01ktqq&st=y5fnri86&dl=1",
+                searchString: " Gym De Shokeen"
+            },
+            {
+                title: "WAVY ",
+                artist: "Karan Aujla  ",
+                lyrics: "WAVY ",
+                artistPhoto: "covers/artists/Karan Aujla.jpg",
+                cover: "covers/playlists/workout/WAVY.png",
+                audio: "https://www.dropbox.com/scl/fi/mgosnolc83viqawdf47gw/Wavy-Karan-Aujla.mp3?rlkey=dzh4tnvjvsdzkc9rr51vdnkpu&st=x2klr6sm&dl=1",
+                searchString: "WAVY"
+            },
+            {
+                title: "Keh Diye  ",
+                artist: "Bintu Pabra  ",
+                lyrics: "Keh Diye ",
+                artistPhoto: "covers/artists/Bintu Pabra.jpg",
+                cover: "covers/playlists/workout/Keh Diye.png",
+                audio: "https://www.dropbox.com/scl/fi/3t232l0uafmodbr2yk6b6/Kah-Diye.mp3?rlkey=pgwjr51ng8hztskineaupopsr&st=dkncj93p&dl=1",
+                searchString: "Keh Diye "
+            },
+            {
+                title: "On The Way ",
+                artist: "KD,Khasa Aala Chahar",
+                lyrics: "On The Way ",
+                artistPhoto: "covers/artists/KD.jpg",
+                cover: "covers/playlists/workout/On The Way.png",
+                audio: "https://www.dropbox.com/scl/fi/0olvqp8m96tswuzvy7rl3/One-The-Way.mp3?rlkey=j1sg33uzpmweeibf62gjwbvyh&st=0r64u9z7&dl=1",
+                searchString: "On The Way"
+            },
+            {
+                title: "Rubicon Drill ",
+                artist: "Ladi Gill,Permish Verma  ",
+                lyrics: "Rubicon Drill ",
+                artistPhoto: "covers/artists/Laddi Chahal.jpg",
+                cover: "covers/playlists/workout/Rubicon Drill.png",
+                audio: "https://www.dropbox.com/scl/fi/ar1lr0q03fxxcp1163b2k/Rubicon-Drill.mp3?rlkey=o7bx58q6pphzpwaw23a0a8s3s&st=v9yhwqxz&dl=1",
+                searchString: "Rubicon Drill"
+            },
+            {
+                title: "Sifar Safar ",
+                artist: "Karan Aujla  ",
+                lyrics: "Sifar Safar ",
+                artistPhoto: "covers/artists/Karan Aujla.jpg",
+                cover: "covers/playlists/workout/Sifar Safar.png",
+                audio: "https://www.dropbox.com/scl/fi/iczreo6gg5g7g98bzf6ew/Sifar-Safar-Karan-Aujla.mp3?rlkey=12saqxy94c5cvi74gjqsdatbb&st=l0wccesh&dl=1",
+                searchString: "Sifar Safar"
+            },
+            
+            // {
+            //     title: " ",
+            //     artist: "  ",
+            //     lyrics: " ",
+            //     artistPhoto: "covers/artists/Bintu Pabra.png",
+            //     cover: "covers/playlists/workout/.png",
+            //     audio: "",
+            //     searchString: ""
+            // },
+            // {
+            //     title: " ",
+            //     artist: "  ",
+            //     lyrics: " ",
+            //     artistPhoto: "covers/artists/Bintu Pabra.png",
+            //     cover: "covers/playlists/workout/.png",
+            //     audio: "",
+            //     searchString: ""
+            // },
+            // {
+            //     title: " ",
+            //     artist: "  ",
+            //     lyrics: " ",
+            //     artistPhoto: "covers/artists/Bintu Pabra.png",
+            //     cover: "covers/playlists/workout/.png",
+            //     audio: "",
+            //     searchString: ""
+            // },
+            // {
+            //     title: " ",
+            //     artist: "  ",
+            //     lyrics: " ",
+            //     artistPhoto: "covers/artists/Bintu Pabra.png",
+            //     cover: "covers/playlists/workout/.png",
+            //     audio: "",
+            //     searchString: ""
+            // },
+
+
+
+            {
                 title: "Hikka   ",
                 artist: "Arjan Dhillon   ",
                 lyrics: "Hikka ",
@@ -1552,7 +1867,7 @@ let libraryPlaylists = [
                 album:"",
                 artist: "Dhanda Nyoliwala   ",
                 lyrics: "Russian Bandana",
-                artistPhoto: "covers/Dhanda Nyoliwala.png",
+                artistPhoto: "covers/Dhanda Nyoliwala.jpg",
                 cover: "covers/russian bandana.jpg",
                 audio: "songs/singles/russian bandana.mp3",
                 searchString: "Victer"
@@ -1566,6 +1881,17 @@ let libraryPlaylists = [
                 audio: "https://www.dropbox.com/scl/fi/vfinxbgnl2rflszc1cr6d/Gangland.mp3?rlkey=xx0a1eh1uj6xdgo8lh1emxeuv&st=3tilknav&dl=1",
                 searchString: "Gangland Mankirt Aulakh workout workout songs gym music gym songs gim songs jim songs  "
             },
+            
+            {
+                title: "Chorni  ",
+                artist: "Sidhu Moose Wala,Divine ",
+                lyrics: "Chorni ",
+                artistPhoto: "covers/artists/Sidhu Moose Wala.jpg",
+                cover: "covers/playlists/workout/Chorni.png",
+                audio: "https://www.dropbox.com/scl/fi/k8sph29e13xliyj6wjl46/Chorni-Divine-128-Kbps.mp3?rlkey=ng59civkel5a9149qhheevmhz&st=i97bee5h&dl=1",
+                searchString: "Chorni Sidhu Moose Wala"
+            },
+
             
             {
                 title: "Lalkara         ",
@@ -1593,7 +1919,7 @@ let libraryPlaylists = [
                 album:"",
                 artist: "Dhanda Nyoliwala   ",
                 lyrics: "Illegal",
-                artistPhoto: "covers/Dhanda Nyoliwala.png",
+                artistPhoto: "covers/Dhanda Nyoliwala.jpg",
                 cover: "covers/illegal dhanda.jpg",
                 audio: "songs/singles/illegal dhanda.mp3",
                 searchString: "Victer"
@@ -1622,8 +1948,8 @@ let libraryPlaylists = [
                 title: "Jatt Life       ", 
                 artist: "Virender Brar",
                 lyrics: "Jatt Life",
-                artistPhoto: "covers/artists/Virender Brar.png",
-                cover: "covers/playlists/workout/Jatt Life.png",
+                artistPhoto: "covers/artists/Virender Brar.webp",
+                cover: "covers/playlists/workout/Jatt Life.webp",
                 audio: "https://www.dropbox.com/scl/fi/qefodex6mlhnz3goiq4ri/Jatt-Life-Varinder-Brar.mp3?rlkey=8t2enzz1bnmpgm2nalefto5ku&st=3f937pbx&dl=1",
                 searchString: "Jatt Life virender brar workout workout songs gym music gym songs gim songs jim songs  "
             },
@@ -1634,7 +1960,7 @@ let libraryPlaylists = [
                 album:"",
                 artist: "Dhanda Nyoliwala  ",
                 lyrics: "Up To You",
-                artistPhoto: "covers/Dhanda Nyoliwala.png",
+                artistPhoto: "covers/Dhanda Nyoliwala.jpg",
                 cover: "covers/up to you.jpg",
                 audio: "songs/singles/up to you.mp3",
                 searchString: "Victer"
@@ -1665,7 +1991,7 @@ let libraryPlaylists = [
                 title: "Boo Thang        ", 
                 artist: "Virender Brar",
                 lyrics: "Boo Thang",
-                artistPhoto: "covers/artists/Virender Brar.png",
+                artistPhoto: "covers/artists/Virender Brar.webp",
                 cover: "covers/playlists/workout/Boo Thang.png",
                 audio: "https://www.dropbox.com/scl/fi/ai8xm7b9bo93rsjxji6iz/Boo-Thang-Varinder-Brar.mp3?rlkey=6u29vyw13nphyos0gmaie1lfb&st=14hs22hv&dl=1",
                 searchString: "Boo Thang virender brar workout workout songs gym music gym songs gim songs jim songs  "
@@ -1732,7 +2058,7 @@ let libraryPlaylists = [
                 title: "Thaa     ", 
                 artist: "Virender Brar",
                 lyrics: "Thaa",
-                artistPhoto: "covers/artists/Virender Brar.png",
+                artistPhoto: "covers/artists/Virender Brar.webp",
                 cover: "covers/playlists/workout/Thaa.png",
                 audio: "https://www.dropbox.com/scl/fi/0u5z9z38v939cv7pxtlp2/Thaa-Varinder-Brar.mp3?rlkey=z4680ps2qkv1yvqrmr017wtbi&st=vntguzr9&dl=1",
                 searchString: "Thaa virender brar workout workout songs gym music gym songs gim songs jim songs  "
@@ -1772,7 +2098,7 @@ let libraryPlaylists = [
                 title: "12 Bande        ", 
                 artist: "Virender Brar",
                 lyrics: "12 Bande",
-                artistPhoto: "covers/artists/Virender Brar.png",
+                artistPhoto: "covers/artists/Virender Brar.webp",
                 cover: "covers/playlists/workout/12 Bande.png",
                 audio: "https://www.dropbox.com/scl/fi/h3x2qwsjc4y9vbqkp7524/12-Bande-Varinder-Brar.mp3?rlkey=iaqu0ap3t4kzc37gi6cj4b1cs&st=kwg12pmm&dl=1",
                 searchString: "12 Bande virender brar workout workout songs gym music gym songs gim songs jim songs  "
@@ -1783,7 +2109,7 @@ let libraryPlaylists = [
                 title: "Takkar      ", 
                 artist: "Virender Brar",
                 lyrics: "Takkar",
-                artistPhoto: "covers/artists/Virender Brar.png",
+                artistPhoto: "covers/artists/Virender Brar.webp",
                 cover: "covers/playlists/workout/Takkar.png",
                 audio: "https://www.dropbox.com/scl/fi/jk6gds19bdodxv93k8d7g/Takkar-Varinder-Brar.mp3?rlkey=z60vro6qq93h33bputoe9qczz&st=qgduvz6g&dl=1",
                 searchString: " Takkar virender brar workout workout songs gym music gym songs gim songs jim songs  "
@@ -1792,7 +2118,7 @@ let libraryPlaylists = [
             //     title: "JUail.Png        ", 
             //     artist: "Virender Brar",
             //     lyrics: "JUail.Png",
-            //     artistPhoto: "covers/artists/Virender Brar.png",
+            //     artistPhoto: "covers/artists/Virender Brar.webp",
             //     cover: "covers/playlists/workout/JUail.Png.png",
             //     audio: "",
             //     searchString: "JUail.Png virender brar workout workout songs gym music gym songs gim songs jim songs  "
