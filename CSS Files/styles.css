@@ -452,8 +452,9 @@ main {
 }
 
 .sidebar2 {
-    flex: 0 0 20%; /* Fixed width of 23% */
+    flex: 0 0 18%; /* Fixed width of 23% */
     background-color: #262424;
+    background:linear-gradient(to bottom,rgb(3, 38, 52),rgb(10, 0, 0));
     border-radius:10px;
     height:100%;
     width:20%;
@@ -493,6 +494,7 @@ main {
     height:30%;
     padding:5px;
     background-color:#222020;
+    background: linear-gradient( to bottom,rgb(3, 38, 52),rgb(10, 0, 0));
     border-radius:10px;
 }
 .artist-info img{
@@ -502,6 +504,7 @@ main {
     height:auto;
     margin-top:3%;
     margin-right:5%;
+    margin-left:4%;
     
     border-radius:10px;
 }
@@ -511,6 +514,7 @@ main {
     margin-left:5px;
     padding:5px;
     border-radius:10px;
+    background: linear-gradient (to bottom,rgb(3, 38, 52),rgb(10, 0, 0));
 }
 .logo{
     display: flex;
@@ -539,6 +543,7 @@ main {
 header {
     display: flex;
     justify-content: space-between;
+    width:101%;
     align-items: center;
     padding: 10px 20px;
     background-color: black;
@@ -570,6 +575,7 @@ footer.now-playing {
 } */
 .user-profile img {
     margin-left: 100px;
+    margin-right:5px;
     width: 45px;
     height: 45px;
     border-radius: 50%;
