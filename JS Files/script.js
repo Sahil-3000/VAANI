@@ -1067,7 +1067,8 @@ homeButton.addEventListener("click", () => {
         (sidebar1.style.display = "block") ||
         (showLyrics.style.display = "block") ||
         (songDetails.style.display = "block") ||
-        (showPlayer.style.display = "block"))) {
+        (showPlayer.style.display = "block") ||
+        (mainOpenPlayContainer.style.display = "block"))) {
 
         // Show song results and hide default content
         songResults.style.display = "none";  // or 'block' depending on the layout
@@ -1078,9 +1079,10 @@ homeButton.addEventListener("click", () => {
         sidebar1.style.display = "none";
         songDetails.style.display = "none";
         showPlayer.style.display = "none";
+        mainOpenPlayContainer.style.display = "none";
 
 
-        mainOpenPlayContainer.style.display === "none"
+        mainOpenPlayContainer.style.display = "none"
         mainOpenPlayContainer.innerHTML = '';
         mainOpenPlayContainer.style.height = "0px";
         mainOpenPlayContainer.style.pdadding = "0px";
@@ -1090,8 +1092,7 @@ homeButton.addEventListener("click", () => {
     } else {
         // Show default content and hide song results
         songResults.style.display = "none";
-
-        mainOpenPlayContainer.style.display === "none"
+        mainOpenPlayContainer.style.display ="none"
         mainOpenPlayContainer.innerHTML = '';
         mainOpenPlayContainer.style.height = "0px";
         mainOpenPlayContainer.style.pdadding = "0px";
