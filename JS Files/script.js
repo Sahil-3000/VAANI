@@ -787,10 +787,11 @@ const mainOpenPlayContainer = document.querySelector(".playlist-results");
 //...................................................................................................................................................................................
 const allSongs = document.querySelector(".all");
 const music = document.querySelector(".music");
-const podcast = document.querySelector(".podcast");
+// const podcast = document.querySelector(".podcast");
 const podcastContainer = document.querySelector(".podcast-container")
-const podcastSection = document.querySelector(".podcast-section");
-const podcastItems = document.querySelectorAll(".podcast-item")
+const episodeContainer = document.querySelector(".episode-container");
+// const podcastSection = document.querySelector(".podcast-section");
+// const podcastItems = document.querySelectorAll(".podcast-item")
 const recoPlay = document.querySelectorAll(".recommended-item");
 const trendPlay = document.querySelectorAll(".trending-item");
 
@@ -806,133 +807,6 @@ allSongs.addEventListener("click", () => {
     // Display the playlist details
     displayAllSongs(selectedPlaylist);
 });
-
-podcast.addEventListener("click", () => {
-    const selectedPlaylist = podcasts;
-
-    // Show the selected playlist and hide the library
-    // mainOpenPlayContainer.style.display = "block";
-    defaultContent.style.display = "none";
-    podcastContainer.style.display = "block";
-    podcastSection.style.display = "block";
-    // Update browser history state
-    history.pushState({ page: "podcast" }, null, "#podcast");
-
-    // Display the playlist details
-    displayPodcasts(selectedPlaylist);
-});
-
-
-// Function to display the selected podcast details
-function displayPodcasts(podcast) {
-    switchPlaylist(podcast.episodes);
-
-    currentTrackIndex = 0;
-    const screenWidth = window.innerWidth;
-   let podcastContainer;
-    if(screenWidth < 1024){
-        podcastContainer = openPlaylistContainer;
-    }else{
-        podcastContainer = openPlaylistContainerMain;
-    }
-    
-    podcastContainer.innerHTML = '';  // Clear any previous playlist content
-
-    // Create the playlist header (title, cover, and artist)
-    const podcastHeader = document.createElement("div");
-    podcastHeader.classList.add("podcast-header");
-    
-
-    const podcastImage = document.createElement("img");
-    podcastImage.src = podcast.cover;
-    podcastImage.alt = podcast.title;
-    playlistHeader.appendChild(podcastImage);
-    const podcastTitle = document.createElement("h3");
-    podcastTitle.textContent = podcast.title;
-    podcastHeader.appendChild(podcastTitle);
-
-    const podcastArtist = document.createElement("p");
-    podcastArtist.textContent = `Artist: ${podcast.host}`;
-    podcastHeader.appendChild(podcastArtist);
-
-
-
-    // Create a list of songs for the selected playlist
-    podcast.episodes.forEach((episode, index) => {
-
-
-        const podcastDiv = document.createElement("div");
-        podcastDiv.classList.add("podcast-item");
-
-        // Song title and artist
-        const podcastTitle = document.createElement("p");
-        podcastTitle.innerHTML = `${podcast.title}-<br> ${podcast.artist}`;
-        podcastDiv.appendChild(podcastTitle);
-
-        // Download button for each song
-        const downLoad = document.createElement("button");
-        downLoad.setAttribute("data-type", "downloadLib");
-        downLoad.style.backgroundImage = 'url("covers/icons/download logo.png")';
-        // downLoad.textContent = "Download";
-        downLoad.onclick = () => {
-            // Check if there is a current song and it has an audio source
-            if (episode && episode.audio) {
-                const link = document.createElement("a");
-                link.href = episode.audio;  // The URL of the song's audio
-                link.download = `${episode.title}.mp3`;  // Set the suggested file name for download
-                document.body.appendChild(link);  // Append the link to the body
-                link.click();  // Trigger the download
-                document.body.removeChild(link);  // Remove the link after the download
-            } else {episode
-                alert("No song is currently playing.");
-            }
-        };
-        podcastDiv.appendChild(downLoad);
-
-        // Play button for each song
-        let playButton1 = document.createElement("button");
-        playButton1.setAttribute("data-type", "play-button");
-        playButton1.textContent = "Play";
-        playButton1.addEventListener("click", () => {
-            // switchPlaylist(playList,index);
-            currentPlaylist = podcast.episodes;
-            loadTrack(index);
-            // currentTrackIndex = index;
-            audio.load();
-            audio.play();
-            playSong(episode.audio);
-
-        });
-
-        podcastDiv.addEventListener("click",(event)=>{
-            if(event.target = event.currentTarget){
-                currentPlaylist = podcast.episodes;
-                
-                loadTrack(index);
-                currentTrackIndex = index;
-                // audio.src = playList.songs[currentTrackIndex].audio;
-                audio.load();
-                audio.play();
-                playSong(episode.audio);
-            }
-        });
-
-        podcastDiv.addEventListener("click",(event)=>{
-            if (event.target = event.currentTarget) {
-                loadTrack(index);
-                currentTrackIndex = index;
-                playSong(episode.audio);
-            }
-        });
-
-
-        podcastDiv.appendChild(playButton1);
-
-        podcastHeader.appendChild(podcastDiv);
-    });
-    podcastContainer.appendChild(podcastHeader);
-
-}
 
 
 
@@ -1216,11 +1090,13 @@ homeButton.addEventListener("click", () => {
     //for mobiles
     if ((screenWidth < 1024) && ((songResults.style.display === "block") ||
         (mainOpenPlayContainer.style.display === "block") ||
-        (sidebar1.style.display = "block") ||
-        (showLyrics.style.display = "block") ||
-        (songDetails.style.display = "block") ||
-        (showPlayer.style.display = "block") ||
-        (mainOpenPlayContainer.style.display = "block"))) {
+        (sidebar1.style.display === "block") ||
+        (showLyrics.style.display === "block") ||
+        (songDetails.style.display === "block") ||
+        (showPlayer.style.display === "block") ||
+        (mainOpenPlayContainer.style.display === "block")||
+        (podcastContainer.style.display ==="block")||
+        (episodeContainer.style.display === "block"))) {
 
         // Show song results and hide default content
         songResults.style.display = "none";  // or 'block' depending on the layout
@@ -1238,6 +1114,8 @@ homeButton.addEventListener("click", () => {
         mainOpenPlayContainer.style.pdadding = "0px";
         mainOpenPlayContainer.style.margin = "0px";
 
+        podcastContainer.style.display ="none";
+        episodeContainer.style.display = "none";
         defaultContent.style.display = "block";
     } else {
         // Show default content and hide song results
@@ -1248,6 +1126,8 @@ homeButton.addEventListener("click", () => {
         mainOpenPlayContainer.style.pdadding = "0px";
         mainOpenPlayContainer.style.margin = "0px";
         songDetails.style.display = "none";
+        podcastContainer.style.display ="none";
+        episodeContainer.style.display = "none";
         defaultContent.style.display = "block";
     }
 
@@ -1256,10 +1136,12 @@ homeButton.addEventListener("click", () => {
     //for desktop
     if ((screenWidth > 1024) && ((songResults.style.display === "block") || 
     (mainOpenPlayContainer.style.display === "block") || 
-    (sidebar1.style.display = "block") || 
-    (showLyrics.style.display = "block")||
-    (showPlayer.style.display = "block") ||
-    (openPlaylistContainerMain.style.display = "block")
+    (sidebar1.style.display === "block") || 
+    (showLyrics.style.display === "block")||
+    (showPlayer.style.display === "block") ||
+    (openPlaylistContainerMain.style.display === "block")||
+    (podcastContainer.style.display ==="block")||
+        (episodeContainer.style.display === "block")
 )) {
         // Show song results and hide default content
         songResults.style.display = "none";  // or 'block' depending on the layout
@@ -1276,6 +1158,8 @@ homeButton.addEventListener("click", () => {
         mainOpenPlayContainer.style.height = "0px";
         mainOpenPlayContainer.style.pdadding = "0px";
         mainOpenPlayContainer.style.margin = "0px";
+        podcastContainer.style.display ="none";
+        episodeContainer.style.display = "none";
         // main.style.flex="0 0 100%";
         defaultContent.style.display = "block";
     } else {
@@ -1288,6 +1172,8 @@ homeButton.addEventListener("click", () => {
         mainOpenPlayContainer.style.pdadding = "0px";
         mainOpenPlayContainer.style.margin = "0px";
         openPlaylistContainerMain.style.display = "none";
+        podcastContainer.style.display ="none";
+        episodeContainer.style.display = "none";
         defaultContent.style.display = "block";
     }
 
