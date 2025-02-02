@@ -3110,17 +3110,211 @@ let libraryPlaylists = [
 
     {
         id: 20,
-        title: "Chobar    ",
+        title: "Manifest    ",
         artist: "Arjan Dhillon    ",
-        cover: "covers/albums/arjan/chobar_album.png",
-        songs: []
+        cover: "covers/albums/arjan/manifest_album.png",
+        songs: [
+            //Arjan Dhillon: Manifest
+            {
+                title: "Manifest     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Manifest",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/manifest_album.png",
+                audio: "https://www.dropbox.com/scl/fi/p72ocaxegpvp254qlaq50/Manifest-0.m4a?rlkey=h6wn64q342vhzyrwbreq738x6&st=o00f5mss&dl=1",
+                searchString: "Manifest "
+            },
+            {
+                title: "Baba     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Baba",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/manifest_album.png",
+                audio: "https://www.dropbox.com/scl/fi/vjiysxnongviw7jckidd1/Baba-0.m4a?rlkey=bkqi9xx9xhstyokpi9ojra9ht&st=2cwrdk13&dl=1",
+                searchString: "Baba "
+            },
+            
+            {
+                title: "Jeona     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Jeona",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/manifest_album.png",
+                audio: "https://www.dropbox.com/scl/fi/cgwkcqm6n00cwstxy7cia/Jeona-0.m4a?rlkey=pvht706kx2wvr0vnyhp3ujt00&st=vn68w4wf&dl=1",
+                searchString: "Jeona jona jiona "
+            },
+            {
+                title: "Fly     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Fly",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/manifest_album.png",
+                audio: "https://www.dropbox.com/scl/fi/06wksl8zh7rsrdo5oiahz/Fly-0.m4a?rlkey=h5aeyjtk380qyjf46qmn1iol6&st=edx0j1nj&dl=1",
+                searchString: "Fly "
+            },
+            {
+                title: "Haadi Sauni     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Haadi Sauni",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/manifest_album.png",
+                audio: "https://www.dropbox.com/scl/fi/ay5lp0up4xnkkqniufxa2/Haadi_Sauni-0.m4a?rlkey=z9z536udr0f50lnggtnlchy4e&st=mlef1rqg&dl=1",
+                searchString: "Haadi Sauni hadi soni hddi soni haddi soni "
+            },
+            {
+                title: "Opinion     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Opinion",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/manifest_album.png",
+                audio: "https://www.dropbox.com/scl/fi/mt24m95pym5it68ysr1md/Opinion-0.m4a?rlkey=klx0757m9xyhmqwolsg07op06&st=mlow3t9g&dl=1",
+                searchString: "Opinion opinon opineon "
+            }
+        ]
     },
     {
         id: 20,
         title: "Saroor    ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/saroor_album.png",
-        songs: []
+        songs: [
+            //Arjan Dhillon: Saroor
+            {
+                title: "Dunia     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Dunia",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/saroor_album.png",
+                audio: "https://www.dropbox.com/scl/fi/ps8wmhw7nw27hhrod299n/Dunia-0.m4a?rlkey=uwzd25g5qxyrhept33jpz8l6m&st=0okory02&dl=1",
+                searchString: "Dunia saroor"
+            },
+            {
+                title: "Her Town     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Her Town",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/saroor_album.png",
+                audio: "https://www.dropbox.com/scl/fi/j9w052em4kb2fvyfn11sq/Her_Town-0.m4a?rlkey=1n52adwiqutx5fcf8k33370ow&st=fi42uvw5&dl=1",
+                searchString: "Her Town saroor"
+            },
+            {
+                title: "Rabb     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Rabb",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/saroor_album.png",
+                audio: "https://www.dropbox.com/scl/fi/99n7en1wihivt3fc0655f/Rabb-0.m4a?rlkey=z4fkr89t7y0ydyyg0oh84it4l&st=jn0jy6f4&dl=1",
+                searchString: " rab rbb Rabb saroor"
+            },
+            {
+                title: "Calculations     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Calculations",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/saroor_album.png",
+                audio: "https://www.dropbox.com/scl/fi/eulydxbixbk3uhg107chi/Calculations-0.m4a?rlkey=t246xh2e1d7759rgk2xl9a3r3&st=w0jsle3m&dl=1",
+                searchString: "Calculations saroor"
+            },
+            {
+                title: "Thode Vargia     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Thode Vargia",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/saroor_album.png",
+                audio: "https://www.dropbox.com/scl/fi/z55vohvryrc8o98s6zu6v/Thode_Vargia-0.m4a?rlkey=e09zgah78pu65fvda0e7ki7x2&st=4a3funzv&dl=1",
+                searchString: "Thode Vargia saroor"
+            },
+            {
+                title: "Tape     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Tape",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/saroor_album.png",
+                audio: "https://www.dropbox.com/scl/fi/uuj7b60m9de5au7gvanv9/Tape_2-0.m4a?rlkey=vb95r9zzewyf5y5yim26crzvk&st=v37i6n0x&dl=1",
+                searchString: "Tape saroor"
+            },
+            {
+                title: "Worldwide     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Worldwide",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/saroor_album.png",
+                audio: "https://www.dropbox.com/scl/fi/6mxgm2nfc1i91o6o8ojot/Worldwide-0.m4a?rlkey=rloo29zmfo5ho704s92spb1f3&st=j5rpqbd1&dl=1",
+                searchString: "Worldwide saroor"
+            },
+            {
+                title: "Range     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Range",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/saroor_album.png",
+                audio: "https://www.dropbox.com/scl/fi/3gp3922mnmtor0fknf1hf/Range-0.m4a?rlkey=chvjwjam7nn66ibfliga0inxd&st=031ra6xz&dl=1",
+                searchString: "Range saroor"
+            },
+            {
+                title: "Might Mirza     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Might Mirza",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/saroor_album.png",
+                audio: "https://www.dropbox.com/scl/fi/miuzeemjt53pnpdac57c3/Mighty_Mirza-0.m4a?rlkey=75gji6rxskglida1prq65c82j&st=lm2yl4n0&dl=1",
+                searchString: "Might Mirza saroor"
+            },
+            {
+                title: "Peg     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Peg",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/saroor_album.png",
+                audio: "https://www.dropbox.com/scl/fi/qg0mxuedlwb3aw9hfeouc/Peg-0.m4a?rlkey=tvsiy1sg6p69wjohvf7fu0w06&st=eynd2vbn&dl=1",
+                searchString: "Peg saroor"
+            },
+            {
+                title: "Jaan Vaariye     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Jaan Vaariye",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/saroor_album.png",
+                audio: "https://www.dropbox.com/scl/fi/vu659rugeb3fia3hht95y/Jaan_Vaariye-0.m4a?rlkey=9nn16woh7kj3vco5n462wgxdd&st=pchn1hde&dl=1",
+                searchString: "Jaan Vaariye jan variye saroor"
+            },
+            {
+                title: "Long Back     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Long Back",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/saroor_album.png",
+                audio: "https://www.dropbox.com/scl/fi/1mep0k24k3bzujgy9odcj/Long_Back-0.m4a?rlkey=nlun0im44gdfwfd050m0fubdv&st=liwxr6a5&dl=1",
+                searchString: "Long Back saroor"
+            },
+            {
+                title: "Punjabi     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Punjabi",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/saroor_album.png",
+                audio: "https://www.dropbox.com/scl/fi/x7zu4a61jop55dtpkdutm/Punjabi-0.m4a?rlkey=yrn3os43a3h2defnemue361rt&st=of27bxx0&dl=1",
+                searchString: "Punjabi panjab saroor"
+            },
+            {
+                title: "Lit Bit     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Lit Bit",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/saroor_album.png",
+                audio: "https://www.dropbox.com/scl/fi/utak0ycc1x5vhlxv3w740/Lil_Bit-0.m4a?rlkey=tue7406f18o5b94ae32w6whp3&st=h5pu5m86&dl=1",
+                searchString: "Lit Bit saroor"
+            },
+            {
+                title: "Ilzaam     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Ilzaam",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/saroor_album.png",
+                audio: "https://www.dropbox.com/scl/fi/r2hfq0ul9z671x0tm9ehb/Ilzaam-0.m4a?rlkey=c4xv5mtln4siu9x4zxwwsw4ii&st=6th632t1&dl=1",
+                searchString: "Ilzaam ilzam iljam saroor"
+            },
+        ]
     },
     {
         id: 15,
@@ -3783,10 +3977,140 @@ let libraryPlaylists = [
     ,
     {
         id: 20,
-        title: "Manifest    ",
+        title: "Chobar    ",
         artist: "Arjan Dhillon    ",
-        cover: "covers/albums/arjan/manifest_album.png",
-        songs: []
+        cover: "covers/albums/arjan/chobar_album.png",
+        songs: [
+            //Arjan Dhillon: Chobar
+            {
+                title: "Suits You     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Suits You",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/chobar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/vz6lj5mzps9tzweiguyc8/Suits-You-Arjan-Dhillon-DJJOhAL.Com-1.mp3?rlkey=ofm3osj6absyks5o3pbgoznoh&st=ve4d2pmo&dl=1",
+                searchString: "Suits You chobar"
+            },
+            {
+                title: "Back To Sikhi     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Back To Sikhi",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/chobar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/5gap2li5tir5ov617prey/Back-to-Sikhi-Arjan-Dhillon-DJJOhAL.Com-1.mp3?rlkey=2b6bbrcugynlj4wffa27e1ypj&st=9po8li73&dl=1",
+                searchString: "Back To Sikhi chobar"
+            },
+            {
+                title: "Tyaar     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Tyaar",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/chobar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/iyd9vxqscmn7m6ln7s61f/Tyaar-Arjan-Dhillon-DJJOhAL.Com.mp3?rlkey=pk4qpt88j3z1ahqh1ficu4l8i&st=lv92roqb&dl=1",
+                searchString: "Tyaar tyar chobar"
+            },
+            {
+                title: "Way Bigger     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Way Bigger",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/chobar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/g0oziygxjjgl4p6rvejz2/Way-Bigger-Arjan-Dhillon-DJJOhAL.Com.mp3?rlkey=wtb2hhqth6sfysbp8co9ttlx9&st=ds0f538u&dl=1",
+                searchString: "Way Bigger we biger chobar"
+            },
+            {
+                title: "Vigde     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Vigde",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/chobar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/2y59t0q6z7uwx3u2gwb00/Vigde-Arjan-Dhillon-DJJOhAL.Com.mp3?rlkey=jvofj9kly8du27c6zl8hs6qhk&st=c1q48cej&dl=1",
+                searchString: "Vigde chobar"
+            },
+            {
+                title: "Biography     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Biography",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/chobar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/dp2rix0obloogtbyclqey/Biography-Arjan-Dhillon-DJJOhAL.Com.mp3?rlkey=xj1bj7kk4w97s7ny6ob4i3m4q&st=yrxvap3n&dl=1",
+                searchString: "Biography biografi bigrafi byographi byografi chobar"
+            },
+            {
+                title: "Youth Flow     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Youth Flow",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/chobar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/48qu05d2ugsp5svaq7lg6/Youth-Flow-Arjan-Dhillon-DJJOhAL.Com.mp3?rlkey=qzsqunvx195j06rfy4boh7e1s&st=s6ki25lp&dl=1",
+                searchString: "Youth Flow yuth flo yuth flow chobar"
+            },
+            {
+                title: "Woah     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Woah",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/chobar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/k9a7b0a0ryfl1o83m5tqk/Woah-Arjan-Dhillon-DJJOhAL.Com.mp3?rlkey=rcu3ph44ha3krx7uqh1q2ec52&st=auejxvlu&dl=1",
+                searchString: "Woah woa wao waoh chobar"
+            },
+            {
+                title: "Kuz Saal     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Kuz Saal",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/chobar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/i6sk5mwp4c8alfyn6280m/Kuz-Saal-Arjan-Dhillon-DJJOhAL.Com.mp3?rlkey=14ge0zx38wyu5jvf54horq877&st=qkaf0zb0&dl=1",
+                searchString: "Kuz Saal kuz sal kuj sal chobar"
+            },
+            {
+                title: "Glorious     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Glorious",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/chobar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/mpplwjf9scrqckyyy920v/Glorious-Arjan-Dhillon-DJJOhAL.Com.mp3?rlkey=5oov74lpli4nsulkiocm50zfj&st=uejym6f7&dl=1",
+                searchString: "Glorious glowrious gloorius chobar"
+            },
+            {
+                title: "Hot Shit     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Hot Shit",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/chobar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/8axo5019kqpk33cg5movi/Hot-Shit-Arjan-Dhillon-DJJOhAL.Com.mp3?rlkey=gae3cv705juhb8fu1gkiuxmh7&st=4jkkp7b8&dl=1",
+                searchString: "Hot Shit chobar"
+            },
+            {
+                title: "Maava'n     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Maava'n",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/chobar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/knybh5sx9kiuk8hyoa2cg/Maavan-Arjan-Dhillon-DJJOhAL.Com.mp3?rlkey=tqkuo8praabgqy42upyfx7q90&st=m3j00krp&dl=1",
+                searchString: "Maavan mavan mava mawan mawa chobar"
+            },
+            {
+                title: "Parallel Thoughts     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Parallel Thoughts",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/chobar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/xwkzoeoo5nhxi98jbv7k5/Parallel-Thoughts-Arjan-Dhillon-DJJOhAL.Com.mp3?rlkey=bujodukwj88zyi5rk6t03tdpr&st=aszgte0b&dl=1",
+                searchString: "Parallel Thoughts paralel thots parlel thots chobar"
+            },
+            {
+                title: "Sandalbar     ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Sandalbar",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/chobar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/lw49i48b7ob6mmwq9ji7c/Sandalbar-Arjan-Dhillon-DJJOhAL.Com.mp3?rlkey=cpzfnsqcl36zbjvwk1mvm71wl&st=b8761vgo&dl=1",
+                searchString: "Sandalbar sandlbar sndlbar chobar"
+            },
+
+            
+        ]
     }
 
 ];

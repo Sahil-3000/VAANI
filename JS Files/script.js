@@ -344,13 +344,21 @@ document.getElementById("search-btn").addEventListener("click", function () {
                 (song.searchString?.toLowerCase() || "").includes(query)
             )
         );
+        const podcastResults = (podcasts || []).flatMap(playlist =>
+            (playlist.songs || []).filter(song =>
+                (song.title?.toLowerCase() || "").includes(query) ||
+                (song.artist?.toLowerCase() || "").includes(query) ||
+                (song.searchString?.toLowerCase() || "").includes(query)
+            )
+        );
+
 
 
 
 
 
         // Combine results
-        const results = [...defaultPlaylist, ...mainPlaylistResults, ...trendPlaylistResults, ...recoPlaylistResults, ...libPlaylistResults];
+        const results = [...defaultPlaylist, ...mainPlaylistResults, ...trendPlaylistResults, ...recoPlaylistResults, ...libPlaylistResults, ...podcastResults];
 
         const uniqueResults = Array.from(
             new Map(
@@ -470,6 +478,8 @@ function displayResults(results) {
                 audio.load();
                 audio.play();
                 loadTrack(index);
+                loadTrack(index-1);
+                loadTrack(index+1);
                 currentTrackIndex = index;
                 // audio.play();
                 playSong(song.audio);
@@ -926,6 +936,9 @@ function displayAllSongs(playList) {
             // currentTrackIndex = index;
             audio.load();
             audio.play();
+            loadTrack(index);
+            loadTrack(index-1);
+            loadTrack(index+1);
             playSong(song.audio);
         };
         songDiv.addEventListener("click",(event)=>{
@@ -1060,6 +1073,8 @@ function displayMainPlaylist(playList) {
         playButton.textContent = "Play";
         playButton.onclick = () => {
             loadTrack(index);
+            loadTrack(index-1);
+            loadTrack(index+1);
             currentTrackIndex = index;
             playSong(song.audio);
         };

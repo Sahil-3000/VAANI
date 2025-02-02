@@ -317,73 +317,73 @@ let playlist = [
 
     },//song2
 
-    //Arjan Dhillon-Glorious and more
-    {
-        title: "Youth Flow      ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon    ",
-        lyrics: "Youth Flow",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/Chobbar.jpg",
-        audio: "songs/singles/youth flow.mp3",
-        searchString: "arjan songs arjan jawani song arjan"
-    },//song4
-    {
-        title: "Glorious      ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon    ",
-        lyrics: "Glorious",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/Chobbar.jpg",
-        audio: "songs/singles/glorious.mp3",
-        searchString: "arjan songs glorious glowrious glorius gloris"
-    },//song5
-    {
-        title: "Maavan      ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon    ",
-        lyrics: "Maavan",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/Chobbar.jpg",
-        audio: "songs/singles/maavan.mp3",
-        searchString: "arjan songs mava maanvan mava maava maa maa song arjan"
-    },//song6
-    {
-        title: "Back To Sikhi      ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon    ",
-        lyrics: "Back To Sikhi",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/Chobbar.jpg",
-        audio: "songs/singles/back to sikhi.mp3",
-        searchString: "arjan songs pagg back to siki sikhi sikki"
-    },//song7
-    {
-        title: "Biography      ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon    ",
-        lyrics: "Biography",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/Chobbar.jpg",
-        audio: "songs/singles/biography.mp3",
-        searchString: "arjan songs bigraphy bigrafi biographi "
-    },//song8
-    {
-        title: "Tyar      ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon    ",
-        lyrics: "Tyar",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/Chobbar.jpg",
-        audio: "songs/singles/tyar.mp3",
-        searchString: "arjan songs tyaar tyar ready tyar hi ni hoye"
-    },//song9
+    // //Arjan Dhillon-Glorious and more
+    // {
+    //     title: "Youth Flow      ",
+    //     videoID:"",
+    //     album:"",
+    //     artist: "Arjan Dhillon    ",
+    //     lyrics: "Youth Flow",
+    //     artistPhoto: "covers/Arjan Dhillon.png",
+    //     cover: "covers/Chobbar.jpg",
+    //     audio: "songs/singles/youth flow.mp3",
+    //     searchString: "arjan songs arjan jawani song arjan"
+    // },//song4
+    // {
+    //     title: "Glorious      ",
+    //     videoID:"",
+    //     album:"",
+    //     artist: "Arjan Dhillon    ",
+    //     lyrics: "Glorious",
+    //     artistPhoto: "covers/Arjan Dhillon.png",
+    //     cover: "covers/Chobbar.jpg",
+    //     audio: "songs/singles/glorious.mp3",
+    //     searchString: "arjan songs glorious glowrious glorius gloris"
+    // },//song5
+    // {
+    //     title: "Maavan      ",
+    //     videoID:"",
+    //     album:"",
+    //     artist: "Arjan Dhillon    ",
+    //     lyrics: "Maavan",
+    //     artistPhoto: "covers/Arjan Dhillon.png",
+    //     cover: "covers/Chobbar.jpg",
+    //     audio: "songs/singles/maavan.mp3",
+    //     searchString: "arjan songs mava maanvan mava maava maa maa song arjan"
+    // },//song6
+    // {
+    //     title: "Back To Sikhi      ",
+    //     videoID:"",
+    //     album:"",
+    //     artist: "Arjan Dhillon    ",
+    //     lyrics: "Back To Sikhi",
+    //     artistPhoto: "covers/Arjan Dhillon.png",
+    //     cover: "covers/Chobbar.jpg",
+    //     audio: "songs/singles/back to sikhi.mp3",
+    //     searchString: "arjan songs pagg back to siki sikhi sikki"
+    // },//song7
+    // {
+    //     title: "Biography      ",
+    //     videoID:"",
+    //     album:"",
+    //     artist: "Arjan Dhillon    ",
+    //     lyrics: "Biography",
+    //     artistPhoto: "covers/Arjan Dhillon.png",
+    //     cover: "covers/Chobbar.jpg",
+    //     audio: "songs/singles/biography.mp3",
+    //     searchString: "arjan songs bigraphy bigrafi biographi "
+    // },//song8
+    // {
+    //     title: "Tyar      ",
+    //     videoID:"",
+    //     album:"",
+    //     artist: "Arjan Dhillon    ",
+    //     lyrics: "Tyar",
+    //     artistPhoto: "covers/Arjan Dhillon.png",
+    //     cover: "covers/Chobbar.jpg",
+    //     audio: "songs/singles/tyar.mp3",
+    //     searchString: "arjan songs tyaar tyar ready tyar hi ni hoye"
+    // },//song9
 
     //Arjan Dhillon :Patandar
 
@@ -816,7 +816,7 @@ let playlist = [
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/raah warga_arjan dhillon.png",
         audio: "https://www.dropbox.com/scl/fi/urmb7s2c3aorof0kog8t2/Raah_Warga-0.m4a?rlkey=auq6r6a3g45dh90pkghs4h91h&st=3z3k1d7q&dl=1",
-        searchString: "Raah Warga"
+        searchString: " rah warga rah varga ra wrga rah wrga Raah Warga"
     },
     {
         title: "Sher-E-Panjab      ",
