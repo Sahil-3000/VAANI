@@ -1,5 +1,3 @@
-
-
 let libraryPlaylists = [
     {
         id: 1,
@@ -2993,7 +2991,7 @@ let libraryPlaylists = [
         ]
     },
     {
-        id: 13,
+        id: 14,
         title: "Young Once    ",
         artist: "Hustinder    ",
         cover: "covers/albums/hustinder/young once_album.png",
@@ -3112,7 +3110,7 @@ let libraryPlaylists = [
 
 
     {
-        id: 10,
+        id: 15,
         title: "Patandar    ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/patandar_album.png",
@@ -3277,7 +3275,7 @@ let libraryPlaylists = [
     ,
 
     {
-        id: 8,
+        id: 16,
         title: "A For Arjan    ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/a for arjan_album.png",
@@ -3412,7 +3410,7 @@ let libraryPlaylists = [
     ,
 
     {
-        id: 9,
+        id: 17,
         title: "The Future   ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/the future_album.png",
@@ -3470,7 +3468,7 @@ let libraryPlaylists = [
     ,
 
     {
-        id: 10,
+        id: 18,
         title: "Jalwa    ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/jalwa_album.png",
@@ -3600,7 +3598,7 @@ let libraryPlaylists = [
     ,
 
     {
-        id: 11,
+        id: 19,
         title: "Awara    ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/awara_album.png",
@@ -3722,6 +3720,50 @@ let libraryPlaylists = [
                 cover: "covers/albums/arjan/awara_album.png",
                 audio: "https://www.dropbox.com/scl/fi/o0eto2rk0rhcwdly6yhf0/Danabaad.mp3?rlkey=pjmisy75b8nx43gveo87xzumr&st=3qw0ojq7&dl=1",
                 searchString: "awara "
+            }
+        ]
+    },
+    {
+        id: 20,
+        title: "Gutt    ",
+        artist: "Arjan Dhillon    ",
+        cover: "covers/albums/arjan/gutt_album.png",
+        songs: [
+            {
+                title: "Gutt",
+                artist: "Arjan Dhillon",
+                lyrics: "Gutt",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/gutt_album.png",
+                audio: "https://www.dropbox.com/scl/fi/e111bqrrisv1rcw82j0ah/Gutt-Djjohal.fm.mp3?rlkey=6fnr0cx0enkvx3v7ilirmsp28&st=a6it3wdn&dl=1",
+                searchString: "Gutt gutt"
+            },
+            {
+                title: "Downtown",
+                artist: "Arjan Dhillon",
+                lyrics: "Downtown",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/gutt_album.png",
+                audio: "https://www.dropbox.com/scl/fi/dvn24z5b6jv9q9oj5ikvm/Downtown-Djjohal.fm.mp3?rlkey=dhrdvxqfis3l7prtnfu0lexyi&st=zlnhp47g&dl=1",
+                searchString: "Downtown downtown"
+            },
+            {
+                title: "Begani Rat",
+                artist: "Arjan Dhillon",
+                lyrics: "Begani Rat",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/gutt_album.png",
+                audio: "https://www.dropbox.com/scl/fi/c8l06oknjimra2jm8gawu/Begani-Raat-Djjohal.fm.mp3?rlkey=6ozoffz1smks2y56o8lgd17fm&st=iwk2i58j&dl=1",
+                searchString: "Begani Rat begani rat"
+            },
+            {
+                title: "2 BHK",
+                artist: "Arjan Dhillon",
+                lyrics: "2 BHK",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/gutt_album.png",
+                audio: "https://www.dropbox.com/scl/fi/r4zoq5vuom7f0wmqv3ymr/2-Bhk-Djjohal.fm.mp3?rlkey=4uep253cd69y7snmhphafmvyx&st=yjfeq39u&dl=1",
+                searchString: "2 BHK 2 bhk"
             }
         ]
     }

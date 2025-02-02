@@ -1512,7 +1512,7 @@ let playlistsMain = [
                 lyrics: "Ve Kamleya",
                 artistPhoto: "covers/Arijit Singh.jpg",
                 cover: "covers/singles/arijit/ve kamleya.jpg",
-                audio: "https://www.dropbox.com/scl/fi/nabhbquo4cafyiyz20c7w/Ve_Kamleya_-_Lofi_Mix-0.mp3?rlkey=anjady9sonuxtfmx7xo7rout9&st=b8rlfvne&dl=1Ve Kamleya",
+                audio: "https://www.dropbox.com/scl/fi/nabhbquo4cafyiyz20c7w/Ve_Kamleya_-_Lofi_Mix-0.mp3?rlkey=anjady9sonuxtfmx7xo7rout9&st=b8rlfvne&dl=1",
                 searchString: "Ve Kamleya "
             },
             {

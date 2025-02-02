@@ -576,6 +576,117 @@ let playlist = [
 
     //Arjan Dhillon : Singles
     {
+        title: "Jaagde raho     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Jaagde raho",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/Jaagde Raho.png",
+        audio: "https://www.dropbox.com/scl/fi/lo8cii741ikfag95hd5cc/Jaagde-Raho-Arjan-Dhillon.mp3?rlkey=jajc0702fx0nq46vb905t3kgt&st=o52sfx7e&dl=1",
+        searchString: "Jaagde raho jagde rho jgde rho jgde raho arjan songs"
+    },
+    {
+        title: "Pony     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Pony",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/Pony.png",
+        audio: "https://www.dropbox.com/scl/fi/vy1lgmga76qkvu4kuf8wd/Pony-128k.m4a?rlkey=7lsyolk0p1g1qfgb7scviknle&st=a90ibc12&dl=1",
+        searchString: "Pony arjan songs"
+    },
+    {
+        title: "Patrkaar     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Patrkaar",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/Patrkaar.png",
+        audio: "https://www.dropbox.com/scl/fi/uh2bxqnut8q6injt9ewzt/Patrkaar-128k.m4a?rlkey=a633ung8exysgmt6z5hq6g7z2&st=758d57c0&dl=1",
+        searchString: "Patrkaar arjan songs"
+    },
+    {
+        title: "Ohdi Saheli     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Ohdi Saheli",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/Ohdi Saheli.png",
+        audio: "https://www.dropbox.com/scl/fi/duljk01uxcx5a70oy9lct/Ohdi_Saheli-128k.m4a?rlkey=2x4w1whysanw8d9viq7lz9dj0&st=cc5uz0km&dl=1",
+        searchString: "Ohdi Saheli arjan songs"
+    },
+    {
+        title: "Air Hostess     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Air Hostess",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/Air Hostess.png",
+        audio: "https://www.dropbox.com/scl/fi/2lirru36wymr47j443ddv/Air_Hostess-128k.m4a?rlkey=i63th37a1g62ris0ibhqssyxx&st=deoukmn0&dl=1",
+        searchString: "Air Hostess arjan songs"
+    },
+    {
+        title: "My Fellas     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "My Fellas",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/My Fellas.png",
+        audio: "",
+        searchString: "My Fellas arjan songs"
+    },
+    // {
+    //     title: "     ",
+    //     videoID:"",
+    //     album:"",
+    //     artist: "Arjan Dhillon    ",
+    //     lyrics: "",
+    //     artistPhoto: "covers/Arjan Dhillon.png",
+    //     cover: "covers/singles/arjan/.png",
+    //     audio: "",
+    //     searchString: " arjan songs"
+    // },
+
+    {
+        title: "Jaan     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Jaan",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/Jaan.png",
+        audio: "https://www.dropbox.com/scl/fi/eavjg52pqnv2fxsz5ulrk/Jaan-Djjohal.fm.mp3?rlkey=7na9aiv2jkvmhbfemz6bpbikb&st=fkue6zpf&dl=1",
+        searchString: "Jaan Jan arjan songs"
+    },
+    {
+        title: "     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/.png",
+        audio: "",
+        searchString: " arjan songs"
+    },
+    {
+        title: "     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/.png",
+        audio: "",
+        searchString: " arjan songs"
+    },
+    {
         title: "Heer      ",
         videoID:"",
         album:"",
@@ -585,7 +696,7 @@ let playlist = [
         cover: "covers/heer_arjan dhillon.png",
         audio: "songs/singles/heer_arjan dhillon.mp3",
         searchString: "arjan songs"
-    },//song9
+    },
     {
         title: "Punjab Intro      ",
         videoID:"",
@@ -2754,7 +2865,74 @@ let playlist = [
 
 
 
-    //Hustinder: Singles
+    //Hustinder:Singles
+    {
+        title: "Teyodian       ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder     ",
+        lyrics: "Teyodian",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/singles/hustinder/Teyodian.png",
+        audio: "https://www.dropbox.com/scl/fi/18j9x5zludb4g9z44ztyo/Teodian-Djjohal.fm.mp3?rlkey=82efoutig8kzm4odlughsxvy9&st=y9edh3yg&dl=1", 
+        searchString: "Teyodian"
+    },
+    
+    {
+        title: "Photo Ohde Naal       ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder     ",
+        lyrics: "Photo Ohde Naal",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/singles/hustinder/Photo Ohde Naal.png",
+        audio: "https://www.dropbox.com/scl/fi/4ty16q0iosd614np9c7os/Photo_Ohde_Naal__Official_Video__Gursharan_ft._Hustinder___Black_Virus___Latest_Punjabi_Songs_2024-128k.m4a?rlkey=uxkxq0t6eepa3q7xpscn77u8k&st=sxsmyxpp&dl=1",
+        searchString: "Photo Ohde Naal"
+    },
+    {
+        title: "Fake Feelings       ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder     ",
+        lyrics: "Fake Feelings",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/singles/hustinder/Fake Feelings.png",
+        audio: "https://www.dropbox.com/scl/fi/t66n2x3j7ctnaqyxom9zv/Fake_Feelings__Official_Video__Hustinder___Vintage_Records___Latest_Punjabi_Songs-128k.m4a?rlkey=vcghwdmxl8kjo1dftqhjhsz1o&st=nlgisvqz&dl=1",
+        searchString: "Fake Feelings"
+    },
+    {
+        title: "Chunni De Olley       ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder     ",
+        lyrics: "Chunni De Olley",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/singles/hustinder/Chunni De Olley.png",
+        audio: "https://www.dropbox.com/scl/fi/v0qyxz7h2cvzdevqlbz1n/Chunni_De_Ohle__Official_Video__Hustinder___Vintage_Records___Latest_Punjabi_Songs-128k.m4a?rlkey=48baxiip2kwuxt1bs5xovfzgb&st=af2oiglc&dl=1",
+        searchString: "Chunni De Olley"
+    },
+    {
+        title: "Flashback       ",
+        videoID:"",
+        album:"",
+        artist: "Hustinder     ",
+        lyrics: "Flashback",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/singles/hustinder/Flashback.png",
+        audio: "https://www.dropbox.com/scl/fi/2pgnelig9qlmsgxp9m4v6/Flashback__Video_Jukebox___Hustinder___Vintage_Records___Sad_Songs___Punjabi_Songs-128k.m4a?rlkey=w0ggkrab45kb8a1x9gsq9pic9&st=fl68ngzj&dl=1",
+        searchString: "Flashback"
+    },
+    // {
+    //     title: "       ",
+    //     videoID:"",
+    //     album:"",
+    //     artist: "Hustinder     ",
+    //     lyrics: "",
+    //     artistPhoto: "covers/Hustinder.png",
+    //     cover: "covers/singles/hustinder/.png",
+    //     audio: "",
+    //     searchString: ""
+    // },
     {
         title: "Sara Pind Mittran Da       ",
         videoID:"",
@@ -3620,10 +3798,10 @@ let playlist = [
         lyrics: "Ve Kamleya",
         artistPhoto: "covers/Arijit Singh.png",
         cover: "covers/ve kamleya_arijit singh.png",
-        audio: "https://www.dropbox.com/scl/fi/nabhbquo4cafyiyz20c7w/Ve_Kamleya_-_Lofi_Mix-0.mp3?rlkey=anjady9sonuxtfmx7xo7rout9&st=b8rlfvne&dl=1Ve Kamleya",
+        audio: "https://www.dropbox.com/scl/fi/nabhbquo4cafyiyz20c7w/Ve_Kamleya_-_Lofi_Mix-0.mp3?rlkey=anjady9sonuxtfmx7xo7rout9&st=b8rlfvne&dl=1",
         searchString: "Ve Kamleya "
     },
-    {
+    { 
         title: "Zaalima     ",
         videoID:"",
         album:"",
