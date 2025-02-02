@@ -3108,7 +3108,20 @@ let libraryPlaylists = [
 
 
 
-
+    {
+        id: 20,
+        title: "Chobar    ",
+        artist: "Arjan Dhillon    ",
+        cover: "covers/albums/arjan/chobar_album.png",
+        songs: []
+    },
+    {
+        id: 20,
+        title: "Saroor    ",
+        artist: "Arjan Dhillon    ",
+        cover: "covers/albums/arjan/saroor_album.png",
+        songs: []
+    },
     {
         id: 15,
         title: "Patandar    ",
@@ -3766,6 +3779,14 @@ let libraryPlaylists = [
                 searchString: "2 BHK 2 bhk"
             }
         ]
+    }
+    ,
+    {
+        id: 20,
+        title: "Manifest    ",
+        artist: "Arjan Dhillon    ",
+        cover: "covers/albums/arjan/manifest_album.png",
+        songs: []
     }
 
 ];
