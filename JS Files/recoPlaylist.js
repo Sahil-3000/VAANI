@@ -689,15 +689,7 @@ let recoPlaylist = [
                 searchString: "Dollar Sidhu Moose Wala"
             },
 
-            {
-                title: "Badam  ",
-                artist: "Sumit Patra ",
-                lyrics: "Badam ",
-                artistPhoto: "covers/artists/Sumit Patra.jpg",
-                cover: "covers/playlists/workout/Badam.png",
-                audio: "https://www.dropbox.com/scl/fi/pfu78uqgeghacbwfn1wql/Badam-128k.m4a?rlkey=2zcwerf7b0wccpw2ptc1tpwvz&st=62oawcjn&dl=1",
-                searchString: "Badam "
-            },
+            
             {
                 title: "Chawal ",
                 artist: "Sumit Patra ",
@@ -707,15 +699,7 @@ let recoPlaylist = [
                 audio: "https://www.dropbox.com/scl/fi/7dka6w6mlaylm9ca5cuii/Chawal-128k.m4a?rlkey=p465t2a4km3c6kmmloly77b3j&st=uemcanec&dl=1",
                 searchString: "Chawal "
             },
-            {
-                title: "Mote Peg ",
-                artist: "Sumit Patra ",
-                lyrics: "Mote Peg ",
-                artistPhoto: "covers/artists/Sumit Patra.jpg",
-                cover: "covers/playlists/workout/Mote Peg.png",
-                audio: "https://www.dropbox.com/scl/fi/3dun5xzuyk35tei9mywna/Mote_Peg-128k.m4a?rlkey=lyx3vw3y5c5t6xbti6qteupgz&st=mnomo8mk&dl=1",
-                searchString: "Mote Peg "
-            },
+            
             {
                 title: "Death Row  ",
                 artist: "Dhanda Nyoliwala  ",
