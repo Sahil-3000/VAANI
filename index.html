@@ -10,12 +10,16 @@
     <!-- Displaying the icon on the webpage -->
     <!-- <img src="covers/logo VAANI.jpg" alt="Logo VAANI" class="styled-logo"> -->
     <title>VAANI</title>
+    <link rel="stylesheet" href="CSS Files/loader.css">
     <link rel="stylesheet" href="CSS Files/styles.css">
+    
     <link rel="stylesheet" href="CSS Files/player.css">
     <link rel="stylesheet" href="CSS Files/podcasts.css">
+    
 </head>
 
 <body>
+    <div class="loader" style="display:none"></div>
 
     <!-- Header -->
     <header>
@@ -42,10 +46,12 @@
     </header>
     <div class="spotify-clone">
 
+        
 
         <div class="sidebars-main">
             <!-- First Sidebar -->
             <aside class="sidebar1">
+                
                 <div class="playlist-header" style="display:none"></div>
                 <div class="library-section">
                     <h2>Your Library</h2>
@@ -246,11 +252,13 @@
 
                 </div>
             </aside>
-
+            
             <!-- Main Content -->
             <main>
                 <!-- Featured Playlist -->
                 <section class="content-section">
+                    
+
                     
                     <div id="songDetails" class="song-details"></div>
                     <div class="lyrics-container" style="display: none;"></div>
@@ -270,6 +278,7 @@
                         <div class="related-search"></div>
                         <div class="more-related-stuff"></div>
                     </div>
+                    
 
 
                     <div class="default-content">
@@ -637,6 +646,7 @@
     <script src="JS Files/trendPlaylist.js"></script>
     <script src="JS Files/podcasts.js"></script>
     <script src="JS Files/script.js"></script>
+    <script src="JS Files/loader.js"></script>
 </body>
 
 </html>

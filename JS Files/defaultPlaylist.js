@@ -1,4 +1,89 @@
 // Default Playlist data
+let defaultPlaylist = [
+    {
+        title: "Club Tale      ",
+        videoID:"",
+        album:"Young Once",
+        artist: "Hustinder    ",
+        lyrics: "Club Tale",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/young once_album.png",
+        audio: "https://www.dropbox.com/scl/fi/7ef2c7tpzdj702cvg665g/Club-Tale-DJJOhAL.Com.mp3?rlkey=2lqvohjd5i4c7l8myw149d7op&st=xylsri4r&dl=1",
+        searchString: "Club Tale young once"
+    },
+    ,//21
+    {
+        title: "Mittran De Circle      ",
+        videoID:"",
+        album:"Young Once",
+        artist: "Hustinder    ",
+        lyrics: "Mittran De Circle",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/young once_album.png",
+        audio: "https://www.dropbox.com/scl/fi/pbgu39i7mzo36vtwwqz4v/Mittran-De-Circle-DJJOhAL.Com.mp3?rlkey=gk105gr0fxnu2fe9jryrmlvwz&st=xcvtwpoo&dl=1",
+        searchString: "Mittran De Circle young once"
+    }
+    ,//21
+    {
+        title: "Hub      ",
+        videoID:"",
+        album:"Young Once",
+        artist: "Hustinder    ",
+        lyrics: "Hub",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/young once_album.png",
+        audio: "https://www.dropbox.com/scl/fi/w9k4zpx2qgbex8rrsazhi/Hub-DJJOhAL.Com.mp3?rlkey=hkang4h1z7g97er130z7v6wi3&st=ekxsk3l3&dl=1",
+        searchString: "Hub hab young once"
+    }
+    ,//21
+    {
+        title: "Dullda Glass      ",
+        videoID:"",
+        album:"Young Once",
+        artist: "Hustinder    ",
+        lyrics: "Dullda Glass",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/young once_album.png",
+        audio: "https://www.dropbox.com/scl/fi/00ui07hoj8q8enscxomrf/Dullda-Glass-DJJOhAL.Com.mp3?rlkey=mxemcvyhpgprpphlbi98v79wp&st=ql9c7clc&dl=1",
+        searchString: "Dullda Glass dulda glas young once"
+    }
+    ,//21
+    {
+        title: "She's Proud      ",
+        videoID:"",
+        album:"Young Once",
+        artist: "Hustinder    ",
+        lyrics: "She's Proud",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/young once_album.png",
+        audio: "https://www.dropbox.com/scl/fi/hlafif0hypwev7ga0eake/She-s-Proud-DJJOhAL.Com.mp3?rlkey=x3w598q6l1ot0k5frjyez6ae1&st=sxip6rxg&dl=1",
+        searchString: "She's Proud she proud she is proud young once"
+    }
+    ,//21
+    {
+        title: "Gutt      ",
+        videoID:"",
+        album:"Young Once",
+        artist: "Hustinder    ",
+        lyrics: "Gutt",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/young once_album.png",
+        audio: "https://www.dropbox.com/scl/fi/usb8edzkyabj15gstfg2z/Gutt-DJJOhAL.Com.mp3?rlkey=vcmlk88h7ynzun7t406ho5qnm&st=ogcgygz5&dl=1",
+        searchString: "Gutt gut young once"
+    }
+    ,//21
+    {
+        title: "Nachdi Ton      ",
+        videoID:"",
+        album:"Young Once",
+        artist: "Hustinder    ",
+        lyrics: "Nachdi Ton",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/young once_album.png",
+        audio: "https://www.dropbox.com/scl/fi/hauyi5i9tnbdrjw2xriow/Nachdi-Ton-DJJOhAL.Com.mp3?rlkey=cn22uz280q04d3mcofeogy8wl&st=3hqht1l5&dl=1",
+        searchString: "Nachdi Ton nachdi to nchdi ton nchdi to young once"
+    }
+];
 let playlist = [
     //Diljit Dosanjh
     {
@@ -3909,3 +3994,4 @@ let playlist = [
 //
 // window.playlist = playlist; // Default to the original playlist if nothing is stored
 module.exports = { playlist };
+module.exports = { defaultPlaylist };
