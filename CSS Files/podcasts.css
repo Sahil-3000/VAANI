@@ -6,7 +6,12 @@
     font-weight: bold;
     border-radius:50%;
     background-color: rgb(53, 51, 51);
+    background: radial-gradient(circle at 1.5% 30%, rgb(255, 255, 255),  rgb(3, 87, 112) 60%, rgb(3, 3, 131) 100%);
+  border-radius: 50%; /* Makes it a perfect circle */
+  box-shadow: inset -10px -10px 20px rgba(0, 0, 0, 0.5), 
+              10px 10px 20px rgba(0, 0, 0, 0.3);
     padding-top:30px;
+    color:rgb(255, 255, 255);
     cursor:pointer;
 }
 .podcast-item {
