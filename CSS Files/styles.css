@@ -163,6 +163,7 @@ body {
     border-radius:8px;
     background-color: #19271e;
     object-fit:cover;
+    background:linear-gradient(to bottom,rgb(14, 98, 109),black);
 }
 
 .playlist-img-container img{
@@ -175,6 +176,7 @@ body {
     margin-left:10px;
     margin-right:20px;
     margin-bottom:10px;
+    
 }
 .playlist-img-container h1{
     width:90px;
