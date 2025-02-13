@@ -212,6 +212,7 @@ body {
     padding-bottom:50px;
     overflow-x: hidden; /* Hides horizontal scrollbar */
     cursor:pointer;
+    
 }
 
 /* Header */
@@ -271,6 +272,7 @@ header {
 }
 
 .library-section{
+    
     margin-bottom:60px;
 }
 
@@ -437,6 +439,7 @@ main {
 }
 
 .default-content{
+    
     margin-bottom: 100px;
 }
 
@@ -1101,6 +1104,7 @@ button[data-type="play-button"]{
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
         overflow-y: auto; /* Scrollable if lyrics are long */
         height: 60vh; /* Set height to avoid overflow issues */
+        /* margin-top:45px; */
     }
     
     /* Add styles for emphasis in the lyrics text */
@@ -1223,6 +1227,9 @@ button[data-type="play-button"]{
     .spotify-clone {
         flex-direction: column;
     }
+    .default-content{
+        margin-top:70px;
+    }
 
     .show-library{
         display:none;
@@ -1246,6 +1253,7 @@ button[data-type="play-button"]{
         margin-bottom: 10px;
         text-align: center;
         color: #333;
+        margin-top:45px;
     }
     .lyrics-container{
         padding:15px;
@@ -1283,27 +1291,26 @@ button[data-type="play-button"]{
     /* Header */
     header {
         width:100%;
-        position:sticky;
+        position:fixed;
+        
         top:0;
-        z-index:1000;
+        z-index:4000;
+        
     }
 
 
     .header-content{
-        position:static;
+        
         background-color: #060606;
         width:100%;
         height:30px;
         display:flex;
         justify-content: space-between;
         align-items: center;
-    }
-    header{
-        width:100%;
         position:sticky;
-        top:0;
-        z-index:1000;
+        z-index:4000;
     }
+   
     .logo-VAANI{
         margin-left:1%;
         width:35px;
@@ -1548,7 +1555,7 @@ button[data-type="play-button"]{
 }
 .playlist-results{
     cursor:none;
-    /* margin-bottom:100px; */
+    margin-top:45px;
     padding-bottom:50px;
 }
 
@@ -1606,6 +1613,7 @@ button[data-type="play-button"]{
     }
 
     .playlist-header{
+        margin-top:50px;
         padding-bottom:50px;
         
     }
@@ -1773,6 +1781,10 @@ button[data-type="play-button"]{
       }
       .vol{
         height:4px;
+      }
+
+      .library-section{
+        margin-top:70px;
       }
       
       .library-section h2{
@@ -1975,6 +1987,7 @@ button[data-type="play-button"]{
     /* background-color: #201d1d; */
     background-color: #201f1f;
     padding:0;
+    margin-top:45px;
     overflow-x: hidden; /* Hides horizontal scrollbar */
 }
 

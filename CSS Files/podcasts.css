@@ -57,6 +57,7 @@
     border-radius: 10px;
     overflow-y: auto;
     height: 70vh;
+    margin-top:45px;
     justify-content: center;
 }
 
@@ -111,6 +112,7 @@
     overflow-y: auto;
     height: 90vh;
     justify-content: center;
+    
 }
 
 .podcast-header {
@@ -208,6 +210,7 @@
     .podcast-container {
         flex-direction: column;
         align-items: center;
+        margin-top:45px;
     }
 
     .podcast-item {
@@ -230,6 +233,9 @@
 
     .podcast-header p {
         font-size: 14px;
+    }
+    .episode-container{
+        margin-top:45px;
     }
 
     .episode-item {

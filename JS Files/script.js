@@ -234,19 +234,35 @@ const showLyrics = document.querySelector('.lyrics-container');
 
 btnLyrics.addEventListener("click", () => {
     if (showLyrics.style.display == "none") {
-        mainPlaySection.style.display = "none";
-        defaultContent.style.display = "none";
         showLyrics.style.display = "block";
         songDetails.style.display = "block";
+        mainPlaySection.style.display = "none";
+        defaultContent.style.display = "none";
+        
         songResults.style.display = "none";
         showPlayer.style.display = "none";
+
+        openPlaylistContainerMain.style.display = "none";
+        if(screenWidth<1024){
+            librarySection.style.display = "none";
+            // playlistHeader.style.display = "none";
+            openPlaylistContainer.style.display = "none";
+            
+        }
+        
+        
+        
     }
     else {
-        mainPlaySection.style.display = "block"; // Hide the main play section
-        defaultContent.style.display = "block";
         showLyrics.style.display = "none";  // Show the lyrics section
         songDetails.style.display = "none";
+        mainPlaySection.style.display = "block"; // Hide the main play section
+        defaultContent.style.display = "block";
+        
         songResults.style.display = "block";
+        openPlaylistContainer.style.display = "block";
+        librarySection.style.display = "block";
+        playlistHeader.style.display = "block";
     }
 
 });
@@ -265,11 +281,17 @@ const main = document.querySelector('main');
 
 
 displayLibrary.addEventListener("click", () => {
+
+    librarySection.style.paddingBottom = "50px";
+    librarySection.style.display = "block";
+    // playlistHeader.style.display = "block";
     main.style.display = "none";
     showPlayer.style.display = "none";
     sidebar1.style.display = "block";
     sidebar1.style.flex = "0 0 100%";
-    librarySection.style.paddingBottom = "50px";
+    showLyrics.style.display = "none";
+
+
     history.pushState({ page: "library" }, null, "#library");
 })
 
@@ -289,6 +311,8 @@ searchBtn.addEventListener("click", () => {
         songResults.style.display = "block";  // or 'block' depending on the layout
         searchResults.style.display = "block";
         defaultContent.style.display = "none";
+        openPlaylistContainerMain.style.display = "none";
+        playlistContainer.style.display = "none";
         showPlayer.style.display = "none";
     } else {
         // Show default content and hide song results
