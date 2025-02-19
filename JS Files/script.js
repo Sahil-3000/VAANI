@@ -1,17 +1,8 @@
-// let currentPlaylistId = 1;
-
-// let currentPlaylist = playlistsMain.find(playlist => playlist.id === currentPlaylistId);
-
 // Default playlist is set to the playlist variable
 let currentPlaylist = playlist; // Default playlist
 let videoId;
 const vidIFrame = document.querySelector(".vid-iframe");
 
-// Function to switch between different playlists
-// function switchPlaylist(newPlaylist) {
-//     currentPlaylist = newPlaylist; // Update the active playlist
-//     // currentTrackIndex = index;     // Set the current track index
-// }
 
 let currentTrackIndex = 0;  // Default track index
 let isPlaying = false;      // Flag to track if music is playing

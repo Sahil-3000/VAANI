@@ -1,3 +1,4 @@
+require('dotenv').config(); // Add this line at the top
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
@@ -16,7 +17,7 @@ app.use('',express.static(path.join(__dirname,'songs')));
 app.use(express.static(__dirname)); // Serve static files from the root directory
 
 // Connect to MongoDB
-mongoose.connect("mongodb://localhost:27017/vaani-login")
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/vaani-login")
     .then(() => console.log('MongoDB connected'))
     .catch(err => console.error('MongoDB connection error:', err));
 
