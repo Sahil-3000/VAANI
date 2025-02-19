@@ -9,7 +9,7 @@
     <link rel="icon" href="covers/logo-VAANI.png" type="image/jpg">
     <!-- Displaying the icon on the webpage -->
     <!-- <img src="covers/logo VAANI.jpg" alt="Logo VAANI" class="styled-logo"> -->
-    <title>Index</title>
+    <title>VAANI</title>
     <!-- <link rel="stylesheet" href="/css/styles.css"> -->
     <link rel="stylesheet" href="CSS Files/styles.css">
     <link rel="stylesheet" href="CSS Files/loader.css">
@@ -42,7 +42,7 @@
                 <!-- <div id="song-results"></div> -->
             </div>
             <div class="user-profile">
-                <img src="covers/profiles/user_profile.png" alt="User Profile">
+                <img id="user-profile-pic" src="covers/profiles/user_profile.png" alt="User Profile">
             </div>
         </div>
     </header>
@@ -649,6 +649,14 @@
     <script src="JS Files/podcasts.js"></script>
     <script src="JS Files/script.js"></script>
     <script src="JS Files/loader.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const profilePicture = localStorage.getItem('profilePicture');
+            if (profilePicture) {
+                document.getElementById('user-profile-pic').src = profilePicture;
+            }
+        });
+    </script>
 </body>
 
 </html>

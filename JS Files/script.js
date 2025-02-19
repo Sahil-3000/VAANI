@@ -1476,3 +1476,26 @@ window.addEventListener("popstate", (event) => {
         showPlayer.style.display = "none";
     }
 });
+
+// Function to handle login
+async function handleLogin(event) {
+    event.preventDefault();
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    const response = await fetch('/login', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ username, password })
+    });
+
+    const result = await response.json();
+    if (result.success) {
+        localStorage.setItem('profilePicture', result.profilePicture);
+        window.location.href = result.redirect;
+    } else {
+        alert(result.message);
+    }
+}

@@ -15,6 +15,7 @@ document.querySelector('button[type="submit"]').addEventListener('click', async 
         const result = await response.json();
         console.log(result);
         if (result.success) {
+            localStorage.setItem('profilePicture', result.profilePicture);
             window.location.href = result.redirect;
         } else {
             alert('Login failed: ' + result.message);
@@ -28,7 +29,7 @@ document.querySelector('button[type="submit"]').addEventListener('click', async 
 // Add show/hide password functionality
 const passwordField = document.querySelector('input[type="password"]');
 const eyeIcon = document.querySelector('#eye-icon path');
-eyeIcon.addEventListener("click",()=>{
+eyeIcon.addEventListener("click", () => {
     if (passwordField.type === 'password') {
         passwordField.type = 'text';
         eyeIcon.setAttribute('fill', '#333');

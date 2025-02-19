@@ -2,6 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const path = require('path');
+const crypto = require('crypto');
 
 const app = express();
 const port = 3000;
@@ -21,10 +22,17 @@ mongoose.connect("mongodb://localhost:27017/vaani-login")
 const userSchema = new mongoose.Schema({
     username: { type: String, required: true, unique: true },
     email: { type: String, required: true, unique: true },
-    password: { type: String, required: true }
+    password: { type: String, required: true },
+    profilePicture: { type: String, default: '' }
 }, { collection: 'users' });
 
 const User = mongoose.model('User', userSchema);
+
+// Function to get Gravatar URL
+const getGravatarUrl = (email) => {
+    const hash = crypto.createHash('md5').update(email.trim().toLowerCase()).digest('hex');
+    return `https://www.gravatar.com/avatar/${hash}`;
+};
 
 // Registration endpoint
 app.post('/register', async (req, res) => {
@@ -39,7 +47,8 @@ app.post('/register', async (req, res) => {
         if (existingEmail) {
             return res.json({ success: false, message: 'Email already exists' });
         }
-        const newUser = new User({ username, email, password });
+        const profilePicture = getGravatarUrl(email);
+        const newUser = new User({ username, email, password, profilePicture });
         await newUser.save();
         console.log('User registered successfully');
         res.json({ success: true, message: 'User registered successfully' });
@@ -55,7 +64,7 @@ app.post('/login', async (req, res) => {
     try {
         const user = await User.findOne({ username, password });
         if (user) {
-            res.json({ success: true, message: 'Login successful', redirect: '/index.html' });
+            res.json({ success: true, message: 'Login successful', redirect: '/index.html', profilePicture: user.profilePicture });
         } else {
             res.json({ success: false, message: 'Invalid username or password' });
         }
