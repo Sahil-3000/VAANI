@@ -1,90 +1,318 @@
-// Default Playlist data
-let defaultPlaylist = [
-    {
-        title: "Club Tale      ",
-        videoID:"",
-        album:"Young Once",
-        artist: "Hustinder    ",
-        lyrics: "Club Tale",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/young once_album.png",
-        audio: "https://www.dropbox.com/scl/fi/7ef2c7tpzdj702cvg665g/Club-Tale-DJJOhAL.Com.mp3?rlkey=2lqvohjd5i4c7l8myw149d7op&st=xylsri4r&dl=1",
-        searchString: "Club Tale young once"
-    },
-    ,//21
-    {
-        title: "Mittran De Circle      ",
-        videoID:"",
-        album:"Young Once",
-        artist: "Hustinder    ",
-        lyrics: "Mittran De Circle",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/young once_album.png",
-        audio: "https://www.dropbox.com/scl/fi/pbgu39i7mzo36vtwwqz4v/Mittran-De-Circle-DJJOhAL.Com.mp3?rlkey=gk105gr0fxnu2fe9jryrmlvwz&st=xcvtwpoo&dl=1",
-        searchString: "Mittran De Circle young once"
-    }
-    ,//21
-    {
-        title: "Hub      ",
-        videoID:"",
-        album:"Young Once",
-        artist: "Hustinder    ",
-        lyrics: "Hub",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/young once_album.png",
-        audio: "https://www.dropbox.com/scl/fi/w9k4zpx2qgbex8rrsazhi/Hub-DJJOhAL.Com.mp3?rlkey=hkang4h1z7g97er130z7v6wi3&st=ekxsk3l3&dl=1",
-        searchString: "Hub hab young once"
-    }
-    ,//21
-    {
-        title: "Dullda Glass      ",
-        videoID:"",
-        album:"Young Once",
-        artist: "Hustinder    ",
-        lyrics: "Dullda Glass",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/young once_album.png",
-        audio: "https://www.dropbox.com/scl/fi/00ui07hoj8q8enscxomrf/Dullda-Glass-DJJOhAL.Com.mp3?rlkey=mxemcvyhpgprpphlbi98v79wp&st=ql9c7clc&dl=1",
-        searchString: "Dullda Glass dulda glas young once"
-    }
-    ,//21
-    {
-        title: "She's Proud      ",
-        videoID:"",
-        album:"Young Once",
-        artist: "Hustinder    ",
-        lyrics: "She's Proud",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/young once_album.png",
-        audio: "https://www.dropbox.com/scl/fi/hlafif0hypwev7ga0eake/She-s-Proud-DJJOhAL.Com.mp3?rlkey=x3w598q6l1ot0k5frjyez6ae1&st=sxip6rxg&dl=1",
-        searchString: "She's Proud she proud she is proud young once"
-    }
-    ,//21
-    {
-        title: "Gutt      ",
-        videoID:"",
-        album:"Young Once",
-        artist: "Hustinder    ",
-        lyrics: "Gutt",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/young once_album.png",
-        audio: "https://www.dropbox.com/scl/fi/usb8edzkyabj15gstfg2z/Gutt-DJJOhAL.Com.mp3?rlkey=vcmlk88h7ynzun7t406ho5qnm&st=ogcgygz5&dl=1",
-        searchString: "Gutt gut young once"
-    }
-    ,//21
-    {
-        title: "Nachdi Ton      ",
-        videoID:"",
-        album:"Young Once",
-        artist: "Hustinder    ",
-        lyrics: "Nachdi Ton",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/young once_album.png",
-        audio: "https://www.dropbox.com/scl/fi/hauyi5i9tnbdrjw2xriow/Nachdi-Ton-DJJOhAL.Com.mp3?rlkey=cn22uz280q04d3mcofeogy8wl&st=3hqht1l5&dl=1",
-        searchString: "Nachdi Ton nachdi to nchdi ton nchdi to young once"
-    }
-];
+
 let playlist = [
+
+    {
+        title: "Watching You      ",
+        videoID:"",
+        album:"Seasons",
+        artist: "Hustinder    ",
+        lyrics: "Watching You  ",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/seasons_album.png",
+        audio: "https://www.dropbox.com/scl/fi/3nbvjhymja39fby0b2q4o/Watching-You-Hustinder-DJJOhAL.Com.mp3?rlkey=dsnfshv9wun69bgstdja71x66&st=5ud8pdfl&dl=1",
+        searchString: "Watching You seasons"
+    }
+    ,
+    {
+        title: "Still Living      ",
+        videoID:"",
+        album:"Seasons",
+        artist: "Hustinder    ",
+        lyrics: "Still Living",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/seasons_album.png",
+        audio: "https://www.dropbox.com/scl/fi/azfcd7fpe2ejlft8x8o6q/Still-Living-Hustinder-DJJOhAL.Com.mp3?rlkey=nq0g7wpqycxoz9v6zb2yc9t6j&st=9emm9ljx&dl=1",
+        searchString: "Still Living seasons"
+    }
+    ,
+    {
+        title: "Hopes      ",
+        videoID:"",
+        album:"Seasons",
+        artist: "Hustinder    ",
+        lyrics: "Hopes",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/seasons_album.png",
+        audio: "https://www.dropbox.com/scl/fi/euhwh0j9kxwt0dsi12wds/Hopes-Hustinder-DJJOhAL.Com.mp3?rlkey=59o67b0dgbllse8vxnt5778v7&st=37pxmeqa&dl=1",
+        searchString: "Hopes seasons"
+    }
+    ,
+    {
+        title: "Incidents      ",
+        videoID:"",
+        album:"Seasons",
+        artist: "Hustinder    ",
+        lyrics: "Incidents",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/seasons_album.png",
+        audio: "https://www.dropbox.com/scl/fi/t8augv45x812uf5wqkq27/Incidents-Hustinder-DJJOhAL.Com.mp3?rlkey=aay34pv0rkvvnjofcn6d16bd7&st=awcx584r&dl=1",
+        searchString: "Incidents seasons"
+    }
+    ,
+     //Arjan Dhillon : Singles
+     {
+        title: "Jaagde raho     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Jaagde raho",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/Jaagde Raho.png",
+        audio: "https://www.dropbox.com/scl/fi/lo8cii741ikfag95hd5cc/Jaagde-Raho-Arjan-Dhillon.mp3?rlkey=jajc0702fx0nq46vb905t3kgt&st=o52sfx7e&dl=1",
+        searchString: "Jaagde raho jagde rho jgde rho jgde raho arjan songs"
+    },
+    {
+        title: "Pony     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Pony",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/Pony.png",
+        audio: "https://www.dropbox.com/scl/fi/vy1lgmga76qkvu4kuf8wd/Pony-128k.m4a?rlkey=7lsyolk0p1g1qfgb7scviknle&st=a90ibc12&dl=1",
+        searchString: "Pony arjan songs"
+    },
+    {
+        title: "Patrkaar     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Patrkaar",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/Patrkaar.png",
+        audio: "https://www.dropbox.com/scl/fi/uh2bxqnut8q6injt9ewzt/Patrkaar-128k.m4a?rlkey=a633ung8exysgmt6z5hq6g7z2&st=758d57c0&dl=1",
+        searchString: "Patrkaar arjan songs"
+    },
+    {
+        title: "Ohdi Saheli     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Ohdi Saheli",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/Ohdi Saheli.png",
+        audio: "https://www.dropbox.com/scl/fi/duljk01uxcx5a70oy9lct/Ohdi_Saheli-128k.m4a?rlkey=2x4w1whysanw8d9viq7lz9dj0&st=cc5uz0km&dl=1",
+        searchString: "Ohdi Saheli arjan songs"
+    },
+    {
+        title: "Air Hostess     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Air Hostess",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/Air Hostess.png",
+        audio: "https://www.dropbox.com/scl/fi/2lirru36wymr47j443ddv/Air_Hostess-128k.m4a?rlkey=i63th37a1g62ris0ibhqssyxx&st=deoukmn0&dl=1",
+        searchString: "Air Hostess arjan songs"
+    },
+    {
+        title: "My Fellas     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "My Fellas",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/My Fellas.png",
+        audio: "",
+        searchString: "My Fellas arjan songs"
+    },
+    // {
+    //     title: "     ",
+    //     videoID:"",
+    //     album:"",
+    //     artist: "Arjan Dhillon    ",
+    //     lyrics: "",
+    //     artistPhoto: "covers/Arjan Dhillon.png",
+    //     cover: "covers/singles/arjan/.png",
+    //     audio: "",
+    //     searchString: " arjan songs"
+    // },
+
+    {
+        title: "Jaan     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Jaan",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/Jaan.png",
+        audio: "https://www.dropbox.com/scl/fi/eavjg52pqnv2fxsz5ulrk/Jaan-Djjohal.fm.mp3?rlkey=7na9aiv2jkvmhbfemz6bpbikb&st=fkue6zpf&dl=1",
+        searchString: "Jaan Jan arjan songs"
+    },
+    {
+        title: "     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/.png",
+        audio: "",
+        searchString: " arjan songs"
+    },
+    {
+        title: "     ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/singles/arjan/.png",
+        audio: "",
+        searchString: " arjan songs"
+    },
+    {
+        title: "Heer      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Heer",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/heer_arjan dhillon.png",
+        audio: "songs/singles/heer_arjan dhillon.mp3",
+        searchString: "arjan songs"
+    },
+    {
+        title: "Punjab Intro      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Punjab Intro",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/punjab intro_arjan dhillon.png",
+        audio: "songs/singles/punjab intro_arjan dhillon.mp3",
+        searchString: "arjan songs"
+    },//song9
+    {
+        title: "Why Arjan      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Why Arjan",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/why arjan_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/xzyz49dv7no3ygiym02re/Why_Arjan-0.m4a?rlkey=zi743acqjia5jhy4xwufrfi2w&st=c2z92a2s&dl=1",
+        searchString: "Why Arjan"
+    },
+    {
+        title: "Thabba Ku Zulfan      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Thabba Ku Zulfan",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/thabba ku zulfan_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/wpss01dyk68vcpn3s2zd0/Thabba_Ku_Zulfan-0.m4a?rlkey=de0l5rge0kqbs3lsil01q2jqa&st=jthw0jzr&dl=1",
+        searchString: "Thabba Ku Zulfan"
+    },
+    {
+        title: "Hommie Call      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Hommie Call",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/hommie call_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/q62dl8hv511dtebcm5oyp/Hommie_Call-0.m4a?rlkey=x1gcwwnfkyik7srjvi5zcrfr8&st=5h4m9386&dl=1",
+        searchString: "Hommie Call"
+    },
+    {
+        title: "Ki Karde Je      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Ki Karde Je",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/ki karde je_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/o9pcrklevxv1zxr9o0kcv/Ki_Karde_Je-0.m4a?rlkey=cqz58vemdo79a430ws2lnzeej&st=eutweftw&dl=1",
+        searchString: "Ki Karde Je"
+    },
+    {
+        title: "Likhari      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Likhari",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/likhari_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/xd3tmxlt1h3y16uw5zuci/Likhari-0.m4a?rlkey=7b7in3pn39umg6wvlec7ezr9r&st=xs3g4l65&dl=1",
+        searchString: "Likhari"
+    },
+    {
+        title: "Maharani Jindan      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Maharani Jindan",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/maharani jindan_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/4puiy59lrpqdabvzommmu/Maharani_Jinda_n-0.m4a?rlkey=y8e9vr2o3wekm24qmqe0k1je5&st=o7hez6yr&dl=1",
+        searchString: "Maharani Jindan"
+    },
+    {
+        title: "Mandeer      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Mandeer",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/mandeer_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/n72p052zaushvqy9kwm50/Mandeer-0.m4a?rlkey=kb2xlxdv7awiw38yzqakb6uqz&st=xvmow4nq&dl=1",
+        searchString: "Mandeer"
+    },
+    {
+        title: "Memory Lane      ",
+        videoID:"",
+        album:"",
+        artist: "Arjan Dhillon    ",
+        lyrics: "Memory Lane",
+        artistPhoto: "covers/Arjan Dhillon.png",
+        cover: "covers/memory lane_arjan dhillon.png",
+        audio: "https://www.dropbox.com/scl/fi/5lz3o9ogt5saygv9pclts/Memory_Lane-0.m4a?rlkey=681g37yrg6k51rkzh3ojzsi2k&st=g13rgzkt&dl=1",
+        searchString: "Memory Lane"
+    },
+
+
+
+    //Hustinder: Three Plays EP
+    ,
+    {
+        title: "Zamana      ",
+        videoID:"",
+        album:"Three Plays",
+        artist: "Hustinder    ",
+        lyrics: "Zamana",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/three plays_album.png",
+        audio: "https://www.dropbox.com/scl/fi/q9v1zob349ic9iowmddpr/Zamana-Hustinder-DJJOhAL.Com.mp3?rlkey=7rq06mu3kfgpqseu1hglxr59z&st=0cobj4l1&dl=1",
+        searchString: "Zamana three plays"
+    }
+
+    ,
+    {
+        title: "Gal Banje      ",
+        videoID:"",
+        album:"Three Plays",
+        artist: "Hustinder    ",
+        lyrics: "Gal Banje",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/three plays_album.png",
+        audio: "https://www.dropbox.com/scl/fi/kb5vkelomm9jv44iorwfn/Gal-Banje-Hustinder-DJJOhAL.Com.mp3?rlkey=hhhmg6gb7od9ozpawb81c7qlw&st=s4pzqf4v&dl=1",
+        searchString: "Gal Banje three plays"
+    }
+
+    ,
+    {
+        title: "Cat Walk      ",
+        videoID:"",
+        album:"Three Plays",
+        artist: "Hustinder    ",
+        lyrics: "Cat Walk",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/three plays_album.png",
+        audio: "https://www.dropbox.com/scl/fi/enl0nqdn3x20bnclabvls/Cat-Walk-Hustinder-DJJOhAL.Com.mp3?rlkey=xhnqzcrfme01xm8fzvrx1lzj9&st=a8thorvr&dl=1",
+        searchString: "cat walk three plays"
+    },
     //Diljit Dosanjh
     {
         title: "Lover      ",
