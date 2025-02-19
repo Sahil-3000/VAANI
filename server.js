@@ -12,10 +12,10 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'HTML Files')));
 app.use('/css', express.static(path.join(__dirname, 'CSS Files')));
 app.use('/js', express.static(path.join(__dirname, 'JS Files')));
-app.use('',express.static(path.join(__dirname,'covers')));
-app.use('',express.static(path.join(__dirname,'songs')));
-app.use('',express.static(path.join(__dirname,'albums')));
-app.use('',express.static(path.join(__dirname,'singles')));
+app.use('', express.static(path.join(__dirname, 'covers')));
+app.use('', express.static(path.join(__dirname, 'songs')));
+app.use('', express.static(path.join(__dirname, 'albums')));
+app.use('', express.static(path.join(__dirname, 'singles')));
 app.use(express.static(__dirname)); // Serve static files from the root directory
 
 // Connect to MongoDB
