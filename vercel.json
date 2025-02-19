@@ -38,6 +38,10 @@
       {
         "src": "/covers/(.*)",
         "dest": "covers/$1"
+      },
+      {
+        "src": "/songs/(.*)",
+        "dest": "songs/$1"
       }
     ]
 }
