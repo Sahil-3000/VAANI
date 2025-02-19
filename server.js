@@ -39,6 +39,11 @@ const getGravatarUrl = (email) => {
     return `https://www.gravatar.com/avatar/${hash}`;
 };
 
+// Basic route to check if the server is running
+app.get('/api/status', (req, res) => {
+    res.json({ status: 'Server is running' });
+});
+
 // Registration endpoint
 app.post('/register', async (req, res) => {
     const { username, email, password } = req.body;
