@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'HTML Files')));
 app.use('/css', express.static(path.join(__dirname, 'CSS Files')));
 app.use('/js', express.static(path.join(__dirname, 'JS Files')));
+app.use('',express.static(path.join(__dirname,'covers')));
 app.use(express.static(__dirname)); // Serve static files from the root directory
 
 // Connect to MongoDB
@@ -93,7 +94,7 @@ app.post('/forget-password', async (req, res) => {
 });
 
 // Serve the login page
-app.get('/', (req, res) => {
+app.get('/login', (req, res) => {
     res.sendFile(path.join(__dirname, 'HTML Files', 'login.html'));
 });
 
