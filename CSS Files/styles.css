@@ -1947,6 +1947,7 @@ button[data-type="play-button"]{
         flex: 0 0 100%;
         gap: 10px;
         padding: 5%;
+        margin-top:50px;
         margin-bottom:70px;
     }
 
@@ -2080,6 +2081,7 @@ button[data-type="play-button"]{
         flex: 0 0 100%;
         gap: 10px;
         padding: 5%;
+        margin-top:50px;
         margin-bottom:70px;
     }
 
@@ -2158,13 +2160,18 @@ button[data-type="play-button"]{
 }
 
 
-
+@media(max-width:375px){
+    .song-results{
+        margin-top:40px;
+    }
+}
 
 @media(max-width:360px){
     .song-results {
         flex: 0 0 100%;
         gap: 10px;
         padding: 5%;
+        margin-top:50px;
         margin-bottom:70px;
     }
 
@@ -2261,6 +2268,8 @@ button[data-type="play-button"]{
         flex: 0 0 100%;
         gap: 10px;
         padding: 5%;
+       
+        margin-top:50px;
         margin-bottom:70px;
     }
 

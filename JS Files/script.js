@@ -1425,7 +1425,7 @@ function loadTrack(trackIndex) {
 
 const userProfile = document.querySelector(".user-profile");
 userProfile.addEventListener("click", () => {
-    window.location.href = "userProfile.html";
+    window.location.href = "../HTML Files/login.html";
 });
 
 
