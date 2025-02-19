@@ -698,6 +698,8 @@ let playlist = [
     //     searchString: "arjan songs tyaar tyar ready tyar hi ni hoye"
     // },//song9
 
+
+
     //Arjan Dhillon :Patandar
 
     {
@@ -708,7 +710,7 @@ let playlist = [
         lyrics: "2-2 Asle",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/albums/arjan/patandar_album.png",
-        audio: "songs/albums/patandar/2 2 Asle.mp3",
+        audio: "https://www.dropbox.com/scl/fi/7b8b2dqetqxipw3npo4bm/2-2-Asle.mp3?rlkey=ird3a3lihcoj9rliopqqf49em&st=hy7zjl4j&dl=1",
         searchString: "2 2 asle"
     },
     {
@@ -719,7 +721,7 @@ let playlist = [
         lyrics: "Big Flex",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/albums/arjan/patandar_album.png",
-        audio: "songs/albums/patandar/Big Flex.mp3",
+        audio: "https://www.dropbox.com/scl/fi/z3mxq2kh91zcb35ix6pkh/Big-Flex.mp3?rlkey=yahfru2yomsptqa6kdnfkt3ar&st=36lqz1iv&dl=1",
         searchString: " big flex "
     },
     {
@@ -730,7 +732,7 @@ let playlist = [
         lyrics: "Brats",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/albums/arjan/patandar_album.png",
-        audio: "songs/albums/patandar/Brats.mp3",
+        audio: "https://www.dropbox.com/scl/fi/o7vaymko0e6plghc1eej6/Brats.mp3?rlkey=eanuxxviek4xbou0ou5d5mqis&st=7tm0rycp&dl=1",
         searchString: " brats"
     },
     {
@@ -741,7 +743,7 @@ let playlist = [
         lyrics: "Greatest ",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/albums/arjan/patandar_album.png",
-        audio: "songs/albums/patandar/Greatest.mp3",
+        audio: "https://www.dropbox.com/scl/fi/iakcvqelm4889i1ywso1i/Greatest.mp3?rlkey=gzvdh76x2bp6gcysu32luel57&st=az3u0q4q&dl=1",
         searchString: "greatest "
     },
     {
@@ -752,7 +754,7 @@ let playlist = [
         lyrics: "Hikka ",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/albums/arjan/patandar_album.png",
-        audio: "songs/albums/patandar/Hikka.mp3",
+        audio: "https://www.dropbox.com/scl/fi/7tzna9mhpu0xxjouo3io1/Hikka.mp3?rlkey=u9lnctho969zyzzxcxthyctc3&st=xkf6q557&dl=1",
         searchString: "Hikka "
     },
     {
@@ -763,7 +765,7 @@ let playlist = [
         lyrics: "Invoice ",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/albums/arjan/patandar_album.png",
-        audio: "songs/albums/patandar/Invoice.mp3",
+        audio: "https://www.dropbox.com/scl/fi/7tzna9mhpu0xxjouo3io1/Hikka.mp3?rlkey=u9lnctho969zyzzxcxthyctc3&st=xkf6q557&dl=1",
         searchString: " invoice"
     },
     {
@@ -774,7 +776,7 @@ let playlist = [
         lyrics: "Kini Der Baad ",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/albums/arjan/patandar_album.png",
-        audio: "songs/albums/patandar/Kini Der Baad.mp3",
+        audio: "https://www.dropbox.com/scl/fi/1b892gmw2tr6nz5ohyf5w/Kini-Der-Baad.mp3?rlkey=slcn4cysjhquf3a5d9mwexu9m&st=dfjb47rj&dl=1",
         searchString: "kini der baad "
 
     },
@@ -786,7 +788,7 @@ let playlist = [
         lyrics: "Nain ",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/albums/arjan/patandar_album.png",
-        audio: "songs/albums/patandar/Nain.mp3",
+        audio: "https://www.dropbox.com/scl/fi/9bvr9bx7f0rf8ag1b4idc/Nain.mp3?rlkey=uizcyzr46xjz3hzfv3g3htt22&st=3di9r7ll&dl=1",
         searchString: " nain"
 
     },
@@ -798,7 +800,7 @@ let playlist = [
         lyrics: "Never Ever ",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/albums/arjan/patandar_album.png",
-        audio: "songs/albums/patandar/Never Ever.mp3",
+        audio: "https://www.dropbox.com/scl/fi/kiy80pujdr3cbdcsga3kl/Never-Ever.mp3?rlkey=11ihgd46r6ed3iiqd7z72kafx&st=rxrqoql4&dl=1",
         searchString: "Never Ever "
 
     },
@@ -810,7 +812,7 @@ let playlist = [
         lyrics: "Paparazzi ",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/albums/arjan/patandar_album.png",
-        audio: "songs/albums/patandar/Paparazzi.mp3",
+        audio: "https://www.dropbox.com/scl/fi/c1ulf9tuya9cr60f0dy0x/Paparazzi.mp3?rlkey=y7r0x7kix6atwa2lkii3tc7e4&st=borgsc04&dl=1",
         searchString: "Paparazzi "
 
     },
@@ -822,7 +824,7 @@ let playlist = [
         lyrics: "Sher E Panjab ",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/albums/arjan/patandar_album.png",
-        audio: "songs/albums/patandar/Sher E Panjab.mp3",
+        audio: "https://www.dropbox.com/scl/fi/zqjjwvqt9n1rerxu50z6s/Sher-E-Panjab.mp3?rlkey=8b8brnaeyw6amtkzanwne7sf5&st=2k01vutp&dl=1",
         searchString: "Sher E Panjab "
 
     },
@@ -834,7 +836,7 @@ let playlist = [
         lyrics: "Style ",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/albums/arjan/patandar_album.png",
-        audio: "songs/albums/patandar/Style.mp3",
+        audio: "https://www.dropbox.com/scl/fi/cijt0tvs005n9bxfjllao/Style.mp3?rlkey=mm3ohvebsg0s0c5lxvs3oh3dp&st=ydps5h3o&dl=0",
         searchString: "Style "
 
     },
@@ -846,7 +848,7 @@ let playlist = [
         lyrics: "Too Late ",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/albums/arjan/patandar_album.png",
-        audio: "songs/albums/patandar/Too Late.mp3",
+        audio: "https://www.dropbox.com/scl/fi/yjg6ji5jdaqj53zvi8w5i/Too-Late.mp3?rlkey=7dxbh6dzcsyuhbhygzlz71r1p&st=21q8nyys&dl=1",
         searchString: "Too Late "
 
     },
@@ -858,7 +860,7 @@ let playlist = [
         lyrics: "Tu Jdo Auna ",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/albums/arjan/patandar_album.png",
-        audio: "songs/albums/patandar/Tu Jdo Auna.mp3",
+        audio: "https://www.dropbox.com/scl/fi/3ehgnwscdlk13oun8jlsn/Tu-Jdo-Auna.mp3?rlkey=0pbiibuezw11stbtvoh6df020&st=wsoohmin&dl=1",
         searchString: "Tu Jdo Auna "
 
     },
@@ -870,7 +872,7 @@ let playlist = [
         lyrics: "Youngsters ",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/albums/arjan/patandar_album.png",
-        audio: "songs/albums/patandar/Youngsters.mp3",
+        audio: "https://www.dropbox.com/scl/fi/pck2g9f6vnic6bwciayl0/Youngsters.mp3?rlkey=n99c0ehfc6mbu22dinra0vt55&st=wji2z8el&dl=1",
         searchString: "Youngsters "
 
     },
@@ -882,7 +884,7 @@ let playlist = [
         lyrics: "Zigana ",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/albums/arjan/patandar_album.png",
-        audio: "songs/albums/patandar/Zigana.mp3",
+        audio: "https://www.dropbox.com/scl/fi/79jpek4y0z2ckoxbz98wb/Zigana.mp3?rlkey=lk66okrb6iwygc08rbxu4trrw&st=yaxrbhpj&dl=1",
         searchString: "Zigana "
 
     },
@@ -2342,7 +2344,7 @@ let playlist = [
         lyrics: "Fella's Forever",
         artistPhoto: "covers/Hustinder.png",
         cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "songs/albums/bhadauria/fellas forever.mp3",
+        audio: "https://www.dropbox.com/scl/fi/c8brtrd60yuwv11wy6an1/fellas-forever.mp3?rlkey=6c5l9mkcxgt7ukj03bwvm8ks7&st=f9i21x36&dl=1",
         searchString: "fellas forever"
     },//13
     {
@@ -2353,7 +2355,7 @@ let playlist = [
         lyrics: "Queen's Gambit",
         artistPhoto: "covers/Hustinder.png",
         cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "songs/albums/bhadauria/queen s gambit.mp3",
+        audio: "https://www.dropbox.com/scl/fi/ci8mqvxrpzbogh9z3n7e0/queen-s-gambit.mp3?rlkey=dtrqqozxwn1g0yzodtyuooat5&st=kals40bx&dl=1",
         searchString: "queen's gambit"
     },//14
     {
@@ -2364,7 +2366,7 @@ let playlist = [
         lyrics: "Don't You Dare",
         artistPhoto: "covers/Hustinder.png",
         cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "songs/albums/bhadauria/don t you dare.mp3",
+        audio: "https://www.dropbox.com/scl/fi/6z1cxpb3epa954k9bjzia/don-t-you-dare.mp3?rlkey=guar5bnksbvk1n3j0ej8we0gm&st=bt01fpjm&dl=1",
         searchString: "don't you dare"
     },//15
     {
@@ -2375,7 +2377,7 @@ let playlist = [
         lyrics: "Mittra'n De Dere",
         artistPhoto: "covers/Hustinder.png",
         cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "songs/albums/bhadauria/mittran de dere.mp3",
+        audio: "https://www.dropbox.com/scl/fi/i3dxsx8uzcvc7b7j37ofn/mittran-de-dere.mp3?rlkey=yqv4n65ysokhqddtcey5ft01y&st=8k1vnfz0&dl=1",
         searchString: "mitran de dere"
     },//16
     {
@@ -2386,7 +2388,7 @@ let playlist = [
         lyrics: "Step Bhull Gyi",
         artistPhoto: "covers/Hustinder.png",
         cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "songs/albums/bhadauria/step bhull gyi.mp3",
+        audio: "https://www.dropbox.com/scl/fi/dvk3022dpi8yv7h0tqckr/step-bhull-gyi.mp3?rlkey=mmqiv27hqaiznbl9h12wxyvji&st=9sthu95u&dl=1",
         searchString: "step bhull gyi"
     },//17
 
@@ -2411,7 +2413,7 @@ let playlist = [
         lyrics: "White Money ",
         artistPhoto: "covers/Hustinder.png",
         cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "songs/albums/bhadauria/white money.mp3",
+        audio: "https://www.dropbox.com/scl/fi/4uu48z570maovzxsuibwy/white-money.mp3?rlkey=ivy9hq2z8tzf69leb77q0g1ov&st=w4sopvaf&dl=1",
         searchString: "white money"
     },//18
     {
@@ -2422,7 +2424,7 @@ let playlist = [
         lyrics: "We Living It ",
         artistPhoto: "covers/Hustinder.png",
         cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "songs/albums/bhadauria/we living it.mp3",
+        audio: "https://www.dropbox.com/scl/fi/48xephd6suo3vg05851wi/we-living-it.mp3?rlkey=chrraiv6ynz2wkqyowirp2be8&st=vs01sasr&dl=1",
         searchString: "we living it"
     },//19
     {
@@ -2433,7 +2435,7 @@ let playlist = [
         lyrics: "Kdo'n Nachana",
         artistPhoto: "covers/Hustinder.png",
         cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "songs/albums/bhadauria/kdon nachana.mp3",
+        audio: "https://www.dropbox.com/scl/fi/003yd7psykf30c0h9l4kk/kdon-nachana.mp3?rlkey=qd3q2l0cnu4gd1j2avaooc7px&st=1gqiocql&dl=1",
         searchString: "kdo nachna"
     },//20
     {
@@ -2444,7 +2446,7 @@ let playlist = [
         lyrics: "Move Your Car ",
         artistPhoto: "covers/Hustinder.png",
         cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "songs/albums/bhadauria/move your car.mp3",
+        audio: "https://www.dropbox.com/scl/fi/zxkon7kzc5exddskukcfd/move-your-car.mp3?rlkey=syee6216tl8an0i3y9qdzmuo5&st=aa9d0ruj&dl=1",
         searchString: "move your car"
     },//21
     {
@@ -2455,7 +2457,7 @@ let playlist = [
         lyrics: "Bhadauria  ",
         artistPhoto: "covers/Hustinder.png",
         cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "songs/albums/bhadauria/bhadauria.mp3",
+        audio: "https://www.dropbox.com/scl/fi/q4ztercwnndkn59vkor8u/bhadauria.mp3?rlkey=43e1d5227aja8b1w6ta12s0zn&st=fyg1q3c4&dl=1",
         searchString: "bhadauria"
     },
 
