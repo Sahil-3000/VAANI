@@ -3,8 +3,10 @@
     z-index: 4000;
     top: 50%;
     left: 50%;
-    width: 100px;
-    height: 100px;
+    width: 10vw; /* Adjust size based on viewport width */
+    height: 10vw; /* Adjust size based on viewport width */
+    max-width: 100px; /* Maximum size */
+    max-height: 100px; /* Maximum size */
     border-radius: 50%;
     border: 7px solid #c3bebe;
     border-top-color: rgb(31, 99, 99);
