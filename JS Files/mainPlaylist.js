@@ -326,17 +326,7 @@ let playlistsMain = [
                 searchString: "arjan songs tyaar tyar ready tyar hi ni hoye"
             },//song9
 
-            {
-                title: "Heer      ",
-                artist: "Arjan Dhillon    ",
-                lyrics: "Heer",
-                artistPhoto: "covers/Arjan Dhillon.png",
-                cover: "covers/heer_arjan dhillon.png",
-                audio: "songs/singles/heer_arjan dhillon.mp3",
-                searchString: "arjan songs"
-            },//song9
-           
-
+     
 
             //Dhanda
             {

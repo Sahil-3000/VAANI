@@ -1688,17 +1688,7 @@ let playlist = [
         searchString: " a for arjan"
     },
 
-    {
-        title: "Heer    ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon    ",
-        lyrics: "Heer",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/a for arjan_album.png",
-        audio: "https://www.dropbox.com/scl/fi/xk3artjz3nxc5zjeg31sm/Heer__feat._Mxrci_-0.m4a?rlkey=obu0ynt98abj6tflhc68geqev&st=do6ifc9p&dl=1",
-        searchString: " a for arjan"
-    },
+    
 
     {
         title: "Don    ",
