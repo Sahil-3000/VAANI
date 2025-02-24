@@ -3412,7 +3412,7 @@ let playlist = [
         album:"",
         artist: "Sahil    ",
         lyrics: "Geet Pyar K(V2)",
-        artistPhoto: "covers/artists/Sahil.png",
+        artistPhoto: "covers/artists/Sahil.jpeg",
         cover: "covers/singles/sahil/Geet Pyar K(V2).png",
         audio: "https://www.dropbox.com/scl/fi/o2lofn0sb2wdj4igeqhpm/Geet-Pyar-K-V2.mp3?rlkey=pyeru0jdn9gk0lyw7ywghbpke&st=7nkw6g3z&dl=1",
         searchString: "Geet Pyar K(V2) geet pyaar k git pyar k geet pyar ke"
