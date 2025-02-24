@@ -113,7 +113,7 @@ let playlist = [
         lyrics: "My Fellas",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/singles/arjan/My Fellas.png",
-        audio: "",
+        audio: "https://www.dropbox.com/scl/fi/mumtyl5ey9gq1e7lw7iyk/My-Fellas.mp3?rlkey=lstdj6wxjzuwc70gyjldobxeu&st=gt86xwp4&dl=1",
         searchString: "My Fellas arjan songs"
     },
     // {
@@ -139,39 +139,39 @@ let playlist = [
         audio: "https://www.dropbox.com/scl/fi/eavjg52pqnv2fxsz5ulrk/Jaan-Djjohal.fm.mp3?rlkey=7na9aiv2jkvmhbfemz6bpbikb&st=fkue6zpf&dl=1",
         searchString: "Jaan Jan arjan songs"
     },
-    {
-        title: "     ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon    ",
-        lyrics: "",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/singles/arjan/.png",
-        audio: "",
-        searchString: " arjan songs"
-    },
-    {
-        title: "     ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon    ",
-        lyrics: "",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/singles/arjan/.png",
-        audio: "",
-        searchString: " arjan songs"
-    },
-    {
-        title: "Heer      ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon    ",
-        lyrics: "Heer",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/heer_arjan dhillon.png",
-        audio: "songs/singles/heer_arjan dhillon.mp3",
-        searchString: "arjan songs"
-    },
+    // {
+    //     title: "     ",
+    //     videoID:"",
+    //     album:"",
+    //     artist: "Arjan Dhillon    ",
+    //     lyrics: "",
+    //     artistPhoto: "covers/Arjan Dhillon.png",
+    //     cover: "covers/singles/arjan/.png",
+    //     audio: "",
+    //     searchString: " arjan songs"
+    // },
+    // {
+    //     title: "     ",
+    //     videoID:"",
+    //     album:"",
+    //     artist: "Arjan Dhillon    ",
+    //     lyrics: "",
+    //     artistPhoto: "covers/Arjan Dhillon.png",
+    //     cover: "covers/singles/arjan/.png",
+    //     audio: "",
+    //     searchString: " arjan songs"
+    // },
+    // {
+    //     title: "Heer      ",
+    //     videoID:"",
+    //     album:"",
+    //     artist: "Arjan Dhillon    ",
+    //     lyrics: "Heer",
+    //     artistPhoto: "covers/Arjan Dhillon.png",
+    //     cover: "covers/heer_arjan dhillon.png",
+    //     audio: "https://www.dropbox.com/scl/fi/i8xrdafqdbn2csjrdjmfw/heer_arjan-dhillon.mp3?rlkey=xbufpu1y44kifuzh04ul2hmpr&st=eokxsj5g&dl=1",
+    //     searchString: "arjan songs"
+    // },
     {
         title: "Punjab Intro      ",
         videoID:"",
@@ -180,7 +180,7 @@ let playlist = [
         lyrics: "Punjab Intro",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/punjab intro_arjan dhillon.png",
-        audio: "songs/singles/punjab intro_arjan dhillon.mp3",
+        audio: "https://www.dropbox.com/scl/fi/wzq33j8w6f4p8gmtqekq3/punjab-intro_arjan-dhillon.mp3?rlkey=k28r5zfvimueqxxccjpypso9o&st=ri1b89xm&dl=1",
         searchString: "arjan songs"
     },//song9
     {
@@ -953,7 +953,7 @@ let playlist = [
         lyrics: "My Fellas",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/singles/arjan/My Fellas.png",
-        audio: "",
+        audio: "https://www.dropbox.com/scl/fi/mumtyl5ey9gq1e7lw7iyk/My-Fellas.mp3?rlkey=lstdj6wxjzuwc70gyjldobxeu&st=gu94rmt7&dl=1",
         searchString: "My Fellas arjan songs"
     },
     // {
@@ -1009,20 +1009,10 @@ let playlist = [
         lyrics: "Heer",
         artistPhoto: "covers/Arjan Dhillon.png",
         cover: "covers/heer_arjan dhillon.png",
-        audio: "songs/singles/heer_arjan dhillon.mp3",
+        audio: "https://www.dropbox.com/scl/fi/i8xrdafqdbn2csjrdjmfw/heer_arjan-dhillon.mp3?rlkey=xbufpu1y44kifuzh04ul2hmpr&st=30nul2g2&dl=1",
         searchString: "arjan songs"
     },
-    {
-        title: "Punjab Intro      ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon    ",
-        lyrics: "Punjab Intro",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/punjab intro_arjan dhillon.png",
-        audio: "songs/singles/punjab intro_arjan dhillon.mp3",
-        searchString: "arjan songs"
-    },//song9
+    
     {
         title: "Why Arjan      ",
         videoID:"",

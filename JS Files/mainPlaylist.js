@@ -335,16 +335,7 @@ let playlistsMain = [
                 audio: "songs/singles/heer_arjan dhillon.mp3",
                 searchString: "arjan songs"
             },//song9
-            {
-                title: "Punjab Intro      ",
-                artist: "Arjan Dhillon    ",
-                lyrics: "Punjab Intro",
-                artistPhoto: "covers/Arjan Dhillon.png",
-                cover: "covers/punjab intro_arjan dhillon.png",
-                audio: "songs/singles/punjab intro_arjan dhillon.mp3",
-                searchString: "arjan songs"
-            },//song9
-
+           
 
 
             //Dhanda

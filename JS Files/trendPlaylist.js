@@ -491,18 +491,7 @@ let trendPlaylist = [
 
             //Arjan Dhillon : Singles
 
-            {
-                title: "Punjab Intro      ",
-                videoID: "",
-                album: "",
-                artist: "Arjan Dhillon    ",
-                lyrics: "Punjab Intro",
-                artistPhoto: "covers/Arjan Dhillon.png",
-                cover: "covers/singles/arjan/punjab intro_arjan dhillon.png",
-                audio: "songs/singles/punjab intro_arjan dhillon.mp3",
-                searchString: "arjan songs"
-            },//song9
-
+         
             {
                 title: "Thabba Ku Zulfan      ",
                 videoID: "",
