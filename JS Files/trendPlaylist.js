@@ -61,6 +61,17 @@ let trendPlaylist = [
 
             //Hustinder: Singles
             {
+                title: "Hard It       ",
+                videoID: "",
+                album: "",
+                artist: "Hustinder     ",
+                lyrics: "Hard It",
+                artistPhoto: "covers/Hustinder.png",
+                cover: "covers/singles/hustinder/Hard It.png",
+                audio: "https://www.dropbox.com/scl/fi/vt9n240tidcnill8y0bvb/Hard-Hit-Hustinder-DJJOhAL.Com.mp3?rlkey=rlgp6jlnwjqbsrj0n8ovx9ld7&st=50mlb3a6&dl=1",
+                searchString: "Hard It hustinder"
+            },
+            {
                 title: "Sara Pind Mittran Da       ",
                 videoID: "",
                 album: "",
