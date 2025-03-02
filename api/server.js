@@ -10,6 +10,8 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors()); // Enable CORS
 
+app.use('/css', express.static(path.join(__dirname, 'CSS Files')));
+
 // MongoDB Connection
 mongoose.connect(process.env.MONGODB_URI)
 .then(() => console.log("✅ MongoDB Connected"))
