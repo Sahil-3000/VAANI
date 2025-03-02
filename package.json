@@ -19,5 +19,8 @@
   "keywords": [],
   "author": "Sahil",
   "license": "ISC",
-  "description": "VAANI: A music streaming website."
+  "description": "VAANI: A music streaming website.",
+  "devDependencies": {
+    "@types/node": "^22.13.8"
+  }
 }
