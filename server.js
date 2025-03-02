@@ -19,7 +19,7 @@ app.use('', express.static(path.join(__dirname, 'singles')));
 app.use(express.static(__dirname)); // Serve static files from the root directory
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/vaani-login")
+mongoose.connect(process.env.MONGODB_URI )  //|| "mongodb://localhost:27017/vaani-login"
     .then(() => console.log('MongoDB connected'))
     .catch(err => {
         console.error('MongoDB connection error:', err);
