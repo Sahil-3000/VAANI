@@ -2072,6 +2072,17 @@ let playlist = [
         searchString: "Victer"
     },//71
     {
+        title: "Luna      ",
+        videoID:"",
+        album:"MoonChild Era",
+        artist: " Diljit Dosanjh",
+        lyrics: "Luna",
+        artistPhoto: "covers/Diljit Dosanjh.png",
+        cover: "covers/albums/diljit/moonchild era_album.png",
+        audio: "https://www.dropbox.com/scl/fi/2fz8d6an1lzpldw7xvtbi/Luna.mp3?rlkey=s3izwn4xn3hyxfuiugfwunj0f&st=3zyb41p8&dl=1",
+        searchString: "Luna"
+    },//71
+    {
         title: "White Brown Black      ",
         videoID:"",
         album:"",
@@ -4213,4 +4224,4 @@ let playlist = [
 //
 // window.playlist = playlist; // Default to the original playlist if nothing is stored
 module.exports = { playlist };
-module.exports = { defaultPlaylist };
+// module.exports = { defaultPlaylist };

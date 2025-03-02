@@ -2209,6 +2209,72 @@ let libraryPlaylists = [
     },
 
     {
+        id: 20,
+        title: "The Revolution    ",
+        artist: "Arjan Dhillon    ",
+        cover: "covers/albums/arjan/the revolution_album.png",
+        songs: [
+            //Arjan Dhillon: Revolution
+            {
+                title: "Gears    ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Gears",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/the revolution_album.png",
+                audio: "https://www.dropbox.com/scl/fi/puau9m9pzqucumjtnl66i/Gears-Arjan-Dhillon.mp3?rlkey=goouga8vpo7a0yx2dci6927zs&st=hqs9zyjc&dl=1",
+                searchString: "Gears The Revolution"
+            },
+            {
+                title: "Kde Kde    ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Kde Kde",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/the revolution_album.png",
+                audio: "https://www.dropbox.com/scl/fi/u64hejmptc1d8ehqm6k62/Kde-Kde-Arjan-Dhillon.mp3?rlkey=m02o7725e1hj6bgi63ci2p8fg&st=w0jb04gl&dl=1",
+                searchString: "Kde Kde The Revolution"
+            },
+            {
+                title: "Narazgi    ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Narazgi",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/the revolution_album.png",
+                audio: "https://www.dropbox.com/scl/fi/lq0o3mq8n1dcul4woe53m/Narazgi-Arjan-Dhillon.mp3?rlkey=508wrmx9g83d76im7fqo5purl&st=ioolec9q&dl=1",
+                searchString: "Narazgi The Revolution"
+            },
+            {
+                title: "Petrol    ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Petrol",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/the revolution_album.png",
+                audio: "https://www.dropbox.com/scl/fi/2ehj77th175f5ryetvk47/Petrol-Arjan-Dhillon.mp3?rlkey=b6m9qjs4a5etvnxmjx7t0skqm&st=mk66znc0&dl=1",
+                searchString: "Petrol The Revolution"
+            },
+            {
+                title: "Ballin'    ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Ballin'",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/the revolution_album.png",
+                audio: "https://www.dropbox.com/scl/fi/3jdyr07m59cg0y10uxb1m/Ballin-Arjan-Dhillon.mp3?rlkey=rmpbgkc3l40udejpii39q14ti&st=or3448o7&dl=1",
+                searchString: "Ballin' The Revolution"
+            },
+            {
+                title: "Scheme    ",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Scheme",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/the revolution_album.png",
+                audio: "https://www.dropbox.com/scl/fi/9u5slrysdjurd5jy42pnm/Scheme-Arjan-Dhillon.mp3?rlkey=vvw03g2zfc3vgvzqjup4zhn7l&st=twko4zm1&dl=1",
+                searchString: "Scheme The Revolution"
+            },
+
+        ]
+        
+    },
+
+    {
         id: 5,
         title: "The Beatles    ",
         artist: "The Beatles    ",
