@@ -11,10 +11,7 @@ app.use(bodyParser.json());
 app.use(cors()); // Enable CORS
 
 // MongoDB Connection
-mongoose.connect(process.env.MONGODB_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
+mongoose.connect(process.env.MONGODB_URI)
 .then(() => console.log("✅ MongoDB Connected"))
 .catch((err) => {
   console.error("❌ MongoDB connection error:", err);
@@ -94,6 +91,9 @@ app.post("/api/forget-password", async (req, res) => {
     res.status(500).json({ success: false, message: "Server error" });
   }
 });
+
+
+
 
 // Export for Vercel
 module.exports = app;
