@@ -4221,7 +4221,7 @@ const playlist = [
         title: "Not Like Us    ", 
         videoID:  "Not Like Us",    
         album:  "",
-        artist: "Not Like Us    ",
+        artist: "Kendrick Lamar    ",
         lyrics:"Not Like Us",        
         artistPhoto: "covers/artists/Kendrick Lamar.png", 
         cover: "covers/singles/kendrick/Not Like US.png", 
