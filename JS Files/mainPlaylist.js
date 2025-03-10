@@ -1027,15 +1027,7 @@ let playlistsMain = [
                 audio: "songs/singles/velly yaar_hustinder.mp3",
                 searchString: "Victer"
             },//song3
-            {
-                title: "Watching You       ",
-                artist: "Hustinder     ",
-                lyrics: "Watching You",
-                artistPhoto: "covers/Hustinder.png",
-                cover: "covers/track3.jpg",
-                audio: "songs/singles/watching you_hustinder.mp3",
-                searchString: "Victer"
-            },//song3
+            
             {
                 title: "Yari Tod Layi       ",
                 artist: "Hustinder     ",

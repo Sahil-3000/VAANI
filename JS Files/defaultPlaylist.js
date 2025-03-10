@@ -1,18 +1,17 @@
+const playlist = [
 
-let playlist = [
-
-    {
-        title: "Watching You      ",
-        videoID:"",
-        album:"Seasons",
-        artist: "Hustinder    ",
-        lyrics: "Watching You  ",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/seasons_album.png",
-        audio: "https://www.dropbox.com/scl/fi/3nbvjhymja39fby0b2q4o/Watching-You-Hustinder-DJJOhAL.Com.mp3?rlkey=dsnfshv9wun69bgstdja71x66&st=5ud8pdfl&dl=1",
-        searchString: "Watching You seasons"
-    }
-    ,
+    // {
+    //     title: "Watching You      ",
+    //     videoID:"",
+    //     album:"Seasons",
+    //     artist: "Hustinder    ",
+    //     lyrics: "Watching You  ",
+    //     artistPhoto: "covers/Hustinder.png",
+    //     cover: "covers/albums/hustinder/seasons_album.png",
+    //     audio: "https://www.dropbox.com/scl/fi/3nbvjhymja39fby0b2q4o/Watching-You-Hustinder-DJJOhAL.Com.mp3?rlkey=dsnfshv9wun69bgstdja71x66&st=5ud8pdfl&dl=1",
+    //     searchString: "Watching You seasons"
+    // }
+    // ,
     {
         title: "Still Living      ",
         videoID:"",
@@ -4216,6 +4215,18 @@ let playlist = [
         cover: "covers/singles/akhil/khaab_akhil.png", 
         audio: "https://www.dropbox.com/scl/fi/e5c7gcbwtse6xf3koaqa5/Khaab-Akhil-128-Kbps.mp3?rlkey=nkbwlmyb5kztgrecqu2rgbtfq&st=57w98dvi&dl=1", 
         searchString: "Khaab "
+    }
+
+    ,{
+        title: "Not Like Us    ", 
+        videoID:  "Not Like Us",    
+        album:  "",
+        artist: "Not Like Us    ",
+        lyrics:"Not Like Us",        
+        artistPhoto: "covers/artists/Kendrick Lamar.png", 
+        cover: "covers/singles/kendrick/Not Like US.png", 
+        audio: "https://www.dropbox.com/scl/fi/ell9jlkuo6z762zc26xws/Not-Like-Us_VAANI.mp3?rlkey=s46nvnz1tao6r73d54j12740t&st=9hb5c7lo&dl=1", 
+        searchString: "Not Like Us "
     }
 
 ];

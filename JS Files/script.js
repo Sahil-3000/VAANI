@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         VaaniName.style.cursor = "none";
     }
     homeButton.click();
+    fetchJsonPlaylist(); // load dynamic JSON playlist
 });
 
 
@@ -366,14 +367,23 @@ document.getElementById("search-btn").addEventListener("click", function () {
                 (song.searchString?.toLowerCase() || "").includes(query)
             )
         );
+        // New: Filter results from jsonPlaylist
+        const jsonPlaylistResults = (jsonPlaylist || []).filter(song =>
+            (song.title?.toLowerCase() || "").includes(query) ||
+            (song.artist?.toLowerCase() || "").includes(query) ||
+            (song.searchString?.toLowerCase() || "").includes(query)
+        );
 
-
-
-
-
-
-        // Combine results
-        const results = [...defaultPlaylist, ...mainPlaylistResults, ...trendPlaylistResults, ...recoPlaylistResults, ...libPlaylistResults, ...podcastResults];
+        // Combine all results (existing arrays plus new jsonPlaylistResults)
+        const results = [
+            ...defaultPlaylist,
+            ...mainPlaylistResults,
+            ...trendPlaylistResults,
+            ...recoPlaylistResults,
+            ...libPlaylistResults,
+            ...podcastResults,
+            ...jsonPlaylistResults
+        ];
 
         const uniqueResults = Array.from(
             new Map(
@@ -575,7 +585,6 @@ function displayResults(results) {
 //             openPlaylistContainerMain.style.display = "block";
 //             librarySection.style.display = "none";
 //         }
-        
 //     } else {
 //         // Default state: show the library
 //         openPlaylistContainerMain.style.display = "none";
@@ -1490,3 +1499,58 @@ async function handleLogin(event) {
         alert(result.message);
     }
 }
+
+// NEW: Global variable to hold the JSON playlist
+let jsonPlaylist = [];
+
+// NEW: Fetch the JSON playlist from the server
+function fetchJsonPlaylist() {
+    fetch('/api/jsonPlaylist')
+        .then(response => response.json())
+        .then(data => {
+            jsonPlaylist = data; // assuming data is an array of song objects
+            displayJsonPlaylist();
+        })
+        .catch(error => console.error("Error loading jsonPlaylist:", error));
+}
+
+// NEW: Render the jsonPlaylist into the designated container
+function displayJsonPlaylist() {
+    const container = document.getElementById("json-playlist-container");
+    if (!container) return; // Ensure container exists
+    container.innerHTML = ""; // Clear previous content
+
+    jsonPlaylist.forEach((song, index) => {
+        // Create a song element
+        const songDiv = document.createElement("div");
+        songDiv.classList.add("json-song-item");
+        // Song cover
+        const songCover = document.createElement("img");
+        songCover.src = song.cover;
+        songCover.alt = song.title;
+        songDiv.appendChild(songCover);
+        // Song title and artist
+        const songInfo = document.createElement("div");
+        songInfo.innerHTML = `<h4>${song.title}</h4><p>${song.artist}</p>`;
+        songDiv.appendChild(songInfo);
+        // Play button
+        const playButton = document.createElement("button");
+        playButton.textContent = "Play";
+        playButton.addEventListener("click", (e) => {
+            // Stop event propagation to avoid duplicate listeners
+            e.stopPropagation();
+            currentPlaylist = jsonPlaylist;
+            currentTrackIndex = index;
+            loadTrack(index);
+            audio.load();
+            audio.play();
+            playSong(song.audio);
+        });
+        songDiv.appendChild(playButton);
+
+        // Append to container
+        container.appendChild(songDiv);
+    });
+}
+
+

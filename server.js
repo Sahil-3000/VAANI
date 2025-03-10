@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const path = require('path');
 const crypto = require('crypto');
+const fs = require('fs'); // ensure fs is required
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -123,6 +124,21 @@ app.get('/register.html', (req, res) => {
 // Serve the forget password page
 app.get('/forget-password.html', (req, res) => {
     res.sendFile(path.join(__dirname, 'HTML Files', 'forget-password.html'));
+});
+
+const defaultPlaylistPath = path.join(__dirname, 'JSON Files', 'defaultPlaylist.json');
+
+// Add an endpoint to serve the default playlist dynamically
+app.get('/api/jsonPlaylist', (req, res) => {
+    fs.readFile(defaultPlaylistPath, 'utf8', (err, data) => {
+        if (err) return res.status(500).json({ error: 'Cannot read playlist file' });
+        try {
+            const playlistData = JSON.parse(data);
+            res.json(playlistData);
+        } catch (e) {
+            res.status(500).json({ error: 'Invalid JSON' });
+        }
+    });
 });
 
 // Start the server
