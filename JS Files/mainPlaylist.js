@@ -2149,20 +2149,142 @@ let playlistsMain = [
         artist: "The Bealtes",
         cover: "covers/rubber soul.jpg",
         songs: [
-            { title: "If I Needed Someone      ", artist: "The Beatles    ", audio: "songs/singles/if i needed someone.mp3", cover: "covers/rubber soul.jpg" },//13
-            { title: "Norwegian Wood      ", artist: "The Beatles    ", audio: "songs/singles/norwegian wood.mp3", cover: "covers/rubber soul.jpg" },//14
-            { title: "You Won't See Me      ", artist: "The Beatles    ", audio: "songs/singles/you won't see me.mp3", cover: "covers/rubber soul.jpg" },//15
-            { title: "Think For Yourself      ", artist: "The Beatles    ", audio: "songs/singles/think for yourself.mp3", cover: "covers/rubber soul.jpg" },//16
-            { title: "The Word      ", artist: "The Beatles    ", audio: "songs/singles/the word.mp3", cover: "covers/rubber soul.jpg" },//17
-            { title: "Michelle      ", artist: "The Beatles    ", audio: "songs/singles/michelle.mp3", cover: "covers/rubber soul.jpg" },//18
-            { title: "Drive My Car      ", artist: "The Beatles    ", audio: "songs/singles/drive my car.mp3", cover: "covers/rubber soul.jpg" },//19
-            { title: "Girl      ", artist: "The Beatles    ", audio: "songs/singles/girl.mp3", cover: "covers/rubber soul.jpg" },//20
-            { title: "I'm Looking Through You", audio: "songs/singles/i'm looking through you.mp3", cover: "covers/rubber soul.jpg" },//21
-            { title: "In My Life      ", artist: "The Beatles    ", audio: "songs/singles/In My Life.mp3", cover: "covers/rubber soul.jpg" },//22
-            { title: "Wait      ", artist: "The Beatles    ", audio: "songs/singles/wait.mp3", cover: "covers/rubber soul.jpg" },//23
-            { title: "Run For Your Life      ", artist: "The Beatles    ", audio: "songs/singles/run for your life.mp3", cover: "covers/rubber soul.jpg" },//24
-            { title: "Nowhere Man      ", artist: "The Beatles    ", audio: "songs/singles/nowhere man.mp3", cover: "covers/rubber soul.jpg" },//25
-            { title: "What Goes On      ", artist: "The Beatles    ", audio: "songs/singles/what goes on.mp3", cover: "covers/rubber soul.jpg" },//26
+            //The Beatles-Rubber Soul
+            {
+                title: "If I Needed Someone      ",
+                artist: "The Beatles    ",
+                lyrics: "If I Needed Someone",
+                artistPhoto: "covers/The Beatles.png",
+                cover: "covers/rubber soul.jpg",
+                audio: "https://www.dropbox.com/scl/fi/dj8w7axlafzuq95rzpesi/if-i-needed-someone.mp3?rlkey=j0s7yorjldwf7rmjbddu25qmj&st=q2iv3o3x&dl=1",
+                searchString: "Victer"
+            },//13
+            {
+                title: "Norwegian Wood      ",
+                artist: "The Beatles    ",
+                lyrics: "Norwegian Wood",
+                artistPhoto: "covers/The Beatles.png",
+                cover: "covers/rubber soul.jpg",
+                audio: "https://www.dropbox.com/scl/fi/jnlqjnxrg8toood75np27/norwegian-wood.mp3?rlkey=a3z9sagojmq4vduds3yemvaro&st=czfhdgiy&dl=1",
+                searchString: "Victer"
+            },//14
+            {
+                title: "You Won't See Me      ",
+                artist: "The Beatles    ",
+                lyrics: "You Won't See Me",
+                artistPhoto: "covers/The Beatles.png",
+                cover: "covers/rubber soul.jpg",
+                audio: "https://www.dropbox.com/scl/fi/q9iexzltau612xvkib4db/you-won-t-see-me.mp3?rlkey=jzl9ypqr9y4s8r99rh0pwnpxy&st=lyqyheyy&dl=1",
+                searchString: "Victer"
+            },//15
+            {
+                title: "Think For Yourself      ",
+                artist: "The Beatles    ",
+                lyrics: "Think For Yourself",
+                artistPhoto: "covers/The Beatles.png",
+                cover: "covers/rubber soul.jpg",
+                audio: "https://www.dropbox.com/scl/fi/fiquxck9gmwo6lrfdtknb/think-for-yourself.mp3?rlkey=mbn239xwlbgb3thoq0c0on4aa&st=zelkce6i&dl=1",
+                searchString: "Victer"
+            },//16
+            {
+                title: "The Word      ",
+                artist: "The Beatles    ",
+                lyrics: "The Word",
+                artistPhoto: "covers/The Beatles.png",
+                cover: "covers/rubber soul.jpg",
+                audio: "https://www.dropbox.com/scl/fi/6sn37g7v2b10p1ifx2n5l/the-word.mp3?rlkey=g52b5texmtetm74cdivpske59&st=wmvl13s9&dl=1",
+                searchString: "Victer"
+            },//17
+            {
+                title: "Michelle      ",
+                artist: "The Beatles    ",
+                lyrics: "Michelle",
+                artistPhoto: "covers/The Beatles.png",
+                cover: "covers/rubber soul.jpg",
+                audio: "https://www.dropbox.com/scl/fi/13z953pltixulmqpneewx/michelle.mp3?rlkey=e1uigeul0p8vyhs596p29w4lg&st=3ypjme3w&dl=1",
+                searchString: "Victer"
+            },//18
+            {
+                title: "Drive My Car      ",
+                artist: "The Beatles    ",
+                lyrics: "Drive My Car",
+                artistPhoto: "covers/The Beatles.png",
+                cover: "covers/rubber soul.jpg",
+                audio: "https://www.dropbox.com/scl/fi/g5ttr8x437neepaefw5vc/drive-my-car.mp3?rlkey=b56sh147l3l2a2c96blqr3xcs&st=l2ho4m7b&dl=1",
+                searchString: "Victer"
+            },//19
+            {
+                title: "Girl      ",
+                artist: "The Beatles    ",
+                lyrics: "Girl",
+                artistPhoto: "covers/The Beatles.png",
+                cover: "covers/rubber soul.jpg",
+                audio: "https://www.dropbox.com/scl/fi/oujg5yfnt7xqfnijh0i3e/girl.mp3?rlkey=m683gyzzd1zv9amnia5kfm0je&st=1ibfwb5n&dl=1",
+                searchString: "Victer"
+            },//20
+            {
+                title: "I'm Looking Through You",
+                lyrics: "I'm Looking Through You",
+                artistPhoto: "covers/The Beatles.png      ",
+                artist: "The Beatles    ",
+                cover: "covers/rubber soul.jpg",
+                audio: "https://www.dropbox.com/scl/fi/ffjqo7z95cs1o22du21o1/i-m-looking-through-you.mp3?rlkey=ba9tej3jo22lzfk4ssqcl7yj8&st=2te42r5i&dl=1",
+                searchString: "Victer"
+            },//21
+            {
+                title: "In My Life      ",
+                artist: "The Beatles    ",
+                lyrics: "In My Life",
+                artistPhoto: "covers/The Beatles.png",
+                cover: "covers/rubber soul.jpg",
+                audio: "https://www.dropbox.com/scl/fi/tsnhat60tlgjzy26z43s9/in-my-life.mp3?rlkey=lg8h4ksgc36bnpvnblub7c782&st=xj4un7y4&dl=1",
+                searchString: "Victer"
+            },//22
+            {
+                title: "Wait      ",
+                artist: "The Beatles    ",
+                lyrics: "Wait",
+                artistPhoto: "covers/The Beatles.png",
+                cover: "covers/rubber soul.jpg",
+                audio: "https://www.dropbox.com/scl/fi/88posk1ffus75novewyc8/wait.mp3?rlkey=185ossbu81yfc15wd0p4g8qwd&st=vas6su5w&dl=1",
+                searchString: "Victer"
+            },//23
+            {
+                title: "Run For Your Life      ",
+                artist: "The Beatles    ",
+                lyrics: "Run For Your Life",
+                artistPhoto: "covers/The Beatles.png",
+                cover: "covers/rubber soul.jpg",
+                audio: "https://www.dropbox.com/scl/fi/xol4eaxpow4f8iavtpt22/run-for-your-life.mp3?rlkey=yg8clcpzxskpdf5elpznod5s9&st=oxjo4mss&dl=1",
+                searchString: "Victer"
+            },//24
+            {
+                title: "Nowhere Man      ",
+                artist: "The Beatles    ",
+                lyrics: "Nowhere Man",
+                artistPhoto: "covers/The Beatles.png",
+                cover: "covers/rubber soul.jpg",
+                audio: "https://www.dropbox.com/scl/fi/i23lxpjqgl9hb6tmihody/nowhere-man.mp3?rlkey=quzdpsgp1bosuld97jnklvijs&st=3su7todd&dl=1",
+                searchString: "Victer"
+            },//25
+            {
+                title: "What Goes On      ",
+                artist: "The Beatles    ",
+                lyrics: "What Goes On",
+                artistPhoto: "covers/The Beatles.png",
+                cover: "covers/rubber soul.jpg",
+                audio: "https://www.dropbox.com/scl/fi/zl92g29c1kat1y2ee73zf/what-goes-on.mp3?rlkey=0irckghmwdnj2u1e2r5srvhqn&st=b1wxl8m4&dl=1",
+                searchString: "Victer"
+            },//26
+            {
+                title: "Martha My Dear      ",
+                artist: "The Beatles    ",
+                lyrics: "Martha My Dear",
+                artistPhoto: "covers/The Beatles.png",
+                cover: "covers/rubber soul.jpg",
+                audio: "https://www.dropbox.com/scl/fi/biz3i5qixqw4zcu9umc7w/martha-my-dear.mp3?rlkey=nuq2tx3yogm5ld28kf77zdhm0&st=vtaxjsr4&dl=1",
+                searchString: "Victer"
+            },//26
 
         ]
     },

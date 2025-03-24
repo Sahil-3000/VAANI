@@ -12,7 +12,7 @@ let libraryPlaylists = [
                 lyrics: "If I Needed Someone",
                 artistPhoto: "covers/The Beatles.png",
                 cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/if i needed someone.mp3",
+                audio: "https://www.dropbox.com/scl/fi/dj8w7axlafzuq95rzpesi/if-i-needed-someone.mp3?rlkey=j0s7yorjldwf7rmjbddu25qmj&st=q2iv3o3x&dl=1",
                 searchString: "Victer"
             },//13
             {
@@ -21,7 +21,7 @@ let libraryPlaylists = [
                 lyrics: "Norwegian Wood",
                 artistPhoto: "covers/The Beatles.png",
                 cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/norwegian wood.mp3",
+                audio: "https://www.dropbox.com/scl/fi/jnlqjnxrg8toood75np27/norwegian-wood.mp3?rlkey=a3z9sagojmq4vduds3yemvaro&st=czfhdgiy&dl=1",
                 searchString: "Victer"
             },//14
             {
@@ -30,7 +30,7 @@ let libraryPlaylists = [
                 lyrics: "You Won't See Me",
                 artistPhoto: "covers/The Beatles.png",
                 cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/you won't see me.mp3",
+                audio: "https://www.dropbox.com/scl/fi/q9iexzltau612xvkib4db/you-won-t-see-me.mp3?rlkey=jzl9ypqr9y4s8r99rh0pwnpxy&st=lyqyheyy&dl=1",
                 searchString: "Victer"
             },//15
             {
@@ -39,7 +39,7 @@ let libraryPlaylists = [
                 lyrics: "Think For Yourself",
                 artistPhoto: "covers/The Beatles.png",
                 cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/think for yourself.mp3",
+                audio: "https://www.dropbox.com/scl/fi/fiquxck9gmwo6lrfdtknb/think-for-yourself.mp3?rlkey=mbn239xwlbgb3thoq0c0on4aa&st=zelkce6i&dl=1",
                 searchString: "Victer"
             },//16
             {
@@ -48,7 +48,7 @@ let libraryPlaylists = [
                 lyrics: "The Word",
                 artistPhoto: "covers/The Beatles.png",
                 cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/the word.mp3",
+                audio: "https://www.dropbox.com/scl/fi/6sn37g7v2b10p1ifx2n5l/the-word.mp3?rlkey=g52b5texmtetm74cdivpske59&st=wmvl13s9&dl=1",
                 searchString: "Victer"
             },//17
             {
@@ -57,7 +57,7 @@ let libraryPlaylists = [
                 lyrics: "Michelle",
                 artistPhoto: "covers/The Beatles.png",
                 cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/michelle.mp3",
+                audio: "https://www.dropbox.com/scl/fi/13z953pltixulmqpneewx/michelle.mp3?rlkey=e1uigeul0p8vyhs596p29w4lg&st=3ypjme3w&dl=1",
                 searchString: "Victer"
             },//18
             {
@@ -66,7 +66,7 @@ let libraryPlaylists = [
                 lyrics: "Drive My Car",
                 artistPhoto: "covers/The Beatles.png",
                 cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/drive my car.mp3",
+                audio: "https://www.dropbox.com/scl/fi/g5ttr8x437neepaefw5vc/drive-my-car.mp3?rlkey=b56sh147l3l2a2c96blqr3xcs&st=l2ho4m7b&dl=1",
                 searchString: "Victer"
             },//19
             {
@@ -75,7 +75,7 @@ let libraryPlaylists = [
                 lyrics: "Girl",
                 artistPhoto: "covers/The Beatles.png",
                 cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/girl.mp3",
+                audio: "https://www.dropbox.com/scl/fi/oujg5yfnt7xqfnijh0i3e/girl.mp3?rlkey=m683gyzzd1zv9amnia5kfm0je&st=1ibfwb5n&dl=1",
                 searchString: "Victer"
             },//20
             {
@@ -84,7 +84,7 @@ let libraryPlaylists = [
                 artistPhoto: "covers/The Beatles.png      ",
                 artist: "The Beatles    ",
                 cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/i'm looking through you.mp3",
+                audio: "https://www.dropbox.com/scl/fi/ffjqo7z95cs1o22du21o1/i-m-looking-through-you.mp3?rlkey=ba9tej3jo22lzfk4ssqcl7yj8&st=2te42r5i&dl=1",
                 searchString: "Victer"
             },//21
             {
@@ -93,7 +93,7 @@ let libraryPlaylists = [
                 lyrics: "In My Life",
                 artistPhoto: "covers/The Beatles.png",
                 cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/In My Life.mp3",
+                audio: "https://www.dropbox.com/scl/fi/tsnhat60tlgjzy26z43s9/in-my-life.mp3?rlkey=lg8h4ksgc36bnpvnblub7c782&st=xj4un7y4&dl=1",
                 searchString: "Victer"
             },//22
             {
@@ -102,7 +102,7 @@ let libraryPlaylists = [
                 lyrics: "Wait",
                 artistPhoto: "covers/The Beatles.png",
                 cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/wait.mp3",
+                audio: "https://www.dropbox.com/scl/fi/88posk1ffus75novewyc8/wait.mp3?rlkey=185ossbu81yfc15wd0p4g8qwd&st=vas6su5w&dl=1",
                 searchString: "Victer"
             },//23
             {
@@ -111,7 +111,7 @@ let libraryPlaylists = [
                 lyrics: "Run For Your Life",
                 artistPhoto: "covers/The Beatles.png",
                 cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/run for your life.mp3",
+                audio: "https://www.dropbox.com/scl/fi/xol4eaxpow4f8iavtpt22/run-for-your-life.mp3?rlkey=yg8clcpzxskpdf5elpznod5s9&st=oxjo4mss&dl=1",
                 searchString: "Victer"
             },//24
             {
@@ -120,7 +120,7 @@ let libraryPlaylists = [
                 lyrics: "Nowhere Man",
                 artistPhoto: "covers/The Beatles.png",
                 cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/nowhere man.mp3",
+                audio: "https://www.dropbox.com/scl/fi/i23lxpjqgl9hb6tmihody/nowhere-man.mp3?rlkey=quzdpsgp1bosuld97jnklvijs&st=3su7todd&dl=1",
                 searchString: "Victer"
             },//25
             {
@@ -129,9 +129,19 @@ let libraryPlaylists = [
                 lyrics: "What Goes On",
                 artistPhoto: "covers/The Beatles.png",
                 cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/what goes on.mp3",
+                audio: "https://www.dropbox.com/scl/fi/zl92g29c1kat1y2ee73zf/what-goes-on.mp3?rlkey=0irckghmwdnj2u1e2r5srvhqn&st=b1wxl8m4&dl=1",
                 searchString: "Victer"
             },//26
+            {
+                title: "Martha My Dear      ",
+                artist: "The Beatles    ",
+                lyrics: "Martha My Dear",
+                artistPhoto: "covers/The Beatles.png",
+                cover: "covers/rubber soul.jpg",
+                audio: "https://www.dropbox.com/scl/fi/biz3i5qixqw4zcu9umc7w/martha-my-dear.mp3?rlkey=nuq2tx3yogm5ld28kf77zdhm0&st=vtaxjsr4&dl=1",
+                searchString: "Victer"
+            },//26
+
 
         ]
     },
