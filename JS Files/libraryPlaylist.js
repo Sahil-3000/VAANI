@@ -2211,7 +2211,7 @@ let libraryPlaylists = [
     },
 
     {
-        id: 20,
+        id: 5,
         title: "The Revolution    ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/the revolution_album.png",
@@ -2276,145 +2276,145 @@ let libraryPlaylists = [
         
     },
 
-    {
-        id: 5,
-        title: "The Beatles    ",
-        artist: "The Beatles    ",
-        cover: "covers/The Beatles.png",
-        songs: [
-            //The Beatles-Rubber Soul
-            {
-                title: "If I Needed Someone      ",
-                artist: "The Beatles    ",
-                lyrics: "If I Needed Someone",
-                artistPhoto: "covers/The Beatles.png",
-                cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/if i needed someone.mp3",
-                searchString: "Victer"
-            },//13
-            {
-                title: "Norwegian Wood      ",
-                artist: "The Beatles    ",
-                lyrics: "Norwegian Wood",
-                artistPhoto: "covers/The Beatles.png",
-                cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/norwegian wood.mp3",
-                searchString: "Victer"
-            },//14
-            {
-                title: "You Won't See Me      ",
-                artist: "The Beatles    ",
-                lyrics: "You Won't See Me",
-                artistPhoto: "covers/The Beatles.png",
-                cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/you won't see me.mp3",
-                searchString: "Victer"
-            },//15
-            {
-                title: "Think For Yourself      ",
-                artist: "The Beatles    ",
-                lyrics: "Think For Yourself",
-                artistPhoto: "covers/The Beatles.png",
-                cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/think for yourself.mp3",
-                searchString: "Victer"
-            },//16
-            {
-                title: "The Word      ",
-                artist: "The Beatles    ",
-                lyrics: "The Word",
-                artistPhoto: "covers/The Beatles.png",
-                cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/the word.mp3",
-                searchString: "Victer"
-            },//17
-            {
-                title: "Michelle      ",
-                artist: "The Beatles    ",
-                lyrics: "Michelle",
-                artistPhoto: "covers/The Beatles.png",
-                cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/michelle.mp3",
-                searchString: "Victer"
-            },//18
-            {
-                title: "Drive My Car      ",
-                artist: "The Beatles    ",
-                lyrics: "Drive My Car",
-                artistPhoto: "covers/The Beatles.png",
-                cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/drive my car.mp3",
-                searchString: "Victer"
-            },//19
-            {
-                title: "Girl      ",
-                artist: "The Beatles    ",
-                lyrics: "Girl",
-                artistPhoto: "covers/The Beatles.png",
-                cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/girl.mp3",
-                searchString: "Victer"
-            },//20
-            {
-                title: "I'm Looking Through You",
-                lyrics: "I'm Looking Through You",
-                artistPhoto: "covers/The Beatles.png      ",
-                artist: "The Beatles    ",
-                cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/i'm looking through you.mp3",
-                searchString: "Victer"
-            },//21
-            {
-                title: "In My Life      ",
-                artist: "The Beatles    ",
-                lyrics: "In My Life",
-                artistPhoto: "covers/The Beatles.png",
-                cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/In My Life.mp3",
-                searchString: "Victer"
-            },//22
-            {
-                title: "Wait      ",
-                artist: "The Beatles    ",
-                lyrics: "Wait",
-                artistPhoto: "covers/The Beatles.png",
-                cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/wait.mp3",
-                searchString: "Victer"
-            },//23
-            {
-                title: "Run For Your Life      ",
-                artist: "The Beatles    ",
-                lyrics: "Run For Your Life",
-                artistPhoto: "covers/The Beatles.png",
-                cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/run for your life.mp3",
-                searchString: "Victer"
-            },//24
-            {
-                title: "Nowhere Man      ",
-                artist: "The Beatles    ",
-                lyrics: "Nowhere Man",
-                artistPhoto: "covers/The Beatles.png",
-                cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/nowhere man.mp3",
-                searchString: "Victer"
-            },//25
-            {
-                title: "What Goes On      ",
-                artist: "The Beatles    ",
-                lyrics: "What Goes On",
-                artistPhoto: "covers/The Beatles.png",
-                cover: "covers/rubber soul.jpg",
-                audio: "songs/singles/what goes on.mp3",
-                searchString: "Victer"
-            }//26
+    // {
+    //     id: 6,
+    //     title: "The Beatles    ",
+    //     artist: "The Beatles    ",
+    //     cover: "covers/The Beatles.png",
+    //     songs: [
+    //         //The Beatles-Rubber Soul
+    //         {
+    //             title: "If I Needed Someone      ",
+    //             artist: "The Beatles    ",
+    //             lyrics: "If I Needed Someone",
+    //             artistPhoto: "covers/The Beatles.png",
+    //             cover: "covers/rubber soul.jpg",
+    //             audio: "songs/singles/if i needed someone.mp3",
+    //             searchString: "Victer"
+    //         },//13
+    //         {
+    //             title: "Norwegian Wood      ",
+    //             artist: "The Beatles    ",
+    //             lyrics: "Norwegian Wood",
+    //             artistPhoto: "covers/The Beatles.png",
+    //             cover: "covers/rubber soul.jpg",
+    //             audio: "songs/singles/norwegian wood.mp3",
+    //             searchString: "Victer"
+    //         },//14
+    //         {
+    //             title: "You Won't See Me      ",
+    //             artist: "The Beatles    ",
+    //             lyrics: "You Won't See Me",
+    //             artistPhoto: "covers/The Beatles.png",
+    //             cover: "covers/rubber soul.jpg",
+    //             audio: "songs/singles/you won't see me.mp3",
+    //             searchString: "Victer"
+    //         },//15
+    //         {
+    //             title: "Think For Yourself      ",
+    //             artist: "The Beatles    ",
+    //             lyrics: "Think For Yourself",
+    //             artistPhoto: "covers/The Beatles.png",
+    //             cover: "covers/rubber soul.jpg",
+    //             audio: "songs/singles/think for yourself.mp3",
+    //             searchString: "Victer"
+    //         },//16
+    //         {
+    //             title: "The Word      ",
+    //             artist: "The Beatles    ",
+    //             lyrics: "The Word",
+    //             artistPhoto: "covers/The Beatles.png",
+    //             cover: "covers/rubber soul.jpg",
+    //             audio: "songs/singles/the word.mp3",
+    //             searchString: "Victer"
+    //         },//17
+    //         {
+    //             title: "Michelle      ",
+    //             artist: "The Beatles    ",
+    //             lyrics: "Michelle",
+    //             artistPhoto: "covers/The Beatles.png",
+    //             cover: "covers/rubber soul.jpg",
+    //             audio: "songs/singles/michelle.mp3",
+    //             searchString: "Victer"
+    //         },//18
+    //         {
+    //             title: "Drive My Car      ",
+    //             artist: "The Beatles    ",
+    //             lyrics: "Drive My Car",
+    //             artistPhoto: "covers/The Beatles.png",
+    //             cover: "covers/rubber soul.jpg",
+    //             audio: "songs/singles/drive my car.mp3",
+    //             searchString: "Victer"
+    //         },//19
+    //         {
+    //             title: "Girl      ",
+    //             artist: "The Beatles    ",
+    //             lyrics: "Girl",
+    //             artistPhoto: "covers/The Beatles.png",
+    //             cover: "covers/rubber soul.jpg",
+    //             audio: "songs/singles/girl.mp3",
+    //             searchString: "Victer"
+    //         },//20
+    //         {
+    //             title: "I'm Looking Through You",
+    //             lyrics: "I'm Looking Through You",
+    //             artistPhoto: "covers/The Beatles.png      ",
+    //             artist: "The Beatles    ",
+    //             cover: "covers/rubber soul.jpg",
+    //             audio: "songs/singles/i'm looking through you.mp3",
+    //             searchString: "Victer"
+    //         },//21
+    //         {
+    //             title: "In My Life      ",
+    //             artist: "The Beatles    ",
+    //             lyrics: "In My Life",
+    //             artistPhoto: "covers/The Beatles.png",
+    //             cover: "covers/rubber soul.jpg",
+    //             audio: "songs/singles/In My Life.mp3",
+    //             searchString: "Victer"
+    //         },//22
+    //         {
+    //             title: "Wait      ",
+    //             artist: "The Beatles    ",
+    //             lyrics: "Wait",
+    //             artistPhoto: "covers/The Beatles.png",
+    //             cover: "covers/rubber soul.jpg",
+    //             audio: "songs/singles/wait.mp3",
+    //             searchString: "Victer"
+    //         },//23
+    //         {
+    //             title: "Run For Your Life      ",
+    //             artist: "The Beatles    ",
+    //             lyrics: "Run For Your Life",
+    //             artistPhoto: "covers/The Beatles.png",
+    //             cover: "covers/rubber soul.jpg",
+    //             audio: "songs/singles/run for your life.mp3",
+    //             searchString: "Victer"
+    //         },//24
+    //         {
+    //             title: "Nowhere Man      ",
+    //             artist: "The Beatles    ",
+    //             lyrics: "Nowhere Man",
+    //             artistPhoto: "covers/The Beatles.png",
+    //             cover: "covers/rubber soul.jpg",
+    //             audio: "songs/singles/nowhere man.mp3",
+    //             searchString: "Victer"
+    //         },//25
+    //         {
+    //             title: "What Goes On      ",
+    //             artist: "The Beatles    ",
+    //             lyrics: "What Goes On",
+    //             artistPhoto: "covers/The Beatles.png",
+    //             cover: "covers/rubber soul.jpg",
+    //             audio: "songs/singles/what goes on.mp3",
+    //             searchString: "Victer"
+    //         }//26
 
-        ]
-    },
+    //     ]
+    // },
 
     {
-        id: 6,
+        id: 7,
         title: "Bhadauria    ",
         artist: "Hustinder    ",
         cover: "covers/albums/hustinder/bhadauria_album.png",
@@ -2549,7 +2549,7 @@ let libraryPlaylists = [
     },
 
     {
-        id: 7,
+        id: 8,
         title: "Seasons    ",
         artist: "Hustinder    ",
         cover: "covers/albums/hustinder/seasons_album.png",
@@ -2599,7 +2599,7 @@ let libraryPlaylists = [
     },
 
     {
-        id: 8,
+        id: 9,
         title: "Three Plays    ",
         artist: "Hustinder    ",
         cover: "covers/albums/hustinder/three plays_album.png",
@@ -2639,7 +2639,7 @@ let libraryPlaylists = [
     },
 
     {
-        id: 9,
+        id: 10,
         title: "Saadiyan Gallan    ",
         artist: "Hustinder    ",
         cover: "covers/albums/hustinder/saadiyan gallan_album.png",
@@ -2704,7 +2704,7 @@ let libraryPlaylists = [
         ]
     },
     {
-        id: 10,
+        id: 11,
         title: "Saadiyan Gallan 2    ",
         artist: "Hustinder    ",
         cover: "covers/albums/hustinder/saadiyan gallan 2_album.png",
@@ -2803,7 +2803,7 @@ let libraryPlaylists = [
         ]
     },
     {
-        id: 11,
+        id: 12,
         title: "Saadiyan Gallan 3   ",
         artist: "Hustinder    ",
         cover: "covers/albums/hustinder/saadiyan gallan 3_album.png",
@@ -2897,7 +2897,7 @@ let libraryPlaylists = [
         ]
     },
     {
-        id: 12,
+        id: 13,
         title: "Mahol    ",
         artist: "Hustinder    ",
         cover: "covers/albums/hustinder/Mahol_album.png",
@@ -2991,7 +2991,7 @@ let libraryPlaylists = [
         ]
     },
     {
-        id: 13,
+        id: 14,
         title: "Supermacy   ",
         artist: "Hustinder    ",
         cover: "covers/albums/hustinder/supermacy_album.png",
@@ -3075,7 +3075,7 @@ let libraryPlaylists = [
         ]
     },
     {
-        id: 14,
+        id: 15,
         title: "Young Once    ",
         artist: "Hustinder    ",
         cover: "covers/albums/hustinder/young once_album.png",
@@ -3193,7 +3193,7 @@ let libraryPlaylists = [
 
 
     {
-        id: 20,
+        id: 16,
         title: "Manifest    ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/manifest_album.png",
@@ -3257,7 +3257,7 @@ let libraryPlaylists = [
         ]
     },
     {
-        id: 20,
+        id: 17,
         title: "Saroor    ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/saroor_album.png",
@@ -3401,7 +3401,7 @@ let libraryPlaylists = [
         ]
     },
     {
-        id: 15,
+        id: 18,
         title: "Patandar    ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/patandar_album.png",
@@ -3599,7 +3599,7 @@ let libraryPlaylists = [
     ,
 
     {
-        id: 16,
+        id: 19,
         title: "A For Arjan    ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/a for arjan_album.png",
@@ -3734,7 +3734,7 @@ let libraryPlaylists = [
     ,
 
     {
-        id: 17,
+        id: 20,
         title: "The Future   ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/the future_album.png",
@@ -3792,7 +3792,7 @@ let libraryPlaylists = [
     ,
 
     {
-        id: 18,
+        id: 21,
         title: "Jalwa    ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/jalwa_album.png",
@@ -3922,7 +3922,7 @@ let libraryPlaylists = [
     ,
 
     {
-        id: 19,
+        id: 22,
         title: "Awara    ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/awara_album.png",
@@ -4048,7 +4048,7 @@ let libraryPlaylists = [
         ]
     },
     {
-        id: 20,
+        id: 23,
         title: "Gutt    ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/gutt_album.png",
@@ -4093,7 +4093,7 @@ let libraryPlaylists = [
     }
     ,
     {
-        id: 20,
+        id: 24,
         title: "Chobar    ",
         artist: "Arjan Dhillon    ",
         cover: "covers/albums/arjan/chobar_album.png",
