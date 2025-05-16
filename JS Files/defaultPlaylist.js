@@ -14,8 +14,8 @@ const playlist = [
     // ,
     {
         title: "Still Living      ",
-        videoID:"",
-        album:"Seasons",
+        videoID: "",
+        album: "Seasons",
         artist: "Hustinder    ",
         lyrics: "Still Living",
         artistPhoto: "covers/Hustinder.png",
@@ -26,8 +26,8 @@ const playlist = [
     ,
     {
         title: "Hopes      ",
-        videoID:"",
-        album:"Seasons",
+        videoID: "",
+        album: "Seasons",
         artist: "Hustinder    ",
         lyrics: "Hopes",
         artistPhoto: "covers/Hustinder.png",
@@ -38,8 +38,8 @@ const playlist = [
     ,
     {
         title: "Incidents      ",
-        videoID:"",
-        album:"Seasons",
+        videoID: "",
+        album: "Seasons",
         artist: "Hustinder    ",
         lyrics: "Incidents",
         artistPhoto: "covers/Hustinder.png",
@@ -48,11 +48,11 @@ const playlist = [
         searchString: "Incidents seasons"
     }
     ,
-     //Arjan Dhillon : Singles
-     {
+    //Arjan Dhillon : Singles
+    {
         title: "Jaagde raho     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Jaagde raho",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -62,8 +62,8 @@ const playlist = [
     },
     {
         title: "Pony     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Pony",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -73,8 +73,8 @@ const playlist = [
     },
     {
         title: "Patrkaar     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Patrkaar",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -84,8 +84,8 @@ const playlist = [
     },
     {
         title: "Ohdi Saheli     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Ohdi Saheli",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -95,8 +95,8 @@ const playlist = [
     },
     {
         title: "Air Hostess     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Air Hostess",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -106,8 +106,8 @@ const playlist = [
     },
     {
         title: "My Fellas     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "My Fellas",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -129,8 +129,8 @@ const playlist = [
 
     {
         title: "Jaan     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Jaan",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -173,8 +173,8 @@ const playlist = [
     // },
     {
         title: "Punjab Intro      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Punjab Intro",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -184,8 +184,8 @@ const playlist = [
     },//song9
     {
         title: "Why Arjan      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Why Arjan",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -195,8 +195,8 @@ const playlist = [
     },
     {
         title: "Thabba Ku Zulfan      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Thabba Ku Zulfan",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -206,8 +206,8 @@ const playlist = [
     },
     {
         title: "Hommie Call      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Hommie Call",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -217,8 +217,8 @@ const playlist = [
     },
     {
         title: "Ki Karde Je      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Ki Karde Je",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -228,8 +228,8 @@ const playlist = [
     },
     {
         title: "Likhari      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Likhari",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -239,8 +239,8 @@ const playlist = [
     },
     {
         title: "Maharani Jindan      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Maharani Jindan",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -250,8 +250,8 @@ const playlist = [
     },
     {
         title: "Mandeer      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Mandeer",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -261,8 +261,8 @@ const playlist = [
     },
     {
         title: "Memory Lane      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Memory Lane",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -277,8 +277,8 @@ const playlist = [
     ,
     {
         title: "Zamana      ",
-        videoID:"",
-        album:"Three Plays",
+        videoID: "",
+        album: "Three Plays",
         artist: "Hustinder    ",
         lyrics: "Zamana",
         artistPhoto: "covers/Hustinder.png",
@@ -290,8 +290,8 @@ const playlist = [
     ,
     {
         title: "Gal Banje      ",
-        videoID:"",
-        album:"Three Plays",
+        videoID: "",
+        album: "Three Plays",
         artist: "Hustinder    ",
         lyrics: "Gal Banje",
         artistPhoto: "covers/Hustinder.png",
@@ -303,8 +303,8 @@ const playlist = [
     ,
     {
         title: "Cat Walk      ",
-        videoID:"",
-        album:"Three Plays",
+        videoID: "",
+        album: "Three Plays",
         artist: "Hustinder    ",
         lyrics: "Cat Walk",
         artistPhoto: "covers/Hustinder.png",
@@ -315,8 +315,8 @@ const playlist = [
     //Diljit Dosanjh
     {
         title: "Lover      ",
-        videoID:"J8A6-kSq4qo",
-        album:"",
+        videoID: "J8A6-kSq4qo",
+        album: "",
         artist: "Diljit Dosanjh     ",
         lyrics: "Lover",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -328,8 +328,8 @@ const playlist = [
 
     {
         title: "Case        ",
-        videoID:"g-Ij0idc_dk",
-        album:"",
+        videoID: "g-Ij0idc_dk",
+        album: "",
         artist: "Diljit Dosanjh     ",
         lyrics: "Case",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -339,8 +339,8 @@ const playlist = [
     },//41
     {
         title: "Ishq Di Baajiyaan        ",
-        videoID:"rnyrDk4G68g",
-        album:"",
+        videoID: "rnyrDk4G68g",
+        album: "",
         artist: "Diljit Dosanjh     ",
         lyrics: "Ishq Di Baajiyaan",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -350,8 +350,8 @@ const playlist = [
     },//42
     {
         title: "Love Ya        ",
-        videoID:"CADnM90Vidw",
-        album:"",
+        videoID: "CADnM90Vidw",
+        album: "",
         artist: "Diljit Dosanjh     ",
         lyrics: "Love Ya",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -361,8 +361,8 @@ const playlist = [
     },//43
     {
         title: "Lalkara         ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Diljit Dosanjh     ",
         lyrics: "Lalkara",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -372,8 +372,8 @@ const playlist = [
     },//44
     {
         title: "Tu Kya Jaane        ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Yashika Sikka, Diljit",
         lyrics: "Tu Kya Jaane",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -383,8 +383,8 @@ const playlist = [
     },//45
     {
         title: "Bol Mohabbat        ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "AR Rehman, Kailash Kher,Diljit",
         lyrics: "Bol Mohabbat",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -394,8 +394,8 @@ const playlist = [
     },//46
     {
         title: "Vida Karo        ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh,Diljjt",
         lyrics: "Vida Karo",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -405,8 +405,8 @@ const playlist = [
     },//47
     {
         title: "Panga        ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Diljit Dosanjh, Yo Yo Honey Singh",
         lyrics: "Panga",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -416,8 +416,8 @@ const playlist = [
     },//48
     {
         title: "Ishq Mitaye        ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "AR Rehman, Diljit",
         lyrics: "Ishq Mitaye",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -427,8 +427,8 @@ const playlist = [
     },//49
     {
         title: "5 Tara        ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: " Diljit Dosanjh     ",
         lyrics: "Love Ya",
         lyrics: "5 Tara",
@@ -439,8 +439,8 @@ const playlist = [
     },//50
     {
         title: "Do You Know       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Diljit Dosanjh     ",
         lyrics: "Do You Know",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -450,8 +450,8 @@ const playlist = [
     },//51
     {
         title: "G.O.A.T.      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Diljit Dosanjh     ",
         lyrics: "G.O.A.T.",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -461,8 +461,8 @@ const playlist = [
     },//52
     {
         title: "Clash      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Diljit Dosanjh     ",
         lyrics: "Clash",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -472,8 +472,8 @@ const playlist = [
     },//53
     {
         title: "Muchh      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Diljit Dosanjh     ",
         lyrics: "Muchh",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -483,8 +483,8 @@ const playlist = [
     },//54
     {
         title: "High End      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Diljit Dosanjh     ",
         lyrics: "High End",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -494,8 +494,8 @@ const playlist = [
     },//55
     {
         title: "Naram Kalja      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Diljjt Dosanjh     ",
         lyrics: "Naram Kalja",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -505,8 +505,8 @@ const playlist = [
     },//56
     {
         title: "Baaja      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Diljit Dosanjh     ",
         lyrics: "Baaja",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -516,8 +516,8 @@ const playlist = [
     },//57
     {
         title: "Muhammad Ali      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Diljit Dosanjh     ",
         lyrics: "Muhammad Ali",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -527,8 +527,8 @@ const playlist = [
     },//58
     {
         title: "El Sueno      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Diljit Dosanjh     ",
         lyrics: "El Sueno",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -538,8 +538,8 @@ const playlist = [
     },//59
     {
         title: "Born To Shine      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Diljit Dosanjb",
         lyrics: "Born To Shine",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -549,8 +549,8 @@ const playlist = [
     },//60
     {
         title: "Peaches      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Diljit Dosanjh     ",
         lyrics: "Peaches",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -560,8 +560,8 @@ const playlist = [
     },//61
     {
         title: "What Ve      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Diljjt Dosanjh,Nimrat Khaira",
         lyrics: "What Ve",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -571,8 +571,8 @@ const playlist = [
     },//62
     {
         title: "Hass Hass      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Sia,Diljit Dosanjh     ",
         lyrics: "Hass Hass",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -582,8 +582,8 @@ const playlist = [
     },//63
     {
         title: "Patiala Peg      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Diljit Dosanjh     ",
         lyrics: "Patiala Peg",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -593,8 +593,8 @@ const playlist = [
     },//64
     {
         title: "Mombattiye      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Diljit Dosanjh     ",
         lyrics: "Mombattiye",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -605,8 +605,8 @@ const playlist = [
 
     {
         title: "Jo Tum Mere Ho      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Anuv Jain",
         lyrics: "Jo Tum Mere Ho",
         artistPhoto: "covers/Anuv Jain.png",
@@ -618,8 +618,8 @@ const playlist = [
 
     {
         title: "Fly Karke      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "SABBA, Jasmeen",
         lyrics: "Fly Karke",
         artistPhoto: "covers/Sabba.png",
@@ -703,8 +703,8 @@ const playlist = [
 
     {
         title: "2-2 Asle     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon   ",
         lyrics: "2-2 Asle",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -714,8 +714,8 @@ const playlist = [
     },
     {
         title: "Big Flex    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon   ",
         lyrics: "Big Flex",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -725,8 +725,8 @@ const playlist = [
     },
     {
         title: "Brats   ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon   ",
         lyrics: "Brats",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -736,8 +736,8 @@ const playlist = [
     },
     {
         title: "Greatest   ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon   ",
         lyrics: "Greatest ",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -747,8 +747,8 @@ const playlist = [
     },
     {
         title: "Hikka   ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon   ",
         lyrics: "Hikka ",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -758,8 +758,8 @@ const playlist = [
     },
     {
         title: "Invoice    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon   ",
         lyrics: "Invoice ",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -769,8 +769,8 @@ const playlist = [
     },
     {
         title: "Kini Der Baad    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon   ",
         lyrics: "Kini Der Baad ",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -781,8 +781,8 @@ const playlist = [
     },
     {
         title: "Nain    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon   ",
         lyrics: "Nain ",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -793,8 +793,8 @@ const playlist = [
     },
     {
         title: "Never Ever    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon   ",
         lyrics: "Never Ever ",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -805,8 +805,8 @@ const playlist = [
     },
     {
         title: "Paparazzi    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon   ",
         lyrics: "Paparazzi ",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -817,8 +817,8 @@ const playlist = [
     },
     {
         title: "Sher-E-Panjab    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon   ",
         lyrics: "Sher E Panjab ",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -829,8 +829,8 @@ const playlist = [
     },
     {
         title: "Style    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon   ",
         lyrics: "Style ",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -841,8 +841,8 @@ const playlist = [
     },
     {
         title: "Too Late    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon   ",
         lyrics: "Too Late ",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -853,8 +853,8 @@ const playlist = [
     },
     {
         title: "Tu Jdo Auna    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon   ",
         lyrics: "Tu Jdo Auna ",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -865,8 +865,8 @@ const playlist = [
     },
     {
         title: "Youngsters    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon   ",
         lyrics: "Youngsters ",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -877,8 +877,8 @@ const playlist = [
     },
     {
         title: "Zigana    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon   ",
         lyrics: "Zigana ",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -891,8 +891,8 @@ const playlist = [
     //Arjan Dhillon : Singles
     {
         title: "Jaagde raho     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Jaagde raho",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -902,8 +902,8 @@ const playlist = [
     },
     {
         title: "Pony     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Pony",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -913,8 +913,8 @@ const playlist = [
     },
     {
         title: "Patrkaar     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Patrkaar",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -924,8 +924,8 @@ const playlist = [
     },
     {
         title: "Ohdi Saheli     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Ohdi Saheli",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -935,8 +935,8 @@ const playlist = [
     },
     {
         title: "Air Hostess     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Air Hostess",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -946,8 +946,8 @@ const playlist = [
     },
     {
         title: "My Fellas     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "My Fellas",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -969,8 +969,8 @@ const playlist = [
 
     {
         title: "Jaan     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Jaan",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -980,8 +980,8 @@ const playlist = [
     },
     {
         title: "     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -991,8 +991,8 @@ const playlist = [
     },
     {
         title: "     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1002,8 +1002,8 @@ const playlist = [
     },
     {
         title: "Heer      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Heer",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1011,11 +1011,11 @@ const playlist = [
         audio: "https://www.dropbox.com/scl/fi/i8xrdafqdbn2csjrdjmfw/heer_arjan-dhillon.mp3?rlkey=xbufpu1y44kifuzh04ul2hmpr&st=30nul2g2&dl=1",
         searchString: "arjan songs"
     },
-    
+
     {
         title: "Why Arjan      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Why Arjan",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1025,8 +1025,8 @@ const playlist = [
     },
     {
         title: "Thabba Ku Zulfan      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Thabba Ku Zulfan",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1036,8 +1036,8 @@ const playlist = [
     },
     {
         title: "Hommie Call      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Hommie Call",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1047,8 +1047,8 @@ const playlist = [
     },
     {
         title: "Ki Karde Je      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Ki Karde Je",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1058,8 +1058,8 @@ const playlist = [
     },
     {
         title: "Likhari      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Likhari",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1069,8 +1069,8 @@ const playlist = [
     },
     {
         title: "Maharani Jindan      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Maharani Jindan",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1080,8 +1080,8 @@ const playlist = [
     },
     {
         title: "Mandeer      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Mandeer",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1091,8 +1091,8 @@ const playlist = [
     },
     {
         title: "Memory Lane      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Memory Lane",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1102,8 +1102,8 @@ const playlist = [
     },
     {
         title: "No Debts      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "No Debts",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1113,8 +1113,8 @@ const playlist = [
     },
     {
         title: "Raah Warga      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Raah Warga",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1124,8 +1124,8 @@ const playlist = [
     },
     {
         title: "Sher-E-Panjab      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Sher-E-Panjab",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1135,8 +1135,8 @@ const playlist = [
     },
     {
         title: "Soorme Aoun Tareeka Te      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Soorme Aoun Tareeka Te",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1146,8 +1146,8 @@ const playlist = [
     },
     {
         title: "25-25      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "25-25",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1157,8 +1157,8 @@ const playlist = [
     },
     {
         title: "Chah Pindan Di      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Chah Pindan Di",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1168,8 +1168,8 @@ const playlist = [
     },
     {
         title: "Fantasy      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Fantasy",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1179,8 +1179,8 @@ const playlist = [
     },
     {
         title: "Fly      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Fly",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1190,8 +1190,8 @@ const playlist = [
     },
     {
         title: "Ghar Bharte      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Ghar Bharte",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1201,8 +1201,8 @@ const playlist = [
     },
     {
         title: "Hazur      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Hazur",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1212,8 +1212,8 @@ const playlist = [
     },
     {
         title: "Hidden Scars    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Nimrat Khaira, Arjan Dhillon    ",
         lyrics: "Hidden Scars",
         artistPhoto: "covers/Nimrat Khaira.png",
@@ -1223,8 +1223,8 @@ const playlist = [
     },
     {
         title: "Score    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Score",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1234,8 +1234,8 @@ const playlist = [
     },
     {
         title: "Bell Bottom(remix)",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon",
         lyrics: "Bell Bottom(remix)",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1246,8 +1246,8 @@ const playlist = [
 
     {
         title: "Bell Bottom   ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Bell Bottom",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1257,8 +1257,8 @@ const playlist = [
     },
     {
         title: "Ishq Jeha Ho Gya    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Ishq Jeha Ho Gya",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1271,8 +1271,8 @@ const playlist = [
     //Arjan Dhillon : Awara
     {
         title: "Why Arjan    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Why Arjan",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1282,8 +1282,8 @@ const playlist = [
     },
     {
         title: "Shama Paiya    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Shama Paiya",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1293,8 +1293,8 @@ const playlist = [
     },
     {
         title: "Score    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Score",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1304,8 +1304,8 @@ const playlist = [
     },
     {
         title: "Sangdi Sangdi    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Sangdi Sangdi",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1315,8 +1315,8 @@ const playlist = [
     },
     {
         title: "Sade Aala    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Sade Aala",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1326,8 +1326,8 @@ const playlist = [
     },
     {
         title: "Mehal    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Mehal",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1337,8 +1337,8 @@ const playlist = [
     },
     {
         title: "Mandeer    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Mandeer",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1348,8 +1348,8 @@ const playlist = [
     },
     {
         title: "Mahol    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Mahol",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1359,8 +1359,8 @@ const playlist = [
     },
     {
         title: "Hold On    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Hold On",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1370,8 +1370,8 @@ const playlist = [
     },
     {
         title: "Fire Fur    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Fire Fur",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1381,8 +1381,8 @@ const playlist = [
     },
     {
         title: "Dope    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Dope",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1392,8 +1392,8 @@ const playlist = [
     },
     {
         title: "Dass Billo    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Dass Billo",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1403,8 +1403,8 @@ const playlist = [
     },
     {
         title: "Dhanabaad    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Dhanabaad",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1416,7 +1416,7 @@ const playlist = [
     //     title: "    ",
     // videoID:"",    
     // album:"",
-  
+
     //     artist: "Arjan Dhillon    ",
     //     lyrics:"",        
     //     artistPhoto: "covers/Arjan Dhillon.png", 
@@ -1430,8 +1430,8 @@ const playlist = [
 
     {
         title: "Tha Karke    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Tha Karke",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1441,8 +1441,8 @@ const playlist = [
     },
     {
         title: "Rafal    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Rafal",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1452,8 +1452,8 @@ const playlist = [
     },
     {
         title: "Munde Pindan De    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Munde Pindan De",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1463,8 +1463,8 @@ const playlist = [
     },
     {
         title: "Memory Lane    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Memory Lane",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1474,8 +1474,8 @@ const playlist = [
     },
     {
         title: "Maharani Jindan    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Maharani Jindan",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1485,8 +1485,8 @@ const playlist = [
     },
     {
         title: "Janu Janu    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Janu Janu",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1496,8 +1496,8 @@ const playlist = [
     },
     {
         title: "It's My Time    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "It's My Time",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1507,8 +1507,8 @@ const playlist = [
     },
     {
         title: "Hommie Call    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Hommie Call",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1518,8 +1518,8 @@ const playlist = [
     },
     {
         title: "Hazur    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Hazur",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1529,8 +1529,8 @@ const playlist = [
     },
     {
         title: "Fantasy    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Fantasy",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1542,7 +1542,7 @@ const playlist = [
     //     title: "    ",
     // videoID:"",    
     // album:"",
-  
+
     //     artist: "Arjan Dhillon    ",
     //     lyrics:"",        
     //     artistPhoto: "covers/Arjan Dhillon.png", 
@@ -1552,8 +1552,8 @@ const playlist = [
     // },
     {
         title: "Drunk Arjan    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Drunk Arjan",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1564,8 +1564,8 @@ const playlist = [
 
     {
         title: "25-25    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "25-25",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1578,8 +1578,8 @@ const playlist = [
     //Arjan Dhillon : A For Arjan
     {
         title: "Tere Baad    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Tere Baad",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1589,8 +1589,8 @@ const playlist = [
     },
     {
         title: "Sanu Teri Lod    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Sanu Teri Lod",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1600,8 +1600,8 @@ const playlist = [
     },
     {
         title: "Please    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Please",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1611,8 +1611,8 @@ const playlist = [
     },
     {
         title: "Ohi Lagdi Aa    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Ohi Lagdi Aa",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1622,8 +1622,8 @@ const playlist = [
     },
     {
         title: "More Beautiful    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "More Beautiful",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1633,8 +1633,8 @@ const playlist = [
     },
     {
         title: "    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1644,8 +1644,8 @@ const playlist = [
     },
     {
         title: "Mili Mili    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Mili Mili",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1655,8 +1655,8 @@ const playlist = [
     },
     {
         title: "Milde    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Milde",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1666,8 +1666,8 @@ const playlist = [
     },
     {
         title: "Hurry Up    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Hurry Up",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1677,8 +1677,8 @@ const playlist = [
     },
     {
         title: "High    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "High",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1687,12 +1687,12 @@ const playlist = [
         searchString: " a for arjan"
     },
 
-    
+
 
     {
         title: "Don    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Don",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1703,8 +1703,8 @@ const playlist = [
 
     {
         title: "Dil Toot Jayega    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Dil Toot Jayega",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1720,8 +1720,8 @@ const playlist = [
 
     {
         title: "Tape    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Tape",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1731,8 +1731,8 @@ const playlist = [
     },
     {
         title: "Kath    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Kath",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1742,8 +1742,8 @@ const playlist = [
     },
     {
         title: "Jatt Disde    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Jatt Disde",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1753,8 +1753,8 @@ const playlist = [
     },
     {
         title: "Daaru Sasti    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Daaru Sasti",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1764,8 +1764,8 @@ const playlist = [
     },
     {
         title: "Badmashi    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arjan Dhillon    ",
         lyrics: "Badmashi",
         artistPhoto: "covers/Arjan Dhillon.png",
@@ -1777,7 +1777,7 @@ const playlist = [
     //     title: "    ",
     // videoID:"",    
     // album:"",
-  
+
     //     artist: "Arjan Dhillon    ",
     //     lyrics:"",        
     //     artistPhoto: "covers/Arjan Dhillon.png", 
@@ -1789,7 +1789,7 @@ const playlist = [
     //     title: "    ",
     // videoID:"",    
     // album:"",
-  
+
     //     artist: "Arjan Dhillon    ",
     //     lyrics:"",        
     //     artistPhoto: "covers/Arjan Dhillon.png", 
@@ -1802,8 +1802,8 @@ const playlist = [
     //Dhanda
     {
         title: "Up To You      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Dhanda Nyoliwala  ",
         lyrics: "Up To You",
         artistPhoto: "covers/Dhanda Nyoliwala.png",
@@ -1813,8 +1813,8 @@ const playlist = [
     },//song10
     {
         title: "Russian Bandana      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Dhanda Nyoliwala   ",
         lyrics: "Russian Bandana",
         artistPhoto: "covers/Dhanda Nyoliwala.png",
@@ -1825,8 +1825,8 @@ const playlist = [
 
     {
         title: "Ishq      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Faheem Abdullah,Rauhan Malik  ",
         lyrics: "Ishq",
         cover: "covers/ishq.jpg",
@@ -1837,8 +1837,8 @@ const playlist = [
     //The Beatles-Rubber Soul
     {
         title: "If I Needed Someone      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "The Beatles    ",
         lyrics: "If I Needed Someone",
         artistPhoto: "covers/The Beatles.png",
@@ -1848,8 +1848,8 @@ const playlist = [
     },//13
     {
         title: "Norwegian Wood      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "The Beatles    ",
         lyrics: "Norwegian Wood",
         artistPhoto: "covers/The Beatles.png",
@@ -1859,8 +1859,8 @@ const playlist = [
     },//14
     {
         title: "You Won't See Me      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "The Beatles    ",
         lyrics: "You Won't See Me",
         artistPhoto: "covers/The Beatles.png",
@@ -1870,8 +1870,8 @@ const playlist = [
     },//15
     {
         title: "Think For Yourself      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "The Beatles    ",
         lyrics: "Think For Yourself",
         artistPhoto: "covers/The Beatles.png",
@@ -1881,8 +1881,8 @@ const playlist = [
     },//16
     {
         title: "The Word      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "The Beatles    ",
         lyrics: "The Word",
         artistPhoto: "covers/The Beatles.png",
@@ -1892,8 +1892,8 @@ const playlist = [
     },//17
     {
         title: "Michelle      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "The Beatles    ",
         lyrics: "Michelle",
         artistPhoto: "covers/The Beatles.png",
@@ -1903,8 +1903,8 @@ const playlist = [
     },//18
     {
         title: "Drive My Car      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "The Beatles    ",
         lyrics: "Drive My Car",
         artistPhoto: "covers/The Beatles.png",
@@ -1914,8 +1914,8 @@ const playlist = [
     },//19
     {
         title: "Girl      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "The Beatles    ",
         lyrics: "Girl",
         artistPhoto: "covers/The Beatles.png",
@@ -1927,8 +1927,8 @@ const playlist = [
         title: "I'm Looking Through You",
         lyrics: "I'm Looking Through You",
         artistPhoto: "covers/The Beatles.png      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "The Beatles    ",
         cover: "covers/rubber soul.jpg",
         audio: "songs/singles/i'm looking through you.mp3",
@@ -1936,8 +1936,8 @@ const playlist = [
     },//21
     {
         title: "In My Life      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "The Beatles    ",
         lyrics: "In My Life",
         artistPhoto: "covers/The Beatles.png",
@@ -1947,8 +1947,8 @@ const playlist = [
     },//22
     {
         title: "Wait      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "The Beatles    ",
         lyrics: "Wait",
         artistPhoto: "covers/The Beatles.png",
@@ -1958,8 +1958,8 @@ const playlist = [
     },//23
     {
         title: "Run For Your Life      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "The Beatles    ",
         lyrics: "Run For Your Life",
         artistPhoto: "covers/The Beatles.png",
@@ -1969,8 +1969,8 @@ const playlist = [
     },//24
     {
         title: "Nowhere Man      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "The Beatles    ",
         lyrics: "Nowhere Man",
         artistPhoto: "covers/The Beatles.png",
@@ -1980,8 +1980,8 @@ const playlist = [
     },//25
     {
         title: "What Goes On      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "The Beatles    ",
         lyrics: "What Goes On",
         artistPhoto: "covers/The Beatles.png",
@@ -1996,8 +1996,8 @@ const playlist = [
     //Karan Aujla
     {
         title: "Softly      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Karan Aujla   ",
         lyrics: "Softly",
         artistPhoto: "covers/Karan Aujla.png",
@@ -2007,8 +2007,8 @@ const playlist = [
     },//65
     {
         title: "On Top      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Karan Aujla   ",
         lyrics: "On Top",
         artistPhoto: "covers/Karan Aujla.png",
@@ -2018,8 +2018,8 @@ const playlist = [
     },//66
     {
         title: "WYTB      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Karan Aujla   ",
         lyrics: "WYTB",
         artistPhoto: "covers/Karan Aujla.png",
@@ -2029,8 +2029,8 @@ const playlist = [
     },//67
     {
         title: "52 Bars      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Karan Aujla   ",
         lyrics: "52 Bars",
         artistPhoto: "covers/Karan Aujla.png",
@@ -2040,8 +2040,8 @@ const playlist = [
     },//68
     {
         title: "Jee Ni Lagda      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Karan Aujla   ",
         lyrics: "Jee Ni Lagda",
         artistPhoto: "covers/Karan Aujla.png",
@@ -2051,8 +2051,8 @@ const playlist = [
     },//69
     {
         title: "Player      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Karan Aujla, Badshah",
         lyrics: "Player",
         artistPhoto: "covers/Karan Aujla.png",
@@ -2061,8 +2061,8 @@ const playlist = [
     },//70
     {
         title: "Chauffeur      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: " Diljit Dosanjh     ",
         lyrics: "Chauffeur",
         artistPhoto: "covers/Karan Aujla.png",
@@ -2072,8 +2072,8 @@ const playlist = [
     },//71
     {
         title: "Luna      ",
-        videoID:"",
-        album:"MoonChild Era",
+        videoID: "",
+        album: "MoonChild Era",
         artist: " Diljit Dosanjh",
         lyrics: "Luna",
         artistPhoto: "covers/Diljit Dosanjh.png",
@@ -2083,8 +2083,8 @@ const playlist = [
     },//71
     {
         title: "White Brown Black      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Karan Aujla, Avvy Sra",
         lyrics: "White Brown Black",
         artistPhoto: "covers/Karan Aujla.png",
@@ -2094,8 +2094,8 @@ const playlist = [
     },//72
     {
         title: "Tauba Tauba      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Karan Aujla   ",
         lyrics: "Tauba Tauba",
         artistPhoto: "covers/Karan Aujla.png",
@@ -2105,8 +2105,8 @@ const playlist = [
     },//73
     {
         title: "Chitta Kurta      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Karan Aujla   ",
         lyrics: "Chitta Kurta",
         artistPhoto: "covers/Karan Aujla.png",
@@ -2116,8 +2116,8 @@ const playlist = [
     },//74
     {
         title: "Mexico      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Karan Aujla   ",
         lyrics: "Mexico",
         artistPhoto: "covers/Karan Aujla.png",
@@ -2127,8 +2127,8 @@ const playlist = [
     },//75
     {
         title: "God Damn      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Karan Aujla   ",
         lyrics: "God Damn",
         artistPhoto: "covers/Karan Aujla.png",
@@ -2141,8 +2141,8 @@ const playlist = [
     //mislenous songs
     {
         title: "Victory Anthem      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Khushi-Saini  ",
         lyrics: "Victory Anthem",
         cover: "covers/victory anthem.jpg",
@@ -2151,8 +2151,8 @@ const playlist = [
     },//27
     {
         title: "Tu Hai Kaha      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "A-U-R",
         lyrics: "Tu Hai Kaha",
         cover: "covers/tu hai kaha.jpg",
@@ -2161,8 +2161,8 @@ const playlist = [
     },//28
     {
         title: "Sweater      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Preet Hundal ",
         lyrics: "Sweater",
         cover: "covers/sweater.jpg",
@@ -2171,8 +2171,8 @@ const playlist = [
     },//29
     {
         title: "Zindagi      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Sabba  ",
         lyrics: "Zindagi",
         artistPhoto: "covers/Sabba.png",
@@ -2182,8 +2182,8 @@ const playlist = [
     },//30
     {
         title: "Medal      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Chandra Brar  ",
         lyrics: "Medal",
         cover: "covers/medal.jpg",
@@ -2192,8 +2192,8 @@ const playlist = [
     },//31
     {
         title: "Ishq hoya      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Jyoti Nooran , Arjit Srivastav  ",
         lyrics: "Ishq hoya",
         cover: "covers/ishq hoya.jpg",
@@ -2202,8 +2202,8 @@ const playlist = [
     },//32
     {
         title: "Illegal      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Dhanda Nyoliwala   ",
         lyrics: "Illegal",
         artistPhoto: "covers/Dhanda Nyoliwala.png",
@@ -2213,8 +2213,8 @@ const playlist = [
     },//33
     {
         title: "Maada Time      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Sabba  ",
         lyrics: "Maada Time",
         artistPhoto: "covers/Sabba.png",
@@ -2224,8 +2224,8 @@ const playlist = [
     },//34
     {
         title: "Dil Tu Jaan Tu      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Guranzar  ",
         lyrics: "Dil Tu Jaan Tu",
         cover: "covers/dil tu jaan tu.jpg",
@@ -2234,8 +2234,8 @@ const playlist = [
     },//35
     {
         title: "Victory Anthem      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Khushi-Saini  ",
         lyrics: "Victory Anthem",
         cover: "covers/victory anthem.jpg",
@@ -2244,8 +2244,8 @@ const playlist = [
     },//36
     {
         title: "Tareyan Di Loh      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Harsh Bilga  ",
         lyrics: "Tareyan Di Loh",
         cover: "covers/tareyan di loh.jpg",
@@ -2254,8 +2254,8 @@ const playlist = [
     },//37
     {
         title: "Khidki      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Rachit Shrivatav  ",
         lyrics: "Khidki",
         cover: "covers/khidki.webp",
@@ -2264,8 +2264,8 @@ const playlist = [
     },//38
     {
         title: "Long Time No See      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "A-U-R  ",
         lyrics: "Long Time No See",
         cover: "covers/long time no see.jpg",
@@ -2274,8 +2274,8 @@ const playlist = [
     },//39
     {
         title: "That Girl      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Amrinder Gill  ",
         lyrics: "That Girl",
         artistPhoto: "covers/Amrinder Gill.png",
@@ -2285,8 +2285,8 @@ const playlist = [
     },//39
     {
         title: "Khabbi Seat      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Ammy Virk  ",
         lyrics: "Khabbi Seat",
         cover: "covers/khabbi seat_ammy virk.png",
@@ -2295,8 +2295,8 @@ const playlist = [
     },//39
     {
         title: "Ikk Number      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Gurnam Bhullar  ",
         lyrics: "Ikk Number",
         cover: "covers/ik number_gurnam bhullar.png",
@@ -2305,8 +2305,8 @@ const playlist = [
     },//39
     {
         title: "Filter      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Gulab Sidhu  ",
         lyrics: "Filter",
         cover: "covers/filter_gulab sidhu.png",
@@ -2315,8 +2315,8 @@ const playlist = [
     },//39
     {
         title: "Patti Ton Patiala      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Harkirat Sangha   ",
         lyrics: "Patti Ton Patiala",
         cover: "covers/patti to patiala_harkirat sangha.png",
@@ -2324,12 +2324,59 @@ const playlist = [
         searchString: "Victer"
     },//39
 
+    //Hustinder:Nostalgia
+    {
+        title: "Chit Ni Lagda ",
+        videoID: "",
+        album: "Nostalgia",
+        artist: "Hustinder    ",
+        lyrics: "Chit Ni Lagda",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/nostalgia_album.jpg",
+        audio: "https://www.dropbox.com/scl/fi/ffoq0yqv0btdq5lyplvr1/Chit-Ni-Lagda.mp3?rlkey=ggg96f4h4gg0u3dzknpupkes1&st=wobpjsjp&dl=1 ",
+        searchString: "Chit Ni Lagda nostalgia"
+    },
+    {
+        title: "Morniyan ",
+        videoID: "",
+        album: "Nostalgia",
+        artist: "Hustinder    ",
+        lyrics: "Morniyan",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/nostalgia_album.jpg",
+        audio: " https://www.dropbox.com/scl/fi/udmjamuxxje9c3qeqwvx7/Morniya-n.mp3?rlkey=7jp71nbec0mz6h80frtawodnz&st=tr6u7jum&dl=1",
+        searchString: "Morniyan nostalgia"
+    },
+    {
+        title: "Pattiyan ",
+        videoID: "",
+        album: "Nostalgia",
+        artist: "Hustinder    ",
+        lyrics: "Pattiyan",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/nostalgia_album.jpg",
+        audio: " https://www.dropbox.com/scl/fi/w038v12dsit1m1mh3bh39/Pattiyan.mp3?rlkey=q0s692c12w7dmxdg8s82o6uml&st=tff9i7vo&dl=1",
+        searchString: "Pattiyan nostalgia"
+    },
+    {
+        title: "Yar Jigri ",
+        videoID: "",
+        album: "Nostalgia",
+        artist: "Hustinder    ",
+        lyrics: "Yar Jigri",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/nostalgia_album.jpg",
+        audio: " https://www.dropbox.com/scl/fi/gdjcttin0iazaognpc01v/Yaar-Jigri.mp3?rlkey=4yedfng6pgqjgrqykrzhhbva2&st=t323030n&dl=1",
+        searchString: "Yar Jigri nostalgia"
+    },
 
-//Hustinder:Bhadauria
+
+
+    //Hustinder:Bhadauria
     {
         title: "Fella's Forever      ",
-        videoID:"",
-        album:"Bhadauria",
+        videoID: "",
+        album: "Bhadauria",
         artist: "Hustinder    ",
         lyrics: "Fella's Forever",
         artistPhoto: "covers/Hustinder.png",
@@ -2339,8 +2386,8 @@ const playlist = [
     },//13
     {
         title: "Queen's Gambit      ",
-        videoID:"",
-        album:"Bhadauria",
+        videoID: "",
+        album: "Bhadauria",
         artist: "Hustinder    ",
         lyrics: "Queen's Gambit",
         artistPhoto: "covers/Hustinder.png",
@@ -2350,8 +2397,8 @@ const playlist = [
     },//14
     {
         title: "Don't You Dare      ",
-        videoID:"",
-        album:"Bhadauria",
+        videoID: "",
+        album: "Bhadauria",
         artist: "Hustinder    ",
         lyrics: "Don't You Dare",
         artistPhoto: "covers/Hustinder.png",
@@ -2361,8 +2408,8 @@ const playlist = [
     },//15
     {
         title: "Mittra'n De Dere     ",
-        videoID:"",
-        album:"Bhadauria",
+        videoID: "",
+        album: "Bhadauria",
         artist: "Hustinder    ",
         lyrics: "Mittra'n De Dere",
         artistPhoto: "covers/Hustinder.png",
@@ -2372,8 +2419,8 @@ const playlist = [
     },//16
     {
         title: "Step Bhull Gyi      ",
-        videoID:"",
-        album:"Bhadauria",
+        videoID: "",
+        album: "Bhadauria",
         artist: "Hustinder    ",
         lyrics: "Step Bhull Gyi",
         artistPhoto: "covers/Hustinder.png",
@@ -2384,9 +2431,9 @@ const playlist = [
 
     // { 
     //     title: "Martha My Dear",
-        // videoID:"",
-        // album:"",
-  
+    // videoID:"",
+    // album:"",
+
     //     artist: "Hustinder    ",
     //     lyrics:"Step Bhull Gyi",        
     //     artistPhoto: "covers/Hustinder.png", 
@@ -2397,8 +2444,8 @@ const playlist = [
 
     {
         title: "White Money     ",
-        videoID:"",
-        album:"Bhadauria",
+        videoID: "",
+        album: "Bhadauria",
         artist: "Hustinder    ",
         lyrics: "White Money ",
         artistPhoto: "covers/Hustinder.png",
@@ -2408,8 +2455,8 @@ const playlist = [
     },//18
     {
         title: "We Living It      ",
-        videoID:"",
-        album:"Bhadauria",
+        videoID: "",
+        album: "Bhadauria",
         artist: "Hustinder    ",
         lyrics: "We Living It ",
         artistPhoto: "covers/Hustinder.png",
@@ -2419,8 +2466,8 @@ const playlist = [
     },//19
     {
         title: "Kdo'n Nachana      ",
-        videoID:"",
-        album:"Bhadauria",
+        videoID: "",
+        album: "Bhadauria",
         artist: "Hustinder    ",
         lyrics: "Kdo'n Nachana",
         artistPhoto: "covers/Hustinder.png",
@@ -2430,8 +2477,8 @@ const playlist = [
     },//20
     {
         title: "Move Your Car ",
-        videoID:"",
-        album:"Bhadauria",
+        videoID: "",
+        album: "Bhadauria",
         artist: "Hustinder    ",
         lyrics: "Move Your Car ",
         artistPhoto: "covers/Hustinder.png",
@@ -2441,8 +2488,8 @@ const playlist = [
     },//21
     {
         title: "Bhadauria      ",
-        videoID:"",
-        album:"Bhadauria",
+        videoID: "",
+        album: "Bhadauria",
         artist: "Hustinder    ",
         lyrics: "Bhadauria  ",
         artistPhoto: "covers/Hustinder.png",
@@ -2457,8 +2504,8 @@ const playlist = [
     ,
     {
         title: "Watching You      ",
-        videoID:"",
-        album:"Seasons",
+        videoID: "",
+        album: "Seasons",
         artist: "Hustinder    ",
         lyrics: "Watching You  ",
         artistPhoto: "covers/Hustinder.png",
@@ -2469,8 +2516,8 @@ const playlist = [
     ,
     {
         title: "Still Living      ",
-        videoID:"",
-        album:"Seasons",
+        videoID: "",
+        album: "Seasons",
         artist: "Hustinder    ",
         lyrics: "Still Living",
         artistPhoto: "covers/Hustinder.png",
@@ -2481,8 +2528,8 @@ const playlist = [
     ,
     {
         title: "Hopes      ",
-        videoID:"",
-        album:"Seasons",
+        videoID: "",
+        album: "Seasons",
         artist: "Hustinder    ",
         lyrics: "Hopes",
         artistPhoto: "covers/Hustinder.png",
@@ -2493,8 +2540,8 @@ const playlist = [
     ,
     {
         title: "Incidents      ",
-        videoID:"",
-        album:"Seasons",
+        videoID: "",
+        album: "Seasons",
         artist: "Hustinder    ",
         lyrics: "Incidents",
         artistPhoto: "covers/Hustinder.png",
@@ -2510,8 +2557,8 @@ const playlist = [
     ,
     {
         title: "Zamana      ",
-        videoID:"",
-        album:"Three Plays",
+        videoID: "",
+        album: "Three Plays",
         artist: "Hustinder    ",
         lyrics: "Zamana",
         artistPhoto: "covers/Hustinder.png",
@@ -2523,8 +2570,8 @@ const playlist = [
     ,
     {
         title: "Gal Banje      ",
-        videoID:"",
-        album:"Three Plays",
+        videoID: "",
+        album: "Three Plays",
         artist: "Hustinder    ",
         lyrics: "Gal Banje",
         artistPhoto: "covers/Hustinder.png",
@@ -2536,8 +2583,8 @@ const playlist = [
     ,
     {
         title: "Cat Walk      ",
-        videoID:"",
-        album:"Three Plays",
+        videoID: "",
+        album: "Three Plays",
         artist: "Hustinder    ",
         lyrics: "Cat Walk",
         artistPhoto: "covers/Hustinder.png",
@@ -2557,8 +2604,8 @@ const playlist = [
     ,
     {
         title: "Yaari Torh Layi      ",
-        videoID:"",
-        album:"Saadiyan Gallan",
+        videoID: "",
+        album: "Saadiyan Gallan",
         artist: "Hustinder    ",
         lyrics: "Yaari Torh Layi",
         artistPhoto: "covers/Hustinder.png",
@@ -2569,8 +2616,8 @@ const playlist = [
     ,
     {
         title: "Ucheyan Gharan Diye Jaiye      ",
-        videoID:"",
-        album:"Saadiyan Gallan",
+        videoID: "",
+        album: "Saadiyan Gallan",
         artist: "Hustinder    ",
         lyrics: "Ucheyan Gharan Diye Jaiye",
         artistPhoto: "covers/Hustinder.png",
@@ -2581,8 +2628,8 @@ const playlist = [
     ,
     {
         title: "Teri Deed      ",
-        videoID:"",
-        album:"Saadiyan Gallan",
+        videoID: "",
+        album: "Saadiyan Gallan",
         artist: "Hustinder    ",
         lyrics: "Teri Deed",
         artistPhoto: "covers/Hustinder.png",
@@ -2593,8 +2640,8 @@ const playlist = [
     ,
     {
         title: "Tera Mera Nata      ",
-        videoID:"",
-        album:"Saadiyan Gallan",
+        videoID: "",
+        album: "Saadiyan Gallan",
         artist: "Hustinder    ",
         lyrics: "Tera Mera Nata",
         artistPhoto: "covers/Hustinder.png",
@@ -2605,8 +2652,8 @@ const playlist = [
     ,
     {
         title: "Ohon Galan Hor si      ",
-        videoID:"",
-        album:"Saadiyan Gallan",
+        videoID: "",
+        album: "Saadiyan Gallan",
         artist: "Hustinder    ",
         lyrics: "Ohon Galan Hor si",
         artistPhoto: "covers/Hustinder.png",
@@ -2625,8 +2672,8 @@ const playlist = [
     ,
     {
         title: "Gal Kaon Karda      ",
-        videoID:"",
-        album:"Saadiyan Gallan 2",
+        videoID: "",
+        album: "Saadiyan Gallan 2",
         artist: "Hustinder    ",
         lyrics: "Gal Kaon Karda",
         artistPhoto: "covers/Hustinder.png",
@@ -2638,8 +2685,8 @@ const playlist = [
     ,
     {
         title: "Gumnaam Pyar      ",
-        videoID:"",
-        album:"Saadiyan Gallan 2",
+        videoID: "",
+        album: "Saadiyan Gallan 2",
         artist: "Hustinder    ",
         lyrics: "Gumnaam Pyar",
         artistPhoto: "covers/Hustinder.png",
@@ -2651,8 +2698,8 @@ const playlist = [
     ,
     {
         title: "Hasde Hi Rehne Aa      ",
-        videoID:"",
-        album:"Saadiyan Gallan 2",
+        videoID: "",
+        album: "Saadiyan Gallan 2",
         artist: "Hustinder    ",
         lyrics: "Hasde Hi Rehne Aa",
         artistPhoto: "covers/Hustinder.png",
@@ -2664,8 +2711,8 @@ const playlist = [
     ,
     {
         title: "Ikko Dil      ",
-        videoID:"",
-        album:"Saadiyan Gallan 2",
+        videoID: "",
+        album: "Saadiyan Gallan 2",
         artist: "Hustinder    ",
         lyrics: "Ikko Dil",
         artistPhoto: "covers/Hustinder.png",
@@ -2676,8 +2723,8 @@ const playlist = [
     ,
     {
         title: "Kidan Dian Gallan      ",
-        videoID:"",
-        album:"Saadiyan Gallan 2",
+        videoID: "",
+        album: "Saadiyan Gallan 2",
         artist: "Hustinder    ",
         lyrics: "Kidan Dian Gallan",
         artistPhoto: "covers/Hustinder.png",
@@ -2689,8 +2736,8 @@ const playlist = [
     ,
     {
         title: "Maa Kehndi Hundi Si      ",
-        videoID:"",
-        album:"Saadiyan Gallan 2",
+        videoID: "",
+        album: "Saadiyan Gallan 2",
         artist: "Hustinder    ",
         lyrics: "Maa Kehndi Hundi Si",
         artistPhoto: "covers/Hustinder.png",
@@ -2702,8 +2749,8 @@ const playlist = [
     ,
     {
         title: "Pyaar Hoya      ",
-        videoID:"",
-        album:"Saadiyan Gallan 2",
+        videoID: "",
+        album: "Saadiyan Gallan 2",
         artist: "Hustinder    ",
         lyrics: "Pyaar Hoya",
         artistPhoto: "covers/Hustinder.png",
@@ -2715,8 +2762,8 @@ const playlist = [
     ,
     {
         title: "Mann Ton Legi      ",
-        videoID:"",
-        album:"Saadiyan Gallan 2",
+        videoID: "",
+        album: "Saadiyan Gallan 2",
         artist: "Hustinder    ",
         lyrics: "Mann Ton Legi",
         artistPhoto: "covers/Hustinder.png",
@@ -2732,8 +2779,8 @@ const playlist = [
     ,
     {
         title: "Passport Size Tasveer      ",
-        videoID:"",
-        album:"Saadiyan Gallan 3",
+        videoID: "",
+        album: "Saadiyan Gallan 3",
         artist: "Hustinder    ",
         lyrics: "Passport Size Tasveer",
         artistPhoto: "covers/Hustinder.png",
@@ -2744,8 +2791,8 @@ const playlist = [
     ,
     {
         title: "Rullde Firde Aan      ",
-        videoID:"",
-        album:"Saadiyan Gallan 3",
+        videoID: "",
+        album: "Saadiyan Gallan 3",
         artist: "Hustinder    ",
         lyrics: "Rullde Firde Aan",
         artistPhoto: "covers/Hustinder.png",
@@ -2757,8 +2804,8 @@ const playlist = [
     ,
     {
         title: "Ik Mutiyar Hundi      ",
-        videoID:"",
-        album:"Saadiyan Gallan 3",
+        videoID: "",
+        album: "Saadiyan Gallan 3",
         artist: "Hustinder    ",
         lyrics: "Ik Mutiyar Hundi",
         artistPhoto: "covers/Hustinder.png",
@@ -2770,8 +2817,8 @@ const playlist = [
     ,
     {
         title: "Rabb Di Aulad      ",
-        videoID:"",
-        album:"Saadiyan Gallan 3",
+        videoID: "",
+        album: "Saadiyan Gallan 3",
         artist: "Hustinder    ",
         lyrics: "Rabb Di Aulad",
         artistPhoto: "covers/Hustinder.png",
@@ -2783,8 +2830,8 @@ const playlist = [
     ,
     {
         title: "Surgan Nu Rah      ",
-        videoID:"",
-        album:"Saadiyan Gallan 3",
+        videoID: "",
+        album: "Saadiyan Gallan 3",
         artist: "Hustinder    ",
         lyrics: "Surgan Nu Rah",
         artistPhoto: "covers/Hustinder.png",
@@ -2796,8 +2843,8 @@ const playlist = [
     ,
     {
         title: "Bhuleya Ki Ae      ",
-        videoID:"",
-        album:"Saadiyan Gallan 3",
+        videoID: "",
+        album: "Saadiyan Gallan 3",
         artist: "Hustinder    ",
         lyrics: "Bhuleya Ki Ae",
         artistPhoto: "covers/Hustinder.png",
@@ -2808,8 +2855,8 @@ const playlist = [
     ,
     {
         title: "Hathan Utte Duniya      ",
-        videoID:"",
-        album:"Saadiyan Gallan 3",
+        videoID: "",
+        album: "Saadiyan Gallan 3",
         artist: "Hustinder    ",
         lyrics: "Hathan Utte Duniya",
         artistPhoto: "covers/Hustinder.png",
@@ -2821,8 +2868,8 @@ const playlist = [
     ,
     {
         title: "Saade Warge      ",
-        videoID:"",
-        album:"Saadiyan Gallan 3",
+        videoID: "",
+        album: "Saadiyan Gallan 3",
         artist: "Hustinder    ",
         lyrics: "Saade Warge",
         artistPhoto: "covers/Hustinder.png",
@@ -2839,8 +2886,8 @@ const playlist = [
     ,//21
     {
         title: "Mugshot      ",
-        videoID:"",
-        album:"Supermacy",
+        videoID: "",
+        album: "Supermacy",
         artist: "Hustinder    ",
         lyrics: "Mugshot",
         artistPhoto: "covers/Hustinder.png",
@@ -2851,8 +2898,8 @@ const playlist = [
     ,//21
     {
         title: "Gaza Patti      ",
-        videoID:"",
-        album:"Supermacy",
+        videoID: "",
+        album: "Supermacy",
         artist: "Hustinder    ",
         lyrics: "Gaza Patti",
         artistPhoto: "covers/Hustinder.png",
@@ -2864,8 +2911,8 @@ const playlist = [
     ,//21
     {
         title: "Pasand       ",
-        videoID:"",
-        album:"Supermacy",
+        videoID: "",
+        album: "Supermacy",
         artist: "Hustinder    ",
         lyrics: "Pasand ",
         artistPhoto: "covers/Hustinder.png",
@@ -2877,8 +2924,8 @@ const playlist = [
     ,//21
     {
         title: "Dollar Wargiye      ",
-        videoID:"",
-        album:"Supermacy",
+        videoID: "",
+        album: "Supermacy",
         artist: "Hustinder    ",
         lyrics: "Dollar Wargiye",
         artistPhoto: "covers/Hustinder.png",
@@ -2889,8 +2936,8 @@ const playlist = [
     ,//21
     {
         title: "Tera Sheher      ",
-        videoID:"",
-        album:"Supermacy",
+        videoID: "",
+        album: "Supermacy",
         artist: "Hustinder    ",
         lyrics: "Tera Sheher",
         artistPhoto: "covers/Hustinder.png",
@@ -2903,8 +2950,8 @@ const playlist = [
     ,//21
     {
         title: "Jethi Dhee      ",
-        videoID:"",
-        album:"Supermacy",
+        videoID: "",
+        album: "Supermacy",
         artist: "Hustinder    ",
         lyrics: "Jethi Dhee",
         artistPhoto: "covers/Hustinder.png",
@@ -2917,8 +2964,8 @@ const playlist = [
     ,//21
     {
         title: "Pehli Vaari      ",
-        videoID:"",
-        album:"Supermacy",
+        videoID: "",
+        album: "Supermacy",
         artist: "Hustinder    ",
         lyrics: "Pehli Vaari",
         artistPhoto: "covers/Hustinder.png",
@@ -2940,8 +2987,8 @@ const playlist = [
     ,//21
     {
         title: "Hundi Si Gareebi      ",
-        videoID:"",
-        album:"Mahol",
+        videoID: "",
+        album: "Mahol",
         artist: "Hustinder    ",
         lyrics: "Hundi Si Gareebi",
         artistPhoto: "covers/Hustinder.png",
@@ -2951,8 +2998,8 @@ const playlist = [
     },//21
     {
         title: "Tu Takkri      ",
-        videoID:"",
-        album:"Mahol",
+        videoID: "",
+        album: "Mahol",
         artist: "Hustinder    ",
         lyrics: "Tu Takkri",
         artistPhoto: "covers/Hustinder.png",
@@ -2964,8 +3011,8 @@ const playlist = [
     ,//21
     {
         title: "Mittran Di Sohn       ",
-        videoID:"",
-        album:"Mahol",
+        videoID: "",
+        album: "Mahol",
         artist: "Hustinder    ",
         lyrics: "Mittran Di Sohn",
         artistPhoto: "covers/Hustinder.png",
@@ -2977,8 +3024,8 @@ const playlist = [
     ,//21
     {
         title: "Raonak      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder    ",
         lyrics: "Raonak",
         artistPhoto: "covers/Hustinder.png",
@@ -2990,8 +3037,8 @@ const playlist = [
     ,//21
     {
         title: "Velly Yaar      ",
-        videoID:"",
-        album:"Mahol",
+        videoID: "",
+        album: "Mahol",
         artist: "Hustinder    ",
         lyrics: "Velly Yaar",
         artistPhoto: "covers/Hustinder.png",
@@ -3003,8 +3050,8 @@ const playlist = [
     ,//21
     {
         title: "Laag Daat      ",
-        videoID:"",
-        album:"Mahol",
+        videoID: "",
+        album: "Mahol",
         artist: "Hustinder    ",
         lyrics: "Laag Daat",
         artistPhoto: "covers/Hustinder.png",
@@ -3016,8 +3063,8 @@ const playlist = [
     ,//21
     {
         title: "Kharcha Kardange      ",
-        videoID:"",
-        album:"Mahol",
+        videoID: "",
+        album: "Mahol",
         artist: "Hustinder    ",
         lyrics: "Kharcha Kardange",
         artistPhoto: "covers/Hustinder.png",
@@ -3029,8 +3076,8 @@ const playlist = [
     ,//21
     {
         title: "Praandi      ",
-        videoID:"",
-        album:"Mahol",
+        videoID: "",
+        album: "Mahol",
         artist: "Hustinder    ",
         lyrics: "Praandi",
         artistPhoto: "covers/Hustinder.png",
@@ -3047,8 +3094,8 @@ const playlist = [
     ,//21
     {
         title: "Club Tale      ",
-        videoID:"",
-        album:"Young Once",
+        videoID: "",
+        album: "Young Once",
         artist: "Hustinder    ",
         lyrics: "Club Tale",
         artistPhoto: "covers/Hustinder.png",
@@ -3059,8 +3106,8 @@ const playlist = [
     ,//21
     {
         title: "Mittran De Circle      ",
-        videoID:"",
-        album:"Young Once",
+        videoID: "",
+        album: "Young Once",
         artist: "Hustinder    ",
         lyrics: "Mittran De Circle",
         artistPhoto: "covers/Hustinder.png",
@@ -3071,8 +3118,8 @@ const playlist = [
     ,//21
     {
         title: "Hub      ",
-        videoID:"",
-        album:"Young Once",
+        videoID: "",
+        album: "Young Once",
         artist: "Hustinder    ",
         lyrics: "Hub",
         artistPhoto: "covers/Hustinder.png",
@@ -3083,8 +3130,8 @@ const playlist = [
     ,//21
     {
         title: "Dullda Glass      ",
-        videoID:"",
-        album:"Young Once",
+        videoID: "",
+        album: "Young Once",
         artist: "Hustinder    ",
         lyrics: "Dullda Glass",
         artistPhoto: "covers/Hustinder.png",
@@ -3095,8 +3142,8 @@ const playlist = [
     ,//21
     {
         title: "She's Proud      ",
-        videoID:"",
-        album:"Young Once",
+        videoID: "",
+        album: "Young Once",
         artist: "Hustinder    ",
         lyrics: "She's Proud",
         artistPhoto: "covers/Hustinder.png",
@@ -3107,8 +3154,8 @@ const playlist = [
     ,//21
     {
         title: "Gutt      ",
-        videoID:"",
-        album:"Young Once",
+        videoID: "",
+        album: "Young Once",
         artist: "Hustinder    ",
         lyrics: "Gutt",
         artistPhoto: "covers/Hustinder.png",
@@ -3119,8 +3166,8 @@ const playlist = [
     ,//21
     {
         title: "Nachdi Ton      ",
-        videoID:"",
-        album:"Young Once",
+        videoID: "",
+        album: "Young Once",
         artist: "Hustinder    ",
         lyrics: "Nachdi Ton",
         artistPhoto: "covers/Hustinder.png",
@@ -3132,8 +3179,8 @@ const playlist = [
     ,//21
     {
         title: "Door Door      ",
-        videoID:"",
-        album:"Young Once",
+        videoID: "",
+        album: "Young Once",
         artist: "Hustinder    ",
         lyrics: "Door Door",
         artistPhoto: "covers/Hustinder.png",
@@ -3144,8 +3191,8 @@ const playlist = [
     ,//21
     {
         title: "Challey Chamkila      ",
-        videoID:"",
-        album:"Young Once",
+        videoID: "",
+        album: "Young Once",
         artist: "Hustinder    ",
         lyrics: "Challey Chamkila",
         artistPhoto: "covers/Hustinder.png",
@@ -3156,8 +3203,8 @@ const playlist = [
     ,//21
     {
         title: "Katal      ",
-        videoID:"",
-        album:"Young Once",
+        videoID: "",
+        album: "Young Once",
         artist: "Hustinder    ",
         lyrics: "Katal",
         artistPhoto: "covers/Hustinder.png",
@@ -3173,20 +3220,20 @@ const playlist = [
     //Hustinder:Singles
     {
         title: "Teyodian       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder     ",
         lyrics: "Teyodian",
         artistPhoto: "covers/Hustinder.png",
         cover: "covers/singles/hustinder/Teyodian.png",
-        audio: "https://www.dropbox.com/scl/fi/18j9x5zludb4g9z44ztyo/Teodian-Djjohal.fm.mp3?rlkey=82efoutig8kzm4odlughsxvy9&st=y9edh3yg&dl=1", 
+        audio: "https://www.dropbox.com/scl/fi/18j9x5zludb4g9z44ztyo/Teodian-Djjohal.fm.mp3?rlkey=82efoutig8kzm4odlughsxvy9&st=y9edh3yg&dl=1",
         searchString: "Teyodian"
     },
-    
+
     {
         title: "Photo Ohde Naal       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder     ",
         lyrics: "Photo Ohde Naal",
         artistPhoto: "covers/Hustinder.png",
@@ -3196,8 +3243,8 @@ const playlist = [
     },
     {
         title: "Fake Feelings       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder     ",
         lyrics: "Fake Feelings",
         artistPhoto: "covers/Hustinder.png",
@@ -3207,8 +3254,8 @@ const playlist = [
     },
     {
         title: "Chunni De Olley       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder     ",
         lyrics: "Chunni De Olley",
         artistPhoto: "covers/Hustinder.png",
@@ -3218,8 +3265,8 @@ const playlist = [
     },
     {
         title: "Flashback       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder     ",
         lyrics: "Flashback",
         artistPhoto: "covers/Hustinder.png",
@@ -3240,8 +3287,8 @@ const playlist = [
     // },
     {
         title: "Sara Pind Mittran Da       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder     ",
         lyrics: "Sara Pind Mittran Da",
         artistPhoto: "covers/Hustinder.png",
@@ -3251,8 +3298,8 @@ const playlist = [
     },
     {
         title: "Ik Pind Sade Da Munda      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder    ",
         lyrics: "Ik Pind Sade Da Munda",
         artistPhoto: "covers/Hustinder.png",
@@ -3263,8 +3310,8 @@ const playlist = [
     ,
     {
         title: "Lohe De Kunde      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder    ",
         lyrics: "Lohe De Kunde",
         artistPhoto: "covers/Hustinder.png",
@@ -3275,8 +3322,8 @@ const playlist = [
     ,
     {
         title: "Pind Puchhdi      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder    ",
         lyrics: "Pind Puchhdi",
         artistPhoto: "covers/Hustinder.png",
@@ -3287,8 +3334,8 @@ const playlist = [
     ,
     {
         title: "Rang      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder    ",
         lyrics: "Rang",
         artistPhoto: "covers/Hustinder.png",
@@ -3299,8 +3346,8 @@ const playlist = [
     ,
     {
         title: "Yaar Sambh Lainge      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder    ",
         lyrics: "Yaar Sambh Lainge",
         artistPhoto: "covers/Hustinder.png",
@@ -3311,8 +3358,8 @@ const playlist = [
     ,
     {
         title: "Dilli Ch Punjab      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder    ",
         lyrics: "Dilli Ch Punjab",
         artistPhoto: "covers/Hustinder.png",
@@ -3323,8 +3370,8 @@ const playlist = [
     ,
     {
         title: "Dujja Cup      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder    ",
         lyrics: "Dujja Cup",
         artistPhoto: "covers/Hustinder.png",
@@ -3335,8 +3382,8 @@ const playlist = [
     ,
     {
         title: "Number Purana      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder    ",
         lyrics: "Number Purana",
         artistPhoto: "covers/Hustinder.png",
@@ -3347,8 +3394,8 @@ const playlist = [
     ,
     {
         title: "Profit Jhone De      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder    ",
         lyrics: "Profit Jhone De",
         artistPhoto: "covers/Hustinder.png",
@@ -3359,8 +3406,8 @@ const playlist = [
     ,
     {
         title: "Gol Chowk      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder    ",
         lyrics: "Gol Chowk",
         artistPhoto: "covers/Hustinder.png",
@@ -3371,8 +3418,8 @@ const playlist = [
     ,
     {
         title: "Blunt Cut      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Hustinder    ",
         lyrics: "Blunt Cut",
         artistPhoto: "covers/Hustinder.png",
@@ -3386,7 +3433,7 @@ const playlist = [
     //     title: "      ",
     // videoID:"",    
     // album:"",
-  
+
     //     artist: "Hustinder    ",
     //     lyrics: "",
     //     artistPhoto: "covers/Hustinder.png",
@@ -3398,8 +3445,8 @@ const playlist = [
 
     {
         title: "Geet Pyar K(V2)      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Sahil    ",
         lyrics: "Geet Pyar K(V2)",
         artistPhoto: "covers/artists/Sahil.jpeg",
@@ -3411,8 +3458,8 @@ const playlist = [
     //RP Singh: Singles
     {
         title: "Sexy       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Sexy",
         artistPhoto: "covers/RP Singh.png",
@@ -3422,8 +3469,8 @@ const playlist = [
     },//song3\
     {
         title: "Pencil       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Pencil",
         artistPhoto: "covers/RP Singh.png",
@@ -3433,8 +3480,8 @@ const playlist = [
     },//song3\
     {
         title: "Sheesha       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Sheesha",
         artistPhoto: "covers/RP Singh.png",
@@ -3444,8 +3491,8 @@ const playlist = [
     },//song3\
     {
         title: "Rap God       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Rap God",
         artistPhoto: "covers/RP Singh.png",
@@ -3455,8 +3502,8 @@ const playlist = [
     },//song3\
     {
         title: "Mcoca       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Mcoca",
         artistPhoto: "covers/RP Singh.png",
@@ -3466,8 +3513,8 @@ const playlist = [
     },//song3\
     {
         title: "Banger       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Banger",
         artistPhoto: "covers/RP Singh.png",
@@ -3477,8 +3524,8 @@ const playlist = [
     },//song3\
     {
         title: "Bliss       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Bliss",
         artistPhoto: "covers/RP Singh.png",
@@ -3488,8 +3535,8 @@ const playlist = [
     },//song3\
     {
         title: "Azad Flow       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Azad Flow ",
         artistPhoto: "covers/RP Singh.png",
@@ -3500,8 +3547,8 @@ const playlist = [
 
     {
         title: "Power       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Power",
         artistPhoto: "covers/RP Singh.png",
@@ -3511,8 +3558,8 @@ const playlist = [
     },//song3\
     {
         title: "Meeh       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Meeh",
         artistPhoto: "covers/RP Singh.png",
@@ -3522,8 +3569,8 @@ const playlist = [
     },//song3\
     {
         title: "Chehre       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Chehre",
         artistPhoto: "covers/RP Singh.png",
@@ -3533,8 +3580,8 @@ const playlist = [
     },//song3\
     {
         title: "3 AM       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "3 AM",
         artistPhoto: "covers/RP Singh.png",
@@ -3544,8 +3591,8 @@ const playlist = [
     },//song3\
     {
         title: "Aadhi Si Raat       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Aadhi Si Raat",
         artistPhoto: "covers/RP Singh.png",
@@ -3555,8 +3602,8 @@ const playlist = [
     },//song3\
     {
         title: "Jigre       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Jigre",
         artistPhoto: "covers/RP Singh.png",
@@ -3566,8 +3613,8 @@ const playlist = [
     },//song3\
     {
         title: "Look Book       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Look Book",
         artistPhoto: "covers/RP Singh.png",
@@ -3577,8 +3624,8 @@ const playlist = [
     },//song3\
     {
         title: "Maal       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Maal",
         artistPhoto: "covers/RP Singh.png",
@@ -3588,8 +3635,8 @@ const playlist = [
     },//song3\
     {
         title: "No Lve       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "",
         artistPhoto: "covers/RP Singh.png",
@@ -3599,8 +3646,8 @@ const playlist = [
     },//song3\
     {
         title: "Pataka       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Pataka",
         artistPhoto: "covers/RP Singh.png",
@@ -3610,8 +3657,8 @@ const playlist = [
     },//song3\
     {
         title: "Sapne       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "",
         artistPhoto: "covers/RP Singh.png",
@@ -3621,8 +3668,8 @@ const playlist = [
     },//song3\
     {
         title: "Tehalka       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Tehalka",
         artistPhoto: "covers/RP Singh.png",
@@ -3632,8 +3679,8 @@ const playlist = [
     },//song3\
     {
         title: "Stop RP       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Stop RP",
         artistPhoto: "covers/RP Singh.png",
@@ -3644,8 +3691,8 @@ const playlist = [
 
     {
         title: "Toxic       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Toxic",
         artistPhoto: "covers/RP Singh.png",
@@ -3655,8 +3702,8 @@ const playlist = [
     },//song3\
     {
         title: "Shiva       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Shiva",
         artistPhoto: "covers/RP Singh.png",
@@ -3666,8 +3713,8 @@ const playlist = [
     },//song3\
     {
         title: "Sneeze       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Sneeze",
         artistPhoto: "covers/RP Singh.png",
@@ -3677,8 +3724,8 @@ const playlist = [
     },//song3\
     {
         title: "Sarpanchi       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Sarpanchi",
         artistPhoto: "covers/RP Singh.png",
@@ -3688,8 +3735,8 @@ const playlist = [
     },//song3\
     {
         title: "If You Know You Know       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "If You Know You Know",
         artistPhoto: "covers/RP Singh.png",
@@ -3700,8 +3747,8 @@ const playlist = [
 
     {
         title: "7 Birth       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "7 Birth",
         artistPhoto: "covers/RP Singh.png",
@@ -3711,8 +3758,8 @@ const playlist = [
     },//song3\
     {
         title: "1857       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "1857",
         artistPhoto: "covers/RP Singh.png",
@@ -3722,8 +3769,8 @@ const playlist = [
     },//song3\
     {
         title: "Approach       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Approach",
         artistPhoto: "covers/RP Singh.png",
@@ -3733,8 +3780,8 @@ const playlist = [
     },//song3\
     {
         title: "BFF       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "BFF",
         artistPhoto: "covers/RP Singh.png",
@@ -3744,8 +3791,8 @@ const playlist = [
     },//song3\
     {
         title: "Do Cheez       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Do Cheez",
         artistPhoto: "covers/RP Singh.png",
@@ -3755,8 +3802,8 @@ const playlist = [
     },//song3\
     {
         title: "Famous       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Famous",
         artistPhoto: "covers/RP Singh.png",
@@ -3766,8 +3813,8 @@ const playlist = [
     },//song3\
     {
         title: "Govinda       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Govinda",
         artistPhoto: "covers/RP Singh.png",
@@ -3777,8 +3824,8 @@ const playlist = [
     },//song3\
     {
         title: "Jahaaj       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Jahaaj",
         artistPhoto: "covers/RP Singh.png",
@@ -3788,8 +3835,8 @@ const playlist = [
     },//song3\
     {
         title: "MI AMOR       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "MI AMOR",
         artistPhoto: "covers/RP Singh.png",
@@ -3799,8 +3846,8 @@ const playlist = [
     },//song3\
     {
         title: "Victor       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "RP Singh    ",
         lyrics: "Victor",
         artistPhoto: "covers/RP Singh.png",
@@ -3826,8 +3873,8 @@ const playlist = [
     // },
     {
         title: "Shok Albadi       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Masoom Sharma    ",
         lyrics: "Shok Albadi",
         artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -3838,8 +3885,8 @@ const playlist = [
 
     {
         title: "Mahashya Ji      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Masoom Sharma    ",
         lyrics: "Mahashya Ji",
         artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -3849,8 +3896,8 @@ const playlist = [
     },
     {
         title: "Khuni Ranjis      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Masoom Sharma    ",
         lyrics: "Khuni Ranjis",
         artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -3860,8 +3907,8 @@ const playlist = [
     },
     {
         title: "UP Aale kaam      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Masoom Sharma    ",
         lyrics: "Up Aale Kaam",
         artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -3869,13 +3916,13 @@ const playlist = [
         audio: "https://www.dropbox.com/scl/fi/rkpfcyfrbqswjgc81qx0p/UP-Ale-Kaam-KoshalWorld.Com.mp3?rlkey=mzb4ijplbodnflexs9lc4xn8b&st=o47spmmo&dl=1",
         searchString: "up aale kaam up aale kam up ale kam"
     },
-    
+
 
 
     {
         title: "2 Numbari       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Masoom Sharma    ",
         lyrics: "2 Numbari",
         artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -3886,8 +3933,8 @@ const playlist = [
     ,//song3\
     {
         title: "Jaan Jatni       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Masoom Sharma    ",
         lyrics: "Jaan Jatni",
         artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -3898,8 +3945,8 @@ const playlist = [
     ,//song3\
     {
         title: "English Medium       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Masoom Sharma    ",
         lyrics: "English Medium",
         artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -3910,8 +3957,8 @@ const playlist = [
     ,//song3\
     {
         title: "2 Dada       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Masoom Sharma    ",
         lyrics: "2 Dada",
         artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -3922,8 +3969,8 @@ const playlist = [
     ,//song3\
     {
         title: "Chambal K Daku       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Masoom Sharma    ",
         lyrics: "Chambal K Daku",
         artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -3934,8 +3981,8 @@ const playlist = [
     ,//song3\
     {
         title: "Baba Ji Ki Booti       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Masoom Sharma    ",
         lyrics: "Baba Ji Ki Booti",
         artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -3946,8 +3993,8 @@ const playlist = [
     ,//song3\
     {
         title: "4-5 Pistol       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Masoom Sharma    ",
         lyrics: "4-5 Pistol",
         artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -3958,8 +4005,8 @@ const playlist = [
     ,//song3\
     {
         title: "Tempo       ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Masoom Sharma    ",
         lyrics: "2 Numbari",
         artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -3972,12 +4019,12 @@ const playlist = [
 
     ,//song3\
     {
-        title: "Bewafa Mehndi       ", 
+        title: "Bewafa Mehndi       ",
         artist: "Narender Bhagana   ",
-        lyrics:"Bewafa Mehndi",        
-        artistPhoto: "covers/Narender Bhagana.png", 
-        cover: "covers/bewafa mehndi.png", 
-        audio: "https://www.dropbox.com/scl/fi/enyo002xvkjkdqd0t3qhv/Bewafa-Mehndi-KoshalWorld.Com.mp3?rlkey=z24xh4zadnoywf9itxm2rc2c5&st=0q65sixk&dl=1", 
+        lyrics: "Bewafa Mehndi",
+        artistPhoto: "covers/Narender Bhagana.png",
+        cover: "covers/bewafa mehndi.png",
+        audio: "https://www.dropbox.com/scl/fi/enyo002xvkjkdqd0t3qhv/Bewafa-Mehndi-KoshalWorld.Com.mp3?rlkey=z24xh4zadnoywf9itxm2rc2c5&st=0q65sixk&dl=1",
         searchString: "Bewafa Mehndi"
     },
 
@@ -3985,8 +4032,8 @@ const playlist = [
 
     {
         title: "Enna Sona      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Enna Sona ",
         artistPhoto: "covers/Arijit Singh.png",
@@ -3996,8 +4043,8 @@ const playlist = [
     },
     {
         title: "Tenu Sang Rakhna      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Tenu Sang Rakhna ",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4007,8 +4054,8 @@ const playlist = [
     },
     {
         title: "O Bedardeya      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "O Bedardeya",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4018,8 +4065,8 @@ const playlist = [
     },
     {
         title: "Kalank      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Kalank",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4029,8 +4076,8 @@ const playlist = [
     },
     {
         title: "Kabhi Jo Badal      ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Kabhi Jo Badal ",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4040,8 +4087,8 @@ const playlist = [
     },
     {
         title: "Khairiyat     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Khairiyat",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4051,8 +4098,8 @@ const playlist = [
     },
     {
         title: "O Maahi     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "O Maahi",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4062,8 +4109,8 @@ const playlist = [
     },
     {
         title: "Phir Bhi Tumko Chahunga     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Phir Bhi Tumko Chahunga",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4073,8 +4120,8 @@ const playlist = [
     },
     {
         title: "Sajni     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Sajni",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4084,8 +4131,8 @@ const playlist = [
     },
     {
         title: "Soch Na Sake     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Soch Na Sake",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4095,8 +4142,8 @@ const playlist = [
     },
     {
         title: "Tum Ho     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Tum Ho",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4106,8 +4153,8 @@ const playlist = [
     },
     {
         title: "Ve Kamleya     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Ve Kamleya",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4115,10 +4162,10 @@ const playlist = [
         audio: "https://www.dropbox.com/scl/fi/nabhbquo4cafyiyz20c7w/Ve_Kamleya_-_Lofi_Mix-0.mp3?rlkey=anjady9sonuxtfmx7xo7rout9&st=b8rlfvne&dl=1",
         searchString: "Ve Kamleya "
     },
-    { 
+    {
         title: "Zaalima     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Zaalima",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4128,8 +4175,8 @@ const playlist = [
     },
     {
         title: "Bolna     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Bolna",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4139,8 +4186,8 @@ const playlist = [
     },
     {
         title: "Citylights     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Citylights",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4150,8 +4197,8 @@ const playlist = [
     },
     {
         title: "Hamari Adhuri Kahani    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Hamari Adhuri Kahani",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4161,8 +4208,8 @@ const playlist = [
     },
     {
         title: "Hawayein     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Hawayein     ",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4172,8 +4219,8 @@ const playlist = [
     },
     {
         title: "Humdard     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Humdard",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4183,8 +4230,8 @@ const playlist = [
     },
     {
         title: "Ik Vaari Aa    ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Ik Vaari Aa",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4194,8 +4241,8 @@ const playlist = [
     },
     {
         title: "Jalebi     ",
-        videoID:"",
-        album:"",
+        videoID: "",
+        album: "",
         artist: "Arijit Singh    ",
         lyrics: "Jalebi",
         artistPhoto: "covers/Arijit Singh.png",
@@ -4204,28 +4251,28 @@ const playlist = [
         searchString: "Jalebi "
     }
 
-    ,{
-        title: "Khaab     ", 
-        videoID:  "Nxy4MqYLkfI",    
-        album:  "",
-  
+    , {
+        title: "Khaab     ",
+        videoID: "Nxy4MqYLkfI",
+        album: "",
+
         artist: "Akhil    ",
-        lyrics:"Khaab",        
-        artistPhoto: "covers/artists/Akhil.png", 
-        cover: "covers/singles/akhil/khaab_akhil.png", 
-        audio: "https://www.dropbox.com/scl/fi/e5c7gcbwtse6xf3koaqa5/Khaab-Akhil-128-Kbps.mp3?rlkey=nkbwlmyb5kztgrecqu2rgbtfq&st=57w98dvi&dl=1", 
+        lyrics: "Khaab",
+        artistPhoto: "covers/artists/Akhil.png",
+        cover: "covers/singles/akhil/khaab_akhil.png",
+        audio: "https://www.dropbox.com/scl/fi/e5c7gcbwtse6xf3koaqa5/Khaab-Akhil-128-Kbps.mp3?rlkey=nkbwlmyb5kztgrecqu2rgbtfq&st=57w98dvi&dl=1",
         searchString: "Khaab "
     }
 
-    ,{
-        title: "Not Like Us    ", 
-        videoID:  "Not Like Us",    
-        album:  "",
+    , {
+        title: "Not Like Us    ",
+        videoID: "Not Like Us",
+        album: "",
         artist: "Kendrick Lamar    ",
-        lyrics:"Not Like Us",        
-        artistPhoto: "covers/artists/Kendrick Lamar.png", 
-        cover: "covers/singles/kendrick/Not Like US.png", 
-        audio: "https://www.dropbox.com/scl/fi/ell9jlkuo6z762zc26xws/Not-Like-Us_VAANI.mp3?rlkey=s46nvnz1tao6r73d54j12740t&st=9hb5c7lo&dl=1", 
+        lyrics: "Not Like Us",
+        artistPhoto: "covers/artists/Kendrick Lamar.png",
+        cover: "covers/singles/kendrick/Not Like US.png",
+        audio: "https://www.dropbox.com/scl/fi/ell9jlkuo6z762zc26xws/Not-Like-Us_VAANI.mp3?rlkey=s46nvnz1tao6r73d54j12740t&st=9hb5c7lo&dl=1",
         searchString: "Not Like Us "
     }
 

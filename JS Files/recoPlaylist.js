@@ -646,8 +646,8 @@ let recoPlaylist = [
                 audio: "https://www.dropbox.com/scl/fi/ewzihfow2w2ezjnze9g6v/Still-Rollin.mp3?rlkey=okly7bp127kpphltvz19nyj1y&st=8lwsqaee&dl=1",
                 searchString: "Still Rolling "
             },
-           
-           
+
+
             {
                 title: "Never Fold  ",
                 artist: "Sidhu Moose Wala ",
@@ -658,7 +658,7 @@ let recoPlaylist = [
                 searchString: "Never Fold Sidhu Moose Wala"
             },
 
-            
+
 
 
             {
@@ -689,7 +689,7 @@ let recoPlaylist = [
                 searchString: "Dollar Sidhu Moose Wala"
             },
 
-            
+
             {
                 title: "Chawal ",
                 artist: "Sumit Patra ",
@@ -699,7 +699,7 @@ let recoPlaylist = [
                 audio: "https://www.dropbox.com/scl/fi/7dka6w6mlaylm9ca5cuii/Chawal-128k.m4a?rlkey=p465t2a4km3c6kmmloly77b3j&st=uemcanec&dl=1",
                 searchString: "Chawal "
             },
-            
+
             {
                 title: "Death Row  ",
                 artist: "Dhanda Nyoliwala  ",
@@ -747,7 +747,7 @@ let recoPlaylist = [
                 audio: "https://www.dropbox.com/scl/fi/oioespe6gzmcalqvrci0t/Bitch-Im-Back.mp3?rlkey=xltbmmybqvkbsy4qvm308a1go&st=m3ptegjc&dl=1",
                 searchString: "Bitch I'm Back Sidhu Moose Wala"
             },
-           
+
 
 
             {
@@ -759,7 +759,7 @@ let recoPlaylist = [
                 audio: "https://www.dropbox.com/scl/fi/qmxlz406rs1o40er8erva/Khabi-Khan-Ninja.mp3?rlkey=s6sfaxk3xdbw5iaf4mfd90qwk&st=t2nzcgxa&dl=1",
                 searchString: "Khabi Khan"
             },
-           
+
             {
                 title: "Reckless  ",
                 artist: "Shubh  ",
@@ -887,7 +887,7 @@ let recoPlaylist = [
                 audio: "https://www.dropbox.com/scl/fi/iczreo6gg5g7g98bzf6ew/Sifar-Safar-Karan-Aujla.mp3?rlkey=12saqxy94c5cvi74gjqsdatbb&st=l0wccesh&dl=1",
                 searchString: "Sifar Safar"
             },
-            
+
             // {
             //     title: " ",
             //     artist: "  ",
@@ -938,8 +938,8 @@ let recoPlaylist = [
             },
             {
                 title: "Russian Bandana      ",
-                videoID:"",
-                album:"",
+                videoID: "",
+                album: "",
                 artist: "Dhanda Nyoliwala   ",
                 lyrics: "Russian Bandana",
                 artistPhoto: "covers/Dhanda Nyoliwala.jpg",
@@ -956,7 +956,7 @@ let recoPlaylist = [
                 audio: "https://www.dropbox.com/scl/fi/vfinxbgnl2rflszc1cr6d/Gangland.mp3?rlkey=xx0a1eh1uj6xdgo8lh1emxeuv&st=3tilknav&dl=1",
                 searchString: "Gangland Mankirt Aulakh workout workout songs gym music gym songs gim songs jim songs  "
             },
-            
+
             {
                 title: "Chorni  ",
                 artist: "Sidhu Moose Wala,Divine ",
@@ -967,11 +967,11 @@ let recoPlaylist = [
                 searchString: "Chorni Sidhu Moose Wala"
             },
 
-            
+
             {
                 title: "Lalkara         ",
-                videoID:"",
-                album:"",
+                videoID: "",
+                album: "",
                 artist: "Diljit Dosanjh     ",
                 lyrics: "Lalkara",
                 artistPhoto: "covers/Diljit Dosanjh.png",
@@ -990,8 +990,8 @@ let recoPlaylist = [
             },
             {
                 title: "Illegal      ",
-                videoID:"",
-                album:"",
+                videoID: "",
+                album: "",
                 artist: "Dhanda Nyoliwala   ",
                 lyrics: "Illegal",
                 artistPhoto: "covers/Dhanda Nyoliwala.jpg",
@@ -1011,8 +1011,8 @@ let recoPlaylist = [
             },
             {
                 title: "Victory Anthem      ",
-                videoID:"",
-                album:"",
+                videoID: "",
+                album: "",
                 artist: "Khushi-Saini  ",
                 lyrics: "Victory Anthem",
                 cover: "covers/victory anthem.jpg",
@@ -1020,7 +1020,7 @@ let recoPlaylist = [
                 searchString: "Victer"
             },
             {
-                title: "Jatt Life       ", 
+                title: "Jatt Life       ",
                 artist: "Virender Brar",
                 lyrics: "Jatt Life",
                 artistPhoto: "covers/artists/Virender Brar.webp",
@@ -1028,11 +1028,11 @@ let recoPlaylist = [
                 audio: "https://www.dropbox.com/scl/fi/qefodex6mlhnz3goiq4ri/Jatt-Life-Varinder-Brar.mp3?rlkey=8t2enzz1bnmpgm2nalefto5ku&st=3f937pbx&dl=1",
                 searchString: "Jatt Life virender brar workout workout songs gym music gym songs gim songs jim songs  "
             },
-            
+
             {
                 title: "Up To You      ",
-                videoID:"",
-                album:"",
+                videoID: "",
+                album: "",
                 artist: "Dhanda Nyoliwala  ",
                 lyrics: "Up To You",
                 artistPhoto: "covers/Dhanda Nyoliwala.jpg",
@@ -1042,8 +1042,8 @@ let recoPlaylist = [
             },
             {
                 title: "Born To Shine      ",
-                videoID:"",
-                album:"",
+                videoID: "",
+                album: "",
                 artist: "Diljit Dosanjb",
                 lyrics: "Born To Shine",
                 artistPhoto: "covers/Diljit Dosanjh.png",
@@ -1053,8 +1053,8 @@ let recoPlaylist = [
             },
             {
                 title: "52 Bars      ",
-                videoID:"",
-                album:"",
+                videoID: "",
+                album: "",
                 artist: "Karan Aujla   ",
                 lyrics: "52 Bars",
                 artistPhoto: "covers/Karan Aujla.png",
@@ -1063,7 +1063,7 @@ let recoPlaylist = [
                 searchString: "Victer"
             },
             {
-                title: "Boo Thang        ", 
+                title: "Boo Thang        ",
                 artist: "Virender Brar",
                 lyrics: "Boo Thang",
                 artistPhoto: "covers/artists/Virender Brar.webp",
@@ -1101,8 +1101,8 @@ let recoPlaylist = [
             },
             {
                 title: "G.O.A.T.      ",
-                videoID:"",
-                album:"",
+                videoID: "",
+                album: "",
                 artist: "Diljit Dosanjh     ",
                 lyrics: "G.O.A.T.",
                 artistPhoto: "covers/Diljit Dosanjh.png",
@@ -1119,7 +1119,7 @@ let recoPlaylist = [
                 audio: "https://www.dropbox.com/scl/fi/c6ufb0q9se2ltgeyhb8qg/Believer-PagalNew.Com.Se-1.mp3?rlkey=m9xq9sho2crhr8pf9gbsgc9i9&st=cj0cysq3&dl=1",
                 searchString: "Believer workout workout songs gym music gym songs gim songs jim songs  "
             },
-            
+
             {
                 title: "Badnam        ",
                 artist: "Mankirt Aulakh",
@@ -1130,7 +1130,7 @@ let recoPlaylist = [
                 searchString: "Badnam Mankirt Aulakh workout workout songs gym music gym songs gim songs jim songs  "
             },
             {
-                title: "Thaa     ", 
+                title: "Thaa     ",
                 artist: "Virender Brar",
                 lyrics: "Thaa",
                 artistPhoto: "covers/artists/Virender Brar.webp",
@@ -1157,8 +1157,8 @@ let recoPlaylist = [
                 searchString: "Never Ever "
 
             },
-            
-            
+
+
             {
                 title: "Paapi        ",
                 artist: "Mankirt Aulakh",
@@ -1168,9 +1168,9 @@ let recoPlaylist = [
                 audio: "https://www.dropbox.com/scl/fi/cgc2qj4m9i8cfwdpfrw0k/Paapi-Munda-Mankirt-Aulakh.mp3?rlkey=t7ltfo040lh7h4pl0uc7onbro&st=z2txd8fl&dl=1",
                 searchString: "Mankirt Aulakh workout workout songs gym music gym songs gim songs jim songs  "
             },
-            
+
             {
-                title: "12 Bande        ", 
+                title: "12 Bande        ",
                 artist: "Virender Brar",
                 lyrics: "12 Bande",
                 artistPhoto: "covers/artists/Virender Brar.webp",
@@ -1178,10 +1178,10 @@ let recoPlaylist = [
                 audio: "https://www.dropbox.com/scl/fi/h3x2qwsjc4y9vbqkp7524/12-Bande-Varinder-Brar.mp3?rlkey=iaqu0ap3t4kzc37gi6cj4b1cs&st=kwg12pmm&dl=1",
                 searchString: "12 Bande virender brar workout workout songs gym music gym songs gim songs jim songs  "
             },
-            
-            
+
+
             {
-                title: "Takkar      ", 
+                title: "Takkar      ",
                 artist: "Virender Brar",
                 lyrics: "Takkar",
                 artistPhoto: "covers/artists/Virender Brar.webp",
@@ -1198,7 +1198,7 @@ let recoPlaylist = [
             //     audio: "",
             //     searchString: "JUail.Png virender brar workout workout songs gym music gym songs gim songs jim songs  "
             // },
-            
+
 
 
 
@@ -2342,135 +2342,56 @@ let recoPlaylist = [
 
     {
         id: 4,
-        title: "Salena Gomez    ",
-        artist: "Salena Gomez   ",
-        cover: "covers/salena gomez.jpg",
+        title: "Nostalgia   ",
+        artist: "Hustinder   ",
+        cover: "covers/albums/hustinder/nostalgia_album.jpg",
         songs: [
-            //Hustinder:Bhadauria
-    {
-        title: "Fella's Forever      ",
-        videoID:"",
-        album:"Bhadauria",
-        artist: "Hustinder    ",
-        lyrics: "Fella's Forever",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "https://www.dropbox.com/scl/fi/c8brtrd60yuwv11wy6an1/fellas-forever.mp3?rlkey=6c5l9mkcxgt7ukj03bwvm8ks7&st=f9i21x36&dl=1",
-        searchString: "fellas forever"
-    },//13
-    {
-        title: "Queen's Gambit      ",
-        videoID:"",
-        album:"Bhadauria",
-        artist: "Hustinder    ",
-        lyrics: "Queen's Gambit",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "https://www.dropbox.com/scl/fi/ci8mqvxrpzbogh9z3n7e0/queen-s-gambit.mp3?rlkey=dtrqqozxwn1g0yzodtyuooat5&st=kals40bx&dl=1",
-        searchString: "queen's gambit"
-    },//14
-    {
-        title: "Don't You Dare      ",
-        videoID:"",
-        album:"Bhadauria",
-        artist: "Hustinder    ",
-        lyrics: "Don't You Dare",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "https://www.dropbox.com/scl/fi/6z1cxpb3epa954k9bjzia/don-t-you-dare.mp3?rlkey=guar5bnksbvk1n3j0ej8we0gm&st=bt01fpjm&dl=1",
-        searchString: "don't you dare"
-    },//15
-    {
-        title: "Mittra'n De Dere     ",
-        videoID:"",
-        album:"Bhadauria",
-        artist: "Hustinder    ",
-        lyrics: "Mittra'n De Dere",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "https://www.dropbox.com/scl/fi/i3dxsx8uzcvc7b7j37ofn/mittran-de-dere.mp3?rlkey=yqv4n65ysokhqddtcey5ft01y&st=8k1vnfz0&dl=1",
-        searchString: "mitran de dere"
-    },//16
-    {
-        title: "Step Bhull Gyi      ",
-        videoID:"",
-        album:"Bhadauria",
-        artist: "Hustinder    ",
-        lyrics: "Step Bhull Gyi",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "https://www.dropbox.com/scl/fi/dvk3022dpi8yv7h0tqckr/step-bhull-gyi.mp3?rlkey=mmqiv27hqaiznbl9h12wxyvji&st=9sthu95u&dl=1",
-        searchString: "step bhull gyi"
-    },//17
+            //Hustinder:Nostalgia
+            {
+                title: "Chit Ni Lagda ",
+                videoID: "",
+                album: "Nostalgia",
+                artist: "Hustinder    ",
+                lyrics: "Chit Ni Lagda",
+                artistPhoto: "covers/Hustinder.png",
+                cover: "covers/albums/hustinder/nostalgia_album.jpg",
+                audio: "https://www.dropbox.com/scl/fi/ffoq0yqv0btdq5lyplvr1/Chit-Ni-Lagda.mp3?rlkey=ggg96f4h4gg0u3dzknpupkes1&st=wobpjsjp&dl=1 ",
+                searchString: "Chit Ni Lagda nostalgia"
+            },
+            {
+                title: "Morniyan ",
+                videoID: "",
+                album: "Nostalgia",
+                artist: "Hustinder    ",
+                lyrics: "Morniyan",
+                artistPhoto: "covers/Hustinder.png",
+                cover: "covers/albums/hustinder/nostalgia_album.jpg",
+                audio: " https://www.dropbox.com/scl/fi/udmjamuxxje9c3qeqwvx7/Morniya-n.mp3?rlkey=7jp71nbec0mz6h80frtawodnz&st=tr6u7jum&dl=1",
+                searchString: "Morniyan nostalgia"
+            },
+            {
+                title: "Pattiyan ",
+                videoID: "",
+                album: "Nostalgia",
+                artist: "Hustinder    ",
+                lyrics: "Pattiyan",
+                artistPhoto: "covers/Hustinder.png",
+                cover: "covers/albums/hustinder/nostalgia_album.jpg",
+                audio: " https://www.dropbox.com/scl/fi/w038v12dsit1m1mh3bh39/Pattiyan.mp3?rlkey=q0s692c12w7dmxdg8s82o6uml&st=tff9i7vo&dl=1",
+                searchString: "Pattiyan nostalgia"
+            },
+            {
+                title: "Yar Jigri ",
+                videoID: "",
+                album: "Nostalgia",
+                artist: "Hustinder    ",
+                lyrics: "Yar Jigri",
+                artistPhoto: "covers/Hustinder.png",
+                cover: "covers/albums/hustinder/nostalgia_album.jpg",
+                audio: " https://www.dropbox.com/scl/fi/gdjcttin0iazaognpc01v/Yaar-Jigri.mp3?rlkey=4yedfng6pgqjgrqykrzhhbva2&st=t323030n&dl=1",
+                searchString: "Yar Jigri nostalgia"
+            },
 
-    // { 
-    //     title: "Martha My Dear",
-        // videoID:"",
-        // album:"",
-  
-    //     artist: "Hustinder    ",
-    //     lyrics:"Step Bhull Gyi",        
-    //     artistPhoto: "covers/Hustinder.png", 
-    //     cover: "covers/albums/arjan/bhadauria_album.png", 
-    //     audio: "songs/albums/bhadauria/martha my",
-    //     searchString: "step bhull gyi"
-    // },//17
-
-    {
-        title: "White Money     ",
-        videoID:"",
-        album:"Bhadauria",
-        artist: "Hustinder    ",
-        lyrics: "White Money ",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "https://www.dropbox.com/scl/fi/4uu48z570maovzxsuibwy/white-money.mp3?rlkey=ivy9hq2z8tzf69leb77q0g1ov&st=w4sopvaf&dl=1",
-        searchString: "white money"
-    },//18
-    {
-        title: "We Living It      ",
-        videoID:"",
-        album:"Bhadauria",
-        artist: "Hustinder    ",
-        lyrics: "We Living It ",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "https://www.dropbox.com/scl/fi/48xephd6suo3vg05851wi/we-living-it.mp3?rlkey=chrraiv6ynz2wkqyowirp2be8&st=vs01sasr&dl=1",
-        searchString: "we living it"
-    },//19
-    {
-        title: "Kdo'n Nachana      ",
-        videoID:"",
-        album:"Bhadauria",
-        artist: "Hustinder    ",
-        lyrics: "Kdo'n Nachana",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "https://www.dropbox.com/scl/fi/003yd7psykf30c0h9l4kk/kdon-nachana.mp3?rlkey=qd3q2l0cnu4gd1j2avaooc7px&st=1gqiocql&dl=1",
-        searchString: "kdo nachna"
-    },//20
-    {
-        title: "Move Your Car ",
-        videoID:"",
-        album:"Bhadauria",
-        artist: "Hustinder    ",
-        lyrics: "Move Your Car ",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "https://www.dropbox.com/scl/fi/zxkon7kzc5exddskukcfd/move-your-car.mp3?rlkey=syee6216tl8an0i3y9qdzmuo5&st=aa9d0ruj&dl=1",
-        searchString: "move your car"
-    },//21
-    {
-        title: "Bhadauria      ",
-        videoID:"",
-        album:"Bhadauria",
-        artist: "Hustinder    ",
-        lyrics: "Bhadauria  ",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/bhadauria_album.png",
-        audio: "https://www.dropbox.com/scl/fi/q4ztercwnndkn59vkor8u/bhadauria.mp3?rlkey=43e1d5227aja8b1w6ta12s0zn&st=fyg1q3c4&dl=1",
-        searchString: "bhadauria"
-    },
 
         ]
     },
@@ -2483,192 +2404,192 @@ let recoPlaylist = [
         songs: [
             //Arjan Dhillon :Patandar
 
-    {
-        title: "2-2 Asle     ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon   ",
-        lyrics: "2-2 Asle",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/patandar_album.png",
-        audio: "https://www.dropbox.com/scl/fi/7b8b2dqetqxipw3npo4bm/2-2-Asle.mp3?rlkey=ird3a3lihcoj9rliopqqf49em&st=hy7zjl4j&dl=1",
-        searchString: "2 2 asle"
-    },
-    {
-        title: "Big Flex    ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon   ",
-        lyrics: "Big Flex",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/patandar_album.png",
-        audio: "https://www.dropbox.com/scl/fi/z3mxq2kh91zcb35ix6pkh/Big-Flex.mp3?rlkey=yahfru2yomsptqa6kdnfkt3ar&st=36lqz1iv&dl=1",
-        searchString: " big flex "
-    },
-    {
-        title: "Brats   ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon   ",
-        lyrics: "Brats",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/patandar_album.png",
-        audio: "https://www.dropbox.com/scl/fi/o7vaymko0e6plghc1eej6/Brats.mp3?rlkey=eanuxxviek4xbou0ou5d5mqis&st=7tm0rycp&dl=1",
-        searchString: " brats"
-    },
-    {
-        title: "Greatest   ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon   ",
-        lyrics: "Greatest ",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/patandar_album.png",
-        audio: "https://www.dropbox.com/scl/fi/iakcvqelm4889i1ywso1i/Greatest.mp3?rlkey=gzvdh76x2bp6gcysu32luel57&st=az3u0q4q&dl=1",
-        searchString: "greatest "
-    },
-    {
-        title: "Hikka   ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon   ",
-        lyrics: "Hikka ",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/patandar_album.png",
-        audio: "https://www.dropbox.com/scl/fi/7tzna9mhpu0xxjouo3io1/Hikka.mp3?rlkey=u9lnctho969zyzzxcxthyctc3&st=xkf6q557&dl=1",
-        searchString: "Hikka "
-    },
-    {
-        title: "Invoice    ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon   ",
-        lyrics: "Invoice ",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/patandar_album.png",
-        audio: "https://www.dropbox.com/scl/fi/7tzna9mhpu0xxjouo3io1/Hikka.mp3?rlkey=u9lnctho969zyzzxcxthyctc3&st=xkf6q557&dl=1",
-        searchString: " invoice"
-    },
-    {
-        title: "Kini Der Baad    ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon   ",
-        lyrics: "Kini Der Baad ",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/patandar_album.png",
-        audio: "https://www.dropbox.com/scl/fi/1b892gmw2tr6nz5ohyf5w/Kini-Der-Baad.mp3?rlkey=slcn4cysjhquf3a5d9mwexu9m&st=dfjb47rj&dl=1",
-        searchString: "kini der baad "
+            {
+                title: "2-2 Asle     ",
+                videoID: "",
+                album: "",
+                artist: "Arjan Dhillon   ",
+                lyrics: "2-2 Asle",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/7b8b2dqetqxipw3npo4bm/2-2-Asle.mp3?rlkey=ird3a3lihcoj9rliopqqf49em&st=hy7zjl4j&dl=1",
+                searchString: "2 2 asle"
+            },
+            {
+                title: "Big Flex    ",
+                videoID: "",
+                album: "",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Big Flex",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/z3mxq2kh91zcb35ix6pkh/Big-Flex.mp3?rlkey=yahfru2yomsptqa6kdnfkt3ar&st=36lqz1iv&dl=1",
+                searchString: " big flex "
+            },
+            {
+                title: "Brats   ",
+                videoID: "",
+                album: "",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Brats",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/o7vaymko0e6plghc1eej6/Brats.mp3?rlkey=eanuxxviek4xbou0ou5d5mqis&st=7tm0rycp&dl=1",
+                searchString: " brats"
+            },
+            {
+                title: "Greatest   ",
+                videoID: "",
+                album: "",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Greatest ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/iakcvqelm4889i1ywso1i/Greatest.mp3?rlkey=gzvdh76x2bp6gcysu32luel57&st=az3u0q4q&dl=1",
+                searchString: "greatest "
+            },
+            {
+                title: "Hikka   ",
+                videoID: "",
+                album: "",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Hikka ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/7tzna9mhpu0xxjouo3io1/Hikka.mp3?rlkey=u9lnctho969zyzzxcxthyctc3&st=xkf6q557&dl=1",
+                searchString: "Hikka "
+            },
+            {
+                title: "Invoice    ",
+                videoID: "",
+                album: "",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Invoice ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/7tzna9mhpu0xxjouo3io1/Hikka.mp3?rlkey=u9lnctho969zyzzxcxthyctc3&st=xkf6q557&dl=1",
+                searchString: " invoice"
+            },
+            {
+                title: "Kini Der Baad    ",
+                videoID: "",
+                album: "",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Kini Der Baad ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/1b892gmw2tr6nz5ohyf5w/Kini-Der-Baad.mp3?rlkey=slcn4cysjhquf3a5d9mwexu9m&st=dfjb47rj&dl=1",
+                searchString: "kini der baad "
 
-    },
-    {
-        title: "Nain    ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon   ",
-        lyrics: "Nain ",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/patandar_album.png",
-        audio: "https://www.dropbox.com/scl/fi/9bvr9bx7f0rf8ag1b4idc/Nain.mp3?rlkey=uizcyzr46xjz3hzfv3g3htt22&st=3di9r7ll&dl=1",
-        searchString: " nain"
+            },
+            {
+                title: "Nain    ",
+                videoID: "",
+                album: "",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Nain ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/9bvr9bx7f0rf8ag1b4idc/Nain.mp3?rlkey=uizcyzr46xjz3hzfv3g3htt22&st=3di9r7ll&dl=1",
+                searchString: " nain"
 
-    },
-    {
-        title: "Never Ever    ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon   ",
-        lyrics: "Never Ever ",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/patandar_album.png",
-        audio: "https://www.dropbox.com/scl/fi/kiy80pujdr3cbdcsga3kl/Never-Ever.mp3?rlkey=11ihgd46r6ed3iiqd7z72kafx&st=rxrqoql4&dl=1",
-        searchString: "Never Ever "
+            },
+            {
+                title: "Never Ever    ",
+                videoID: "",
+                album: "",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Never Ever ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/kiy80pujdr3cbdcsga3kl/Never-Ever.mp3?rlkey=11ihgd46r6ed3iiqd7z72kafx&st=rxrqoql4&dl=1",
+                searchString: "Never Ever "
 
-    },
-    {
-        title: "Paparazzi    ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon   ",
-        lyrics: "Paparazzi ",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/patandar_album.png",
-        audio: "https://www.dropbox.com/scl/fi/c1ulf9tuya9cr60f0dy0x/Paparazzi.mp3?rlkey=y7r0x7kix6atwa2lkii3tc7e4&st=borgsc04&dl=1",
-        searchString: "Paparazzi "
+            },
+            {
+                title: "Paparazzi    ",
+                videoID: "",
+                album: "",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Paparazzi ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/c1ulf9tuya9cr60f0dy0x/Paparazzi.mp3?rlkey=y7r0x7kix6atwa2lkii3tc7e4&st=borgsc04&dl=1",
+                searchString: "Paparazzi "
 
-    },
-    {
-        title: "Sher-E-Panjab    ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon   ",
-        lyrics: "Sher E Panjab ",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/patandar_album.png",
-        audio: "https://www.dropbox.com/scl/fi/zqjjwvqt9n1rerxu50z6s/Sher-E-Panjab.mp3?rlkey=8b8brnaeyw6amtkzanwne7sf5&st=2k01vutp&dl=1",
-        searchString: "Sher E Panjab "
+            },
+            {
+                title: "Sher-E-Panjab    ",
+                videoID: "",
+                album: "",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Sher E Panjab ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/zqjjwvqt9n1rerxu50z6s/Sher-E-Panjab.mp3?rlkey=8b8brnaeyw6amtkzanwne7sf5&st=2k01vutp&dl=1",
+                searchString: "Sher E Panjab "
 
-    },
-    {
-        title: "Style    ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon   ",
-        lyrics: "Style ",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/patandar_album.png",
-        audio: "https://www.dropbox.com/scl/fi/cijt0tvs005n9bxfjllao/Style.mp3?rlkey=mm3ohvebsg0s0c5lxvs3oh3dp&st=ydps5h3o&dl=0",
-        searchString: "Style "
+            },
+            {
+                title: "Style    ",
+                videoID: "",
+                album: "",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Style ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/cijt0tvs005n9bxfjllao/Style.mp3?rlkey=mm3ohvebsg0s0c5lxvs3oh3dp&st=ydps5h3o&dl=0",
+                searchString: "Style "
 
-    },
-    {
-        title: "Too Late    ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon   ",
-        lyrics: "Too Late ",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/patandar_album.png",
-        audio: "https://www.dropbox.com/scl/fi/yjg6ji5jdaqj53zvi8w5i/Too-Late.mp3?rlkey=7dxbh6dzcsyuhbhygzlz71r1p&st=21q8nyys&dl=1",
-        searchString: "Too Late "
+            },
+            {
+                title: "Too Late    ",
+                videoID: "",
+                album: "",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Too Late ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/yjg6ji5jdaqj53zvi8w5i/Too-Late.mp3?rlkey=7dxbh6dzcsyuhbhygzlz71r1p&st=21q8nyys&dl=1",
+                searchString: "Too Late "
 
-    },
-    {
-        title: "Tu Jdo Auna    ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon   ",
-        lyrics: "Tu Jdo Auna ",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/patandar_album.png",
-        audio: "https://www.dropbox.com/scl/fi/3ehgnwscdlk13oun8jlsn/Tu-Jdo-Auna.mp3?rlkey=0pbiibuezw11stbtvoh6df020&st=wsoohmin&dl=1",
-        searchString: "Tu Jdo Auna "
+            },
+            {
+                title: "Tu Jdo Auna    ",
+                videoID: "",
+                album: "",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Tu Jdo Auna ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/3ehgnwscdlk13oun8jlsn/Tu-Jdo-Auna.mp3?rlkey=0pbiibuezw11stbtvoh6df020&st=wsoohmin&dl=1",
+                searchString: "Tu Jdo Auna "
 
-    },
-    {
-        title: "Youngsters    ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon   ",
-        lyrics: "Youngsters ",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/patandar_album.png",
-        audio: "https://www.dropbox.com/scl/fi/pck2g9f6vnic6bwciayl0/Youngsters.mp3?rlkey=n99c0ehfc6mbu22dinra0vt55&st=wji2z8el&dl=1",
-        searchString: "Youngsters "
+            },
+            {
+                title: "Youngsters    ",
+                videoID: "",
+                album: "",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Youngsters ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/pck2g9f6vnic6bwciayl0/Youngsters.mp3?rlkey=n99c0ehfc6mbu22dinra0vt55&st=wji2z8el&dl=1",
+                searchString: "Youngsters "
 
-    },
-    {
-        title: "Zigana    ",
-        videoID:"",
-        album:"",
-        artist: "Arjan Dhillon   ",
-        lyrics: "Zigana ",
-        artistPhoto: "covers/Arjan Dhillon.png",
-        cover: "covers/albums/arjan/patandar_album.png",
-        audio: "https://www.dropbox.com/scl/fi/79jpek4y0z2ckoxbz98wb/Zigana.mp3?rlkey=lk66okrb6iwygc08rbxu4trrw&st=yaxrbhpj&dl=1",
-        searchString: "Zigana "
+            },
+            {
+                title: "Zigana    ",
+                videoID: "",
+                album: "",
+                artist: "Arjan Dhillon   ",
+                lyrics: "Zigana ",
+                artistPhoto: "covers/Arjan Dhillon.png",
+                cover: "covers/albums/arjan/patandar_album.png",
+                audio: "https://www.dropbox.com/scl/fi/79jpek4y0z2ckoxbz98wb/Zigana.mp3?rlkey=lk66okrb6iwygc08rbxu4trrw&st=yaxrbhpj&dl=1",
+                searchString: "Zigana "
 
-    },
+            },
         ]
     },
     {
@@ -2743,7 +2664,7 @@ let recoPlaylist = [
 
             {
                 title: "Shok Albadi       ",
-                album:"",
+                album: "",
                 artist: "Masoom Sharma    ",
                 lyrics: "Shok Albadi",
                 artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -2751,10 +2672,10 @@ let recoPlaylist = [
                 audio: "https://www.dropbox.com/scl/fi/mvx368cvhq7ptr584ecg1/Shok_Albadi-0.m4a?rlkey=85lgyq26m7so4t6br0frt5766&st=gymyo7lu&dl=1",
                 searchString: "Shok Albadi"
             },
-        
+
             {
                 title: "Mahashya Ji      ",
-                album:"",
+                album: "",
                 artist: "Masoom Sharma    ",
                 lyrics: "Mahashya Ji",
                 artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -2764,7 +2685,7 @@ let recoPlaylist = [
             },
             {
                 title: "Khuni Ranjis      ",
-                album:"",
+                album: "",
                 artist: "Masoom Sharma    ",
                 lyrics: "Khuni Ranjis",
                 artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -2774,7 +2695,7 @@ let recoPlaylist = [
             },
             {
                 title: "UP Aale kaam      ",
-                album:"",
+                album: "",
                 artist: "Masoom Sharma    ",
                 lyrics: "Up Aale Kaam",
                 artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -2782,12 +2703,12 @@ let recoPlaylist = [
                 audio: "https://www.dropbox.com/scl/fi/rkpfcyfrbqswjgc81qx0p/UP-Ale-Kaam-KoshalWorld.Com.mp3?rlkey=mzb4ijplbodnflexs9lc4xn8b&st=o47spmmo&dl=1",
                 searchString: "up aale kaam up aale kam up ale kam"
             },
-            
-        
-        
+
+
+
             {
                 title: "2 Numbari       ",
-                album:"",
+                album: "",
                 artist: "Masoom Sharma    ",
                 lyrics: "2 Numbari",
                 artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -2798,7 +2719,7 @@ let recoPlaylist = [
             ,//song3\
             {
                 title: "Jaan Jatni       ",
-                album:"",
+                album: "",
                 artist: "Masoom Sharma    ",
                 lyrics: "Jaan Jatni",
                 artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -2809,7 +2730,7 @@ let recoPlaylist = [
             ,//song3\
             {
                 title: "English Medium       ",
-                album:"",
+                album: "",
                 artist: "Masoom Sharma    ",
                 lyrics: "English Medium",
                 artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -2820,7 +2741,7 @@ let recoPlaylist = [
             ,//song3\
             {
                 title: "2 Dada       ",
-                album:"",
+                album: "",
                 artist: "Masoom Sharma    ",
                 lyrics: "2 Dada",
                 artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -2831,7 +2752,7 @@ let recoPlaylist = [
             ,//song3\
             {
                 title: "Chambal K Daku       ",
-                album:"",
+                album: "",
                 artist: "Masoom Sharma    ",
                 lyrics: "Chambal K Daku",
                 artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -2842,7 +2763,7 @@ let recoPlaylist = [
             ,//song3\
             {
                 title: "Baba Ji Ki Booti       ",
-                album:"",
+                album: "",
                 artist: "Masoom Sharma    ",
                 lyrics: "Baba Ji Ki Booti",
                 artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -2853,7 +2774,7 @@ let recoPlaylist = [
             ,//song3\
             {
                 title: "4-5 Pistol       ",
-                album:"",
+                album: "",
                 artist: "Masoom Sharma    ",
                 lyrics: "4-5 Pistol",
                 artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -2864,7 +2785,7 @@ let recoPlaylist = [
             ,//song3\
             {
                 title: "Tempo       ",
-                album:"",
+                album: "",
                 artist: "Masoom Sharma    ",
                 lyrics: "2 Numbari",
                 artistPhoto: "covers/artists/Masoom Sharma.png",
@@ -2872,16 +2793,16 @@ let recoPlaylist = [
                 audio: "https://tinyurl.com/tempo-masoom",
                 searchString: "Tempo"
             }
-                ,//song3\
-                {
-                    title: "Bewafa Mehndi       ", 
-                    artist: "Narender Bhagana   ",
-                    lyrics:"Bewafa Mehndi",        
-                    artistPhoto: "covers/Narender Bhagana.png", 
-                    cover: "covers/bewafa mehndi.png", 
-                    audio: "https://www.dropbox.com/scl/fi/enyo002xvkjkdqd0t3qhv/Bewafa-Mehndi-KoshalWorld.Com.mp3?rlkey=z24xh4zadnoywf9itxm2rc2c5&st=0q65sixk&dl=1", 
-                    searchString: "Bewafa Mehndi"
-                }
+            ,//song3\
+            {
+                title: "Bewafa Mehndi       ",
+                artist: "Narender Bhagana   ",
+                lyrics: "Bewafa Mehndi",
+                artistPhoto: "covers/Narender Bhagana.png",
+                cover: "covers/bewafa mehndi.png",
+                audio: "https://www.dropbox.com/scl/fi/enyo002xvkjkdqd0t3qhv/Bewafa-Mehndi-KoshalWorld.Com.mp3?rlkey=z24xh4zadnoywf9itxm2rc2c5&st=0q65sixk&dl=1",
+                searchString: "Bewafa Mehndi"
+            }
 
 
         ]
