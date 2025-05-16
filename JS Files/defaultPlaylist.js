@@ -13,18 +13,6 @@ const playlist = [
     // }
     // ,
     {
-        title: "Still Living      ",
-        videoID: "",
-        album: "Seasons",
-        artist: "Hustinder    ",
-        lyrics: "Still Living",
-        artistPhoto: "covers/Hustinder.png",
-        cover: "covers/albums/hustinder/seasons_album.png",
-        audio: "https://www.dropbox.com/scl/fi/azfcd7fpe2ejlft8x8o6q/Still-Living-Hustinder-DJJOhAL.Com.mp3?rlkey=nq0g7wpqycxoz9v6zb2yc9t6j&st=9emm9ljx&dl=1",
-        searchString: "Still Living seasons"
-    }
-    ,
-    {
         title: "Hopes      ",
         videoID: "",
         album: "Seasons",
@@ -36,6 +24,19 @@ const playlist = [
         searchString: "Hopes seasons"
     }
     ,
+    {
+        title: "Still Living      ",
+        videoID: "",
+        album: "Seasons",
+        artist: "Hustinder    ",
+        lyrics: "Still Living",
+        artistPhoto: "covers/Hustinder.png",
+        cover: "covers/albums/hustinder/seasons_album.png",
+        audio: "https://www.dropbox.com/scl/fi/azfcd7fpe2ejlft8x8o6q/Still-Living-Hustinder-DJJOhAL.Com.mp3?rlkey=nq0g7wpqycxoz9v6zb2yc9t6j&st=9emm9ljx&dl=1",
+        searchString: "Still Living seasons"
+    }
+    ,
+
     {
         title: "Incidents      ",
         videoID: "",

@@ -2060,6 +2060,52 @@ let playlistsMain = [
         artist: "Varius Artists",
         cover: "covers/sleep playlist.png",
         songs: [
+            //Hustinder:Nostalgia
+            {
+                title: "Chit Ni Lagda ",
+                videoID: "",
+                album: "Nostalgia",
+                artist: "Hustinder    ",
+                lyrics: "Chit Ni Lagda",
+                artistPhoto: "covers/Hustinder.png",
+                cover: "covers/albums/hustinder/nostalgia_album.jpg",
+                audio: "https://www.dropbox.com/scl/fi/ffoq0yqv0btdq5lyplvr1/Chit-Ni-Lagda.mp3?rlkey=ggg96f4h4gg0u3dzknpupkes1&st=wobpjsjp&dl=1 ",
+                searchString:"Chit Ni Lagda nostalgia"
+            },
+            {
+                title: "Morniyan ",
+                videoID: "",
+                album: "Nostalgia",
+                artist: "Hustinder    ",
+                lyrics: "Morniyan",
+                artistPhoto: "covers/Hustinder.png",
+                cover: "covers/albums/hustinder/nostalgia_album.jpg",
+                audio: " https://www.dropbox.com/scl/fi/udmjamuxxje9c3qeqwvx7/Morniya-n.mp3?rlkey=7jp71nbec0mz6h80frtawodnz&st=tr6u7jum&dl=1",
+                searchString:"Morniyan nostalgia"
+            },
+            {
+                title: "Pattiyan ",
+                videoID: "",
+                album: "Nostalgia",
+                artist: "Hustinder    ",
+                lyrics: "Pattiyan",
+                artistPhoto: "covers/Hustinder.png",
+                cover: "covers/albums/hustinder/nostalgia_album.jpg",
+                audio: " https://www.dropbox.com/scl/fi/w038v12dsit1m1mh3bh39/Pattiyan.mp3?rlkey=q0s692c12w7dmxdg8s82o6uml&st=tff9i7vo&dl=1",
+                searchString:"Pattiyan nostalgia"
+            },
+            {
+                title: "Yar Jigri ",
+                videoID: "",
+                album: "Nostalgia",
+                artist: "Hustinder    ",
+                lyrics: "Yar Jigri",
+                artistPhoto: "covers/Hustinder.png",
+                cover: "covers/albums/hustinder/nostalgia_album.jpg",
+                audio: " https://www.dropbox.com/scl/fi/gdjcttin0iazaognpc01v/Yaar-Jigri.mp3?rlkey=4yedfng6pgqjgrqykrzhhbva2&st=t323030n&dl=1",
+                searchString:"Yar Jigri nostalgia"
+            },
+        
 
         ]
     },
