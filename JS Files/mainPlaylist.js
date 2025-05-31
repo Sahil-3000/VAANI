@@ -2056,55 +2056,190 @@ let playlistsMain = [
     },
     {
         id: 6,
-        title: "Sleep",
-        artist: "Varius Artists",
-        cover: "covers/sleep playlist.png",
+        title: "Bob Dylan",
+        artist: "Bob Dylan",
+        cover: "covers/artists/Bob Dylan.png",
         songs: [
-            //Hustinder:Nostalgia
+            //Bob Dylan: Miscellaneous
             {
-                title: "Chit Ni Lagda ",
-                videoID: "",
-                album: "Nostalgia",
-                artist: "Hustinder    ",
-                lyrics: "Chit Ni Lagda",
-                artistPhoto: "covers/Hustinder.png",
-                cover: "covers/albums/hustinder/nostalgia_album.jpg",
-                audio: "https://www.dropbox.com/scl/fi/ffoq0yqv0btdq5lyplvr1/Chit-Ni-Lagda.mp3?rlkey=ggg96f4h4gg0u3dzknpupkes1&st=wobpjsjp&dl=1 ",
-                searchString:"Chit Ni Lagda nostalgia"
-            },
-            {
-                title: "Morniyan ",
-                videoID: "",
-                album: "Nostalgia",
-                artist: "Hustinder    ",
-                lyrics: "Morniyan",
-                artistPhoto: "covers/Hustinder.png",
-                cover: "covers/albums/hustinder/nostalgia_album.jpg",
-                audio: " https://www.dropbox.com/scl/fi/udmjamuxxje9c3qeqwvx7/Morniya-n.mp3?rlkey=7jp71nbec0mz6h80frtawodnz&st=tr6u7jum&dl=1",
-                searchString:"Morniyan nostalgia"
-            },
-            {
-                title: "Pattiyan ",
-                videoID: "",
-                album: "Nostalgia",
-                artist: "Hustinder    ",
-                lyrics: "Pattiyan",
-                artistPhoto: "covers/Hustinder.png",
-                cover: "covers/albums/hustinder/nostalgia_album.jpg",
-                audio: " https://www.dropbox.com/scl/fi/w038v12dsit1m1mh3bh39/Pattiyan.mp3?rlkey=q0s692c12w7dmxdg8s82o6uml&st=tff9i7vo&dl=1",
-                searchString:"Pattiyan nostalgia"
-            },
-            {
-                title: "Yar Jigri ",
-                videoID: "",
-                album: "Nostalgia",
-                artist: "Hustinder    ",
-                lyrics: "Yar Jigri",
-                artistPhoto: "covers/Hustinder.png",
-                cover: "covers/albums/hustinder/nostalgia_album.jpg",
-                audio: " https://www.dropbox.com/scl/fi/gdjcttin0iazaognpc01v/Yaar-Jigri.mp3?rlkey=4yedfng6pgqjgrqykrzhhbva2&st=t323030n&dl=1",
-                searchString:"Yar Jigri nostalgia"
-            },
+        title: "Blowing In The Wind    ",
+        videoID: "",
+        album: "",
+        artist: "Bob Dylan    ",
+        lyrics: "Blowing In The Wind",
+        artistPhoto: "covers/artists/Bob Dylan.png",
+        cover: "covers/singles/bob dylan/desire_bob dylan.png",
+        audio: "https://www.dropbox.com/scl/fi/3d9l7a2azg0mmyvaalfwk/01-Blowin-In-The-Wind.mp3?rlkey=o5x4qhqdf2n7ao0oplj1ep46h&st=ep6u90ui&dl=1",
+        searchString: "Blowing In The Wind"
+    }
+    , 
+    {
+        title: "The Times They Are Changing    ",
+        videoID: "",
+        album: "",
+        artist: "Bob Dylan    ",
+        lyrics: "The Times They Are Changing",
+        artistPhoto: "covers/artists/Bob Dylan.png",
+        cover: "covers/singles/bob dylan/desire_bob dylan.png",
+        audio: "https://www.dropbox.com/scl/fi/f4ca82tcdrhi7bb9uuykk/01-The-Times-They-Are-A-Changin.mp3?rlkey=j5qmk6m1zw6vrdtwtlbk7818r&st=t4fq2ph1&dl=1",
+        searchString: "The Times They Are Changing"
+    }
+    , 
+    {
+        title: "Tough Mama    ",
+        videoID: "",
+        album: "",
+        artist: "Bob Dylan    ",
+        lyrics: "Tough Mama",
+        artistPhoto: "covers/artists/Bob Dylan.png",
+        cover: "covers/singles/bob dylan/desire_bob dylan.png",
+        audio: "https://www.dropbox.com/scl/fi/isj7htrd09g3ety13m5sr/03-Tough-Mama.mp3?rlkey=9uofcj27jhp21pqpk3bhi98m4&st=dxjb8rw3&dl=1",
+        searchString: "Tough Mama"
+    }
+    , 
+    {
+        title: "Hurricane    ",
+        videoID: "",
+        album: "",
+        artist: "Bob Dylan    ",
+        lyrics: "Hurricane    ",
+        artistPhoto: "covers/artists/Bob Dylan.png",
+        cover: "covers/singles/bob dylan/desire_bob dylan.png",
+        audio: "https://www.dropbox.com/scl/fi/nj5eehp149num5n3u7r0m/01-Hurricane.mp3?rlkey=d35sqijxnyilw1xh1vxedrbhc&st=gxfhd61l&dl=1",
+        searchString: "Hurricane    "
+    }
+    , 
+    {
+        title: "Masters Of War    ",
+        videoID: "",
+        album: "",
+        artist: " Bob Dylan   ",
+        lyrics: "Masters Of War",
+        artistPhoto: "covers/artists/Bob Dylan.png",
+        cover: "covers/singles/bob dylan/desire_bob dylan.png",
+        audio: "https://www.dropbox.com/scl/fi/q3eu66e1ws7xlivhsa6c2/03-Masters-Of-War.mp3?rlkey=tp965dkqlnhjx50mh8a5t21hb&st=3cud52r2&dl=1",
+        searchString: "Masters Of War"
+    }
+    , 
+    {
+        title: "One More Cup Of Coffee    ",
+        videoID: "",
+        album: "",
+        artist: "Bob Dylan    ",
+        lyrics: "One More Cup Of Coffee",
+        artistPhoto: "covers/artists/Bob Dylan.png",
+        cover: "covers/singles/bob dylan/desire_bob dylan.png",
+        audio: "https://www.dropbox.com/scl/fi/pdg4vklwz83v0j1ndmnjr/04-One-More-Cup-Of-Coffee.mp3?rlkey=89wgir1zikx6xxqd5ark8hd8d&st=iefhiyh8&dl=1",
+        searchString: "One More Cup Of Coffee"
+    }
+    , 
+    {
+        title: "Oh Sister    ",
+        videoID: "",
+        album: "",
+        artist: " Bob Dylan   ",
+        lyrics: "Oh Sister",
+        artistPhoto: "covers/artists/Bob Dylan.png",
+        cover: "covers/singles/bob dylan/desire_bob dylan.png",
+        audio: "https://www.dropbox.com/scl/fi/nf24qe66p4j7h4l8et39d/05-Oh-Sister.mp3?rlkey=ro4o7yieuyexzt9ti46swsya2&st=ekz798q5&dl=1",
+        searchString: "Oh Sister"
+    }
+    , 
+    {
+        title: "Lay Lady Lay    ",
+        videoID: "",
+        album: "",
+        artist: "Bob Dylan    ",
+        lyrics: "Lay Lady Lay",
+        artistPhoto: "covers/artists/Bob Dylan.png",
+        cover: "covers/singles/bob dylan/desire_bob dylan.png",
+        audio: "https://www.dropbox.com/scl/fi/mijq4l0ajjskkjx5ffal8/06-Lay-Lady-Lay.mp3?rlkey=q2mbjk6njczr5kw9yov0566kg&st=p6864pat&dl=1",
+        searchString: "Lay Lady Lay"
+    }
+    , 
+    {
+        title: "Knockin On Heaven's Door    ",
+        videoID: "",
+        album: "",
+        artist: "Bob Dylan    ",
+        lyrics: "Knockin On Heaven's Door",
+        artistPhoto: "covers/artists/Bob Dylan.png",
+        cover: "covers/singles/bob dylan/desire_bob dylan.png",
+        audio: "https://www.dropbox.com/scl/fi/daldvwdaw0njj5mt5pn9r/07-Knockin-On-Heaven-s-Door.mp3?rlkey=pevedf677v8airgbla5y26oox&st=mz0v1y41&dl=1",
+        searchString: "Knockin On Heaven's Door"
+    }
+    , 
+    {
+        title: "Just Like A Woman    ",
+        videoID: "",
+        album: "",
+        artist: "Bob Dylan    ",
+        lyrics: "Just Like A Woman",
+        artistPhoto: "covers/artists/Bob Dylan.png",
+        cover: "covers/singles/bob dylan/desire_bob dylan.png",
+        audio: "https://www.dropbox.com/scl/fi/xfuuqykg16427gw6xydod/08-Just-Like-A-Woman.mp3?rlkey=8fuhv5vl7dglp4v4boeb1m4o9&st=0gckmwze&dl=1",
+        searchString: "Just Like A Woman"
+    }
+    , 
+    {
+        title: "Shelter From The Storm    ",
+        videoID: "",
+        album: "",
+        artist: "Bob Dylan    ",
+        lyrics: "Shelter From The Storm",
+        artistPhoto: "covers/artists/Bob Dylan.png",
+        cover: "covers/singles/bob dylan/desire_bob dylan.png",
+        audio: "https://www.dropbox.com/scl/fi/tw0ntnukgdh92g5krdkt5/09-Shelter-From-The-Storm.mp3?rlkey=ixcocsi0cbruwzz76wddwe0go&st=qcllc80q&dl=1",
+        searchString: "Shelter From The Storm"
+    }
+    , 
+    {
+        title: "The Lonesome Of Hattie Carroll",
+        videoID: "",
+        album: "",
+        artist: "Bob Dylan    ",
+        lyrics: "The Lonesome Of Hattie Carroll",
+        artistPhoto: "covers/artists/Bob Dylan.png",
+        cover: "covers/singles/bob dylan/desire_bob dylan.png",
+        audio: "https://www.dropbox.com/scl/fi/lw19t6ziios9iy6dokewu/09-The-Lonesome-Death-Of-Hattie-Carroll.mp3?rlkey=vwndp36xwjl7ai05vbayoasfr&st=3ukec6en&dl=1",
+        searchString: "The Lonesome Of Hattie Carroll"
+    }
+    , 
+    {
+        title: "Never Say Goodbye    ",
+        videoID: "",
+        album: "",
+        artist: " Bob Dylan   ",
+        lyrics: "Never Say Goodbye",
+        artistPhoto: "covers/artists/Bob Dylan.png",
+        cover: "covers/singles/bob dylan/desire_bob dylan.png",
+        audio: "https://www.dropbox.com/scl/fi/8g8akd4vigalarv6sxbgb/10-Never-Say-Goodbye.mp3?rlkey=jrqxpqdvw0e3hg2op9xbshjbq&st=f4g2jnb4&dl=1",
+        searchString: "Never Say Goodbye"
+    }
+    , 
+    {
+        title: "Talking World War III Blues",
+        videoID: "",
+        album: "",
+        artist: "  Bob Dylan  ",
+        lyrics: "Talking World War III Blues",
+        artistPhoto: "covers/artists/Bob Dylan.png",
+        cover: "covers/singles/bob dylan/desire_bob dylan.png",
+        audio: "https://www.dropbox.com/scl/fi/ptjc5vvbop6leq9kkimmw/10-Talking-World-War-Iii-Blues.mp3?rlkey=e2d54jbexofzqzvflzqyztjzg&st=bkhlx8yv&dl=1",
+        searchString: "Talking World War III Blues"
+    }
+    , 
+    {
+        title: "Like A Rolling Stone   ",
+        videoID: "",
+        album: "",
+        artist: "Bob Dylan    ",
+        lyrics: "Like A Rolling Stone",
+        artistPhoto: "covers/artists/Bob Dylan.png",
+        cover: "covers/singles/bob dylan/desire_bob dylan.png",
+        audio: "https://www.dropbox.com/scl/fi/bzmfe5qo9u1si6pshithi/12-Like-A-Rolling-Stone-Live-At-The-Isle-Of-Wight.mp3?rlkey=2p9xn7v5228o1inogpgyqhxkk&st=v0k5ngc7&dl=1",
+        searchString: "Like A Rolling Stone"
+    }
         
 
         ]
